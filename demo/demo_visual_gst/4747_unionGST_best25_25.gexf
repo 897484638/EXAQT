@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="12th Tony Awards::Entity::Q4548936" label="12th Tony Awards">
+        <attvalues>
+          <attvalue for="label" value="12th Tony Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Arthur Penn::Entity::Q41136" label="Arthur Penn">
+        <attvalues>
+          <attvalue for="label" value="Arthur Penn" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Herbert Greene::Entity::Q16011243" label="Herbert Greene">
+        <attvalues>
+          <attvalue for="label" value="Herbert Greene" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Tony Award for Best Conductor and Musical Director::Entity::Q2442442" label="Tony Award for Best Conductor and Musical Director">
+        <attvalues>
+          <attvalue for="label" value="Tony Award for Best Conductor and Musical Director" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Tony Award for Best Director::Entity::Q16985679" label="Tony Award for Best Director">
+        <attvalues>
+          <attvalue for="label" value="Tony Award for Best Director" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41136-b85900f36ffb431633f78ee408e7fa4d::24" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41136-d8f3d4653e5a90899bce151e70fb7d88::23" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::10" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q112307-48c719123a22a6c91447d950596db9ef::17" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::10" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q193146-c9facb00ad57c02db73cfd65dc6394b7::9" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q215721-5343fea4e44be68cacd1cbb4da28ec72::4" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q230626-9b921fd9663717fbbbc6133be0289da2::18" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q233832-4cb30bb788ba4a546abc51ee7ae2e01d::15" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q242729-4a2ff6e5b23b9fe068f3bd1f920aa9c6::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q2753921-4a59dc301b988659709ba74b5523eafe::6" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q286717-3817bb031aa51f389993fa480ee17cc4::5" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q310934-57f4d5a469d29c1d228ac4aa760b8c11::11" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q3350674-a22fe4d28d01614258699e51fb05e5d6::14" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q514339-167512448e449cbe9567bda1cd4fa49f::12" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q55245-70cb1c5b972bb8314b235eb78183bc0c::16" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q55796-40e6d4373b21f58b92671f96acbf2b19::7" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q581262-20c00bc2e1bb28722d3473fd08373a60::13" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q72717-27242f6aab7900b531cfdbf6cc985c08::8" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q95444-9eacf51990187a2d6c1561450f833eae::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" target="statement is subject of::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::10" weight="0.9996629953384399" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="award received::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" target="Herbert Greene::Entity::Q16011243" weight="0.9996629953384399" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q72717-27242f6aab7900b531cfdbf6cc985c08::8" weight="0.9997102618217468" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="11" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q55796-40e6d4373b21f58b92671f96acbf2b19::7" weight="0.9997037053108215" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q193146-c9facb00ad57c02db73cfd65dc6394b7::9" weight="0.9996929168701172" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q310934-57f4d5a469d29c1d228ac4aa760b8c11::11" weight="0.9996885061264038" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q230626-9b921fd9663717fbbbc6133be0289da2::18" weight="0.9996883869171143" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q2753921-4a59dc301b988659709ba74b5523eafe::6" weight="0.999687671661377" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q286717-3817bb031aa51f389993fa480ee17cc4::5" weight="0.9996871948242188" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q242729-4a2ff6e5b23b9fe068f3bd1f920aa9c6::2" weight="0.9996857643127441" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q95444-9eacf51990187a2d6c1561450f833eae::1" weight="0.9996808767318726" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q3350674-a22fe4d28d01614258699e51fb05e5d6::14" weight="0.9996693134307861" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="award received::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" target="Tony Award for Best Conductor and Musical Director::Entity::Q2442442" weight="0.9996629953384399" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q233832-4cb30bb788ba4a546abc51ee7ae2e01d::15" weight="0.9996670484542847" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q215721-5343fea4e44be68cacd1cbb4da28ec72::4" weight="0.9996660947799683" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q514339-167512448e449cbe9567bda1cd4fa49f::12" weight="0.9996650218963623" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="23" source="nominated for::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" target="Arthur Penn::Entity::Q41136" weight="0.999693751335144" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="24" source="nominated for::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" target="statement is subject of::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" weight="0.999693751335144" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="25" source="nominated for::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" target="Tony Award for Best Director::Entity::Q16985679" weight="0.999693751335144" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="nominated for::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" target="point in time::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" weight="0.999693751335144" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="27" source="Arthur Penn::Entity::Q41136" target="nominated for::Predicate::q41136-b85900f36ffb431633f78ee408e7fa4d::24" weight="0.9997116923332214" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="28" source="Arthur Penn::Entity::Q41136" target="nominated for::Predicate::q41136-d8f3d4653e5a90899bce151e70fb7d88::23" weight="0.9996905326843262" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="award received::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" target="for work::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" weight="0.9996629953384399" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="award received::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::1" target="point in time::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::10" weight="0.9996629953384399" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="statement is subject of::Predicate::q16011243-eda36cfe6e46308cf464e79f5f8e3141::10" target="12th Tony Awards::Entity::Q4548936" weight="0.9996629953384399" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q41136-abc224d7bcacc613b2d5f29d509003f7::3" weight="0.999693751335144" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q55245-70cb1c5b972bb8314b235eb78183bc0c::16" weight="0.9997389912605286" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q112307-48c719123a22a6c91447d950596db9ef::17" weight="0.9997361302375793" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="12th Tony Awards::Entity::Q4548936" target="statement is subject of::Predicate::q581262-20c00bc2e1bb28722d3473fd08373a60::13" weight="0.9997172951698303" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

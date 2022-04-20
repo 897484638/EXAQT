@@ -1,0 +1,235 @@
+    .mt10{
+        margin-top: 10px;
+      }
+
+      /*change size of spinner*/
+      .spinner-grow{
+          height: 15px;
+          width: 15px;
+      }
+
+      /*button to show random example*/
+      /*.btn-show-example{*/
+      /*  color: #fff;*/
+      /*  background-color: #007bfsf;*/
+      /*  border-color: #007bff;*/
+      /*  !*width: 94px;*!*/
+      /*  !*padding-right: 20px;*!*/
+      /*}*/
+
+
+      /*button to clear last question_old*/
+      .btn-clear-last{
+        color: #000;
+        background-color: #f2f2f2;
+        border-color: #e6e6e6;
+      }
+
+      /*button for answering question_old*/
+      .btn-answer-question{
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+
+      /*Rounded borders for messages*/
+      .message{
+          border-radius: 15px;
+          border: 2px;
+      }
+
+      /*hide loading animation*/
+      .loading{
+          display: none;
+      }
+
+      .headline {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        /*font-family: Courier New, sans-serif;*/
+        font-size: 70px;
+        /*letter-spacing: 8px;*/
+        color: grey/* #3366cc/*#808080*/;
+        display: block;
+        margin-top: 50px;
+      }
+
+      .headline-subtitle {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        /*color: #f2f2f2;*/
+        color: grey;
+        margin-bottom: 50px;
+      }
+
+      .headline-text {
+        border-bottom: 1px rgba( 0, 47, 92, 1.00) solid;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .headline-bold {
+        font-size: 21px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+
+      .highlight {
+        background-color: #DCDCDC;
+      }
+
+      .banner {
+        background-color:  #ffe5b4;/Pastel Orange */
+      }
+
+      .demo-banner {
+        background-color:  #ffffff;/Pastel Orange */
+      }
+
+      .demo-searchbanner{
+        background-color:  #ffe5b4;/Pastel Orange */
+      }
+
+      .example {
+        font-size: 14px;
+        text-align: justify;
+        hyphens: auto;
+      }
+
+      .answer {
+        font-style: italic;
+      }
+
+      .container{
+        max-width: 1800px;
+
+      }
+
+      .container-questions{
+        max-width: 1800px;
+        max-height: 70px;
+
+      }
+
+      .tab-content > .tab-pane {
+        width: 100%;
+        margin-right: -100%;
+      }
+
+      .boxshadow{
+        padding: 20px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 20px rgb(0,0,0,0.1);
+        text-align: justify;
+        hyphens: auto;
+      }
+
+      .download-icon{
+        float: left;
+        margin-top: 4px;
+      }
+
+      .footer{
+        background-color: #cccccc;
+      }
+
+      body {
+        background-color: #f1f0f0; /*#DCDCDC;*/
+      }
+
+      /*desktop*/
+      @media all and (min-width: 980px){
+        .width-col-lg-5{
+          max-width: 38.6%;
+        }
+      }
+
+      /*mobile*/
+      @media all and (max-width: 980px){
+        .headline{
+          font-size: 12vw;
+          font-weight: bold;
+        }
+
+        .headline-subtitle{
+          font-size: 7vw;
+        }
+
+        .responsive-table{
+          overflow-x:auto;
+        }
+
+        .boxshadow{
+          margin: 0px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+
+      table{
+        table-layout: auto;
+        width:100%;
+        line-height: 25px;
+        text-align: left;
+        border-collapse: collapse;
+      }
+
+
+      figure {
+        display: block;
+        text-align: center;
+      }
+
+      figcaption {
+        font-style: italic;
+        padding: 3px;
+        text-align: center;
+      }
+
+      .queansLine{
+	    width: 100%;
+	  /*border-bottom: 1px solid #C0C0C0;*/
+      }
+
+      .queans{
+	    width: 100%;
+	    height: 35px;
+	    /*line-height: 35px;*/
+        }
+
+     .queansTitle{
+	    float:left;
+	    width: 120px;
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-align: left;
+	    margin-right:5px;
+    }
+    .queansCon{
+	    float: left;
+	    width: 100%;
+    }
+    .queansCon a{
+	/*color: rgb(90,152,222);*/
+	    font-size:16px;
+	    font-weight: bold;
+    }
+
+    .fa {
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

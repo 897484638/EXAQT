@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Carlos Alvarado Quesada::Entity::Q26996246" label="Carlos Alvarado Quesada">
+        <attvalues>
+          <attvalue for="label" value="Carlos Alvarado Quesada" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Costa Rica::Entity::Q800" label="Costa Rica">
+        <attvalues>
+          <attvalue for="label" value="Costa Rica" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="José María Figueres Olsen::Entity::Q82593" label="José María Figueres Olsen">
+        <attvalues>
+          <attvalue for="label" value="José María Figueres Olsen" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="President of Costa Rica::Entity::Q27977064" label="President of Costa Rica">
+        <attvalues>
+          <attvalue for="label" value="President of Costa Rica" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q800-5c9bb4426a4e29b9c102ebfb02048676::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q800-71375b8732e0854608152f9d21a7c016::1" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q26996246-3149730c9ba2de5cad741a5141d79c3f::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q82593-3ceab108a42388f39f1bfadc991b2407::23" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="head of government::Predicate::q800-5c9bb4426a4e29b9c102ebfb02048676::1" target="Costa Rica::Entity::Q800" weight="0.9978918433189392" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="head of government::Predicate::q800-5c9bb4426a4e29b9c102ebfb02048676::1" target="Carlos Alvarado Quesada::Entity::Q26996246" weight="0.9978918433189392" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Costa Rica::Entity::Q800" target="head of state::Predicate::q800-71375b8732e0854608152f9d21a7c016::1" weight="0.9974309802055359" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="head of state::Predicate::q800-71375b8732e0854608152f9d21a7c016::1" target="Carlos Alvarado Quesada::Entity::Q26996246" weight="0.9974309802055359" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="Carlos Alvarado Quesada::Entity::Q26996246" target="position held::Predicate::q26996246-3149730c9ba2de5cad741a5141d79c3f::1" weight="0.9982796907424927" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="position held::Predicate::q26996246-3149730c9ba2de5cad741a5141d79c3f::1" target="President of Costa Rica::Entity::Q27977064" weight="0.9982796907424927" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="President of Costa Rica::Entity::Q27977064" target="position held::Predicate::q82593-3ceab108a42388f39f1bfadc991b2407::23" weight="0.9991766810417175" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="position held::Predicate::q82593-3ceab108a42388f39f1bfadc991b2407::23" target="José María Figueres Olsen::Entity::Q82593" weight="0.9991766810417175" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

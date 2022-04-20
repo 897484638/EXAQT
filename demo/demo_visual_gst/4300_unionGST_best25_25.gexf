@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1988-01-01::Entity::1988-01-01T00:00:00Z" label="1988-01-01">
+        <attvalues>
+          <attvalue for="label" value="1988-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2002-01-01::Entity::2002-01-01T00:00:00Z" label="2002-01-01">
+        <attvalues>
+          <attvalue for="label" value="2002-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="FC Lokomotiv Moscow::Entity::Q29115" label="FC Lokomotiv Moscow">
+        <attvalues>
+          <attvalue for="label" value="FC Lokomotiv Moscow" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Spartak Moscow::Entity::Q29112" label="Spartak Moscow">
+        <attvalues>
+          <attvalue for="label" value="Spartak Moscow" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Stanislav Cherchesov::Entity::Q699557" label="Stanislav Cherchesov">
+        <attvalues>
+          <attvalue for="label" value="Stanislav Cherchesov" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q16236304-54d878a002adadb695770b621c830797::4" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q2036169-1d59e53c3fd52fb0f01b4069a2274713::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q2547336-299d268e69870b5add73844d4770d969::19" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q3080300-ddf7e951f80e793df46a0b5a39af0630::5" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q4106653-a4daece6b756ce305195b4847696674e::12" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q4500303-c744ce39685b8cf5c690166b0d8c7706::15" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q4503307-7e3a164cbf32d1f8f502cc31e897757a::16" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q699557-46f361c5ddfcdd1449d34f15a2ab1d64::25" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q699557-80a4b74129dfff1e51e8b1a06b47fbc0::21" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7036299-255bcf2db8b22d67f03b4751b90124e2::8" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7911158-ac0259ab58b3b27b60d118cc350ec18e::9" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q699557-51d01e7ee67247cd41257446d505683f::18" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::22" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q699557-51d01e7ee67247cd41257446d505683f::18" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::22" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q4503307-7e3a164cbf32d1f8f502cc31e897757a::16" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Stanislav Cherchesov::Entity::Q699557" target="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="1" source="Stanislav Cherchesov::Entity::Q699557" target="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q2547336-299d268e69870b5add73844d4770d969::19" weight="0.9971189498901367" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="11" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q3080300-ddf7e951f80e793df46a0b5a39af0630::5" weight="0.9970752000808716" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="12" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q7036299-255bcf2db8b22d67f03b4751b90124e2::8" weight="0.9969791173934937" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q16236304-54d878a002adadb695770b621c830797::4" weight="0.9969441294670105" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q4106653-a4daece6b756ce305195b4847696674e::12" weight="0.996938943862915" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q4500303-c744ce39685b8cf5c690166b0d8c7706::15" weight="0.9969239830970764" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q7911158-ac0259ab58b3b27b60d118cc350ec18e::9" weight="0.9968936443328857" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q2036169-1d59e53c3fd52fb0f01b4069a2274713::1" weight="0.9968600273132324" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="start time::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" target="1988-01-01::Entity::1988-01-01T00:00:00Z" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" target="start time::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Stanislav Cherchesov::Entity::Q699557" target="member of sports team::Predicate::q699557-80a4b74129dfff1e51e8b1a06b47fbc0::21" weight="0.9969859719276428" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="20" source="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" target="Spartak Moscow::Entity::Q29112" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" target="end time::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" target="number of matches played/races/starts::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::22" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="member of sports team::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" target="number of points/goals/set scored::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::22" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="start time::Predicate::q699557-5e7954cbda3567368a0ee2bc8441fa09::24" target="2002-01-01::Entity::2002-01-01T00:00:00Z" weight="0.9983536005020142" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="member of sports team::Predicate::q4503307-7e3a164cbf32d1f8f502cc31e897757a::16" target="start time::Predicate::q4503307-7e3a164cbf32d1f8f502cc31e897757a::16" weight="0.9977717995643616" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Stanislav Cherchesov::Entity::Q699557" target="member of sports team::Predicate::q699557-46f361c5ddfcdd1449d34f15a2ab1d64::25" weight="0.9968666434288025" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" target="FC Lokomotiv Moscow::Entity::Q29115" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" target="start time::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" target="end time::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" target="number of matches played/races/starts::Predicate::q699557-51d01e7ee67247cd41257446d505683f::18" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="member of sports team::Predicate::q699557-51d01e7ee67247cd41257446d505683f::20" target="number of points/goals/set scored::Predicate::q699557-51d01e7ee67247cd41257446d505683f::18" weight="0.997995138168335" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="FC Lokomotiv Moscow::Entity::Q29115" target="member of sports team::Predicate::q4503307-7e3a164cbf32d1f8f502cc31e897757a::16" weight="0.9977717995643616" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

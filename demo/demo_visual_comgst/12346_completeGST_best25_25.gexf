@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1965-01-01::Entity::1965-01-01T00:00:00Z" label="1965-01-01">
+        <attvalues>
+          <attvalue for="label" value="1965-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="National Gallery of Art::Entity::Q214867" label="National Gallery of Art">
+        <attvalues>
+          <attvalue for="label" value="National Gallery of Art" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Literature::Entity::Q37922" label="Nobel Prize in Literature">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Literature" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Order of the Companions of Honour::Entity::Q1137694" label="Order of the Companions of Honour">
+        <attvalues>
+          <attvalue for="label" value="Order of the Companions of Honour" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Somerset Maugham Award::Entity::Q251110" label="Somerset Maugham Award">
+        <attvalues>
+          <attvalue for="label" value="Somerset Maugham Award" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="William Somerset Maugham::Entity::Q134942" label="William Somerset Maugham">
+        <attvalues>
+          <attvalue for="label" value="William Somerset Maugham" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q134942-5e5d13255068bc3a3d6809fe1bae462e::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="has works in the collection::Predicate::q134942-425259c6c0ad89112aff47d7d83fc375::1" label="has works in the collection">
+        <attvalues>
+          <attvalue for="label" value="has works in the collection" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q251110-2295fdaf4561c72c7e6b2fad1795948c::1" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="nominated for::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" target="William Somerset Maugham::Entity::Q134942" weight="0.9995056390762329" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="nominated for::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" target="Nobel Prize in Literature::Entity::Q37922" weight="0.9995056390762329" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="nominated for::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" target="point in time::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" weight="0.9995056390762329" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="William Somerset Maugham::Entity::Q134942" target="award received::Predicate::q134942-5e5d13255068bc3a3d6809fe1bae462e::1" weight="0.9693240523338318" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="William Somerset Maugham::Entity::Q134942" target="named after::Predicate::q251110-2295fdaf4561c72c7e6b2fad1795948c::1" weight="0.10137581080198288" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="William Somerset Maugham::Entity::Q134942" target="has works in the collection::Predicate::q134942-425259c6c0ad89112aff47d7d83fc375::1" weight="0.0022659548558294773" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="point in time::Predicate::q134942-4599bbd5347d48b3fa17048a1011368c::1" target="1965-01-01::Entity::1965-01-01T00:00:00Z" weight="0.9995056390762329" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="award received::Predicate::q134942-5e5d13255068bc3a3d6809fe1bae462e::1" target="Order of the Companions of Honour::Entity::Q1137694" weight="0.9693240523338318" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="named after::Predicate::q251110-2295fdaf4561c72c7e6b2fad1795948c::1" target="Somerset Maugham Award::Entity::Q251110" weight="0.10137581080198288" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="has works in the collection::Predicate::q134942-425259c6c0ad89112aff47d7d83fc375::1" target="National Gallery of Art::Entity::Q214867" weight="0.0022659548558294773" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1972-01-01::Entity::1972-01-01T00:00:00Z" label="1972-01-01">
+        <attvalues>
+          <attvalue for="label" value="1972-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="45th Academy Awards::Entity::Q918125" label="45th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="45th Academy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actor::Entity::Q103916" label="Academy Award for Best Actor">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Golden Globe Award for Best Actor – Motion Picture Drama::Entity::Q593098" label="Golden Globe Award for Best Actor – Motion Picture Drama">
+        <attvalues>
+          <attvalue for="label" value="Golden Globe Award for Best Actor – Motion Picture Drama" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Marlon Brando::Entity::Q34012" label="Marlon Brando">
+        <attvalues>
+          <attvalue for="label" value="Marlon Brando" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="The Godfather::Entity::Q47703" label="The Godfather">
+        <attvalues>
+          <attvalue for="label" value="The Godfather" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::7" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::8" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::7" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Marlon Brando::Entity::Q34012" target="award received::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Marlon Brando::Entity::Q34012" target="award received::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" weight="0.9991330504417419" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="The Godfather::Entity::Q47703" target="for work::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::8" weight="0.9991330504417419" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="award received::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" target="Golden Globe Award for Best Actor – Motion Picture Drama::Entity::Q593098" weight="0.9991330504417419" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="award received::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" target="point in time::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" weight="0.9991330504417419" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="award received::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" target="for work::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::8" weight="0.9991330504417419" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="award received::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" target="statement is subject of::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::7" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="award received::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" target="Academy Award for Best Actor::Entity::Q103916" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="award received::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" target="for work::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::7" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="award received::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" target="point in time::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="statement is subject of::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::7" target="45th Academy Awards::Entity::Q918125" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="for work::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::7" target="The Godfather::Entity::Q47703" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="point in time::Predicate::q34012-2ce9f2ddba1bef469e1ba0e8d68d2c7e::1" target="1972-01-01::Entity::1972-01-01T00:00:00Z" weight="0.9997159838676453" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="1972-01-01::Entity::1972-01-01T00:00:00Z" target="point in time::Predicate::q34012-79eab967b2852851b9c7ef5f9a7f315d::2" weight="0.9991330504417419" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

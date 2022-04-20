@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Category:Presidents of the United States::Entity::Q7130129" label="Category:Presidents of the United States">
+        <attvalues>
+          <attvalue for="label" value="Category:Presidents of the United States" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="John F. Kennedy::Entity::Q9696" label="John F. Kennedy">
+        <attvalues>
+          <attvalue for="label" value="John F. Kennedy" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lyndon B. Johnson::Entity::Q9640" label="Lyndon B. Johnson">
+        <attvalues>
+          <attvalue for="label" value="Lyndon B. Johnson" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="President of the United States::Entity::Q11696" label="President of the United States">
+        <attvalues>
+          <attvalue for="label" value="President of the United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Zheng Bijian::Entity::Q3368176" label="Zheng Bijian">
+        <attvalues>
+          <attvalue for="label" value="Zheng Bijian" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q3368176-3e95a90d87ea6159588a0bfaf971bbe6::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::2" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="politician::Entity::Q82955" label="politician">
+        <attvalues>
+          <attvalue for="label" value="politician" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::19" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9640-5309fa298ae34c2b6a5c025af709f135::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9696-afff9c4a3aaefba54e24d1099fd7b04e::10" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Zheng Bijian::Entity::Q3368176" target="occupation::Predicate::q3368176-3e95a90d87ea6159588a0bfaf971bbe6::1" weight="0.989834725856781" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="occupation::Predicate::q3368176-3e95a90d87ea6159588a0bfaf971bbe6::1" target="politician::Entity::Q82955" weight="0.989834725856781" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="position held::Predicate::q9696-afff9c4a3aaefba54e24d1099fd7b04e::10" target="John F. Kennedy::Entity::Q9696" weight="0.997806966304779" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="11" source="position held::Predicate::q9640-5309fa298ae34c2b6a5c025af709f135::15" target="Lyndon B. Johnson::Entity::Q9640" weight="0.9977548718452454" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="politician::Entity::Q82955" target="occupation::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::2" weight="0.000511248130351305" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="occupation::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::2" target="category contains::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::1" weight="0.000511248130351305" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="category contains::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::1" target="position held::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::19" weight="0.000511248130351305" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="category contains::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::1" target="Category:Presidents of the United States::Entity::Q7130129" weight="0.000511248130351305" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="category contains::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::1" target="human::Entity::Q5" weight="0.000511248130351305" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="position held::Predicate::q7130129-16cccdaa79197678a312888c17772ad5::19" target="President of the United States::Entity::Q11696" weight="0.000511248130351305" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="President of the United States::Entity::Q11696" target="position held::Predicate::q9696-afff9c4a3aaefba54e24d1099fd7b04e::10" weight="0.997806966304779" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="President of the United States::Entity::Q11696" target="position held::Predicate::q9640-5309fa298ae34c2b6a5c025af709f135::15" weight="0.9977548718452454" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Dallas Cowboys::Entity::Q204862" label="Dallas Cowboys">
+        <attvalues>
+          <attvalue for="label" value="Dallas Cowboys"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Super Bowl XXX::Entity::Q1065229" label="Super Bowl XXX">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XXX"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Super Bowl::Entity::Q32096" label="Super Bowl">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1065229-309821d51626cba6c86de38365f3cd17::9" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1065229-3a5a402d5dd997ab0a060da767606578::7" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1065229-e8c9f2883ea32b4f0ae87bbd3f0c3492::6" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Super Bowl::Entity::Q32096" target="instance of::Predicate::q1065229-309821d51626cba6c86de38365f3cd17::9" weight="0.999452531337738" label="20"/>
+      <edge id="1" source="instance of::Predicate::q1065229-309821d51626cba6c86de38365f3cd17::9" target="Super Bowl XXX::Entity::Q1065229" weight="0.999452531337738" label="20"/>
+      <edge id="2" source="Super Bowl XXX::Entity::Q1065229" target="participating team::Predicate::q1065229-3a5a402d5dd997ab0a060da767606578::7" weight="0.9996390342712402" label="3"/>
+      <edge id="3" source="Super Bowl XXX::Entity::Q1065229" target="participating team::Predicate::q1065229-e8c9f2883ea32b4f0ae87bbd3f0c3492::6" weight="0.9995586276054382" label="10"/>
+      <edge id="4" source="participating team::Predicate::q1065229-3a5a402d5dd997ab0a060da767606578::7" target="Dallas Cowboys::Entity::Q204862" weight="0.9996390342712402" label="3"/>
+      <edge id="5" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1065229-e8c9f2883ea32b4f0ae87bbd3f0c3492::6" weight="0.9995586276054382" label="10"/>
+    </edges>
+  </graph>
+</gexf>

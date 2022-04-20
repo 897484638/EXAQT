@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+162608::Entity::+162608" label="+162608">
+        <attvalues>
+          <attvalue for="label" value="+162608"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1934-01-01::Entity::1934-01-01T00:00:00Z" label="1934-01-01">
+        <attvalues>
+          <attvalue for="label" value="1934-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Luigi Pirandello::Entity::Q1403" label="Luigi Pirandello">
+        <attvalues>
+          <attvalue for="label" value="Luigi Pirandello"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Literature::Entity::Q37922" label="Nobel Prize in Literature">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Literature"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1403-9de77334273088bf87e57533bd49f6ed::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::1" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q1403-9de77334273088bf87e57533bd49f6ed::1" target="Luigi Pirandello::Entity::Q1403" weight="0.9996908903121948" label="1"/>
+      <edge id="1" source="award received::Predicate::q1403-9de77334273088bf87e57533bd49f6ed::1" target="Nobel Prize in Literature::Entity::Q37922" weight="0.9996908903121948" label="1"/>
+      <edge id="2" source="Luigi Pirandello::Entity::Q1403" target="award received::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::2" weight="0.999618649482727" label="2"/>
+      <edge id="3" source="award received::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::2" target="point in time::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::1" weight="0.999618649482727" label="2"/>
+      <edge id="4" source="award received::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::2" target="prize money::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::1" weight="0.999618649482727" label="2"/>
+      <edge id="5" source="award received::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::2" target="Nobel Prize in Literature::Entity::Q37922" weight="0.999618649482727" label="2"/>
+      <edge id="6" source="point in time::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::1" target="1934-01-01::Entity::1934-01-01T00:00:00Z" weight="0.999618649482727" label="2"/>
+      <edge id="7" source="prize money::Predicate::q1403-1770b6f3f056f2ce0a664d5093c8588b::1" target="+162608::Entity::+162608" weight="0.999618649482727" label="2"/>
+    </edges>
+  </graph>
+</gexf>

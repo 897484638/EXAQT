@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1927-06-15::Entity::1927-06-15T00:00:00Z" label="1927-06-15">
+        <attvalues>
+          <attvalue for="label" value="1927-06-15"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1984-01-01::Entity::1984-01-01T00:00:00Z" label="1984-01-01">
+        <attvalues>
+          <attvalue for="label" value="1984-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1989-01-01::Entity::1989-01-01T00:00:00Z" label="1989-01-01">
+        <attvalues>
+          <attvalue for="label" value="1989-01-01"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1995-08-20::Entity::1995-08-20T00:00:00Z" label="1995-08-20">
+        <attvalues>
+          <attvalue for="label" value="1995-08-20"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Grandvaux::Entity::Q664153" label="Grandvaux">
+        <attvalues>
+          <attvalue for="label" value="Grandvaux"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Hugo Pratt::Entity::Q12113" label="Hugo Pratt">
+        <attvalues>
+          <attvalue for="label" value="Hugo Pratt"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q12113-19bffe55471fbcef440fed98158d3e01::T-0" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q12113-cfdeb5f6d582ddfee1b431558f6849af::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q12113-acfadc379224a42301411725859f959d::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q12113-acfadc379224a42301411725859f959d::T-0" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="grand prix de la ville d'Angoulême::Entity::Q1542772" label="grand prix de la ville d'Angoulême">
+        <attvalues>
+          <attvalue for="label" value="grand prix de la ville d'Angoulême"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q12113-acfadc379224a42301411725859f959d::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q12113-acfadc379224a42301411725859f959d::T-0" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1"/>
+      <edge id="1" source="end time::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="1995-08-20::Entity::1995-08-20T00:00:00Z"/>
+      <edge id="10" source="date of death::Predicate::q12113-cfdeb5f6d582ddfee1b431558f6849af::1" target="1995-08-20::Entity::1995-08-20T00:00:00Z"/>
+      <edge id="11" source="start time::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="1984-01-01::Entity::1984-01-01T00:00:00Z"/>
+      <edge id="12" source="1984-01-01::Entity::1984-01-01T00:00:00Z" target="start time::Predicate::q12113-acfadc379224a42301411725859f959d::T-0"/>
+      <edge id="13" source="1995-08-20::Entity::1995-08-20T00:00:00Z" target="end time::Predicate::q12113-acfadc379224a42301411725859f959d::T-0"/>
+      <edge id="14" source="date of birth::Predicate::q12113-19bffe55471fbcef440fed98158d3e01::T-0" target="1927-06-15::Entity::1927-06-15T00:00:00Z"/>
+      <edge id="15" source="award received::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0" target="grand prix de la ville d'Angoulême::Entity::Q1542772"/>
+      <edge id="16" source="award received::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0" target="point in time::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0"/>
+      <edge id="17" source="point in time::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0" target="1989-01-01::Entity::1989-01-01T00:00:00Z"/>
+      <edge id="2" source="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="Hugo Pratt::Entity::Q12113"/>
+      <edge id="3" source="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="start time::Predicate::q12113-acfadc379224a42301411725859f959d::1"/>
+      <edge id="4" source="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="Grandvaux::Entity::Q664153"/>
+      <edge id="5" source="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="start time::Predicate::q12113-acfadc379224a42301411725859f959d::T-0"/>
+      <edge id="6" source="residence::Predicate::q12113-acfadc379224a42301411725859f959d::1" target="end time::Predicate::q12113-acfadc379224a42301411725859f959d::T-0"/>
+      <edge id="7" source="Hugo Pratt::Entity::Q12113" target="date of death::Predicate::q12113-cfdeb5f6d582ddfee1b431558f6849af::1"/>
+      <edge id="8" source="Hugo Pratt::Entity::Q12113" target="date of birth::Predicate::q12113-19bffe55471fbcef440fed98158d3e01::T-0"/>
+      <edge id="9" source="Hugo Pratt::Entity::Q12113" target="award received::Predicate::q12113-b497ed09aacf346def576dfa735cdf66::T-0"/>
+    </edges>
+  </graph>
+</gexf>

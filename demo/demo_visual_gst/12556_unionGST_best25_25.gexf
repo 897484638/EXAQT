@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1974-01-01::Entity::1974-01-01T00:00:00Z" label="1974-01-01">
+        <attvalues>
+          <attvalue for="label" value="1974-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" label="Emmy Award for Outstanding Lead Actress in a Drama Series">
+        <attvalues>
+          <attvalue for="label" value="Emmy Award for Outstanding Lead Actress in a Drama Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Mary Tyler Moore::Entity::Q41342" label="Mary Tyler Moore">
+        <attvalues>
+          <attvalue for="label" value="Mary Tyler Moore" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Primetime Emmy Award for Actress of the Year::Entity::Q7243492" label="Primetime Emmy Award for Actress of the Year">
+        <attvalues>
+          <attvalue for="label" value="Primetime Emmy Award for Actress of the Year" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Upstairs, Downstairs::Entity::Q1168760" label="Upstairs, Downstairs">
+        <attvalues>
+          <attvalue for="label" value="Upstairs, Downstairs" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q41342-0702bc3798e1e566a256534eee406948::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q41342-83094b017fcfcbe9b2edcae011b32c60::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q41342-0702bc3798e1e566a256534eee406948::4" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q104000-10b66fdb4e63bef8152dd1ea2dfd0e3d::14" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q105660-e7b9b7ab09a08c1ac4ca1680305dbb55::6" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1071958-8706e8af8782bba67077475e8ce19b3b::22" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1161822-1977647a59c6ffb4aeb41785b20e8522::7" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1168760-7d130c6c9b75de6a40daf181bf44a155::19" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q117396-e2e0cdc981c97b83b27a36d89169883b::13" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q174972-ad4849b5aeeb592f3d011e073d74bf66::15" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q229487-a20bceeb73c8a87df25d29468dda07c4::20" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q23628-4690c46ac8ccd45de91e73e4ccae5782::10" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q23628-81c9a1ad501b3c1f744dc7a38a3910ce::8" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q23628-8411240542a50e84bc1c55e9aadec74c::12" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q236578-bd63bf493c04f7c372748063cfbb82cb::17" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q275964-5f6a0f8d84632133cc09f2ef6dba8867::16" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41342-0d487e22f3aa4de65e54b105061bc5e6::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41342-250afaf37a1da0752512f8d220bee5f7::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41342-f8c501e845137ef6ad124a07fc19aee0::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q485298-4a80e2d15466552f0e7a8cf6c0286ef1::21" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q41342-0702bc3798e1e566a256534eee406948::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q41342-0702bc3798e1e566a256534eee406948::2" target="Mary Tyler Moore::Entity::Q41342" weight="0.9997121691703796" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="award received::Predicate::q41342-0702bc3798e1e566a256534eee406948::2" target="point in time::Predicate::q41342-0702bc3798e1e566a256534eee406948::4" weight="0.9997121691703796" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="10" source="point in time::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" target="nominated for::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" weight="0.9996371269226074" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="nominated for::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" target="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" weight="0.9996371269226074" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="nominated for::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" target="Upstairs, Downstairs::Entity::Q1168760" weight="0.9996371269226074" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q104000-10b66fdb4e63bef8152dd1ea2dfd0e3d::14" weight="0.9997264742851257" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="14" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q229487-a20bceeb73c8a87df25d29468dda07c4::20" weight="0.9997228980064392" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="15" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q485298-4a80e2d15466552f0e7a8cf6c0286ef1::21" weight="0.9997220635414124" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="16" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q275964-5f6a0f8d84632133cc09f2ef6dba8867::16" weight="0.9997066855430603" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="17" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q105660-e7b9b7ab09a08c1ac4ca1680305dbb55::6" weight="0.9996912479400635" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="18" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q236578-bd63bf493c04f7c372748063cfbb82cb::17" weight="0.9996728897094727" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="19" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q174972-ad4849b5aeeb592f3d011e073d74bf66::15" weight="0.9996607303619385" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="award received::Predicate::q41342-0702bc3798e1e566a256534eee406948::2" target="Primetime Emmy Award for Actress of the Year::Entity::Q7243492" weight="0.9997121691703796" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="20" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q1168760-7d130c6c9b75de6a40daf181bf44a155::19" weight="0.999648928642273" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q23628-8411240542a50e84bc1c55e9aadec74c::12" weight="0.999640941619873" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q117396-e2e0cdc981c97b83b27a36d89169883b::13" weight="0.9996404647827148" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="23" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q1071958-8706e8af8782bba67077475e8ce19b3b::22" weight="0.9996371269226074" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="24" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q1161822-1977647a59c6ffb4aeb41785b20e8522::7" weight="0.9996353387832642" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="25" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q23628-81c9a1ad501b3c1f744dc7a38a3910ce::8" weight="0.9996324777603149" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="26" source="Emmy Award for Outstanding Lead Actress in a Drama Series::Entity::Q989445" target="nominated for::Predicate::q23628-4690c46ac8ccd45de91e73e4ccae5782::10" weight="0.9996296167373657" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="award received::Predicate::q41342-0702bc3798e1e566a256534eee406948::2" target="for work::Predicate::q41342-0702bc3798e1e566a256534eee406948::4" weight="0.9997121691703796" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="Mary Tyler Moore::Entity::Q41342" target="award received::Predicate::q41342-83094b017fcfcbe9b2edcae011b32c60::1" weight="0.9997155070304871" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="5" source="Mary Tyler Moore::Entity::Q41342" target="nominated for::Predicate::q41342-f8c501e845137ef6ad124a07fc19aee0::1" weight="0.9996596574783325" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="Mary Tyler Moore::Entity::Q41342" target="nominated for::Predicate::q41342-0d487e22f3aa4de65e54b105061bc5e6::2" weight="0.9996585845947266" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="Mary Tyler Moore::Entity::Q41342" target="nominated for::Predicate::q41342-250afaf37a1da0752512f8d220bee5f7::3" weight="0.9996449947357178" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="point in time::Predicate::q41342-0702bc3798e1e566a256534eee406948::4" target="1974-01-01::Entity::1974-01-01T00:00:00Z" weight="0.9997121691703796" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="1974-01-01::Entity::1974-01-01T00:00:00Z" target="point in time::Predicate::q1168760-4ce7b0a7f3ff9175c52aa21c1ab0f7fa::18" weight="0.9996371269226074" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

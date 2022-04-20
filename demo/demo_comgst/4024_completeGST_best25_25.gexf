@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Astrodome::Entity::Q1025406" label="Astrodome">
+        <attvalues>
+          <attvalue for="label" value="Astrodome"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Hubert H. Humphrey Metrodome::Entity::Q1072186" label="Hubert H. Humphrey Metrodome">
+        <attvalues>
+          <attvalue for="label" value="Hubert H. Humphrey Metrodome"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mercedes-Benz Superdome::Entity::Q756452" label="Mercedes-Benz Superdome">
+        <attvalues>
+          <attvalue for="label" value="Mercedes-Benz Superdome"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1025406-31fbe86ffb129895e8103db60d7e57eb::22" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1072186-832861d78856ca82dd44bbe375590b89::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q756452-a49a8727bf3ca7d70f0e600753917198::6" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="stadium::Entity::Q483110" label="stadium">
+        <attvalues>
+          <attvalue for="label" value="stadium"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="stadium::Entity::Q483110" target="instance of::Predicate::q756452-a49a8727bf3ca7d70f0e600753917198::6" weight="0.9954858422279358" label="1"/>
+      <edge id="1" source="stadium::Entity::Q483110" target="instance of::Predicate::q1072186-832861d78856ca82dd44bbe375590b89::2" weight="0.9937933683395386" label="2"/>
+      <edge id="2" source="stadium::Entity::Q483110" target="instance of::Predicate::q1025406-31fbe86ffb129895e8103db60d7e57eb::22" weight="0.9936825037002563" label="3"/>
+      <edge id="3" source="instance of::Predicate::q756452-a49a8727bf3ca7d70f0e600753917198::6" target="Mercedes-Benz Superdome::Entity::Q756452" weight="0.9954858422279358" label="1"/>
+      <edge id="4" source="instance of::Predicate::q1072186-832861d78856ca82dd44bbe375590b89::2" target="Hubert H. Humphrey Metrodome::Entity::Q1072186" weight="0.9937933683395386" label="2"/>
+      <edge id="5" source="instance of::Predicate::q1025406-31fbe86ffb129895e8103db60d7e57eb::22" target="Astrodome::Entity::Q1025406" weight="0.9936825037002563" label="3"/>
+    </edges>
+  </graph>
+</gexf>

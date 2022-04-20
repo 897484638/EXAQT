@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2015-01-01::Entity::2015-01-01T00:00:00Z" label="2015-01-01">
+        <attvalues>
+          <attvalue for="label" value="2015-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2015-12-31::Entity::2015-12-31T00:00:00Z" label="2015-12-31">
+        <attvalues>
+          <attvalue for="label" value="2015-12-31" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Florence::Entity::Q2044" label="Florence">
+        <attvalues>
+          <attvalue for="label" value="Florence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Metropolitan City of Florence::Entity::Q18288148" label="Metropolitan City of Florence">
+        <attvalues>
+          <attvalue for="label" value="Metropolitan City of Florence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Province of Florence::Entity::Q16172" label="Province of Florence">
+        <attvalues>
+          <attvalue for="label" value="Province of Florence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Tuscany::Entity::Q1273" label="Tuscany">
+        <attvalues>
+          <attvalue for="label" value="Tuscany" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Vinci, Tuscany::Entity::Q82884" label="Vinci, Tuscany">
+        <attvalues>
+          <attvalue for="label" value="Vinci, Tuscany" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="capital of::Predicate::q2044-4872100d5554b81be57609cbb4de5166::1" label="capital of">
+        <attvalues>
+          <attvalue for="label" value="capital of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q18288148-7fe4e5cf1acae0bfdb769acd0dfe862e::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::2" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q18288148-96e807d2d3c29a772d5e202032affcd7::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q2044-6213aa578f4724b5231eb4b4b1111518::6" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q82712-beb4c4f17065d83206882fbb68112b5b::14" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q82755-9d904dd82e0cc6a6c1c7d07e377cceb2::3" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q82817-fa88303d24844488b8fe3aedbfbcf06f::12" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q82884-13c3149afe446d522197368b549d56b1::17" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::12" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q18288148-7fe4e5cf1acae0bfdb769acd0dfe862e::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q18288148-96e807d2d3c29a772d5e202032affcd7::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q2044-4872100d5554b81be57609cbb4de5166::8" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q2044-6213aa578f4724b5231eb4b4b1111518::9" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q82712-beb4c4f17065d83206882fbb68112b5b::18" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q82755-9d904dd82e0cc6a6c1c7d07e377cceb2::5" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q82817-fa88303d24844488b8fe3aedbfbcf06f::16" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q82884-13c3149afe446d522197368b549d56b1::21" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::1" target="contains administrative territorial entity::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::2" weight="0.9986598491668701" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="1" source="end time::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::1" target="2015-12-31::Entity::2015-12-31T00:00:00Z" weight="0.9986598491668701" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="Metropolitan City of Florence::Entity::Q18288148" target="located in the administrative territorial entity::Predicate::q2044-6213aa578f4724b5231eb4b4b1111518::6" weight="0.993425726890564" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="11" source="Metropolitan City of Florence::Entity::Q18288148" target="located in the administrative territorial entity::Predicate::q82884-13c3149afe446d522197368b549d56b1::17" weight="0.9915391802787781" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Metropolitan City of Florence::Entity::Q18288148" target="located in the administrative territorial entity::Predicate::q82755-9d904dd82e0cc6a6c1c7d07e377cceb2::3" weight="0.9894825220108032" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Metropolitan City of Florence::Entity::Q18288148" target="located in the administrative territorial entity::Predicate::q82817-fa88303d24844488b8fe3aedbfbcf06f::12" weight="0.988807737827301" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Metropolitan City of Florence::Entity::Q18288148" target="located in the administrative territorial entity::Predicate::q82712-beb4c4f17065d83206882fbb68112b5b::14" weight="0.9823155999183655" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="start time::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::12" target="2015-01-01::Entity::2015-01-01T00:00:00Z" weight="0.9996212720870972" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="capital of::Predicate::q2044-4872100d5554b81be57609cbb4de5166::1" target="start time::Predicate::q2044-4872100d5554b81be57609cbb4de5166::8" weight="0.9917134046554565" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="17" source="capital of::Predicate::q2044-4872100d5554b81be57609cbb4de5166::1" target="Florence::Entity::Q2044" weight="0.9917134046554565" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="18" source="capital::Predicate::q18288148-7fe4e5cf1acae0bfdb769acd0dfe862e::1" target="start time::Predicate::q18288148-7fe4e5cf1acae0bfdb769acd0dfe862e::2" weight="0.9916444420814514" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="19" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q18288148-96e807d2d3c29a772d5e202032affcd7::1" weight="0.9968134760856628" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="2" source="contains administrative territorial entity::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::2" target="Tuscany::Entity::Q1273" weight="0.9986598491668701" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="20" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q2044-6213aa578f4724b5231eb4b4b1111518::9" weight="0.993425726890564" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q82884-13c3149afe446d522197368b549d56b1::21" weight="0.9915391802787781" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="22" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q82755-9d904dd82e0cc6a6c1c7d07e377cceb2::5" weight="0.9894825220108032" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="23" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q82817-fa88303d24844488b8fe3aedbfbcf06f::16" weight="0.988807737827301" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="24" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q82712-beb4c4f17065d83206882fbb68112b5b::18" weight="0.9823155999183655" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="25" source="located in the administrative territorial entity::Predicate::q82884-13c3149afe446d522197368b549d56b1::17" target="Vinci, Tuscany::Entity::Q82884" weight="0.9915391802787781" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="contains administrative territorial entity::Predicate::q1273-e3fa5335842651c9c6a0e0de784b90cf::2" target="Province of Florence::Entity::Q16172" weight="0.9986598491668701" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="Tuscany::Entity::Q1273" target="contains administrative territorial entity::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::1" weight="0.9996212720870972" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="contains administrative territorial entity::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::1" target="Metropolitan City of Florence::Entity::Q18288148" weight="0.9996212720870972" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="contains administrative territorial entity::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::1" target="start time::Predicate::q1273-bc8d25b873022e6e1f1727f0a8d3c649::12" weight="0.9996212720870972" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="Metropolitan City of Florence::Entity::Q18288148" target="capital of::Predicate::q2044-4872100d5554b81be57609cbb4de5166::1" weight="0.9917134046554565" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="8" source="Metropolitan City of Florence::Entity::Q18288148" target="capital::Predicate::q18288148-7fe4e5cf1acae0bfdb769acd0dfe862e::1" weight="0.9916444420814514" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Metropolitan City of Florence::Entity::Q18288148" target="located in the administrative territorial entity::Predicate::q18288148-96e807d2d3c29a772d5e202032affcd7::1" weight="0.9968134760856628" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

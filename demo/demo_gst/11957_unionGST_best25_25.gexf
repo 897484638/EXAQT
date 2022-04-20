@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1942-01-01::Entity::1942-01-01T00:00:00Z" label="1942-01-01">
+        <attvalues>
+          <attvalue for="label" value="1942-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1945-01-01::Entity::1945-01-01T00:00:00Z" label="1945-01-01">
+        <attvalues>
+          <attvalue for="label" value="1945-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2014-01-01::Entity::2014-01-01T00:00:00Z" label="2014-01-01">
+        <attvalues>
+          <attvalue for="label" value="2014-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Richard Attenborough::Entity::Q51506" label="Richard Attenborough">
+        <attvalues>
+          <attvalue for="label" value="Richard Attenborough"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Royal Academy of Dramatic Art::Entity::Q523926" label="Royal Academy of Dramatic Art">
+        <attvalues>
+          <attvalue for="label" value="Royal Academy of Dramatic Art"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Sheila Sim::Entity::Q4419444" label="Sheila Sim">
+        <attvalues>
+          <attvalue for="label" value="Sheila Sim"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="academic major::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" label="academic major">
+        <attvalues>
+          <attvalue for="label" value="academic major"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="academic major::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" label="academic major">
+        <attvalues>
+          <attvalue for="label" value="academic major"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q51506-32f6dd16b039fb7aa20dedb0d9ed312a::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q51506-5aedfbba56777b0cdf4809805566e472::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q4419444-8d3cb10ead31e0a347e5258d7dcc5370::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q51506-a3837585556cf3e70d9566084f8a684e::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q51506-e8de0041de2aac345a8753669062423d::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q202211-26f3e284cec1f00e2c5c6fc1da7ad292::4" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q787148-924facdaa3b6f54c3bfc225bd6b869c7::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work period (end)::Predicate::q4419444-4ef67953d171e78560d8dd70e519b4fb::2" label="work period (end)">
+        <attvalues>
+          <attvalue for="label" value="work period (end)"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work period (end)::Predicate::q51506-a6df0a790aa5768c6e0f3b4b67fee3ba::1" label="work period (end)">
+        <attvalues>
+          <attvalue for="label" value="work period (end)"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q4419444-14fe9a869970f33d7e9d2bc90ea65356::2" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q51506-e3117e85f84762537da2429ac522d8a8::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" target="spouse::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" weight="0.9992750287055969" label="1"/>
+      <edge id="1" source="start time::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" target="1945-01-01::Entity::1945-01-01T00:00:00Z" weight="0.9992750287055969" label="1"/>
+      <edge id="10" source="Richard Attenborough::Entity::Q51506" target="winner::Predicate::q202211-26f3e284cec1f00e2c5c6fc1da7ad292::4" weight="0.18622878193855286" label="12"/>
+      <edge id="11" source="Richard Attenborough::Entity::Q51506" target="award received::Predicate::q51506-32f6dd16b039fb7aa20dedb0d9ed312a::2" weight="0.10456167161464691" label="15"/>
+      <edge id="12" source="Richard Attenborough::Entity::Q51506" target="date of death::Predicate::q51506-a3837585556cf3e70d9566084f8a684e::1" weight="0.08955929428339005" label="16"/>
+      <edge id="13" source="Richard Attenborough::Entity::Q51506" target="award received::Predicate::q51506-5aedfbba56777b0cdf4809805566e472::1" weight="0.0865507498383522" label="17"/>
+      <edge id="14" source="end time::Predicate::q51506-e8de0041de2aac345a8753669062423d::2" target="2014-01-01::Entity::2014-01-01T00:00:00Z" weight="0.9992750287055969" label="1"/>
+      <edge id="15" source="Sheila Sim::Entity::Q4419444" target="spouse::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" weight="0.9990915060043335" label="2"/>
+      <edge id="16" source="Sheila Sim::Entity::Q4419444" target="educated at::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" weight="0.6287771463394165" label="4"/>
+      <edge id="17" source="Sheila Sim::Entity::Q4419444" target="work period (start)::Predicate::q4419444-14fe9a869970f33d7e9d2bc90ea65356::2" weight="0.3457980751991272" label="9"/>
+      <edge id="18" source="Sheila Sim::Entity::Q4419444" target="work period (end)::Predicate::q4419444-4ef67953d171e78560d8dd70e519b4fb::2" weight="0.1728569120168686" label="14"/>
+      <edge id="19" source="Sheila Sim::Entity::Q4419444" target="date of death::Predicate::q4419444-8d3cb10ead31e0a347e5258d7dcc5370::2" weight="0.07716841250658035" label="18"/>
+      <edge id="2" source="spouse::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" target="Richard Attenborough::Entity::Q51506" weight="0.9992750287055969" label="1"/>
+      <edge id="20" source="start time::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" target="spouse::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" weight="0.9990915060043335" label="2"/>
+      <edge id="21" source="spouse::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" target="end time::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::3" weight="0.9990915060043335" label="2"/>
+      <edge id="22" source="educated at::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" target="end time::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::5" weight="0.6287771463394165" label="4"/>
+      <edge id="23" source="educated at::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" target="Royal Academy of Dramatic Art::Entity::Q523926" weight="0.6287771463394165" label="4"/>
+      <edge id="24" source="educated at::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" target="academic major::Predicate::q4419444-c850ac146d1212237f32936f53c5eaea::2" weight="0.6287771463394165" label="4"/>
+      <edge id="25" source="educated at::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" target="end time::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" weight="0.596114993095398" label="5"/>
+      <edge id="26" source="educated at::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" target="academic major::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" weight="0.596114993095398" label="5"/>
+      <edge id="27" source="work period (start)::Predicate::q51506-e3117e85f84762537da2429ac522d8a8::1" target="1942-01-01::Entity::1942-01-01T00:00:00Z" weight="0.5927273035049438" label="6"/>
+      <edge id="3" source="spouse::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" target="end time::Predicate::q51506-e8de0041de2aac345a8753669062423d::2" weight="0.9992750287055969" label="1"/>
+      <edge id="4" source="spouse::Predicate::q51506-e8de0041de2aac345a8753669062423d::1" target="Sheila Sim::Entity::Q4419444" weight="0.9992750287055969" label="1"/>
+      <edge id="5" source="Richard Attenborough::Entity::Q51506" target="spouse::Predicate::q4419444-01c98deffa0cb73e1ece7b8e1d1a2546::2" weight="0.9990915060043335" label="2"/>
+      <edge id="6" source="Richard Attenborough::Entity::Q51506" target="educated at::Predicate::q51506-ae70e07b80b6136ee456dc1fcd5d7919::1" weight="0.596114993095398" label="5"/>
+      <edge id="7" source="Richard Attenborough::Entity::Q51506" target="work period (start)::Predicate::q51506-e3117e85f84762537da2429ac522d8a8::1" weight="0.5927273035049438" label="6"/>
+      <edge id="8" source="Richard Attenborough::Entity::Q51506" target="work period (end)::Predicate::q51506-a6df0a790aa5768c6e0f3b4b67fee3ba::1" weight="0.510634183883667" label="7"/>
+      <edge id="9" source="Richard Attenborough::Entity::Q51506" target="winner::Predicate::q787148-924facdaa3b6f54c3bfc225bd6b869c7::1" weight="0.24329835176467896" label="10"/>
+    </edges>
+  </graph>
+</gexf>

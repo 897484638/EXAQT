@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2011-07-21::Entity::2011-07-21T00:00:00Z" label="2011-07-21">
+        <attvalues>
+          <attvalue for="label" value="2011-07-21" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2014-10-12::Entity::2014-10-12T00:00:00Z" label="2014-10-12">
+        <attvalues>
+          <attvalue for="label" value="2014-10-12" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Chrysler Headquarters and Technology Center::Entity::Q5114658" label="Chrysler Headquarters and Technology Center">
+        <attvalues>
+          <attvalue for="label" value="Chrysler Headquarters and Technology Center" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Chrysler::Entity::Q181114" label="Chrysler">
+        <attvalues>
+          <attvalue for="label" value="Chrysler" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Fiat Chrysler Automobiles::Entity::Q15678788" label="Fiat Chrysler Automobiles">
+        <attvalues>
+          <attvalue for="label" value="Fiat Chrysler Automobiles" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Fiat::Entity::Q940689" label="Fiat">
+        <attvalues>
+          <attvalue for="label" value="Fiat" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q15678788-74bb048ed48e9bfb940cff3a3a5075a6::3" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q1124857-6bf56949ae939359e299d042346d6469::2" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q181114-2acb8a716680b52339aa08f0c4cec860::1" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q29610-75cee64c15a363e9e765f17d0fcf3351::3" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-6b888e828bb15a0c88a5e3807296503d::4" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-834f85026d4e608cf8328d635e0d4804::1" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-8512b5e483d7112725716b3010c8dbb6::8" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-a55af01719a67af034942d5ea5f2044d::6" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-b32bbfd4e7a64b328513e04a754ab747::7" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-c71b228a13434b8d550c3c56ab40d259::5" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q181114-cd0e4c3dba2038e13ae5fca7eaf4ee04::2" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parent organization::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" label="parent organization">
+        <attvalues>
+          <attvalue for="label" value="parent organization" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parent organization::Predicate::q181114-f2be1c4fd42ec6edbaf6d322dd4a87f5::1" label="parent organization">
+        <attvalues>
+          <attvalue for="label" value="parent organization" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parent organization::Predicate::q181114-f77bf9da77af8d8ff5648d8006e61df3::2" label="parent organization">
+        <attvalues>
+          <attvalue for="label" value="parent organization" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q181114-f2be1c4fd42ec6edbaf6d322dd4a87f5::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q15678788-985494c940a7936605d4ac5b6f931545::3" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q181114-15503b735649ddea26165a602f8348ba::1" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q940689-33d032cb6c2b3e1397016664bb9794d5::4" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="owned by::Predicate::q181114-2acb8a716680b52339aa08f0c4cec860::1" target="Chrysler::Entity::Q181114" weight="0.9983160495758057" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="owned by::Predicate::q181114-2acb8a716680b52339aa08f0c4cec860::1" target="Fiat Chrysler Automobiles::Entity::Q15678788" weight="0.9983160495758057" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-6b888e828bb15a0c88a5e3807296503d::4" weight="0.9939733147621155" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="Chrysler::Entity::Q181114" target="subsidiary::Predicate::q181114-15503b735649ddea26165a602f8348ba::1" weight="0.9939636588096619" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-b32bbfd4e7a64b328513e04a754ab747::7" weight="0.9938324689865112" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-c71b228a13434b8d550c3c56ab40d259::5" weight="0.9937282800674438" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Chrysler::Entity::Q181114" target="parent organization::Predicate::q181114-f77bf9da77af8d8ff5648d8006e61df3::2" weight="0.9936801195144653" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-cd0e4c3dba2038e13ae5fca7eaf4ee04::2" weight="0.9936413168907166" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Chrysler::Entity::Q181114" target="subsidiary::Predicate::q940689-33d032cb6c2b3e1397016664bb9794d5::4" weight="0.9935653805732727" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Chrysler::Entity::Q181114" target="owned by::Predicate::q1124857-6bf56949ae939359e299d042346d6469::2" weight="0.9934612512588501" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="parent organization::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" target="Fiat::Entity::Q940689" weight="0.9980802536010742" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="parent organization::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" target="end time::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::3" weight="0.9980802536010742" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Chrysler::Entity::Q181114" target="parent organization::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" weight="0.9980802536010742" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="20" source="parent organization::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" target="start time::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" weight="0.9980802536010742" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="parent organization::Predicate::q181114-f2be1c4fd42ec6edbaf6d322dd4a87f5::1" target="start time::Predicate::q181114-f2be1c4fd42ec6edbaf6d322dd4a87f5::1" weight="0.9977349042892456" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="22" source="owner of::Predicate::q181114-8512b5e483d7112725716b3010c8dbb6::8" target="Chrysler Headquarters and Technology Center::Entity::Q5114658" weight="0.9971376657485962" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="23" source="end time::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::3" target="2014-10-12::Entity::2014-10-12T00:00:00Z" weight="0.9980802536010742" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="start time::Predicate::q181114-4eb9c185fe38efe96f8545b482a51985::4" target="2011-07-21::Entity::2011-07-21T00:00:00Z" weight="0.9980802536010742" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Chrysler::Entity::Q181114" target="parent organization::Predicate::q181114-f2be1c4fd42ec6edbaf6d322dd4a87f5::1" weight="0.9977349042892456" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-8512b5e483d7112725716b3010c8dbb6::8" weight="0.9971376657485962" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-a55af01719a67af034942d5ea5f2044d::6" weight="0.9965730905532837" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Chrysler::Entity::Q181114" target="owner of::Predicate::q181114-834f85026d4e608cf8328d635e0d4804::1" weight="0.9954017400741577" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Chrysler::Entity::Q181114" target="owned by::Predicate::q29610-75cee64c15a363e9e765f17d0fcf3351::3" weight="0.9952326416969299" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Chrysler::Entity::Q181114" target="follows::Predicate::q15678788-74bb048ed48e9bfb940cff3a3a5075a6::3" weight="0.9968919157981873" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Chrysler::Entity::Q181114" target="subsidiary::Predicate::q15678788-985494c940a7936605d4ac5b6f931545::3" weight="0.9951037168502808" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

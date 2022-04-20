@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1968-01-01::Entity::1968-01-01T00:00:00Z" label="1968-01-01">
+        <attvalues>
+          <attvalue for="label" value="1968-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2000-01-01::Entity::2000-01-01T00:00:00Z" label="2000-01-01">
+        <attvalues>
+          <attvalue for="label" value="2000-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="BBC Sports Personality Team of the Year Award::Entity::Q4834975" label="BBC Sports Personality Team of the Year Award">
+        <attvalues>
+          <attvalue for="label" value="BBC Sports Personality Team of the Year Award"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Celtic F.C.::Entity::Q19593" label="Celtic F.C.">
+        <attvalues>
+          <attvalue for="label" value="Celtic F.C."/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="France national football team::Entity::Q47774" label="France national football team">
+        <attvalues>
+          <attvalue for="label" value="France national football team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Laureus World Sports Award for Team of the Year::Entity::Q1503050" label="Laureus World Sports Award for Team of the Year">
+        <attvalues>
+          <attvalue for="label" value="Laureus World Sports Award for Team of the Year"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Manchester United F.C.::Entity::Q18656" label="Manchester United F.C.">
+        <attvalues>
+          <attvalue for="label" value="Manchester United F.C."/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q4834975-32f87f0a9c98022d7b144838ad5ddee7::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1386633-df0e594b91228897a8745eaa5f3d1bb7::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1386647-5b15eceeff06948f193317e7cf087d59::6" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q18991-af6950a1b74d510ee29519d863cc5df8::9" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q190112-6d2931f9443ebde9e1f83c9b234981d3::13" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q2097340-f830f0e3789a786abca534e9fa40fbfc::7" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q2476008-ec4dd99f221e56742d5530b51a035491::8" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q279736-e191951b691f3a060ac3502bedc5a5bf::4" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q47510669-990c847ff45536787c8bdab5bc06e8b0::15" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4834975-32f87f0a9c98022d7b144838ad5ddee7::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q628453-969f237b767847e1c887ca0484822e01::10" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q817255-1f39285b07b813cd809d547755e5e098::18" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q833562-280fbf9b00eec10338ba49bea2d58715::17" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" target="Manchester United F.C.::Entity::Q18656" weight="0.99972003698349" label="1"/>
+      <edge id="1" source="award received::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" target="Laureus World Sports Award for Team of the Year::Entity::Q1503050" weight="0.99972003698349" label="1"/>
+      <edge id="10" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q1386633-df0e594b91228897a8745eaa5f3d1bb7::2" weight="0.011359491385519505" label="8"/>
+      <edge id="11" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q628453-969f237b767847e1c887ca0484822e01::10" weight="0.010139874182641506" label="9"/>
+      <edge id="12" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q2097340-f830f0e3789a786abca534e9fa40fbfc::7" weight="0.009628222323954105" label="10"/>
+      <edge id="13" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q47510669-990c847ff45536787c8bdab5bc06e8b0::15" weight="0.009149201214313507" label="11"/>
+      <edge id="14" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q190112-6d2931f9443ebde9e1f83c9b234981d3::13" weight="0.008945383131504059" label="12"/>
+      <edge id="15" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q279736-e191951b691f3a060ac3502bedc5a5bf::4" weight="0.008706802502274513" label="13"/>
+      <edge id="16" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q2476008-ec4dd99f221e56742d5530b51a035491::8" weight="0.008347682654857635" label="16"/>
+      <edge id="17" source="followed by::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::1" target="France national football team::Entity::Q47774" weight="0.99972003698349" label="1"/>
+      <edge id="18" source="point in time::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" target="2000-01-01::Entity::2000-01-01T00:00:00Z" weight="0.99972003698349" label="1"/>
+      <edge id="19" source="award received::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" target="BBC Sports Personality Team of the Year Award::Entity::Q4834975" weight="0.9992952346801758" label="2"/>
+      <edge id="2" source="award received::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" target="followed by::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::1" weight="0.99972003698349" label="1"/>
+      <edge id="20" source="award received::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" target="follows::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" weight="0.9992952346801758" label="2"/>
+      <edge id="21" source="award received::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" target="point in time::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" weight="0.9992952346801758" label="2"/>
+      <edge id="22" source="follows::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" target="Celtic F.C.::Entity::Q19593" weight="0.9992952346801758" label="2"/>
+      <edge id="23" source="point in time::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" target="1968-01-01::Entity::1968-01-01T00:00:00Z" weight="0.9992952346801758" label="2"/>
+      <edge id="24" source="1968-01-01::Entity::1968-01-01T00:00:00Z" target="point in time::Predicate::q4834975-32f87f0a9c98022d7b144838ad5ddee7::3" weight="0.02663649246096611" label="4"/>
+      <edge id="3" source="award received::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" target="point in time::Predicate::q18656-4bf3faebddefd3c37619de63e8634728::2" weight="0.99972003698349" label="1"/>
+      <edge id="4" source="Manchester United F.C.::Entity::Q18656" target="award received::Predicate::q18656-4bf7f402050446e3a307e38605e17cef::1" weight="0.9992952346801758" label="2"/>
+      <edge id="5" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q833562-280fbf9b00eec10338ba49bea2d58715::17" weight="0.08453690260648727" label="3"/>
+      <edge id="6" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q4834975-32f87f0a9c98022d7b144838ad5ddee7::3" weight="0.02663649246096611" label="4"/>
+      <edge id="7" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q817255-1f39285b07b813cd809d547755e5e098::18" weight="0.023310905322432518" label="5"/>
+      <edge id="8" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q1386647-5b15eceeff06948f193317e7cf087d59::6" weight="0.02163620851933956" label="6"/>
+      <edge id="9" source="Manchester United F.C.::Entity::Q18656" target="winner::Predicate::q18991-af6950a1b74d510ee29519d863cc5df8::9" weight="0.012912721373140812" label="7"/>
+    </edges>
+  </graph>
+</gexf>

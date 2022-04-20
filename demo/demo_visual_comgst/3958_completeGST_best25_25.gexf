@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2003-01-01::Entity::2003-01-01T00:00:00Z" label="2003-01-01">
+        <attvalues>
+          <attvalue for="label" value="2003-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="NCIS, season 11::Entity::Q14628416" label="NCIS, season 11">
+        <attvalues>
+          <attvalue for="label" value="NCIS, season 11" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="NCIS, season 7::Entity::Q1213606" label="NCIS, season 7">
+        <attvalues>
+          <attvalue for="label" value="NCIS, season 7" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="NCIS::Entity::Q4525" label="NCIS">
+        <attvalues>
+          <attvalue for="label" value="NCIS" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sean Murray::Entity::Q366939" label="Sean Murray">
+        <attvalues>
+          <attvalue for="label" value="Sean Murray" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q4525-c12982d99e891a0f6bbdbfe8ae2341c5::1" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q4525-5600cfff0552812850b84b6997fcf450::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Sean Murray::Entity::Q366939" target="cast member::Predicate::q4525-c12982d99e891a0f6bbdbfe8ae2341c5::1" weight="0.0017598624108359218" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="cast member::Predicate::q4525-c12982d99e891a0f6bbdbfe8ae2341c5::1" target="NCIS::Entity::Q4525" weight="0.0017598624108359218" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="NCIS::Entity::Q4525" target="publication date::Predicate::q4525-5600cfff0552812850b84b6997fcf450::1" weight="0.8779679536819458" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" weight="0.9080631136894226" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" weight="0.9017308354377747" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="publication date::Predicate::q4525-5600cfff0552812850b84b6997fcf450::1" target="2003-01-01::Entity::2003-01-01T00:00:00Z" weight="0.8779679536819458" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" target="NCIS, season 11::Entity::Q14628416" weight="0.9080631136894226" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" target="NCIS, season 7::Entity::Q1213606" weight="0.9017308354377747" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

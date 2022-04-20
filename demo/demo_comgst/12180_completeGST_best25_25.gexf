@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Biafran pound::Entity::Q855244" label="Biafran pound">
+        <attvalues>
+          <attvalue for="label" value="Biafran pound"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Egyptian pound::Entity::Q199462" label="Egyptian pound">
+        <attvalues>
+          <attvalue for="label" value="Egyptian pound"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Lebanese pound::Entity::Q201880" label="Lebanese pound">
+        <attvalues>
+          <attvalue for="label" value="Lebanese pound"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Palestine pound::Entity::Q3973271" label="Palestine pound">
+        <attvalues>
+          <attvalue for="label" value="Palestine pound"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="currency::Entity::Q8142" label="currency">
+        <attvalues>
+          <attvalue for="label" value="currency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q199462-55ea7e8a4474a5e586a0c05bc8b69aa7::24" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q201880-db112ed4e587c3ec70c080d5e60b706c::16" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q3973271-e72b39e650a31f50418f794a53a14557::19" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q855244-008c0cc53ff534fda16c92ea9b60679c::18" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="currency::Entity::Q8142" target="instance of::Predicate::q199462-55ea7e8a4474a5e586a0c05bc8b69aa7::24" weight="0.9962189793586731" label="1"/>
+      <edge id="1" source="currency::Entity::Q8142" target="instance of::Predicate::q201880-db112ed4e587c3ec70c080d5e60b706c::16" weight="0.9944856762886047" label="2"/>
+      <edge id="2" source="currency::Entity::Q8142" target="instance of::Predicate::q855244-008c0cc53ff534fda16c92ea9b60679c::18" weight="0.9935911893844604" label="3"/>
+      <edge id="3" source="currency::Entity::Q8142" target="instance of::Predicate::q3973271-e72b39e650a31f50418f794a53a14557::19" weight="0.993463397026062" label="4"/>
+      <edge id="4" source="instance of::Predicate::q199462-55ea7e8a4474a5e586a0c05bc8b69aa7::24" target="Egyptian pound::Entity::Q199462" weight="0.9962189793586731" label="1"/>
+      <edge id="5" source="instance of::Predicate::q201880-db112ed4e587c3ec70c080d5e60b706c::16" target="Lebanese pound::Entity::Q201880" weight="0.9944856762886047" label="2"/>
+      <edge id="6" source="instance of::Predicate::q855244-008c0cc53ff534fda16c92ea9b60679c::18" target="Biafran pound::Entity::Q855244" weight="0.9935911893844604" label="3"/>
+      <edge id="7" source="instance of::Predicate::q3973271-e72b39e650a31f50418f794a53a14557::19" target="Palestine pound::Entity::Q3973271" weight="0.993463397026062" label="4"/>
+    </edges>
+  </graph>
+</gexf>

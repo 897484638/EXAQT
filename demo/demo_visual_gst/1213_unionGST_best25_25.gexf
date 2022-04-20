@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Charles de Gaulle::Entity::Q2042" label="Charles de Gaulle">
+        <attvalues>
+          <attvalue for="label" value="Charles de Gaulle" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Fort de la Crèche::Entity::Q3078293" label="Fort de la Crèche">
+        <attvalues>
+          <attvalue for="label" value="Fort de la Crèche" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="France::Entity::Q142" label="France">
+        <attvalues>
+          <attvalue for="label" value="France" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="François Hollande::Entity::Q157" label="François Hollande">
+        <attvalues>
+          <attvalue for="label" value="François Hollande" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="François Mitterrand::Entity::Q2038" label="François Mitterrand">
+        <attvalues>
+          <attvalue for="label" value="François Mitterrand" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="World War II::Entity::Q362" label="World War II">
+        <attvalues>
+          <attvalue for="label" value="World War II" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="basic form of government::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::5" label="basic form of government">
+        <attvalues>
+          <attvalue for="label" value="basic form of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="basic form of government::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::9" label="basic form of government">
+        <attvalues>
+          <attvalue for="label" value="basic form of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="basic form of government::Predicate::q142-3d1d378021e4998c219612ad122588d7::2" label="basic form of government">
+        <attvalues>
+          <attvalue for="label" value="basic form of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q3078293-eb73e8d6457604cb7e15f0dfa73d6a08::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q3078293-820de7ca60a4fd111267b888005c4ec7::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::8" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::12" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q142-3d1d378021e4998c219612ad122588d7::5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="exile::Entity::Q188863" label="exile">
+        <attvalues>
+          <attvalue for="label" value="exile" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q3792253-52ae9e20fcc2bb09d626cb90a764e7ca::1" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q142-6649fe49a4b1416f3f3470538c3a7399::2" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q142-248d19bb95fa3de035af0a82dfef1553::8" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q142-87bc51d0c0c3f425884c4e71df27271d::12" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::9" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q142-3d1d378021e4998c219612ad122588d7::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q3792253-52ae9e20fcc2bb09d626cb90a764e7ca::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="exile::Entity::Q188863" target="has cause::Predicate::q3792253-52ae9e20fcc2bb09d626cb90a764e7ca::1" weight="0.6853538155555725" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="has cause::Predicate::q3792253-52ae9e20fcc2bb09d626cb90a764e7ca::1" target="residence::Predicate::q3792253-52ae9e20fcc2bb09d626cb90a764e7ca::1" weight="0.6853538155555725" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="country::Predicate::q3078293-820de7ca60a4fd111267b888005c4ec7::1" target="Fort de la Crèche::Entity::Q3078293" weight="0.9390848875045776" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="Fort de la Crèche::Entity::Q3078293" target="conflict::Predicate::q3078293-eb73e8d6457604cb7e15f0dfa73d6a08::1" weight="0.9390848875045776" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="conflict::Predicate::q3078293-eb73e8d6457604cb7e15f0dfa73d6a08::1" target="World War II::Entity::Q362" weight="0.9390848875045776" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" target="François Mitterrand::Entity::Q2038" weight="0.9993652701377869" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="14" source="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" target="basic form of government::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::5" weight="0.9993652701377869" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" target="end time::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::8" weight="0.9993652701377869" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" target="position held::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::5" weight="0.9993652701377869" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" target="start time::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" weight="0.9993652701377869" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" target="Charles de Gaulle::Entity::Q2042" weight="0.9993419051170349" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" target="basic form of government::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::9" weight="0.9993419051170349" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="residence::Predicate::q3792253-52ae9e20fcc2bb09d626cb90a764e7ca::1" target="France::Entity::Q142" weight="0.6853538155555725" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" target="end time::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::12" weight="0.9993419051170349" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" target="position held::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::9" weight="0.9993419051170349" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" target="start time::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" weight="0.9993419051170349" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" target="François Hollande::Entity::Q157" weight="0.999311089515686" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" target="basic form of government::Predicate::q142-3d1d378021e4998c219612ad122588d7::2" weight="0.999311089515686" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="25" source="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" target="end time::Predicate::q142-3d1d378021e4998c219612ad122588d7::5" weight="0.999311089515686" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="26" source="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" target="position held::Predicate::q142-3d1d378021e4998c219612ad122588d7::2" weight="0.999311089515686" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="27" source="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" target="start time::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" weight="0.999311089515686" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="France::Entity::Q142" target="country::Predicate::q3078293-820de7ca60a4fd111267b888005c4ec7::1" weight="0.9390848875045776" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="France::Entity::Q142" target="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::10" weight="0.9993652701377869" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="France::Entity::Q142" target="head of state::Predicate::q142-11510bc2d1abfde1b1fe324cb9f5bcba::14" weight="0.9993419051170349" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="France::Entity::Q142" target="head of state::Predicate::q142-3d1d378021e4998c219612ad122588d7::7" weight="0.999311089515686" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="France::Entity::Q142" target="head of state::Predicate::q142-87bc51d0c0c3f425884c4e71df27271d::12" weight="0.9990434050559998" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="8" source="France::Entity::Q142" target="head of state::Predicate::q142-248d19bb95fa3de035af0a82dfef1553::8" weight="0.9989840388298035" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="France::Entity::Q142" target="head of government::Predicate::q142-6649fe49a4b1416f3f3470538c3a7399::2" weight="0.9992789626121521" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

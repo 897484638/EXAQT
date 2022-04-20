@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1975-01-01::Entity::1975-01-01T00:00:00Z" label="1975-01-01">
+        <attvalues>
+          <attvalue for="label" value="1975-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1996-01-01::Entity::1996-01-01T00:00:00Z" label="1996-01-01">
+        <attvalues>
+          <attvalue for="label" value="1996-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="2010-01-01::Entity::2010-01-01T00:00:00Z" label="2010-01-01">
+        <attvalues>
+          <attvalue for="label" value="2010-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Boney M.::Entity::Q156298" label="Boney M.">
+        <attvalues>
+          <attvalue for="label" value="Boney M." />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Germany::Entity::Q183" label="Germany">
+        <attvalues>
+          <attvalue for="label" value="Germany" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q156298-897ec87870ce17a5d8ad19a28715034b::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Boney M.::Entity::Q156298" target="inception::Predicate::q156298-897ec87870ce17a5d8ad19a28715034b::1" weight="0.9994625449180603" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Boney M.::Entity::Q156298" target="country of origin::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" weight="0.9481503963470459" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="inception::Predicate::q156298-897ec87870ce17a5d8ad19a28715034b::1" target="1975-01-01::Entity::1975-01-01T00:00:00Z" weight="0.9994625449180603" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="country of origin::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" target="Germany::Entity::Q183" weight="0.9481503963470459" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="country of origin::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" target="end time::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" weight="0.9481503963470459" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="country of origin::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" target="start time::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" weight="0.9481503963470459" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="end time::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" target="2010-01-01::Entity::2010-01-01T00:00:00Z" weight="0.9481503963470459" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="start time::Predicate::q156298-3f1d1a96201f039e09ab30984d27a10d::1" target="1996-01-01::Entity::1996-01-01T00:00:00Z" weight="0.9481503963470459" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

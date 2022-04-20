@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2012 Brazilian municipal elections::Entity::Q3081142" label="2012 Brazilian municipal elections">
+        <attvalues>
+          <attvalue for="label" value="2012 Brazilian municipal elections"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2013-01-01::Entity::2013-01-01T00:00:00Z" label="2013-01-01">
+        <attvalues>
+          <attvalue for="label" value="2013-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Cristiano Marcello::Entity::Q5186305" label="Cristiano Marcello">
+        <attvalues>
+          <attvalue for="label" value="Cristiano Marcello"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Curitiba::Entity::Q4361" label="Curitiba">
+        <attvalues>
+          <attvalue for="label" value="Curitiba"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Rafael Greca::Entity::Q10357041" label="Rafael Greca">
+        <attvalues>
+          <attvalue for="label" value="Rafael Greca"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="determination method::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" label="determination method">
+        <attvalues>
+          <attvalue for="label" value="determination method"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q5186305-5547157666ab0570e56e3349dc2c47b0::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" target="head of government::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" weight="0.9991204142570496" label="1"/>
+      <edge id="1" source="start time::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" target="2013-01-01::Entity::2013-01-01T00:00:00Z" weight="0.9991204142570496" label="1"/>
+      <edge id="2" source="head of government::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" target="Curitiba::Entity::Q4361" weight="0.9991204142570496" label="1"/>
+      <edge id="3" source="head of government::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" target="Rafael Greca::Entity::Q10357041" weight="0.9991204142570496" label="1"/>
+      <edge id="4" source="head of government::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" target="determination method::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" weight="0.9991204142570496" label="1"/>
+      <edge id="5" source="Curitiba::Entity::Q4361" target="residence::Predicate::q5186305-5547157666ab0570e56e3349dc2c47b0::1" weight="0.9750573039054871" label="2"/>
+      <edge id="6" source="determination method::Predicate::q4361-aaefdf087d5693768dd81f546ae1fbc3::1" target="2012 Brazilian municipal elections::Entity::Q3081142" weight="0.9991204142570496" label="1"/>
+      <edge id="7" source="residence::Predicate::q5186305-5547157666ab0570e56e3349dc2c47b0::1" target="Cristiano Marcello::Entity::Q5186305" weight="0.9750573039054871" label="2"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1841-01-07::Entity::1841-01-07T00:00:00Z" label="1841-01-07">
+        <attvalues>
+          <attvalue for="label" value="1841-01-07" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Académie Française::Entity::Q161806" label="Académie Française">
+        <attvalues>
+          <attvalue for="label" value="Académie Française" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Charles Marie René Leconte de Lisle::Entity::Q309704" label="Charles Marie René Leconte de Lisle">
+        <attvalues>
+          <attvalue for="label" value="Charles Marie René Leconte de Lisle" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Népomucène Lemercier::Entity::Q354373" label="Népomucène Lemercier">
+        <attvalues>
+          <attvalue for="label" value="Népomucène Lemercier" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Victor Hugo::Entity::Q535" label="Victor Hugo">
+        <attvalues>
+          <attvalue for="label" value="Victor Hugo" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q597694-5f0414442a508c19025977e996aabd0f::3" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q597694-5f0414442a508c19025977e996aabd0f::3" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q1278915-dbb5fec349c3733c03a08d8d8339cd56::9" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q1393498-841ceb42b35ec9da36c76307557b0a2e::6" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q140694-6abf82c9261e65ac682be9a902175654::23" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q151098-10aabf4ad77a3bba584c8a1e5c8443fb::20" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q198644-cafa177274599c600a99232dc5dfc369::14" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q2340976-66dc22930c66dd7ce671b68592e6d957::25" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q317957-353e2518ea9aabc3a95da690e3fb3a88::7" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q338386-6a2051221a16557a3308b29d4356efb4::13" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q354828-9bb8c701400cce0a5d4dbfb49b7174c8::24" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q358387-3f6c05431e6bba0ad22b69f306dd8289::5" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q434346-cc3377734a826c8ac267ed6493d77492::2" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q529-f91c71a16ba284f74a1fd9427b1bdbdb::3" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q583868-e528fa8d7411636af56383d686e7fbaa::16" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q597694-5f0414442a508c19025977e996aabd0f::17" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q9068-c892b79eaf65ba519a612a8bee89e983::4" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Victor Hugo::Entity::Q535" target="member of::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="member of::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" target="Académie Française::Entity::Q161806" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Académie Française::Entity::Q161806" target="member of::Predicate::q529-f91c71a16ba284f74a1fd9427b1bdbdb::3" weight="0.9928519129753113" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Académie Française::Entity::Q161806" target="member of::Predicate::q338386-6a2051221a16557a3308b29d4356efb4::13" weight="0.9927478432655334" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Académie Française::Entity::Q161806" target="member of::Predicate::q151098-10aabf4ad77a3bba584c8a1e5c8443fb::20" weight="0.9922090768814087" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Académie Française::Entity::Q161806" target="member of::Predicate::q198644-cafa177274599c600a99232dc5dfc369::14" weight="0.9921133518218994" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Académie Française::Entity::Q161806" target="member of::Predicate::q140694-6abf82c9261e65ac682be9a902175654::23" weight="0.9921056032180786" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Académie Française::Entity::Q161806" target="member of::Predicate::q358387-3f6c05431e6bba0ad22b69f306dd8289::5" weight="0.9918022751808167" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Académie Française::Entity::Q161806" target="member of::Predicate::q9068-c892b79eaf65ba519a612a8bee89e983::4" weight="0.9917984008789062" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Académie Française::Entity::Q161806" target="member of::Predicate::q1278915-dbb5fec349c3733c03a08d8d8339cd56::9" weight="0.9914450645446777" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Académie Française::Entity::Q161806" target="member of::Predicate::q583868-e528fa8d7411636af56383d686e7fbaa::16" weight="0.9913279414176941" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="Académie Française::Entity::Q161806" target="member of::Predicate::q2340976-66dc22930c66dd7ce671b68592e6d957::25" weight="0.9908779263496399" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="member of::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" target="followed by::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::1" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="followed by::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::1" target="Charles Marie René Leconte de Lisle::Entity::Q309704" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="follows::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::1" target="Népomucène Lemercier::Entity::Q354373" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="start time::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" target="1841-01-07::Entity::1841-01-07T00:00:00Z" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="member of::Predicate::q597694-5f0414442a508c19025977e996aabd0f::17" target="followed by::Predicate::q597694-5f0414442a508c19025977e996aabd0f::3" weight="0.9933369159698486" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="24" source="member of::Predicate::q597694-5f0414442a508c19025977e996aabd0f::17" target="follows::Predicate::q597694-5f0414442a508c19025977e996aabd0f::3" weight="0.9933369159698486" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="3" source="member of::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" target="follows::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::1" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="member of::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" target="start time::Predicate::q535-6df98b124c47cc61186a0e92fd4f35e3::10" weight="0.9957618117332458" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Académie Française::Entity::Q161806" target="member of::Predicate::q434346-cc3377734a826c8ac267ed6493d77492::2" weight="0.9949793219566345" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="Académie Française::Entity::Q161806" target="member of::Predicate::q1393498-841ceb42b35ec9da36c76307557b0a2e::6" weight="0.9937115907669067" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="Académie Française::Entity::Q161806" target="member of::Predicate::q354828-9bb8c701400cce0a5d4dbfb49b7174c8::24" weight="0.9934628009796143" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="Académie Française::Entity::Q161806" target="member of::Predicate::q597694-5f0414442a508c19025977e996aabd0f::17" weight="0.9933369159698486" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Académie Française::Entity::Q161806" target="member of::Predicate::q317957-353e2518ea9aabc3a95da690e3fb3a88::7" weight="0.9930643439292908" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

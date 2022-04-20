@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Ghulam Ishaq Khan::Entity::Q314776" label="Ghulam Ishaq Khan">
+        <attvalues>
+          <attvalue for="label" value="Ghulam Ishaq Khan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mohammad Mostafa Zaman::Entity::Q57419149" label="Mohammad Mostafa Zaman">
+        <attvalues>
+          <attvalue for="label" value="Mohammad Mostafa Zaman"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Muhammad Zia-ul-Haq::Entity::Q200499" label="Muhammad Zia-ul-Haq">
+        <attvalues>
+          <attvalue for="label" value="Muhammad Zia-ul-Haq"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Pervez Musharraf::Entity::Q40495" label="Pervez Musharraf">
+        <attvalues>
+          <attvalue for="label" value="Pervez Musharraf"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="President of Pakistan::Entity::Q473984" label="President of Pakistan">
+        <attvalues>
+          <attvalue for="label" value="President of Pakistan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="World Health Organization::Entity::Q7817" label="World Health Organization">
+        <attvalues>
+          <attvalue for="label" value="World Health Organization"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q57419149-8a8d12e485149ad8f7c77303a832fbe0::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q200499-46720454b23b5d0c7370f293480d5397::6" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q314776-a9905c86110a4c51cbef3088d24e4b94::16" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q40495-7c3720af80ad0d2ced39f2ff5abc8831::10" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="employer::Predicate::q57419149-8a8d12e485149ad8f7c77303a832fbe0::1" target="World Health Organization::Entity::Q7817" weight="0.19852031767368317" label="25"/>
+      <edge id="1" source="employer::Predicate::q57419149-8a8d12e485149ad8f7c77303a832fbe0::1" target="Mohammad Mostafa Zaman::Entity::Q57419149" weight="0.19852031767368317" label="25"/>
+      <edge id="2" source="President of Pakistan::Entity::Q473984" target="position held::Predicate::q200499-46720454b23b5d0c7370f293480d5397::6" weight="0.9997479319572449" label="1"/>
+      <edge id="3" source="President of Pakistan::Entity::Q473984" target="position held::Predicate::q314776-a9905c86110a4c51cbef3088d24e4b94::16" weight="0.9996652603149414" label="2"/>
+      <edge id="4" source="President of Pakistan::Entity::Q473984" target="position held::Predicate::q40495-7c3720af80ad0d2ced39f2ff5abc8831::10" weight="0.999646782875061" label="3"/>
+      <edge id="5" source="position held::Predicate::q200499-46720454b23b5d0c7370f293480d5397::6" target="Muhammad Zia-ul-Haq::Entity::Q200499" weight="0.9997479319572449" label="1"/>
+      <edge id="6" source="position held::Predicate::q314776-a9905c86110a4c51cbef3088d24e4b94::16" target="Ghulam Ishaq Khan::Entity::Q314776" weight="0.9996652603149414" label="2"/>
+      <edge id="7" source="position held::Predicate::q40495-7c3720af80ad0d2ced39f2ff5abc8831::10" target="Pervez Musharraf::Entity::Q40495" weight="0.999646782875061" label="3"/>
+    </edges>
+  </graph>
+</gexf>

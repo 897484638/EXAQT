@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="63rd Academy Awards::Entity::Q910856" label="63rd Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="63rd Academy Awards"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actress::Entity::Q103618" label="Academy Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actress"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Kathy Bates::Entity::Q544465" label="Kathy Bates">
+        <attvalues>
+          <attvalue for="label" value="Kathy Bates"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Misery::Entity::Q725552" label="Misery">
+        <attvalues>
+          <attvalue for="label" value="Misery"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q544465-64bdfbfb12b6099321b09aba41a7bf15::25" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::7" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" target="Kathy Bates::Entity::Q544465" weight="0.9996777772903442" label="7"/>
+      <edge id="1" source="award received::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" target="statement is subject of::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" weight="0.9996777772903442" label="7"/>
+      <edge id="2" source="award received::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" target="Academy Award for Best Actress::Entity::Q103618" weight="0.9996777772903442" label="7"/>
+      <edge id="3" source="award received::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" target="for work::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::7" weight="0.9996777772903442" label="7"/>
+      <edge id="4" source="Kathy Bates::Entity::Q544465" target="award received::Predicate::q544465-64bdfbfb12b6099321b09aba41a7bf15::25" weight="0.999718964099884" label="3"/>
+      <edge id="5" source="statement is subject of::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::13" target="63rd Academy Awards::Entity::Q910856" weight="0.9996777772903442" label="7"/>
+      <edge id="6" source="award received::Predicate::q544465-64bdfbfb12b6099321b09aba41a7bf15::25" target="Academy Award for Best Actress::Entity::Q103618" weight="0.999718964099884" label="3"/>
+      <edge id="7" source="for work::Predicate::q544465-d58b3c0a0160cfdf8ea30e78ca25635b::7" target="Misery::Entity::Q725552" weight="0.9996777772903442" label="7"/>
+    </edges>
+  </graph>
+</gexf>

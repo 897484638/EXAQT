@@ -1,0 +1,1449 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1707-05-01::Entity::1707-05-01T00:00:00Z" label="1707-05-01">
+        <attvalues>
+          <attvalue for="label" value="1707-05-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1752-09-14::Entity::1752-09-14T00:00:00Z" label="1752-09-14">
+        <attvalues>
+          <attvalue for="label" value="1752-09-14"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1801-01-01::Entity::1801-01-01T00:00:00Z" label="1801-01-01">
+        <attvalues>
+          <attvalue for="label" value="1801-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1854-05-08::Entity::1854-05-08T00:00:00Z" label="1854-05-08">
+        <attvalues>
+          <attvalue for="label" value="1854-05-08"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Acts of Union 1800::Entity::Q343100" label="Acts of Union 1800">
+        <attvalues>
+          <attvalue for="label" value="Acts of Union 1800"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Calendar (New Style) Act 1750::Entity::Q5019481" label="Calendar (New Style) Act 1750">
+        <attvalues>
+          <attvalue for="label" value="Calendar (New Style) Act 1750"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Charles Barclay::Entity::Q24239145" label="Charles Barclay">
+        <attvalues>
+          <attvalue for="label" value="Charles Barclay"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="England::Entity::Q21" label="England">
+        <attvalues>
+          <attvalue for="label" value="England"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Great Britain::Entity::Q161885" label="Great Britain">
+        <attvalues>
+          <attvalue for="label" value="Great Britain"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gregorian calendar start date::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::1" label="Gregorian calendar start date">
+        <attvalues>
+          <attvalue for="label" value="Gregorian calendar start date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Hugh Barclay::Entity::Q5929943" label="Hugh Barclay">
+        <attvalues>
+          <attvalue for="label" value="Hugh Barclay"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Julian calendar::Entity::Q11184" label="Julian calendar">
+        <attvalues>
+          <attvalue for="label" value="Julian calendar"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Adair::Entity::Q1333287" label="Robert Adair">
+        <attvalues>
+          <attvalue for="label" value="Robert Adair"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Barclay Allardice::Entity::Q7341861" label="Robert Barclay Allardice">
+        <attvalues>
+          <attvalue for="label" value="Robert Barclay Allardice"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Campbell::Entity::Q7342703" label="Robert Campbell">
+        <attvalues>
+          <attvalue for="label" value="Robert Campbell"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Curzon::Entity::Q7343265" label="Robert Curzon">
+        <attvalues>
+          <attvalue for="label" value="Robert Curzon"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Downie::Entity::Q26213074" label="Robert Downie">
+        <attvalues>
+          <attvalue for="label" value="Robert Downie"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Dundas::Entity::Q7343690" label="Robert Dundas">
+        <attvalues>
+          <attvalue for="label" value="Robert Dundas"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Farrand::Entity::Q26220794" label="Robert Farrand">
+        <attvalues>
+          <attvalue for="label" value="Robert Farrand"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Graham::Entity::Q586655" label="Robert Graham">
+        <attvalues>
+          <attvalue for="label" value="Robert Graham"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Hall::Entity::Q2157459" label="Robert Hall">
+        <attvalues>
+          <attvalue for="label" value="Robert Hall"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Liston::Entity::Q715460" label="Robert Liston">
+        <attvalues>
+          <attvalue for="label" value="Robert Liston"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Melville::Entity::Q7347619" label="Robert Melville">
+        <attvalues>
+          <attvalue for="label" value="Robert Melville"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Milligan::Entity::Q7347687" label="Robert Milligan">
+        <attvalues>
+          <attvalue for="label" value="Robert Milligan"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Nickle::Entity::Q7348037" label="Robert Nickle">
+        <attvalues>
+          <attvalue for="label" value="Robert Nickle"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Palmer::Entity::Q7348264" label="Robert Palmer">
+        <attvalues>
+          <attvalue for="label" value="Robert Palmer"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Radcliffe::Entity::Q15999955" label="Robert Radcliffe">
+        <attvalues>
+          <attvalue for="label" value="Robert Radcliffe"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Sloper::Entity::Q7349844" label="Robert Sloper">
+        <attvalues>
+          <attvalue for="label" value="Robert Sloper"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Southey::Entity::Q216838" label="Robert Southey">
+        <attvalues>
+          <attvalue for="label" value="Robert Southey"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Taylor::Entity::Q7350288" label="Robert Taylor">
+        <attvalues>
+          <attvalue for="label" value="Robert Taylor"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Thomas::Entity::Q20804764" label="Robert Thomas">
+        <attvalues>
+          <attvalue for="label" value="Robert Thomas"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Thomas::Entity::Q7350340" label="Robert Thomas">
+        <attvalues>
+          <attvalue for="label" value="Robert Thomas"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Thornton::Entity::Q26308517" label="Robert Thornton">
+        <attvalues>
+          <attvalue for="label" value="Robert Thornton"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Williams::Entity::Q7351116" label="Robert Williams">
+        <attvalues>
+          <attvalue for="label" value="Robert Williams"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Robert Willis::Entity::Q4470020" label="Robert Willis">
+        <attvalues>
+          <attvalue for="label" value="Robert Willis"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="United Kingdom of Great Britain and Ireland::Entity::Q174193" label="United Kingdom of Great Britain and Ireland">
+        <attvalues>
+          <attvalue for="label" value="United Kingdom of Great Britain and Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q161885-2dab0a194c5da1f3f4d0be10c4a39195::1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7341861-e9d8ff1cac6f93ed95bcb16dce448b92::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q7341861-4e9c715518e48324cf1b1c925d4d1a92::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="dissolved, abolished or demolished date::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1" label="dissolved, abolished or demolished date">
+        <attvalues>
+          <attvalue for="label" value="dissolved, abolished or demolished date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::1" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::T-0" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::T-0" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::2" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q161885-229b4a3cecd7fe55cbf3087ab54b7c0e::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q161885-79079431373a1b49feb21c6a5024d245::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q161885-79079431373a1b49feb21c6a5024d245::2" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::3" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of death::Predicate::q7341861-4e9c715518e48324cf1b1c925d4d1a92::1" target="Robert Barclay Allardice::Entity::Q7341861"/>
+      <edge id="1" source="date of death::Predicate::q7341861-4e9c715518e48324cf1b1c925d4d1a92::1" target="1854-05-08::Entity::1854-05-08T00:00:00Z"/>
+      <edge id="10" source="Great Britain::Entity::Q161885" target="dissolved, abolished or demolished date::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1"/>
+      <edge id="100" source="inception::Predicate::q161885-229b4a3cecd7fe55cbf3087ab54b7c0e::1" target="1707-05-01::Entity::1707-05-01T00:00:00Z"/>
+      <edge id="101" source="Gregorian calendar start date::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::1" target="has cause::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::2"/>
+      <edge id="102" source="Gregorian calendar start date::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::1" target="1752-09-14::Entity::1752-09-14T00:00:00Z"/>
+      <edge id="103" source="Gregorian calendar start date::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::1" target="replaces::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::3"/>
+      <edge id="104" source="has cause::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::2" target="Calendar (New Style) Act 1750::Entity::Q5019481"/>
+      <edge id="105" source="replaces::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::3" target="Julian calendar::Entity::Q11184"/>
+      <edge id="106" source="country of citizenship::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0" target="Robert Radcliffe::Entity::Q15999955"/>
+      <edge id="107" source="country of citizenship::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0" target="end time::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0"/>
+      <edge id="108" source="country of citizenship::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0" target="end cause::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0"/>
+      <edge id="109" source="country of citizenship::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1" target="Robert Adair::Entity::Q1333287"/>
+      <edge id="11" source="Great Britain::Entity::Q161885" target="inception::Predicate::q161885-229b4a3cecd7fe55cbf3087ab54b7c0e::1"/>
+      <edge id="110" source="country of citizenship::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1" target="end time::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1"/>
+      <edge id="111" source="country of citizenship::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1" target="end cause::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1"/>
+      <edge id="112" source="country of citizenship::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2" target="Robert Thomas::Entity::Q20804764"/>
+      <edge id="113" source="country of citizenship::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2" target="end time::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2"/>
+      <edge id="114" source="country of citizenship::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2" target="end cause::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2"/>
+      <edge id="115" source="country of citizenship::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3" target="Robert Dundas::Entity::Q7343690"/>
+      <edge id="116" source="country of citizenship::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3" target="end time::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3"/>
+      <edge id="117" source="country of citizenship::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3" target="end cause::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3"/>
+      <edge id="118" source="country of citizenship::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4" target="Robert Palmer::Entity::Q7348264"/>
+      <edge id="119" source="country of citizenship::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4" target="end time::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4"/>
+      <edge id="12" source="Great Britain::Entity::Q161885" target="Gregorian calendar start date::Predicate::q161885-b3ea56615b9ca2aac1b3c64e97826cb0::1"/>
+      <edge id="120" source="country of citizenship::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4" target="end cause::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4"/>
+      <edge id="121" source="country of citizenship::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5" target="Hugh Barclay::Entity::Q5929943"/>
+      <edge id="122" source="country of citizenship::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5" target="end time::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5"/>
+      <edge id="123" source="country of citizenship::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5" target="end cause::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5"/>
+      <edge id="124" source="country of citizenship::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6" target="Robert Melville::Entity::Q7347619"/>
+      <edge id="125" source="country of citizenship::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6" target="end time::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6"/>
+      <edge id="126" source="country of citizenship::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6" target="end cause::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6"/>
+      <edge id="127" source="country of citizenship::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7" target="Robert Taylor::Entity::Q7350288"/>
+      <edge id="128" source="country of citizenship::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7" target="end time::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7"/>
+      <edge id="129" source="country of citizenship::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7" target="end cause::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7"/>
+      <edge id="13" source="Great Britain::Entity::Q161885" target="replaced by::Predicate::q161885-79079431373a1b49feb21c6a5024d245::2"/>
+      <edge id="130" source="country of citizenship::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8" target="Robert Thomas::Entity::Q7350340"/>
+      <edge id="131" source="country of citizenship::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8" target="end time::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8"/>
+      <edge id="132" source="country of citizenship::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8" target="end cause::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8"/>
+      <edge id="133" source="country of citizenship::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9" target="Robert Southey::Entity::Q216838"/>
+      <edge id="134" source="country of citizenship::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9" target="end time::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9"/>
+      <edge id="135" source="country of citizenship::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9" target="end cause::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9"/>
+      <edge id="136" source="country of citizenship::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10" target="Robert Sloper::Entity::Q7349844"/>
+      <edge id="137" source="country of citizenship::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10" target="end time::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10"/>
+      <edge id="138" source="country of citizenship::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10" target="end cause::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10"/>
+      <edge id="139" source="country of citizenship::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11" target="Robert Liston::Entity::Q715460"/>
+      <edge id="14" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0"/>
+      <edge id="140" source="country of citizenship::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11" target="end time::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11"/>
+      <edge id="141" source="country of citizenship::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11" target="end cause::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11"/>
+      <edge id="142" source="country of citizenship::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12" target="Robert Nickle::Entity::Q7348037"/>
+      <edge id="143" source="country of citizenship::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12" target="end time::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12"/>
+      <edge id="144" source="country of citizenship::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12" target="end cause::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12"/>
+      <edge id="145" source="country of citizenship::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13" target="Robert Williams::Entity::Q7351116"/>
+      <edge id="146" source="country of citizenship::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13" target="end time::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13"/>
+      <edge id="147" source="country of citizenship::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13" target="end cause::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13"/>
+      <edge id="148" source="country of citizenship::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14" target="Robert Thornton::Entity::Q26308517"/>
+      <edge id="149" source="country of citizenship::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14" target="end time::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14"/>
+      <edge id="15" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1"/>
+      <edge id="150" source="country of citizenship::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14" target="end cause::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14"/>
+      <edge id="151" source="country of citizenship::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15" target="Charles Barclay::Entity::Q24239145"/>
+      <edge id="152" source="country of citizenship::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15" target="end time::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15"/>
+      <edge id="153" source="country of citizenship::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15" target="end cause::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15"/>
+      <edge id="154" source="country of citizenship::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16" target="Robert Downie::Entity::Q26213074"/>
+      <edge id="155" source="country of citizenship::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16" target="end time::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16"/>
+      <edge id="156" source="country of citizenship::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16" target="end cause::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16"/>
+      <edge id="157" source="country of citizenship::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17" target="Robert Hall::Entity::Q2157459"/>
+      <edge id="158" source="country of citizenship::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17" target="end time::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17"/>
+      <edge id="159" source="country of citizenship::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17" target="end cause::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17"/>
+      <edge id="16" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2"/>
+      <edge id="160" source="country of citizenship::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18" target="Robert Willis::Entity::Q4470020"/>
+      <edge id="161" source="country of citizenship::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18" target="end time::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18"/>
+      <edge id="162" source="country of citizenship::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18" target="end cause::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18"/>
+      <edge id="163" source="country of citizenship::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19" target="Robert Campbell::Entity::Q7342703"/>
+      <edge id="164" source="country of citizenship::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19" target="end time::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19"/>
+      <edge id="165" source="country of citizenship::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19" target="end cause::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19"/>
+      <edge id="166" source="country of citizenship::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20" target="Robert Curzon::Entity::Q7343265"/>
+      <edge id="167" source="country of citizenship::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20" target="end time::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20"/>
+      <edge id="168" source="country of citizenship::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20" target="end cause::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20"/>
+      <edge id="169" source="country of citizenship::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21" target="Robert Milligan::Entity::Q7347687"/>
+      <edge id="17" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3"/>
+      <edge id="170" source="country of citizenship::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21" target="end time::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21"/>
+      <edge id="171" source="country of citizenship::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21" target="end cause::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21"/>
+      <edge id="172" source="country of citizenship::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22" target="Robert Farrand::Entity::Q26220794"/>
+      <edge id="173" source="country of citizenship::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22" target="end time::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22"/>
+      <edge id="174" source="country of citizenship::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22" target="end cause::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22"/>
+      <edge id="175" source="country of citizenship::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23" target="Robert Graham::Entity::Q586655"/>
+      <edge id="176" source="country of citizenship::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23" target="end time::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23"/>
+      <edge id="177" source="country of citizenship::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23" target="end cause::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23"/>
+      <edge id="18" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4"/>
+      <edge id="19" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5"/>
+      <edge id="2" source="Robert Barclay Allardice::Entity::Q7341861" target="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2"/>
+      <edge id="20" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6"/>
+      <edge id="21" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7"/>
+      <edge id="22" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8"/>
+      <edge id="23" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9"/>
+      <edge id="24" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10"/>
+      <edge id="25" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11"/>
+      <edge id="26" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12"/>
+      <edge id="27" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13"/>
+      <edge id="28" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14"/>
+      <edge id="29" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15"/>
+      <edge id="3" source="Robert Barclay Allardice::Entity::Q7341861" target="country of citizenship::Predicate::q7341861-e9d8ff1cac6f93ed95bcb16dce448b92::1"/>
+      <edge id="30" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16"/>
+      <edge id="31" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17"/>
+      <edge id="32" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18"/>
+      <edge id="33" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19"/>
+      <edge id="34" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20"/>
+      <edge id="35" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21"/>
+      <edge id="36" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22"/>
+      <edge id="37" source="Great Britain::Entity::Q161885" target="country of citizenship::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23"/>
+      <edge id="38" source="end cause::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::1" target="Acts of Union 1800::Entity::Q343100"/>
+      <edge id="39" source="end time::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::1" target="1801-01-01::Entity::1801-01-01T00:00:00Z"/>
+      <edge id="4" source="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2" target="Great Britain::Entity::Q161885"/>
+      <edge id="40" source="contains administrative territorial entity::Predicate::q161885-2dab0a194c5da1f3f4d0be10c4a39195::1" target="England::Entity::Q21"/>
+      <edge id="41" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="point in time::Predicate::q161885-79079431373a1b49feb21c6a5024d245::1"/>
+      <edge id="42" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="dissolved, abolished or demolished date::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1"/>
+      <edge id="43" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::T-0"/>
+      <edge id="44" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0"/>
+      <edge id="45" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1"/>
+      <edge id="46" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2"/>
+      <edge id="47" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3"/>
+      <edge id="48" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4"/>
+      <edge id="49" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5"/>
+      <edge id="5" source="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2" target="end cause::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::1"/>
+      <edge id="50" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6"/>
+      <edge id="51" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7"/>
+      <edge id="52" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8"/>
+      <edge id="53" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9"/>
+      <edge id="54" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10"/>
+      <edge id="55" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11"/>
+      <edge id="56" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12"/>
+      <edge id="57" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13"/>
+      <edge id="58" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14"/>
+      <edge id="59" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15"/>
+      <edge id="6" source="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2" target="end time::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::1"/>
+      <edge id="60" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16"/>
+      <edge id="61" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17"/>
+      <edge id="62" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18"/>
+      <edge id="63" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19"/>
+      <edge id="64" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20"/>
+      <edge id="65" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21"/>
+      <edge id="66" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22"/>
+      <edge id="67" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="end time::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23"/>
+      <edge id="68" source="Acts of Union 1800::Entity::Q343100" target="has cause::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1"/>
+      <edge id="69" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::T-0"/>
+      <edge id="7" source="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2" target="end time::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::T-0"/>
+      <edge id="70" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q15999955-dce076122e9f6a734cbecd725e75cf70::T-0"/>
+      <edge id="71" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q1333287-29cd51f9b88b6d15806ec875ad47acfb::T-1"/>
+      <edge id="72" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q20804764-1aa99c44fc98073c5cb58c07929147c7::T-2"/>
+      <edge id="73" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7343690-12a72afe350692acb5a56d2db7696f35::T-3"/>
+      <edge id="74" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7348264-4e8d1b646e3d54b860a63933e9e44801::T-4"/>
+      <edge id="75" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q5929943-6a589d53ffe111c35ff5944a74187d3d::T-5"/>
+      <edge id="76" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7347619-773f567607d1cd8541ff2b8828f69180::T-6"/>
+      <edge id="77" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7350288-8c0d6a55b6c572a5fd0489d11e992891::T-7"/>
+      <edge id="78" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7350340-a49eaac7b8512734ec37fed22d12d37c::T-8"/>
+      <edge id="79" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q216838-aff0a47827f0d90df53460866d1d62bd::T-9"/>
+      <edge id="8" source="country of citizenship::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::2" target="end cause::Predicate::q7341861-1c9e47b4965311788a1e5abba062084e::T-0"/>
+      <edge id="80" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7349844-45451cf67ec945d50938b3252ba3a713::T-10"/>
+      <edge id="81" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q715460-63d8f4da907ad6b310da8c696662775d::T-11"/>
+      <edge id="82" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7348037-092496c30e3347531381d34843ea4f0c::T-12"/>
+      <edge id="83" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7351116-990671d52df9b5aa03fc495bb35a2bca::T-13"/>
+      <edge id="84" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q26308517-378c2e3b1a45de65204ee61f72c005f8::T-14"/>
+      <edge id="85" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q24239145-88614c397698fd2e3db3670ef063f2af::T-15"/>
+      <edge id="86" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q26213074-7d259f63c560d3858e62ba79c0afb486::T-16"/>
+      <edge id="87" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q2157459-5a1b74d83474bea65066a8154247bf91::T-17"/>
+      <edge id="88" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q4470020-b39a40b68c0ad0a1c61b82830d430a98::T-18"/>
+      <edge id="89" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7342703-f5161ea012521a039acc7c678b2d079b::T-19"/>
+      <edge id="9" source="Great Britain::Entity::Q161885" target="contains administrative territorial entity::Predicate::q161885-2dab0a194c5da1f3f4d0be10c4a39195::1"/>
+      <edge id="90" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7343265-d3e27d47d9c952141a48db6c3a3452a3::T-20"/>
+      <edge id="91" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q7347687-46c43be7820f7926e632901c34e35cc4::T-21"/>
+      <edge id="92" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q26220794-535794f55f2a0ece26fd506aeff70013::T-22"/>
+      <edge id="93" source="Acts of Union 1800::Entity::Q343100" target="end cause::Predicate::q586655-ef46c5b87af503652478e5a3c4383d32::T-23"/>
+      <edge id="94" source="country of citizenship::Predicate::q7341861-e9d8ff1cac6f93ed95bcb16dce448b92::1" target="United Kingdom of Great Britain and Ireland::Entity::Q174193"/>
+      <edge id="95" source="dissolved, abolished or demolished date::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1" target="has cause::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1"/>
+      <edge id="96" source="dissolved, abolished or demolished date::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1" target="replaced by::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1"/>
+      <edge id="97" source="point in time::Predicate::q161885-79079431373a1b49feb21c6a5024d245::1" target="replaced by::Predicate::q161885-79079431373a1b49feb21c6a5024d245::2"/>
+      <edge id="98" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="replaced by::Predicate::q161885-dee8ac912cf39d2fef7edb3f7a6a3de8::1"/>
+      <edge id="99" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="replaced by::Predicate::q161885-79079431373a1b49feb21c6a5024d245::2"/>
+    </edges>
+  </graph>
+</gexf>

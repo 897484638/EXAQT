@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1933-01-01::Entity::1933-01-01T00:00:00Z" label="1933-01-01">
+        <attvalues>
+          <attvalue for="label" value="1933-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="National Football League::Entity::Q1215884" label="National Football League">
+        <attvalues>
+          <attvalue for="label" value="National Football League"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Pittsburgh Steelers::Entity::Q191477" label="Pittsburgh Steelers">
+        <attvalues>
+          <attvalue for="label" value="Pittsburgh Steelers"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Rooney family::Entity::Q7366343" label="Rooney family">
+        <attvalues>
+          <attvalue for="label" value="Rooney family"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q191477-f856b6b4a5062fc65564f742a28d76ed::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q191477-788211c5c35d7c71038123dd23be3e10::1" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q191477-858f7482199a5faa0c8146326f3d37dc::1" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="inception::Predicate::q191477-f856b6b4a5062fc65564f742a28d76ed::1" target="Pittsburgh Steelers::Entity::Q191477" weight="0.9993927478790283" label="1"/>
+      <edge id="1" source="inception::Predicate::q191477-f856b6b4a5062fc65564f742a28d76ed::1" target="1933-01-01::Entity::1933-01-01T00:00:00Z" weight="0.9993927478790283" label="1"/>
+      <edge id="2" source="Pittsburgh Steelers::Entity::Q191477" target="league::Predicate::q191477-788211c5c35d7c71038123dd23be3e10::1" weight="0.8244513869285583" label="2"/>
+      <edge id="3" source="Pittsburgh Steelers::Entity::Q191477" target="owned by::Predicate::q191477-858f7482199a5faa0c8146326f3d37dc::1" weight="0.590183436870575" label="3"/>
+      <edge id="4" source="league::Predicate::q191477-788211c5c35d7c71038123dd23be3e10::1" target="National Football League::Entity::Q1215884" weight="0.8244513869285583" label="2"/>
+      <edge id="5" source="owned by::Predicate::q191477-858f7482199a5faa0c8146326f3d37dc::1" target="Rooney family::Entity::Q7366343" weight="0.590183436870575" label="3"/>
+    </edges>
+  </graph>
+</gexf>

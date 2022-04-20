@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1441-01-01" label="1441-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="5" />
+        </attvalues>
+      </node>
+      <node id="1938-01-01" label="1938-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1954-01-01" label="1954-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q11453" label="irrigation">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="1" />
+        </attvalues>
+      </node>
+      <node id="Q65561108" label="Dutch ordinary professor">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="3" />
+        </attvalues>
+      </node>
+      <node id="Q65769473" label="S.H.A Begemann">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="4" />
+        </attvalues>
+      </node>
+      <node id="Q752663" label="Delft University of Technology">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="2" />
+        </attvalues>
+      </node>
+      <node id="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q11453" target="1441-01-01" weight="0.036206237971782684: temporal predicate" label="time of discovery or invention: 5"><viz:shape value="solid" /><viz:thickness value="1.01693" /></edge>
+      <edge id="1" source="Q65769473" target="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" weight="0.5846526026725769: non-temporal predicate" label="employer: 3"><viz:shape value="solid" /><viz:thickness value="6.12874" /></edge>
+      <edge id="2" source="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" target="Q752663" weight="0.5846526026725769: non-temporal predicate" label="employer: 3"><viz:shape value="solid" /><viz:thickness value="6.12874" /></edge>
+      <edge id="3" source="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" target="1938-01-01" weight="0.7026886343955994: temporal predicate" label="start time: 2"><viz:shape value="solid" /><viz:thickness value="7.2289" /></edge>
+      <edge id="4" source="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" target="Q11453" weight="1.0: non-temporal predicate" label="field of work: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" target="Q65561108" weight="0.03439027816057205: non-temporal predicate" label="position held: 6"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="6" source="q65769473-d7e36b55e73545382c2e9b802bf4e1f6" target="1954-01-01" weight="0.5556086897850037: temporal predicate" label="end time: 4"><viz:shape value="solid" /><viz:thickness value="5.85803" /></edge>
+    </edges>
+  </graph>
+</gexf>

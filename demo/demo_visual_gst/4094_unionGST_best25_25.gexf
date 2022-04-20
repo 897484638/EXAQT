@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2001-01-01::Entity::2001-01-01T00:00:00Z" label="2001-01-01">
+        <attvalues>
+          <attvalue for="label" value="2001-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2009-01-01::Entity::2009-01-01T00:00:00Z" label="2009-01-01">
+        <attvalues>
+          <attvalue for="label" value="2009-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Gaël Brustier::Entity::Q19606883" label="Gaël Brustier">
+        <attvalues>
+          <attvalue for="label" value="Gaël Brustier" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="University of Strasbourg::Entity::Q157575" label="University of Strasbourg">
+        <attvalues>
+          <attvalue for="label" value="University of Strasbourg" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::15" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::16" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::18" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::6" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::19" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::9" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::8" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::10" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::17" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::15" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::16" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::18" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::19" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::9" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::8" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::10" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::17" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::12" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::13" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::17" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::15" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::16" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::5" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::7" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::14" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" target="educated at::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" weight="0.9966341853141785" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="end time::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" target="2009-01-01::Entity::2009-01-01T00:00:00Z" weight="0.9966341853141785" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::18" weight="0.9944372177124023" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::9" weight="0.9943155646324158" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::8" weight="0.9943146109580994" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::16" weight="0.9936158657073975" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="start time::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::17" target="2001-01-01::Entity::2001-01-01T00:00:00Z" weight="0.9966341853141785" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="end time::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::6" target="educated at::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::6" weight="0.9956520199775696" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="16" source="educated at::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::6" target="start time::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::4" weight="0.9956520199775696" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="17" source="educated at::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::15" target="end time::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::15" weight="0.9951769113540649" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="18" source="educated at::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::15" target="start time::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::12" weight="0.9951769113540649" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="19" source="end time::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::17" target="educated at::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::17" weight="0.9947348833084106" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="2" source="educated at::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" target="University of Strasbourg::Entity::Q157575" weight="0.9966341853141785" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="educated at::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::17" target="start time::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::14" weight="0.9947348833084106" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="end time::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::19" target="educated at::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::19" weight="0.9946810603141785" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="22" source="educated at::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::19" target="start time::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::16" weight="0.9946810603141785" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="23" source="end time::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::10" target="educated at::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::10" weight="0.9946200847625732" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="24" source="educated at::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::10" target="start time::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::7" weight="0.9946200847625732" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="25" source="end time::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::18" target="educated at::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::18" weight="0.9944372177124023" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="educated at::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::18" target="start time::Predicate::q1991719-9ceac45a756e42cc380301820a5f4e18::15" weight="0.9944372177124023" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="27" source="end time::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::9" target="educated at::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::9" weight="0.9943155646324158" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="28" source="educated at::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::9" target="start time::Predicate::q57771587-3e8d28ea380ea7f72563dada2d5a54d5::6" weight="0.9943155646324158" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="29" source="end time::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::8" target="educated at::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::8" weight="0.9943146109580994" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="educated at::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" target="start time::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::17" weight="0.9966341853141785" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="30" source="educated at::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::8" target="start time::Predicate::q5879-f81da1744675fae18e3ae3d624f1fef2::5" weight="0.9943146109580994" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="31" source="educated at::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::16" target="end time::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::16" weight="0.9936158657073975" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="32" source="educated at::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::16" target="start time::Predicate::q1096934-c08eebf3cf47f5301ceee27b24e99b69::13" weight="0.9936158657073975" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="educated at::Predicate::q19606883-bf856294018494b4fc0dc4718688091d::20" target="Gaël Brustier::Entity::Q19606883" weight="0.9966341853141785" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q56800132-c6ae95655e665875fd73cc1ad592e115::6" weight="0.9956520199775696" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q1000395-fbc0dc987bf2937a919cfcf0b2beda54::15" weight="0.9951769113540649" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q64026302-cb5a42132f2d600ba015c8dd273227a7::17" weight="0.9947348833084106" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q57562069-abafe332eae00a3df27131aa762b5645::19" weight="0.9946810603141785" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="University of Strasbourg::Entity::Q157575" target="educated at::Predicate::q58852689-4a082b9647372a0d4ad8932a63365faa::10" weight="0.9946200847625732" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

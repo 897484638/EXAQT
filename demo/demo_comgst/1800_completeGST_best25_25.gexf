@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1970-01-01::Entity::1970-01-01T00:00:00Z" label="1970-01-01">
+        <attvalues>
+          <attvalue for="label" value="1970-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1971-01-01::Entity::1971-01-01T00:00:00Z" label="1971-01-01">
+        <attvalues>
+          <attvalue for="label" value="1971-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="CBS::Entity::Q43380" label="CBS">
+        <attvalues>
+          <attvalue for="label" value="CBS"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Lassie::Entity::Q289537" label="Lassie">
+        <attvalues>
+          <attvalue for="label" value="Lassie"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="broadcast syndication::Entity::Q1572845" label="broadcast syndication">
+        <attvalues>
+          <attvalue for="label" value="broadcast syndication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="original broadcaster::Predicate::q289537-3ee3e2da10f1721d6545bf58a225cc1f::1" label="original broadcaster">
+        <attvalues>
+          <attvalue for="label" value="original broadcaster"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="original broadcaster::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::2" label="original broadcaster">
+        <attvalues>
+          <attvalue for="label" value="original broadcaster"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q289537-adc1ba4fda3bc9e7d41f3b11fc0d095d::2" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="original broadcaster::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::2" target="Lassie::Entity::Q289537" weight="0.9946578145027161" label="1"/>
+      <edge id="1" source="original broadcaster::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::2" target="broadcast syndication::Entity::Q1572845" weight="0.9946578145027161" label="1"/>
+      <edge id="2" source="original broadcaster::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::2" target="point in time::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::1" weight="0.9946578145027161" label="1"/>
+      <edge id="3" source="Lassie::Entity::Q289537" target="publication date::Predicate::q289537-adc1ba4fda3bc9e7d41f3b11fc0d095d::2" weight="0.25830918550491333" label="2"/>
+      <edge id="4" source="Lassie::Entity::Q289537" target="original broadcaster::Predicate::q289537-3ee3e2da10f1721d6545bf58a225cc1f::1" weight="0.013930718414485455" label="17"/>
+      <edge id="5" source="publication date::Predicate::q289537-adc1ba4fda3bc9e7d41f3b11fc0d095d::2" target="1970-01-01::Entity::1970-01-01T00:00:00Z" weight="0.25830918550491333" label="2"/>
+      <edge id="6" source="point in time::Predicate::q289537-a90e2d41422a3df768f18fbf288133a0::1" target="1971-01-01::Entity::1971-01-01T00:00:00Z" weight="0.9946578145027161" label="1"/>
+      <edge id="7" source="original broadcaster::Predicate::q289537-3ee3e2da10f1721d6545bf58a225cc1f::1" target="CBS::Entity::Q43380" weight="0.013930718414485455" label="17"/>
+    </edges>
+  </graph>
+</gexf>

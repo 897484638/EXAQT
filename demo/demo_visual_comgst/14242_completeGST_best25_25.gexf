@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Billy Currington::Entity::Q452441" label="Billy Currington">
+        <attvalues>
+          <attvalue for="label" value="Billy Currington" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Little Bit of Everything::Entity::Q6649132" label="Little Bit of Everything">
+        <attvalues>
+          <attvalue for="label" value="Little Bit of Everything" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Tangled Up::Entity::Q19897911" label="Tangled Up">
+        <attvalues>
+          <attvalue for="label" value="Tangled Up" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Wake Me Up::Entity::Q48965421" label="Wake Me Up">
+        <attvalues>
+          <attvalue for="label" value="Wake Me Up" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q19897911-b1eebf8aa33c70c126ca5b6dc83a36e2::11" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q48965421-dc92a2ab38bd1c5a4d79755dee078d5c::24" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q6649132-4c90fd3683fe19cc10e6e42a42160a19::10" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Billy Currington::Entity::Q452441" target="performer::Predicate::q6649132-4c90fd3683fe19cc10e6e42a42160a19::10" weight="0.9989975094795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Billy Currington::Entity::Q452441" target="performer::Predicate::q48965421-dc92a2ab38bd1c5a4d79755dee078d5c::24" weight="0.9989521503448486" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Billy Currington::Entity::Q452441" target="performer::Predicate::q19897911-b1eebf8aa33c70c126ca5b6dc83a36e2::11" weight="0.9989494681358337" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="performer::Predicate::q6649132-4c90fd3683fe19cc10e6e42a42160a19::10" target="Little Bit of Everything::Entity::Q6649132" weight="0.9989975094795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="performer::Predicate::q48965421-dc92a2ab38bd1c5a4d79755dee078d5c::24" target="Wake Me Up::Entity::Q48965421" weight="0.9989521503448486" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="performer::Predicate::q19897911-b1eebf8aa33c70c126ca5b6dc83a36e2::11" target="Tangled Up::Entity::Q19897911" weight="0.9989494681358337" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

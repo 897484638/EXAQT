@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Consumer Electronics Bus::Entity::Q458152" label="Consumer Electronics Bus">
+        <attvalues>
+          <attvalue for="label" value="Consumer Electronics Bus" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="NetFlow::Entity::Q219363" label="NetFlow">
+        <attvalues>
+          <attvalue for="label" value="NetFlow" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="NetWare::Entity::Q691990" label="NetWare">
+        <attvalues>
+          <attvalue for="label" value="NetWare" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Novell Open Enterprise Server::Entity::Q1197839" label="Novell Open Enterprise Server">
+        <attvalues>
+          <attvalue for="label" value="Novell Open Enterprise Server" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="UDP-based Data Transfer Protocol::Entity::Q21570171" label="UDP-based Data Transfer Protocol">
+        <attvalues>
+          <attvalue for="label" value="UDP-based Data Transfer Protocol" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="WebTorrent::Entity::Q52233158" label="WebTorrent">
+        <attvalues>
+          <attvalue for="label" value="WebTorrent" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="communications protocol::Entity::Q132364" label="communications protocol">
+        <attvalues>
+          <attvalue for="label" value="communications protocol" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q219363-f20ab65de8960f433437d8ae1ea9717b::22" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q458152-b869c26fa3ec8cb9ccfb5e255be8a3e2::19" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q1197839-7b9705ac9eb53a519021c4f05c0ddffc::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="use::Predicate::q21570171-ed2dcccaf0f4175ea7301b705fb33ebd::1" label="use">
+        <attvalues>
+          <attvalue for="label" value="use" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="use::Predicate::q52233158-a87037892cd57089762ebd4d1e258031::2" label="use">
+        <attvalues>
+          <attvalue for="label" value="use" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="NetWare::Entity::Q691990" target="replaces::Predicate::q1197839-7b9705ac9eb53a519021c4f05c0ddffc::1" weight="0.915501058101654" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="replaces::Predicate::q1197839-7b9705ac9eb53a519021c4f05c0ddffc::1" target="Novell Open Enterprise Server::Entity::Q1197839" weight="0.915501058101654" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="use::Predicate::q21570171-ed2dcccaf0f4175ea7301b705fb33ebd::1" target="communications protocol::Entity::Q132364" weight="0.9270445108413696" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="use::Predicate::q21570171-ed2dcccaf0f4175ea7301b705fb33ebd::1" target="UDP-based Data Transfer Protocol::Entity::Q21570171" weight="0.9270445108413696" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="communications protocol::Entity::Q132364" target="instance of::Predicate::q219363-f20ab65de8960f433437d8ae1ea9717b::22" weight="0.9834516048431396" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="communications protocol::Entity::Q132364" target="use::Predicate::q52233158-a87037892cd57089762ebd4d1e258031::2" weight="0.9036447405815125" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="communications protocol::Entity::Q132364" target="instance of::Predicate::q458152-b869c26fa3ec8cb9ccfb5e255be8a3e2::19" weight="0.9594122171401978" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="instance of::Predicate::q219363-f20ab65de8960f433437d8ae1ea9717b::22" target="NetFlow::Entity::Q219363" weight="0.9834516048431396" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="use::Predicate::q52233158-a87037892cd57089762ebd4d1e258031::2" target="WebTorrent::Entity::Q52233158" weight="0.9036447405815125" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="instance of::Predicate::q458152-b869c26fa3ec8cb9ccfb5e255be8a3e2::19" target="Consumer Electronics Bus::Entity::Q458152" weight="0.9594122171401978" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

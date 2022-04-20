@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+34::Entity::+34" label="+34">
+        <attvalues>
+          <attvalue for="label" value="+34"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Baltimore Ravens::Entity::Q276539" label="Baltimore Ravens">
+        <attvalues>
+          <attvalue for="label" value="Baltimore Ravens"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Super Bowl XLVII::Entity::Q126291" label="Super Bowl XLVII">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XLVII"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Super Bowl XXXV::Entity::Q625210" label="Super Bowl XXXV">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XXXV"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q278064-3314e13de994d97ea744be61733953f1::1" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="home venue::Predicate::q276539-6c1a88cd0663d6d17be5c0115a5b6c02::1" label="home venue">
+        <attvalues>
+          <attvalue for="label" value="home venue"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q276539-fac62f2a20fcc163c3667f74ff0755a7::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q276539-14c48cdba0ec660f15f0a338521caa00::1" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q625210-2b4f1d85673a5ffc9f9e7e98dcdc4dde::2" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q276539-561a39075f9646e9b5baeea43cf9e930::1" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q43083016-4c8b74de2acf9e773f56df38e2d8e583::4" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q625210-2b4f1d85673a5ffc9f9e7e98dcdc4dde::3" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q625210-521205c7f04d24f03c999057cafb32a2::2" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q16956071-47202f7f2f5a33b7c726b8f66f987672::12" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q2656080-10dc36d2ecf946fa8c5a7c733d99c84c::1" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q4608036-65bbedbf87905d3183a7dda3e7a503cb::7" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q4610582-17410d6aad603d8aa4145b0bfa6d22f5::4" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q4613336-3a4a235d8fd87c6ef37d9498eec9a4dc::13" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q4616716-d8608c6151d995e5526dee517f5433aa::8" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q4620482-ca6cd5d83ef8b12dd271bad76ec34b8e::11" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="season of club or team::Predicate::q4624867-7502aef0501946e9b5c8b231c188fe6f::2" label="season of club or team">
+        <attvalues>
+          <attvalue for="label" value="season of club or team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q126291-39db307bef0c271eddc41806aaad9318::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q625210-47a037968df83b34d203d7da3fe51fd8::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Baltimore Ravens::Entity::Q276539" target="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" weight="0.9994415640830994" label="1"/>
+      <edge id="1" source="Baltimore Ravens::Entity::Q276539" target="participating team::Predicate::q625210-2b4f1d85673a5ffc9f9e7e98dcdc4dde::3" weight="0.9992793202400208" label="2"/>
+      <edge id="10" source="Baltimore Ravens::Entity::Q276539" target="instance of::Predicate::q276539-fac62f2a20fcc163c3667f74ff0755a7::1" weight="0.007244747597724199" label="11"/>
+      <edge id="11" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q4616716-d8608c6151d995e5526dee517f5433aa::8" weight="0.006780667696148157" label="12"/>
+      <edge id="12" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q4610582-17410d6aad603d8aa4145b0bfa6d22f5::4" weight="0.006521427072584629" label="13"/>
+      <edge id="13" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q16956071-47202f7f2f5a33b7c726b8f66f987672::12" weight="0.006383340805768967" label="14"/>
+      <edge id="14" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q4620482-ca6cd5d83ef8b12dd271bad76ec34b8e::11" weight="0.00624388363212347" label="15"/>
+      <edge id="15" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q2656080-10dc36d2ecf946fa8c5a7c733d99c84c::1" weight="0.006239777896553278" label="16"/>
+      <edge id="16" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q4608036-65bbedbf87905d3183a7dda3e7a503cb::7" weight="0.006153674330562353" label="17"/>
+      <edge id="17" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q4624867-7502aef0501946e9b5c8b231c188fe6f::2" weight="0.005984966643154621" label="18"/>
+      <edge id="18" source="Baltimore Ravens::Entity::Q276539" target="season of club or team::Predicate::q4613336-3a4a235d8fd87c6ef37d9498eec9a4dc::13" weight="0.005965178832411766" label="19"/>
+      <edge id="19" source="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" target="Super Bowl XLVII::Entity::Q126291" weight="0.9994415640830994" label="1"/>
+      <edge id="2" source="Baltimore Ravens::Entity::Q276539" target="participating team::Predicate::q625210-521205c7f04d24f03c999057cafb32a2::2" weight="0.9990137815475464" label="3"/>
+      <edge id="20" source="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" target="number of points/goals/set scored::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" weight="0.9994415640830994" label="1"/>
+      <edge id="21" source="participating team::Predicate::q625210-2b4f1d85673a5ffc9f9e7e98dcdc4dde::3" target="Super Bowl XXXV::Entity::Q625210" weight="0.9992793202400208" label="2"/>
+      <edge id="22" source="participating team::Predicate::q625210-2b4f1d85673a5ffc9f9e7e98dcdc4dde::3" target="number of points/goals/set scored::Predicate::q625210-2b4f1d85673a5ffc9f9e7e98dcdc4dde::2" weight="0.9992793202400208" label="2"/>
+      <edge id="23" source="number of points/goals/set scored::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" target="+34::Entity::+34" weight="0.9994415640830994" label="1"/>
+      <edge id="3" source="Baltimore Ravens::Entity::Q276539" target="winner::Predicate::q126291-39db307bef0c271eddc41806aaad9318::1" weight="0.9989297986030579" label="4"/>
+      <edge id="4" source="Baltimore Ravens::Entity::Q276539" target="winner::Predicate::q625210-47a037968df83b34d203d7da3fe51fd8::2" weight="0.9984151124954224" label="5"/>
+      <edge id="5" source="Baltimore Ravens::Entity::Q276539" target="participating team::Predicate::q43083016-4c8b74de2acf9e773f56df38e2d8e583::4" weight="0.04153427854180336" label="6"/>
+      <edge id="6" source="Baltimore Ravens::Entity::Q276539" target="part of::Predicate::q276539-561a39075f9646e9b5baeea43cf9e930::1" weight="0.016171708703041077" label="7"/>
+      <edge id="7" source="Baltimore Ravens::Entity::Q276539" target="home venue::Predicate::q276539-6c1a88cd0663d6d17be5c0115a5b6c02::1" weight="0.01569303311407566" label="8"/>
+      <edge id="8" source="Baltimore Ravens::Entity::Q276539" target="has part::Predicate::q278064-3314e13de994d97ea744be61733953f1::1" weight="0.015040615573525429" label="9"/>
+      <edge id="9" source="Baltimore Ravens::Entity::Q276539" target="league::Predicate::q276539-14c48cdba0ec660f15f0a338521caa00::1" weight="0.009263421408832073" label="10"/>
+    </edges>
+  </graph>
+</gexf>

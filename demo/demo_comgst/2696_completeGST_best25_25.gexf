@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Avril Lavigne::Entity::Avril Lavigne" label="Avril Lavigne">
+        <attvalues>
+          <attvalue for="label" value="Avril Lavigne"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Avril Lavigne::Entity::Q30449" label="Avril Lavigne">
+        <attvalues>
+          <attvalue for="label" value="Avril Lavigne"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Belleville::Entity::Q34227" label="Belleville">
+        <attvalues>
+          <attvalue for="label" value="Belleville"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Commons gallery::Predicate::q30449-b10fb6fad8d92239110564cee2f56649::1" label="Commons gallery">
+        <attvalues>
+          <attvalue for="label" value="Commons gallery"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Iron Cross::Entity::Q1673071" label="Iron Cross">
+        <attvalues>
+          <attvalue for="label" value="Iron Cross"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Los Angeles::Entity::Q65" label="Los Angeles">
+        <attvalues>
+          <attvalue for="label" value="Los Angeles"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Washington, D.C.::Entity::Q61" label="Washington, D.C.">
+        <attvalues>
+          <attvalue for="label" value="Washington, D.C."/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="location of formation::Predicate::q1673071-4ad7eeb7e69c8c925a339bf7769c8fb1::1" label="location of formation">
+        <attvalues>
+          <attvalue for="label" value="location of formation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q30449-48b9e969c21f50d06679f1b7b207e149::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q30449-0a5e6b08bcd8194e760d48bc308ee007::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="residence::Predicate::q30449-0a5e6b08bcd8194e760d48bc308ee007::1" target="Avril Lavigne::Entity::Q30449" weight="0.9995648264884949" label="1"/>
+      <edge id="1" source="residence::Predicate::q30449-0a5e6b08bcd8194e760d48bc308ee007::1" target="Los Angeles::Entity::Q65" weight="0.9995648264884949" label="1"/>
+      <edge id="2" source="Avril Lavigne::Entity::Q30449" target="place of birth::Predicate::q30449-48b9e969c21f50d06679f1b7b207e149::1" weight="0.9860851764678955" label="3"/>
+      <edge id="3" source="Avril Lavigne::Entity::Q30449" target="Commons gallery::Predicate::q30449-b10fb6fad8d92239110564cee2f56649::1" weight="0.6315734386444092" label="4"/>
+      <edge id="4" source="place of birth::Predicate::q30449-48b9e969c21f50d06679f1b7b207e149::1" target="Belleville::Entity::Q34227" weight="0.9860851764678955" label="3"/>
+      <edge id="5" source="Commons gallery::Predicate::q30449-b10fb6fad8d92239110564cee2f56649::1" target="Avril Lavigne::Entity::Avril Lavigne" weight="0.6315734386444092" label="4"/>
+      <edge id="6" source="Iron Cross::Entity::Q1673071" target="location of formation::Predicate::q1673071-4ad7eeb7e69c8c925a339bf7769c8fb1::1" weight="0.038390710949897766" label="7"/>
+      <edge id="7" source="location of formation::Predicate::q1673071-4ad7eeb7e69c8c925a339bf7769c8fb1::1" target="Washington, D.C.::Entity::Q61" weight="0.038390710949897766" label="7"/>
+    </edges>
+  </graph>
+</gexf>

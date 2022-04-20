@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1949-05-26" label="1949-05-26">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="1"/>
+        </attvalues>
+      </node>
+      <node id="1957-01-01" label="1957-01-01">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="1972-12-12" label="1972-12-12">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="4"/>
+        </attvalues>
+      </node>
+      <node id="1988-01-01" label="1988-01-01">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="3"/>
+        </attvalues>
+      </node>
+      <node id="1991-01-01" label="1991-01-01">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="2"/>
+        </attvalues>
+      </node>
+      <node id="Q18149622" label="Country Music Association Award for Entertainer of the Year">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q552819" label="Hank Williams, Jr.">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q6581097" label="male">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q741600" label="Hank Williams III">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="q18149622-9279c8ef1ea50a251aac878ed8ecbd05" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q552819" target="1949-05-26" weight="0.051556650549173355: temporal predicate" label="date of birth: 6"/>
+      <edge id="1" source="Q552819" target="1957-01-01" weight="1.0: temporal predicate" label="work period (start): 1"/>
+      <edge id="2" source="Q552819" target="Q6581097" weight="0.007686047349125147: non-temporal predicate" label="sex or gender: 8"/>
+      <edge id="3" source="Q18149622" target="q18149622-9279c8ef1ea50a251aac878ed8ecbd05" weight="0.16480684280395508: non-temporal predicate" label="winner: 5"/>
+      <edge id="4" source="q18149622-9279c8ef1ea50a251aac878ed8ecbd05" target="Q552819" weight="0.16480684280395508: non-temporal predicate" label="winner: 5"/>
+      <edge id="5" source="q18149622-9279c8ef1ea50a251aac878ed8ecbd05" target="1988-01-01" weight="0.265186607837677: temporal predicate" label="point in time: 4"/>
+      <edge id="6" source="Q741600" target="1972-12-12" weight="0.042445696890354156: temporal predicate" label="date of birth: 7"/>
+      <edge id="7" source="Q741600" target="1991-01-01" weight="0.293744832277298: temporal predicate" label="work period (start): 2"/>
+      <edge id="8" source="Q741600" target="Q552819" weight="0.2840701937675476: non-temporal predicate" label="father: 3"/>
+    </edges>
+  </graph>
+</gexf>

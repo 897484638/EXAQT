@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Australia::Entity::Q408" label="Australia">
+        <attvalues>
+          <attvalue for="label" value="Australia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Prime Minister of Australia::Entity::Q319145" label="Prime Minister of Australia">
+        <attvalues>
+          <attvalue for="label" value="Prime Minister of Australia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="prime minister::Entity::Q14212" label="prime minister">
+        <attvalues>
+          <attvalue for="label" value="prime minister" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Prime Minister of Australia::Entity::Q319145" target="subclass of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" weight="0.0063596428371965885" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="subclass of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" target="of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" weight="0.0063596428371965885" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="subclass of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" target="prime minister::Entity::Q14212" weight="0.0063596428371965885" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="of::Predicate::q319145-b2fe9ece2511c932d0ae043fc1fe1fbd::1" target="Australia::Entity::Q408" weight="0.0063596428371965885" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

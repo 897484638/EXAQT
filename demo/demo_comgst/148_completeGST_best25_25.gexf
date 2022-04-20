@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2014-04-29::Entity::2014-04-29T00:00:00Z" label="2014-04-29">
+        <attvalues>
+          <attvalue for="label" value="2014-04-29"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2014-12-09::Entity::2014-12-09T00:00:00Z" label="2014-12-09">
+        <attvalues>
+          <attvalue for="label" value="2014-12-09"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Calabria::Entity::Q1458" label="Calabria">
+        <attvalues>
+          <attvalue for="label" value="Calabria"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Giuseppe Scopelliti::Entity::Q3771430" label="Giuseppe Scopelliti">
+        <attvalues>
+          <attvalue for="label" value="Giuseppe Scopelliti"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Mario Oliverio::Entity::Q3848876" label="Mario Oliverio">
+        <attvalues>
+          <attvalue for="label" value="Mario Oliverio"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::2" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" target="head of government::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" weight="0.9997487664222717" label="1"/>
+      <edge id="1" source="end time::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" target="2014-04-29::Entity::2014-04-29T00:00:00Z" weight="0.9997487664222717" label="1"/>
+      <edge id="2" source="head of government::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" target="Calabria::Entity::Q1458" weight="0.9997487664222717" label="1"/>
+      <edge id="3" source="head of government::Predicate::q1458-4801542c79f876fb5fad42feef757aa6::1" target="Giuseppe Scopelliti::Entity::Q3771430" weight="0.9997487664222717" label="1"/>
+      <edge id="4" source="Calabria::Entity::Q1458" target="head of government::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::2" weight="0.9997137188911438" label="2"/>
+      <edge id="5" source="head of government::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::2" target="start time::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::1" weight="0.9997137188911438" label="2"/>
+      <edge id="6" source="head of government::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::2" target="Mario Oliverio::Entity::Q3848876" weight="0.9997137188911438" label="2"/>
+      <edge id="7" source="start time::Predicate::q1458-9da915fc5d419dda10f8518fba63e1cc::1" target="2014-12-09::Entity::2014-12-09T00:00:00Z" weight="0.9997137188911438" label="2"/>
+    </edges>
+  </graph>
+</gexf>

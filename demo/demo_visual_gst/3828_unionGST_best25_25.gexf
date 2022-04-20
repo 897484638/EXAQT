@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1996-01-01::Entity::1996-01-01T00:00:00Z" label="1996-01-01">
+        <attvalues>
+          <attvalue for="label" value="1996-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2004-01-01::Entity::2004-01-01T00:00:00Z" label="2004-01-01">
+        <attvalues>
+          <attvalue for="label" value="2004-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2010-01-01::Entity::2010-01-01T00:00:00Z" label="2010-01-01">
+        <attvalues>
+          <attvalue for="label" value="2010-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Bomis::Entity::Q935818" label="Bomis">
+        <attvalues>
+          <attvalue for="label" value="Bomis" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Jimmy Wales::Entity::Q181" label="Jimmy Wales">
+        <attvalues>
+          <attvalue for="label" value="Jimmy Wales" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Primetime Emmy Award for Outstanding Variety, Music or Comedy Series::Entity::Q7243517" label="Primetime Emmy Award for Outstanding Variety, Music or Comedy Series">
+        <attvalues>
+          <attvalue for="label" value="Primetime Emmy Award for Outstanding Variety, Music or Comedy Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="The Colbert Report::Entity::Q1130799" label="The Colbert Report">
+        <attvalues>
+          <attvalue for="label" value="The Colbert Report" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1130799-ecd26f33f0d64b793f1163b3aba11f99::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q935818-5b18928fd11aba31e0d18e4deb5cab50::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q935818-b1785847ed737215412e1193af231cb6::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-0af45773134dc604555efcd7c9b8c20d::6" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-1864ab4f71ed4f8e6ea31ea0454ac56c::8" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-58164b0cc1325bb2b643618cc788ca48::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-5aef9cb0219222debd89bed0b503d84f::13" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-6f59ae954f4f916effa1fd286a2c176c::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-9eb5b650d25a49e64c18c7f913a605bf::14" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-a1ef2af27a87ce5cd3f5c5e5eb3f71b8::12" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-b51a2616491d9abb75671d4599266e10::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-b66ec8f1be6fb27f3a8296837f56a574::4" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-dcc204496eb6665ca526fa997f14807c::15" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1130799-fb701a6fe03cc82ca7c605a7f467bd6c::7" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q1130799-6136c57342b84e0da5b55ba776f7ac59::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" weight="0.17130175232887268" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="The Colbert Report::Entity::Q1130799" target="publication date::Predicate::q1130799-6136c57342b84e0da5b55ba776f7ac59::1" weight="0.4829982817173004" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="10" source="The Colbert Report::Entity::Q1130799" target="award received::Predicate::q1130799-ecd26f33f0d64b793f1163b3aba11f99::1" weight="0.17580752074718475" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-5aef9cb0219222debd89bed0b503d84f::13" weight="0.170619934797287" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-a1ef2af27a87ce5cd3f5c5e5eb3f71b8::12" weight="0.16442011296749115" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-0af45773134dc604555efcd7c9b8c20d::6" weight="0.164204403758049" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="nominated for::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" target="point in time::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" weight="0.17130175232887268" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="nominated for::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" target="Primetime Emmy Award for Outstanding Variety, Music or Comedy Series::Entity::Q7243517" weight="0.17130175232887268" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="point in time::Predicate::q1130799-c3747b1810fe10ec0a95602eb73a37e3::16" target="2010-01-01::Entity::2010-01-01T00:00:00Z" weight="0.17130175232887268" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="2010-01-01::Entity::2010-01-01T00:00:00Z" target="end time::Predicate::q935818-5b18928fd11aba31e0d18e4deb5cab50::1" weight="0.9556002616882324" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="Bomis::Entity::Q935818" target="end time::Predicate::q935818-5b18928fd11aba31e0d18e4deb5cab50::1" weight="0.9556002616882324" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="Bomis::Entity::Q935818" target="employer::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" weight="0.9941273927688599" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-58164b0cc1325bb2b643618cc788ca48::3" weight="0.2991144061088562" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="20" source="Bomis::Entity::Q935818" target="inception::Predicate::q935818-b1785847ed737215412e1193af231cb6::1" weight="0.6520490050315857" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="employer::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" target="Jimmy Wales::Entity::Q181" weight="0.9941273927688599" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="employer::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" target="end time::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::2" weight="0.9941273927688599" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="employer::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" target="start time::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" weight="0.9941273927688599" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="end time::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::2" target="2004-01-01::Entity::2004-01-01T00:00:00Z" weight="0.9941273927688599" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="start time::Predicate::q181-15ab000fdc5edf3d1120714d3134857b::1" target="1996-01-01::Entity::1996-01-01T00:00:00Z" weight="0.9941273927688599" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-fb701a6fe03cc82ca7c605a7f467bd6c::7" weight="0.2694351375102997" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-9eb5b650d25a49e64c18c7f913a605bf::14" weight="0.2617062032222748" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-6f59ae954f4f916effa1fd286a2c176c::1" weight="0.23947679996490479" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-b66ec8f1be6fb27f3a8296837f56a574::4" weight="0.21319930255413055" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-dcc204496eb6665ca526fa997f14807c::15" weight="0.19238027930259705" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-1864ab4f71ed4f8e6ea31ea0454ac56c::8" weight="0.18878455460071564" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="The Colbert Report::Entity::Q1130799" target="nominated for::Predicate::q1130799-b51a2616491d9abb75671d4599266e10::2" weight="0.18618766963481903" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

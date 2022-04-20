@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Chandragupta Maurya::Entity::Q188541" label="Chandragupta Maurya">
+        <attvalues>
+          <attvalue for="label" value="Chandragupta Maurya"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mahajanapada::Entity::Q846025" label="Mahajanapada">
+        <attvalues>
+          <attvalue for="label" value="Mahajanapada"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Maurya Empire::Entity::Q62943" label="Maurya Empire">
+        <attvalues>
+          <attvalue for="label" value="Maurya Empire"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Nanda dynasty::Entity::Q56654141" label="Nanda dynasty">
+        <attvalues>
+          <attvalue for="label" value="Nanda dynasty"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Satavahana dynasty::Entity::Q5257" label="Satavahana dynasty">
+        <attvalues>
+          <attvalue for="label" value="Satavahana dynasty"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q62943-1f90aeb918536f2f4cfb81bc4317dffb::1" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q62943-71e4afd128694ede05e3a6c63a4d5cef::3" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q62943-3022a341e67f7cc31a9660068866b553::2" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q62943-afb8a8081e19399ca73f4e5c19506268::3" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Maurya Empire::Entity::Q62943" target="founded by::Predicate::q62943-1f90aeb918536f2f4cfb81bc4317dffb::1" weight="0.9972366094589233" label="1"/>
+      <edge id="1" source="Maurya Empire::Entity::Q62943" target="replaces::Predicate::q62943-afb8a8081e19399ca73f4e5c19506268::3" weight="0.9971548318862915" label="2"/>
+      <edge id="2" source="Maurya Empire::Entity::Q62943" target="replaces::Predicate::q62943-3022a341e67f7cc31a9660068866b553::2" weight="0.9966002106666565" label="3"/>
+      <edge id="3" source="Maurya Empire::Entity::Q62943" target="replaced by::Predicate::q62943-71e4afd128694ede05e3a6c63a4d5cef::3" weight="0.9965975880622864" label="4"/>
+      <edge id="4" source="founded by::Predicate::q62943-1f90aeb918536f2f4cfb81bc4317dffb::1" target="Chandragupta Maurya::Entity::Q188541" weight="0.9972366094589233" label="1"/>
+      <edge id="5" source="replaces::Predicate::q62943-afb8a8081e19399ca73f4e5c19506268::3" target="Nanda dynasty::Entity::Q56654141" weight="0.9971548318862915" label="2"/>
+      <edge id="6" source="replaces::Predicate::q62943-3022a341e67f7cc31a9660068866b553::2" target="Mahajanapada::Entity::Q846025" weight="0.9966002106666565" label="3"/>
+      <edge id="7" source="replaced by::Predicate::q62943-71e4afd128694ede05e3a6c63a4d5cef::3" target="Satavahana dynasty::Entity::Q5257" weight="0.9965975880622864" label="4"/>
+    </edges>
+  </graph>
+</gexf>

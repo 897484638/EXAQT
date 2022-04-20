@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Keanu Reeves::Entity::Q43416" label="Keanu Reeves">
+        <attvalues>
+          <attvalue for="label" value="Keanu Reeves" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sandra Bullock::Entity::Q40791" label="Sandra Bullock">
+        <attvalues>
+          <attvalue for="label" value="Sandra Bullock" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Speed::Entity::Q108006" label="Speed">
+        <attvalues>
+          <attvalue for="label" value="Speed" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q108006-c631c04f6c876ccaa41658a446ca4fa8::22" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q108006-e18c68690107516dab5f1a3218e480e0::10" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Sandra Bullock::Entity::Q40791" target="cast member::Predicate::q108006-e18c68690107516dab5f1a3218e480e0::10" weight="0.9932119846343994" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="cast member::Predicate::q108006-e18c68690107516dab5f1a3218e480e0::10" target="Speed::Entity::Q108006" weight="0.9932119846343994" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Speed::Entity::Q108006" target="cast member::Predicate::q108006-c631c04f6c876ccaa41658a446ca4fa8::22" weight="0.993232011795044" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="cast member::Predicate::q108006-c631c04f6c876ccaa41658a446ca4fa8::22" target="Keanu Reeves::Entity::Q43416" weight="0.993232011795044" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

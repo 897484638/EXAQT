@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Internet::Entity::Q75" label="Internet">
+        <attvalues>
+          <attvalue for="label" value="Internet" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Intertelecom::Entity::Q4202137" label="Intertelecom">
+        <attvalues>
+          <attvalue for="label" value="Intertelecom" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Telekom Romania::Entity::Q5174635" label="Telekom Romania">
+        <attvalues>
+          <attvalue for="label" value="Telekom Romania" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Telia Lietuva::Entity::Q29158568" label="Telia Lietuva">
+        <attvalues>
+          <attvalue for="label" value="Telia Lietuva" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Uber Eats::Entity::Q21462723" label="Uber Eats">
+        <attvalues>
+          <attvalue for="label" value="Uber Eats" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Uber Fleet::Entity::Q61058574" label="Uber Fleet">
+        <attvalues>
+          <attvalue for="label" value="Uber Fleet" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Uber Movement::Entity::Q60229362" label="Uber Movement">
+        <attvalues>
+          <attvalue for="label" value="Uber Movement" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Uber rideshare service::Entity::Q61058590" label="Uber rideshare service">
+        <attvalues>
+          <attvalue for="label" value="Uber rideshare service" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Uber::Entity::Q780442" label="Uber">
+        <attvalues>
+          <attvalue for="label" value="Uber" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q6055991-d89e158099915b91a4aa1405981fe252::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q780442-fd426a5eebec0cf392b55135d7910e77::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="developer::Predicate::q21462723-af376ed895da7200a37cb9b859aa739e::2" label="developer">
+        <attvalues>
+          <attvalue for="label" value="developer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="developer::Predicate::q60229362-7f91d1495c8347d857eeedcdda3dacbc::1" label="developer">
+        <attvalues>
+          <attvalue for="label" value="developer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="headquarters location::Predicate::q780442-fd426a5eebec0cf392b55135d7910e77::1" label="headquarters location">
+        <attvalues>
+          <attvalue for="label" value="headquarters location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="industry::Predicate::q780442-09383824412a3af926c63e0112dc76f0::2" label="industry">
+        <attvalues>
+          <attvalue for="label" value="industry" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="operator::Predicate::q61058590-83708622641bf976ec042398d0cff43e::1" label="operator">
+        <attvalues>
+          <attvalue for="label" value="operator" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q1668024-37e8af8a2d2e1b326439f761394b3b74::1" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q29158568-e2d1348bdafcbc07393965922a86ca37::9" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q4202137-72c8466bb80ad23ce8309e9474fb7ca5::7" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q5174635-f6fe7aecd4f935282b376affe4a0f264::6" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q780442-499f4bf1e3224dcd246ad2056240eb42::3" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q780442-8ae35557f2160fb45463ca66c65dead6::2" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q780442-db3af7839ce849356a018e5ef576b687::1" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q780442-dc5745b01ed352e263ab785be2b69276::4" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="product or material produced::Predicate::q84424447-3ab2d0871291ad5ccb418649e2d914a1::8" label="product or material produced">
+        <attvalues>
+          <attvalue for="label" value="product or material produced" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q6055991-d89e158099915b91a4aa1405981fe252::2" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Uber::Entity::Q780442" target="headquarters location::Predicate::q780442-fd426a5eebec0cf392b55135d7910e77::1" weight="0.25468140840530396" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Uber::Entity::Q780442" target="product or material produced::Predicate::q780442-dc5745b01ed352e263ab785be2b69276::4" weight="0.9990625977516174" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="country::Predicate::q780442-fd426a5eebec0cf392b55135d7910e77::1" target="United States::Entity::Q30" weight="0.25468140840530396" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="United States::Entity::Q30" target="country::Predicate::q6055991-d89e158099915b91a4aa1405981fe252::2" weight="0.007771894335746765" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="country::Predicate::q6055991-d89e158099915b91a4aa1405981fe252::2" target="subclass of::Predicate::q6055991-d89e158099915b91a4aa1405981fe252::2" weight="0.007771894335746765" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="subclass of::Predicate::q6055991-d89e158099915b91a4aa1405981fe252::2" target="Internet::Entity::Q75" weight="0.007771894335746765" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Internet::Entity::Q75" target="product or material produced::Predicate::q4202137-72c8466bb80ad23ce8309e9474fb7ca5::7" weight="0.9931640028953552" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="15" source="Internet::Entity::Q75" target="product or material produced::Predicate::q5174635-f6fe7aecd4f935282b376affe4a0f264::6" weight="0.9920273423194885" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="Internet::Entity::Q75" target="product or material produced::Predicate::q29158568-e2d1348bdafcbc07393965922a86ca37::9" weight="0.9797375798225403" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="17" source="Internet::Entity::Q75" target="product or material produced::Predicate::q84424447-3ab2d0871291ad5ccb418649e2d914a1::8" weight="0.9675920605659485" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Internet::Entity::Q75" target="part of::Predicate::q1668024-37e8af8a2d2e1b326439f761394b3b74::1" weight="0.9599136710166931" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="product or material produced::Predicate::q780442-dc5745b01ed352e263ab785be2b69276::4" target="Uber rideshare service::Entity::Q61058590" weight="0.9990625977516174" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Uber::Entity::Q780442" target="operator::Predicate::q61058590-83708622641bf976ec042398d0cff43e::1" weight="0.9445772171020508" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="operator::Predicate::q61058590-83708622641bf976ec042398d0cff43e::1" target="Uber rideshare service::Entity::Q61058590" weight="0.9445772171020508" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="product or material produced::Predicate::q780442-db3af7839ce849356a018e5ef576b687::1" target="Uber Eats::Entity::Q21462723" weight="0.9985582232475281" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="product or material produced::Predicate::q780442-8ae35557f2160fb45463ca66c65dead6::2" target="Uber Movement::Entity::Q60229362" weight="0.9964751601219177" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="23" source="product or material produced::Predicate::q780442-499f4bf1e3224dcd246ad2056240eb42::3" target="Uber Fleet::Entity::Q61058574" weight="0.996356725692749" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="24" source="product or material produced::Predicate::q4202137-72c8466bb80ad23ce8309e9474fb7ca5::7" target="Intertelecom::Entity::Q4202137" weight="0.9931640028953552" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="25" source="product or material produced::Predicate::q5174635-f6fe7aecd4f935282b376affe4a0f264::6" target="Telekom Romania::Entity::Q5174635" weight="0.9920273423194885" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="product or material produced::Predicate::q29158568-e2d1348bdafcbc07393965922a86ca37::9" target="Telia Lietuva::Entity::Q29158568" weight="0.9797375798225403" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="Uber::Entity::Q780442" target="product or material produced::Predicate::q780442-db3af7839ce849356a018e5ef576b687::1" weight="0.9985582232475281" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="Uber::Entity::Q780442" target="product or material produced::Predicate::q780442-8ae35557f2160fb45463ca66c65dead6::2" weight="0.9964751601219177" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Uber::Entity::Q780442" target="product or material produced::Predicate::q780442-499f4bf1e3224dcd246ad2056240eb42::3" weight="0.996356725692749" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="Uber::Entity::Q780442" target="developer::Predicate::q21462723-af376ed895da7200a37cb9b859aa739e::2" weight="0.9926504492759705" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Uber::Entity::Q780442" target="developer::Predicate::q60229362-7f91d1495c8347d857eeedcdda3dacbc::1" weight="0.9867151379585266" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Uber::Entity::Q780442" target="industry::Predicate::q780442-09383824412a3af926c63e0112dc76f0::2" weight="0.9588080644607544" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="headquarters location::Predicate::q780442-fd426a5eebec0cf392b55135d7910e77::1" target="country::Predicate::q780442-fd426a5eebec0cf392b55135d7910e77::1" weight="0.25468140840530396" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

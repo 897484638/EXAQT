@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Axis::Entity::Q43056" label="Axis">
+        <attvalues>
+          <attvalue for="label" value="Axis" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Russia::Entity::Q159" label="Russia">
+        <attvalues>
+          <attvalue for="label" value="Russia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="World War II::Entity::Q362" label="World War II">
+        <attvalues>
+          <attvalue for="label" value="World War II" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q30-090983ec6402b79c170c8961c5b9bb24::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q30-82f695fc8bd5d9121672f916fac311b1::7" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q30-af2f7caaf389f28a6b483804c4d953fc::1" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q362-e1c8038e2ce10889d3a1c4958928e960::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q362-f3c677f2ba61d7d80421323599254c19::1" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="country::Predicate::q30-090983ec6402b79c170c8961c5b9bb24::1" target="United States::Entity::Q30" weight="0.9923574328422546" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="1" source="United States::Entity::Q30" target="diplomatic relation::Predicate::q30-af2f7caaf389f28a6b483804c4d953fc::1" weight="0.9898320436477661" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="United States::Entity::Q30" target="diplomatic relation::Predicate::q30-82f695fc8bd5d9121672f916fac311b1::7" weight="0.9895979166030884" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="diplomatic relation::Predicate::q30-af2f7caaf389f28a6b483804c4d953fc::1" target="Russia::Entity::Q159" weight="0.9898320436477661" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="Russia::Entity::Q159" target="location::Predicate::q362-e1c8038e2ce10889d3a1c4958928e960::1" weight="0.9972698092460632" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Russia::Entity::Q159" target="diplomatic relation::Predicate::q30-82f695fc8bd5d9121672f916fac311b1::7" weight="0.9895979166030884" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="location::Predicate::q362-e1c8038e2ce10889d3a1c4958928e960::1" target="World War II::Entity::Q362" weight="0.9972698092460632" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="World War II::Entity::Q362" target="participant::Predicate::q362-f3c677f2ba61d7d80421323599254c19::1" weight="0.990817666053772" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="participant::Predicate::q362-f3c677f2ba61d7d80421323599254c19::1" target="Axis::Entity::Q43056" weight="0.990817666053772" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

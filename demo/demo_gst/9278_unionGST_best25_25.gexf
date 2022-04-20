@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Batman::Entity::Q2695156" label="Batman">
+        <attvalues>
+          <attvalue for="label" value="Batman"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Christian Bale::Entity::Q45772" label="Christian Bale">
+        <attvalues>
+          <attvalue for="label" value="Christian Bale"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="George Clooney::Entity::Q23844" label="George Clooney">
+        <attvalues>
+          <attvalue for="label" value="George Clooney"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Jennifer Lopez::Entity::Q40715" label="Jennifer Lopez">
+        <attvalues>
+          <attvalue for="label" value="Jennifer Lopez"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Screen Actors Guild Award::Entity::Q268200" label="Screen Actors Guild Award">
+        <attvalues>
+          <attvalue for="label" value="Screen Actors Guild Award"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Val Kilmer::Entity::Q191084" label="Val Kilmer">
+        <attvalues>
+          <attvalue for="label" value="Val Kilmer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q810855-2370b9df3a988f3d6eef02a5bc378edf::1" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q2695156-877eeb90a5f21402a49b052002778d00::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q268200-bcf9e53246cb1c3034160c1b47e6a2e7::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q2695156-0690ceaa4d82bddc0cf061073bb3804e::7" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q2695156-6e952792a67990934cd42b4ce55930eb::8" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::10" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::11" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::9" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-0690ceaa4d82bddc0cf061073bb3804e::5" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-4758ccec38b7e2f09f673f2ba6c2d941::2" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-6e952792a67990934cd42b4ce55930eb::6" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::7" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-7d6932cef0f6d76c9d9e6ff6cc2a4ce7::3" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-8668d6a9ecbfd893a0c2e312849ddad8::8" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-c7faa3ef35fa17d4ec4b761d1e0f4cb5::9" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-dd452929ceb6ab926337e51f5a697b6c::1" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q2695156-f778b11ee87cb45f9938a6450f634e3a::4" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="nominated for::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" target="Screen Actors Guild Award::Entity::Q268200" weight="0.9923797845840454" label="8"/>
+      <edge id="1" source="nominated for::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" target="Jennifer Lopez::Entity::Q40715" weight="0.9923797845840454" label="8"/>
+      <edge id="10" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::7" weight="0.9945713877677917" label="5"/>
+      <edge id="11" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-f778b11ee87cb45f9938a6450f634e3a::4" weight="0.991908073425293" label="10"/>
+      <edge id="12" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-7d6932cef0f6d76c9d9e6ff6cc2a4ce7::3" weight="0.9918555021286011" label="11"/>
+      <edge id="13" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-8668d6a9ecbfd893a0c2e312849ddad8::8" weight="0.9904946088790894" label="14"/>
+      <edge id="14" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-dd452929ceb6ab926337e51f5a697b6c::1" weight="0.9904904365539551" label="15"/>
+      <edge id="15" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-c7faa3ef35fa17d4ec4b761d1e0f4cb5::9" weight="0.9902912974357605" label="16"/>
+      <edge id="16" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-4758ccec38b7e2f09f673f2ba6c2d941::2" weight="0.9892081618309021" label="17"/>
+      <edge id="17" source="Batman::Entity::Q2695156" target="character role::Predicate::q810855-2370b9df3a988f3d6eef02a5bc378edf::1" weight="0.987929105758667" label="20"/>
+      <edge id="18" source="performer::Predicate::q2695156-0690ceaa4d82bddc0cf061073bb3804e::5" target="Val Kilmer::Entity::Q191084" weight="0.9953495860099792" label="3"/>
+      <edge id="19" source="performer::Predicate::q2695156-0690ceaa4d82bddc0cf061073bb3804e::5" target="of::Predicate::q2695156-0690ceaa4d82bddc0cf061073bb3804e::7" weight="0.9953495860099792" label="3"/>
+      <edge id="2" source="nominated for::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" target="for work::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" weight="0.9923797845840454" label="8"/>
+      <edge id="20" source="performer::Predicate::q2695156-6e952792a67990934cd42b4ce55930eb::6" target="George Clooney::Entity::Q23844" weight="0.9949058294296265" label="4"/>
+      <edge id="21" source="performer::Predicate::q2695156-6e952792a67990934cd42b4ce55930eb::6" target="of::Predicate::q2695156-6e952792a67990934cd42b4ce55930eb::8" weight="0.9949058294296265" label="4"/>
+      <edge id="22" source="performer::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::7" target="Christian Bale::Entity::Q45772" weight="0.9945713877677917" label="5"/>
+      <edge id="23" source="performer::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::7" target="of::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::10" weight="0.9945713877677917" label="5"/>
+      <edge id="24" source="performer::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::7" target="of::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::11" weight="0.9945713877677917" label="5"/>
+      <edge id="25" source="performer::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::7" target="of::Predicate::q2695156-6fd294869c29b618e677688fd8c91e73::9" weight="0.9945713877677917" label="5"/>
+      <edge id="3" source="nominated for::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" target="point in time::Predicate::q40715-e11aef17feda5926b2e4d8fbeba065e9::1" weight="0.9923797845840454" label="8"/>
+      <edge id="4" source="Screen Actors Guild Award::Entity::Q268200" target="country::Predicate::q268200-bcf9e53246cb1c3034160c1b47e6a2e7::1" weight="0.0012190783163532615" label="26"/>
+      <edge id="5" source="country::Predicate::q268200-bcf9e53246cb1c3034160c1b47e6a2e7::1" target="United States::Entity::Q30" weight="0.0012190783163532615" label="26"/>
+      <edge id="6" source="United States::Entity::Q30" target="country of citizenship::Predicate::q2695156-877eeb90a5f21402a49b052002778d00::1" weight="0.0006540084723383188" label="27"/>
+      <edge id="7" source="country of citizenship::Predicate::q2695156-877eeb90a5f21402a49b052002778d00::1" target="Batman::Entity::Q2695156" weight="0.0006540084723383188" label="27"/>
+      <edge id="8" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-0690ceaa4d82bddc0cf061073bb3804e::5" weight="0.9953495860099792" label="3"/>
+      <edge id="9" source="Batman::Entity::Q2695156" target="performer::Predicate::q2695156-6e952792a67990934cd42b4ce55930eb::6" weight="0.9949058294296265" label="4"/>
+    </edges>
+  </graph>
+</gexf>

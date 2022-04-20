@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1989-01-01::Entity::1989-01-01T00:00:00Z" label="1989-01-01">
+        <attvalues>
+          <attvalue for="label" value="1989-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2016-01-01::Entity::2016-01-01T00:00:00Z" label="2016-01-01">
+        <attvalues>
+          <attvalue for="label" value="2016-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2017-01-01::Entity::2017-01-01T00:00:00Z" label="2017-01-01">
+        <attvalues>
+          <attvalue for="label" value="2017-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="American League Championship Series::Entity::Q465473" label="American League Championship Series">
+        <attvalues>
+          <attvalue for="label" value="American League Championship Series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="American League::Entity::Q465469" label="American League">
+        <attvalues>
+          <attvalue for="label" value="American League"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Andy Schmid::Entity::Q527482" label="Andy Schmid">
+        <attvalues>
+          <attvalue for="label" value="Andy Schmid"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="José Altuve::Entity::Q3186148" label="José Altuve">
+        <attvalues>
+          <attvalue for="label" value="José Altuve"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Major League Baseball Most Valuable Player Award::Entity::Q1514249" label="Major League Baseball Most Valuable Player Award">
+        <attvalues>
+          <attvalue for="label" value="Major League Baseball Most Valuable Player Award"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Mike Trout::Entity::Q3090378" label="Mike Trout">
+        <attvalues>
+          <attvalue for="label" value="Mike Trout"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Rickey Henderson::Entity::Q601521" label="Rickey Henderson">
+        <attvalues>
+          <attvalue for="label" value="Rickey Henderson"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q4933888-eacd1ac6cc5456b2a2f5c9fd09313999::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="criterion used::Predicate::q1141048-e6f82b5a100bf42fe16eb69e4525d5e6::1" label="criterion used">
+        <attvalues>
+          <attvalue for="label" value="criterion used"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="criterion used::Predicate::q4607493-e781b2982ac08d072f42f2b0b52a5943::3" label="criterion used">
+        <attvalues>
+          <attvalue for="label" value="criterion used"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="criterion used::Predicate::q4608294-a2514c61764f59b21d03ada2969cf646::2" label="criterion used">
+        <attvalues>
+          <attvalue for="label" value="criterion used"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q465469-ba2f9c60e5d2be78a9f75997ec831843::17" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::3" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::2" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="most valuable player::Entity::Q652965" label="most valuable player">
+        <attvalues>
+          <attvalue for="label" value="most valuable player"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q601521-adc46080cb004bd4141125c52a68de25::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sports discipline competed in::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" label="sports discipline competed in">
+        <attvalues>
+          <attvalue for="label" value="sports discipline competed in"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="most valuable player::Entity::Q652965" target="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" weight="0.9878332614898682" label="2"/>
+      <edge id="1" source="most valuable player::Entity::Q652965" target="award received::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" weight="0.3504104018211365" label="4"/>
+      <edge id="10" source="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="sports discipline competed in::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" weight="0.9878332614898682" label="2"/>
+      <edge id="11" source="league::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="American League::Entity::Q465469" weight="0.9878332614898682" label="2"/>
+      <edge id="12" source="American League::Entity::Q465469" target="league::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::3" weight="0.9971280694007874" label="1"/>
+      <edge id="13" source="American League::Entity::Q465469" target="instance of::Predicate::q465469-ba2f9c60e5d2be78a9f75997ec831843::17" weight="0.002730101812630892" label="24"/>
+      <edge id="14" source="league::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::3" target="award received::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" weight="0.9971280694007874" label="1"/>
+      <edge id="15" source="award received::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" target="Mike Trout::Entity::Q3090378" weight="0.9971280694007874" label="1"/>
+      <edge id="16" source="award received::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" target="Major League Baseball Most Valuable Player Award::Entity::Q1514249" weight="0.9971280694007874" label="1"/>
+      <edge id="17" source="award received::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" target="point in time::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" weight="0.9971280694007874" label="1"/>
+      <edge id="18" source="award received::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" target="point in time::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::5" weight="0.9971280694007874" label="1"/>
+      <edge id="19" source="Mike Trout::Entity::Q3090378" target="follows::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::1" weight="0.9766186475753784" label="3"/>
+      <edge id="2" source="most valuable player::Entity::Q652965" target="criterion used::Predicate::q4607493-e781b2982ac08d072f42f2b0b52a5943::3" weight="0.23843730986118317" label="5"/>
+      <edge id="20" source="Major League Baseball Most Valuable Player Award::Entity::Q1514249" target="award received::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::5" weight="0.9766186475753784" label="3"/>
+      <edge id="21" source="point in time::Predicate::q3090378-7aa5951f39f22826cbf0b6228997968a::4" target="2016-01-01::Entity::2016-01-01T00:00:00Z" weight="0.9971280694007874" label="1"/>
+      <edge id="22" source="point in time::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="1989-01-01::Entity::1989-01-01T00:00:00Z" weight="0.9878332614898682" label="2"/>
+      <edge id="23" source="sports discipline competed in::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="American League Championship Series::Entity::Q465473" weight="0.9878332614898682" label="2"/>
+      <edge id="24" source="award received::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::5" target="José Altuve::Entity::Q3186148" weight="0.9766186475753784" label="3"/>
+      <edge id="25" source="award received::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::5" target="point in time::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::6" weight="0.9766186475753784" label="3"/>
+      <edge id="26" source="point in time::Predicate::q3186148-dbd9089fdb86e8b8c50f08f9121e5004::6" target="2017-01-01::Entity::2017-01-01T00:00:00Z" weight="0.9766186475753784" label="3"/>
+      <edge id="27" source="award received::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" target="Andy Schmid::Entity::Q527482" weight="0.3504104018211365" label="4"/>
+      <edge id="28" source="award received::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" target="league::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::2" weight="0.3504104018211365" label="4"/>
+      <edge id="29" source="award received::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" target="point in time::Predicate::q527482-9bd3450c01106b8693dbd4dfce445c80::3" weight="0.3504104018211365" label="4"/>
+      <edge id="3" source="most valuable player::Entity::Q652965" target="criterion used::Predicate::q4608294-a2514c61764f59b21d03ada2969cf646::2" weight="0.05225954204797745" label="6"/>
+      <edge id="4" source="most valuable player::Entity::Q652965" target="award received::Predicate::q4933888-eacd1ac6cc5456b2a2f5c9fd09313999::2" weight="0.04755760356783867" label="7"/>
+      <edge id="5" source="most valuable player::Entity::Q652965" target="criterion used::Predicate::q1141048-e6f82b5a100bf42fe16eb69e4525d5e6::1" weight="0.004080766811966896" label="14"/>
+      <edge id="6" source="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="league::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" weight="0.9878332614898682" label="2"/>
+      <edge id="7" source="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="Rickey Henderson::Entity::Q601521" weight="0.9878332614898682" label="2"/>
+      <edge id="8" source="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="point in time::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" weight="0.9878332614898682" label="2"/>
+      <edge id="9" source="award received::Predicate::q601521-adc46080cb004bd4141125c52a68de25::1" target="point in time::Predicate::q601521-adc46080cb004bd4141125c52a68de25::2" weight="0.9878332614898682" label="2"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+34::Entity::+34" label="+34">
+        <attvalues>
+          <attvalue for="label" value="+34" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Baltimore Ravens::Entity::Q276539" label="Baltimore Ravens">
+        <attvalues>
+          <attvalue for="label" value="Baltimore Ravens" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl XLVII::Entity::Q126291" label="Super Bowl XLVII">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XLVII" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl::Entity::Q32096" label="Super Bowl">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q126291-b537e802c0f9ebd9908b88e967b64a61::5" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q126291-39db307bef0c271eddc41806aaad9318::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Super Bowl::Entity::Q32096" target="instance of::Predicate::q126291-b537e802c0f9ebd9908b88e967b64a61::5" weight="0.9986934065818787" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="instance of::Predicate::q126291-b537e802c0f9ebd9908b88e967b64a61::5" target="Super Bowl XLVII::Entity::Q126291" weight="0.9986934065818787" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Super Bowl XLVII::Entity::Q126291" target="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" weight="0.9992770552635193" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="Super Bowl XLVII::Entity::Q126291" target="winner::Predicate::q126291-39db307bef0c271eddc41806aaad9318::1" weight="0.9987882971763611" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="4" source="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" target="Baltimore Ravens::Entity::Q276539" weight="0.9992770552635193" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="participating team::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" target="number of points/goals/set scored::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" weight="0.9992770552635193" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Baltimore Ravens::Entity::Q276539" target="winner::Predicate::q126291-39db307bef0c271eddc41806aaad9318::1" weight="0.9987882971763611" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="7" source="number of points/goals/set scored::Predicate::q126291-d84e9e0f5f29c0692401e1aafb042811::1" target="+34::Entity::+34" weight="0.9992770552635193" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

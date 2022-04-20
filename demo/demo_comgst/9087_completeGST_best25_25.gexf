@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Card-Pitt::Entity::Q2657935" label="Card-Pitt">
+        <attvalues>
+          <attvalue for="label" value="Card-Pitt"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Heinz Field::Entity::Q1067148" label="Heinz Field">
+        <attvalues>
+          <attvalue for="label" value="Heinz Field"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Pittsburgh Steelers::Entity::Q191477" label="Pittsburgh Steelers">
+        <attvalues>
+          <attvalue for="label" value="Pittsburgh Steelers"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Rooney family::Entity::Q7366343" label="Rooney family">
+        <attvalues>
+          <attvalue for="label" value="Rooney family"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="WHO::Entity::Q7950342" label="WHO">
+        <attvalues>
+          <attvalue for="label" value="WHO"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q191477-4d359f709a4b1b66c6e4ed0b69d91d43::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q7950342-aa7df63addd742c75ca40489ee37f57a::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q2657935-7d07c667b47ce85c443f5e10b69c053b::1" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="iHeartMedia::Entity::Q477993" label="iHeartMedia">
+        <attvalues>
+          <attvalue for="label" value="iHeartMedia"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="occupant::Predicate::q1067148-d1566845213b444f16ded27bf0856e69::1" label="occupant">
+        <attvalues>
+          <attvalue for="label" value="occupant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q191477-858f7482199a5faa0c8146326f3d37dc::1" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q477993-8c03500cf2f406b55e277848138bcb0d::1" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="WHO::Entity::Q7950342" target="country::Predicate::q7950342-aa7df63addd742c75ca40489ee37f57a::1" weight="0.0010826059151440859" label="27"/>
+      <edge id="1" source="WHO::Entity::Q7950342" target="owner of::Predicate::q477993-8c03500cf2f406b55e277848138bcb0d::1" weight="0.022946108132600784" label="21"/>
+      <edge id="10" source="has part::Predicate::q2657935-7d07c667b47ce85c443f5e10b69c053b::1" target="Card-Pitt::Entity::Q2657935" weight="0.5216915011405945" label="3"/>
+      <edge id="11" source="owner of::Predicate::q477993-8c03500cf2f406b55e277848138bcb0d::1" target="iHeartMedia::Entity::Q477993" weight="0.022946108132600784" label="21"/>
+      <edge id="2" source="country::Predicate::q7950342-aa7df63addd742c75ca40489ee37f57a::1" target="United States::Entity::Q30" weight="0.0010826059151440859" label="27"/>
+      <edge id="3" source="United States::Entity::Q30" target="country::Predicate::q191477-4d359f709a4b1b66c6e4ed0b69d91d43::2" weight="0.004290285520255566" label="26"/>
+      <edge id="4" source="country::Predicate::q191477-4d359f709a4b1b66c6e4ed0b69d91d43::2" target="Pittsburgh Steelers::Entity::Q191477" weight="0.004290285520255566" label="26"/>
+      <edge id="5" source="Pittsburgh Steelers::Entity::Q191477" target="owned by::Predicate::q191477-858f7482199a5faa0c8146326f3d37dc::1" weight="0.9955748319625854" label="1"/>
+      <edge id="6" source="Pittsburgh Steelers::Entity::Q191477" target="occupant::Predicate::q1067148-d1566845213b444f16ded27bf0856e69::1" weight="0.9619914889335632" label="2"/>
+      <edge id="7" source="Pittsburgh Steelers::Entity::Q191477" target="has part::Predicate::q2657935-7d07c667b47ce85c443f5e10b69c053b::1" weight="0.5216915011405945" label="3"/>
+      <edge id="8" source="owned by::Predicate::q191477-858f7482199a5faa0c8146326f3d37dc::1" target="Rooney family::Entity::Q7366343" weight="0.9955748319625854" label="1"/>
+      <edge id="9" source="occupant::Predicate::q1067148-d1566845213b444f16ded27bf0856e69::1" target="Heinz Field::Entity::Q1067148" weight="0.9619914889335632" label="2"/>
+    </edges>
+  </graph>
+</gexf>

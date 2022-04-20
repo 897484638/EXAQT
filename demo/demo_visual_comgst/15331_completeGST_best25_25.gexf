@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1964-01-01::Entity::1964-01-01T00:00:00Z" label="1964-01-01">
+        <attvalues>
+          <attvalue for="label" value="1964-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Doritos::Entity::Q776795" label="Doritos">
+        <attvalues>
+          <attvalue for="label" value="Doritos" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Frito-Lay::Entity::Q1221751" label="Frito-Lay">
+        <attvalues>
+          <attvalue for="label" value="Frito-Lay" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Yōsuke Hayashi::Entity::Q15639877" label="Yōsuke Hayashi">
+        <attvalues>
+          <attvalue for="label" value="Yōsuke Hayashi" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="brand::Entity::Q431289" label="brand">
+        <attvalues>
+          <attvalue for="label" value="brand" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q776795-68866a7dd5775cc5176a076df06ac4e6::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q776795-1ad42fe3e127704c2fc9d723ef3ae30b::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q15639877-bf6c9dad793e6a7fede7ffe483dfb6b4::20" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q776795-8ef3a31089b44d71f65e67714c88a01a::1" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="video game producer::Entity::Q2702296" label="video game producer">
+        <attvalues>
+          <attvalue for="label" value="video game producer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="video game producer::Entity::Q2702296" target="occupation::Predicate::q15639877-bf6c9dad793e6a7fede7ffe483dfb6b4::20" weight="0.16471782326698303" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="1" source="occupation::Predicate::q15639877-bf6c9dad793e6a7fede7ffe483dfb6b4::20" target="Yōsuke Hayashi::Entity::Q15639877" weight="0.16471782326698303" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Doritos::Entity::Q776795" target="inception::Predicate::q776795-68866a7dd5775cc5176a076df06ac4e6::1" weight="0.8924906253814697" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="Doritos::Entity::Q776795" target="instance of::Predicate::q776795-1ad42fe3e127704c2fc9d723ef3ae30b::1" weight="0.0021846448071300983" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Doritos::Entity::Q776795" target="owned by::Predicate::q776795-8ef3a31089b44d71f65e67714c88a01a::1" weight="0.0013605041895061731" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="inception::Predicate::q776795-68866a7dd5775cc5176a076df06ac4e6::1" target="1964-01-01::Entity::1964-01-01T00:00:00Z" weight="0.8924906253814697" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="instance of::Predicate::q776795-1ad42fe3e127704c2fc9d723ef3ae30b::1" target="brand::Entity::Q431289" weight="0.0021846448071300983" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="owned by::Predicate::q776795-8ef3a31089b44d71f65e67714c88a01a::1" target="Frito-Lay::Entity::Q1221751" weight="0.0013605041895061731" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="20th Academy Awards::Entity::Q303473" label="20th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="20th Academy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" label="Academy Award for Best Writing, Original Screenplay">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Writing, Original Screenplay" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Sidney Sheldon::Entity::Q105118" label="Sidney Sheldon">
+        <attvalues>
+          <attvalue for="label" value="Sidney Sheldon" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="The Bachelor and the Bobby-Soxer::Entity::Q2060027" label="The Bachelor and the Bobby-Soxer">
+        <attvalues>
+          <attvalue for="label" value="The Bachelor and the Bobby-Soxer" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q105118-1c7169ae46fdae7c56de2f899f8d0ddc::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="winner::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::1" target="Sidney Sheldon::Entity::Q105118" weight="0.9994290471076965" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="winner::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::1" target="award received::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::2" weight="0.9994290471076965" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Sidney Sheldon::Entity::Q105118" target="award received::Predicate::q105118-1c7169ae46fdae7c56de2f899f8d0ddc::1" weight="0.9997103810310364" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="award received::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::2" target="statement is subject of::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::1" weight="0.9994290471076965" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="award received::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::2" target="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" weight="0.9994290471076965" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="award received::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::2" target="The Bachelor and the Bobby-Soxer::Entity::Q2060027" weight="0.9994290471076965" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="statement is subject of::Predicate::q2060027-2f750faba8a17a72f3e54d8b2ae170c4::1" target="20th Academy Awards::Entity::Q303473" weight="0.9994290471076965" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" target="award received::Predicate::q105118-1c7169ae46fdae7c56de2f899f8d0ddc::1" weight="0.9997103810310364" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

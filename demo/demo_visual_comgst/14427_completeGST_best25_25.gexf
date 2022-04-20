@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1542-01-01::Entity::1542-01-01T00:00:00Z" label="1542-01-01">
+        <attvalues>
+          <attvalue for="label" value="1542-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gaelic Ireland::Entity::Q3327860" label="Gaelic Ireland">
+        <attvalues>
+          <attvalue for="label" value="Gaelic Ireland" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Kingdom of Ireland::Entity::Q215530" label="Kingdom of Ireland">
+        <attvalues>
+          <attvalue for="label" value="Kingdom of Ireland" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Lord Lieutenant of Ireland::Entity::Q1752225" label="Lord Lieutenant of Ireland">
+        <attvalues>
+          <attvalue for="label" value="Lord Lieutenant of Ireland" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lordship of Ireland::Entity::Q844250" label="Lordship of Ireland">
+        <attvalues>
+          <attvalue for="label" value="Lordship of Ireland" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="applies to jurisdiction::Predicate::q1752225-c3460d08077ed7ff1cc3d2a5e63afa67::1" label="applies to jurisdiction">
+        <attvalues>
+          <attvalue for="label" value="applies to jurisdiction" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="dissolved, abolished or demolished date::Predicate::q844250-42de41fc7a72145642b8121dc5ec2947::1" label="dissolved, abolished or demolished date">
+        <attvalues>
+          <attvalue for="label" value="dissolved, abolished or demolished date" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q3327860-2d3808f7d211913d49d47b09580ff2ce::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q844250-0c0d023a37969a7e209bab81748a1912::2" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q215530-20862291c108ce88828265932431b4e5::2" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q215530-b0c719fbecdd6d0405b0da73f0bd32f0::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="followed by::Predicate::q844250-0c0d023a37969a7e209bab81748a1912::2" target="Lordship of Ireland::Entity::Q844250" weight="0.988090991973877" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="1" source="followed by::Predicate::q844250-0c0d023a37969a7e209bab81748a1912::2" target="Kingdom of Ireland::Entity::Q215530" weight="0.988090991973877" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="10" source="dissolved, abolished or demolished date::Predicate::q844250-42de41fc7a72145642b8121dc5ec2947::1" target="1542-01-01::Entity::1542-01-01T00:00:00Z" weight="0.6252300143241882" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="11" source="applies to jurisdiction::Predicate::q1752225-c3460d08077ed7ff1cc3d2a5e63afa67::1" target="Lord Lieutenant of Ireland::Entity::Q1752225" weight="0.5208660364151001" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Lordship of Ireland::Entity::Q844250" target="follows::Predicate::q215530-20862291c108ce88828265932431b4e5::2" weight="0.9929711222648621" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="Lordship of Ireland::Entity::Q844250" target="dissolved, abolished or demolished date::Predicate::q844250-42de41fc7a72145642b8121dc5ec2947::1" weight="0.6252300143241882" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="4" source="Lordship of Ireland::Entity::Q844250" target="applies to jurisdiction::Predicate::q1752225-c3460d08077ed7ff1cc3d2a5e63afa67::1" weight="0.5208660364151001" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="Kingdom of Ireland::Entity::Q215530" target="follows::Predicate::q215530-b0c719fbecdd6d0405b0da73f0bd32f0::1" weight="0.9916073083877563" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="Kingdom of Ireland::Entity::Q215530" target="follows::Predicate::q215530-20862291c108ce88828265932431b4e5::2" weight="0.9929711222648621" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="Kingdom of Ireland::Entity::Q215530" target="followed by::Predicate::q3327860-2d3808f7d211913d49d47b09580ff2ce::1" weight="0.9713132381439209" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="follows::Predicate::q215530-b0c719fbecdd6d0405b0da73f0bd32f0::1" target="Gaelic Ireland::Entity::Q3327860" weight="0.9916073083877563" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="Gaelic Ireland::Entity::Q3327860" target="followed by::Predicate::q3327860-2d3808f7d211913d49d47b09580ff2ce::1" weight="0.9713132381439209" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

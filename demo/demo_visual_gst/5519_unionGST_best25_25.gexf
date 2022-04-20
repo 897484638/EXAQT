@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2012 MTV Video Music Awards::Entity::Q577600" label="2012 MTV Video Music Awards">
+        <attvalues>
+          <attvalue for="label" value="2012 MTV Video Music Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2012-01-01::Entity::2012-01-01T00:00:00Z" label="2012-01-01">
+        <attvalues>
+          <attvalue for="label" value="2012-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="54th Annual Grammy Awards::Entity::Q1337556" label="54th Annual Grammy Awards">
+        <attvalues>
+          <attvalue for="label" value="54th Annual Grammy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Grammy Award for Best Country Solo Performance::Entity::Q5593788" label="Grammy Award for Best Country Solo Performance">
+        <attvalues>
+          <attvalue for="label" value="Grammy Award for Best Country Solo Performance" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Grammy Award for Best Country Song::Entity::Q5593789" label="Grammy Award for Best Country Song">
+        <attvalues>
+          <attvalue for="label" value="Grammy Award for Best Country Song" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Grammy Award for Best Song Written for Visual Media::Entity::Q428808" label="Grammy Award for Best Song Written for Visual Media">
+        <attvalues>
+          <attvalue for="label" value="Grammy Award for Best Song Written for Visual Media" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="MTV Europe Music Award for Best Live Act::Entity::Q38470" label="MTV Europe Music Award for Best Live Act">
+        <attvalues>
+          <attvalue for="label" value="MTV Europe Music Award for Best Live Act" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Mean::Entity::Q2303661" label="Mean">
+        <attvalues>
+          <attvalue for="label" value="Mean" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Safe &amp; Sound::Entity::Q154078" label="Safe &amp; Sound">
+        <attvalues>
+          <attvalue for="label" value="Safe &amp; Sound" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Taylor Swift::Entity::Q26876" label="Taylor Swift">
+        <attvalues>
+          <attvalue for="label" value="Taylor Swift" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::5" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::4" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::10" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q38470-2222a58b8ce80b10183236488400ece2::9" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q577600-56e973df3ec1fe4ce98353eece1a72ed::11" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::4" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::5" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38470-2222a58b8ce80b10183236488400ece2::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Taylor Swift::Entity::Q26876" target="award received::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Taylor Swift::Entity::Q26876" target="award received::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" weight="0.9712159633636475" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="2012-01-01::Entity::2012-01-01T00:00:00Z" target="point in time::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" weight="0.9712159633636475" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="11" source="2012-01-01::Entity::2012-01-01T00:00:00Z" target="point in time::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::10" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="12" source="2012-01-01::Entity::2012-01-01T00:00:00Z" target="point in time::Predicate::q38470-2222a58b8ce80b10183236488400ece2::9" weight="0.8855960965156555" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="13" source="point in time::Predicate::q577600-56e973df3ec1fe4ce98353eece1a72ed::11" target="2012 MTV Video Music Awards::Entity::Q577600" weight="0.2823147177696228" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="for work::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::4" target="Mean::Entity::Q2303661" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="statement is subject of::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" target="54th Annual Grammy Awards::Entity::Q1337556" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="point in time::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" target="award received::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" weight="0.9712159633636475" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="17" source="award received::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" target="Grammy Award for Best Country Song::Entity::Q5593789" weight="0.9712159633636475" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="award received::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" target="for work::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::5" weight="0.9712159633636475" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="award received::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" target="statement is subject of::Predicate::q26876-1ff8f159f7843afd0626e51e54991102::6" weight="0.9712159633636475" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Taylor Swift::Entity::Q26876" target="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::4" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="20" source="point in time::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::10" target="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="21" source="winner::Predicate::q38470-2222a58b8ce80b10183236488400ece2::1" target="MTV Europe Music Award for Best Live Act::Entity::Q38470" weight="0.8855960965156555" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="22" source="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" target="Grammy Award for Best Song Written for Visual Media::Entity::Q428808" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="23" source="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" target="Safe &amp; Sound::Entity::Q154078" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" target="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::2" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="25" source="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" target="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::3" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="26" source="award received::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::9" target="winner::Predicate::q154078-a8b6500d9bb2c7b359260dc952867311::5" weight="0.9217953681945801" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Taylor Swift::Entity::Q26876" target="winner::Predicate::q38470-2222a58b8ce80b10183236488400ece2::1" weight="0.8855960965156555" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="award received::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" target="point in time::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="award received::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" target="Grammy Award for Best Country Solo Performance::Entity::Q5593788" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="award received::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" target="for work::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::4" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="award received::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" target="statement is subject of::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="point in time::Predicate::q26876-c9cf25b23a75dce97dcd8f1227e13a3f::5" target="2012-01-01::Entity::2012-01-01T00:00:00Z" weight="0.9793915152549744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="2012-01-01::Entity::2012-01-01T00:00:00Z" target="point in time::Predicate::q577600-56e973df3ec1fe4ce98353eece1a72ed::11" weight="0.2823147177696228" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

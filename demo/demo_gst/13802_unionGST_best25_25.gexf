@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Donald Rumsfeld::Entity::Q184650" label="Donald Rumsfeld">
+        <attvalues>
+          <attvalue for="label" value="Donald Rumsfeld"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="George W. Bush::Entity::Q207" label="George W. Bush">
+        <attvalues>
+          <attvalue for="label" value="George W. Bush"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="President of the United States::Entity::Q11696" label="President of the United States">
+        <attvalues>
+          <attvalue for="label" value="President of the United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Robert McNamara::Entity::Q191999" label="Robert McNamara">
+        <attvalues>
+          <attvalue for="label" value="Robert McNamara"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States Secretary of Defense::Entity::Q735015" label="United States Secretary of Defense">
+        <attvalues>
+          <attvalue for="label" value="United States Secretary of Defense"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="elected in::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::1" label="elected in">
+        <attvalues>
+          <attvalue for="label" value="elected in"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="elected in::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="elected in">
+        <attvalues>
+          <attvalue for="label" value="elected in"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::12" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q735015-41214b92af9f6130050a77019917918f::4" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q735015-41214b92af9f6130050a77019917918f::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" label="officeholder">
+        <attvalues>
+          <attvalue for="label" value="officeholder"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1124-321eb81dd6dc871bdbaade5931f89a51::4" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1361114-6b25c2e8a83fff623294fc77b8981b15::18" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q151414-962b23ad17245a4b6678c409c3100a1c::13" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q48259-948f155879eb5aa53e53c0deb20562ae::10" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q76-c1e7d6c30659e7ecc409a031b8f3e9da::3" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q1124-321eb81dd6dc871bdbaade5931f89a51::5" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::11" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q735015-41214b92af9f6130050a77019917918f::4" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::11" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q735015-41214b92af9f6130050a77019917918f::4" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q76-c1e7d6c30659e7ecc409a031b8f3e9da::3" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::12" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q735015-41214b92af9f6130050a77019917918f::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="United States Secretary of Defense::Entity::Q735015" target="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" weight="0.9960081577301025" label="8"/>
+      <edge id="1" source="United States Secretary of Defense::Entity::Q735015" target="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" weight="0.9981957077980042" label="4"/>
+      <edge id="10" source="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="start time::Predicate::q735015-41214b92af9f6130050a77019917918f::4" weight="0.9960081577301025" label="8"/>
+      <edge id="11" source="head of government::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="George W. Bush::Entity::Q207" weight="0.9960081577301025" label="8"/>
+      <edge id="12" source="George W. Bush::Entity::Q207" target="replaces::Predicate::q76-c1e7d6c30659e7ecc409a031b8f3e9da::3" weight="0.9985392093658447" label="1"/>
+      <edge id="13" source="George W. Bush::Entity::Q207" target="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="14" source="George W. Bush::Entity::Q207" target="replaced by::Predicate::q1124-321eb81dd6dc871bdbaade5931f89a51::5" weight="0.9982813596725464" label="3"/>
+      <edge id="15" source="replaces::Predicate::q76-c1e7d6c30659e7ecc409a031b8f3e9da::3" target="position held::Predicate::q76-c1e7d6c30659e7ecc409a031b8f3e9da::3" weight="0.9985392093658447" label="1"/>
+      <edge id="16" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="President of the United States::Entity::Q11696" weight="0.9984866380691528" label="2"/>
+      <edge id="17" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="elected in::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::1" weight="0.9984866380691528" label="2"/>
+      <edge id="18" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="elected in::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="19" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="end time::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="2" source="United States Secretary of Defense::Entity::Q735015" target="position held::Predicate::q1361114-6b25c2e8a83fff623294fc77b8981b15::18" weight="0.9976198077201843" label="5"/>
+      <edge id="20" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="replaced by::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="21" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="replaces::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="22" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="series ordinal::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="23" source="position held::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" target="start time::Predicate::q207-e2c3e73134aa6aac40ef9cd64525f1b2::2" weight="0.9984866380691528" label="2"/>
+      <edge id="24" source="replaced by::Predicate::q1124-321eb81dd6dc871bdbaade5931f89a51::5" target="position held::Predicate::q1124-321eb81dd6dc871bdbaade5931f89a51::4" weight="0.9982813596725464" label="3"/>
+      <edge id="25" source="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" target="Robert McNamara::Entity::Q191999" weight="0.9981957077980042" label="4"/>
+      <edge id="26" source="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" target="end time::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::12" weight="0.9981957077980042" label="4"/>
+      <edge id="27" source="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" target="replaced by::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::11" weight="0.9981957077980042" label="4"/>
+      <edge id="28" source="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" target="replaces::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::11" weight="0.9981957077980042" label="4"/>
+      <edge id="29" source="position held::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::9" target="start time::Predicate::q191999-ef317d1cc15054c2bbbd6acf507bac5e::12" weight="0.9981957077980042" label="4"/>
+      <edge id="3" source="United States Secretary of Defense::Entity::Q735015" target="position held::Predicate::q48259-948f155879eb5aa53e53c0deb20562ae::10" weight="0.9967435598373413" label="6"/>
+      <edge id="4" source="United States Secretary of Defense::Entity::Q735015" target="position held::Predicate::q151414-962b23ad17245a4b6678c409c3100a1c::13" weight="0.9965541362762451" label="7"/>
+      <edge id="5" source="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="head of government::Predicate::q735015-41214b92af9f6130050a77019917918f::1" weight="0.9960081577301025" label="8"/>
+      <edge id="6" source="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="Donald Rumsfeld::Entity::Q184650" weight="0.9960081577301025" label="8"/>
+      <edge id="7" source="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="end time::Predicate::q735015-41214b92af9f6130050a77019917918f::4" weight="0.9960081577301025" label="8"/>
+      <edge id="8" source="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="replaced by::Predicate::q735015-41214b92af9f6130050a77019917918f::4" weight="0.9960081577301025" label="8"/>
+      <edge id="9" source="officeholder::Predicate::q735015-41214b92af9f6130050a77019917918f::1" target="replaces::Predicate::q735015-41214b92af9f6130050a77019917918f::4" weight="0.9960081577301025" label="8"/>
+    </edges>
+  </graph>
+</gexf>

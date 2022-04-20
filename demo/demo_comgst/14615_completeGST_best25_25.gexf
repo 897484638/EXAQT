@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1844-11-25::Entity::1844-11-25T00:00:00Z" label="1844-11-25">
+        <attvalues>
+          <attvalue for="label" value="1844-11-25"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1929-04-04::Entity::1929-04-04T00:00:00Z" label="1929-04-04">
+        <attvalues>
+          <attvalue for="label" value="1929-04-04"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1995-01-01::Entity::1995-01-01T00:00:00Z" label="1995-01-01">
+        <attvalues>
+          <attvalue for="label" value="1995-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Karl Benz::Entity::Q40224" label="Karl Benz">
+        <attvalues>
+          <attvalue for="label" value="Karl Benz"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Ladenburg::Entity::Q83225" label="Ladenburg">
+        <attvalues>
+          <attvalue for="label" value="Ladenburg"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Pneumonia::Entity::Q12192" label="Pneumonia">
+        <attvalues>
+          <attvalue for="label" value="Pneumonia"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="When and Where::Entity::Q7992934" label="When and Where">
+        <attvalues>
+          <attvalue for="label" value="When and Where"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="cause of death::Predicate::q40224-ca7cdf7183c949cf9f33d10e664d179a::1" label="cause of death">
+        <attvalues>
+          <attvalue for="label" value="cause of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q40224-666715a1a397b6d9b069aed4d9825eae::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q40224-fe33cc19bc86a7079fdfdab4a2a680c7::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q40224-df491f62ca3c92c22ee59892abb80ba4::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q7992934-54a7687ffcada12954e0c2a4abbc34a5::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="When and Where::Entity::Q7992934" target="publication date::Predicate::q7992934-54a7687ffcada12954e0c2a4abbc34a5::1" weight="0.017551975324749947" label="8"/>
+      <edge id="1" source="publication date::Predicate::q7992934-54a7687ffcada12954e0c2a4abbc34a5::1" target="1995-01-01::Entity::1995-01-01T00:00:00Z" weight="0.017551975324749947" label="8"/>
+      <edge id="2" source="date of death::Predicate::q40224-fe33cc19bc86a7079fdfdab4a2a680c7::1" target="Karl Benz::Entity::Q40224" weight="0.9967669248580933" label="1"/>
+      <edge id="3" source="date of death::Predicate::q40224-fe33cc19bc86a7079fdfdab4a2a680c7::1" target="1929-04-04::Entity::1929-04-04T00:00:00Z" weight="0.9967669248580933" label="1"/>
+      <edge id="4" source="Karl Benz::Entity::Q40224" target="place of death::Predicate::q40224-df491f62ca3c92c22ee59892abb80ba4::1" weight="0.9894870519638062" label="2"/>
+      <edge id="5" source="Karl Benz::Entity::Q40224" target="date of birth::Predicate::q40224-666715a1a397b6d9b069aed4d9825eae::1" weight="0.689455509185791" label="4"/>
+      <edge id="6" source="Karl Benz::Entity::Q40224" target="cause of death::Predicate::q40224-ca7cdf7183c949cf9f33d10e664d179a::1" weight="0.01612541824579239" label="9"/>
+      <edge id="7" source="place of death::Predicate::q40224-df491f62ca3c92c22ee59892abb80ba4::1" target="Ladenburg::Entity::Q83225" weight="0.9894870519638062" label="2"/>
+      <edge id="8" source="date of birth::Predicate::q40224-666715a1a397b6d9b069aed4d9825eae::1" target="1844-11-25::Entity::1844-11-25T00:00:00Z" weight="0.689455509185791" label="4"/>
+      <edge id="9" source="cause of death::Predicate::q40224-ca7cdf7183c949cf9f33d10e664d179a::1" target="Pneumonia::Entity::Q12192" weight="0.01612541824579239" label="9"/>
+    </edges>
+  </graph>
+</gexf>

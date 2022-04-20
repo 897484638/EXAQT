@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1920-01-01::Entity::1920-01-01T00:00:00Z" label="1920-01-01">
+        <attvalues>
+          <attvalue for="label" value="1920-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1945-01-01::Entity::1945-01-01T00:00:00Z" label="1945-01-01">
+        <attvalues>
+          <attvalue for="label" value="1945-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1945-01-31::Entity::1945-01-31T00:00:00Z" label="1945-01-31">
+        <attvalues>
+          <attvalue for="label" value="1945-01-31"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1945-02-01::Entity::1945-02-01T00:00:00Z" label="1945-02-01">
+        <attvalues>
+          <attvalue for="label" value="1945-02-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="D.A. Thiemeprijs::Entity::Q1972108" label="D.A. Thiemeprijs">
+        <attvalues>
+          <attvalue for="label" value="D.A. Thiemeprijs"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Johan Huizinga::Entity::Q276280" label="Johan Huizinga">
+        <attvalues>
+          <attvalue for="label" value="Johan Huizinga"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Literature::Entity::Q37922" label="Nobel Prize in Literature">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Literature"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="academic degree::Predicate::q276280-d9c6435c76b918af665f392c892a1d5c::2" label="academic degree">
+        <attvalues>
+          <attvalue for="label" value="academic degree"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q276280-04188bdf23fa63db5c5de837d06c2c5f::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q276280-81a9f59905ee5494db5a44630818d49a::3" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q276280-857c25f05f1f90508cd640672383c652::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q276280-8c2e5e5185f3165acc0db8aada29aa67::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q276280-12972e985a0777938ed7a9ae39d5e0d2::4" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q276280-2a41174da8d9d52771ea24303d02fbd9::2" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q276280-93f0736e3f4a142324ae18c440597f5e::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q276280-9501d63acd60b21d4f9c80f31f6cec61::3" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="influenced by::Predicate::q276280-5e75856067a7df9fbaa083692e6359b8::1" label="influenced by">
+        <attvalues>
+          <attvalue for="label" value="influenced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q276280-18018d33c597b18a971b5942c8f98a0e::1" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q276280-5ab3ab948d6437dd631038194129d609::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q276280-5ab3ab948d6437dd631038194129d609::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="rector magnificus of Leiden University::Entity::Q20968836" label="rector magnificus of Leiden University">
+        <attvalues>
+          <attvalue for="label" value="rector magnificus of Leiden University"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="nominated for::Predicate::q276280-5ab3ab948d6437dd631038194129d609::1" target="Johan Huizinga::Entity::Q276280" weight="0.9996416568756104" label="1"/>
+      <edge id="1" source="nominated for::Predicate::q276280-5ab3ab948d6437dd631038194129d609::1" target="Nobel Prize in Literature::Entity::Q37922" weight="0.9996416568756104" label="1"/>
+      <edge id="10" source="Johan Huizinga::Entity::Q276280" target="employer::Predicate::q276280-9501d63acd60b21d4f9c80f31f6cec61::3" weight="0.3881956934928894" label="10"/>
+      <edge id="11" source="Johan Huizinga::Entity::Q276280" target="employer::Predicate::q276280-93f0736e3f4a142324ae18c440597f5e::1" weight="0.1822454333305359" label="11"/>
+      <edge id="12" source="Johan Huizinga::Entity::Q276280" target="academic degree::Predicate::q276280-d9c6435c76b918af665f392c892a1d5c::2" weight="0.04562968388199806" label="12"/>
+      <edge id="13" source="Johan Huizinga::Entity::Q276280" target="member of::Predicate::q276280-18018d33c597b18a971b5942c8f98a0e::1" weight="0.03006727807223797" label="13"/>
+      <edge id="14" source="Johan Huizinga::Entity::Q276280" target="date of birth::Predicate::q276280-04188bdf23fa63db5c5de837d06c2c5f::1" weight="0.0061391363851726055" label="14"/>
+      <edge id="15" source="Johan Huizinga::Entity::Q276280" target="influenced by::Predicate::q276280-5e75856067a7df9fbaa083692e6359b8::1" weight="0.0023880249354988337" label="17"/>
+      <edge id="16" source="award received::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::2" target="D.A. Thiemeprijs::Entity::Q1972108" weight="0.9846556186676025" label="2"/>
+      <edge id="17" source="award received::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::2" target="point in time::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::4" weight="0.9846556186676025" label="2"/>
+      <edge id="18" source="point in time::Predicate::q276280-5ab3ab948d6437dd631038194129d609::3" target="1945-01-01::Entity::1945-01-01T00:00:00Z" weight="0.9996416568756104" label="1"/>
+      <edge id="19" source="point in time::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::4" target="1920-01-01::Entity::1920-01-01T00:00:00Z" weight="0.9846556186676025" label="2"/>
+      <edge id="2" source="nominated for::Predicate::q276280-5ab3ab948d6437dd631038194129d609::1" target="point in time::Predicate::q276280-5ab3ab948d6437dd631038194129d609::3" weight="0.9996416568756104" label="1"/>
+      <edge id="20" source="date of death::Predicate::q276280-857c25f05f1f90508cd640672383c652::2" target="1945-01-31::Entity::1945-01-31T00:00:00Z" weight="0.6084301471710205" label="5"/>
+      <edge id="21" source="date of death::Predicate::q276280-8c2e5e5185f3165acc0db8aada29aa67::1" target="1945-02-01::Entity::1945-02-01T00:00:00Z" weight="0.5721328258514404" label="6"/>
+      <edge id="22" source="position held::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::5" target="end time::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::6" weight="0.531191349029541" label="7"/>
+      <edge id="23" source="position held::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::5" target="rector magnificus of Leiden University::Entity::Q20968836" weight="0.531191349029541" label="7"/>
+      <edge id="24" source="position held::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::5" target="start time::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::6" weight="0.531191349029541" label="7"/>
+      <edge id="3" source="Johan Huizinga::Entity::Q276280" target="award received::Predicate::q276280-e83f933afd681eaf2e8dd2694c6c4935::2" weight="0.9846556186676025" label="2"/>
+      <edge id="4" source="Johan Huizinga::Entity::Q276280" target="date of death::Predicate::q276280-81a9f59905ee5494db5a44630818d49a::3" weight="0.6165390610694885" label="4"/>
+      <edge id="5" source="Johan Huizinga::Entity::Q276280" target="date of death::Predicate::q276280-857c25f05f1f90508cd640672383c652::2" weight="0.6084301471710205" label="5"/>
+      <edge id="6" source="Johan Huizinga::Entity::Q276280" target="date of death::Predicate::q276280-8c2e5e5185f3165acc0db8aada29aa67::1" weight="0.5721328258514404" label="6"/>
+      <edge id="7" source="Johan Huizinga::Entity::Q276280" target="position held::Predicate::q276280-0676c74cb5ed635c261129a2b6f9886a::5" weight="0.531191349029541" label="7"/>
+      <edge id="8" source="Johan Huizinga::Entity::Q276280" target="employer::Predicate::q276280-12972e985a0777938ed7a9ae39d5e0d2::4" weight="0.4066365659236908" label="8"/>
+      <edge id="9" source="Johan Huizinga::Entity::Q276280" target="employer::Predicate::q276280-2a41174da8d9d52771ea24303d02fbd9::2" weight="0.3999873101711273" label="9"/>
+    </edges>
+  </graph>
+</gexf>

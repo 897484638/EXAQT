@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Carolina Panthers::Entity::Q330120" label="Carolina Panthers">
+        <attvalues>
+          <attvalue for="label" value="Carolina Panthers" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hank Baskett::Entity::Q1433425" label="Hank Baskett">
+        <attvalues>
+          <attvalue for="label" value="Hank Baskett" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Indianapolis Colts::Entity::Q193753" label="Indianapolis Colts">
+        <attvalues>
+          <attvalue for="label" value="Indianapolis Colts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Minnesota Vikings::Entity::Q221150" label="Minnesota Vikings">
+        <attvalues>
+          <attvalue for="label" value="Minnesota Vikings" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="National Football League::Entity::Q1215884" label="National Football League">
+        <attvalues>
+          <attvalue for="label" value="National Football League" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Philadelphia Eagles::Entity::Q219714" label="Philadelphia Eagles">
+        <attvalues>
+          <attvalue for="label" value="Philadelphia Eagles" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q221150-25b759f07d24efd10e45750399ef2d1a::1" label="league">
+        <attvalues>
+          <attvalue for="label" value="league" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1433425-174f121dfc442f69b2a315ab19486c38::3" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1433425-39f7662dad4e32e08896c5ccbcfdb6fe::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1433425-5db79c3a601155718e2f3865911cd275::2" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q221150-a66ee559efa69af8035b7f1915d27b72::2" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q330120-c05cffcfda04e23171525f6d0b9a666b::6" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="National Football League::Entity::Q1215884" target="member of::Predicate::q221150-a66ee559efa69af8035b7f1915d27b72::2" weight="0.9020391702651978" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="1" source="National Football League::Entity::Q1215884" target="league::Predicate::q221150-25b759f07d24efd10e45750399ef2d1a::1" weight="0.887241005897522" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="10" source="member of sports team::Predicate::q1433425-174f121dfc442f69b2a315ab19486c38::3" target="Philadelphia Eagles::Entity::Q219714" weight="0.9940401911735535" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="11" source="member of::Predicate::q330120-c05cffcfda04e23171525f6d0b9a666b::6" target="Carolina Panthers::Entity::Q330120" weight="0.8584780693054199" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="National Football League::Entity::Q1215884" target="member of::Predicate::q330120-c05cffcfda04e23171525f6d0b9a666b::6" weight="0.8584780693054199" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="member of::Predicate::q221150-a66ee559efa69af8035b7f1915d27b72::2" target="Minnesota Vikings::Entity::Q221150" weight="0.9020391702651978" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="Minnesota Vikings::Entity::Q221150" target="member of sports team::Predicate::q1433425-39f7662dad4e32e08896c5ccbcfdb6fe::1" weight="0.9956216216087341" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Minnesota Vikings::Entity::Q221150" target="league::Predicate::q221150-25b759f07d24efd10e45750399ef2d1a::1" weight="0.887241005897522" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="member of sports team::Predicate::q1433425-39f7662dad4e32e08896c5ccbcfdb6fe::1" target="Hank Baskett::Entity::Q1433425" weight="0.9956216216087341" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="Hank Baskett::Entity::Q1433425" target="member of sports team::Predicate::q1433425-5db79c3a601155718e2f3865911cd275::2" weight="0.9945043325424194" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="Hank Baskett::Entity::Q1433425" target="member of sports team::Predicate::q1433425-174f121dfc442f69b2a315ab19486c38::3" weight="0.9940401911735535" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="member of sports team::Predicate::q1433425-5db79c3a601155718e2f3865911cd275::2" target="Indianapolis Colts::Entity::Q193753" weight="0.9945043325424194" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

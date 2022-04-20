@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1648-01-01" label="1648-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1790-03-04" label="1790-03-04">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1798-01-04" label="1798-01-04">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1798-01-28" label="1798-01-28">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="2" />
+        </attvalues>
+      </node>
+      <node id="1871-01-01" label="1871-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="3" />
+        </attvalues>
+      </node>
+      <node id="1871-01-18" label="1871-01-18">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1920-01-01" label="1920-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="1" />
+        </attvalues>
+      </node>
+      <node id="1958-01-01" label="1958-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="4" />
+        </attvalues>
+      </node>
+      <node id="2015-01-01" label="2015-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="5" />
+        </attvalues>
+      </node>
+      <node id="2015-12-31" label="2015-12-31">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1142" label="Alsace">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q123681" label="Magny">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q12717" label="Bas-Rhin">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q12722" label="Haut-Rhin">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q142" label="France">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q148099" label="Pfetterhouse">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q148562" label="Romagny">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q148627" label="Roggenhouse">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q148746" label="Muhlbach-sur-Munster">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q148815" label="Murbach">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q148848" label="Mollau">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q149297" label="Munchhouse">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q149329" label="Muespach">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q149419" label="Munster">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q149801" label="Munwiller">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q150995" label="Peace of Westphalia">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q18292665" label="Horbourg">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1999970" label="Upper Alsace">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q21077045" label="Upper Alsace">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q21490" label="Mutzenhouse">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q274610" label="Illzach">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q275056" label="Algolsheim">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q303356" label="canton of Mulhouse-Nord">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q325043" label="Habsheim">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q325348" label="Bellemagny">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q325462" label="Balgau">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q381604" label="FrÃ©land">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q635411" label="Walheim">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q659533" label="Wittenheim">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q79815" label="Mulhouse">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q83305" label="Hombourg">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q123681-4d0618e22d83f78608a33737edc3b8b4" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q12717-cd7fdfb28893ee984b7111fec55fdefa" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q12722-722503b8c296e696f411d5c8f47b857b" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q12722-b9e2e7cc69afc67780d13aa7e19a96b7" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q148099-7f99dbedb7045a493fc986d2345b9f18" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q148562-cd3b95dfe09cd5425685d22237121789" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q148627-f290478670d45640b9abd87639242d98" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q148746-b625e84d54a4aa11f6f22872eb2696fc" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q148815-830e9966d4dc1f9e8d6ee130ffafadd8" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q148848-dc4515b62de425d1b895cbf3d81eb4f1" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q149297-042d443a04b16e6a8cacbe8be788d982" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q149297-dd0e242672ddede2de89fc54d9da2a71" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q149329-771c0abe82be157ae2ac748dea8d5db0" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q149419-b9ef3507a51f2f7ff06205c323e9b4ca" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q149801-46ce7bb70a6bec00f1a5764ba35e4c8e" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q18292665-a19a3501a1ed37f18bbe5812b4859804" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1999970-ce7db105e0560d465f74a46ba807d565" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q21077045-306fbe495f295f4739fded92ac24486a" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q21490-0119b6ac3adcee0402f460acb5d46bd8" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q274610-322e88f48ca76e12149774d3d13905d8" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q275056-1cefcae1321de5aa4566db1b15b85329" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q325043-7221978d23307963d4ffa49f61e5a9e9" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q325348-384ecb03e3de577a9d47e861eb930a84" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q325462-502e00f5902ca14c4814d3ba0564737c" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q381604-f850dd6f2c27426918e91f9e17f75fd0" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q635411-eaa5672550e5bf15ab781227ccc7ada7" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q659533-0233668f962be057451e1a88c8395a6e" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q79815-1825a58dd88d67a931904c2baf3a60d7" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q79815-187d2a3e2477a6d11162052044c30cd5" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q79815-1e8cde2b6a22b88fbd5065180235c6f7" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q79815-44a2581607a2bc28c44c34d8c52cf2e8" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q83305-33dc9388eb32fdcaf28d22f596867e7f" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q79815" target="q79815-1825a58dd88d67a931904c2baf3a60d7" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="1" source="Q79815" target="q79815-1e8cde2b6a22b88fbd5065180235c6f7" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="10" source="Q12722" target="q12722-b9e2e7cc69afc67780d13aa7e19a96b7" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="100" source="q21490-0119b6ac3adcee0402f460acb5d46bd8" target="Q12717" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="101" source="q21490-0119b6ac3adcee0402f460acb5d46bd8" target="1790-03-04" weight="0.06451957672834396: temporal predicate" label="start time: 6"><viz:shape value="solid" /><viz:thickness value="1.57671" /></edge>
+      <edge id="102" source="q21490-0119b6ac3adcee0402f460acb5d46bd8" target="1871-01-01" weight="0.00047091368469409645: temporal predicate" label="end time: 17"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="103" source="Q12717" target="q12717-cd7fdfb28893ee984b7111fec55fdefa" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="104" source="Q21077045" target="q21077045-306fbe495f295f4739fded92ac24486a" weight="0.0006959324819035828: temporal predicate" label="dissolved, abolished or demolished date: 16"><viz:shape value="solid" /><viz:thickness value="1.00203" /></edge>
+      <edge id="105" source="q21077045-306fbe495f295f4739fded92ac24486a" target="1648-01-01" weight="0.002679855562746525: temporal predicate" label="dissolved, abolished or demolished date: 9"><viz:shape value="solid" /><viz:thickness value="1.01989" /></edge>
+      <edge id="106" source="q21077045-306fbe495f295f4739fded92ac24486a" target="Q150995" weight="0.1413312554359436: non-temporal predicate" label="end cause: 4"><viz:shape value="solid" /><viz:thickness value="2.26834" /></edge>
+      <edge id="107" source="q12722-b9e2e7cc69afc67780d13aa7e19a96b7" target="Q1142" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="108" source="q12722-b9e2e7cc69afc67780d13aa7e19a96b7" target="2015-12-31" weight="0.001922570401802659: temporal predicate" label="end time: 11"><viz:shape value="solid" /><viz:thickness value="1.01307" /></edge>
+      <edge id="109" source="q1999970-ce7db105e0560d465f74a46ba807d565" target="Q79815" weight="0.0010042226640507579: non-temporal predicate" label="contains administrative territorial entity: 13"><viz:shape value="solid" /><viz:thickness value="1.0048" /></edge>
+      <edge id="11" source="Q12722" target="q12722-722503b8c296e696f411d5c8f47b857b" weight="0.0010042226640507579: non-temporal predicate" label="contains administrative territorial entity: 13"><viz:shape value="solid" /><viz:thickness value="1.0048" /></edge>
+      <edge id="110" source="q1999970-ce7db105e0560d465f74a46ba807d565" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="111" source="q1999970-ce7db105e0560d465f74a46ba807d565" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="112" source="q79815-44a2581607a2bc28c44c34d8c52cf2e8" target="Q142" weight="0.00230684457346797: non-temporal predicate" label="country: 10"><viz:shape value="solid" /><viz:thickness value="1.01653" /></edge>
+      <edge id="113" source="q79815-44a2581607a2bc28c44c34d8c52cf2e8" target="1871-01-18" weight="0.0007341313175857067: temporal predicate" label="end time: 15"><viz:shape value="solid" /><viz:thickness value="1.00237" /></edge>
+      <edge id="114" source="q79815-44a2581607a2bc28c44c34d8c52cf2e8" target="1798-01-28" weight="0.5333874821662903: temporal predicate" label="start time: 3"><viz:shape value="solid" /><viz:thickness value="5.79851" /></edge>
+      <edge id="115" source="q79815-187d2a3e2477a6d11162052044c30cd5" target="Q303356" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="116" source="q79815-187d2a3e2477a6d11162052044c30cd5" target="2015-01-01" weight="0.01874014176428318: temporal predicate" label="end time: 8"><viz:shape value="solid" /><viz:thickness value="1.1645" /></edge>
+      <edge id="117" source="q79815-187d2a3e2477a6d11162052044c30cd5" target="1958-01-01" weight="1.0: temporal predicate" label="start time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="118" source="q12717-cd7fdfb28893ee984b7111fec55fdefa" target="Q1142" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="119" source="q12717-cd7fdfb28893ee984b7111fec55fdefa" target="2015-12-31" weight="0.001922570401802659: temporal predicate" label="end time: 11"><viz:shape value="solid" /><viz:thickness value="1.01307" /></edge>
+      <edge id="12" source="Q149297" target="q149297-dd0e242672ddede2de89fc54d9da2a71" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="120" source="q12722-722503b8c296e696f411d5c8f47b857b" target="Q79815" weight="0.0010042226640507579: non-temporal predicate" label="contains administrative territorial entity: 13"><viz:shape value="solid" /><viz:thickness value="1.0048" /></edge>
+      <edge id="121" source="q12722-722503b8c296e696f411d5c8f47b857b" target="1871-01-01" weight="0.00047091368469409645: temporal predicate" label="end time: 17"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="122" source="q12722-722503b8c296e696f411d5c8f47b857b" target="1798-01-04" weight="0.8178743720054626: temporal predicate" label="start time: 2"><viz:shape value="solid" /><viz:thickness value="8.3601" /></edge>
+      <edge id="13" source="Q149297" target="q149297-042d443a04b16e6a8cacbe8be788d982" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="14" source="q149297-dd0e242672ddede2de89fc54d9da2a71" target="Q12722" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="15" source="q149297-dd0e242672ddede2de89fc54d9da2a71" target="1920-01-01" weight="0.08929569274187088: temporal predicate" label="start time: 5"><viz:shape value="solid" /><viz:thickness value="1.7998" /></edge>
+      <edge id="16" source="q149297-042d443a04b16e6a8cacbe8be788d982" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="17" source="q149297-042d443a04b16e6a8cacbe8be788d982" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="18" source="q149297-042d443a04b16e6a8cacbe8be788d982" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="19" source="Q274610" target="q274610-322e88f48ca76e12149774d3d13905d8" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="2" source="Q79815" target="q79815-44a2581607a2bc28c44c34d8c52cf2e8" weight="0.00230684457346797: non-temporal predicate" label="country: 10"><viz:shape value="solid" /><viz:thickness value="1.01653" /></edge>
+      <edge id="20" source="q274610-322e88f48ca76e12149774d3d13905d8" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="21" source="q274610-322e88f48ca76e12149774d3d13905d8" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="22" source="q274610-322e88f48ca76e12149774d3d13905d8" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="23" source="Q325462" target="q325462-502e00f5902ca14c4814d3ba0564737c" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="24" source="q325462-502e00f5902ca14c4814d3ba0564737c" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="25" source="q325462-502e00f5902ca14c4814d3ba0564737c" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="26" source="q325462-502e00f5902ca14c4814d3ba0564737c" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="27" source="Q123681" target="q123681-4d0618e22d83f78608a33737edc3b8b4" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="28" source="q123681-4d0618e22d83f78608a33737edc3b8b4" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="29" source="q123681-4d0618e22d83f78608a33737edc3b8b4" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="3" source="Q79815" target="q79815-187d2a3e2477a6d11162052044c30cd5" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="30" source="q123681-4d0618e22d83f78608a33737edc3b8b4" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="31" source="Q148627" target="q148627-f290478670d45640b9abd87639242d98" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="32" source="q148627-f290478670d45640b9abd87639242d98" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="33" source="q148627-f290478670d45640b9abd87639242d98" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="34" source="q148627-f290478670d45640b9abd87639242d98" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="35" source="Q148746" target="q148746-b625e84d54a4aa11f6f22872eb2696fc" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="36" source="q148746-b625e84d54a4aa11f6f22872eb2696fc" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="37" source="q148746-b625e84d54a4aa11f6f22872eb2696fc" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="38" source="q148746-b625e84d54a4aa11f6f22872eb2696fc" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="39" source="Q148848" target="q148848-dc4515b62de425d1b895cbf3d81eb4f1" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="4" source="q79815-1825a58dd88d67a931904c2baf3a60d7" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="40" source="q148848-dc4515b62de425d1b895cbf3d81eb4f1" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="41" source="q148848-dc4515b62de425d1b895cbf3d81eb4f1" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="42" source="q148848-dc4515b62de425d1b895cbf3d81eb4f1" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="43" source="Q149329" target="q149329-771c0abe82be157ae2ac748dea8d5db0" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="44" source="q149329-771c0abe82be157ae2ac748dea8d5db0" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="45" source="q149329-771c0abe82be157ae2ac748dea8d5db0" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="46" source="q149329-771c0abe82be157ae2ac748dea8d5db0" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="47" source="Q381604" target="q381604-f850dd6f2c27426918e91f9e17f75fd0" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="48" source="q381604-f850dd6f2c27426918e91f9e17f75fd0" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="49" source="q381604-f850dd6f2c27426918e91f9e17f75fd0" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="5" source="q79815-1825a58dd88d67a931904c2baf3a60d7" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="50" source="q381604-f850dd6f2c27426918e91f9e17f75fd0" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="51" source="Q18292665" target="q18292665-a19a3501a1ed37f18bbe5812b4859804" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="52" source="q18292665-a19a3501a1ed37f18bbe5812b4859804" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="53" source="q18292665-a19a3501a1ed37f18bbe5812b4859804" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="54" source="q18292665-a19a3501a1ed37f18bbe5812b4859804" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="55" source="Q148562" target="q148562-cd3b95dfe09cd5425685d22237121789" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="56" source="q148562-cd3b95dfe09cd5425685d22237121789" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="57" source="q148562-cd3b95dfe09cd5425685d22237121789" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="58" source="q148562-cd3b95dfe09cd5425685d22237121789" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="59" source="Q83305" target="q83305-33dc9388eb32fdcaf28d22f596867e7f" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="6" source="q79815-1825a58dd88d67a931904c2baf3a60d7" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="60" source="q83305-33dc9388eb32fdcaf28d22f596867e7f" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="61" source="q83305-33dc9388eb32fdcaf28d22f596867e7f" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="62" source="q83305-33dc9388eb32fdcaf28d22f596867e7f" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="63" source="Q149801" target="q149801-46ce7bb70a6bec00f1a5764ba35e4c8e" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="64" source="q149801-46ce7bb70a6bec00f1a5764ba35e4c8e" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="65" source="q149801-46ce7bb70a6bec00f1a5764ba35e4c8e" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="66" source="q149801-46ce7bb70a6bec00f1a5764ba35e4c8e" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="67" source="Q275056" target="q275056-1cefcae1321de5aa4566db1b15b85329" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="68" source="q275056-1cefcae1321de5aa4566db1b15b85329" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="69" source="q275056-1cefcae1321de5aa4566db1b15b85329" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="7" source="Q1999970" target="q1999970-ce7db105e0560d465f74a46ba807d565" weight="0.0010042226640507579: non-temporal predicate" label="contains administrative territorial entity: 13"><viz:shape value="solid" /><viz:thickness value="1.0048" /></edge>
+      <edge id="70" source="q275056-1cefcae1321de5aa4566db1b15b85329" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="71" source="Q148099" target="q148099-7f99dbedb7045a493fc986d2345b9f18" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="72" source="q148099-7f99dbedb7045a493fc986d2345b9f18" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="73" source="q148099-7f99dbedb7045a493fc986d2345b9f18" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="74" source="q148099-7f99dbedb7045a493fc986d2345b9f18" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="75" source="Q325043" target="q325043-7221978d23307963d4ffa49f61e5a9e9" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="76" source="q325043-7221978d23307963d4ffa49f61e5a9e9" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="77" source="q325043-7221978d23307963d4ffa49f61e5a9e9" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="78" source="q325043-7221978d23307963d4ffa49f61e5a9e9" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="79" source="Q148815" target="q148815-830e9966d4dc1f9e8d6ee130ffafadd8" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="8" source="q79815-1e8cde2b6a22b88fbd5065180235c6f7" target="Q12722" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="80" source="q148815-830e9966d4dc1f9e8d6ee130ffafadd8" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="81" source="q148815-830e9966d4dc1f9e8d6ee130ffafadd8" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="82" source="q148815-830e9966d4dc1f9e8d6ee130ffafadd8" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="83" source="Q149419" target="q149419-b9ef3507a51f2f7ff06205c323e9b4ca" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="84" source="q149419-b9ef3507a51f2f7ff06205c323e9b4ca" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="85" source="q149419-b9ef3507a51f2f7ff06205c323e9b4ca" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="86" source="q149419-b9ef3507a51f2f7ff06205c323e9b4ca" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="87" source="Q325348" target="q325348-384ecb03e3de577a9d47e861eb930a84" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="88" source="q325348-384ecb03e3de577a9d47e861eb930a84" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="89" source="q325348-384ecb03e3de577a9d47e861eb930a84" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="9" source="q79815-1e8cde2b6a22b88fbd5065180235c6f7" target="1920-01-01" weight="0.08929569274187088: temporal predicate" label="start time: 5"><viz:shape value="solid" /><viz:thickness value="1.7998" /></edge>
+      <edge id="90" source="q325348-384ecb03e3de577a9d47e861eb930a84" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="91" source="Q635411" target="q635411-eaa5672550e5bf15ab781227ccc7ada7" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="92" source="q635411-eaa5672550e5bf15ab781227ccc7ada7" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="93" source="q635411-eaa5672550e5bf15ab781227ccc7ada7" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="94" source="q635411-eaa5672550e5bf15ab781227ccc7ada7" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="95" source="Q659533" target="q659533-0233668f962be057451e1a88c8395a6e" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="96" source="q659533-0233668f962be057451e1a88c8395a6e" target="Q1999970" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+      <edge id="97" source="q659533-0233668f962be057451e1a88c8395a6e" target="1871-01-01" weight="0.0007681181887164712: temporal predicate" label="start time: 14"><viz:shape value="solid" /><viz:thickness value="1.00268" /></edge>
+      <edge id="98" source="q659533-0233668f962be057451e1a88c8395a6e" target="1920-01-01" weight="0.05789658799767494: temporal predicate" label="end time: 7"><viz:shape value="solid" /><viz:thickness value="1.51707" /></edge>
+      <edge id="99" source="Q21490" target="q21490-0119b6ac3adcee0402f460acb5d46bd8" weight="0.0015901296865195036: non-temporal predicate" label="located in the administrative territorial entity: 12"><viz:shape value="solid" /><viz:thickness value="1.01008" /></edge>
+    </edges>
+  </graph>
+</gexf>

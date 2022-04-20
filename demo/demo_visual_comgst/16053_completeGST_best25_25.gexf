@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Burning Bright::Entity::Q4999822" label="Burning Bright">
+        <attvalues>
+          <attvalue for="label" value="Burning Bright" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="East of Eden::Entity::Q849701" label="East of Eden">
+        <attvalues>
+          <attvalue for="label" value="East of Eden" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="In Dubious Battle::Entity::Q582472" label="In Dubious Battle">
+        <attvalues>
+          <attvalue for="label" value="In Dubious Battle" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="John Steinbeck::Entity::Q39212" label="John Steinbeck">
+        <attvalues>
+          <attvalue for="label" value="John Steinbeck" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="The Moon Is Down::Entity::Q1195848" label="The Moon Is Down">
+        <attvalues>
+          <attvalue for="label" value="The Moon Is Down" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q1195848-c5c5ca496b343ac873e0465a29e4c066::11" label="author">
+        <attvalues>
+          <attvalue for="label" value="author" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q4999822-2875a1ad5e3039090ba3758e7d43a817::7" label="author">
+        <attvalues>
+          <attvalue for="label" value="author" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q582472-c7aa801fb0c71ab7503b97f6977293a8::15" label="author">
+        <attvalues>
+          <attvalue for="label" value="author" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q849701-5e332dfa589224801350fd427b44dadc::21" label="author">
+        <attvalues>
+          <attvalue for="label" value="author" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="John Steinbeck::Entity::Q39212" target="author::Predicate::q4999822-2875a1ad5e3039090ba3758e7d43a817::7" weight="0.996946394443512" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="John Steinbeck::Entity::Q39212" target="author::Predicate::q849701-5e332dfa589224801350fd427b44dadc::21" weight="0.9965614676475525" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="John Steinbeck::Entity::Q39212" target="author::Predicate::q582472-c7aa801fb0c71ab7503b97f6977293a8::15" weight="0.9964622855186462" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="John Steinbeck::Entity::Q39212" target="author::Predicate::q1195848-c5c5ca496b343ac873e0465a29e4c066::11" weight="0.9964132905006409" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="author::Predicate::q4999822-2875a1ad5e3039090ba3758e7d43a817::7" target="Burning Bright::Entity::Q4999822" weight="0.996946394443512" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="author::Predicate::q849701-5e332dfa589224801350fd427b44dadc::21" target="East of Eden::Entity::Q849701" weight="0.9965614676475525" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="author::Predicate::q582472-c7aa801fb0c71ab7503b97f6977293a8::15" target="In Dubious Battle::Entity::Q582472" weight="0.9964622855186462" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="author::Predicate::q1195848-c5c5ca496b343ac873e0465a29e4c066::11" target="The Moon Is Down::Entity::Q1195848" weight="0.9964132905006409" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

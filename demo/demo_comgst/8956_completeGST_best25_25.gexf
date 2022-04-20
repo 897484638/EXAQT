@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Ancient Egypt::Entity::Q11768" label="Ancient Egypt">
+        <attvalues>
+          <attvalue for="label" value="Ancient Egypt"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Cairo::Entity::Q85" label="Cairo">
+        <attvalues>
+          <attvalue for="label" value="Cairo"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Egypt::Entity::Q79" label="Egypt">
+        <attvalues>
+          <attvalue for="label" value="Egypt"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Joseph::Entity::Q145746" label="Joseph">
+        <attvalues>
+          <attvalue for="label" value="Joseph"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Judea::Entity::Q104028" label="Judea">
+        <attvalues>
+          <attvalue for="label" value="Judea"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Nile::Entity::Q3392" label="Nile">
+        <attvalues>
+          <attvalue for="label" value="Nile"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q79-ce622552db5dfafc6751e83405a0c0fd::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in or next to body of water::Predicate::q79-141aa5c201a979db5ade34fc82297a66::2" label="located in or next to body of water">
+        <attvalues>
+          <attvalue for="label" value="located in or next to body of water"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q145746-52ef303f0e5edebf57014be1665834ab::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q145746-a6ee92e02e2cb89ad4ba6a4dde4cea54::2" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q145746-ed0d3bad12104344a0365fbb7ff96f10::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Joseph::Entity::Q145746" target="residence::Predicate::q145746-ed0d3bad12104344a0365fbb7ff96f10::1" weight="0.9973022937774658" label="1"/>
+      <edge id="1" source="Joseph::Entity::Q145746" target="residence::Predicate::q145746-a6ee92e02e2cb89ad4ba6a4dde4cea54::2" weight="0.9940168857574463" label="2"/>
+      <edge id="2" source="Joseph::Entity::Q145746" target="place of death::Predicate::q145746-52ef303f0e5edebf57014be1665834ab::1" weight="0.9909131526947021" label="7"/>
+      <edge id="3" source="residence::Predicate::q145746-ed0d3bad12104344a0365fbb7ff96f10::1" target="Ancient Egypt::Entity::Q11768" weight="0.9973022937774658" label="1"/>
+      <edge id="4" source="residence::Predicate::q145746-a6ee92e02e2cb89ad4ba6a4dde4cea54::2" target="Judea::Entity::Q104028" weight="0.9940168857574463" label="2"/>
+      <edge id="5" source="place of death::Predicate::q145746-52ef303f0e5edebf57014be1665834ab::1" target="Egypt::Entity::Q79" weight="0.9909131526947021" label="7"/>
+      <edge id="6" source="Egypt::Entity::Q79" target="capital::Predicate::q79-ce622552db5dfafc6751e83405a0c0fd::1" weight="0.9929702877998352" label="3"/>
+      <edge id="7" source="Egypt::Entity::Q79" target="located in or next to body of water::Predicate::q79-141aa5c201a979db5ade34fc82297a66::2" weight="0.9928102493286133" label="4"/>
+      <edge id="8" source="capital::Predicate::q79-ce622552db5dfafc6751e83405a0c0fd::1" target="Cairo::Entity::Q85" weight="0.9929702877998352" label="3"/>
+      <edge id="9" source="located in or next to body of water::Predicate::q79-141aa5c201a979db5ade34fc82297a66::2" target="Nile::Entity::Q3392" weight="0.9928102493286133" label="4"/>
+    </edges>
+  </graph>
+</gexf>

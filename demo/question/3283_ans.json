@@ -1,0 +1,109 @@
+{
+    "Id": 3283,
+    "Question": "when did child of john adams and date of birth",
+    "Temporal signal": [
+        "No signal"
+    ],
+    "Temporal question type": [
+        "Temp.Ans"
+    ],
+    "Answer": [
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q11816",
+            "WikidataLabel": "John Quincy Adams",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/John_Quincy_Adams"
+        },
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q4667661",
+            "WikidataLabel": "Abigail Adams Smith",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Abigail_Adams_Smith"
+        },
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q5074968",
+            "WikidataLabel": "Charles Adams",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Charles_Adams_(1770%E2%80%931800)"
+        },
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q7787805",
+            "WikidataLabel": "Thomas Boylston Adams",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Thomas_Boylston_Adams_(1772%E2%80%931832)"
+        },
+        {
+            "AnswerType": "Value",
+            "AnswerArgument": "1765-07-14T00:00:00Z"
+        },
+        {
+            "AnswerType": "Value",
+            "AnswerArgument": "1767-07-11T00:00:00Z"
+        },
+        {
+            "AnswerType": "Value",
+            "AnswerArgument": "1770-05-29T00:00:00Z"
+        },
+        {
+            "AnswerType": "Value",
+            "AnswerArgument": "1772-09-15T00:00:00Z"
+        }
+    ],
+    "Data set": "train",
+    "Question truecase": "When did child of John Adams and date of birth?",
+    "Seed entity": [
+        {
+            "label": "John Adams",
+            "url": "http://www.wikidata.org/entity/Q11806",
+            "qid": "Q11806",
+            "text": "john adams",
+            "method": "ELQ and TAGME"
+        },
+        {
+            "label": "child",
+            "url": "http://www.wikidata.org/entity/Q7569",
+            "qid": "Q7569",
+            "text": "child",
+            "method": "ELQ and TAGME"
+        },
+        {
+            "label": "birthday",
+            "url": "http://www.wikidata.org/entity/Q47223",
+            "qid": "Q47223",
+            "text": "date of birth",
+            "method": "TAGME"
+        }
+    ],
+    "Top5 answer": [
+        {
+            "rank": 1,
+            "label": "Thomas Boylston Adams",
+            "url": "http://www.wikidata.org/entity/Q7787805",
+            "qid": "Q7787805"
+        },
+        {
+            "rank": 2,
+            "label": "1770-05-29",
+            "url": "",
+            "qid": ""
+        },
+        {
+            "rank": 3,
+            "label": "Charles Adams",
+            "url": "http://www.wikidata.org/entity/Q5074968",
+            "qid": "Q5074968"
+        },
+        {
+            "rank": 4,
+            "label": "1767-07-11",
+            "url": "",
+            "qid": ""
+        },
+        {
+            "rank": 5,
+            "label": "1765-07-14",
+            "url": "",
+            "qid": ""
+        }
+    ]
+}

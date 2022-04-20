@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1928-01-01::Entity::1928-01-01T00:00:00Z" label="1928-01-01">
+        <attvalues>
+          <attvalue for="label" value="1928-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1930-01-01::Entity::1930-01-01T00:00:00Z" label="1930-01-01">
+        <attvalues>
+          <attvalue for="label" value="1930-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Ivan Udaltsov::Entity::Q4469264" label="Ivan Udaltsov">
+        <attvalues>
+          <attvalue for="label" value="Ivan Udaltsov" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Moscow State University::Entity::Q13164" label="Moscow State University">
+        <attvalues>
+          <attvalue for="label" value="Moscow State University" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q42233029-90555256a3935565394790d9a02ce4e5::4" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q50223260-eff3b1b11a4b18773fb1cebbfef87977::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q58239421-36182b74c9ab91e4ceeb9ca117678f23::5" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-4266f79f4c8e95ed9abfd3a1d7914b44::19" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-5ad67ad646ccde4d504eb3e1ca572b19::7" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-5b4a0520120f10cd1a18c1690c1e867b::17" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-60282f8ec2e2d97f006097d66eeed495::11" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-60eb39becc340dc2eb18ef4c40db0edd::9" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-627c74f37fdc08bcba8e57360bfdf0f6::1" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-70f26cb86863bc18c351408d45badf66::2" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-7c3aaee90501d48ce9b79e1cd1807551::8" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-7d43b48d685ff121a69c8230ec2560f3::4" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-a2341f6498a5a3b12d7cdec173c64376::20" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-a351d9d2317f6d5a3f058c3fb31e852e::16" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-d38c87587f0940be407a7dbe5d500950::3" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="rector::Predicate::q13164-fa5681d4957c5d1170c1d2683e03b8aa::5" label="rector">
+        <attvalues>
+          <attvalue for="label" value="rector" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q13164-4266f79f4c8e95ed9abfd3a1d7914b44::19" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q13164-5ad67ad646ccde4d504eb3e1ca572b19::7" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q13164-627c74f37fdc08bcba8e57360bfdf0f6::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" target="rector::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" weight="0.9997472167015076" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="start time::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" target="1928-01-01::Entity::1928-01-01T00:00:00Z" weight="0.9997472167015076" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Moscow State University::Entity::Q13164" target="educated at::Predicate::q50223260-eff3b1b11a4b18773fb1cebbfef87977::2" weight="0.9991175532341003" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-60282f8ec2e2d97f006097d66eeed495::11" weight="0.9990808963775635" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-70f26cb86863bc18c351408d45badf66::2" weight="0.9990443587303162" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-7d43b48d685ff121a69c8230ec2560f3::4" weight="0.9990334510803223" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-7c3aaee90501d48ce9b79e1cd1807551::8" weight="0.9990195035934448" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-a2341f6498a5a3b12d7cdec173c64376::20" weight="0.9989972710609436" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-fa5681d4957c5d1170c1d2683e03b8aa::5" weight="0.9989797472953796" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Moscow State University::Entity::Q13164" target="educated at::Predicate::q58239421-36182b74c9ab91e4ceeb9ca117678f23::5" weight="0.998969554901123" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-60eb39becc340dc2eb18ef4c40db0edd::9" weight="0.9989475607872009" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-d38c87587f0940be407a7dbe5d500950::3" weight="0.9988885521888733" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="rector::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" target="Moscow State University::Entity::Q13164" weight="0.9997472167015076" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-a351d9d2317f6d5a3f058c3fb31e852e::16" weight="0.9988828301429749" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="end time::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" target="1930-01-01::Entity::1930-01-01T00:00:00Z" weight="0.9997472167015076" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="rector::Predicate::q13164-4266f79f4c8e95ed9abfd3a1d7914b44::19" target="start time::Predicate::q13164-4266f79f4c8e95ed9abfd3a1d7914b44::19" weight="0.9994070529937744" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="rector::Predicate::q13164-627c74f37fdc08bcba8e57360bfdf0f6::1" target="start time::Predicate::q13164-627c74f37fdc08bcba8e57360bfdf0f6::1" weight="0.9993553757667542" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="rector::Predicate::q13164-5ad67ad646ccde4d504eb3e1ca572b19::7" target="start time::Predicate::q13164-5ad67ad646ccde4d504eb3e1ca572b19::7" weight="0.9992765784263611" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="rector::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" target="Ivan Udaltsov::Entity::Q4469264" weight="0.9997472167015076" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="rector::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" target="end time::Predicate::q13164-33184b97fbd266aa709c31f771771bc2::14" weight="0.9997472167015076" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-4266f79f4c8e95ed9abfd3a1d7914b44::19" weight="0.9994070529937744" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-627c74f37fdc08bcba8e57360bfdf0f6::1" weight="0.9993553757667542" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-5ad67ad646ccde4d504eb3e1ca572b19::7" weight="0.9992765784263611" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="Moscow State University::Entity::Q13164" target="educated at::Predicate::q42233029-90555256a3935565394790d9a02ce4e5::4" weight="0.9991933703422546" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Moscow State University::Entity::Q13164" target="rector::Predicate::q13164-5b4a0520120f10cd1a18c1690c1e867b::17" weight="0.9991862177848816" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

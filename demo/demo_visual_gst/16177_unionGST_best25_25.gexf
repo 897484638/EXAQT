@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+220000::Entity::+220000" label="+220000">
+        <attvalues>
+          <attvalue for="label" value="+220000" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1980-01-01::Entity::1980-01-01T00:00:00Z" label="1980-01-01">
+        <attvalues>
+          <attvalue for="label" value="1980-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Frederick Sanger::Entity::Q151564" label="Frederick Sanger">
+        <attvalues>
+          <attvalue for="label" value="Frederick Sanger" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Chemistry::Entity::Q44585" label="Nobel Prize in Chemistry">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Chemistry" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Nobel Prize::Entity::Q7191" label="Nobel Prize">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Paul Berg::Entity::Q102379" label="Paul Berg">
+        <attvalues>
+          <attvalue for="label" value="Paul Berg" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Walter Gilbert::Entity::Q217486" label="Walter Gilbert">
+        <attvalues>
+          <attvalue for="label" value="Walter Gilbert" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q151564-738d40b616149e6dc9399f9023df1d59::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q7191-3220201f40221ae901070ff8dcdad12e::1" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::21" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q217486-161391b623ad7e804454115e5489f190::22" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::3" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::1" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::2" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q217486-161391b623ad7e804454115e5489f190::4" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::3" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::4" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::1" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::2" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q217486-161391b623ad7e804454115e5489f190::5" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q217486-161391b623ad7e804454115e5489f190::6" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Nobel Prize::Entity::Q7191" target="has part::Predicate::q7191-3220201f40221ae901070ff8dcdad12e::1" weight="0.002213135827332735" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="has part::Predicate::q7191-3220201f40221ae901070ff8dcdad12e::1" target="Nobel Prize in Chemistry::Entity::Q44585" weight="0.002213135827332735" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" target="together with::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::1" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="11" source="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" target="together with::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::2" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="12" source="Frederick Sanger::Entity::Q151564" target="award received::Predicate::q151564-738d40b616149e6dc9399f9023df1d59::2" weight="0.9996046423912048" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="13" source="Frederick Sanger::Entity::Q151564" target="together with::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::3" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="14" source="Frederick Sanger::Entity::Q151564" target="together with::Predicate::q217486-161391b623ad7e804454115e5489f190::5" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="15" source="Frederick Sanger::Entity::Q151564" target="award received::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::3" weight="0.9995940327644348" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="16" source="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" target="together with::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::3" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" target="Paul Berg::Entity::Q102379" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" target="point in time::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::21" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" target="prize money::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::3" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Nobel Prize in Chemistry::Entity::Q44585" target="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="20" source="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" target="together with::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::4" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" target="together with::Predicate::q217486-161391b623ad7e804454115e5489f190::5" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" target="Walter Gilbert::Entity::Q217486" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" target="point in time::Predicate::q217486-161391b623ad7e804454115e5489f190::22" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" target="prize money::Predicate::q217486-161391b623ad7e804454115e5489f190::4" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="25" source="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" target="together with::Predicate::q217486-161391b623ad7e804454115e5489f190::6" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="26" source="award received::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::3" target="point in time::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::2" weight="0.9995940327644348" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="27" source="award received::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::3" target="prize money::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::1" weight="0.9995940327644348" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="28" source="point in time::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::3" target="1980-01-01::Entity::1980-01-01T00:00:00Z" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="29" source="prize money::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::2" target="+220000::Entity::+220000" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Nobel Prize in Chemistry::Entity::Q44585" target="award received::Predicate::q151564-738d40b616149e6dc9399f9023df1d59::2" weight="0.9996046423912048" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="Nobel Prize in Chemistry::Entity::Q44585" target="award received::Predicate::q102379-4ff03a0bbf6e4d6abfa8853611ea1475::19" weight="0.9997329115867615" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Nobel Prize in Chemistry::Entity::Q44585" target="award received::Predicate::q217486-161391b623ad7e804454115e5489f190::20" weight="0.9997320771217346" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="Nobel Prize in Chemistry::Entity::Q44585" target="award received::Predicate::q151564-579969bfb0a6bec52247bddb0bb3148f::3" weight="0.9995940327644348" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="7" source="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" target="Frederick Sanger::Entity::Q151564" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" target="point in time::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::3" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="award received::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::4" target="prize money::Predicate::q151564-d1039e204eadd44dbeba1c5b35e52fa1::2" weight="0.999678373336792" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

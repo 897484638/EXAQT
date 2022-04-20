@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1801-01-01::Entity::1801-01-01T00:00:00Z" label="1801-01-01">
+        <attvalues>
+          <attvalue for="label" value="1801-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1922-12-05::Entity::1922-12-05T00:00:00Z" label="1922-12-05">
+        <attvalues>
+          <attvalue for="label" value="1922-12-05"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1922-12-06::Entity::1922-12-06T00:00:00Z" label="1922-12-06">
+        <attvalues>
+          <attvalue for="label" value="1922-12-06"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Dublin::Entity::Q1761" label="Dublin">
+        <attvalues>
+          <attvalue for="label" value="Dublin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Irish Free State Constitution Act 1922::Entity::Q6070762" label="Irish Free State Constitution Act 1922">
+        <attvalues>
+          <attvalue for="label" value="Irish Free State Constitution Act 1922"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Irish Free State::Entity::Q31747" label="Irish Free State">
+        <attvalues>
+          <attvalue for="label" value="Irish Free State"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Kingdom of Ireland::Entity::Q215530" label="Kingdom of Ireland">
+        <attvalues>
+          <attvalue for="label" value="Kingdom of Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Southern Ireland::Entity::Q31573" label="Southern Ireland">
+        <attvalues>
+          <attvalue for="label" value="Southern Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United Kingdom of Great Britain and Ireland::Entity::Q174193" label="United Kingdom of Great Britain and Ireland">
+        <attvalues>
+          <attvalue for="label" value="United Kingdom of Great Britain and Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="applies to part::Predicate::q174193-df029b4d9caff619386034a664fea38b::1" label="applies to part">
+        <attvalues>
+          <attvalue for="label" value="applies to part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q174193-2de47c439867d2d9a7ab40212eeed4fe::2" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q174193-37f6864ae758eca80bd051773a9a2c84::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q174193-df029b4d9caff619386034a664fea38b::6" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q17480153-4e779c212cd984d6a02d16d27cbb4224::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q174193-8eef11d8fdc717b6af6ed88961c6a85a::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q174193-df029b4d9caff619386034a664fea38b::7" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q174193-ed89f1d0e6b7905bc98edd53a2576214::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q174193-848fda0d3fccdf5c081efc60922bf465::1" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q174193-df029b4d9caff619386034a664fea38b::2" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q174193-8eef11d8fdc717b6af6ed88961c6a85a::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q174193-ed89f1d0e6b7905bc98edd53a2576214::2" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="applies to part::Predicate::q174193-df029b4d9caff619386034a664fea38b::1" target="replaced by::Predicate::q174193-df029b4d9caff619386034a664fea38b::2" weight="0.9929479360580444" label="4"/>
+      <edge id="1" source="applies to part::Predicate::q174193-df029b4d9caff619386034a664fea38b::1" target="Southern Ireland::Entity::Q31573" weight="0.9929479360580444" label="4"/>
+      <edge id="10" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="followed by::Predicate::q174193-37f6864ae758eca80bd051773a9a2c84::1" weight="0.9867327809333801" label="7"/>
+      <edge id="11" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="followed by::Predicate::q174193-2de47c439867d2d9a7ab40212eeed4fe::2" weight="0.9864372611045837" label="8"/>
+      <edge id="12" source="country::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" target="Dublin::Entity::Q1761" weight="0.9966689944267273" label="1"/>
+      <edge id="13" source="country::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" target="end time::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" weight="0.9966689944267273" label="1"/>
+      <edge id="14" source="country::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" target="start time::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" weight="0.9966689944267273" label="1"/>
+      <edge id="15" source="Dublin::Entity::Q1761" target="located in the administrative territorial entity::Predicate::q17480153-4e779c212cd984d6a02d16d27cbb4224::1" weight="0.6777098774909973" label="20"/>
+      <edge id="16" source="Dublin::Entity::Q1761" target="country::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" weight="0.993245542049408" label="3"/>
+      <edge id="17" source="end time::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" target="1922-12-05::Entity::1922-12-05T00:00:00Z" weight="0.9966689944267273" label="1"/>
+      <edge id="18" source="start time::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" target="1801-01-01::Entity::1801-01-01T00:00:00Z" weight="0.9966689944267273" label="1"/>
+      <edge id="19" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="point in time::Predicate::q174193-ed89f1d0e6b7905bc98edd53a2576214::5" weight="0.9933238625526428" label="2"/>
+      <edge id="2" source="replaced by::Predicate::q174193-df029b4d9caff619386034a664fea38b::2" target="United Kingdom of Great Britain and Ireland::Entity::Q174193" weight="0.9929479360580444" label="4"/>
+      <edge id="20" source="1801-01-01::Entity::1801-01-01T00:00:00Z" target="point in time::Predicate::q174193-8eef11d8fdc717b6af6ed88961c6a85a::4" weight="0.9921938180923462" label="6"/>
+      <edge id="21" source="replaces::Predicate::q174193-ed89f1d0e6b7905bc98edd53a2576214::2" target="Kingdom of Ireland::Entity::Q215530" weight="0.9933238625526428" label="2"/>
+      <edge id="22" source="country::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" target="end time::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" weight="0.993245542049408" label="3"/>
+      <edge id="23" source="country::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" target="start time::Predicate::q1761-14879717320ce1dc53dd0b120602dd5b::3" weight="0.993245542049408" label="3"/>
+      <edge id="24" source="has cause::Predicate::q174193-df029b4d9caff619386034a664fea38b::6" target="Irish Free State Constitution Act 1922::Entity::Q6070762" weight="0.9929479360580444" label="4"/>
+      <edge id="25" source="point in time::Predicate::q174193-df029b4d9caff619386034a664fea38b::7" target="1922-12-06::Entity::1922-12-06T00:00:00Z" weight="0.9929479360580444" label="4"/>
+      <edge id="3" source="replaced by::Predicate::q174193-df029b4d9caff619386034a664fea38b::2" target="Irish Free State::Entity::Q31747" weight="0.9929479360580444" label="4"/>
+      <edge id="4" source="replaced by::Predicate::q174193-df029b4d9caff619386034a664fea38b::2" target="has cause::Predicate::q174193-df029b4d9caff619386034a664fea38b::6" weight="0.9929479360580444" label="4"/>
+      <edge id="5" source="replaced by::Predicate::q174193-df029b4d9caff619386034a664fea38b::2" target="point in time::Predicate::q174193-df029b4d9caff619386034a664fea38b::7" weight="0.9929479360580444" label="4"/>
+      <edge id="6" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="country::Predicate::q1761-2303d923fd3c96c59774b15f10aae21c::2" weight="0.9966689944267273" label="1"/>
+      <edge id="7" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="replaces::Predicate::q174193-ed89f1d0e6b7905bc98edd53a2576214::2" weight="0.9933238625526428" label="2"/>
+      <edge id="8" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="replaced by::Predicate::q174193-848fda0d3fccdf5c081efc60922bf465::1" weight="0.9925147891044617" label="5"/>
+      <edge id="9" source="United Kingdom of Great Britain and Ireland::Entity::Q174193" target="replaces::Predicate::q174193-8eef11d8fdc717b6af6ed88961c6a85a::1" weight="0.9921938180923462" label="6"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Continental Army::Entity::Q54122" label="Continental Army">
+        <attvalues>
+          <attvalue for="label" value="Continental Army" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="George Washington::Entity::Q23" label="George Washington">
+        <attvalues>
+          <attvalue for="label" value="George Washington" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Joseph Prowell::Entity::Q50391847" label="Joseph Prowell">
+        <attvalues>
+          <attvalue for="label" value="Joseph Prowell" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="commander-in-chief::Entity::Q380782" label="commander-in-chief">
+        <attvalues>
+          <attvalue for="label" value="commander-in-chief" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q54122-510f08cefaedeb901b404de46db59609::1" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="military branch::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::16" label="military branch">
+        <attvalues>
+          <attvalue for="label" value="military branch" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="military officer::Entity::Q189290" label="military officer">
+        <attvalues>
+          <attvalue for="label" value="military officer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q380782-439686e22813e1af9e7082c731907e8c::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="commander-in-chief::Entity::Q380782" target="subclass of::Predicate::q380782-439686e22813e1af9e7082c731907e8c::1" weight="0.047702688723802567" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="subclass of::Predicate::q380782-439686e22813e1af9e7082c731907e8c::1" target="military officer::Entity::Q189290" weight="0.047702688723802567" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="military officer::Entity::Q189290" target="occupation::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::1" weight="0.842642068862915" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="occupation::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::1" target="military branch::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::16" weight="0.842642068862915" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="occupation::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::1" target="Joseph Prowell::Entity::Q50391847" weight="0.842642068862915" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="military branch::Predicate::q50391847-d61b07860add14c24e5e117aebe04644::16" target="Continental Army::Entity::Q54122" weight="0.842642068862915" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="Continental Army::Entity::Q54122" target="founded by::Predicate::q54122-510f08cefaedeb901b404de46db59609::1" weight="0.9959224462509155" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="founded by::Predicate::q54122-510f08cefaedeb901b404de46db59609::1" target="George Washington::Entity::Q23" weight="0.9959224462509155" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

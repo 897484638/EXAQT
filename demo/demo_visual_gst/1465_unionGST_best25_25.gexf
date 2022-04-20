@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1989 NBA Finals::Entity::Q4585299" label="1989 NBA Finals">
+        <attvalues>
+          <attvalue for="label" value="1989 NBA Finals" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1990 NBA Finals::Entity::Q4586134" label="1990 NBA Finals">
+        <attvalues>
+          <attvalue for="label" value="1990 NBA Finals" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Detroit Pistons::Entity::Q169661" label="Detroit Pistons">
+        <attvalues>
+          <attvalue for="label" value="Detroit Pistons" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="NBA Finals::Entity::Q842375" label="NBA Finals">
+        <attvalues>
+          <attvalue for="label" value="NBA Finals" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="The A-Team::Entity::Q464123" label="The A-Team">
+        <attvalues>
+          <attvalue for="label" value="The A-Team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q464123-8223967fc70d2e7411b8b12405804e20::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q4585299-74864261848be05f762b047afb41dd36::3" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q4586134-44725892f6e1449062a29aa15589b9e8::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q842375-674192bc9cb7b3b4534538b6ced8b6a4::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4584557-400e9173c8f058ef29203cedc6d1909e::6" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4585299-bbabf4453343f6abbd00db5217dbedb5::5" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4586134-6c43ca4b45d15e71fd3cd57f08a0b7d5::15" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4586976-8909e204153d1110da8e400e999c6ae9::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4588662-1d3b2993eaf1ef4c400fac5696ddb8ab::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4589592-f2c46584d4402f90da143d11da58c242::13" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4590500-f54ac1575e8ccbff8a0ad2302782c6b9::14" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4592651-1232bfef57727c0c87a18cc336fcf143::8" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4594932-163cf48bb3eb17a76d5c731acffbbcb7::12" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q4585299-456acbdd5701847e6d03d9e3ddc6e841::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q4586134-6dd36eb6e4f84788c22e609f02e69e39::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sport::Predicate::q4585299-14aca6badb98af252bd7cdd295fedc90::2" label="sport">
+        <attvalues>
+          <attvalue for="label" value="sport" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sport::Predicate::q4586134-98fce13fa65c7e48dd4299799c241e74::1" label="sport">
+        <attvalues>
+          <attvalue for="label" value="sport" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q464123-289745f2434f98b95071221076f353c2::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4585299-4694c4967c6c94c69caa379f671a0bf9::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4586134-f5990ceab6eb1c4229e1d9cae1252198::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="The A-Team::Entity::Q464123" target="country of origin::Predicate::q464123-8223967fc70d2e7411b8b12405804e20::1" weight="0.0017668323125690222" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="The A-Team::Entity::Q464123" target="start time::Predicate::q464123-289745f2434f98b95071221076f353c2::1" weight="0.022454949095845222" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="1989 NBA Finals::Entity::Q4585299" target="sport::Predicate::q4585299-14aca6badb98af252bd7cdd295fedc90::2" weight="0.06371759623289108" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4585299-bbabf4453343f6abbd00db5217dbedb5::5" weight="0.648245632648468" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="12" source="NBA Finals::Entity::Q842375" target="country::Predicate::q842375-674192bc9cb7b3b4534538b6ced8b6a4::1" weight="0.0035030804574489594" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4586976-8909e204153d1110da8e400e999c6ae9::1" weight="0.03899814188480377" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4588662-1d3b2993eaf1ef4c400fac5696ddb8ab::3" weight="0.028735630214214325" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4584557-400e9173c8f058ef29203cedc6d1909e::6" weight="0.02588973008096218" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4590500-f54ac1575e8ccbff8a0ad2302782c6b9::14" weight="0.021563934162259102" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4589592-f2c46584d4402f90da143d11da58c242::13" weight="0.020521529018878937" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4594932-163cf48bb3eb17a76d5c731acffbbcb7::12" weight="0.019221147522330284" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="NBA Finals::Entity::Q842375" target="instance of::Predicate::q4592651-1232bfef57727c0c87a18cc336fcf143::8" weight="0.019163494929671288" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="country of origin::Predicate::q464123-8223967fc70d2e7411b8b12405804e20::1" target="United States::Entity::Q30" weight="0.0017668323125690222" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="1990 NBA Finals::Entity::Q4586134" target="winner::Predicate::q4586134-f5990ceab6eb1c4229e1d9cae1252198::1" weight="0.9725489616394043" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="1990 NBA Finals::Entity::Q4586134" target="country::Predicate::q4586134-44725892f6e1449062a29aa15589b9e8::2" weight="0.02772095985710621" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="1990 NBA Finals::Entity::Q4586134" target="instance of::Predicate::q4586134-6c43ca4b45d15e71fd3cd57f08a0b7d5::15" weight="0.26319420337677" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="23" source="1990 NBA Finals::Entity::Q4586134" target="point in time::Predicate::q4586134-6dd36eb6e4f84788c22e609f02e69e39::1" weight="0.17984290421009064" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="24" source="1990 NBA Finals::Entity::Q4586134" target="sport::Predicate::q4586134-98fce13fa65c7e48dd4299799c241e74::1" weight="0.024461068212985992" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="25" source="winner::Predicate::q4586134-f5990ceab6eb1c4229e1d9cae1252198::1" target="Detroit Pistons::Entity::Q169661" weight="0.9725489616394043" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="26" source="Detroit Pistons::Entity::Q169661" target="winner::Predicate::q4585299-4694c4967c6c94c69caa379f671a0bf9::2" weight="0.9892220497131348" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="United States::Entity::Q30" target="country::Predicate::q4585299-74864261848be05f762b047afb41dd36::3" weight="0.05793125554919243" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="United States::Entity::Q30" target="country::Predicate::q4586134-44725892f6e1449062a29aa15589b9e8::2" weight="0.02772095985710621" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="United States::Entity::Q30" target="country::Predicate::q842375-674192bc9cb7b3b4534538b6ced8b6a4::1" weight="0.0035030804574489594" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="country::Predicate::q4585299-74864261848be05f762b047afb41dd36::3" target="1989 NBA Finals::Entity::Q4585299" weight="0.05793125554919243" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="1989 NBA Finals::Entity::Q4585299" target="instance of::Predicate::q4585299-bbabf4453343f6abbd00db5217dbedb5::5" weight="0.648245632648468" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="1989 NBA Finals::Entity::Q4585299" target="winner::Predicate::q4585299-4694c4967c6c94c69caa379f671a0bf9::2" weight="0.9892220497131348" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="1989 NBA Finals::Entity::Q4585299" target="point in time::Predicate::q4585299-456acbdd5701847e6d03d9e3ddc6e841::2" weight="0.40370431542396545" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

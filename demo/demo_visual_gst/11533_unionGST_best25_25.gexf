@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2018-01-01::Entity::2018-01-01T00:00:00Z" label="2018-01-01">
+        <attvalues>
+          <attvalue for="label" value="2018-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="90th Academy Awards::Entity::Q24636843" label="90th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="90th Academy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actress::Entity::Q103618" label="Academy Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actress" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="BAFTA Award for Best Actress in a Leading Role::Entity::Q687123" label="BAFTA Award for Best Actress in a Leading Role">
+        <attvalues>
+          <attvalue for="label" value="BAFTA Award for Best Actress in a Leading Role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Frances McDormand::Entity::Q204299" label="Frances McDormand">
+        <attvalues>
+          <attvalue for="label" value="Frances McDormand" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Golden Globe Award for Best Actress – Motion Picture Drama::Entity::Q463085" label="Golden Globe Award for Best Actress – Motion Picture Drama">
+        <attvalues>
+          <attvalue for="label" value="Golden Globe Award for Best Actress – Motion Picture Drama" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Three Billboards Outside Ebbing, Missouri::Entity::Q24053277" label="Three Billboards Outside Ebbing, Missouri">
+        <attvalues>
+          <attvalue for="label" value="Three Billboards Outside Ebbing, Missouri" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q204299-197bfafea9cbfb93a97b4805508622da::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q204299-a7696b63746ff883ec358f6127500eea::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q204299-b90b4c4e69f3d54cd918e311e8dc13ae::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::7" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q24053277-4c522d5ec1cdc985254e03deade54155::9" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q204299-a7696b63746ff883ec358f6127500eea::4" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::3" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::6" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::6" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q725423-18db18e23ac43ff5e96b201b4941c27a::5" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q204299-197bfafea9cbfb93a97b4805508622da::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q204299-a7696b63746ff883ec358f6127500eea::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::10" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::4" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::6" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q24053277-4c522d5ec1cdc985254e03deade54155::8" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q24053277-4c522d5ec1cdc985254e03deade54155::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4960-f55d829f647a1230173691acd2cc0a6b::9" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::7" target="Frances McDormand::Entity::Q204299" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="award received::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::7" target="Academy Award for Best Actress::Entity::Q103618" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Frances McDormand::Entity::Q204299" target="nominee::Predicate::q725423-18db18e23ac43ff5e96b201b4941c27a::5" weight="0.9906229376792908" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Frances McDormand::Entity::Q204299" target="winner::Predicate::q4960-f55d829f647a1230173691acd2cc0a6b::9" weight="0.9900180697441101" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="award received::Predicate::q204299-197bfafea9cbfb93a97b4805508622da::3" target="Golden Globe Award for Best Actress – Motion Picture Drama::Entity::Q463085" weight="0.9996302127838135" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="award received::Predicate::q204299-197bfafea9cbfb93a97b4805508622da::3" target="point in time::Predicate::q204299-197bfafea9cbfb93a97b4805508622da::6" weight="0.9996302127838135" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="14" source="Academy Award for Best Actress::Entity::Q103618" target="award received::Predicate::q24053277-4c522d5ec1cdc985254e03deade54155::9" weight="0.9953559637069702" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="15" source="for work::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::6" target="Three Billboards Outside Ebbing, Missouri::Entity::Q24053277" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="point in time::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::10" target="2018-01-01::Entity::2018-01-01T00:00:00Z" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="statement is subject of::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::6" target="90th Academy Awards::Entity::Q24636843" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="2018-01-01::Entity::2018-01-01T00:00:00Z" target="point in time::Predicate::q204299-a7696b63746ff883ec358f6127500eea::5" weight="0.9984630346298218" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="19" source="2018-01-01::Entity::2018-01-01T00:00:00Z" target="point in time::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::3" weight="0.9945682287216187" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="2" source="award received::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::7" target="for work::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::6" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="90th Academy Awards::Entity::Q24636843" target="statement is subject of::Predicate::q24053277-4c522d5ec1cdc985254e03deade54155::8" weight="0.9953559637069702" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="90th Academy Awards::Entity::Q24636843" target="statement is subject of::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::4" weight="0.9945682287216187" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="22" source="Three Billboards Outside Ebbing, Missouri::Entity::Q24053277" target="for work::Predicate::q204299-a7696b63746ff883ec358f6127500eea::4" weight="0.9984630346298218" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="23" source="Three Billboards Outside Ebbing, Missouri::Entity::Q24053277" target="for work::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::3" weight="0.9945682287216187" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="24" source="award received::Predicate::q204299-a7696b63746ff883ec358f6127500eea::2" target="BAFTA Award for Best Actress in a Leading Role::Entity::Q687123" weight="0.9984630346298218" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="award received::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::7" target="point in time::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::10" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="award received::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::7" target="statement is subject of::Predicate::q204299-eb13d3534b9e3b42ab2faf0ec3fa63e1::6" weight="0.9996503591537476" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Frances McDormand::Entity::Q204299" target="award received::Predicate::q204299-197bfafea9cbfb93a97b4805508622da::3" weight="0.9996302127838135" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="Frances McDormand::Entity::Q204299" target="award received::Predicate::q204299-a7696b63746ff883ec358f6127500eea::2" weight="0.9984630346298218" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="Frances McDormand::Entity::Q204299" target="winner::Predicate::q24053277-4c522d5ec1cdc985254e03deade54155::3" weight="0.9953559637069702" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="Frances McDormand::Entity::Q204299" target="nominated for::Predicate::q204299-d1aeb4dd11bc816e037021d8f6d7fe51::6" weight="0.9945682287216187" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Frances McDormand::Entity::Q204299" target="award received::Predicate::q204299-b90b4c4e69f3d54cd918e311e8dc13ae::1" weight="0.9935029149055481" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1974-01-01::Entity::1974-01-01T00:00:00Z" label="1974-01-01">
+        <attvalues>
+          <attvalue for="label" value="1974-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1978-01-01::Entity::1978-01-01T00:00:00Z" label="1978-01-01">
+        <attvalues>
+          <attvalue for="label" value="1978-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1989-01-24::Entity::1989-01-24T00:00:00Z" label="1989-01-24">
+        <attvalues>
+          <attvalue for="label" value="1989-01-24" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Capital punishment::Entity::Q8454" label="Capital punishment">
+        <attvalues>
+          <attvalue for="label" value="Capital punishment" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Ted Bundy::Entity::Q192218" label="Ted Bundy">
+        <attvalues>
+          <attvalue for="label" value="Ted Bundy" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="convicted of::Predicate::q192218-03ccb2232e7e51bd00e829d61ebf513b::15" label="convicted of">
+        <attvalues>
+          <attvalue for="label" value="convicted of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="convicted of::Predicate::q192218-4efb94fe5c451e9d848a4f0be388f317::13" label="convicted of">
+        <attvalues>
+          <attvalue for="label" value="convicted of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="convicted of::Predicate::q192218-b6dd7f3ad265971d1678dea881558138::14" label="convicted of">
+        <attvalues>
+          <attvalue for="label" value="convicted of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q192218-b2489b2409ed3efe28e56a541cc0a73b::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="manner of death::Predicate::q192218-2b48f77fe14e1cc309115ba5a6625a22::1" label="manner of death">
+        <attvalues>
+          <attvalue for="label" value="manner of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q16197193-84cb2eaba94f96fb1eae608fb0c4eb56::4" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q2157710-72eb499cad059f9098915f89499d7105::12" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q242475-82bc4890fdb7d42fad2ca2ccd28970c9::1" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q2624513-86173dacf59b2d6b9b52c73eea521e1c::11" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q34645926-c9fdc084e6f85e0fea5ed02b1a5659a1::3" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q529509-fe2191be518f3aae2c55893b2560aa9d::8" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q5362311-0ae07765ed5372c141df63fbfac9d58b::5" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q5525808-a533efafb8abfc19bc8fe2f4a152dba5::6" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q64036593-7ae89e1873dacaeee24d829d596d0380::7" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q66673316-db14cbf7c779bc77fd92186b12497b77::9" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="penalty::Predicate::q83561442-4f3c3bd9bfd04145594b5903db85eb72::10" label="penalty">
+        <attvalues>
+          <attvalue for="label" value="penalty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q298252-27dc7446e89a0dd9a25a2ee4721f2ed6::2" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q50909741-c84f437b6e108098f7e1c1da8d015e70::1" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q834752-58f8c97306d64a57ee6bd6f6f38ecd7c::3" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="work period (end)::Predicate::q192218-7d095a4e14a4694fcef3195e5657f2dc::1" label="work period (end)">
+        <attvalues>
+          <attvalue for="label" value="work period (end)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q192218-2e6f63c08720e70397495a6ece6a3159::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Ted Bundy::Entity::Q192218" target="manner of death::Predicate::q192218-2b48f77fe14e1cc309115ba5a6625a22::1" weight="0.1849260777235031" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Ted Bundy::Entity::Q192218" target="date of death::Predicate::q192218-b2489b2409ed3efe28e56a541cc0a73b::2" weight="0.9966357350349426" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q2157710-72eb499cad059f9098915f89499d7105::12" weight="0.4470893144607544" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q34645926-c9fdc084e6f85e0fea5ed02b1a5659a1::3" weight="0.43944454193115234" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q5525808-a533efafb8abfc19bc8fe2f4a152dba5::6" weight="0.41961318254470825" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q2624513-86173dacf59b2d6b9b52c73eea521e1c::11" weight="0.4181041717529297" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q16197193-84cb2eaba94f96fb1eae608fb0c4eb56::4" weight="0.40711525082588196" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Capital punishment::Entity::Q8454" target="significant event::Predicate::q50909741-c84f437b6e108098f7e1c1da8d015e70::1" weight="0.3560439646244049" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q5362311-0ae07765ed5372c141df63fbfac9d58b::5" weight="0.3185061514377594" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q242475-82bc4890fdb7d42fad2ca2ccd28970c9::1" weight="0.3164803683757782" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q83561442-4f3c3bd9bfd04145594b5903db85eb72::10" weight="0.25538647174835205" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q64036593-7ae89e1873dacaeee24d829d596d0380::7" weight="0.24839472770690918" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Ted Bundy::Entity::Q192218" target="work period (end)::Predicate::q192218-7d095a4e14a4694fcef3195e5657f2dc::1" weight="0.840569019317627" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="20" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q66673316-db14cbf7c779bc77fd92186b12497b77::9" weight="0.23829436302185059" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="Capital punishment::Entity::Q8454" target="penalty::Predicate::q529509-fe2191be518f3aae2c55893b2560aa9d::8" weight="0.22729651629924774" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="date of death::Predicate::q192218-b2489b2409ed3efe28e56a541cc0a73b::2" target="1989-01-24::Entity::1989-01-24T00:00:00Z" weight="0.9966357350349426" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="work period (end)::Predicate::q192218-7d095a4e14a4694fcef3195e5657f2dc::1" target="1978-01-01::Entity::1978-01-01T00:00:00Z" weight="0.840569019317627" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="work period (start)::Predicate::q192218-2e6f63c08720e70397495a6ece6a3159::1" target="1974-01-01::Entity::1974-01-01T00:00:00Z" weight="0.6202956438064575" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Ted Bundy::Entity::Q192218" target="work period (start)::Predicate::q192218-2e6f63c08720e70397495a6ece6a3159::1" weight="0.6202956438064575" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Ted Bundy::Entity::Q192218" target="convicted of::Predicate::q192218-b6dd7f3ad265971d1678dea881558138::14" weight="0.528525710105896" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="5" source="Ted Bundy::Entity::Q192218" target="convicted of::Predicate::q192218-4efb94fe5c451e9d848a4f0be388f317::13" weight="0.3664245307445526" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="Ted Bundy::Entity::Q192218" target="convicted of::Predicate::q192218-03ccb2232e7e51bd00e829d61ebf513b::15" weight="0.24909840524196625" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="manner of death::Predicate::q192218-2b48f77fe14e1cc309115ba5a6625a22::1" target="Capital punishment::Entity::Q8454" weight="0.1849260777235031" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="Capital punishment::Entity::Q8454" target="significant event::Predicate::q298252-27dc7446e89a0dd9a25a2ee4721f2ed6::2" weight="0.5744397640228271" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="9" source="Capital punishment::Entity::Q8454" target="significant event::Predicate::q834752-58f8c97306d64a57ee6bd6f6f38ecd7c::3" weight="0.4696010649204254" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

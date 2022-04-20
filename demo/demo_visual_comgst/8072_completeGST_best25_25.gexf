@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1957-03-02::Entity::1957-03-02T00:00:00Z" label="1957-03-02">
+        <attvalues>
+          <attvalue for="label" value="1957-03-02" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="1967-10-13::Entity::1967-10-13T00:00:00Z" label="1967-10-13">
+        <attvalues>
+          <attvalue for="label" value="1967-10-13" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jefferson City::Entity::Q2789813" label="Jefferson City">
+        <attvalues>
+          <attvalue for="label" value="Jefferson City" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Mark Dean::Entity::Q556544" label="Mark Dean">
+        <attvalues>
+          <attvalue for="label" value="Mark Dean" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mark Dean::Entity::Q6767320" label="Mark Dean">
+        <attvalues>
+          <attvalue for="label" value="Mark Dean" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rockford::Entity::Q233892" label="Rockford">
+        <attvalues>
+          <attvalue for="label" value="Rockford" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q556544-4679fc50e60449d9f0d3674f90b4f51d::2" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q6767320-1145c87e9e50f68bced2617063d38e34::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q556544-412beb029c0365e864d6621409672e3a::2" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q6767320-3cd22b75812fe2dfb6045c706b4ef0d6::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of birth::Predicate::q556544-4679fc50e60449d9f0d3674f90b4f51d::2" target="Mark Dean::Entity::Q556544" weight="0.9961305856704712" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="date of birth::Predicate::q556544-4679fc50e60449d9f0d3674f90b4f51d::2" target="1957-03-02::Entity::1957-03-02T00:00:00Z" weight="0.9961305856704712" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Mark Dean::Entity::Q556544" target="place of birth::Predicate::q556544-412beb029c0365e864d6621409672e3a::2" weight="0.9447094202041626" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="date of birth::Predicate::q6767320-1145c87e9e50f68bced2617063d38e34::1" target="Mark Dean::Entity::Q6767320" weight="0.9950632452964783" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="date of birth::Predicate::q6767320-1145c87e9e50f68bced2617063d38e34::1" target="1967-10-13::Entity::1967-10-13T00:00:00Z" weight="0.9950632452964783" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="Mark Dean::Entity::Q6767320" target="place of birth::Predicate::q6767320-3cd22b75812fe2dfb6045c706b4ef0d6::1" weight="0.939031183719635" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="place of birth::Predicate::q556544-412beb029c0365e864d6621409672e3a::2" target="Jefferson City::Entity::Q2789813" weight="0.9447094202041626" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="place of birth::Predicate::q6767320-3cd22b75812fe2dfb6045c706b4ef0d6::1" target="Rockford::Entity::Q233892" weight="0.939031183719635" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1932-01-01::Entity::1932-01-01T00:00:00Z" label="1932-01-01">
+        <attvalues>
+          <attvalue for="label" value="1932-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="September::Entity::Q123" label="September">
+        <attvalues>
+          <attvalue for="label" value="September"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Venice Film Festival::Entity::Q49024" label="Venice Film Festival">
+        <attvalues>
+          <attvalue for="label" value="Venice Film Festival"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q106881-fbbd01d0c08e047e243fe8d1d46aca73::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q49024-07e46f7a9c1c89fd1b06483bea1c15b5::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="event interval::Predicate::q49024-15fa5200ccb65a2eac1cf59b964bf30a::1" label="event interval">
+        <attvalues>
+          <attvalue for="label" value="event interval"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q26698156-95e63011d3cbf66736e20743bcd04afa::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q49024-c83b9462723f393cbc0a8aa8c7447d5e::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q49024-88e26fe9c4aeba539b95537957920074::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q49024-dde9e2d6ed91540d26ef35d69ccb7b00::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="month of the year::Predicate::q49024-0469065913363dcb280ed632880b1b43::1" label="month of the year">
+        <attvalues>
+          <attvalue for="label" value="month of the year"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q48684904-5646561a7d33dd07353c6467813436a2::1" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q1446749-04a241ab3a597c18f947a1a0bb64de92::4" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q2816310-20b35547dbf10ea422eb90fd034d88a9::14" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q348210-c56e940677137c44dc80be685c25dd31::3" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q45481908-5fffcb9a7b81391db78983b914e8d97d::13" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q543581-1a296a12122dca84e649ad6486a70b39::6" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q59309628-19746745612586343425027ad8a6dc80::9" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q732022-df33cf48291c808a2470eb155392bae2::8" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q738052-7373abc954f97617fe4b4a90cf1b3665::10" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q858216-5f34a360e631b6566afb5d960347d46c::12" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q190525-6f2df0d216acfd0b99275cb00aba44d1::12" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q190525-6f2df0d216acfd0b99275cb00aba44d1::3" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q20422190-a0c8b98bb07b4915c8607cb140e0a2f6::1" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q22192553-eb54018b5282ce9d267973fe17ac5809::2" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q2067313-ebd6e76bd7994fe73c1f91a562afb2ca::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="inception::Predicate::q49024-c83b9462723f393cbc0a8aa8c7447d5e::1" target="Venice Film Festival::Entity::Q49024" weight="0.9767334461212158" label="1"/>
+      <edge id="1" source="inception::Predicate::q49024-c83b9462723f393cbc0a8aa8c7447d5e::1" target="1932-01-01::Entity::1932-01-01T00:00:00Z" weight="0.9767334461212158" label="1"/>
+      <edge id="10" source="Venice Film Festival::Entity::Q49024" target="statement is subject of::Predicate::q2067313-ebd6e76bd7994fe73c1f91a562afb2ca::2" weight="0.3574749827384949" label="10"/>
+      <edge id="11" source="Venice Film Festival::Entity::Q49024" target="instance of::Predicate::q49024-88e26fe9c4aeba539b95537957920074::1" weight="0.3554726541042328" label="11"/>
+      <edge id="12" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q348210-c56e940677137c44dc80be685c25dd31::3" weight="0.335766077041626" label="12"/>
+      <edge id="13" source="Venice Film Festival::Entity::Q49024" target="country::Predicate::q49024-07e46f7a9c1c89fd1b06483bea1c15b5::1" weight="0.3165131211280823" label="13"/>
+      <edge id="14" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q738052-7373abc954f97617fe4b4a90cf1b3665::10" weight="0.25917357206344604" label="14"/>
+      <edge id="15" source="Venice Film Festival::Entity::Q49024" target="for work::Predicate::q26698156-95e63011d3cbf66736e20743bcd04afa::1" weight="0.25868529081344604" label="15"/>
+      <edge id="16" source="Venice Film Festival::Entity::Q49024" target="part of the series::Predicate::q48684904-5646561a7d33dd07353c6467813436a2::1" weight="0.255398154258728" label="16"/>
+      <edge id="17" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q59309628-19746745612586343425027ad8a6dc80::9" weight="0.2433767318725586" label="17"/>
+      <edge id="18" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q858216-5f34a360e631b6566afb5d960347d46c::12" weight="0.23538832366466522" label="18"/>
+      <edge id="19" source="Venice Film Festival::Entity::Q49024" target="location::Predicate::q49024-dde9e2d6ed91540d26ef35d69ccb7b00::1" weight="0.21533885598182678" label="19"/>
+      <edge id="2" source="Venice Film Festival::Entity::Q49024" target="month of the year::Predicate::q49024-0469065913363dcb280ed632880b1b43::1" weight="0.9764862656593323" label="2"/>
+      <edge id="20" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q45481908-5fffcb9a7b81391db78983b914e8d97d::13" weight="0.21374155580997467" label="20"/>
+      <edge id="21" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q732022-df33cf48291c808a2470eb155392bae2::8" weight="0.19163236021995544" label="21"/>
+      <edge id="22" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q1446749-04a241ab3a597c18f947a1a0bb64de92::4" weight="0.18548423051834106" label="22"/>
+      <edge id="23" source="month of the year::Predicate::q49024-0469065913363dcb280ed632880b1b43::1" target="September::Entity::Q123" weight="0.9764862656593323" label="2"/>
+      <edge id="24" source="significant event::Predicate::q190525-6f2df0d216acfd0b99275cb00aba44d1::3" target="publication date::Predicate::q190525-6f2df0d216acfd0b99275cb00aba44d1::12" weight="0.5822317600250244" label="3"/>
+      <edge id="3" source="Venice Film Festival::Entity::Q49024" target="significant event::Predicate::q190525-6f2df0d216acfd0b99275cb00aba44d1::3" weight="0.5822317600250244" label="3"/>
+      <edge id="4" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q543581-1a296a12122dca84e649ad6486a70b39::6" weight="0.5465577840805054" label="4"/>
+      <edge id="5" source="Venice Film Festival::Entity::Q49024" target="significant event::Predicate::q22192553-eb54018b5282ce9d267973fe17ac5809::2" weight="0.4555635154247284" label="5"/>
+      <edge id="6" source="Venice Film Festival::Entity::Q49024" target="award received::Predicate::q106881-fbbd01d0c08e047e243fe8d1d46aca73::1" weight="0.4417423605918884" label="6"/>
+      <edge id="7" source="Venice Film Festival::Entity::Q49024" target="significant event::Predicate::q20422190-a0c8b98bb07b4915c8607cb140e0a2f6::1" weight="0.4227950870990753" label="7"/>
+      <edge id="8" source="Venice Film Festival::Entity::Q49024" target="place of publication::Predicate::q2816310-20b35547dbf10ea422eb90fd034d88a9::14" weight="0.40885934233665466" label="8"/>
+      <edge id="9" source="Venice Film Festival::Entity::Q49024" target="event interval::Predicate::q49024-15fa5200ccb65a2eac1cf59b964bf30a::1" weight="0.3710673749446869" label="9"/>
+    </edges>
+  </graph>
+</gexf>

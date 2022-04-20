@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2012 United States presidential election::Entity::Q4226" label="2012 United States presidential election">
+        <attvalues>
+          <attvalue for="label" value="2012 United States presidential election"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Albert Pujols::Entity::Q148726" label="Albert Pujols">
+        <attvalues>
+          <attvalue for="label" value="Albert Pujols"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Los Angeles Angels::Entity::Q743309" label="Los Angeles Angels">
+        <attvalues>
+          <attvalue for="label" value="Los Angeles Angels"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Memphis Redbirds::Entity::Q1476132" label="Memphis Redbirds">
+        <attvalues>
+          <attvalue for="label" value="Memphis Redbirds"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="St. Louis Cardinals::Entity::Q504309" label="St. Louis Cardinals">
+        <attvalues>
+          <attvalue for="label" value="St. Louis Cardinals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country for sport::Predicate::q148726-68748c45e023cd63b5f90d998ec4c67c::1" label="country for sport">
+        <attvalues>
+          <attvalue for="label" value="country for sport"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q4226-feee570d764e19bba5fcc0bc5ff5417c::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q148726-333ba382c53a5d523e585d4bc89e191e::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q148726-c73ef0b451992598bfbfa15bd422f3e9::2" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q148726-f81e5760ee1053433c7c1d321d738396::3" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Albert Pujols::Entity::Q148726" target="country for sport::Predicate::q148726-68748c45e023cd63b5f90d998ec4c67c::1" weight="0.0003056081186514348" label="26"/>
+      <edge id="1" source="Albert Pujols::Entity::Q148726" target="member of sports team::Predicate::q148726-c73ef0b451992598bfbfa15bd422f3e9::2" weight="0.9990726709365845" label="1"/>
+      <edge id="2" source="Albert Pujols::Entity::Q148726" target="member of sports team::Predicate::q148726-333ba382c53a5d523e585d4bc89e191e::1" weight="0.9989203214645386" label="2"/>
+      <edge id="3" source="Albert Pujols::Entity::Q148726" target="member of sports team::Predicate::q148726-f81e5760ee1053433c7c1d321d738396::3" weight="0.99811851978302" label="3"/>
+      <edge id="4" source="country for sport::Predicate::q148726-68748c45e023cd63b5f90d998ec4c67c::1" target="United States::Entity::Q30" weight="0.0003056081186514348" label="26"/>
+      <edge id="5" source="United States::Entity::Q30" target="country::Predicate::q4226-feee570d764e19bba5fcc0bc5ff5417c::1" weight="0.004537107422947884" label="14"/>
+      <edge id="6" source="country::Predicate::q4226-feee570d764e19bba5fcc0bc5ff5417c::1" target="2012 United States presidential election::Entity::Q4226" weight="0.004537107422947884" label="14"/>
+      <edge id="7" source="member of sports team::Predicate::q148726-c73ef0b451992598bfbfa15bd422f3e9::2" target="Los Angeles Angels::Entity::Q743309" weight="0.9990726709365845" label="1"/>
+      <edge id="8" source="member of sports team::Predicate::q148726-333ba382c53a5d523e585d4bc89e191e::1" target="St. Louis Cardinals::Entity::Q504309" weight="0.9989203214645386" label="2"/>
+      <edge id="9" source="member of sports team::Predicate::q148726-f81e5760ee1053433c7c1d321d738396::3" target="Memphis Redbirds::Entity::Q1476132" weight="0.99811851978302" label="3"/>
+    </edges>
+  </graph>
+</gexf>

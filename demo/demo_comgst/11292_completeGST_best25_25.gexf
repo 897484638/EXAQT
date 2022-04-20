@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1934-01-01::Entity::1934-01-01T00:00:00Z" label="1934-01-01">
+        <attvalues>
+          <attvalue for="label" value="1934-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Doctor of Philosophy::Entity::Q752297" label="Doctor of Philosophy">
+        <attvalues>
+          <attvalue for="label" value="Doctor of Philosophy"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Harvard University::Entity::Q13371" label="Harvard University">
+        <attvalues>
+          <attvalue for="label" value="Harvard University"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Ralph Bunche::Entity::Q213500" label="Ralph Bunche">
+        <attvalues>
+          <attvalue for="label" value="Ralph Bunche"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="University of California, Los Angeles::Entity::Q174710" label="University of California, Los Angeles">
+        <attvalues>
+          <attvalue for="label" value="University of California, Los Angeles"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="academic degree::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::1" label="academic degree">
+        <attvalues>
+          <attvalue for="label" value="academic degree"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q213500-205c4b6ebf4271da907c7829c960503b::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="educated at::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::2" target="Ralph Bunche::Entity::Q213500" weight="0.999570906162262" label="1"/>
+      <edge id="1" source="educated at::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::2" target="Harvard University::Entity::Q13371" weight="0.999570906162262" label="1"/>
+      <edge id="2" source="educated at::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::2" target="academic degree::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::1" weight="0.999570906162262" label="1"/>
+      <edge id="3" source="educated at::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::2" target="end time::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::1" weight="0.999570906162262" label="1"/>
+      <edge id="4" source="Ralph Bunche::Entity::Q213500" target="educated at::Predicate::q213500-205c4b6ebf4271da907c7829c960503b::1" weight="0.9992179870605469" label="2"/>
+      <edge id="5" source="educated at::Predicate::q213500-205c4b6ebf4271da907c7829c960503b::1" target="University of California, Los Angeles::Entity::Q174710" weight="0.9992179870605469" label="2"/>
+      <edge id="6" source="academic degree::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::1" target="Doctor of Philosophy::Entity::Q752297" weight="0.999570906162262" label="1"/>
+      <edge id="7" source="end time::Predicate::q213500-764eead141ca1df304f0dbc57c13a74c::1" target="1934-01-01::Entity::1934-01-01T00:00:00Z" weight="0.999570906162262" label="1"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1974 Stanley Cup Finals::Entity::Q4576239" label="1974 Stanley Cup Finals">
+        <attvalues>
+          <attvalue for="label" value="1974 Stanley Cup Finals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1975 Stanley Cup Finals::Entity::Q4576792" label="1975 Stanley Cup Finals">
+        <attvalues>
+          <attvalue for="label" value="1975 Stanley Cup Finals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="2010 Stanley Cup Finals::Entity::Q1983827" label="2010 Stanley Cup Finals">
+        <attvalues>
+          <attvalue for="label" value="2010 Stanley Cup Finals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Philadelphia Flyers::Entity::Q192083" label="Philadelphia Flyers">
+        <attvalues>
+          <attvalue for="label" value="Philadelphia Flyers"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Stanley Cup::Entity::Q211872" label="Stanley Cup">
+        <attvalues>
+          <attvalue for="label" value="Stanley Cup"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1983827-4775b3547b12ca7509a6f045b08a9163::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1983827-802adfba4fa293cb989d89267f88a626::1" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4576239-e65fefc1a1b2ab61ec473421c0c240d7::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4576792-dc07658f90a8e805c62024190af50d74::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="winner::Predicate::q4576792-dc07658f90a8e805c62024190af50d74::2" target="Philadelphia Flyers::Entity::Q192083" weight="0.9960408210754395" label="2"/>
+      <edge id="1" source="winner::Predicate::q4576792-dc07658f90a8e805c62024190af50d74::2" target="1975 Stanley Cup Finals::Entity::Q4576792" weight="0.9960408210754395" label="2"/>
+      <edge id="2" source="Philadelphia Flyers::Entity::Q192083" target="participating team::Predicate::q1983827-802adfba4fa293cb989d89267f88a626::1" weight="0.9969416260719299" label="1"/>
+      <edge id="3" source="Philadelphia Flyers::Entity::Q192083" target="winner::Predicate::q4576239-e65fefc1a1b2ab61ec473421c0c240d7::1" weight="0.9958590865135193" label="3"/>
+      <edge id="4" source="participating team::Predicate::q1983827-802adfba4fa293cb989d89267f88a626::1" target="2010 Stanley Cup Finals::Entity::Q1983827" weight="0.9969416260719299" label="1"/>
+      <edge id="5" source="2010 Stanley Cup Finals::Entity::Q1983827" target="instance of::Predicate::q1983827-4775b3547b12ca7509a6f045b08a9163::3" weight="0.9901385307312012" label="4"/>
+      <edge id="6" source="Stanley Cup::Entity::Q211872" target="instance of::Predicate::q1983827-4775b3547b12ca7509a6f045b08a9163::3" weight="0.9901385307312012" label="4"/>
+      <edge id="7" source="winner::Predicate::q4576239-e65fefc1a1b2ab61ec473421c0c240d7::1" target="1974 Stanley Cup Finals::Entity::Q4576239" weight="0.9958590865135193" label="3"/>
+    </edges>
+  </graph>
+</gexf>

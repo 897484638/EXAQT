@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1946-01-01::Entity::1946-01-01T00:00:00Z" label="1946-01-01">
+        <attvalues>
+          <attvalue for="label" value="1946-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1951-01-01::Entity::1951-01-01T00:00:00Z" label="1951-01-01">
+        <attvalues>
+          <attvalue for="label" value="1951-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="George Abbott::Entity::Q1506831" label="George Abbott">
+        <attvalues>
+          <attvalue for="label" value="George Abbott"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mary Sinclair::Entity::Q4309887" label="Mary Sinclair">
+        <attvalues>
+          <attvalue for="label" value="Mary Sinclair"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Mary Sinclair::Entity::Q4309887" target="spouse::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" weight="0.9995575547218323" label="1"/>
+      <edge id="1" source="Mary Sinclair::Entity::Q4309887" target="spouse::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" weight="0.9994732737541199" label="2"/>
+      <edge id="10" source="1946-01-01::Entity::1946-01-01T00:00:00Z" target="start time::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" weight="0.9994732737541199" label="2"/>
+      <edge id="11" source="1951-01-01::Entity::1951-01-01T00:00:00Z" target="end time::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" weight="0.9994732737541199" label="2"/>
+      <edge id="2" source="spouse::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" target="George Abbott::Entity::Q1506831" weight="0.9995575547218323" label="1"/>
+      <edge id="3" source="spouse::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" target="end time::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" weight="0.9995575547218323" label="1"/>
+      <edge id="4" source="spouse::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" target="start time::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" weight="0.9995575547218323" label="1"/>
+      <edge id="5" source="George Abbott::Entity::Q1506831" target="spouse::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" weight="0.9994732737541199" label="2"/>
+      <edge id="6" source="spouse::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" target="start time::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" weight="0.9994732737541199" label="2"/>
+      <edge id="7" source="spouse::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" target="end time::Predicate::q1506831-60e3c7582bb4593d64eed734f31e0f75::1" weight="0.9994732737541199" label="2"/>
+      <edge id="8" source="end time::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" target="1951-01-01::Entity::1951-01-01T00:00:00Z" weight="0.9995575547218323" label="1"/>
+      <edge id="9" source="start time::Predicate::q4309887-60fff2ebfdb9bfe28373a1c7ec71b400::2" target="1946-01-01::Entity::1946-01-01T00:00:00Z" weight="0.9995575547218323" label="1"/>
+    </edges>
+  </graph>
+</gexf>

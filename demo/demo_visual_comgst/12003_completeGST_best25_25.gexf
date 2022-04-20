@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Pittsburgh Steelers::Entity::Q191477" label="Pittsburgh Steelers">
+        <attvalues>
+          <attvalue for="label" value="Pittsburgh Steelers" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl XLIII::Entity::Q853768" label="Super Bowl XLIII">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XLIII" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl::Entity::Q32096" label="Super Bowl">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q853768-653e416eccf7b78633481664c431c96e::22" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q853768-62d19415e572b35718f1a8665b5b6458::1" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Super Bowl::Entity::Q32096" target="instance of::Predicate::q853768-653e416eccf7b78633481664c431c96e::22" weight="0.9994311928749084" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="instance of::Predicate::q853768-653e416eccf7b78633481664c431c96e::22" target="Super Bowl XLIII::Entity::Q853768" weight="0.9994311928749084" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Super Bowl XLIII::Entity::Q853768" target="participating team::Predicate::q853768-62d19415e572b35718f1a8665b5b6458::1" weight="0.9994328618049622" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="participating team::Predicate::q853768-62d19415e572b35718f1a8665b5b6458::1" target="Pittsburgh Steelers::Entity::Q191477" weight="0.9994328618049622" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

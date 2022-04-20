@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1801-01-01::Entity::1801-01-01T00:00:00Z" label="1801-01-01">
+        <attvalues>
+          <attvalue for="label" value="1801-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1850-04-23::Entity::1850-04-23T00:00:00Z" label="1850-04-23">
+        <attvalues>
+          <attvalue for="label" value="1850-04-23"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Acts of Union 1800::Entity::Q343100" label="Acts of Union 1800">
+        <attvalues>
+          <attvalue for="label" value="Acts of Union 1800"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Great Britain::Entity::Q161885" label="Great Britain">
+        <attvalues>
+          <attvalue for="label" value="Great Britain"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United Kingdom of Great Britain and Ireland::Entity::Q174193" label="United Kingdom of Great Britain and Ireland">
+        <attvalues>
+          <attvalue for="label" value="United Kingdom of Great Britain and Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="William Wordsworth::Entity::Q45546" label="William Wordsworth">
+        <attvalues>
+          <attvalue for="label" value="William Wordsworth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q45546-1a3460fe57bd1da6c96f66681cdcbb26::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="creator::Predicate::q71844198-d34076c37801f57ac7d5477d47b6d9bc::1" label="creator">
+        <attvalues>
+          <attvalue for="label" value="creator"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q45546-7e324b362067727258891f88f2c70d6e::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q45546-170c852c36995a3eecee295d73a9a0c3::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q28049144-5b3b069f4c7b7bd003475c481fae7eb2::6" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q28049687-6db1ee984f41331cfb7c1f5c12f9aaf4::1" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q28049965-b7684b09a4dfcb93e4eebcdaabbc351c::2" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q55016244-3539d695511354a27f7314c96add94e9::3" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q55016249-e667daf76947dd76d072c1d96dc0271e::5" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q55426844-0239c66397c7e2f010bdc7669ab8fcc4::4" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::1" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="influenced by::Predicate::q212719-0f617c45d501f9c433cf58f59df8f80c::5" label="influenced by">
+        <attvalues>
+          <attvalue for="label" value="influenced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="influenced by::Predicate::q2797629-e0bd25806c28745739015aaa5b847301::2" label="influenced by">
+        <attvalues>
+          <attvalue for="label" value="influenced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="occupant::Predicate::q8034490-aa354378cd870222313c87007b5a5fb9::1" label="occupant">
+        <attvalues>
+          <attvalue for="label" value="occupant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of burial::Predicate::q45546-31e43ab276591594e9233a008e3424b2::1" label="place of burial">
+        <attvalues>
+          <attvalue for="label" value="place of burial"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q45546-08643a75cf7e95b6b1a275b81e8fc2db::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q45546-3f2a7bbb9488321ca57a38cd8bd4d873::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q45546-f5001b3fea25b05f9aa6d0625fe6f57b::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="country of citizenship::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" target="William Wordsworth::Entity::Q45546" weight="0.9997236132621765" label="1"/>
+      <edge id="1" source="country of citizenship::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" target="Great Britain::Entity::Q161885" weight="0.9997236132621765" label="1"/>
+      <edge id="10" source="William Wordsworth::Entity::Q45546" target="spouse::Predicate::q45546-f5001b3fea25b05f9aa6d0625fe6f57b::1" weight="0.003993658814579248" label="7"/>
+      <edge id="11" source="William Wordsworth::Entity::Q45546" target="depicts::Predicate::q28049144-5b3b069f4c7b7bd003475c481fae7eb2::6" weight="0.0038118893280625343" label="8"/>
+      <edge id="12" source="William Wordsworth::Entity::Q45546" target="depicts::Predicate::q28049687-6db1ee984f41331cfb7c1f5c12f9aaf4::1" weight="0.0038118893280625343" label="8"/>
+      <edge id="13" source="William Wordsworth::Entity::Q45546" target="depicts::Predicate::q28049965-b7684b09a4dfcb93e4eebcdaabbc351c::2" weight="0.0038118893280625343" label="8"/>
+      <edge id="14" source="William Wordsworth::Entity::Q45546" target="depicts::Predicate::q55016244-3539d695511354a27f7314c96add94e9::3" weight="0.0038118893280625343" label="8"/>
+      <edge id="15" source="William Wordsworth::Entity::Q45546" target="depicts::Predicate::q55016249-e667daf76947dd76d072c1d96dc0271e::5" weight="0.0038118893280625343" label="8"/>
+      <edge id="16" source="William Wordsworth::Entity::Q45546" target="place of burial::Predicate::q45546-31e43ab276591594e9233a008e3424b2::1" weight="0.0026550611946731806" label="10"/>
+      <edge id="17" source="William Wordsworth::Entity::Q45546" target="place of death::Predicate::q45546-08643a75cf7e95b6b1a275b81e8fc2db::1" weight="0.0024962385650724173" label="12"/>
+      <edge id="18" source="William Wordsworth::Entity::Q45546" target="influenced by::Predicate::q2797629-e0bd25806c28745739015aaa5b847301::2" weight="0.0024717648047953844" label="13"/>
+      <edge id="19" source="William Wordsworth::Entity::Q45546" target="influenced by::Predicate::q212719-0f617c45d501f9c433cf58f59df8f80c::5" weight="0.002311927964910865" label="14"/>
+      <edge id="2" source="country of citizenship::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" target="end cause::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::1" weight="0.9997236132621765" label="1"/>
+      <edge id="20" source="William Wordsworth::Entity::Q45546" target="occupant::Predicate::q8034490-aa354378cd870222313c87007b5a5fb9::1" weight="0.002276018960401416" label="16"/>
+      <edge id="21" source="date of death::Predicate::q45546-170c852c36995a3eecee295d73a9a0c3::1" target="1850-04-23::Entity::1850-04-23T00:00:00Z" weight="0.002721040975302458" label="9"/>
+      <edge id="22" source="end cause::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::1" target="Acts of Union 1800::Entity::Q343100" weight="0.9997236132621765" label="1"/>
+      <edge id="23" source="end time::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" target="1801-01-01::Entity::1801-01-01T00:00:00Z" weight="0.9997236132621765" label="1"/>
+      <edge id="24" source="country of citizenship::Predicate::q45546-1a3460fe57bd1da6c96f66681cdcbb26::1" target="United Kingdom of Great Britain and Ireland::Entity::Q174193" weight="0.9910503625869751" label="2"/>
+      <edge id="3" source="country of citizenship::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" target="end time::Predicate::q45546-464bbd74517dd7981d55ecb34f31b7b3::2" weight="0.9997236132621765" label="1"/>
+      <edge id="4" source="William Wordsworth::Entity::Q45546" target="date of death::Predicate::q45546-170c852c36995a3eecee295d73a9a0c3::1" weight="0.002721040975302458" label="9"/>
+      <edge id="5" source="William Wordsworth::Entity::Q45546" target="date of birth::Predicate::q45546-7e324b362067727258891f88f2c70d6e::1" weight="0.0021002236753702164" label="18"/>
+      <edge id="6" source="William Wordsworth::Entity::Q45546" target="country of citizenship::Predicate::q45546-1a3460fe57bd1da6c96f66681cdcbb26::1" weight="0.9910503625869751" label="2"/>
+      <edge id="7" source="William Wordsworth::Entity::Q45546" target="depicts::Predicate::q55426844-0239c66397c7e2f010bdc7669ab8fcc4::4" weight="0.005010087043046951" label="4"/>
+      <edge id="8" source="William Wordsworth::Entity::Q45546" target="creator::Predicate::q71844198-d34076c37801f57ac7d5477d47b6d9bc::1" weight="0.004403136670589447" label="5"/>
+      <edge id="9" source="William Wordsworth::Entity::Q45546" target="position held::Predicate::q45546-3f2a7bbb9488321ca57a38cd8bd4d873::1" weight="0.00432190066203475" label="6"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1975-01-05::Entity::1975-01-05T00:00:00Z" label="1975-01-05">
+        <attvalues>
+          <attvalue for="label" value="1975-01-05" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="American Dad!::Entity::Q210311" label="American Dad!">
+        <attvalues>
+          <attvalue for="label" value="American Dad!" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bradley Cooper::Entity::Q205707" label="Bradley Cooper">
+        <attvalues>
+          <attvalue for="label" value="Bradley Cooper" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jennifer Esposito::Entity::Q233922" label="Jennifer Esposito">
+        <attvalues>
+          <attvalue for="label" value="Jennifer Esposito" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q205707-facfe0c9532780e6ce0aae650ca51390::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q210311-589ada4285254abf1d74e0ddd48be6a3::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q205707-43e9d097c7ce68a52b6f83c0a601d265::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q205707-97e70a760eaf13709e51ec3d1aca5ad9::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Bradley Cooper::Entity::Q205707" target="country of citizenship::Predicate::q205707-facfe0c9532780e6ce0aae650ca51390::1" weight="0.0006556663429364562" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Bradley Cooper::Entity::Q205707" target="date of birth::Predicate::q205707-43e9d097c7ce68a52b6f83c0a601d265::1" weight="0.9898176789283752" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Bradley Cooper::Entity::Q205707" target="spouse::Predicate::q205707-97e70a760eaf13709e51ec3d1aca5ad9::1" weight="0.7240288853645325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="country of citizenship::Predicate::q205707-facfe0c9532780e6ce0aae650ca51390::1" target="United States::Entity::Q30" weight="0.0006556663429364562" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="United States::Entity::Q30" target="country of origin::Predicate::q210311-589ada4285254abf1d74e0ddd48be6a3::1" weight="0.0008488887688145041" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="country of origin::Predicate::q210311-589ada4285254abf1d74e0ddd48be6a3::1" target="American Dad!::Entity::Q210311" weight="0.0008488887688145041" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="date of birth::Predicate::q205707-43e9d097c7ce68a52b6f83c0a601d265::1" target="1975-01-05::Entity::1975-01-05T00:00:00Z" weight="0.9898176789283752" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="spouse::Predicate::q205707-97e70a760eaf13709e51ec3d1aca5ad9::1" target="Jennifer Esposito::Entity::Q233922" weight="0.7240288853645325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

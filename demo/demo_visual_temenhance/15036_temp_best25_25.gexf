@@ -1,0 +1,1167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2012-01-01::Entity::2012-01-01T00:00:00Z" label="2012-01-01">
+        <attvalues>
+          <attvalue for="label" value="2012-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2012-12-31::Entity::2012-12-31T00:00:00Z" label="2012-12-31">
+        <attvalues>
+          <attvalue for="label" value="2012-12-31"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2013-01-01::Entity::2013-01-01T00:00:00Z" label="2013-01-01">
+        <attvalues>
+          <attvalue for="label" value="2013-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2014-12-31::Entity::2014-12-31T00:00:00Z" label="2014-12-31">
+        <attvalues>
+          <attvalue for="label" value="2014-12-31"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2015-01-01::Entity::2015-01-01T00:00:00Z" label="2015-01-01">
+        <attvalues>
+          <attvalue for="label" value="2015-01-01"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Berghausen::Entity::Q691130" label="Berghausen">
+        <attvalues>
+          <attvalue for="label" value="Berghausen"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Breitenfeld am Tannenriegel::Entity::Q688044" label="Breitenfeld am Tannenriegel">
+        <attvalues>
+          <attvalue for="label" value="Breitenfeld am Tannenriegel"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Bruck-Mürzzuschlag District::Entity::Q853690" label="Bruck-Mürzzuschlag District">
+        <attvalues>
+          <attvalue for="label" value="Bruck-Mürzzuschlag District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Deutschlandsberg District::Entity::Q660219" label="Deutschlandsberg District">
+        <attvalues>
+          <attvalue for="label" value="Deutschlandsberg District"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Graz-Umgebung District::Entity::Q672475" label="Graz-Umgebung District">
+        <attvalues>
+          <attvalue for="label" value="Graz-Umgebung District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Graz::Entity::Q13298" label="Graz">
+        <attvalues>
+          <attvalue for="label" value="Graz"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Hartberg-Fürstenfeld District::Entity::Q853765" label="Hartberg-Fürstenfeld District">
+        <attvalues>
+          <attvalue for="label" value="Hartberg-Fürstenfeld District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Irdning-Donnersbachtal::Entity::Q18626044" label="Irdning-Donnersbachtal">
+        <attvalues>
+          <attvalue for="label" value="Irdning-Donnersbachtal"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Leibnitz District::Entity::Q660400" label="Leibnitz District">
+        <attvalues>
+          <attvalue for="label" value="Leibnitz District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Leoben District::Entity::Q665720" label="Leoben District">
+        <attvalues>
+          <attvalue for="label" value="Leoben District"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Leutschach an der Weinstraße::Entity::Q18628524" label="Leutschach an der Weinstraße">
+        <attvalues>
+          <attvalue for="label" value="Leutschach an der Weinstraße"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Leutschach::Entity::Q699818" label="Leutschach">
+        <attvalues>
+          <attvalue for="label" value="Leutschach"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Liezen District::Entity::Q255834" label="Liezen District">
+        <attvalues>
+          <attvalue for="label" value="Liezen District"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mitterberg-Sankt Martin::Entity::Q18810044" label="Mitterberg-Sankt Martin">
+        <attvalues>
+          <attvalue for="label" value="Mitterberg-Sankt Martin"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Murau District::Entity::Q388913" label="Murau District">
+        <attvalues>
+          <attvalue for="label" value="Murau District"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Murtal District::Entity::Q526517" label="Murtal District">
+        <attvalues>
+          <attvalue for="label" value="Murtal District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mürzzuschlag District::Entity::Q257024" label="Mürzzuschlag District">
+        <attvalues>
+          <attvalue for="label" value="Mürzzuschlag District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Obervogau::Entity::Q695457" label="Obervogau">
+        <attvalues>
+          <attvalue for="label" value="Obervogau"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Pistorf::Entity::Q547347" label="Pistorf">
+        <attvalues>
+          <attvalue for="label" value="Pistorf"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Sankt Nikolai ob Draßling::Entity::Q688105" label="Sankt Nikolai ob Draßling">
+        <attvalues>
+          <attvalue for="label" value="Sankt Nikolai ob Draßling"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Sankt Ulrich am Waasen::Entity::Q876289" label="Sankt Ulrich am Waasen">
+        <attvalues>
+          <attvalue for="label" value="Sankt Ulrich am Waasen"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Schloßberg::Entity::Q688139" label="Schloßberg">
+        <attvalues>
+          <attvalue for="label" value="Schloßberg"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Schwarzautal::Entity::Q17591850" label="Schwarzautal">
+        <attvalues>
+          <attvalue for="label" value="Schwarzautal"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Seggauberg::Entity::Q672280" label="Seggauberg">
+        <attvalues>
+          <attvalue for="label" value="Seggauberg"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Spielfeld::Entity::Q672498" label="Spielfeld">
+        <attvalues>
+          <attvalue for="label" value="Spielfeld"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Stainach::Entity::Q871426" label="Stainach">
+        <attvalues>
+          <attvalue for="label" value="Stainach"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Stocking::Entity::Q688173" label="Stocking">
+        <attvalues>
+          <attvalue for="label" value="Stocking"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Straß in Steiermark::Entity::Q690920" label="Straß in Steiermark">
+        <attvalues>
+          <attvalue for="label" value="Straß in Steiermark"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Styria::Entity::Q41358" label="Styria">
+        <attvalues>
+          <attvalue for="label" value="Styria"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Südoststeiermark District::Entity::Q854043" label="Südoststeiermark District">
+        <attvalues>
+          <attvalue for="label" value="Südoststeiermark District"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Vogau::Entity::Q688180" label="Vogau">
+        <attvalues>
+          <attvalue for="label" value="Vogau"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Weitendorf::Entity::Q696148" label="Weitendorf">
+        <attvalues>
+          <attvalue for="label" value="Weitendorf"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Wolfsberg im Schwarzautal::Entity::Q427763" label="Wolfsberg im Schwarzautal">
+        <attvalues>
+          <attvalue for="label" value="Wolfsberg im Schwarzautal"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q41358-b1681f25e5151e38049e35edd6935615::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-08f0b0d97487990dd40267af177550f0::8" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-1291e842c90c0b8eda35bfbdd4f99922::5" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-349818cc5141757a1e8236c053415387::6" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-4477cb4dea7a353f1697efa7b970bc94::2" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::10" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::9" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-6f5d95ed817d2f00532ac057609ed8c6::7" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-8f5a7a7854c3d17c00f36b53df83b990::3" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::14" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::4" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q41358-cb3908d74e2c35753798b09d7d4e94f2::13" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::T-0" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::T-0" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::T-3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::T-2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::T-1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::1" target="contains administrative territorial entity::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::14"/>
+      <edge id="1" source="end time::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::1" target="2012-12-31::Entity::2012-12-31T00:00:00Z"/>
+      <edge id="10" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-1291e842c90c0b8eda35bfbdd4f99922::5"/>
+      <edge id="100" source="contains administrative territorial entity::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9" target="end time::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9"/>
+      <edge id="101" source="contains administrative territorial entity::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10" target="Stocking::Entity::Q688173"/>
+      <edge id="102" source="contains administrative territorial entity::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10" target="end time::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10"/>
+      <edge id="103" source="contains administrative territorial entity::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11" target="Vogau::Entity::Q688180"/>
+      <edge id="104" source="contains administrative territorial entity::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11" target="end time::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11"/>
+      <edge id="105" source="contains administrative territorial entity::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12" target="Weitendorf::Entity::Q696148"/>
+      <edge id="106" source="contains administrative territorial entity::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12" target="end time::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12"/>
+      <edge id="107" source="contains administrative territorial entity::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13" target="Wolfsberg im Schwarzautal::Entity::Q427763"/>
+      <edge id="108" source="contains administrative territorial entity::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13" target="end time::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13"/>
+      <edge id="109" source="contains administrative territorial entity::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14" target="Leutschach an der Weinstraße::Entity::Q18628524"/>
+      <edge id="11" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-cb3908d74e2c35753798b09d7d4e94f2::13"/>
+      <edge id="110" source="contains administrative territorial entity::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14" target="start time::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14"/>
+      <edge id="111" source="start time::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14" target="2015-01-01::Entity::2015-01-01T00:00:00Z"/>
+      <edge id="112" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15"/>
+      <edge id="113" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16"/>
+      <edge id="114" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18"/>
+      <edge id="115" source="2015-01-01::Entity::2015-01-01T00:00:00Z" target="start time::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19"/>
+      <edge id="116" source="contains administrative territorial entity::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15" target="Schwarzautal::Entity::Q17591850"/>
+      <edge id="117" source="contains administrative territorial entity::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15" target="start time::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15"/>
+      <edge id="118" source="contains administrative territorial entity::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16" target="Straß in Steiermark::Entity::Q690920"/>
+      <edge id="119" source="contains administrative territorial entity::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16" target="start time::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16"/>
+      <edge id="12" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-8f5a7a7854c3d17c00f36b53df83b990::3"/>
+      <edge id="120" source="contains administrative territorial entity::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17" target="Stainach::Entity::Q871426"/>
+      <edge id="121" source="contains administrative territorial entity::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17" target="end time::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17"/>
+      <edge id="122" source="contains administrative territorial entity::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18" target="Irdning-Donnersbachtal::Entity::Q18626044"/>
+      <edge id="123" source="contains administrative territorial entity::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18" target="start time::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18"/>
+      <edge id="124" source="contains administrative territorial entity::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19" target="Mitterberg-Sankt Martin::Entity::Q18810044"/>
+      <edge id="125" source="contains administrative territorial entity::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19" target="start time::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19"/>
+      <edge id="13" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-6f5d95ed817d2f00532ac057609ed8c6::7"/>
+      <edge id="14" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-08f0b0d97487990dd40267af177550f0::8"/>
+      <edge id="15" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-349818cc5141757a1e8236c053415387::6"/>
+      <edge id="16" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-4477cb4dea7a353f1697efa7b970bc94::2"/>
+      <edge id="17" source="start time::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::2" target="contains administrative territorial entity::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::4"/>
+      <edge id="18" source="start time::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::2" target="2013-01-01::Entity::2013-01-01T00:00:00Z"/>
+      <edge id="19" source="contains administrative territorial entity::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::4" target="Hartberg-Fürstenfeld District::Entity::Q853765"/>
+      <edge id="2" source="contains administrative territorial entity::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::14" target="Styria::Entity::Q41358"/>
+      <edge id="20" source="contains administrative territorial entity::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::4" target="start time::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::T-1"/>
+      <edge id="21" source="capital::Predicate::q41358-b1681f25e5151e38049e35edd6935615::1" target="Graz::Entity::Q13298"/>
+      <edge id="22" source="contains administrative territorial entity::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1" target="start time::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1"/>
+      <edge id="23" source="contains administrative territorial entity::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1" target="Bruck-Mürzzuschlag District::Entity::Q853690"/>
+      <edge id="24" source="contains administrative territorial entity::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1" target="start time::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::T-0"/>
+      <edge id="25" source="start time::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1" target="2013-01-01::Entity::2013-01-01T00:00:00Z"/>
+      <edge id="26" source="contains administrative territorial entity::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::10" target="start time::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::4"/>
+      <edge id="27" source="contains administrative territorial entity::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::10" target="Südoststeiermark District::Entity::Q854043"/>
+      <edge id="28" source="contains administrative territorial entity::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::10" target="start time::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::T-3"/>
+      <edge id="29" source="start time::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::4" target="2013-01-01::Entity::2013-01-01T00:00:00Z"/>
+      <edge id="3" source="contains administrative territorial entity::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::14" target="Mürzzuschlag District::Entity::Q257024"/>
+      <edge id="30" source="contains administrative territorial entity::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::9" target="start time::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::3"/>
+      <edge id="31" source="contains administrative territorial entity::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::9" target="Murtal District::Entity::Q526517"/>
+      <edge id="32" source="contains administrative territorial entity::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::9" target="start time::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::T-2"/>
+      <edge id="33" source="start time::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::3" target="2012-01-01::Entity::2012-01-01T00:00:00Z"/>
+      <edge id="34" source="2013-01-01::Entity::2013-01-01T00:00:00Z" target="start time::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::T-0"/>
+      <edge id="35" source="2013-01-01::Entity::2013-01-01T00:00:00Z" target="start time::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::T-1"/>
+      <edge id="36" source="2013-01-01::Entity::2013-01-01T00:00:00Z" target="start time::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::T-3"/>
+      <edge id="37" source="contains administrative territorial entity::Predicate::q41358-1291e842c90c0b8eda35bfbdd4f99922::5" target="Leibnitz District::Entity::Q660400"/>
+      <edge id="38" source="contains administrative territorial entity::Predicate::q41358-cb3908d74e2c35753798b09d7d4e94f2::13" target="Graz::Entity::Q13298"/>
+      <edge id="39" source="contains administrative territorial entity::Predicate::q41358-8f5a7a7854c3d17c00f36b53df83b990::3" target="Graz-Umgebung District::Entity::Q672475"/>
+      <edge id="4" source="contains administrative territorial entity::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::14" target="end time::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::T-0"/>
+      <edge id="40" source="2012-01-01::Entity::2012-01-01T00:00:00Z" target="start time::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::T-2"/>
+      <edge id="41" source="2012-12-31::Entity::2012-12-31T00:00:00Z" target="end time::Predicate::q41358-9d7b5f262152280b10a7587bab406cbf::T-0"/>
+      <edge id="42" source="contains administrative territorial entity::Predicate::q41358-6f5d95ed817d2f00532ac057609ed8c6::7" target="Liezen District::Entity::Q255834"/>
+      <edge id="43" source="contains administrative territorial entity::Predicate::q41358-08f0b0d97487990dd40267af177550f0::8" target="Murau District::Entity::Q388913"/>
+      <edge id="44" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0"/>
+      <edge id="45" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1"/>
+      <edge id="46" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2"/>
+      <edge id="47" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3"/>
+      <edge id="48" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4"/>
+      <edge id="49" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5"/>
+      <edge id="5" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-bf4c5070d1ce22a3a135f44a33ad1d54::4"/>
+      <edge id="50" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6"/>
+      <edge id="51" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7"/>
+      <edge id="52" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8"/>
+      <edge id="53" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9"/>
+      <edge id="54" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10"/>
+      <edge id="55" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11"/>
+      <edge id="56" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12"/>
+      <edge id="57" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13"/>
+      <edge id="58" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-49b081df3175bc46e1af8d587592630a::T-14"/>
+      <edge id="59" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-f01394c09285efffd210811aa229df78::T-15"/>
+      <edge id="6" source="Styria::Entity::Q41358" target="capital::Predicate::q41358-b1681f25e5151e38049e35edd6935615::1"/>
+      <edge id="60" source="Leibnitz District::Entity::Q660400" target="contains administrative territorial entity::Predicate::q660400-b9f9223c7355a3f6e3737107324a2f4a::T-16"/>
+      <edge id="61" source="contains administrative territorial entity::Predicate::q41358-349818cc5141757a1e8236c053415387::6" target="Leoben District::Entity::Q665720"/>
+      <edge id="62" source="contains administrative territorial entity::Predicate::q41358-4477cb4dea7a353f1697efa7b970bc94::2" target="Deutschlandsberg District::Entity::Q660219"/>
+      <edge id="63" source="Liezen District::Entity::Q255834" target="contains administrative territorial entity::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17"/>
+      <edge id="64" source="Liezen District::Entity::Q255834" target="contains administrative territorial entity::Predicate::q255834-25b6e92f166d87361de9a03e47291a63::T-18"/>
+      <edge id="65" source="Liezen District::Entity::Q255834" target="contains administrative territorial entity::Predicate::q255834-bd69fa566e96f69df5e4161e87750baa::T-19"/>
+      <edge id="66" source="contains administrative territorial entity::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0" target="Berghausen::Entity::Q691130"/>
+      <edge id="67" source="contains administrative territorial entity::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0" target="end time::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0"/>
+      <edge id="68" source="end time::Predicate::q660400-aa5f295ada320e29a761073118f873a6::T-0" target="2014-12-31::Entity::2014-12-31T00:00:00Z"/>
+      <edge id="69" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1"/>
+      <edge id="7" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-467cc914b45f17ed57b81f7aa71fa3d8::1"/>
+      <edge id="70" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2"/>
+      <edge id="71" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3"/>
+      <edge id="72" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4"/>
+      <edge id="73" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5"/>
+      <edge id="74" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6"/>
+      <edge id="75" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7"/>
+      <edge id="76" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8"/>
+      <edge id="77" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9"/>
+      <edge id="78" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-e7d2961331d1bb58b47883c3f9656427::T-10"/>
+      <edge id="79" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-2801dfdec6aacb64d98621f950d42e57::T-11"/>
+      <edge id="8" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-55b02aeea295447ffb2d3358616f0f64::10"/>
+      <edge id="80" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-3794e904ba1deef0fe84423c3f772cbc::T-12"/>
+      <edge id="81" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q660400-535c7a2ee1c3a547fb30d3f64ee78b5a::T-13"/>
+      <edge id="82" source="2014-12-31::Entity::2014-12-31T00:00:00Z" target="end time::Predicate::q255834-4da0a1163556343d49a92c7aa2e8bba9::T-17"/>
+      <edge id="83" source="contains administrative territorial entity::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1" target="Breitenfeld am Tannenriegel::Entity::Q688044"/>
+      <edge id="84" source="contains administrative territorial entity::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1" target="end time::Predicate::q660400-ce5102cf3e69eac35aa1b9d3c758e6b2::T-1"/>
+      <edge id="85" source="contains administrative territorial entity::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2" target="Leutschach::Entity::Q699818"/>
+      <edge id="86" source="contains administrative territorial entity::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2" target="end time::Predicate::q660400-77b10f5609b8ad377052e3f060bdbeed::T-2"/>
+      <edge id="87" source="contains administrative territorial entity::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3" target="Obervogau::Entity::Q695457"/>
+      <edge id="88" source="contains administrative territorial entity::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3" target="end time::Predicate::q660400-13a6e3cbda34b0b0268e89be21da4907::T-3"/>
+      <edge id="89" source="contains administrative territorial entity::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4" target="Pistorf::Entity::Q547347"/>
+      <edge id="9" source="Styria::Entity::Q41358" target="contains administrative territorial entity::Predicate::q41358-5fc3e21062c41b4fd5a00cea15b6ef01::9"/>
+      <edge id="90" source="contains administrative territorial entity::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4" target="end time::Predicate::q660400-f8d8fd29a54543d773c6db269ae944a5::T-4"/>
+      <edge id="91" source="contains administrative territorial entity::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5" target="Sankt Nikolai ob Draßling::Entity::Q688105"/>
+      <edge id="92" source="contains administrative territorial entity::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5" target="end time::Predicate::q660400-84f26211bb14a0943bc6be19d04defa6::T-5"/>
+      <edge id="93" source="contains administrative territorial entity::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6" target="Sankt Ulrich am Waasen::Entity::Q876289"/>
+      <edge id="94" source="contains administrative territorial entity::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6" target="end time::Predicate::q660400-08942fa92fa14da2ec5e4983d8311d1a::T-6"/>
+      <edge id="95" source="contains administrative territorial entity::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7" target="Schloßberg::Entity::Q688139"/>
+      <edge id="96" source="contains administrative territorial entity::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7" target="end time::Predicate::q660400-fab1024b7a2c2f2aa56553005b60b07e::T-7"/>
+      <edge id="97" source="contains administrative territorial entity::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8" target="Seggauberg::Entity::Q672280"/>
+      <edge id="98" source="contains administrative territorial entity::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8" target="end time::Predicate::q660400-6c9cca3a2d082bbecda0424223033bbe::T-8"/>
+      <edge id="99" source="contains administrative territorial entity::Predicate::q660400-36c16e30771d857c25b468f306d56651::T-9" target="Spielfeld::Entity::Q672498"/>
+    </edges>
+  </graph>
+</gexf>

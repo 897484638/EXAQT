@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="China::Entity::Q148" label="China">
+        <attvalues>
+          <attvalue for="label" value="China"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Gaza Strip::Entity::Q39760" label="Gaza Strip">
+        <attvalues>
+          <attvalue for="label" value="Gaza Strip"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Israel::Entity::Q575187" label="Israel">
+        <attvalues>
+          <attvalue for="label" value="Israel"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Israel::Entity::Q801" label="Israel">
+        <attvalues>
+          <attvalue for="label" value="Israel"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Jordan::Entity::Q810" label="Jordan">
+        <attvalues>
+          <attvalue for="label" value="Jordan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Lebanon::Entity::Q822" label="Lebanon">
+        <attvalues>
+          <attvalue for="label" value="Lebanon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="New Territories::Entity::Q596660" label="New Territories">
+        <attvalues>
+          <attvalue for="label" value="New Territories"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Six-Day War::Entity::Q49077" label="Six-Day War">
+        <attvalues>
+          <attvalue for="label" value="Six-Day War"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q801-41c6f00d59ae281b24909f1b7339a090::3" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q5600582-ce994bb049dc5474852db706c492118f::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q596660-c07793d41b6b7242fb4a512038b1319b::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q148-361558f2a6a32d97935fa1f1904ae79a::4" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q16867411-aa670fbf87ec49fdaaffe73d22835fac::2" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q49077-b908b4288190b29bc541a5a82b83aa10::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q49077-02bdbe75f8a7dd1c9febff390b6de41d::4" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q49077-1b522c1eaa01830ddaebe6af1f694054::3" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q49077-5f21476d9ea3cad4d54c2e9846d4dc34::1" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q801-dea8921eea3da0df382b7e9336df4f55::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-0f5ae80c22f1ac5f344069a13bbd8faa::8" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-0ff5fedd4bbef83b6ee52134261a4935::2" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-12d4e8f1feb2eaf2448ebf10eb9f57ff::4" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-2494e7b81ac57e18805f56e001f81cd5::1" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-76cae24ce9efaf6ef55d6b918315a2c6::3" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-db19e64cfc44d44e213227401156837c::7" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q801-e843b3be00ba10820c0344fbd1908c29::5" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q801-db19e64cfc44d44e213227401156837c::12" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="territory claimed by::Predicate::q575187-bd3ef5dac5ed9d1aeee4d1f79f2d21ff::1" label="territory claimed by">
+        <attvalues>
+          <attvalue for="label" value="territory claimed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="New Territories::Entity::Q596660" target="country::Predicate::q596660-c07793d41b6b7242fb4a512038b1319b::2" weight="0.7739212512969971" label="27"/>
+      <edge id="1" source="New Territories::Entity::Q596660" target="location::Predicate::q16867411-aa670fbf87ec49fdaaffe73d22835fac::2" weight="0.9803866744041443" label="13"/>
+      <edge id="10" source="Israel::Entity::Q801" target="diplomatic relation::Predicate::q148-361558f2a6a32d97935fa1f1904ae79a::4" weight="0.9404305219650269" label="26"/>
+      <edge id="11" source="Israel::Entity::Q801" target="contains administrative territorial entity::Predicate::q801-41c6f00d59ae281b24909f1b7339a090::3" weight="0.9795697331428528" label="14"/>
+      <edge id="12" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-12d4e8f1feb2eaf2448ebf10eb9f57ff::4" weight="0.9851148724555969" label="9"/>
+      <edge id="13" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-db19e64cfc44d44e213227401156837c::7" weight="0.9905851483345032" label="2"/>
+      <edge id="14" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-76cae24ce9efaf6ef55d6b918315a2c6::3" weight="0.9880003333091736" label="4"/>
+      <edge id="15" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-0ff5fedd4bbef83b6ee52134261a4935::2" weight="0.9858997464179993" label="8"/>
+      <edge id="16" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-0f5ae80c22f1ac5f344069a13bbd8faa::8" weight="0.9874852299690247" label="6"/>
+      <edge id="17" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-e843b3be00ba10820c0344fbd1908c29::5" weight="0.9842098951339722" label="11"/>
+      <edge id="18" source="Israel::Entity::Q801" target="shares border with::Predicate::q801-2494e7b81ac57e18805f56e001f81cd5::1" weight="0.9828426241874695" label="12"/>
+      <edge id="19" source="Israel::Entity::Q801" target="replaces::Predicate::q801-dea8921eea3da0df382b7e9336df4f55::1" weight="0.9781362414360046" label="16"/>
+      <edge id="2" source="country::Predicate::q596660-c07793d41b6b7242fb4a512038b1319b::2" target="China::Entity::Q148" weight="0.7739212512969971" label="27"/>
+      <edge id="20" source="territory claimed by::Predicate::q575187-bd3ef5dac5ed9d1aeee4d1f79f2d21ff::1" target="Israel::Entity::Q575187" weight="0.9877524375915527" label="5"/>
+      <edge id="21" source="shares border with::Predicate::q801-12d4e8f1feb2eaf2448ebf10eb9f57ff::4" target="Lebanon::Entity::Q822" weight="0.9851148724555969" label="9"/>
+      <edge id="22" source="Lebanon::Entity::Q822" target="participant::Predicate::q49077-02bdbe75f8a7dd1c9febff390b6de41d::4" weight="0.989852249622345" label="3"/>
+      <edge id="23" source="shares border with::Predicate::q801-db19e64cfc44d44e213227401156837c::7" target="Gaza Strip::Entity::Q39760" weight="0.9905851483345032" label="2"/>
+      <edge id="24" source="shares border with::Predicate::q801-db19e64cfc44d44e213227401156837c::7" target="statement is subject of::Predicate::q801-db19e64cfc44d44e213227401156837c::12" weight="0.9905851483345032" label="2"/>
+      <edge id="25" source="Israel::Entity::Q575187" target="country::Predicate::q5600582-ce994bb049dc5474852db706c492118f::1" weight="0.9909125566482544" label="1"/>
+      <edge id="26" source="shares border with::Predicate::q801-0ff5fedd4bbef83b6ee52134261a4935::2" target="Jordan::Entity::Q810" weight="0.9858997464179993" label="8"/>
+      <edge id="27" source="Jordan::Entity::Q810" target="participant::Predicate::q49077-1b522c1eaa01830ddaebe6af1f694054::3" weight="0.9871096611022949" label="7"/>
+      <edge id="3" source="China::Entity::Q148" target="diplomatic relation::Predicate::q148-361558f2a6a32d97935fa1f1904ae79a::4" weight="0.9404305219650269" label="26"/>
+      <edge id="4" source="Six-Day War::Entity::Q49077" target="participant::Predicate::q49077-5f21476d9ea3cad4d54c2e9846d4dc34::1" weight="0.9792337417602539" label="15"/>
+      <edge id="5" source="Six-Day War::Entity::Q49077" target="participant::Predicate::q49077-02bdbe75f8a7dd1c9febff390b6de41d::4" weight="0.989852249622345" label="3"/>
+      <edge id="6" source="Six-Day War::Entity::Q49077" target="participant::Predicate::q49077-1b522c1eaa01830ddaebe6af1f694054::3" weight="0.9871096611022949" label="7"/>
+      <edge id="7" source="Six-Day War::Entity::Q49077" target="location::Predicate::q49077-b908b4288190b29bc541a5a82b83aa10::1" weight="0.9849536418914795" label="10"/>
+      <edge id="8" source="participant::Predicate::q49077-5f21476d9ea3cad4d54c2e9846d4dc34::1" target="Israel::Entity::Q801" weight="0.9792337417602539" label="15"/>
+      <edge id="9" source="Israel::Entity::Q801" target="territory claimed by::Predicate::q575187-bd3ef5dac5ed9d1aeee4d1f79f2d21ff::1" weight="0.9877524375915527" label="5"/>
+    </edges>
+  </graph>
+</gexf>

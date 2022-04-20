@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2005-01-01::Entity::2005-01-01T00:00:00Z" label="2005-01-01">
+        <attvalues>
+          <attvalue for="label" value="2005-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="2007-01-01::Entity::2007-01-01T00:00:00Z" label="2007-01-01">
+        <attvalues>
+          <attvalue for="label" value="2007-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Get Married::Entity::Q12484041" label="Get Married">
+        <attvalues>
+          <attvalue for="label" value="Get Married" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Meriam Bellina::Entity::Q12498215" label="Meriam Bellina">
+        <attvalues>
+          <attvalue for="label" value="Meriam Bellina" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mykel Hawke::Entity::Q2456886" label="Mykel Hawke">
+        <attvalues>
+          <attvalue for="label" value="Mykel Hawke" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ruth England::Entity::Q2639817" label="Ruth England">
+        <attvalues>
+          <attvalue for="label" value="Ruth England" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q12484041-4f23e456106d0791913e7f73ce41da0e::2" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q12484041-2d3de83a78af019063efd9fee4c637dd::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Ruth England::Entity::Q2639817" target="spouse::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" weight="0.9996784925460815" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Ruth England::Entity::Q2639817" target="spouse::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" weight="0.9996265172958374" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="publication date::Predicate::q12484041-2d3de83a78af019063efd9fee4c637dd::1" target="2007-01-01::Entity::2007-01-01T00:00:00Z" weight="0.2577241361141205" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="11" source="cast member::Predicate::q12484041-4f23e456106d0791913e7f73ce41da0e::2" target="Meriam Bellina::Entity::Q12498215" weight="0.0007634137873537838" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="spouse::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" target="Mykel Hawke::Entity::Q2456886" weight="0.9996784925460815" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="spouse::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" target="start time::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" weight="0.9996784925460815" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Mykel Hawke::Entity::Q2456886" target="spouse::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" weight="0.9996265172958374" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="spouse::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" target="start time::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" weight="0.9996265172958374" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="start time::Predicate::q2639817-b993702352e56dcf45f300a6b0772420::1" target="2005-01-01::Entity::2005-01-01T00:00:00Z" weight="0.9996784925460815" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="2005-01-01::Entity::2005-01-01T00:00:00Z" target="start time::Predicate::q2456886-6867a880e4fde10e0a07674affff749f::2" weight="0.9996265172958374" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="Get Married::Entity::Q12484041" target="publication date::Predicate::q12484041-2d3de83a78af019063efd9fee4c637dd::1" weight="0.2577241361141205" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="Get Married::Entity::Q12484041" target="cast member::Predicate::q12484041-4f23e456106d0791913e7f73ce41da0e::2" weight="0.0007634137873537838" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

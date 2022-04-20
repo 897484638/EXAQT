@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="A Man on the Moon::Entity::Q80218435" label="A Man on the Moon">
+        <attvalues>
+          <attvalue for="label" value="A Man on the Moon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Apollo 11::Entity::Q43653" label="Apollo 11">
+        <attvalues>
+          <attvalue for="label" value="Apollo 11"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="First on the Moon::Entity::Q5454231" label="First on the Moon">
+        <attvalues>
+          <attvalue for="label" value="First on the Moon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Neil Armstrong::Entity::Q1615" label="Neil Armstrong">
+        <attvalues>
+          <attvalue for="label" value="Neil Armstrong"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="astronaut mission::Predicate::q1615-64c74b360f61d3f8bac38ef8767c72b9::2" label="astronaut mission">
+        <attvalues>
+          <attvalue for="label" value="astronaut mission"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="astronaut::Entity::Q11631" label="astronaut">
+        <attvalues>
+          <attvalue for="label" value="astronaut"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q5454231-2ffa5932ee4b9209ef42689b884f1213::1" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1615-56b2195c9c0188f23d334502dd9f14cb::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="characters::Predicate::q106428-e3b8605c0b9502eae76c58bba74df7f9::1" label="characters">
+        <attvalues>
+          <attvalue for="label" value="characters"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="creator::Predicate::q80218435-efd1250d868278f02e45630cce348347::1" label="creator">
+        <attvalues>
+          <attvalue for="label" value="creator"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="crew member::Predicate::q43653-99b9ed745be3f9f6da1c8e5f20c5cbdf::1" label="crew member">
+        <attvalues>
+          <attvalue for="label" value="crew member"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="crew member::Predicate::q617651-b8f8c7d6dbb65fe0eb195b0e34ad36dc::2" label="crew member">
+        <attvalues>
+          <attvalue for="label" value="crew member"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1615-dbd0876388f64890531b21def60932e5::5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="manner of death::Predicate::q1615-776072b7eb632223b48246ec26ccbe0a::1" label="manner of death">
+        <attvalues>
+          <attvalue for="label" value="manner of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of the crew of::Predicate::q1615-00d243df34aaa1a0c645ad913708567b::1" label="member of the crew of">
+        <attvalues>
+          <attvalue for="label" value="member of the crew of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q1615-6799da2489d44e5247ee9541cc939c2b::1" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="object has role::Predicate::q1615-dbd0876388f64890531b21def60932e5::1" label="object has role">
+        <attvalues>
+          <attvalue for="label" value="object has role"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q43653-99b9ed745be3f9f6da1c8e5f20c5cbdf::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q1615-fbc83f3ae3992783ead3c8fb877740a3::2" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1615-dbd0876388f64890531b21def60932e5::5" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="walk on the Moon::Entity::Q42882411" label="walk on the Moon">
+        <attvalues>
+          <attvalue for="label" value="walk on the Moon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="manner of death::Predicate::q1615-776072b7eb632223b48246ec26ccbe0a::1" target="Neil Armstrong::Entity::Q1615" weight="0.9877317547798157" label="24"/>
+      <edge id="1" source="Neil Armstrong::Entity::Q1615" target="author::Predicate::q5454231-2ffa5932ee4b9209ef42689b884f1213::1" weight="0.9981420040130615" label="1"/>
+      <edge id="10" source="Neil Armstrong::Entity::Q1615" target="significant event::Predicate::q1615-fbc83f3ae3992783ead3c8fb877740a3::2" weight="0.9934687614440918" label="11"/>
+      <edge id="11" source="Neil Armstrong::Entity::Q1615" target="member of::Predicate::q1615-6799da2489d44e5247ee9541cc939c2b::1" weight="0.9932241439819336" label="12"/>
+      <edge id="12" source="Neil Armstrong::Entity::Q1615" target="astronaut mission::Predicate::q1615-64c74b360f61d3f8bac38ef8767c72b9::2" weight="0.9918980598449707" label="13"/>
+      <edge id="13" source="author::Predicate::q5454231-2ffa5932ee4b9209ef42689b884f1213::1" target="First on the Moon::Entity::Q5454231" weight="0.9981420040130615" label="1"/>
+      <edge id="14" source="member of the crew of::Predicate::q1615-00d243df34aaa1a0c645ad913708567b::1" target="Apollo 11::Entity::Q43653" weight="0.997342050075531" label="2"/>
+      <edge id="15" source="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" target="end time::Predicate::q1615-dbd0876388f64890531b21def60932e5::5" weight="0.9972050786018372" label="3"/>
+      <edge id="16" source="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" target="object has role::Predicate::q1615-dbd0876388f64890531b21def60932e5::1" weight="0.9972050786018372" label="3"/>
+      <edge id="17" source="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" target="point in time::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" weight="0.9972050786018372" label="3"/>
+      <edge id="18" source="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" target="start time::Predicate::q1615-dbd0876388f64890531b21def60932e5::5" weight="0.9972050786018372" label="3"/>
+      <edge id="19" source="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" target="walk on the Moon::Entity::Q42882411" weight="0.9972050786018372" label="3"/>
+      <edge id="2" source="Neil Armstrong::Entity::Q1615" target="member of the crew of::Predicate::q1615-00d243df34aaa1a0c645ad913708567b::1" weight="0.997342050075531" label="2"/>
+      <edge id="20" source="creator::Predicate::q80218435-efd1250d868278f02e45630cce348347::1" target="A Man on the Moon::Entity::Q80218435" weight="0.9968733191490173" label="4"/>
+      <edge id="21" source="crew member::Predicate::q43653-99b9ed745be3f9f6da1c8e5f20c5cbdf::1" target="position held::Predicate::q43653-99b9ed745be3f9f6da1c8e5f20c5cbdf::2" weight="0.996731162071228" label="5"/>
+      <edge id="22" source="occupation::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" target="astronaut::Entity::Q11631" weight="0.996123731136322" label="6"/>
+      <edge id="23" source="occupation::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" target="end time::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" weight="0.996123731136322" label="6"/>
+      <edge id="24" source="occupation::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" target="start time::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" weight="0.996123731136322" label="6"/>
+      <edge id="3" source="Neil Armstrong::Entity::Q1615" target="significant event::Predicate::q1615-dbd0876388f64890531b21def60932e5::3" weight="0.9972050786018372" label="3"/>
+      <edge id="4" source="Neil Armstrong::Entity::Q1615" target="creator::Predicate::q80218435-efd1250d868278f02e45630cce348347::1" weight="0.9968733191490173" label="4"/>
+      <edge id="5" source="Neil Armstrong::Entity::Q1615" target="crew member::Predicate::q43653-99b9ed745be3f9f6da1c8e5f20c5cbdf::1" weight="0.996731162071228" label="5"/>
+      <edge id="6" source="Neil Armstrong::Entity::Q1615" target="occupation::Predicate::q1615-669e677ed358c06b81c297a3a7075c76::3" weight="0.996123731136322" label="6"/>
+      <edge id="7" source="Neil Armstrong::Entity::Q1615" target="award received::Predicate::q1615-56b2195c9c0188f23d334502dd9f14cb::1" weight="0.9953911304473877" label="7"/>
+      <edge id="8" source="Neil Armstrong::Entity::Q1615" target="characters::Predicate::q106428-e3b8605c0b9502eae76c58bba74df7f9::1" weight="0.994857668876648" label="8"/>
+      <edge id="9" source="Neil Armstrong::Entity::Q1615" target="crew member::Predicate::q617651-b8f8c7d6dbb65fe0eb195b0e34ad36dc::2" weight="0.9938595294952393" label="10"/>
+    </edges>
+  </graph>
+</gexf>

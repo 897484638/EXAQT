@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+9000000::Entity::+9000000" label="+9000000">
+        <attvalues>
+          <attvalue for="label" value="+9000000"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1936-01-01::Entity::1936-01-01T00:00:00Z" label="1936-01-01">
+        <attvalues>
+          <attvalue for="label" value="1936-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2000-01-01::Entity::2000-01-01T00:00:00Z" label="2000-01-01">
+        <attvalues>
+          <attvalue for="label" value="2000-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Gao Xingjian::Entity::Q18143" label="Gao Xingjian">
+        <attvalues>
+          <attvalue for="label" value="Gao Xingjian"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="General Administration for Traffic Safety::Entity::Q4146353" label="General Administration for Traffic Safety">
+        <attvalues>
+          <attvalue for="label" value="General Administration for Traffic Safety"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Literature::Entity::Q37922" label="Nobel Prize in Literature">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Literature"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q7755518-d64e3387cc6aee495284a9f7ddc1f93a::1" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q18143-60255a1beac54e2add292e80d44b7a2b::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q18143-db3af6032cbb5bda2f1febb136da2d2f::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q18143-e57758224dcdc520fa064fae4f8b3cb8::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q18143-ca44255e22f4556522fbe5afb44d4d3e::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q18143-8bf082ac5ce8bb8116661e46092574e6::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="family name::Predicate::q18143-0af816790d3d147b25b6ccee7fdbd435::1" label="family name">
+        <attvalues>
+          <attvalue for="label" value="family name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="honorary doctor of the Chinese University of Hong Kong::Entity::Q63101620" label="honorary doctor of the Chinese University of Hong Kong">
+        <attvalues>
+          <attvalue for="label" value="honorary doctor of the Chinese University of Hong Kong"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q4146353-9bf6f54995ba6345ad04afae06f38c8b::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of political party::Predicate::q18143-0af48235576440c81050a55009b8d600::1" label="member of political party">
+        <attvalues>
+          <attvalue for="label" value="member of political party"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="notable work::Predicate::q18143-1a40197023d4356e620b535f939bbf03::1" label="notable work">
+        <attvalues>
+          <attvalue for="label" value="notable work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q18143-6c1ecf809056de95a2a1aca0f1b1a4f8::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q18143-a926cf9e693386037cafefbace8a335e::2" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q55355220-fb7d9a238ba0aab84bdf1822c5748fe5::1" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q55355239-a0274907750cdf07232ee546b41b1875::2" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q55369949-c34435e8abba2722d549b8d049146bc2::3" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q18143-faf7d056b2945eea2f6747f3c782a0d4::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q37922-ad364f8a1d06c0d28a531f62473e5fb0::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sex or gender::Predicate::q18143-1b5ff4ba5d8c01174414ff167581606c::1" label="sex or gender">
+        <attvalues>
+          <attvalue for="label" value="sex or gender"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q37922-ad364f8a1d06c0d28a531f62473e5fb0::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" target="Gao Xingjian::Entity::Q18143" weight="0.9997625946998596" label="1"/>
+      <edge id="1" source="award received::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" target="Nobel Prize in Literature::Entity::Q37922" weight="0.9997625946998596" label="1"/>
+      <edge id="10" source="Gao Xingjian::Entity::Q18143" target="participant::Predicate::q55369949-c34435e8abba2722d549b8d049146bc2::3" weight="0.002488671336323023" label="8"/>
+      <edge id="11" source="Gao Xingjian::Entity::Q18143" target="place of birth::Predicate::q18143-faf7d056b2945eea2f6747f3c782a0d4::1" weight="0.0013750074431300163" label="9"/>
+      <edge id="12" source="Gao Xingjian::Entity::Q18143" target="date of birth::Predicate::q18143-ca44255e22f4556522fbe5afb44d4d3e::1" weight="0.0011592452647164464" label="10"/>
+      <edge id="13" source="Gao Xingjian::Entity::Q18143" target="notable work::Predicate::q18143-1a40197023d4356e620b535f939bbf03::1" weight="0.0010219257092103362" label="11"/>
+      <edge id="14" source="Gao Xingjian::Entity::Q18143" target="author::Predicate::q7755518-d64e3387cc6aee495284a9f7ddc1f93a::1" weight="0.0008682046900503337" label="12"/>
+      <edge id="15" source="Gao Xingjian::Entity::Q18143" target="occupation::Predicate::q18143-6c1ecf809056de95a2a1aca0f1b1a4f8::1" weight="0.0008054471691139042" label="13"/>
+      <edge id="16" source="Gao Xingjian::Entity::Q18143" target="country of citizenship::Predicate::q18143-db3af6032cbb5bda2f1febb136da2d2f::1" weight="0.0007941421936266124" label="14"/>
+      <edge id="17" source="Gao Xingjian::Entity::Q18143" target="sex or gender::Predicate::q18143-1b5ff4ba5d8c01174414ff167581606c::1" weight="0.0007911541615612805" label="15"/>
+      <edge id="18" source="Gao Xingjian::Entity::Q18143" target="country of citizenship::Predicate::q18143-e57758224dcdc520fa064fae4f8b3cb8::2" weight="0.0007535786717198789" label="16"/>
+      <edge id="19" source="Gao Xingjian::Entity::Q18143" target="family name::Predicate::q18143-0af816790d3d147b25b6ccee7fdbd435::1" weight="0.0007317272247746587" label="17"/>
+      <edge id="2" source="award received::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" target="point in time::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" weight="0.9997625946998596" label="1"/>
+      <edge id="20" source="Gao Xingjian::Entity::Q18143" target="occupation::Predicate::q18143-a926cf9e693386037cafefbace8a335e::2" weight="0.0007166406721808016" label="18"/>
+      <edge id="21" source="point in time::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" target="2000-01-01::Entity::2000-01-01T00:00:00Z" weight="0.9997625946998596" label="1"/>
+      <edge id="22" source="prize money::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" target="+9000000::Entity::+9000000" weight="0.9997625946998596" label="1"/>
+      <edge id="23" source="2000-01-01::Entity::2000-01-01T00:00:00Z" target="point in time::Predicate::q37922-ad364f8a1d06c0d28a531f62473e5fb0::2" weight="0.9930810332298279" label="2"/>
+      <edge id="24" source="award received::Predicate::q18143-60255a1beac54e2add292e80d44b7a2b::2" target="honorary doctor of the Chinese University of Hong Kong::Entity::Q63101620" weight="0.5056567788124084" label="3"/>
+      <edge id="25" source="General Administration for Traffic Safety::Entity::Q4146353" target="inception::Predicate::q4146353-9bf6f54995ba6345ad04afae06f38c8b::1" weight="0.0005493126227520406" label="24"/>
+      <edge id="26" source="inception::Predicate::q4146353-9bf6f54995ba6345ad04afae06f38c8b::1" target="1936-01-01::Entity::1936-01-01T00:00:00Z" weight="0.0005493126227520406" label="24"/>
+      <edge id="3" source="award received::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" target="prize money::Predicate::q18143-762fb75c0b43bd495d58947c1992de9e::1" weight="0.9997625946998596" label="1"/>
+      <edge id="4" source="Gao Xingjian::Entity::Q18143" target="winner::Predicate::q37922-ad364f8a1d06c0d28a531f62473e5fb0::1" weight="0.9930810332298279" label="2"/>
+      <edge id="5" source="Gao Xingjian::Entity::Q18143" target="award received::Predicate::q18143-60255a1beac54e2add292e80d44b7a2b::2" weight="0.5056567788124084" label="3"/>
+      <edge id="6" source="Gao Xingjian::Entity::Q18143" target="member of political party::Predicate::q18143-0af48235576440c81050a55009b8d600::1" weight="0.016871096566319466" label="4"/>
+      <edge id="7" source="Gao Xingjian::Entity::Q18143" target="participant::Predicate::q55355220-fb7d9a238ba0aab84bdf1822c5748fe5::1" weight="0.007616086862981319" label="5"/>
+      <edge id="8" source="Gao Xingjian::Entity::Q18143" target="participant::Predicate::q55355239-a0274907750cdf07232ee546b41b1875::2" weight="0.004002030473202467" label="6"/>
+      <edge id="9" source="Gao Xingjian::Entity::Q18143" target="educated at::Predicate::q18143-8bf082ac5ce8bb8116661e46092574e6::1" weight="0.0038981782272458076" label="7"/>
+    </edges>
+  </graph>
+</gexf>

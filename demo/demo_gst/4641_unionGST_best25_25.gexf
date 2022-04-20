@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1999-01-01::Entity::1999-01-01T00:00:00Z" label="1999-01-01">
+        <attvalues>
+          <attvalue for="label" value="1999-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2008-01-01::Entity::2008-01-01T00:00:00Z" label="2008-01-01">
+        <attvalues>
+          <attvalue for="label" value="2008-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2008-06-22::Entity::2008-06-22T00:00:00Z" label="2008-06-22">
+        <attvalues>
+          <attvalue for="label" value="2008-06-22"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Glenn McGrath::Entity::Q1392178" label="Glenn McGrath">
+        <attvalues>
+          <attvalue for="label" value="Glenn McGrath"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Jane McGrath::Entity::Q6152552" label="Jane McGrath">
+        <attvalues>
+          <attvalue for="label" value="Jane McGrath"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Richland Parish::Entity::Q507028" label="Richland Parish">
+        <attvalues>
+          <attvalue for="label" value="Richland Parish"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Start, Louisiana::Entity::Q970797" label="Start, Louisiana">
+        <attvalues>
+          <attvalue for="label" value="Start, Louisiana"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q1392178-ca4749fa0105946ee690daddb3632fa1::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q6152552-aa158b60b0819789c6377c88f8df7a87::2" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q6152552-bb778d0c2aa2e1573842a1ee81cfb021::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q66669160-03ffb56037fe7d153cd3699cdcf20320::5" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1392178-aa7aab152cf330b0e97fd5633a6cc028::5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1392178-2e7d0832420df08b4073e9311a07f308::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q970797-9f85069a509fa31b39f103fe20c86ebc::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1392178-2304ccb3ad50921bcae1d3ab8e7e32cb::2" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1392178-a1d71259b70059b3f153dec112f80155::3" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1392178-aa7aab152cf330b0e97fd5633a6cc028::4" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q6801430-4c00e2ea9327748f3572a91676539d75::1" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q6801430-998e33c36108bc7703528573f776eb89::2" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q6152552-b773fd5dcd2fa186707adfd100f545af::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sex or gender::Predicate::q6152552-722db396ddc45db27b48524942fa838c::2" label="sex or gender">
+        <attvalues>
+          <attvalue for="label" value="sex or gender"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::3" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::4" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1392178-aa7aab152cf330b0e97fd5633a6cc028::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::7" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of death::Predicate::q6152552-bb778d0c2aa2e1573842a1ee81cfb021::1" target="Jane McGrath::Entity::Q6152552" weight="0.3057691156864166" label="6"/>
+      <edge id="1" source="date of death::Predicate::q6152552-bb778d0c2aa2e1573842a1ee81cfb021::1" target="2008-06-22::Entity::2008-06-22T00:00:00Z" weight="0.3057691156864166" label="6"/>
+      <edge id="10" source="spouse::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::3" target="start time::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::2" weight="0.9992468357086182" label="1"/>
+      <edge id="11" source="Glenn McGrath::Entity::Q1392178" target="spouse::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::4" weight="0.9991971850395203" label="2"/>
+      <edge id="12" source="Glenn McGrath::Entity::Q1392178" target="member of sports team::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::1" weight="0.44430801272392273" label="4"/>
+      <edge id="13" source="Glenn McGrath::Entity::Q1392178" target="member of sports team::Predicate::q1392178-a1d71259b70059b3f153dec112f80155::3" weight="0.4177606999874115" label="5"/>
+      <edge id="14" source="Glenn McGrath::Entity::Q1392178" target="member of sports team::Predicate::q1392178-2304ccb3ad50921bcae1d3ab8e7e32cb::2" weight="0.25777000188827515" label="7"/>
+      <edge id="15" source="Glenn McGrath::Entity::Q1392178" target="member of sports team::Predicate::q1392178-aa7aab152cf330b0e97fd5633a6cc028::4" weight="0.2362133264541626" label="8"/>
+      <edge id="16" source="Glenn McGrath::Entity::Q1392178" target="date of birth::Predicate::q1392178-ca4749fa0105946ee690daddb3632fa1::1" weight="0.00971680972725153" label="10"/>
+      <edge id="17" source="Glenn McGrath::Entity::Q1392178" target="depicts::Predicate::q66669160-03ffb56037fe7d153cd3699cdcf20320::5" weight="0.000982652767561376" label="18"/>
+      <edge id="18" source="Glenn McGrath::Entity::Q1392178" target="named after::Predicate::q6801430-4c00e2ea9327748f3572a91676539d75::1" weight="0.0008522222633473575" label="22"/>
+      <edge id="19" source="Glenn McGrath::Entity::Q1392178" target="instance of::Predicate::q1392178-2e7d0832420df08b4073e9311a07f308::1" weight="0.00022332520165946335" label="29"/>
+      <edge id="2" source="Jane McGrath::Entity::Q6152552" target="spouse::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::3" weight="0.9992468357086182" label="1"/>
+      <edge id="20" source="end time::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::1" target="2008-01-01::Entity::2008-01-01T00:00:00Z" weight="0.9992468357086182" label="1"/>
+      <edge id="21" source="start time::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::2" target="1999-01-01::Entity::1999-01-01T00:00:00Z" weight="0.9992468357086182" label="1"/>
+      <edge id="22" source="spouse::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::4" target="end time::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::6" weight="0.9991971850395203" label="2"/>
+      <edge id="23" source="spouse::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::4" target="start time::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::7" weight="0.9991971850395203" label="2"/>
+      <edge id="24" source="2008-01-01::Entity::2008-01-01T00:00:00Z" target="end time::Predicate::q1392178-aa7aab152cf330b0e97fd5633a6cc028::5" weight="0.2362133264541626" label="8"/>
+      <edge id="25" source="2008-01-01::Entity::2008-01-01T00:00:00Z" target="start time::Predicate::q1392178-aa7aab152cf330b0e97fd5633a6cc028::6" weight="0.2362133264541626" label="8"/>
+      <edge id="26" source="member of sports team::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::1" target="end time::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::2" weight="0.44430801272392273" label="4"/>
+      <edge id="27" source="member of sports team::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::1" target="start time::Predicate::q1392178-4b93165d6e23d5d0eee31dc1d9dd4b60::3" weight="0.44430801272392273" label="4"/>
+      <edge id="28" source="Start, Louisiana::Entity::Q970797" target="located in the administrative territorial entity::Predicate::q970797-9f85069a509fa31b39f103fe20c86ebc::1" weight="0.0008092032512649894" label="23"/>
+      <edge id="29" source="located in the administrative territorial entity::Predicate::q970797-9f85069a509fa31b39f103fe20c86ebc::1" target="Richland Parish::Entity::Q507028" weight="0.0008092032512649894" label="23"/>
+      <edge id="3" source="Jane McGrath::Entity::Q6152552" target="spouse::Predicate::q6152552-86fcb4d84dc253099eafbff4c6c85ad7::4" weight="0.9991971850395203" label="2"/>
+      <edge id="4" source="Jane McGrath::Entity::Q6152552" target="date of birth::Predicate::q6152552-aa158b60b0819789c6377c88f8df7a87::2" weight="0.005412706173956394" label="11"/>
+      <edge id="5" source="Jane McGrath::Entity::Q6152552" target="place of death::Predicate::q6152552-b773fd5dcd2fa186707adfd100f545af::1" weight="0.0013420268660411239" label="14"/>
+      <edge id="6" source="Jane McGrath::Entity::Q6152552" target="named after::Predicate::q6801430-998e33c36108bc7703528573f776eb89::2" weight="0.0007519047940149903" label="25"/>
+      <edge id="7" source="Jane McGrath::Entity::Q6152552" target="sex or gender::Predicate::q6152552-722db396ddc45db27b48524942fa838c::2" weight="0.0002618750440888107" label="28"/>
+      <edge id="8" source="spouse::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::3" target="Glenn McGrath::Entity::Q1392178" weight="0.9992468357086182" label="1"/>
+      <edge id="9" source="spouse::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::3" target="end time::Predicate::q1392178-75bf2e5b4cea5fb210f438ffb9606326::1" weight="0.9992468357086182" label="1"/>
+    </edges>
+  </graph>
+</gexf>

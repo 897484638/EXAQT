@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Bermudian pound::Entity::Q4085039" label="Bermudian pound">
+        <attvalues>
+          <attvalue for="label" value="Bermudian pound"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Dominican Republic::Entity::Q786" label="Dominican Republic">
+        <attvalues>
+          <attvalue for="label" value="Dominican Republic"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Dominican peso::Entity::Q242922" label="Dominican peso">
+        <attvalues>
+          <attvalue for="label" value="Dominican peso"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Trinidad and Tobago dollar::Entity::Q242890" label="Trinidad and Tobago dollar">
+        <attvalues>
+          <attvalue for="label" value="Trinidad and Tobago dollar"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="currency::Entity::Q8142" label="currency">
+        <attvalues>
+          <attvalue for="label" value="currency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="currency::Predicate::q786-a314a8cea9ca8002cb1409f3af4c7494::1" label="currency">
+        <attvalues>
+          <attvalue for="label" value="currency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q242890-2dc014d0b3667413c8955859b4eaf370::16" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q242922-e0ae730f236e1c034da16353b9dc306b::21" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q4085039-905c5e16c8487df3df75bbe56482163d::7" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="currency::Predicate::q786-a314a8cea9ca8002cb1409f3af4c7494::1" target="Dominican Republic::Entity::Q786" weight="0.9948626160621643" label="1"/>
+      <edge id="1" source="currency::Predicate::q786-a314a8cea9ca8002cb1409f3af4c7494::1" target="Dominican peso::Entity::Q242922" weight="0.9948626160621643" label="1"/>
+      <edge id="2" source="Dominican peso::Entity::Q242922" target="instance of::Predicate::q242922-e0ae730f236e1c034da16353b9dc306b::21" weight="0.991392970085144" label="15"/>
+      <edge id="3" source="instance of::Predicate::q242922-e0ae730f236e1c034da16353b9dc306b::21" target="currency::Entity::Q8142" weight="0.991392970085144" label="15"/>
+      <edge id="4" source="currency::Entity::Q8142" target="instance of::Predicate::q242890-2dc014d0b3667413c8955859b4eaf370::16" weight="0.9941482543945312" label="2"/>
+      <edge id="5" source="currency::Entity::Q8142" target="instance of::Predicate::q4085039-905c5e16c8487df3df75bbe56482163d::7" weight="0.9940925240516663" label="3"/>
+      <edge id="6" source="instance of::Predicate::q242890-2dc014d0b3667413c8955859b4eaf370::16" target="Trinidad and Tobago dollar::Entity::Q242890" weight="0.9941482543945312" label="2"/>
+      <edge id="7" source="instance of::Predicate::q4085039-905c5e16c8487df3df75bbe56482163d::7" target="Bermudian pound::Entity::Q4085039" weight="0.9940925240516663" label="3"/>
+    </edges>
+  </graph>
+</gexf>

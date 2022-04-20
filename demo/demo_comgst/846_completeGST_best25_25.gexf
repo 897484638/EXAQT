@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1993-01-01::Entity::1993-01-01T00:00:00Z" label="1993-01-01">
+        <attvalues>
+          <attvalue for="label" value="1993-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1999-09-01::Entity::1999-09-01T00:00:00Z" label="1999-09-01">
+        <attvalues>
+          <attvalue for="label" value="1999-09-01"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2003-09-01::Entity::2003-09-01T00:00:00Z" label="2003-09-01">
+        <attvalues>
+          <attvalue for="label" value="2003-09-01"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="LexUM::Entity::Q6537505" label="LexUM">
+        <attvalues>
+          <attvalue for="label" value="LexUM"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Nadine Forget-Dubois::Entity::Q51820903" label="Nadine Forget-Dubois">
+        <attvalues>
+          <attvalue for="label" value="Nadine Forget-Dubois"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Université de Montréal::Entity::Q392189" label="Université de Montréal">
+        <attvalues>
+          <attvalue for="label" value="Université de Montréal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="parent organization::Predicate::q6537505-5858271e5f03265d0da8bea022983103::1" label="parent organization">
+        <attvalues>
+          <attvalue for="label" value="parent organization"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q6537505-5858271e5f03265d0da8bea022983103::15" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" target="subsidiary::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" weight="0.9946145415306091" label="1"/>
+      <edge id="1" source="start time::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" target="1993-01-01::Entity::1993-01-01T00:00:00Z" weight="0.9946145415306091" label="1"/>
+      <edge id="10" source="educated at::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" target="Nadine Forget-Dubois::Entity::Q51820903" weight="0.9725269675254822" label="2"/>
+      <edge id="11" source="parent organization::Predicate::q6537505-5858271e5f03265d0da8bea022983103::1" target="start time::Predicate::q6537505-5858271e5f03265d0da8bea022983103::15" weight="0.9689556956291199" label="3"/>
+      <edge id="12" source="end time::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" target="2003-09-01::Entity::2003-09-01T00:00:00Z" weight="0.9725269675254822" label="2"/>
+      <edge id="13" source="start time::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" target="1999-09-01::Entity::1999-09-01T00:00:00Z" weight="0.9725269675254822" label="2"/>
+      <edge id="2" source="subsidiary::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" target="Université de Montréal::Entity::Q392189" weight="0.9946145415306091" label="1"/>
+      <edge id="3" source="subsidiary::Predicate::q392189-466eeafd3080eed37621fee783a8e6f2::1" target="LexUM::Entity::Q6537505" weight="0.9946145415306091" label="1"/>
+      <edge id="4" source="Université de Montréal::Entity::Q392189" target="educated at::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" weight="0.9725269675254822" label="2"/>
+      <edge id="5" source="Université de Montréal::Entity::Q392189" target="parent organization::Predicate::q6537505-5858271e5f03265d0da8bea022983103::1" weight="0.9689556956291199" label="3"/>
+      <edge id="6" source="1993-01-01::Entity::1993-01-01T00:00:00Z" target="start time::Predicate::q6537505-5858271e5f03265d0da8bea022983103::15" weight="0.9689556956291199" label="3"/>
+      <edge id="7" source="LexUM::Entity::Q6537505" target="parent organization::Predicate::q6537505-5858271e5f03265d0da8bea022983103::1" weight="0.9689556956291199" label="3"/>
+      <edge id="8" source="educated at::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" target="end time::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" weight="0.9725269675254822" label="2"/>
+      <edge id="9" source="educated at::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" target="start time::Predicate::q51820903-4f24d9e1d8f404be8f42b3b32d0ceeec::5" weight="0.9725269675254822" label="2"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="American Civil War::Entity::Q8676" label="American Civil War">
+        <attvalues>
+          <attvalue for="label" value="American Civil War"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Army of Northern Virginia::Entity::Q689847" label="Army of Northern Virginia">
+        <attvalues>
+          <attvalue for="label" value="Army of Northern Virginia"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Battle of Gettysburg::Entity::Q33132" label="Battle of Gettysburg">
+        <attvalues>
+          <attvalue for="label" value="Battle of Gettysburg"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="First to Fight::Entity::Q5454252" label="First to Fight">
+        <attvalues>
+          <attvalue for="label" value="First to Fight"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mexican–American War::Entity::Q6683" label="Mexican–American War">
+        <attvalues>
+          <attvalue for="label" value="Mexican–American War"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Robert E. Lee::Entity::Q165557" label="Robert E. Lee">
+        <attvalues>
+          <attvalue for="label" value="Robert E. Lee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="allegiance::Predicate::q165557-1753e7aa286a67e198c5a54e44f9f565::1" label="allegiance">
+        <attvalues>
+          <attvalue for="label" value="allegiance"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="commander of (DEPRECATED)::Predicate::q165557-f8f101eb05f174986f7d98e45c7d4087::1" label="commander of (DEPRECATED)">
+        <attvalues>
+          <attvalue for="label" value="commander of (DEPRECATED)"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q165557-f6a30463b97351b7797c0377b4b21732::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q165557-f80a896c3807fe38382034d327491f8f::2" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q165557-05c20d12ca6a98fd6092e08e5c55caf5::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q5454252-37c8807c6a70987da5b6d23840309ce5::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q33132-99d87618a06381f926009fae3e0123c6::1" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Robert E. Lee::Entity::Q165557" target="allegiance::Predicate::q165557-1753e7aa286a67e198c5a54e44f9f565::1" weight="0.05004044622182846" label="8"/>
+      <edge id="1" source="Robert E. Lee::Entity::Q165557" target="conflict::Predicate::q165557-f6a30463b97351b7797c0377b4b21732::1" weight="0.9980929493904114" label="1"/>
+      <edge id="10" source="conflict::Predicate::q165557-f6a30463b97351b7797c0377b4b21732::1" target="Mexican–American War::Entity::Q6683" weight="0.9980929493904114" label="1"/>
+      <edge id="11" source="conflict::Predicate::q165557-f80a896c3807fe38382034d327491f8f::2" target="American Civil War::Entity::Q8676" weight="0.9979263544082642" label="2"/>
+      <edge id="12" source="participant::Predicate::q33132-99d87618a06381f926009fae3e0123c6::1" target="Battle of Gettysburg::Entity::Q33132" weight="0.9971837401390076" label="3"/>
+      <edge id="13" source="commander of (DEPRECATED)::Predicate::q165557-f8f101eb05f174986f7d98e45c7d4087::1" target="Army of Northern Virginia::Entity::Q689847" weight="0.6084450483322144" label="4"/>
+      <edge id="2" source="Robert E. Lee::Entity::Q165557" target="conflict::Predicate::q165557-f80a896c3807fe38382034d327491f8f::2" weight="0.9979263544082642" label="2"/>
+      <edge id="3" source="Robert E. Lee::Entity::Q165557" target="participant::Predicate::q33132-99d87618a06381f926009fae3e0123c6::1" weight="0.9971837401390076" label="3"/>
+      <edge id="4" source="Robert E. Lee::Entity::Q165557" target="country of citizenship::Predicate::q165557-05c20d12ca6a98fd6092e08e5c55caf5::2" weight="0.0020001449156552553" label="23"/>
+      <edge id="5" source="Robert E. Lee::Entity::Q165557" target="commander of (DEPRECATED)::Predicate::q165557-f8f101eb05f174986f7d98e45c7d4087::1" weight="0.6084450483322144" label="4"/>
+      <edge id="6" source="allegiance::Predicate::q165557-1753e7aa286a67e198c5a54e44f9f565::1" target="United States::Entity::Q30" weight="0.05004044622182846" label="8"/>
+      <edge id="7" source="United States::Entity::Q30" target="country of origin::Predicate::q5454252-37c8807c6a70987da5b6d23840309ce5::1" weight="0.0029448012355715036" label="22"/>
+      <edge id="8" source="United States::Entity::Q30" target="country of citizenship::Predicate::q165557-05c20d12ca6a98fd6092e08e5c55caf5::2" weight="0.0020001449156552553" label="23"/>
+      <edge id="9" source="country of origin::Predicate::q5454252-37c8807c6a70987da5b6d23840309ce5::1" target="First to Fight::Entity::Q5454252" weight="0.0029448012355715036" label="22"/>
+    </edges>
+  </graph>
+</gexf>

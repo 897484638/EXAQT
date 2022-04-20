@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="7th arrondissement of Paris::Entity::Q259463" label="7th arrondissement of Paris">
+        <attvalues>
+          <attvalue for="label" value="7th arrondissement of Paris" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Gros-Caillou::Entity::Q3413275" label="Gros-Caillou">
+        <attvalues>
+          <attvalue for="label" value="Gros-Caillou" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Paris::Entity::Q90" label="Paris">
+        <attvalues>
+          <attvalue for="label" value="Paris" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Saint-Thomas-d'Aquin::Entity::Q3413129" label="Saint-Thomas-d'Aquin">
+        <attvalues>
+          <attvalue for="label" value="Saint-Thomas-d'Aquin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="applies to part::Predicate::q90-c104a184c8a9c2f72aca7749dcf8ec9f::1" label="applies to part">
+        <attvalues>
+          <attvalue for="label" value="applies to part" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="area::Predicate::q259463-6b68b09736c884cb1541d4adf985ddb5::1" label="area">
+        <attvalues>
+          <attvalue for="label" value="area" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q259463-55ca04b3004da758cd030da86067e82b::1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q259463-5f7fcc99262aaec081f0cbbd48352b5a::3" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q259463-b3132ac1a8ae2a0d6af6ffef97b35e3d::2" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q90-db95de09c79b6c9993017a9b8b6aa1fe::4" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in or next to body of water::Predicate::q259463-5b5fa3ecca0c770d21a7b45dbecfdac2::1" label="located in or next to body of water">
+        <attvalues>
+          <attvalue for="label" value="located in or next to body of water" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q23639983-5f7ec5236a8271a2f0ac85907c16338f::4" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q259463-564c0237e48d39a33a4801bdc6f8651c::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q58729635-ba4fb7180f730f4e1da59ad2c6119cb0::2" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q259463-0bdcc1eac8f163f53f63284395460b79::2" label="population">
+        <attvalues>
+          <attvalue for="label" value="population" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q259463-6d2a778c9209090edea10bd1ba048bac::1" label="population">
+        <attvalues>
+          <attvalue for="label" value="population" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q259463-ae59966390460ef53ef889f9ebeee8ab::3" label="population">
+        <attvalues>
+          <attvalue for="label" value="population" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q161741-44b128a0dc049f0ce63f11defe4a2b96::7" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q191066-ac0f9e3757ca4bfa45862c36749b9634::9" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q194420-ec4dffe96417089ad63169c09828ab73::8" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q245546-726f30c4f591ed15fac198cd5c434351::10" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q259463-30c76092f731547115064c4e036e23d6::2" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q259463-5d6f1c8de71e619c8ee15bbba0e50ef0::5" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q259463-b4c6aae29acd6ef6fda9e3bef90ec4da::4" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q259463-c34c7ec3f380d9658f17a75b065ebc6f::3" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q270230-328c1a6b94d41fbd838dfc34100a26b1::6" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="contains administrative territorial entity::Predicate::q259463-55ca04b3004da758cd030da86067e82b::1" target="7th arrondissement of Paris::Entity::Q259463" weight="0.9913042783737183" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="1" source="contains administrative territorial entity::Predicate::q259463-55ca04b3004da758cd030da86067e82b::1" target="Saint-Thomas-d'Aquin::Entity::Q3413129" weight="0.9913042783737183" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="10" source="7th arrondissement of Paris::Entity::Q259463" target="applies to part::Predicate::q90-c104a184c8a9c2f72aca7749dcf8ec9f::1" weight="0.9901551008224487" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="7th arrondissement of Paris::Entity::Q259463" target="population::Predicate::q259463-ae59966390460ef53ef889f9ebeee8ab::3" weight="0.989863395690918" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q191066-ac0f9e3757ca4bfa45862c36749b9634::9" weight="0.9893246293067932" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q245546-726f30c4f591ed15fac198cd5c434351::10" weight="0.9890719652175903" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q270230-328c1a6b94d41fbd838dfc34100a26b1::6" weight="0.9890459179878235" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q194420-ec4dffe96417089ad63169c09828ab73::8" weight="0.9890366196632385" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="7th arrondissement of Paris::Entity::Q259463" target="population::Predicate::q259463-0bdcc1eac8f163f53f63284395460b79::2" weight="0.9887595176696777" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q259463-b4c6aae29acd6ef6fda9e3bef90ec4da::4" weight="0.9886190891265869" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q259463-5d6f1c8de71e619c8ee15bbba0e50ef0::5" weight="0.9885388016700745" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q259463-c34c7ec3f380d9658f17a75b065ebc6f::3" weight="0.988474428653717" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="7th arrondissement of Paris::Entity::Q259463" target="contains administrative territorial entity::Predicate::q259463-5f7fcc99262aaec081f0cbbd48352b5a::3" weight="0.991271436214447" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="20" source="7th arrondissement of Paris::Entity::Q259463" target="population::Predicate::q259463-6d2a778c9209090edea10bd1ba048bac::1" weight="0.9883455038070679" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q259463-30c76092f731547115064c4e036e23d6::2" weight="0.9883120656013489" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="7th arrondissement of Paris::Entity::Q259463" target="shares border with::Predicate::q161741-44b128a0dc049f0ce63f11defe4a2b96::7" weight="0.988060712814331" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="23" source="contains administrative territorial entity::Predicate::q259463-5f7fcc99262aaec081f0cbbd48352b5a::3" target="Gros-Caillou::Entity::Q3413275" weight="0.991271436214447" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="24" source="contains administrative territorial entity::Predicate::q90-db95de09c79b6c9993017a9b8b6aa1fe::4" target="Paris::Entity::Q90" weight="0.9903247356414795" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="25" source="located in the administrative territorial entity::Predicate::q259463-564c0237e48d39a33a4801bdc6f8651c::1" target="Paris::Entity::Q90" weight="0.993353009223938" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="7th arrondissement of Paris::Entity::Q259463" target="contains administrative territorial entity::Predicate::q90-db95de09c79b6c9993017a9b8b6aa1fe::4" weight="0.9903247356414795" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="7th arrondissement of Paris::Entity::Q259463" target="contains administrative territorial entity::Predicate::q259463-b3132ac1a8ae2a0d6af6ffef97b35e3d::2" weight="0.9882798194885254" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="7th arrondissement of Paris::Entity::Q259463" target="located in the administrative territorial entity::Predicate::q259463-564c0237e48d39a33a4801bdc6f8651c::1" weight="0.993353009223938" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="7th arrondissement of Paris::Entity::Q259463" target="located in the administrative territorial entity::Predicate::q58729635-ba4fb7180f730f4e1da59ad2c6119cb0::2" weight="0.9924991726875305" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="7th arrondissement of Paris::Entity::Q259463" target="located in or next to body of water::Predicate::q259463-5b5fa3ecca0c770d21a7b45dbecfdac2::1" weight="0.9923611283302307" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="7th arrondissement of Paris::Entity::Q259463" target="area::Predicate::q259463-6b68b09736c884cb1541d4adf985ddb5::1" weight="0.9906324148178101" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="7th arrondissement of Paris::Entity::Q259463" target="located in the administrative territorial entity::Predicate::q23639983-5f7ec5236a8271a2f0ac85907c16338f::4" weight="0.9905982613563538" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

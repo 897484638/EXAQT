@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1963-01-01::Entity::1963-01-01T00:00:00Z" label="1963-01-01">
+        <attvalues>
+          <attvalue for="label" value="1963-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1963-12-08::Entity::1963-12-08T00:00:00Z" label="1963-12-08">
+        <attvalues>
+          <attvalue for="label" value="1963-12-08" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1976-01-01::Entity::1976-01-01T00:00:00Z" label="1976-01-01">
+        <attvalues>
+          <attvalue for="label" value="1976-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1976-03-22::Entity::1976-03-22T00:00:00Z" label="1976-03-22">
+        <attvalues>
+          <attvalue for="label" value="1976-03-22" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Barbara Walters::Entity::Q231417" label="Barbara Walters">
+        <attvalues>
+          <attvalue for="label" value="Barbara Walters" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Lee Guber::Entity::Q6513735" label="Lee Guber">
+        <attvalues>
+          <attvalue for="label" value="Lee Guber" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Start, Louisiana::Entity::Q970797" label="Start, Louisiana">
+        <attvalues>
+          <attvalue for="label" value="Start, Louisiana" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q6513735-3cddbe381c8498379438444baaed3b5c::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q970797-c78d399ae8e4f459ccbb908fa44b7db1::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q6513735-b7b45851f34bc84c09df3ad9eb65fa5b::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q231417-190610944fea593395d07f20a5f6f63f::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q6513735-7a80108580c94231eab450120422491b::5" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q1802124-82aae99ee948c45949f28146455e1525::6" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q6513735-7a80108580c94231eab450120422491b::5" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q6513735-7a80108580c94231eab450120422491b::5" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Start, Louisiana::Entity::Q970797" target="country::Predicate::q970797-c78d399ae8e4f459ccbb908fa44b7db1::1" weight="0.00032850971911102533" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="country::Predicate::q970797-c78d399ae8e4f459ccbb908fa44b7db1::1" target="United States::Entity::Q30" weight="0.00032850971911102533" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="Lee Guber::Entity::Q6513735" target="spouse::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" weight="0.9992955923080444" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="11" source="Lee Guber::Entity::Q6513735" target="country of citizenship::Predicate::q6513735-3cddbe381c8498379438444baaed3b5c::1" weight="0.00026340552722103894" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="Lee Guber::Entity::Q6513735" target="spouse::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" weight="0.9990532994270325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="Lee Guber::Entity::Q6513735" target="spouse::Predicate::q6513735-7a80108580c94231eab450120422491b::5" weight="0.9989597797393799" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="14" source="Lee Guber::Entity::Q6513735" target="spouse::Predicate::q1802124-82aae99ee948c45949f28146455e1525::6" weight="0.9985191226005554" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="spouse::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" target="end time::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" weight="0.9992955923080444" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="spouse::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" target="start time::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" weight="0.9992955923080444" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="end time::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" target="1976-01-01::Entity::1976-01-01T00:00:00Z" weight="0.9992955923080444" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="start time::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" target="1963-01-01::Entity::1963-01-01T00:00:00Z" weight="0.9992955923080444" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="spouse::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" target="end time::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" weight="0.9990532994270325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="United States::Entity::Q30" target="employer::Predicate::q231417-190610944fea593395d07f20a5f6f63f::1" weight="0.00032781140180304646" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="spouse::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" target="start time::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" weight="0.9990532994270325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="end time::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" target="1976-03-22::Entity::1976-03-22T00:00:00Z" weight="0.9990532994270325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="start time::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" target="1963-12-08::Entity::1963-12-08T00:00:00Z" weight="0.9990532994270325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="spouse::Predicate::q6513735-7a80108580c94231eab450120422491b::5" target="end time::Predicate::q6513735-7a80108580c94231eab450120422491b::5" weight="0.9989597797393799" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="spouse::Predicate::q6513735-7a80108580c94231eab450120422491b::5" target="start time::Predicate::q6513735-7a80108580c94231eab450120422491b::5" weight="0.9989597797393799" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="25" source="spouse::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" target="end time::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" weight="0.998875081539154" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="26" source="spouse::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" target="start time::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" weight="0.998875081539154" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="27" source="spouse::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" target="end time::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" weight="0.9988628625869751" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="28" source="spouse::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" target="start time::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" weight="0.9988628625869751" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="3" source="United States::Entity::Q30" target="country of citizenship::Predicate::q6513735-3cddbe381c8498379438444baaed3b5c::1" weight="0.00026340552722103894" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="employer::Predicate::q231417-190610944fea593395d07f20a5f6f63f::1" target="Barbara Walters::Entity::Q231417" weight="0.00032781140180304646" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="Barbara Walters::Entity::Q231417" target="spouse::Predicate::q231417-d866375b3a93465f5bfdd66d849408fb::2" weight="0.9992955923080444" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Barbara Walters::Entity::Q231417" target="spouse::Predicate::q6513735-142db08674b2f9086d2ef2d1b1ec276c::4" weight="0.9990532994270325" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="Barbara Walters::Entity::Q231417" target="spouse::Predicate::q20984390-7019d3176433519961fb1d03294bec96::3" weight="0.998875081539154" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="Barbara Walters::Entity::Q231417" target="spouse::Predicate::q231417-323817c417f8343e990af7763283e6fa::1" weight="0.9988628625869751" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="date of death::Predicate::q6513735-b7b45851f34bc84c09df3ad9eb65fa5b::1" target="Lee Guber::Entity::Q6513735" weight="0.19407618045806885" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

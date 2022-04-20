@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Alabama::Entity::Q173" label="Alabama">
+        <attvalues>
+          <attvalue for="label" value="Alabama"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Norfolk Naval Shipyard::Entity::Q1999049" label="Norfolk Naval Shipyard">
+        <attvalues>
+          <attvalue for="label" value="Norfolk Naval Shipyard"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="USS Alabama::Entity::Q1405465" label="USS Alabama">
+        <attvalues>
+          <attvalue for="label" value="USS Alabama"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="USS Alabama::Entity::Q2706100" label="USS Alabama">
+        <attvalues>
+          <attvalue for="label" value="USS Alabama"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="USS Illinois::Entity::Q3274031" label="USS Illinois">
+        <attvalues>
+          <attvalue for="label" value="USS Illinois"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q1405465-06a732ebfdc1b528ea8e36126e4d3755::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q2706100-0c5ff5cbde844183bd5fa3d6ff2a40f4::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="manufacturer::Predicate::q1405465-6e9f8b02dfa3f1638179e465000de694::1" label="manufacturer">
+        <attvalues>
+          <attvalue for="label" value="manufacturer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q1405465-623d3eaca17970070b6b771130d718e6::1" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="USS Alabama::Entity::Q1405465" target="manufacturer::Predicate::q1405465-6e9f8b02dfa3f1638179e465000de694::1" weight="0.9863800406455994" label="1"/>
+      <edge id="1" source="USS Alabama::Entity::Q1405465" target="country::Predicate::q1405465-06a732ebfdc1b528ea8e36126e4d3755::1" weight="0.8737825751304626" label="2"/>
+      <edge id="2" source="USS Alabama::Entity::Q1405465" target="named after::Predicate::q1405465-623d3eaca17970070b6b771130d718e6::1" weight="0.7513245344161987" label="4"/>
+      <edge id="3" source="manufacturer::Predicate::q1405465-6e9f8b02dfa3f1638179e465000de694::1" target="Norfolk Naval Shipyard::Entity::Q1999049" weight="0.9863800406455994" label="1"/>
+      <edge id="4" source="country::Predicate::q1405465-06a732ebfdc1b528ea8e36126e4d3755::1" target="United States::Entity::Q30" weight="0.8737825751304626" label="2"/>
+      <edge id="5" source="USS Alabama::Entity::Q2706100" target="follows::Predicate::q2706100-0c5ff5cbde844183bd5fa3d6ff2a40f4::1" weight="0.8262085914611816" label="3"/>
+      <edge id="6" source="follows::Predicate::q2706100-0c5ff5cbde844183bd5fa3d6ff2a40f4::1" target="USS Illinois::Entity::Q3274031" weight="0.8262085914611816" label="3"/>
+      <edge id="7" source="named after::Predicate::q1405465-623d3eaca17970070b6b771130d718e6::1" target="Alabama::Entity::Q173" weight="0.7513245344161987" label="4"/>
+    </edges>
+  </graph>
+</gexf>

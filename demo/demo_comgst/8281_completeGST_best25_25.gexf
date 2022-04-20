@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="American Idol, season 1::Entity::Q655900" label="American Idol, season 1">
+        <attvalues>
+          <attvalue for="label" value="American Idol, season 1"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="American Idol, season 2::Entity::Q922016" label="American Idol, season 2">
+        <attvalues>
+          <attvalue for="label" value="American Idol, season 2"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="American Idol, season 9::Entity::Q2454931" label="American Idol, season 9">
+        <attvalues>
+          <attvalue for="label" value="American Idol, season 9"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="American Idol::Entity::Q1026527" label="American Idol">
+        <attvalues>
+          <attvalue for="label" value="American Idol"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="American Idol::Entity::Q201052" label="American Idol">
+        <attvalues>
+          <attvalue for="label" value="American Idol"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Kelly Clarkson::Entity::Q483507" label="Kelly Clarkson">
+        <attvalues>
+          <attvalue for="label" value="Kelly Clarkson"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q922016-42547ac9c19420ac535d91699fa08076::8" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q201052-8d9915d1e0de10dfca04c1e6b5d80e9f::1" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1026527-e78aa683e62b82221d6462c9681d2239::11" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q2454931-1140d124db97acdddb728d4cad317f21::7" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q655900-4bef5e5d4f168da23baafebfea0d6eef::6" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q922016-42547ac9c19420ac535d91699fa08076::9" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q655900-570e6374ef7a062fd013518ea6e8a5ba::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="American Idol::Entity::Q201052" target="part of the series::Predicate::q922016-42547ac9c19420ac535d91699fa08076::9" weight="0.9890426993370056" label="6"/>
+      <edge id="1" source="American Idol::Entity::Q201052" target="part of the series::Predicate::q655900-4bef5e5d4f168da23baafebfea0d6eef::6" weight="0.9803577065467834" label="17"/>
+      <edge id="10" source="American Idol, season 1::Entity::Q655900" target="has part::Predicate::q201052-8d9915d1e0de10dfca04c1e6b5d80e9f::1" weight="0.9786455631256104" label="18"/>
+      <edge id="11" source="winner::Predicate::q655900-570e6374ef7a062fd013518ea6e8a5ba::1" target="Kelly Clarkson::Entity::Q483507" weight="0.9990136623382568" label="1"/>
+      <edge id="12" source="part of the series::Predicate::q2454931-1140d124db97acdddb728d4cad317f21::7" target="American Idol, season 9::Entity::Q2454931" weight="0.9923670887947083" label="2"/>
+      <edge id="13" source="part of the series::Predicate::q1026527-e78aa683e62b82221d6462c9681d2239::11" target="American Idol::Entity::Q1026527" weight="0.9920825958251953" label="3"/>
+      <edge id="2" source="American Idol::Entity::Q201052" target="part of the series::Predicate::q2454931-1140d124db97acdddb728d4cad317f21::7" weight="0.9923670887947083" label="2"/>
+      <edge id="3" source="American Idol::Entity::Q201052" target="part of the series::Predicate::q1026527-e78aa683e62b82221d6462c9681d2239::11" weight="0.9920825958251953" label="3"/>
+      <edge id="4" source="American Idol::Entity::Q201052" target="has part::Predicate::q201052-8d9915d1e0de10dfca04c1e6b5d80e9f::1" weight="0.9786455631256104" label="18"/>
+      <edge id="5" source="part of the series::Predicate::q922016-42547ac9c19420ac535d91699fa08076::9" target="follows::Predicate::q922016-42547ac9c19420ac535d91699fa08076::8" weight="0.9890426993370056" label="6"/>
+      <edge id="6" source="part of the series::Predicate::q922016-42547ac9c19420ac535d91699fa08076::9" target="American Idol, season 2::Entity::Q922016" weight="0.9890426993370056" label="6"/>
+      <edge id="7" source="follows::Predicate::q922016-42547ac9c19420ac535d91699fa08076::8" target="American Idol, season 1::Entity::Q655900" weight="0.9890426993370056" label="6"/>
+      <edge id="8" source="American Idol, season 1::Entity::Q655900" target="winner::Predicate::q655900-570e6374ef7a062fd013518ea6e8a5ba::1" weight="0.9990136623382568" label="1"/>
+      <edge id="9" source="American Idol, season 1::Entity::Q655900" target="part of the series::Predicate::q655900-4bef5e5d4f168da23baafebfea0d6eef::6" weight="0.9803577065467834" label="17"/>
+    </edges>
+  </graph>
+</gexf>

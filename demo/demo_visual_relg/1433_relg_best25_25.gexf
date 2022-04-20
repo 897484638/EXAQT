@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2003-01-01" label="2003-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="2008-01-01" label="2008-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="5" />
+        </attvalues>
+      </node>
+      <node id="2009-01-01" label="2009-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="3" />
+        </attvalues>
+      </node>
+      <node id="2010-01-01" label="2010-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="2011-01-01" label="2011-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="2" />
+        </attvalues>
+      </node>
+      <node id="2012-01-01" label="2012-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="1" />
+        </attvalues>
+      </node>
+      <node id="2013-01-01" label="2013-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="4" />
+        </attvalues>
+      </node>
+      <node id="Q103946" label="Kiefer Sutherland">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1079" label="Breaking Bad">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1255198" label="Golden Globe Award for Best Television Series â Drama">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1268066" label="Saturn Award for Best Supporting Actor on Television">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1275727" label="Saturn Award for Best Actor on Television">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1285780" label="Saturn Award for Best Syndicated/Cable Television Series">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1286639" label="Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1357770" label="Saturn Award for Best Guest Starring Role on Television">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q178882" label="Kristen Bell">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q210676" label="Nashville">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q2604800" label="Primetime Emmy Award for Outstanding Guest Actor in a Drama Series">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3025728" label="Satellite Award for Best Television Series â Drama">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3473882" label="Satellite Award for Best Supporting Actress â Series, Miniseries or Television Film">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3473896" label="Satellite Award for Best Supporting Actor â Series, Miniseries or Television Film">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3473898" label="Satellite Award for Best Actor â Television Series Drama">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q503027" label="Powers Boothe">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q56194" label="24">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q83401" label="Heroes">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q989438" label="Primetime Emmy Award for Outstanding Drama Series">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q989439" label="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q103946-b5a162b1718001f28378169b56b35add" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-0933b3feae9a4a511e90f5d1848e6e3a" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-0ab3a72554473d3d00be6ac0ce473b17" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-221a3820a9765c00660b2bd2eff9f988" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-273524e077a5f7206586828902157cd3" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-27d204b0f4feb65f9cb9fd3587656170" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-2df38b0f682dddc999e4cca1401ead8d" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-3eac67abb9750e7002c5377da3ab571b" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-462a122559a72933faeec79a499e6b75" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-4669821a17e5263b81a97fa4576dfc98" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-50bf9a2abf74997acc41749d8cd44d85" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-5196bb15c0a88af19d2cda8fb8e49f85" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-53e8fecb7bc7d0e39be97b7bd5c76e84" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-5e43aee420cc79ef08146d06ea6035f5" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-69725e37d431f2cdd4bf58dff644fb2c" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-707cb5fdf39a99cbbbd33b247ff4ccbb" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-73e7984e3bd090659f55ad04a3326845" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-7e541836ad0d5b2cc1d9b3a30e8b36f7" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-9cfede7c7a9620a0f48508b8d129090e" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-9e35c7f5a470e265437e30463094dcca" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-a80ec64bcc403ea3f2ff1d0a2a07cffa" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-aae56d9ca99b03d95380c1ffb8843dac" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-b5ab0cfdb990a67a39092540dc36ac42" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-ba69db4add72373419ba72344aece33b" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-c4c77c5995eecc09b0b06f50c65645d1" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-cab16b9deec946f81cb353f7c0b7e7bf" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-d1b408649c9f0d7b29764de4600915c0" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-dbe1dc9684094927d534b9edf3d349ee" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-dd6f4c46c995f46f187d0094d8678a96" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-e3d36244c9b43b917e427788996e5af0" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q1079-ebe692b96ec5091f371d2a8f71097348" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q178882-0000088d4eaf4e8f19c9b0b87d9ba9e3" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q503027-9763b6a19db3a9638477969b8a12e8ea" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q1079" target="q1079-50bf9a2abf74997acc41749d8cd44d85" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="1" source="Q1079" target="q1079-462a122559a72933faeec79a499e6b75" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="10" source="Q1079" target="q1079-d1b408649c9f0d7b29764de4600915c0" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="100" source="q1079-a80ec64bcc403ea3f2ff1d0a2a07cffa" target="2010-01-01" weight="0.003379765199497342: temporal predicate" label="point in time: 9"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="101" source="q1079-7e541836ad0d5b2cc1d9b3a30e8b36f7" target="Q3025728" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="102" source="q1079-7e541836ad0d5b2cc1d9b3a30e8b36f7" target="2013-01-01" weight="0.7876805067062378: temporal predicate" label="point in time: 2"><viz:shape value="solid" /><viz:thickness value="8.08264" /></edge>
+      <edge id="103" source="q1079-9cfede7c7a9620a0f48508b8d129090e" target="Q1255198" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="104" source="q1079-9cfede7c7a9620a0f48508b8d129090e" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="11" source="Q1079" target="q1079-ba69db4add72373419ba72344aece33b" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="12" source="Q1079" target="q1079-2df38b0f682dddc999e4cca1401ead8d" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="13" source="Q1079" target="q1079-27d204b0f4feb65f9cb9fd3587656170" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="14" source="Q1079" target="q1079-aae56d9ca99b03d95380c1ffb8843dac" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="15" source="Q1079" target="q1079-221a3820a9765c00660b2bd2eff9f988" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="16" source="Q1079" target="q1079-707cb5fdf39a99cbbbd33b247ff4ccbb" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="17" source="Q1079" target="q1079-53e8fecb7bc7d0e39be97b7bd5c76e84" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="18" source="Q1079" target="q1079-0933b3feae9a4a511e90f5d1848e6e3a" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="19" source="Q1079" target="q1079-5196bb15c0a88af19d2cda8fb8e49f85" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="2" source="Q1079" target="q1079-5e43aee420cc79ef08146d06ea6035f5" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="20" source="Q1079" target="q1079-ebe692b96ec5091f371d2a8f71097348" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="21" source="Q1079" target="q1079-9e35c7f5a470e265437e30463094dcca" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="22" source="Q1079" target="q1079-4669821a17e5263b81a97fa4576dfc98" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="23" source="Q1079" target="q1079-0ab3a72554473d3d00be6ac0ce473b17" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="24" source="Q1079" target="Q3473896" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="25" source="Q1079" target="q1079-69725e37d431f2cdd4bf58dff644fb2c" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="26" source="Q1079" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="27" source="Q1079" target="q1079-73e7984e3bd090659f55ad04a3326845" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="28" source="Q1079" target="q1079-dbe1dc9684094927d534b9edf3d349ee" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="29" source="Q1079" target="q1079-a80ec64bcc403ea3f2ff1d0a2a07cffa" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="3" source="Q1079" target="q1079-dd6f4c46c995f46f187d0094d8678a96" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="30" source="Q1079" target="q1079-7e541836ad0d5b2cc1d9b3a30e8b36f7" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="31" source="Q1079" target="Q1285780" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="32" source="Q1079" target="q1079-9cfede7c7a9620a0f48508b8d129090e" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="33" source="q1079-50bf9a2abf74997acc41749d8cd44d85" target="Q1275727" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="34" source="q1079-50bf9a2abf74997acc41749d8cd44d85" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="35" source="q1079-462a122559a72933faeec79a499e6b75" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="36" source="q1079-462a122559a72933faeec79a499e6b75" target="2008-01-01" weight="0.2587684988975525: temporal predicate" label="point in time: 4"><viz:shape value="solid" /><viz:thickness value="3.30629" /></edge>
+      <edge id="37" source="q1079-5e43aee420cc79ef08146d06ea6035f5" target="Q989439" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="38" source="q1079-5e43aee420cc79ef08146d06ea6035f5" target="2008-01-01" weight="0.2587684988975525: temporal predicate" label="point in time: 4"><viz:shape value="solid" /><viz:thickness value="3.30629" /></edge>
+      <edge id="39" source="q1079-dd6f4c46c995f46f187d0094d8678a96" target="Q989439" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="4" source="Q1079" target="q1079-c4c77c5995eecc09b0b06f50c65645d1" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="40" source="q1079-dd6f4c46c995f46f187d0094d8678a96" target="2009-01-01" weight="0.08096105605363846: temporal predicate" label="point in time: 7"><viz:shape value="solid" /><viz:thickness value="1.7006" /></edge>
+      <edge id="41" source="q1079-c4c77c5995eecc09b0b06f50c65645d1" target="Q1286639" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="42" source="q1079-c4c77c5995eecc09b0b06f50c65645d1" target="2009-01-01" weight="0.08096105605363846: temporal predicate" label="point in time: 7"><viz:shape value="solid" /><viz:thickness value="1.7006" /></edge>
+      <edge id="43" source="q1079-3eac67abb9750e7002c5377da3ab571b" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="44" source="q1079-3eac67abb9750e7002c5377da3ab571b" target="2009-01-01" weight="0.08096105605363846: temporal predicate" label="point in time: 7"><viz:shape value="solid" /><viz:thickness value="1.7006" /></edge>
+      <edge id="45" source="q1079-273524e077a5f7206586828902157cd3" target="Q989438" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="46" source="q1079-273524e077a5f7206586828902157cd3" target="2009-01-01" weight="0.08096105605363846: temporal predicate" label="point in time: 7"><viz:shape value="solid" /><viz:thickness value="1.7006" /></edge>
+      <edge id="47" source="q1079-b5ab0cfdb990a67a39092540dc36ac42" target="Q989439" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="48" source="q1079-b5ab0cfdb990a67a39092540dc36ac42" target="2010-01-01" weight="0.003379765199497342: temporal predicate" label="point in time: 9"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="49" source="q1079-cab16b9deec946f81cb353f7c0b7e7bf" target="Q1286639" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="5" source="Q1079" target="q1079-3eac67abb9750e7002c5377da3ab571b" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="50" source="q1079-cab16b9deec946f81cb353f7c0b7e7bf" target="2010-01-01" weight="0.003379765199497342: temporal predicate" label="point in time: 9"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="51" source="q1079-e3d36244c9b43b917e427788996e5af0" target="Q3473896" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="52" source="q1079-e3d36244c9b43b917e427788996e5af0" target="2010-01-01" weight="0.003379765199497342: temporal predicate" label="point in time: 9"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="53" source="q1079-d1b408649c9f0d7b29764de4600915c0" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="54" source="q1079-d1b408649c9f0d7b29764de4600915c0" target="2010-01-01" weight="0.003379765199497342: temporal predicate" label="point in time: 9"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="55" source="q1079-ba69db4add72373419ba72344aece33b" target="Q1285780" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="56" source="q1079-ba69db4add72373419ba72344aece33b" target="2011-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="57" source="q1079-2df38b0f682dddc999e4cca1401ead8d" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="58" source="q1079-2df38b0f682dddc999e4cca1401ead8d" target="2011-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="59" source="q1079-27d204b0f4feb65f9cb9fd3587656170" target="Q1268066" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="6" source="Q1079" target="q1079-273524e077a5f7206586828902157cd3" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="60" source="q1079-27d204b0f4feb65f9cb9fd3587656170" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="61" source="q1079-aae56d9ca99b03d95380c1ffb8843dac" target="Q1285780" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="62" source="q1079-aae56d9ca99b03d95380c1ffb8843dac" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="63" source="q1079-221a3820a9765c00660b2bd2eff9f988" target="Q1286639" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="64" source="q1079-221a3820a9765c00660b2bd2eff9f988" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="65" source="q1079-707cb5fdf39a99cbbbd33b247ff4ccbb" target="Q1357770" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="66" source="q1079-707cb5fdf39a99cbbbd33b247ff4ccbb" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="67" source="q1079-53e8fecb7bc7d0e39be97b7bd5c76e84" target="Q2604800" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="68" source="q1079-53e8fecb7bc7d0e39be97b7bd5c76e84" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="69" source="q1079-0933b3feae9a4a511e90f5d1848e6e3a" target="Q3473896" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="7" source="Q1079" target="q1079-b5ab0cfdb990a67a39092540dc36ac42" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="70" source="q1079-0933b3feae9a4a511e90f5d1848e6e3a" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="71" source="q1079-5196bb15c0a88af19d2cda8fb8e49f85" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="72" source="q1079-5196bb15c0a88af19d2cda8fb8e49f85" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="73" source="q1079-ebe692b96ec5091f371d2a8f71097348" target="Q989439" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="74" source="q1079-ebe692b96ec5091f371d2a8f71097348" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="75" source="q1079-9e35c7f5a470e265437e30463094dcca" target="Q989439" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="76" source="q1079-9e35c7f5a470e265437e30463094dcca" target="2013-01-01" weight="0.7876805067062378: temporal predicate" label="point in time: 2"><viz:shape value="solid" /><viz:thickness value="8.08264" /></edge>
+      <edge id="77" source="Q178882" target="q178882-0000088d4eaf4e8f19c9b0b87d9ba9e3" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="78" source="q178882-0000088d4eaf4e8f19c9b0b87d9ba9e3" target="Q1357770" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="79" source="q178882-0000088d4eaf4e8f19c9b0b87d9ba9e3" target="Q83401" weight="0.1700536161661148: non-temporal predicate" label="for work: 5"><viz:shape value="solid" /><viz:thickness value="2.50515" /></edge>
+      <edge id="8" source="Q1079" target="q1079-cab16b9deec946f81cb353f7c0b7e7bf" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="80" source="q178882-0000088d4eaf4e8f19c9b0b87d9ba9e3" target="2009-01-01" weight="0.08096105605363846: temporal predicate" label="point in time: 7"><viz:shape value="solid" /><viz:thickness value="1.7006" /></edge>
+      <edge id="81" source="Q103946" target="q103946-b5a162b1718001f28378169b56b35add" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="82" source="q103946-b5a162b1718001f28378169b56b35add" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="83" source="q103946-b5a162b1718001f28378169b56b35add" target="Q56194" weight="0.1700536161661148: non-temporal predicate" label="for work: 5"><viz:shape value="solid" /><viz:thickness value="2.50515" /></edge>
+      <edge id="84" source="q103946-b5a162b1718001f28378169b56b35add" target="2003-01-01" weight="0.01599527709186077: temporal predicate" label="point in time: 8"><viz:shape value="solid" /><viz:thickness value="1.11392" /></edge>
+      <edge id="85" source="Q503027" target="q503027-9763b6a19db3a9638477969b8a12e8ea" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="86" source="q503027-9763b6a19db3a9638477969b8a12e8ea" target="Q3473896" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="87" source="q503027-9763b6a19db3a9638477969b8a12e8ea" target="Q210676" weight="0.1700536161661148: non-temporal predicate" label="for work: 5"><viz:shape value="solid" /><viz:thickness value="2.50515" /></edge>
+      <edge id="88" source="q503027-9763b6a19db3a9638477969b8a12e8ea" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="89" source="q1079-4669821a17e5263b81a97fa4576dfc98" target="Q3473898" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="9" source="Q1079" target="q1079-e3d36244c9b43b917e427788996e5af0" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="90" source="q1079-4669821a17e5263b81a97fa4576dfc98" target="2013-01-01" weight="0.7876805067062378: temporal predicate" label="point in time: 2"><viz:shape value="solid" /><viz:thickness value="8.08264" /></edge>
+      <edge id="91" source="q1079-0ab3a72554473d3d00be6ac0ce473b17" target="Q3473896" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="92" source="q1079-0ab3a72554473d3d00be6ac0ce473b17" target="2013-01-01" weight="0.7876805067062378: temporal predicate" label="point in time: 2"><viz:shape value="solid" /><viz:thickness value="8.08264" /></edge>
+      <edge id="93" source="q1079-69725e37d431f2cdd4bf58dff644fb2c" target="Q3473882" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="94" source="q1079-69725e37d431f2cdd4bf58dff644fb2c" target="2013-01-01" weight="0.7876805067062378: temporal predicate" label="point in time: 2"><viz:shape value="solid" /><viz:thickness value="8.08264" /></edge>
+      <edge id="95" source="q1079-73e7984e3bd090659f55ad04a3326845" target="Q3025728" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="96" source="q1079-73e7984e3bd090659f55ad04a3326845" target="2012-01-01" weight="0.2986742854118347: temporal predicate" label="point in time: 3"><viz:shape value="solid" /><viz:thickness value="3.66666" /></edge>
+      <edge id="97" source="q1079-dbe1dc9684094927d534b9edf3d349ee" target="Q3025728" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+      <edge id="98" source="q1079-dbe1dc9684094927d534b9edf3d349ee" target="2009-01-01" weight="0.08096105605363846: temporal predicate" label="point in time: 7"><viz:shape value="solid" /><viz:thickness value="1.7006" /></edge>
+      <edge id="99" source="q1079-a80ec64bcc403ea3f2ff1d0a2a07cffa" target="Q3025728" weight="0.14995045959949493: non-temporal predicate" label="nominated for: 6"><viz:shape value="solid" /><viz:thickness value="2.32361" /></edge>
+    </edges>
+  </graph>
+</gexf>

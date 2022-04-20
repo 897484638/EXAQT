@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Arne Carlson::Entity::Q692191" label="Arne Carlson">
+        <attvalues>
+          <attvalue for="label" value="Arne Carlson"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Governor of Minnesota::Entity::Q5589682" label="Governor of Minnesota">
+        <attvalues>
+          <attvalue for="label" value="Governor of Minnesota"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Tim Pawlenty::Entity::Q160181" label="Tim Pawlenty">
+        <attvalues>
+          <attvalue for="label" value="Tim Pawlenty"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q160181-b9bea50adcb57d6056e3eca94fc35dce::9" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q692191-bda12f6819fe2b7dfd53f38ea392ad9f::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Governor of Minnesota::Entity::Q5589682" target="position held::Predicate::q160181-b9bea50adcb57d6056e3eca94fc35dce::9" weight="0.9955724477767944" label="1"/>
+      <edge id="1" source="Governor of Minnesota::Entity::Q5589682" target="position held::Predicate::q692191-bda12f6819fe2b7dfd53f38ea392ad9f::15" weight="0.9946764707565308" label="2"/>
+      <edge id="2" source="position held::Predicate::q160181-b9bea50adcb57d6056e3eca94fc35dce::9" target="Tim Pawlenty::Entity::Q160181" weight="0.9955724477767944" label="1"/>
+      <edge id="3" source="position held::Predicate::q692191-bda12f6819fe2b7dfd53f38ea392ad9f::15" target="Arne Carlson::Entity::Q692191" weight="0.9946764707565308" label="2"/>
+    </edges>
+  </graph>
+</gexf>

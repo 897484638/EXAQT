@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Abraham::Entity::Q9181" label="Abraham">
+        <attvalues>
+          <attvalue for="label" value="Abraham"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Amasla'i::Entity::Q33205630" label="Amasla'i">
+        <attvalues>
+          <attvalue for="label" value="Amasla'i"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Hagar::Entity::Q214617" label="Hagar">
+        <attvalues>
+          <attvalue for="label" value="Hagar"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Keturah::Entity::Q908531" label="Keturah">
+        <attvalues>
+          <attvalue for="label" value="Keturah"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Sarah::Entity::Q194808" label="Sarah">
+        <attvalues>
+          <attvalue for="label" value="Sarah"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="mother::Predicate::q9181-470650b5f476501c364574a67590e28c::1" label="mother">
+        <attvalues>
+          <attvalue for="label" value="mother"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q9181-5c2c569943f5a9c3198fc7fc9e7632d2::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="prophet::Entity::Q42857" label="prophet">
+        <attvalues>
+          <attvalue for="label" value="prophet"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q194808-2ff37068e7bcb392e47f6cd1f438c534::5" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q214617-b702fecfac07787c7de01ef0bca07dec::4" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q908531-b5e49ffa30dbcc0b8bde65d599a3132d::6" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q9181-12d1f91bfd4d338a9b5273723ed86e52::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q9181-8beb7ec4cebe7fc6250c006d692adfba::3" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q9181-c1e2f2b7054f1b6ac6b041e1f07f53ac::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="prophet::Entity::Q42857" target="occupation::Predicate::q9181-5c2c569943f5a9c3198fc7fc9e7632d2::1" weight="0.03143350034952164" label="26"/>
+      <edge id="1" source="occupation::Predicate::q9181-5c2c569943f5a9c3198fc7fc9e7632d2::1" target="Abraham::Entity::Q9181" weight="0.03143350034952164" label="26"/>
+      <edge id="10" source="spouse::Predicate::q194808-2ff37068e7bcb392e47f6cd1f438c534::5" target="Sarah::Entity::Q194808" weight="0.998497486114502" label="2"/>
+      <edge id="11" source="spouse::Predicate::q9181-12d1f91bfd4d338a9b5273723ed86e52::1" target="Sarah::Entity::Q194808" weight="0.998489499092102" label="3"/>
+      <edge id="12" source="spouse::Predicate::q9181-c1e2f2b7054f1b6ac6b041e1f07f53ac::2" target="Hagar::Entity::Q214617" weight="0.9984868764877319" label="4"/>
+      <edge id="13" source="spouse::Predicate::q9181-8beb7ec4cebe7fc6250c006d692adfba::3" target="Keturah::Entity::Q908531" weight="0.9974116683006287" label="5"/>
+      <edge id="14" source="spouse::Predicate::q908531-b5e49ffa30dbcc0b8bde65d599a3132d::6" target="Keturah::Entity::Q908531" weight="0.9966856837272644" label="6"/>
+      <edge id="15" source="mother::Predicate::q9181-470650b5f476501c364574a67590e28c::1" target="Amasla'i::Entity::Q33205630" weight="0.9885258674621582" label="7"/>
+      <edge id="2" source="Abraham::Entity::Q9181" target="spouse::Predicate::q214617-b702fecfac07787c7de01ef0bca07dec::4" weight="0.9989067316055298" label="1"/>
+      <edge id="3" source="Abraham::Entity::Q9181" target="spouse::Predicate::q194808-2ff37068e7bcb392e47f6cd1f438c534::5" weight="0.998497486114502" label="2"/>
+      <edge id="4" source="Abraham::Entity::Q9181" target="spouse::Predicate::q9181-12d1f91bfd4d338a9b5273723ed86e52::1" weight="0.998489499092102" label="3"/>
+      <edge id="5" source="Abraham::Entity::Q9181" target="spouse::Predicate::q9181-c1e2f2b7054f1b6ac6b041e1f07f53ac::2" weight="0.9984868764877319" label="4"/>
+      <edge id="6" source="Abraham::Entity::Q9181" target="spouse::Predicate::q9181-8beb7ec4cebe7fc6250c006d692adfba::3" weight="0.9974116683006287" label="5"/>
+      <edge id="7" source="Abraham::Entity::Q9181" target="spouse::Predicate::q908531-b5e49ffa30dbcc0b8bde65d599a3132d::6" weight="0.9966856837272644" label="6"/>
+      <edge id="8" source="Abraham::Entity::Q9181" target="mother::Predicate::q9181-470650b5f476501c364574a67590e28c::1" weight="0.9885258674621582" label="7"/>
+      <edge id="9" source="spouse::Predicate::q214617-b702fecfac07787c7de01ef0bca07dec::4" target="Hagar::Entity::Q214617" weight="0.9989067316055298" label="1"/>
+    </edges>
+  </graph>
+</gexf>

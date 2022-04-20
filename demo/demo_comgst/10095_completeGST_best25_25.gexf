@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1966-01-01::Entity::1966-01-01T00:00:00Z" label="1966-01-01">
+        <attvalues>
+          <attvalue for="label" value="1966-01-01"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1968-01-01::Entity::1968-01-01T00:00:00Z" label="1968-01-01">
+        <attvalues>
+          <attvalue for="label" value="1968-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1968-05-01::Entity::1968-05-01T00:00:00Z" label="1968-05-01">
+        <attvalues>
+          <attvalue for="label" value="1968-05-01"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Bachelor of Science::Entity::Q787674" label="Bachelor of Science">
+        <attvalues>
+          <attvalue for="label" value="Bachelor of Science"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Donald Trump::Entity::Q22686" label="Donald Trump">
+        <attvalues>
+          <attvalue for="label" value="Donald Trump"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Economics::Entity::Q8134" label="Economics">
+        <attvalues>
+          <attvalue for="label" value="Economics"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="The Wharton School::Entity::Q1329269" label="The Wharton School">
+        <attvalues>
+          <attvalue for="label" value="The Wharton School"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="academic degree::Predicate::q22686-6c25f90229875213a187ca880fc22808::2" label="academic degree">
+        <attvalues>
+          <attvalue for="label" value="academic degree"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="field of work::Predicate::q22686-6c25f90229875213a187ca880fc22808::1" label="field of work">
+        <attvalues>
+          <attvalue for="label" value="field of work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q22686-6c25f90229875213a187ca880fc22808::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="field of work::Predicate::q22686-6c25f90229875213a187ca880fc22808::1" target="academic degree::Predicate::q22686-6c25f90229875213a187ca880fc22808::2" weight="0.9997288584709167" label="2"/>
+      <edge id="1" source="field of work::Predicate::q22686-6c25f90229875213a187ca880fc22808::1" target="Economics::Entity::Q8134" weight="0.9997288584709167" label="2"/>
+      <edge id="10" source="end time::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" target="1968-05-01::Entity::1968-05-01T00:00:00Z" weight="0.9997338652610779" label="1"/>
+      <edge id="11" source="start time::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" target="1966-01-01::Entity::1966-01-01T00:00:00Z" weight="0.9997338652610779" label="1"/>
+      <edge id="2" source="academic degree::Predicate::q22686-6c25f90229875213a187ca880fc22808::2" target="Bachelor of Science::Entity::Q787674" weight="0.9997288584709167" label="2"/>
+      <edge id="3" source="academic degree::Predicate::q22686-6c25f90229875213a187ca880fc22808::2" target="point in time::Predicate::q22686-6c25f90229875213a187ca880fc22808::1" weight="0.9997288584709167" label="2"/>
+      <edge id="4" source="academic degree::Predicate::q22686-6c25f90229875213a187ca880fc22808::2" target="Donald Trump::Entity::Q22686" weight="0.9997288584709167" label="2"/>
+      <edge id="5" source="point in time::Predicate::q22686-6c25f90229875213a187ca880fc22808::1" target="1968-01-01::Entity::1968-01-01T00:00:00Z" weight="0.9997288584709167" label="2"/>
+      <edge id="6" source="Donald Trump::Entity::Q22686" target="educated at::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" weight="0.9997338652610779" label="1"/>
+      <edge id="7" source="educated at::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" target="end time::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" weight="0.9997338652610779" label="1"/>
+      <edge id="8" source="educated at::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" target="start time::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" weight="0.9997338652610779" label="1"/>
+      <edge id="9" source="educated at::Predicate::q22686-9fb43992d5a35d2e322af63c64a82583::1" target="The Wharton School::Entity::Q1329269" weight="0.9997338652610779" label="1"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1974-01-01::Entity::1974-01-01T00:00:00Z" label="1974-01-01">
+        <attvalues>
+          <attvalue for="label" value="1974-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1978-01-01::Entity::1978-01-01T00:00:00Z" label="1978-01-01">
+        <attvalues>
+          <attvalue for="label" value="1978-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1989-01-24::Entity::1989-01-24T00:00:00Z" label="1989-01-24">
+        <attvalues>
+          <attvalue for="label" value="1989-01-24" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Capital punishment::Entity::Q8454" label="Capital punishment">
+        <attvalues>
+          <attvalue for="label" value="Capital punishment" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ted Bundy::Entity::Q192218" label="Ted Bundy">
+        <attvalues>
+          <attvalue for="label" value="Ted Bundy" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q192218-b2489b2409ed3efe28e56a541cc0a73b::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="manner of death::Predicate::q192218-2b48f77fe14e1cc309115ba5a6625a22::1" label="manner of death">
+        <attvalues>
+          <attvalue for="label" value="manner of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="work period (end)::Predicate::q192218-7d095a4e14a4694fcef3195e5657f2dc::1" label="work period (end)">
+        <attvalues>
+          <attvalue for="label" value="work period (end)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q192218-2e6f63c08720e70397495a6ece6a3159::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Ted Bundy::Entity::Q192218" target="manner of death::Predicate::q192218-2b48f77fe14e1cc309115ba5a6625a22::1" weight="0.1849260777235031" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Ted Bundy::Entity::Q192218" target="date of death::Predicate::q192218-b2489b2409ed3efe28e56a541cc0a73b::2" weight="0.9966357350349426" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Ted Bundy::Entity::Q192218" target="work period (end)::Predicate::q192218-7d095a4e14a4694fcef3195e5657f2dc::1" weight="0.840569019317627" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Ted Bundy::Entity::Q192218" target="work period (start)::Predicate::q192218-2e6f63c08720e70397495a6ece6a3159::1" weight="0.6202956438064575" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="manner of death::Predicate::q192218-2b48f77fe14e1cc309115ba5a6625a22::1" target="Capital punishment::Entity::Q8454" weight="0.1849260777235031" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="date of death::Predicate::q192218-b2489b2409ed3efe28e56a541cc0a73b::2" target="1989-01-24::Entity::1989-01-24T00:00:00Z" weight="0.9966357350349426" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="work period (end)::Predicate::q192218-7d095a4e14a4694fcef3195e5657f2dc::1" target="1978-01-01::Entity::1978-01-01T00:00:00Z" weight="0.840569019317627" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="work period (start)::Predicate::q192218-2e6f63c08720e70397495a6ece6a3159::1" target="1974-01-01::Entity::1974-01-01T00:00:00Z" weight="0.6202956438064575" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

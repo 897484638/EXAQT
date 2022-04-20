@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Last meal::Entity::Q1605306" label="Last meal">
+        <attvalues>
+          <attvalue for="label" value="Last meal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Peter Kürten::Entity::Q60291" label="Peter Kürten">
+        <attvalues>
+          <attvalue for="label" value="Peter Kürten"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="had as last meal::Predicate::q60291-46daabdb03c78efa73e1eb8eb3c059c2::1" label="had as last meal">
+        <attvalues>
+          <attvalue for="label" value="had as last meal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="meals::Entity::Q6460735" label="meals">
+        <attvalues>
+          <attvalue for="label" value="meals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q1605306-f57b998dea37132075245778556ce087::10" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="white wine::Entity::Q10210" label="white wine">
+        <attvalues>
+          <attvalue for="label" value="white wine"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="white wine::Entity::Q10210" target="had as last meal::Predicate::q60291-46daabdb03c78efa73e1eb8eb3c059c2::1" weight="0.9967995882034302" label="1"/>
+      <edge id="1" source="had as last meal::Predicate::q60291-46daabdb03c78efa73e1eb8eb3c059c2::1" target="Peter Kürten::Entity::Q60291" weight="0.9967995882034302" label="1"/>
+      <edge id="2" source="Last meal::Entity::Q1605306" target="subclass of::Predicate::q1605306-f57b998dea37132075245778556ce087::10" weight="0.007068595848977566" label="25"/>
+      <edge id="3" source="subclass of::Predicate::q1605306-f57b998dea37132075245778556ce087::10" target="meals::Entity::Q6460735" weight="0.007068595848977566" label="25"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1903-01-01::Entity::1903-01-01T00:00:00Z" label="1903-01-01">
+        <attvalues>
+          <attvalue for="label" value="1903-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1955-01-01::Entity::1955-01-01T00:00:00Z" label="1955-01-01">
+        <attvalues>
+          <attvalue for="label" value="1955-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Carl Jung::Entity::Q41532" label="Carl Jung">
+        <attvalues>
+          <attvalue for="label" value="Carl Jung" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Emma Jung::Entity::Q124210" label="Emma Jung">
+        <attvalues>
+          <attvalue for="label" value="Emma Jung" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Switzerland::Entity::Q39" label="Switzerland">
+        <attvalues>
+          <attvalue for="label" value="Switzerland" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="World Health Organization::Entity::Q7817" label="World Health Organization">
+        <attvalues>
+          <attvalue for="label" value="World Health Organization" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q41532-b73326651bcb0f502f96cf1383b8d963::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q7817-de5f5f09c5ebfef12657fc6f3050101e::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q41532-1df255fb6cbfcbb40d1090c9543aa6e4::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="director / manager::Predicate::q7817-1403b85bccf382be79035d4d24b49574::1" label="director / manager">
+        <attvalues>
+          <attvalue for="label" value="director / manager" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q53964008-7208c9e87ec568fc757495d752f672c8::2" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q54438217-8345b37cdf633331e0d2442b3010e935::5" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q56857893-c200abd02580a25c1aace03495cfcc81::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q57093765-c31a07e16d6c65a5cef2151b23ea3674::6" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q63378055-c891a84b1f7bc8e7de85505f8de236c1::3" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="family name::Predicate::q41532-bf0a3f2336c48b672000b08b0fd9333c::1" label="family name">
+        <attvalues>
+          <attvalue for="label" value="family name" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="given name::Predicate::q41532-6bd23d3afd37f9734ed77eb4b681b3e4::1" label="given name">
+        <attvalues>
+          <attvalue for="label" value="given name" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q36-bdbb965aee2b026722a18d20700926be::1" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q41532-c1f891862d6229cd86715861f81afa82::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="patient of::Predicate::q3838462-ff4b34cc87158f6ea704bb638f8f2f3e::1" label="patient of">
+        <attvalues>
+          <attvalue for="label" value="patient of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="World Health Organization::Entity::Q7817" target="country::Predicate::q7817-de5f5f09c5ebfef12657fc6f3050101e::1" weight="0.0004903735825791955" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q54438217-8345b37cdf633331e0d2442b3010e935::5" weight="0.005756200756877661" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="country of citizenship::Predicate::q41532-b73326651bcb0f502f96cf1383b8d963::1" target="Carl Jung::Entity::Q41532" weight="0.0005088634788990021" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="Carl Jung::Entity::Q41532" target="spouse::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" weight="0.9993113279342651" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="12" source="Carl Jung::Entity::Q41532" target="spouse::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" weight="0.9992511868476868" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="Carl Jung::Entity::Q41532" target="family name::Predicate::q41532-bf0a3f2336c48b672000b08b0fd9333c::1" weight="0.061242446303367615" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Carl Jung::Entity::Q41532" target="nominated for::Predicate::q41532-c1f891862d6229cd86715861f81afa82::1" weight="0.03443300351500511" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="Carl Jung::Entity::Q41532" target="patient of::Predicate::q3838462-ff4b34cc87158f6ea704bb638f8f2f3e::1" weight="0.014830240979790688" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="Carl Jung::Entity::Q41532" target="date of death::Predicate::q41532-1df255fb6cbfcbb40d1090c9543aa6e4::1" weight="0.005886557511985302" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Carl Jung::Entity::Q41532" target="given name::Predicate::q41532-6bd23d3afd37f9734ed77eb4b681b3e4::1" weight="0.004485562443733215" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="spouse::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" target="Emma Jung::Entity::Q124210" weight="0.9993113279342651" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="spouse::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" target="end time::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" weight="0.9993113279342651" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="World Health Organization::Entity::Q7817" target="director / manager::Predicate::q7817-1403b85bccf382be79035d4d24b49574::1" weight="0.005743558052927256" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="spouse::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" target="start time::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" weight="0.9993113279342651" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="spouse::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" target="end time::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" weight="0.9992511868476868" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="spouse::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" target="start time::Predicate::q124210-a8b49d7d5132ecd6945aa4afef845441::2" weight="0.9992511868476868" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="end time::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" target="1955-01-01::Entity::1955-01-01T00:00:00Z" weight="0.9993113279342651" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="start time::Predicate::q41532-dc8e3260428b7853c302fa0167ae4176::1" target="1903-01-01::Entity::1903-01-01T00:00:00Z" weight="0.9993113279342651" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q56857893-c200abd02580a25c1aace03495cfcc81::1" weight="0.004790563602000475" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q63378055-c891a84b1f7bc8e7de85505f8de236c1::3" weight="0.004531472455710173" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="World Health Organization::Entity::Q7817" target="member of::Predicate::q36-bdbb965aee2b026722a18d20700926be::1" weight="0.003933237865567207" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q57093765-c31a07e16d6c65a5cef2151b23ea3674::6" weight="0.003598687471821904" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q53964008-7208c9e87ec568fc757495d752f672c8::2" weight="0.0032266441266983747" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="country::Predicate::q7817-de5f5f09c5ebfef12657fc6f3050101e::1" target="Switzerland::Entity::Q39" weight="0.0004903735825791955" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="Switzerland::Entity::Q39" target="country of citizenship::Predicate::q41532-b73326651bcb0f502f96cf1383b8d963::1" weight="0.0005088634788990021" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

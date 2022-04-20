@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+225987::Entity::+225987" label="+225987">
+        <attvalues>
+          <attvalue for="label" value="+225987"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1960-01-01::Entity::1960-01-01T00:00:00Z" label="1960-01-01">
+        <attvalues>
+          <attvalue for="label" value="1960-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Literature::Entity::Q37922" label="Nobel Prize in Literature">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Literature"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Officer of the Legion of Honour::Entity::Q10855195" label="Officer of the Legion of Honour">
+        <attvalues>
+          <attvalue for="label" value="Officer of the Legion of Honour"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Saint-John Perse::Entity::Q132684" label="Saint-John Perse">
+        <attvalues>
+          <attvalue for="label" value="Saint-John Perse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q132684-319d29104a60a5e4bc4a6fd4a84109f2::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="prize money::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::1" label="prize money">
+        <attvalues>
+          <attvalue for="label" value="prize money"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="nominated for::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::2" target="Saint-John Perse::Entity::Q132684" weight="0.9994725584983826" label="1"/>
+      <edge id="1" source="nominated for::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::2" target="Nobel Prize in Literature::Entity::Q37922" weight="0.9994725584983826" label="1"/>
+      <edge id="2" source="nominated for::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::2" target="point in time::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::6" weight="0.9994725584983826" label="1"/>
+      <edge id="3" source="Saint-John Perse::Entity::Q132684" target="award received::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::2" weight="0.9985170960426331" label="2"/>
+      <edge id="4" source="Saint-John Perse::Entity::Q132684" target="award received::Predicate::q132684-319d29104a60a5e4bc4a6fd4a84109f2::5" weight="0.44915321469306946" label="4"/>
+      <edge id="5" source="Nobel Prize in Literature::Entity::Q37922" target="award received::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::2" weight="0.9985170960426331" label="2"/>
+      <edge id="6" source="point in time::Predicate::q132684-f74d5a4a07b42eb34897c2c8b994303f::6" target="1960-01-01::Entity::1960-01-01T00:00:00Z" weight="0.9994725584983826" label="1"/>
+      <edge id="7" source="award received::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::2" target="prize money::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::1" weight="0.9985170960426331" label="2"/>
+      <edge id="8" source="prize money::Predicate::q132684-744fd5ee9a45a33ae8455702cca65972::1" target="+225987::Entity::+225987" weight="0.9985170960426331" label="2"/>
+      <edge id="9" source="award received::Predicate::q132684-319d29104a60a5e4bc4a6fd4a84109f2::5" target="Officer of the Legion of Honour::Entity::Q10855195" weight="0.44915321469306946" label="4"/>
+    </edges>
+  </graph>
+</gexf>

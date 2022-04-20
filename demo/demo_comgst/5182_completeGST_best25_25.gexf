@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Costa Rica::Entity::Q800" label="Costa Rica">
+        <attvalues>
+          <attvalue for="label" value="Costa Rica"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Costa Rican colón::Entity::Q242915" label="Costa Rican colón">
+        <attvalues>
+          <attvalue for="label" value="Costa Rican colón"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Costa Rican peso::Entity::Q3900740" label="Costa Rican peso">
+        <attvalues>
+          <attvalue for="label" value="Costa Rican peso"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Luccan pound::Entity::Q3833307" label="Luccan pound">
+        <attvalues>
+          <attvalue for="label" value="Luccan pound"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="currency::Entity::Q8142" label="currency">
+        <attvalues>
+          <attvalue for="label" value="currency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="currency::Predicate::q800-40e8660cfb4952b9f3a069f45c1520dd::2" label="currency">
+        <attvalues>
+          <attvalue for="label" value="currency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="currency::Predicate::q800-cdefbe119460a5aed52f668c8037e157::1" label="currency">
+        <attvalues>
+          <attvalue for="label" value="currency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q242915-5c168043b2f74ebbb8af8ce3577ace98::21" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q3833307-809e3b051d9adbaa7cf0b7fe562366b6::5" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="currency::Predicate::q800-cdefbe119460a5aed52f668c8037e157::1" target="Costa Rica::Entity::Q800" weight="0.9992881417274475" label="1"/>
+      <edge id="1" source="currency::Predicate::q800-cdefbe119460a5aed52f668c8037e157::1" target="Costa Rican colón::Entity::Q242915" weight="0.9992881417274475" label="1"/>
+      <edge id="2" source="Costa Rica::Entity::Q800" target="currency::Predicate::q800-40e8660cfb4952b9f3a069f45c1520dd::2" weight="0.9982523322105408" label="2"/>
+      <edge id="3" source="Costa Rican colón::Entity::Q242915" target="instance of::Predicate::q242915-5c168043b2f74ebbb8af8ce3577ace98::21" weight="0.9951509237289429" label="5"/>
+      <edge id="4" source="currency::Predicate::q800-40e8660cfb4952b9f3a069f45c1520dd::2" target="Costa Rican peso::Entity::Q3900740" weight="0.9982523322105408" label="2"/>
+      <edge id="5" source="instance of::Predicate::q242915-5c168043b2f74ebbb8af8ce3577ace98::21" target="currency::Entity::Q8142" weight="0.9951509237289429" label="5"/>
+      <edge id="6" source="currency::Entity::Q8142" target="instance of::Predicate::q3833307-809e3b051d9adbaa7cf0b7fe562366b6::5" weight="0.9960397481918335" label="3"/>
+      <edge id="7" source="instance of::Predicate::q3833307-809e3b051d9adbaa7cf0b7fe562366b6::5" target="Luccan pound::Entity::Q3833307" weight="0.9960397481918335" label="3"/>
+    </edges>
+  </graph>
+</gexf>

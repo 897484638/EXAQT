@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Clovis I::Entity::Q82339" label="Clovis I">
+        <attvalues>
+          <attvalue for="label" value="Clovis I"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Monarch::Entity::Q116" label="Monarch">
+        <attvalues>
+          <attvalue for="label" value="Monarch"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="king of Franks::Entity::Q22923081" label="king of Franks">
+        <attvalues>
+          <attvalue for="label" value="king of Franks"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="king::Entity::Q12097" label="king">
+        <attvalues>
+          <attvalue for="label" value="king"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q82339-90b4026ced03d0b526a102ef2605e7e4::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q82339-ccb7fe83007f36e5d367f3500e734352::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q12097-7411781eaab0c0eedbc3f5249c80f2cd::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="king::Entity::Q12097" target="subclass of::Predicate::q12097-7411781eaab0c0eedbc3f5249c80f2cd::1" weight="0.004351421259343624" label="27"/>
+      <edge id="1" source="subclass of::Predicate::q12097-7411781eaab0c0eedbc3f5249c80f2cd::1" target="Monarch::Entity::Q116" weight="0.004351421259343624" label="27"/>
+      <edge id="2" source="Monarch::Entity::Q116" target="occupation::Predicate::q82339-90b4026ced03d0b526a102ef2605e7e4::1" weight="0.9978824257850647" label="26"/>
+      <edge id="3" source="occupation::Predicate::q82339-90b4026ced03d0b526a102ef2605e7e4::1" target="Clovis I::Entity::Q82339" weight="0.9978824257850647" label="26"/>
+      <edge id="4" source="Clovis I::Entity::Q82339" target="position held::Predicate::q82339-ccb7fe83007f36e5d367f3500e734352::1" weight="0.999749481678009" label="1"/>
+      <edge id="5" source="position held::Predicate::q82339-ccb7fe83007f36e5d367f3500e734352::1" target="king of Franks::Entity::Q22923081" weight="0.999749481678009" label="1"/>
+    </edges>
+  </graph>
+</gexf>

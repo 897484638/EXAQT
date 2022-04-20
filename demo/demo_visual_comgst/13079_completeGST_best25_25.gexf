@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1899-07-17::Entity::1899-07-17T00:00:00Z" label="1899-07-17">
+        <attvalues>
+          <attvalue for="label" value="1899-07-17" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1922-01-01::Entity::1922-01-01T00:00:00Z" label="1922-01-01">
+        <attvalues>
+          <attvalue for="label" value="1922-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Frances Vernon::Entity::Q5478987" label="Frances Vernon">
+        <attvalues>
+          <attvalue for="label" value="Frances Vernon" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="James Cagney::Entity::Q94041" label="James Cagney">
+        <attvalues>
+          <attvalue for="label" value="James Cagney" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q94041-8ed7e22d9897b95fec9218aece6e4f3b::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="spouse::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" target="James Cagney::Entity::Q94041" weight="0.9993927478790283" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="spouse::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" target="Frances Vernon::Entity::Q5478987" weight="0.9993927478790283" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="spouse::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" target="start time::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" weight="0.9993927478790283" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="James Cagney::Entity::Q94041" target="date of birth::Predicate::q94041-8ed7e22d9897b95fec9218aece6e4f3b::1" weight="0.9133327603340149" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="James Cagney::Entity::Q94041" target="spouse::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" weight="0.9993007183074951" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="date of birth::Predicate::q94041-8ed7e22d9897b95fec9218aece6e4f3b::1" target="1899-07-17::Entity::1899-07-17T00:00:00Z" weight="0.9133327603340149" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="spouse::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" target="Frances Vernon::Entity::Q5478987" weight="0.9993007183074951" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="spouse::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" target="start time::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" weight="0.9993007183074951" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="start time::Predicate::q5478987-1c9588a047fffe327d505686326e9ca3::2" target="1922-01-01::Entity::1922-01-01T00:00:00Z" weight="0.9993927478790283" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="1922-01-01::Entity::1922-01-01T00:00:00Z" target="start time::Predicate::q94041-6779e09771fc4653562dac0fea368b14::1" weight="0.9993007183074951" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

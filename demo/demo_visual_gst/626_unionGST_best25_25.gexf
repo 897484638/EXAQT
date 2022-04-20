@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1970-01-01::Entity::1970-01-01T00:00:00Z" label="1970-01-01">
+        <attvalues>
+          <attvalue for="label" value="1970-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2010-01-01::Entity::2010-01-01T00:00:00Z" label="2010-01-01">
+        <attvalues>
+          <attvalue for="label" value="2010-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Al Gore::Entity::Q19673" label="Al Gore">
+        <attvalues>
+          <attvalue for="label" value="Al Gore" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Gore::Entity::Q12018387" label="Gore">
+        <attvalues>
+          <attvalue for="label" value="Gore" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Pauline LaFon Gore::Entity::Q7155048" label="Pauline LaFon Gore">
+        <attvalues>
+          <attvalue for="label" value="Pauline LaFon Gore" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Tipper Gore::Entity::Q241609" label="Tipper Gore">
+        <attvalues>
+          <attvalue for="label" value="Tipper Gore" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q19673-5ab4583f2d2d2856ab9290fed49ae09f::2" label="child">
+        <attvalues>
+          <attvalue for="label" value="child" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q19673-b510434db33ca69264751cf32a533b90::1" label="child">
+        <attvalues>
+          <attvalue for="label" value="child" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q577160-0feadbb73c427c540dc62940b2da94ee::4" label="child">
+        <attvalues>
+          <attvalue for="label" value="child" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q7155048-66f19a79f24503325b42954c6039b360::3" label="child">
+        <attvalues>
+          <attvalue for="label" value="child" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q19673-81f31afe6dc05c6c66c31a61a2d36c41::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q19673-f849658e8e9400533924aa10117a89a1::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="family name::Predicate::q19673-1ee7692027b02a9bd714fbbb6d3572bd::1" label="family name">
+        <attvalues>
+          <attvalue for="label" value="family name" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="father::Predicate::q600415-7e233e530aaff4019057edd5855809ac::2" label="father">
+        <attvalues>
+          <attvalue for="label" value="father" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="father::Predicate::q6370170-c725103af29a29dd88cf58f8de976f49::1" label="father">
+        <attvalues>
+          <attvalue for="label" value="father" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q118408-10c0aedef107820faaee32439270f7b1::1" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="mother::Predicate::q19673-1485f1c1d5035f3a539c92efe8b291a9::1" label="mother">
+        <attvalues>
+          <attvalue for="label" value="mother" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q1419798-1660eb58b7645d1f3e47f697a258b5db::1" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q19673-591d589de2b3c1f9c0e7a40db9d6d7ac::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q48259-fd79962d70519dce88a276cb97caadff::2" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q19673-19d0e21a7db9a49dd32d379fa0816af5::1" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q6962713-429bf318f4e808359c95eddea1586b5b::2" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q19673-f849658e8e9400533924aa10117a89a1::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q19673-f849658e8e9400533924aa10117a89a1::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q171183-562fb33a05d89fc74ae4ae093e0c2da6::1" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q19673-f849658e8e9400533924aa10117a89a1::2" target="spouse::Predicate::q19673-f849658e8e9400533924aa10117a89a1::1" weight="0.9988478422164917" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="end time::Predicate::q19673-f849658e8e9400533924aa10117a89a1::2" target="2010-01-01::Entity::2010-01-01T00:00:00Z" weight="0.9988478422164917" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Al Gore::Entity::Q19673" target="together with::Predicate::q171183-562fb33a05d89fc74ae4ae093e0c2da6::1" weight="0.48413461446762085" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Al Gore::Entity::Q19673" target="child::Predicate::q19673-b510434db33ca69264751cf32a533b90::1" weight="0.47052645683288574" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Al Gore::Entity::Q19673" target="child::Predicate::q19673-5ab4583f2d2d2856ab9290fed49ae09f::2" weight="0.3604879379272461" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Al Gore::Entity::Q19673" target="sibling::Predicate::q6962713-429bf318f4e808359c95eddea1586b5b::2" weight="0.2686138451099396" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Al Gore::Entity::Q19673" target="named after::Predicate::q1419798-1660eb58b7645d1f3e47f697a258b5db::1" weight="0.2480098009109497" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Al Gore::Entity::Q19673" target="father::Predicate::q600415-7e233e530aaff4019057edd5855809ac::2" weight="0.20649580657482147" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Al Gore::Entity::Q19673" target="sibling::Predicate::q19673-19d0e21a7db9a49dd32d379fa0816af5::1" weight="0.17939546704292297" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Al Gore::Entity::Q19673" target="position held::Predicate::q19673-591d589de2b3c1f9c0e7a40db9d6d7ac::1" weight="0.14058491587638855" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Al Gore::Entity::Q19673" target="child::Predicate::q577160-0feadbb73c427c540dc62940b2da94ee::4" weight="0.12195994704961777" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="Al Gore::Entity::Q19673" target="father::Predicate::q6370170-c725103af29a29dd88cf58f8de976f49::1" weight="0.09434406459331512" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="spouse::Predicate::q19673-f849658e8e9400533924aa10117a89a1::1" target="Al Gore::Entity::Q19673" weight="0.9988478422164917" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="Al Gore::Entity::Q19673" target="country of citizenship::Predicate::q19673-81f31afe6dc05c6c66c31a61a2d36c41::1" weight="0.09413608908653259" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="Al Gore::Entity::Q19673" target="replaces::Predicate::q48259-fd79962d70519dce88a276cb97caadff::2" weight="0.06995569169521332" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="start time::Predicate::q19673-f849658e8e9400533924aa10117a89a1::2" target="1970-01-01::Entity::1970-01-01T00:00:00Z" weight="0.9988478422164917" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="spouse::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::2" target="end time::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::3" weight="0.9985718727111816" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="spouse::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::2" target="start time::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::3" weight="0.9985718727111816" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="25" source="mother::Predicate::q19673-1485f1c1d5035f3a539c92efe8b291a9::1" target="Pauline LaFon Gore::Entity::Q7155048" weight="0.8444279432296753" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="26" source="family name::Predicate::q19673-1ee7692027b02a9bd714fbbb6d3572bd::1" target="Gore::Entity::Q12018387" weight="0.5647915601730347" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="spouse::Predicate::q19673-f849658e8e9400533924aa10117a89a1::1" target="start time::Predicate::q19673-f849658e8e9400533924aa10117a89a1::2" weight="0.9988478422164917" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="spouse::Predicate::q19673-f849658e8e9400533924aa10117a89a1::1" target="Tipper Gore::Entity::Q241609" weight="0.9988478422164917" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Al Gore::Entity::Q19673" target="founded by::Predicate::q118408-10c0aedef107820faaee32439270f7b1::1" weight="0.04362336918711662" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="Al Gore::Entity::Q19673" target="spouse::Predicate::q241609-0fd4a909ceaf7e91ef8918e62222883a::2" weight="0.9985718727111816" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="Al Gore::Entity::Q19673" target="mother::Predicate::q19673-1485f1c1d5035f3a539c92efe8b291a9::1" weight="0.8444279432296753" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="Al Gore::Entity::Q19673" target="family name::Predicate::q19673-1ee7692027b02a9bd714fbbb6d3572bd::1" weight="0.5647915601730347" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Al Gore::Entity::Q19673" target="child::Predicate::q7155048-66f19a79f24503325b42954c6039b360::3" weight="0.552653431892395" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

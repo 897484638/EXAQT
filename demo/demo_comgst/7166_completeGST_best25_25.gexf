@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Chief Justice of the United States::Entity::Q11147" label="Chief Justice of the United States">
+        <attvalues>
+          <attvalue for="label" value="Chief Justice of the United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Warren E. Burger::Entity::Q346685" label="Warren E. Burger">
+        <attvalues>
+          <attvalue for="label" value="Warren E. Burger"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="William Rehnquist::Entity::Q311562" label="William Rehnquist">
+        <attvalues>
+          <attvalue for="label" value="William Rehnquist"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="chief justice::Entity::Q3188089" label="chief justice">
+        <attvalues>
+          <attvalue for="label" value="chief justice"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q311562-cf36090cee4e03e3914cd13917880517::7" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q346685-fd7132abc9d28285cdb7e66e1683d7af::8" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q11147-26b6177ff402c0045106e368792a2aa6::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="chief justice::Entity::Q3188089" target="subclass of::Predicate::q11147-26b6177ff402c0045106e368792a2aa6::1" weight="0.013231959193944931" label="26"/>
+      <edge id="1" source="subclass of::Predicate::q11147-26b6177ff402c0045106e368792a2aa6::1" target="Chief Justice of the United States::Entity::Q11147" weight="0.013231959193944931" label="26"/>
+      <edge id="2" source="Chief Justice of the United States::Entity::Q11147" target="position held::Predicate::q311562-cf36090cee4e03e3914cd13917880517::7" weight="0.9981318116188049" label="1"/>
+      <edge id="3" source="Chief Justice of the United States::Entity::Q11147" target="position held::Predicate::q346685-fd7132abc9d28285cdb7e66e1683d7af::8" weight="0.998073935508728" label="2"/>
+      <edge id="4" source="position held::Predicate::q311562-cf36090cee4e03e3914cd13917880517::7" target="William Rehnquist::Entity::Q311562" weight="0.9981318116188049" label="1"/>
+      <edge id="5" source="position held::Predicate::q346685-fd7132abc9d28285cdb7e66e1683d7af::8" target="Warren E. Burger::Entity::Q346685" weight="0.998073935508728" label="2"/>
+    </edges>
+  </graph>
+</gexf>

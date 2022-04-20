@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Milwaukee County::Entity::Q502294" label="Milwaukee County">
+        <attvalues>
+          <attvalue for="label" value="Milwaukee County" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Milwaukee::Entity::Q37836" label="Milwaukee">
+        <attvalues>
+          <attvalue for="label" value="Milwaukee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="People's Flag of Milwaukee::Entity::Q77792965" label="People's Flag of Milwaukee">
+        <attvalues>
+          <attvalue for="label" value="People's Flag of Milwaukee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Seal of Milwaukee::Entity::Q7440568" label="Seal of Milwaukee">
+        <attvalues>
+          <attvalue for="label" value="Seal of Milwaukee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Southeastern Wisconsin::Entity::Q54444202" label="Southeastern Wisconsin">
+        <attvalues>
+          <attvalue for="label" value="Southeastern Wisconsin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="capital of::Predicate::q37836-bbd6f00b68a15d05faed50a59d3a52a7::1" label="capital of">
+        <attvalues>
+          <attvalue for="label" value="capital of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q502294-56a8e5a2c1147ed76f70b461018bb09b::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q54444202-3d33485245a355d6670eadca07a8aa7f::2" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="coat of arms::Entity::Q14659" label="coat of arms">
+        <attvalues>
+          <attvalue for="label" value="coat of arms" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="coat of arms::Predicate::q37836-c2c12d900a9e7b67722dba4b83baf833::1" label="coat of arms">
+        <attvalues>
+          <attvalue for="label" value="coat of arms" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="different from::Predicate::q14659-80a20cdb16f06b8c93d2a991fe8847af::1" label="different from">
+        <attvalues>
+          <attvalue for="label" value="different from" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="first-class city::Entity::Q15221304" label="first-class city">
+        <attvalues>
+          <attvalue for="label" value="first-class city" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="flag of Milwaukee::Entity::Q3039032" label="flag of Milwaukee">
+        <attvalues>
+          <attvalue for="label" value="flag of Milwaukee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="flag::Predicate::q37836-8c19621d20c810af70030d292d70943b::1" label="flag">
+        <attvalues>
+          <attvalue for="label" value="flag" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q37836-1bfab0969b3283b57ce237e5b4806b88::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q37836-0dc9e1d102d04de7dd06e83b765a472c::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q37836-2754b47b61cd24fc7394f472c201bb08::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q7440568-38472aa8754198d7c0e7519582300eeb::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in or next to body of water::Predicate::q37836-b0a1a9b451c0ca7039203230edcc02b7::1" label="located in or next to body of water">
+        <attvalues>
+          <attvalue for="label" value="located in or next to body of water" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nickname::Predicate::q37836-1aa5820e33d57507ae56f28a5c8878aa::3" label="nickname">
+        <attvalues>
+          <attvalue for="label" value="nickname" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nickname::Predicate::q37836-65d907848898024379f91e29f65567dc::1" label="nickname">
+        <attvalues>
+          <attvalue for="label" value="nickname" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q16017709-f5eb4498f24a01815731661b72acadcf::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q37836-3ca7bc7f56d9d20735bb9951b6ef60d1::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="represents::Predicate::q77792965-57fefce3499ae41bb077a2d87be6b8db::1" label="represents">
+        <attvalues>
+          <attvalue for="label" value="represents" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q55800-af851a97e19772d37c8937387e26cde7::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="seal description::Predicate::q37836-85041a9c04367e38477cb1e2f26d9cd2::1" label="seal description">
+        <attvalues>
+          <attvalue for="label" value="seal description" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q37836-1bfab0969b3283b57ce237e5b4806b88::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q37836-1bfab0969b3283b57ce237e5b4806b88::1" target="head of government::Predicate::q37836-1bfab0969b3283b57ce237e5b4806b88::1" weight="0.18000584840774536" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="head of government::Predicate::q37836-1bfab0969b3283b57ce237e5b4806b88::1" target="Milwaukee::Entity::Q37836" weight="0.18000584840774536" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="Milwaukee::Entity::Q37836" target="capital of::Predicate::q37836-bbd6f00b68a15d05faed50a59d3a52a7::1" weight="0.5638699531555176" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Milwaukee::Entity::Q37836" target="place of birth::Predicate::q16017709-f5eb4498f24a01815731661b72acadcf::1" weight="0.1594868302345276" label="24"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="Milwaukee::Entity::Q37836" target="replaces::Predicate::q37836-3ca7bc7f56d9d20735bb9951b6ef60d1::1" weight="0.48011359572410583" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Milwaukee::Entity::Q37836" target="instance of::Predicate::q37836-2754b47b61cd24fc7394f472c201bb08::3" weight="0.4462912082672119" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Milwaukee::Entity::Q37836" target="nickname::Predicate::q37836-65d907848898024379f91e29f65567dc::1" weight="0.39516234397888184" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Milwaukee::Entity::Q37836" target="nickname::Predicate::q37836-1aa5820e33d57507ae56f28a5c8878aa::3" weight="0.3066468834877014" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Milwaukee::Entity::Q37836" target="located in or next to body of water::Predicate::q37836-b0a1a9b451c0ca7039203230edcc02b7::1" weight="0.26622918248176575" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Seal of Milwaukee::Entity::Q7440568" target="coat of arms::Predicate::q37836-c2c12d900a9e7b67722dba4b83baf833::1" weight="0.9987955093383789" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="Seal of Milwaukee::Entity::Q7440568" target="instance of::Predicate::q7440568-38472aa8754198d7c0e7519582300eeb::1" weight="0.9939128756523132" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="capital::Predicate::q54444202-3d33485245a355d6670eadca07a8aa7f::2" target="Southeastern Wisconsin::Entity::Q54444202" weight="0.6103283762931824" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Milwaukee::Entity::Q37836" target="coat of arms::Predicate::q37836-c2c12d900a9e7b67722dba4b83baf833::1" weight="0.9987955093383789" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="instance of::Predicate::q7440568-38472aa8754198d7c0e7519582300eeb::1" target="coat of arms::Entity::Q14659" weight="0.9939128756523132" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="coat of arms::Entity::Q14659" target="different from::Predicate::q14659-80a20cdb16f06b8c93d2a991fe8847af::1" weight="0.26993024349212646" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="instance of::Predicate::q37836-0dc9e1d102d04de7dd06e83b765a472c::2" target="first-class city::Entity::Q15221304" weight="0.9776831865310669" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="23" source="capital::Predicate::q502294-56a8e5a2c1147ed76f70b461018bb09b::1" target="Milwaukee County::Entity::Q502294" weight="0.5828589200973511" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="24" source="flag::Predicate::q37836-8c19621d20c810af70030d292d70943b::1" target="flag of Milwaukee::Entity::Q3039032" weight="0.6590625047683716" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="25" source="represents::Predicate::q77792965-57fefce3499ae41bb077a2d87be6b8db::1" target="People's Flag of Milwaukee::Entity::Q77792965" weight="0.6572934985160828" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="Milwaukee::Entity::Q37836" target="capital::Predicate::q54444202-3d33485245a355d6670eadca07a8aa7f::2" weight="0.6103283762931824" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="Milwaukee::Entity::Q37836" target="instance of::Predicate::q37836-0dc9e1d102d04de7dd06e83b765a472c::2" weight="0.9776831865310669" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Milwaukee::Entity::Q37836" target="capital::Predicate::q502294-56a8e5a2c1147ed76f70b461018bb09b::1" weight="0.5828589200973511" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Milwaukee::Entity::Q37836" target="seal description::Predicate::q37836-85041a9c04367e38477cb1e2f26d9cd2::1" weight="0.9553329944610596" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="7" source="Milwaukee::Entity::Q37836" target="flag::Predicate::q37836-8c19621d20c810af70030d292d70943b::1" weight="0.6590625047683716" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="8" source="Milwaukee::Entity::Q37836" target="represents::Predicate::q77792965-57fefce3499ae41bb077a2d87be6b8db::1" weight="0.6572934985160828" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Milwaukee::Entity::Q37836" target="residence::Predicate::q55800-af851a97e19772d37c8937387e26cde7::1" weight="0.5879513025283813" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

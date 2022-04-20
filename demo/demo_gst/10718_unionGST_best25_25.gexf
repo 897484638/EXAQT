@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Baltimore Ravens::Entity::Q276539" label="Baltimore Ravens">
+        <attvalues>
+          <attvalue for="label" value="Baltimore Ravens"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Major League Baseball draft::Entity::Q953813" label="Major League Baseball draft">
+        <attvalues>
+          <attvalue for="label" value="Major League Baseball draft"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Poe::Entity::Q7207266" label="Poe">
+        <attvalues>
+          <attvalue for="label" value="Poe"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="The Oriole Bird::Entity::Q56345611" label="The Oriole Bird">
+        <attvalues>
+          <attvalue for="label" value="The Oriole Bird"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="The Who::Entity::Q93346" label="The Who">
+        <attvalues>
+          <attvalue for="label" value="The Who"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="baseball::Entity::Q5369" label="baseball">
+        <attvalues>
+          <attvalue for="label" value="baseball"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q5369-e1365d669634e651c736998c6aa92c07::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q7207266-ecd3f2cc464dee1264f460754b94ebbc::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q953813-23854c23dfd228dcbacaeee25036b37d::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q953813-69a7ab0621c78aa645a705276c57254f::6" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="mascot::Predicate::q276539-9be156422a783dc8cd2791ac7833b0bd::1" label="mascot">
+        <attvalues>
+          <attvalue for="label" value="mascot"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q216048-20df015fff521bd23c409f8fdcc482db::1" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sport::Predicate::q56345611-29834bf35f293dad29a51c53c67dc2c3::2" label="sport">
+        <attvalues>
+          <attvalue for="label" value="sport"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sport::Predicate::q953813-0b15c4192df1282d400bac2929176261::1" label="sport">
+        <attvalues>
+          <attvalue for="label" value="sport"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1136491-bd85d1095c257d369f23284debde21a5::8" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q3038580-253602bd67a43b10bdb20973168dd39d::5" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q3038581-a3d545aa7f67b37ec9699d5b45d2dfac::6" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q4629553-ee10abb0b86fb1cdd500a5607deb1ffe::9" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q216048-20df015fff521bd23c409f8fdcc482db::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q5369-f495dc6bf23ba207026c47e54f14ccc6::2" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="team sport::Entity::Q216048" label="team sport">
+        <attvalues>
+          <attvalue for="label" value="team sport"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="team::Entity::Q327245" label="team">
+        <attvalues>
+          <attvalue for="label" value="team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="team::Entity::Q327245" target="of::Predicate::q216048-20df015fff521bd23c409f8fdcc482db::1" weight="0.00021219387417659163" label="34"/>
+      <edge id="1" source="of::Predicate::q216048-20df015fff521bd23c409f8fdcc482db::1" target="subclass of::Predicate::q216048-20df015fff521bd23c409f8fdcc482db::1" weight="0.00021219387417659163" label="34"/>
+      <edge id="10" source="Major League Baseball draft::Entity::Q953813" target="sports season of league or competition::Predicate::q3038580-253602bd67a43b10bdb20973168dd39d::5" weight="0.19610805809497833" label="3"/>
+      <edge id="11" source="Major League Baseball draft::Entity::Q953813" target="sports season of league or competition::Predicate::q3038581-a3d545aa7f67b37ec9699d5b45d2dfac::6" weight="0.1817561835050583" label="4"/>
+      <edge id="12" source="Major League Baseball draft::Entity::Q953813" target="sports season of league or competition::Predicate::q1136491-bd85d1095c257d369f23284debde21a5::8" weight="0.06970113515853882" label="5"/>
+      <edge id="13" source="Major League Baseball draft::Entity::Q953813" target="instance of::Predicate::q953813-69a7ab0621c78aa645a705276c57254f::6" weight="0.03952483832836151" label="6"/>
+      <edge id="14" source="Major League Baseball draft::Entity::Q953813" target="sports season of league or competition::Predicate::q4629553-ee10abb0b86fb1cdd500a5607deb1ffe::9" weight="0.032662972807884216" label="7"/>
+      <edge id="15" source="performer::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" target="The Who::Entity::Q93346" weight="0.007720393128693104" label="18"/>
+      <edge id="16" source="performer::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" target="has part::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" weight="0.007720393128693104" label="18"/>
+      <edge id="17" source="The Who::Entity::Q93346" target="performer::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" weight="0.005224079359322786" label="27"/>
+      <edge id="18" source="has part::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" target="place of publication::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" weight="0.007720393128693104" label="18"/>
+      <edge id="19" source="place of publication::Predicate::q63107727-4406908c6c8420bb9d33475773865c93::3" target="United States::Entity::Q30" weight="0.007720393128693104" label="18"/>
+      <edge id="2" source="subclass of::Predicate::q216048-20df015fff521bd23c409f8fdcc482db::1" target="team sport::Entity::Q216048" weight="0.00021219387417659163" label="34"/>
+      <edge id="20" source="United States::Entity::Q30" target="country::Predicate::q953813-23854c23dfd228dcbacaeee25036b37d::2" weight="0.00693892128765583" label="25"/>
+      <edge id="21" source="United States::Entity::Q30" target="country::Predicate::q7207266-ecd3f2cc464dee1264f460754b94ebbc::1" weight="0.001195557531900704" label="30"/>
+      <edge id="22" source="United States::Entity::Q30" target="place of publication::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" weight="0.005224079359322786" label="27"/>
+      <edge id="23" source="United States::Entity::Q30" target="country of origin::Predicate::q5369-e1365d669634e651c736998c6aa92c07::1" weight="0.0013094634050503373" label="29"/>
+      <edge id="24" source="mascot::Predicate::q276539-9be156422a783dc8cd2791ac7833b0bd::1" target="Poe::Entity::Q7207266" weight="0.7580786943435669" label="2"/>
+      <edge id="25" source="mascot::Predicate::q276539-9be156422a783dc8cd2791ac7833b0bd::1" target="Baltimore Ravens::Entity::Q276539" weight="0.7580786943435669" label="2"/>
+      <edge id="26" source="Poe::Entity::Q7207266" target="country::Predicate::q7207266-ecd3f2cc464dee1264f460754b94ebbc::1" weight="0.001195557531900704" label="30"/>
+      <edge id="27" source="place of publication::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" target="has part::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" weight="0.005224079359322786" label="27"/>
+      <edge id="28" source="has part::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" target="performer::Predicate::q63105871-cde76569d3f689115fb4463cc8aad510::7" weight="0.005224079359322786" label="27"/>
+      <edge id="29" source="sport::Predicate::q56345611-29834bf35f293dad29a51c53c67dc2c3::2" target="The Oriole Bird::Entity::Q56345611" weight="0.9399862289428711" label="1"/>
+      <edge id="3" source="team sport::Entity::Q216048" target="subclass of::Predicate::q5369-f495dc6bf23ba207026c47e54f14ccc6::2" weight="0.00036034517688676715" label="32"/>
+      <edge id="4" source="subclass of::Predicate::q5369-f495dc6bf23ba207026c47e54f14ccc6::2" target="baseball::Entity::Q5369" weight="0.00036034517688676715" label="32"/>
+      <edge id="5" source="baseball::Entity::Q5369" target="sport::Predicate::q953813-0b15c4192df1282d400bac2929176261::1" weight="0.015793275088071823" label="9"/>
+      <edge id="6" source="baseball::Entity::Q5369" target="country of origin::Predicate::q5369-e1365d669634e651c736998c6aa92c07::1" weight="0.0013094634050503373" label="29"/>
+      <edge id="7" source="baseball::Entity::Q5369" target="sport::Predicate::q56345611-29834bf35f293dad29a51c53c67dc2c3::2" weight="0.9399862289428711" label="1"/>
+      <edge id="8" source="sport::Predicate::q953813-0b15c4192df1282d400bac2929176261::1" target="Major League Baseball draft::Entity::Q953813" weight="0.015793275088071823" label="9"/>
+      <edge id="9" source="Major League Baseball draft::Entity::Q953813" target="country::Predicate::q953813-23854c23dfd228dcbacaeee25036b37d::2" weight="0.00693892128765583" label="25"/>
+    </edges>
+  </graph>
+</gexf>

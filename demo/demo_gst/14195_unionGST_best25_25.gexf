@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="ICD-9-CM::Predicate::q373822-22c2e9139795656461ae4d17a627b9d0::1" label="ICD-9-CM">
+        <attvalues>
+          <attvalue for="label" value="ICD-9-CM"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="ICD-9-CM::Predicate::q373822-40480d511bc473afa02112f0484707c6::2" label="ICD-9-CM">
+        <attvalues>
+          <attvalue for="label" value="ICD-9-CM"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="binge eating::Entity::Q2303219" label="binge eating">
+        <attvalues>
+          <attvalue for="label" value="binge eating"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="disease::Entity::Q12136" label="disease">
+        <attvalues>
+          <attvalue for="label" value="disease"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="drug used for treatment::Predicate::q373822-86e67983008551fad6effb5ca1a68de2::2" label="drug used for treatment">
+        <attvalues>
+          <attvalue for="label" value="drug used for treatment"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="drug used for treatment::Predicate::q373822-f4497ad0b198736e8121f1d80baa25c7::1" label="drug used for treatment">
+        <attvalues>
+          <attvalue for="label" value="drug used for treatment"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="eating disorder::Entity::Q373822" label="eating disorder">
+        <attvalues>
+          <attvalue for="label" value="eating disorder"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="health specialty::Predicate::q373822-e6e6615bc831b6d743bb58f46f2b3ab8::2" label="health specialty">
+        <attvalues>
+          <attvalue for="label" value="health specialty"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="health specialty::Predicate::q373822-f95bddb2694a57577a28ad89d3515933::1" label="health specialty">
+        <attvalues>
+          <attvalue for="label" value="health specialty"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q373822-edf0b2a65389d0d470147be8d04d32f1::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q7447762-2d2d16d1b4c1626eb95f74640c8311e4::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="main subject::Predicate::q37188858-76a39c052199399c8680c38ebdf429db::1" label="main subject">
+        <attvalues>
+          <attvalue for="label" value="main subject"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="main subject::Predicate::q60626318-fb2c4fd5e8c93c49638f5847521f88f2::3" label="main subject">
+        <attvalues>
+          <attvalue for="label" value="main subject"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="medical condition treated::Predicate::q407617-b52285830ff82ee0de3b543a098ead91::1" label="medical condition treated">
+        <attvalues>
+          <attvalue for="label" value="medical condition treated"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="medical condition treated::Predicate::q408471-f644dcd3a288fbfa8bddf9079bdc54f8::2" label="medical condition treated">
+        <attvalues>
+          <attvalue for="label" value="medical condition treated"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="paroxetine::Entity::Q408471" label="paroxetine">
+        <attvalues>
+          <attvalue for="label" value="paroxetine"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="possible treatment::Predicate::q373822-e02e67b0ebcfe1ab81f2b8d24c4437cc::1" label="possible treatment">
+        <attvalues>
+          <attvalue for="label" value="possible treatment"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="psychotherapy::Entity::Q183257" label="psychotherapy">
+        <attvalues>
+          <attvalue for="label" value="psychotherapy"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="sertraline::Entity::Q407617" label="sertraline">
+        <attvalues>
+          <attvalue for="label" value="sertraline"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q209522-b2519a5492d330ecbc0a7fa1e307cc7c::3" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q2303219-40fb46f07af4cf56acae54de9b3a28ce::9" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q2742106-761720de72fa2149bd18931bb02fe28c::4" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q331632-75bc76b8b514bd2bbe34b24b3efdf331::7" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q373822-47c15f2cf149bd9b7fe90e957ae0b40f::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q492054-1abf42e2ed0432e002a1785e645e45f2::2" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q5441238-e4b19bb9d664dc36eb582063b74e7dcf::5" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="instance of::Predicate::q373822-edf0b2a65389d0d470147be8d04d32f1::1" target="eating disorder::Entity::Q373822" weight="0.4076387286186218" label="14"/>
+      <edge id="1" source="instance of::Predicate::q373822-edf0b2a65389d0d470147be8d04d32f1::1" target="disease::Entity::Q12136" weight="0.4076387286186218" label="14"/>
+      <edge id="10" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q373822-47c15f2cf149bd9b7fe90e957ae0b40f::1" weight="0.49207255244255066" label="7"/>
+      <edge id="11" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q2742106-761720de72fa2149bd18931bb02fe28c::4" weight="0.46384668350219727" label="8"/>
+      <edge id="12" source="eating disorder::Entity::Q373822" target="ICD-9-CM::Predicate::q373822-22c2e9139795656461ae4d17a627b9d0::1" weight="0.42069652676582336" label="9"/>
+      <edge id="13" source="eating disorder::Entity::Q373822" target="main subject::Predicate::q37188858-76a39c052199399c8680c38ebdf429db::1" weight="0.4206313490867615" label="10"/>
+      <edge id="14" source="eating disorder::Entity::Q373822" target="ICD-9-CM::Predicate::q373822-40480d511bc473afa02112f0484707c6::2" weight="0.4196591079235077" label="11"/>
+      <edge id="15" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q209522-b2519a5492d330ecbc0a7fa1e307cc7c::3" weight="0.409464031457901" label="12"/>
+      <edge id="16" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q5441238-e4b19bb9d664dc36eb582063b74e7dcf::5" weight="0.40808531641960144" label="13"/>
+      <edge id="17" source="eating disorder::Entity::Q373822" target="health specialty::Predicate::q373822-e6e6615bc831b6d743bb58f46f2b3ab8::2" weight="0.31227976083755493" label="16"/>
+      <edge id="18" source="eating disorder::Entity::Q373822" target="health specialty::Predicate::q373822-f95bddb2694a57577a28ad89d3515933::1" weight="0.30326980352401733" label="17"/>
+      <edge id="19" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q331632-75bc76b8b514bd2bbe34b24b3efdf331::7" weight="0.2720967233181" label="19"/>
+      <edge id="2" source="eating disorder::Entity::Q373822" target="drug used for treatment::Predicate::q373822-f4497ad0b198736e8121f1d80baa25c7::1" weight="0.824374258518219" label="1"/>
+      <edge id="20" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q492054-1abf42e2ed0432e002a1785e645e45f2::2" weight="0.2685178220272064" label="20"/>
+      <edge id="21" source="drug used for treatment::Predicate::q373822-f4497ad0b198736e8121f1d80baa25c7::1" target="sertraline::Entity::Q407617" weight="0.824374258518219" label="1"/>
+      <edge id="22" source="drug used for treatment::Predicate::q373822-86e67983008551fad6effb5ca1a68de2::2" target="paroxetine::Entity::Q408471" weight="0.7971635460853577" label="2"/>
+      <edge id="23" source="possible treatment::Predicate::q373822-e02e67b0ebcfe1ab81f2b8d24c4437cc::1" target="psychotherapy::Entity::Q183257" weight="0.6705836653709412" label="3"/>
+      <edge id="24" source="subclass of::Predicate::q2303219-40fb46f07af4cf56acae54de9b3a28ce::9" target="binge eating::Entity::Q2303219" weight="0.6625208258628845" label="4"/>
+      <edge id="3" source="eating disorder::Entity::Q373822" target="drug used for treatment::Predicate::q373822-86e67983008551fad6effb5ca1a68de2::2" weight="0.7971635460853577" label="2"/>
+      <edge id="4" source="eating disorder::Entity::Q373822" target="instance of::Predicate::q7447762-2d2d16d1b4c1626eb95f74640c8311e4::2" weight="0.286075621843338" label="18"/>
+      <edge id="5" source="eating disorder::Entity::Q373822" target="possible treatment::Predicate::q373822-e02e67b0ebcfe1ab81f2b8d24c4437cc::1" weight="0.6705836653709412" label="3"/>
+      <edge id="6" source="eating disorder::Entity::Q373822" target="medical condition treated::Predicate::q407617-b52285830ff82ee0de3b543a098ead91::1" weight="0.5616620779037476" label="5"/>
+      <edge id="7" source="eating disorder::Entity::Q373822" target="subclass of::Predicate::q2303219-40fb46f07af4cf56acae54de9b3a28ce::9" weight="0.6625208258628845" label="4"/>
+      <edge id="8" source="eating disorder::Entity::Q373822" target="medical condition treated::Predicate::q408471-f644dcd3a288fbfa8bddf9079bdc54f8::2" weight="0.33957624435424805" label="15"/>
+      <edge id="9" source="eating disorder::Entity::Q373822" target="main subject::Predicate::q60626318-fb2c4fd5e8c93c49638f5847521f88f2::3" weight="0.5089440941810608" label="6"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Hans Christian Ørsted::Entity::Q44412" label="Hans Christian Ørsted">
+        <attvalues>
+          <attvalue for="label" value="Hans Christian Ørsted"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Oersted's law::Entity::Q3733130" label="Oersted's law">
+        <attvalues>
+          <attvalue for="label" value="Oersted's law"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="aluminium::Entity::Q663" label="aluminium">
+        <attvalues>
+          <attvalue for="label" value="aluminium"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="discoverer or inventor::Predicate::q3733130-d551cfba1bad79c797f75331219681ae::1" label="discoverer or inventor">
+        <attvalues>
+          <attvalue for="label" value="discoverer or inventor"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="discoverer or inventor::Predicate::q663-a72634e39bfafc887e878c49065c19c3::2" label="discoverer or inventor">
+        <attvalues>
+          <attvalue for="label" value="discoverer or inventor"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="magnetic field strength::Entity::Q28123" label="magnetic field strength">
+        <attvalues>
+          <attvalue for="label" value="magnetic field strength"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="measured physical quantity::Predicate::q844976-715eecb151a2996d4769e8c5159e1bc7::1" label="measured physical quantity">
+        <attvalues>
+          <attvalue for="label" value="measured physical quantity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="measurement scale::Predicate::q28123-38a4fd2ab3bc4c81caceb8ae25d1dd59::1" label="measurement scale">
+        <attvalues>
+          <attvalue for="label" value="measurement scale"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q28123-ec009afef20a039cf906fdf833f42ab9::6" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="oersted::Entity::Q844976" label="oersted">
+        <attvalues>
+          <attvalue for="label" value="oersted"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="oersted::Entity::Q844976" target="measured physical quantity::Predicate::q844976-715eecb151a2996d4769e8c5159e1bc7::1" weight="0.4261362552642822" label="3"/>
+      <edge id="1" source="oersted::Entity::Q844976" target="measurement scale::Predicate::q28123-38a4fd2ab3bc4c81caceb8ae25d1dd59::1" weight="0.008474085479974747" label="19"/>
+      <edge id="2" source="measured physical quantity::Predicate::q844976-715eecb151a2996d4769e8c5159e1bc7::1" target="magnetic field strength::Entity::Q28123" weight="0.4261362552642822" label="3"/>
+      <edge id="3" source="magnetic field strength::Entity::Q28123" target="named after::Predicate::q28123-ec009afef20a039cf906fdf833f42ab9::6" weight="0.013908722437918186" label="16"/>
+      <edge id="4" source="magnetic field strength::Entity::Q28123" target="measurement scale::Predicate::q28123-38a4fd2ab3bc4c81caceb8ae25d1dd59::1" weight="0.008474085479974747" label="19"/>
+      <edge id="5" source="named after::Predicate::q28123-ec009afef20a039cf906fdf833f42ab9::6" target="Hans Christian Ørsted::Entity::Q44412" weight="0.013908722437918186" label="16"/>
+      <edge id="6" source="Hans Christian Ørsted::Entity::Q44412" target="discoverer or inventor::Predicate::q3733130-d551cfba1bad79c797f75331219681ae::1" weight="0.996845543384552" label="1"/>
+      <edge id="7" source="Hans Christian Ørsted::Entity::Q44412" target="discoverer or inventor::Predicate::q663-a72634e39bfafc887e878c49065c19c3::2" weight="0.9837369322776794" label="2"/>
+      <edge id="8" source="discoverer or inventor::Predicate::q3733130-d551cfba1bad79c797f75331219681ae::1" target="Oersted's law::Entity::Q3733130" weight="0.996845543384552" label="1"/>
+      <edge id="9" source="discoverer or inventor::Predicate::q663-a72634e39bfafc887e878c49065c19c3::2" target="aluminium::Entity::Q663" weight="0.9837369322776794" label="2"/>
+    </edges>
+  </graph>
+</gexf>

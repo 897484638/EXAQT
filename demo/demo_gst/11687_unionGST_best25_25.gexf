@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Elizabeth II::Entity::Q9682" label="Elizabeth II">
+        <attvalues>
+          <attvalue for="label" value="Elizabeth II"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="George VI::Entity::Q280856" label="George VI">
+        <attvalues>
+          <attvalue for="label" value="George VI"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="applies to jurisdiction::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" label="applies to jurisdiction">
+        <attvalues>
+          <attvalue for="label" value="applies to jurisdiction"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::10" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q1410-5d95f194e5015228fba2aac4c32b01a9::7" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q21-e91b7130b0fae1b1ee4c7a3def1e13c0::6" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q408-ac341889e5b6b28017b7af7b510c730d::3" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="monarch of Canada::Entity::Q14931511" label="monarch of Canada">
+        <attvalues>
+          <attvalue for="label" value="monarch of Canada"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="monarch of the Dominion of Pakistan::Entity::Q34518933" label="monarch of the Dominion of Pakistan">
+        <attvalues>
+          <attvalue for="label" value="monarch of the Dominion of Pakistan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q280856-ae2ba966699a54627b79a2c5721c97d6::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q280856-bf10bd4b22eeff3a874fbe4c4e390b3a::12" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9682-2e5b05dd5ea2e5078d7d2e31d22810ee::3" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9682-68cfe0676dede9674f0827e65573b1e6::7" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9682-90e724bc52ed10810e0b1fafd6832953::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9682-a179f2014c32337cd545daf8d562f125::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::7" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q280856-7094456d87ecfed11e9a9adbc2f281c0::6" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q280856-ae2ba966699a54627b79a2c5721c97d6::8" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q280856-bf10bd4b22eeff3a874fbe4c4e390b3a::5" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::10" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="head of state::Predicate::q408-ac341889e5b6b28017b7af7b510c730d::3" target="Elizabeth II::Entity::Q9682" weight="0.9990469813346863" label="11"/>
+      <edge id="1" source="Elizabeth II::Entity::Q9682" target="head of state::Predicate::q1410-5d95f194e5015228fba2aac4c32b01a9::7" weight="0.9989504218101501" label="12"/>
+      <edge id="10" source="Elizabeth II::Entity::Q9682" target="position held::Predicate::q9682-68cfe0676dede9674f0827e65573b1e6::7" weight="0.9993574023246765" label="8"/>
+      <edge id="11" source="Elizabeth II::Entity::Q9682" target="position held::Predicate::q9682-90e724bc52ed10810e0b1fafd6832953::5" weight="0.9993295669555664" label="9"/>
+      <edge id="12" source="replaced by::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::7" target="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" weight="0.9997714161872864" label="1"/>
+      <edge id="13" source="replaced by::Predicate::q280856-bf10bd4b22eeff3a874fbe4c4e390b3a::5" target="position held::Predicate::q280856-bf10bd4b22eeff3a874fbe4c4e390b3a::12" weight="0.9997536540031433" label="2"/>
+      <edge id="14" source="replaced by::Predicate::q280856-ae2ba966699a54627b79a2c5721c97d6::8" target="position held::Predicate::q280856-ae2ba966699a54627b79a2c5721c97d6::15" weight="0.9997270703315735" label="3"/>
+      <edge id="15" source="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" target="applies to jurisdiction::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" weight="0.9997052550315857" label="4"/>
+      <edge id="16" source="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" target="end time::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" weight="0.9997052550315857" label="4"/>
+      <edge id="17" source="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" target="monarch of the Dominion of Pakistan::Entity::Q34518933" weight="0.9997052550315857" label="4"/>
+      <edge id="18" source="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" target="replaces::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" weight="0.9997052550315857" label="4"/>
+      <edge id="19" source="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" target="start time::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" weight="0.9997052550315857" label="4"/>
+      <edge id="2" source="Elizabeth II::Entity::Q9682" target="replaced by::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::7" weight="0.9997714161872864" label="1"/>
+      <edge id="20" source="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" target="George VI::Entity::Q280856" weight="0.9997714161872864" label="1"/>
+      <edge id="21" source="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" target="end time::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::10" weight="0.9997714161872864" label="1"/>
+      <edge id="22" source="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" target="monarch of Canada::Entity::Q14931511" weight="0.9997714161872864" label="1"/>
+      <edge id="23" source="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" target="replaces::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::10" weight="0.9997714161872864" label="1"/>
+      <edge id="24" source="position held::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" target="start time::Predicate::q280856-62be433516dfafd7b23e05512d99abb0::14" weight="0.9997714161872864" label="1"/>
+      <edge id="3" source="Elizabeth II::Entity::Q9682" target="replaced by::Predicate::q280856-bf10bd4b22eeff3a874fbe4c4e390b3a::5" weight="0.9997536540031433" label="2"/>
+      <edge id="4" source="Elizabeth II::Entity::Q9682" target="replaced by::Predicate::q280856-ae2ba966699a54627b79a2c5721c97d6::8" weight="0.9997270703315735" label="3"/>
+      <edge id="5" source="Elizabeth II::Entity::Q9682" target="position held::Predicate::q9682-1903c5d1e241fabd8bff7e4eaf784d48::2" weight="0.9997052550315857" label="4"/>
+      <edge id="6" source="Elizabeth II::Entity::Q9682" target="replaced by::Predicate::q280856-7094456d87ecfed11e9a9adbc2f281c0::6" weight="0.9995856881141663" label="5"/>
+      <edge id="7" source="Elizabeth II::Entity::Q9682" target="position held::Predicate::q9682-2e5b05dd5ea2e5078d7d2e31d22810ee::3" weight="0.9995711445808411" label="6"/>
+      <edge id="8" source="Elizabeth II::Entity::Q9682" target="position held::Predicate::q9682-a179f2014c32337cd545daf8d562f125::1" weight="0.9995436072349548" label="7"/>
+      <edge id="9" source="Elizabeth II::Entity::Q9682" target="head of state::Predicate::q21-e91b7130b0fae1b1ee4c7a3def1e13c0::6" weight="0.9984731078147888" label="17"/>
+    </edges>
+  </graph>
+</gexf>

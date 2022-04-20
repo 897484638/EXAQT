@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1882-01-01::Entity::1882-01-01T00:00:00Z" label="1882-01-01">
+        <attvalues>
+          <attvalue for="label" value="1882-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1892-01-01::Entity::1892-01-01T00:00:00Z" label="1892-01-01">
+        <attvalues>
+          <attvalue for="label" value="1892-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dulwich College::Entity::Q1264867" label="Dulwich College">
+        <attvalues>
+          <attvalue for="label" value="Dulwich College" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="G. E. Moore::Entity::Q295386" label="G. E. Moore">
+        <attvalues>
+          <attvalue for="label" value="G. E. Moore" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Trinity College::Entity::Q332342" label="Trinity College">
+        <attvalues>
+          <attvalue for="label" value="Trinity College" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="educated at::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" target="G. E. Moore::Entity::Q295386" weight="0.9995309114456177" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="educated at::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" target="Dulwich College::Entity::Q1264867" weight="0.9995309114456177" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="educated at::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" target="start time::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" weight="0.9995309114456177" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="G. E. Moore::Entity::Q295386" target="educated at::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" weight="0.9928867220878601" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="start time::Predicate::q295386-357dc02d902e6d3d6aec42a466ba000c::2" target="1882-01-01::Entity::1882-01-01T00:00:00Z" weight="0.9995309114456177" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="educated at::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" target="Trinity College::Entity::Q332342" weight="0.9928867220878601" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="educated at::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" target="start time::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" weight="0.9928867220878601" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="start time::Predicate::q295386-ea9b276e2739424cd0b23b1e73d06b6f::1" target="1892-01-01::Entity::1892-01-01T00:00:00Z" weight="0.9928867220878601" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

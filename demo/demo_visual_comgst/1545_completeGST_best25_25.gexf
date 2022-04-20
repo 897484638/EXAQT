@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="72nd Academy Awards::Entity::Q429319" label="72nd Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="72nd Academy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Director::Entity::Q103360" label="Academy Award for Best Director">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Director" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Spike Jonze::Entity::Q259913" label="Spike Jonze">
+        <attvalues>
+          <attvalue for="label" value="Spike Jonze" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Spike Jonze::Entity::Q259913" target="nominated for::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" weight="0.9978423118591309" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="1" source="nominated for::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" target="statement is subject of::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" weight="0.9978423118591309" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="2" source="nominated for::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" target="Academy Award for Best Director::Entity::Q103360" weight="0.9978423118591309" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="statement is subject of::Predicate::q259913-7a33ccf95ba5c5e62d2f11706250e457::1" target="72nd Academy Awards::Entity::Q429319" weight="0.9978423118591309" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

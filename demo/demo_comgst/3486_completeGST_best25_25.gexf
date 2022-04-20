@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Adolf Hitler::Entity::Q352" label="Adolf Hitler">
+        <attvalues>
+          <attvalue for="label" value="Adolf Hitler"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Category:People of World War II::Entity::Q6620691" label="Category:People of World War II">
+        <attvalues>
+          <attvalue for="label" value="Category:People of World War II"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Head of State of Vichy France::Entity::Q19018293" label="Head of State of Vichy France">
+        <attvalues>
+          <attvalue for="label" value="Head of State of Vichy France"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="World War II::Entity::Q362" label="World War II">
+        <attvalues>
+          <attvalue for="label" value="World War II"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="head of state::Entity::Q48352" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="heads of state of Yugoslavia::Entity::Q256036" label="heads of state of Yugoslavia">
+        <attvalues>
+          <attvalue for="label" value="heads of state of Yugoslavia"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" label="is a list of">
+        <attvalues>
+          <attvalue for="label" value="is a list of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="list of heads of state by diplomatic precedence::Entity::Q1852061" label="list of heads of state by diplomatic precedence">
+        <attvalues>
+          <attvalue for="label" value="list of heads of state by diplomatic precedence"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="monarch of the United Kingdom::Entity::Q9134365" label="monarch of the United Kingdom">
+        <attvalues>
+          <attvalue for="label" value="monarch of the United Kingdom"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q19018293-3b87940ad364f88bd855a691462a5582::15" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q256036-89c6f30f4ecc5efe5f80148b4f2923fd::5" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q9134365-66a24491fbfbd137b2c7d1a166cce9b2::8" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="head of state::Entity::Q48352" target="position held::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" weight="0.00525608379393816" label="27"/>
+      <edge id="1" source="head of state::Entity::Q48352" target="subclass of::Predicate::q9134365-66a24491fbfbd137b2c7d1a166cce9b2::8" weight="0.9892605543136597" label="1"/>
+      <edge id="10" source="conflict::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" target="World War II::Entity::Q362" weight="0.9585933089256287" label="26"/>
+      <edge id="11" source="World War II::Entity::Q362" target="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" weight="0.9703561067581177" label="21"/>
+      <edge id="12" source="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" target="Adolf Hitler::Entity::Q352" weight="0.9703561067581177" label="21"/>
+      <edge id="13" source="subclass of::Predicate::q9134365-66a24491fbfbd137b2c7d1a166cce9b2::8" target="monarch of the United Kingdom::Entity::Q9134365" weight="0.9892605543136597" label="1"/>
+      <edge id="14" source="subclass of::Predicate::q19018293-3b87940ad364f88bd855a691462a5582::15" target="Head of State of Vichy France::Entity::Q19018293" weight="0.9887039065361023" label="2"/>
+      <edge id="15" source="subclass of::Predicate::q256036-89c6f30f4ecc5efe5f80148b4f2923fd::5" target="heads of state of Yugoslavia::Entity::Q256036" weight="0.9875139594078064" label="3"/>
+      <edge id="2" source="head of state::Entity::Q48352" target="subclass of::Predicate::q19018293-3b87940ad364f88bd855a691462a5582::15" weight="0.9887039065361023" label="2"/>
+      <edge id="3" source="head of state::Entity::Q48352" target="subclass of::Predicate::q256036-89c6f30f4ecc5efe5f80148b4f2923fd::5" weight="0.9875139594078064" label="3"/>
+      <edge id="4" source="position held::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" target="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" weight="0.00525608379393816" label="27"/>
+      <edge id="5" source="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" target="human::Entity::Q5" weight="0.00525608379393816" label="27"/>
+      <edge id="6" source="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" target="list of heads of state by diplomatic precedence::Entity::Q1852061" weight="0.00525608379393816" label="27"/>
+      <edge id="7" source="human::Entity::Q5" target="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" weight="0.9585933089256287" label="26"/>
+      <edge id="8" source="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" target="conflict::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" weight="0.9585933089256287" label="26"/>
+      <edge id="9" source="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" target="Category:People of World War II::Entity::Q6620691" weight="0.9585933089256287" label="26"/>
+    </edges>
+  </graph>
+</gexf>

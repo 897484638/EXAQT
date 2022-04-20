@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Atlanta Falcons::Entity::Q272059" label="Atlanta Falcons">
+        <attvalues>
+          <attvalue for="label" value="Atlanta Falcons"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Matt Ryan::Entity::Q984327" label="Matt Ryan">
+        <attvalues>
+          <attvalue for="label" value="Matt Ryan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q984327-dec96f70b28236b21bd94620b0987fe6::5" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q984327-dc1877d91b8b45b136e0ef3b60417566::17" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="quarterback::Entity::Q622747" label="quarterback">
+        <attvalues>
+          <attvalue for="label" value="quarterback"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q984327-dc1877d91b8b45b136e0ef3b60417566::17" weight="0.9800644516944885" label="1"/>
+      <edge id="1" source="position played on team / speciality::Predicate::q984327-dc1877d91b8b45b136e0ef3b60417566::17" target="Matt Ryan::Entity::Q984327" weight="0.9800644516944885" label="1"/>
+      <edge id="2" source="Matt Ryan::Entity::Q984327" target="member of sports team::Predicate::q984327-dec96f70b28236b21bd94620b0987fe6::5" weight="0.9680091738700867" label="10"/>
+      <edge id="3" source="member of sports team::Predicate::q984327-dec96f70b28236b21bd94620b0987fe6::5" target="Atlanta Falcons::Entity::Q272059" weight="0.9680091738700867" label="10"/>
+    </edges>
+  </graph>
+</gexf>

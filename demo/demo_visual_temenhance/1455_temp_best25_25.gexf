@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1994-01-01::Entity::1994-01-01T00:00:00Z" label="1994-01-01">
+        <attvalues>
+          <attvalue for="label" value="1994-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2002-01-01::Entity::2002-01-01T00:00:00Z" label="2002-01-01">
+        <attvalues>
+          <attvalue for="label" value="2002-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2002-08-23::Entity::2002-08-23T00:00:00Z" label="2002-08-23">
+        <attvalues>
+          <attvalue for="label" value="2002-08-23"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2015-09-14::Entity::2015-09-14T00:00:00Z" label="2015-09-14">
+        <attvalues>
+          <attvalue for="label" value="2015-09-14"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gravitational wave::Entity::Q190035" label="Gravitational wave">
+        <attvalues>
+          <attvalue for="label" value="Gravitational wave"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Laser Interferometer Gravitational-Wave Observatory::Entity::Q255371" label="Laser Interferometer Gravitational-Wave Observatory">
+        <attvalues>
+          <attvalue for="label" value="Laser Interferometer Gravitational-Wave Observatory"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="construction::Entity::Q385378" label="construction">
+        <attvalues>
+          <attvalue for="label" value="construction"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="detection::Entity::Q5720030" label="detection">
+        <attvalues>
+          <attvalue for="label" value="detection"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q255371-1e65177159a7b97f81212537456555b8::T-0" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="facet of::Predicate::q2302080-bc6479e86112df64de1c44ac683d2b12::1" label="facet of">
+        <attvalues>
+          <attvalue for="label" value="facet of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="gravitational wave event::Entity::Q24748034" label="gravitational wave event">
+        <attvalues>
+          <attvalue for="label" value="gravitational wave event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="gravitational-wave detector::Entity::Q2302080" label="gravitational-wave detector">
+        <attvalues>
+          <attvalue for="label" value="gravitational-wave detector"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="has quality::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" label="has quality">
+        <attvalues>
+          <attvalue for="label" value="has quality"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q255371-7c4cdaceba607700f50972914aa3566e::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="made from material::Predicate::q190035-efdb02be19f8d67a6dc620a77e451bcc::1" label="made from material">
+        <attvalues>
+          <attvalue for="label" value="made from material"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="objective of project or action::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" label="objective of project or action">
+        <attvalues>
+          <attvalue for="label" value="objective of project or action"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q190035-1207ae468c491cbe687642575707af6f::1" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="service entry::Predicate::q255371-317f2bba41e2f03c7deb8d7c199883c1::T-0" label="service entry">
+        <attvalues>
+          <attvalue for="label" value="service entry"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="spacetime::Entity::Q133327" label="spacetime">
+        <attvalues>
+          <attvalue for="label" value="spacetime"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q255371-1e65177159a7b97f81212537456555b8::T-0" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="success::Entity::Q7632586" label="success">
+        <attvalues>
+          <attvalue for="label" value="success"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="time of discovery or invention::Predicate::q190035-1a2c115ebbdaaf95e350620a3a9aaafd::T-0" label="time of discovery or invention">
+        <attvalues>
+          <attvalue for="label" value="time of discovery or invention"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="time of discovery or invention::Predicate::q24748034-f53ca1ba893a12c3d11174e047e7f93b::T-1" label="time of discovery or invention">
+        <attvalues>
+          <attvalue for="label" value="time of discovery or invention"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1"/>
+      <edge id="1" source="start time::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="1994-01-01::Entity::1994-01-01T00:00:00Z"/>
+      <edge id="10" source="instance of::Predicate::q255371-7c4cdaceba607700f50972914aa3566e::1" target="gravitational-wave detector::Entity::Q2302080"/>
+      <edge id="11" source="gravitational-wave detector::Entity::Q2302080" target="facet of::Predicate::q2302080-bc6479e86112df64de1c44ac683d2b12::1"/>
+      <edge id="12" source="facet of::Predicate::q2302080-bc6479e86112df64de1c44ac683d2b12::1" target="Gravitational wave::Entity::Q190035"/>
+      <edge id="13" source="Gravitational wave::Entity::Q190035" target="made from material::Predicate::q190035-efdb02be19f8d67a6dc620a77e451bcc::1"/>
+      <edge id="14" source="Gravitational wave::Entity::Q190035" target="part of::Predicate::q190035-1207ae468c491cbe687642575707af6f::1"/>
+      <edge id="15" source="Gravitational wave::Entity::Q190035" target="time of discovery or invention::Predicate::q190035-1a2c115ebbdaaf95e350620a3a9aaafd::T-0"/>
+      <edge id="16" source="spacetime::Entity::Q133327" target="made from material::Predicate::q190035-efdb02be19f8d67a6dc620a77e451bcc::1"/>
+      <edge id="17" source="spacetime::Entity::Q133327" target="part of::Predicate::q190035-1207ae468c491cbe687642575707af6f::1"/>
+      <edge id="18" source="1994-01-01::Entity::1994-01-01T00:00:00Z" target="start time::Predicate::q255371-1e65177159a7b97f81212537456555b8::T-0"/>
+      <edge id="19" source="end time::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="2002-01-01::Entity::2002-01-01T00:00:00Z"/>
+      <edge id="2" source="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="Laser Interferometer Gravitational-Wave Observatory::Entity::Q255371"/>
+      <edge id="20" source="2002-01-01::Entity::2002-01-01T00:00:00Z" target="end time::Predicate::q255371-1e65177159a7b97f81212537456555b8::T-0"/>
+      <edge id="21" source="objective of project or action::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" target="detection::Entity::Q5720030"/>
+      <edge id="22" source="objective of project or action::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" target="has quality::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1"/>
+      <edge id="23" source="objective of project or action::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" target="of::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1"/>
+      <edge id="24" source="has quality::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" target="success::Entity::Q7632586"/>
+      <edge id="25" source="of::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1" target="gravitational wave event::Entity::Q24748034"/>
+      <edge id="26" source="gravitational wave event::Entity::Q24748034" target="time of discovery or invention::Predicate::q24748034-f53ca1ba893a12c3d11174e047e7f93b::T-1"/>
+      <edge id="27" source="service entry::Predicate::q255371-317f2bba41e2f03c7deb8d7c199883c1::T-0" target="2002-08-23::Entity::2002-08-23T00:00:00Z"/>
+      <edge id="28" source="time of discovery or invention::Predicate::q190035-1a2c115ebbdaaf95e350620a3a9aaafd::T-0" target="2015-09-14::Entity::2015-09-14T00:00:00Z"/>
+      <edge id="29" source="2015-09-14::Entity::2015-09-14T00:00:00Z" target="time of discovery or invention::Predicate::q24748034-f53ca1ba893a12c3d11174e047e7f93b::T-1"/>
+      <edge id="3" source="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="construction::Entity::Q385378"/>
+      <edge id="4" source="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="end time::Predicate::q255371-1e65177159a7b97f81212537456555b8::1"/>
+      <edge id="5" source="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="start time::Predicate::q255371-1e65177159a7b97f81212537456555b8::T-0"/>
+      <edge id="6" source="significant event::Predicate::q255371-1e65177159a7b97f81212537456555b8::1" target="end time::Predicate::q255371-1e65177159a7b97f81212537456555b8::T-0"/>
+      <edge id="7" source="Laser Interferometer Gravitational-Wave Observatory::Entity::Q255371" target="instance of::Predicate::q255371-7c4cdaceba607700f50972914aa3566e::1"/>
+      <edge id="8" source="Laser Interferometer Gravitational-Wave Observatory::Entity::Q255371" target="objective of project or action::Predicate::q255371-68e17548f4f130a02e2c6f118aa95e27::1"/>
+      <edge id="9" source="Laser Interferometer Gravitational-Wave Observatory::Entity::Q255371" target="service entry::Predicate::q255371-317f2bba41e2f03c7deb8d7c199883c1::T-0"/>
+    </edges>
+  </graph>
+</gexf>

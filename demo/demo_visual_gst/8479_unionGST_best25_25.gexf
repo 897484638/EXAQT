@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="AT&amp;T Stadium::Entity::Q838284" label="AT&amp;T Stadium">
+        <attvalues>
+          <attvalue for="label" value="AT&amp;T Stadium" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Dallas Cowboys::Entity::Q204862" label="Dallas Cowboys">
+        <attvalues>
+          <attvalue for="label" value="Dallas Cowboys" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl XXVII::Entity::Q1463422" label="Super Bowl XXVII">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XXVII" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl XXVIII::Entity::Q621500" label="Super Bowl XXVIII">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl XXVIII" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Super Bowl::Entity::Q32096" label="Super Bowl">
+        <attvalues>
+          <attvalue for="label" value="Super Bowl" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="applies to part::Predicate::q838284-7e7bad76d6082c3fc76ea53d781aea4c::1" label="applies to part">
+        <attvalues>
+          <attvalue for="label" value="applies to part" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q597314-34ac3fa91c913964ca258d5a9dfa0429::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q597607-9efc5e241bd13697160132ad2abaf7b8::8" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="maximum capacity::Predicate::q838284-7e7bad76d6082c3fc76ea53d781aea4c::1" label="maximum capacity">
+        <attvalues>
+          <attvalue for="label" value="maximum capacity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q1463422-74758b152a66d7fd455e94acf031b212::6" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q621500-735eb474395d7305a40451f3ae485148::2" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="occupant::Predicate::q838284-cc89501adf4c79765fc6c3a32095f778::1" label="occupant">
+        <attvalues>
+          <attvalue for="label" value="occupant" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1064741-68a7ff793482d4e1b4b7cf40d51146d1::7" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1064741-ba1bbeebee0cdd3cb49b5294eeaf6d5d::8" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1065229-3a5a402d5dd997ab0a060da767606578::6" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1065229-e8c9f2883ea32b4f0ae87bbd3f0c3492::5" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1463422-05c4b40beabc221300381651eb0152a6::9" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q1463422-74758b152a66d7fd455e94acf031b212::10" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q620277-3a02e1bb8a35eb41ae3b46c0811916cd::4" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q621500-6b25cc03384b48be559309b1431785cc::2" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q621500-735eb474395d7305a40451f3ae485148::3" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q632774-2a32247dc8bdc7c79dd718c8a0d560bc::12" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q632774-8b64001e59b929e283c7f3b21cf5a5d0::11" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1065229-107e72a025b869ddac05a7f3ff2181ae::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1463422-838732513c4994d86a29c66da85c6da2::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q621500-1f5b0c41a34a39c130cdb5060099b2b3::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="winner::Predicate::q1463422-838732513c4994d86a29c66da85c6da2::3" target="Dallas Cowboys::Entity::Q204862" weight="0.9984623193740845" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="winner::Predicate::q1463422-838732513c4994d86a29c66da85c6da2::3" target="Super Bowl XXVII::Entity::Q1463422" weight="0.9984623193740845" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="10" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1065229-3a5a402d5dd997ab0a060da767606578::6" weight="0.9987049102783203" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q620277-3a02e1bb8a35eb41ae3b46c0811916cd::4" weight="0.9985608458518982" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q632774-2a32247dc8bdc7c79dd718c8a0d560bc::12" weight="0.998375415802002" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1064741-68a7ff793482d4e1b4b7cf40d51146d1::7" weight="0.9982860684394836" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1064741-ba1bbeebee0cdd3cb49b5294eeaf6d5d::8" weight="0.9981608986854553" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q632774-8b64001e59b929e283c7f3b21cf5a5d0::11" weight="0.998082160949707" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="occupant::Predicate::q838284-cc89501adf4c79765fc6c3a32095f778::1" target="AT&amp;T Stadium::Entity::Q838284" weight="0.004299657419323921" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="AT&amp;T Stadium::Entity::Q838284" target="maximum capacity::Predicate::q838284-7e7bad76d6082c3fc76ea53d781aea4c::1" weight="0.007090658415108919" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Super Bowl::Entity::Q32096" target="applies to part::Predicate::q838284-7e7bad76d6082c3fc76ea53d781aea4c::1" weight="0.007090658415108919" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="Super Bowl::Entity::Q32096" target="instance of::Predicate::q597314-34ac3fa91c913964ca258d5a9dfa0429::2" weight="0.9980804920196533" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Dallas Cowboys::Entity::Q204862" target="occupant::Predicate::q838284-cc89501adf4c79765fc6c3a32095f778::1" weight="0.004299657419323921" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="Super Bowl::Entity::Q32096" target="instance of::Predicate::q597607-9efc5e241bd13697160132ad2abaf7b8::8" weight="0.997999370098114" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="applies to part::Predicate::q838284-7e7bad76d6082c3fc76ea53d781aea4c::1" target="maximum capacity::Predicate::q838284-7e7bad76d6082c3fc76ea53d781aea4c::1" weight="0.007090658415108919" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="participating team::Predicate::q621500-6b25cc03384b48be559309b1431785cc::2" target="Super Bowl XXVIII::Entity::Q621500" weight="0.9991453886032104" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="participating team::Predicate::q621500-735eb474395d7305a40451f3ae485148::3" target="number of points/goals/set scored::Predicate::q621500-735eb474395d7305a40451f3ae485148::2" weight="0.9991119503974915" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="participating team::Predicate::q1463422-74758b152a66d7fd455e94acf031b212::10" target="number of points/goals/set scored::Predicate::q1463422-74758b152a66d7fd455e94acf031b212::6" weight="0.9990302324295044" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="Dallas Cowboys::Entity::Q204862" target="winner::Predicate::q621500-1f5b0c41a34a39c130cdb5060099b2b3::1" weight="0.9983286261558533" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="Dallas Cowboys::Entity::Q204862" target="winner::Predicate::q1065229-107e72a025b869ddac05a7f3ff2181ae::2" weight="0.9981598258018494" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q621500-6b25cc03384b48be559309b1431785cc::2" weight="0.9991453886032104" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q621500-735eb474395d7305a40451f3ae485148::3" weight="0.9991119503974915" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1463422-05c4b40beabc221300381651eb0152a6::9" weight="0.9990373849868774" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1463422-74758b152a66d7fd455e94acf031b212::10" weight="0.9990302324295044" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="9" source="Dallas Cowboys::Entity::Q204862" target="participating team::Predicate::q1065229-e8c9f2883ea32b4f0ae87bbd3f0c3492::5" weight="0.9988510608673096" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+    </edges>
+  </graph>
+</gexf>

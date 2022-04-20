@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1956-01-01::Entity::1956-01-01T00:00:00Z" label="1956-01-01">
+        <attvalues>
+          <attvalue for="label" value="1956-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1960-01-01::Entity::1960-01-01T00:00:00Z" label="1960-01-01">
+        <attvalues>
+          <attvalue for="label" value="1960-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1970-01-01::Entity::1970-01-01T00:00:00Z" label="1970-01-01">
+        <attvalues>
+          <attvalue for="label" value="1970-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Michael Caine::Entity::Q123351" label="Michael Caine">
+        <attvalues>
+          <attvalue for="label" value="Michael Caine" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Windsor, Berkshire::Entity::Q464955" label="Windsor, Berkshire">
+        <attvalues>
+          <attvalue for="label" value="Windsor, Berkshire" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q123351-0551f45784ffd1c01d5b30b1970278e2::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::2" target="residence::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::1" weight="0.9994387030601501" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="end time::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::2" target="1970-01-01::Entity::1970-01-01T00:00:00Z" weight="0.9994387030601501" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="residence::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::1" target="Michael Caine::Entity::Q123351" weight="0.9994387030601501" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="residence::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::1" target="Windsor, Berkshire::Entity::Q464955" weight="0.9994387030601501" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="residence::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::1" target="start time::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::3" weight="0.9994387030601501" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Michael Caine::Entity::Q123351" target="work period (start)::Predicate::q123351-0551f45784ffd1c01d5b30b1970278e2::1" weight="0.002002188703045249" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="work period (start)::Predicate::q123351-0551f45784ffd1c01d5b30b1970278e2::1" target="1956-01-01::Entity::1956-01-01T00:00:00Z" weight="0.002002188703045249" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="start time::Predicate::q123351-e52796b3d2d7459a6783522e110273d2::3" target="1960-01-01::Entity::1960-01-01T00:00:00Z" weight="0.9994387030601501" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1977-01-01::Entity::1977-01-01T00:00:00Z" label="1977-01-01">
+        <attvalues>
+          <attvalue for="label" value="1977-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ardon Windows::Entity::Q12407522" label="Ardon Windows">
+        <attvalues>
+          <attvalue for="label" value="Ardon Windows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Evergreen State College::Entity::Q941731" label="Evergreen State College">
+        <attvalues>
+          <attvalue for="label" value="Evergreen State College" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Lincoln High School::Entity::Q6550727" label="Lincoln High School">
+        <attvalues>
+          <attvalue for="label" value="Lincoln High School" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Matt Groening::Entity::Q43994" label="Matt Groening">
+        <attvalues>
+          <attvalue for="label" value="Matt Groening" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q43994-f57337095438aaadd7f63da3ac026c3a::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="end time::Entity::Q185985" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="main subject::Predicate::q12407522-d051d6382c269ed470e97c76504b6e77::1" label="main subject">
+        <attvalues>
+          <attvalue for="label" value="main subject" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Entity::Q185985" target="main subject::Predicate::q12407522-d051d6382c269ed470e97c76504b6e77::1" weight="0.0026939562521874905" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="main subject::Predicate::q12407522-d051d6382c269ed470e97c76504b6e77::1" target="Ardon Windows::Entity::Q12407522" weight="0.0026939562521874905" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="end time::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" target="educated at::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" weight="0.9994434714317322" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="end time::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" target="1977-01-01::Entity::1977-01-01T00:00:00Z" weight="0.9994434714317322" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="educated at::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" target="Matt Groening::Entity::Q43994" weight="0.9994434714317322" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="educated at::Predicate::q43994-5ed429634a055fc15c0106530194a3b1::1" target="Evergreen State College::Entity::Q941731" weight="0.9994434714317322" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Matt Groening::Entity::Q43994" target="educated at::Predicate::q43994-f57337095438aaadd7f63da3ac026c3a::2" weight="0.8375930190086365" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="educated at::Predicate::q43994-f57337095438aaadd7f63da3ac026c3a::2" target="Lincoln High School::Entity::Q6550727" weight="0.8375930190086365" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

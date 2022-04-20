@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="0100-01-01::Entity::0100-01-01T00:00:00Z" label="0100-01-01">
+        <attvalues>
+          <attvalue for="label" value="0100-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1244-01-01::Entity::1244-01-01T00:00:00Z" label="1244-01-01">
+        <attvalues>
+          <attvalue for="label" value="1244-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1334-12-12::Entity::1334-12-12T00:00:00Z" label="1334-12-12">
+        <attvalues>
+          <attvalue for="label" value="1334-12-12" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="John XXIII::Entity::Q23873" label="John XXIII">
+        <attvalues>
+          <attvalue for="label" value="John XXIII" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="John the Apostle::Entity::Q44015" label="John the Apostle">
+        <attvalues>
+          <attvalue for="label" value="John the Apostle" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Pope John XXII::Entity::Q165568" label="Pope John XXII">
+        <attvalues>
+          <attvalue for="label" value="Pope John XXII" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Pope::Entity::Q19546" label="Pope">
+        <attvalues>
+          <attvalue for="label" value="Pope" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q165568-6e5701628b2d699b887a60a566cebf22::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="patron saint::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::1" label="patron saint">
+        <attvalues>
+          <attvalue for="label" value="patron saint" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q161740-c567b4f6c680e90acd8a4ac05b74a552::13" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q165568-169d4ac4619336d5a18ae36d39a34ea1::3" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q178799-1be6731236d05e706f951dd0725c59eb::12" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q179702-85de4e94bb61f83c2c6b3e18f000d858::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q227978-6921d056cc8684568ab19bfd5fd740ba::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q2604-93856467a612acce9aa66dab74d1017b::19" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::18" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement with Gregorian date earlier than 1584::Entity::Q26961029" label="statement with Gregorian date earlier than 1584">
+        <attvalues>
+          <attvalue for="label" value="statement with Gregorian date earlier than 1584" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Pope::Entity::Q19546" target="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="1" source="Pope::Entity::Q19546" target="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" target="replaced by::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="11" source="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" target="replaces::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="12" source="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" target="series ordinal::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="13" source="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" target="start time::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="14" source="Pope John XXII::Entity::Q165568" target="date of birth::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::1" weight="0.9934149980545044" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="Pope John XXII::Entity::Q165568" target="date of death::Predicate::q165568-6e5701628b2d699b887a60a566cebf22::2" weight="0.9979179501533508" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="Pope John XXII::Entity::Q165568" target="position held::Predicate::q165568-169d4ac4619336d5a18ae36d39a34ea1::3" weight="0.9926431775093079" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="date of birth::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::1" target="instance of::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::2" weight="0.9934149980545044" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="18" source="date of birth::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::1" target="1244-01-01::Entity::1244-01-01T00:00:00Z" weight="0.9934149980545044" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="19" source="instance of::Predicate::q165568-d2b87c4111c49a32f7b6e537ce925dba::2" target="statement with Gregorian date earlier than 1584::Entity::Q26961029" weight="0.9934149980545044" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Pope::Entity::Q19546" target="position held::Predicate::q165568-169d4ac4619336d5a18ae36d39a34ea1::3" weight="0.9926431775093079" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="statement with Gregorian date earlier than 1584::Entity::Q26961029" target="instance of::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" weight="0.994971752166748" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="instance of::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" target="date of death::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" weight="0.994971752166748" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="22" source="date of death::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" target="John the Apostle::Entity::Q44015" weight="0.994971752166748" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="23" source="date of death::Predicate::q44015-6dc919d3a2addea0099a9d97bedf4302::1" target="0100-01-01::Entity::0100-01-01T00:00:00Z" weight="0.994971752166748" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="24" source="date of death::Predicate::q165568-6e5701628b2d699b887a60a566cebf22::2" target="1334-12-12::Entity::1334-12-12T00:00:00Z" weight="0.9979179501533508" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="John XXIII::Entity::Q23873" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="26" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="end time::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="27" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="patron saint::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::1" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="28" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="replaced by::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="29" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="replaces::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Pope::Entity::Q19546" target="position held::Predicate::q227978-6921d056cc8684568ab19bfd5fd740ba::5" weight="0.9941478967666626" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="30" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="series ordinal::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::18" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="31" source="position held::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" target="start time::Predicate::q23873-f7afcd540a7f8604388f520b46a41a4d::20" weight="0.996659517288208" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="Pope::Entity::Q19546" target="position held::Predicate::q161740-c567b4f6c680e90acd8a4ac05b74a552::13" weight="0.9938954710960388" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="Pope::Entity::Q19546" target="position held::Predicate::q179702-85de4e94bb61f83c2c6b3e18f000d858::15" weight="0.9936540126800537" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Pope::Entity::Q19546" target="position held::Predicate::q178799-1be6731236d05e706f951dd0725c59eb::12" weight="0.9936155080795288" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Pope::Entity::Q19546" target="position held::Predicate::q2604-93856467a612acce9aa66dab74d1017b::19" weight="0.993557870388031" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" target="Pope John XXII::Entity::Q165568" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="position held::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" target="end time::Predicate::q165568-e75cb07310376e234d19644e4b17e907::2" weight="0.9950752854347229" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

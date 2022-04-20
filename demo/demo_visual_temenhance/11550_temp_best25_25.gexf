@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2003-06-23::Entity::2003-06-23T00:00:00Z" label="2003-06-23">
+        <attvalues>
+          <attvalue for="label" value="2003-06-23"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Death spiral::Entity::Q67403332" label="Death spiral">
+        <attvalues>
+          <attvalue for="label" value="Death spiral"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Second Life::Entity::Q106827" label="Second Life">
+        <attvalues>
+          <attvalue for="label" value="Second Life"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Video game::Entity::Q7889" label="Video game">
+        <attvalues>
+          <attvalue for="label" value="Video game"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="game mechanic::Entity::Q1751513" label="game mechanic">
+        <attvalues>
+          <attvalue for="label" value="game mechanic"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="game mode::Predicate::q106827-9ff77a1a6fb7c1c1bcc8e75fac1d0e60::1" label="game mode">
+        <attvalues>
+          <attvalue for="label" value="game mode"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q106827-da6fa1a99cb73547054d66d1559f49d9::22" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q67403332-812921b96040b550d444be97b915f943::11" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="multiplayer video game::Entity::Q6895044" label="multiplayer video game">
+        <attvalues>
+          <attvalue for="label" value="multiplayer video game"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q106827-19f87086a70d763914941a1d9cb099f5::T-0" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="game mechanic::Entity::Q1751513" target="instance of::Predicate::q67403332-812921b96040b550d444be97b915f943::11"/>
+      <edge id="1" source="instance of::Predicate::q67403332-812921b96040b550d444be97b915f943::11" target="Death spiral::Entity::Q67403332"/>
+      <edge id="2" source="game mode::Predicate::q106827-9ff77a1a6fb7c1c1bcc8e75fac1d0e60::1" target="Second Life::Entity::Q106827"/>
+      <edge id="3" source="game mode::Predicate::q106827-9ff77a1a6fb7c1c1bcc8e75fac1d0e60::1" target="multiplayer video game::Entity::Q6895044"/>
+      <edge id="4" source="Second Life::Entity::Q106827" target="instance of::Predicate::q106827-da6fa1a99cb73547054d66d1559f49d9::22"/>
+      <edge id="5" source="Second Life::Entity::Q106827" target="publication date::Predicate::q106827-19f87086a70d763914941a1d9cb099f5::T-0"/>
+      <edge id="6" source="instance of::Predicate::q106827-da6fa1a99cb73547054d66d1559f49d9::22" target="Video game::Entity::Q7889"/>
+      <edge id="7" source="publication date::Predicate::q106827-19f87086a70d763914941a1d9cb099f5::T-0" target="2003-06-23::Entity::2003-06-23T00:00:00Z"/>
+    </edges>
+  </graph>
+</gexf>

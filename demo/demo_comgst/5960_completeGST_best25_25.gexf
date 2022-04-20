@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+5.353::Entity::+5.353" label="+5.353">
+        <attvalues>
+          <attvalue for="label" value="+5.353"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Amhara people::Entity::Q464237" label="Amhara people">
+        <attvalues>
+          <attvalue for="label" value="Amhara people"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Ethiopia::Entity::Q115" label="Ethiopia">
+        <attvalues>
+          <attvalue for="label" value="Ethiopia"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Hadiya people::Entity::Q16930512" label="Hadiya people">
+        <attvalues>
+          <attvalue for="label" value="Hadiya people"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Somalis::Entity::Q241696" label="Somalis">
+        <attvalues>
+          <attvalue for="label" value="Somalis"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="ethnic group::Predicate::q115-899b6eea8ff9fd3a72ea56b1d15ea6ce::2" label="ethnic group">
+        <attvalues>
+          <attvalue for="label" value="ethnic group"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="ethnic group::Predicate::q115-9953bee3e076c294d840d0dd5d466d09::3" label="ethnic group">
+        <attvalues>
+          <attvalue for="label" value="ethnic group"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="ethnic group::Predicate::q115-b37d4456b9fffa6d9dfc08d1c13d8009::8" label="ethnic group">
+        <attvalues>
+          <attvalue for="label" value="ethnic group"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="total fertility rate::Predicate::q115-65aac8142f76f61ad970a8fe7ee4e401::8" label="total fertility rate">
+        <attvalues>
+          <attvalue for="label" value="total fertility rate"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Ethiopia::Entity::Q115" target="ethnic group::Predicate::q115-9953bee3e076c294d840d0dd5d466d09::3" weight="0.9841641783714294" label="1"/>
+      <edge id="1" source="Ethiopia::Entity::Q115" target="ethnic group::Predicate::q115-899b6eea8ff9fd3a72ea56b1d15ea6ce::2" weight="0.9833711385726929" label="2"/>
+      <edge id="2" source="Ethiopia::Entity::Q115" target="ethnic group::Predicate::q115-b37d4456b9fffa6d9dfc08d1c13d8009::8" weight="0.9826344847679138" label="3"/>
+      <edge id="3" source="Ethiopia::Entity::Q115" target="total fertility rate::Predicate::q115-65aac8142f76f61ad970a8fe7ee4e401::8" weight="0.9825252294540405" label="4"/>
+      <edge id="4" source="ethnic group::Predicate::q115-9953bee3e076c294d840d0dd5d466d09::3" target="Somalis::Entity::Q241696" weight="0.9841641783714294" label="1"/>
+      <edge id="5" source="ethnic group::Predicate::q115-899b6eea8ff9fd3a72ea56b1d15ea6ce::2" target="Amhara people::Entity::Q464237" weight="0.9833711385726929" label="2"/>
+      <edge id="6" source="ethnic group::Predicate::q115-b37d4456b9fffa6d9dfc08d1c13d8009::8" target="Hadiya people::Entity::Q16930512" weight="0.9826344847679138" label="3"/>
+      <edge id="7" source="total fertility rate::Predicate::q115-65aac8142f76f61ad970a8fe7ee4e401::8" target="+5.353::Entity::+5.353" weight="0.9825252294540405" label="4"/>
+    </edges>
+  </graph>
+</gexf>

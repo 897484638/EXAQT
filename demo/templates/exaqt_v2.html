@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon"/>
+    <title>EXAQT</title>
+    <meta name="description"
+          content="Exaqt answers natural language questions over KGs in two stages, one geared towards high recall, the other towards precision at top ranks.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="../static/css/template.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="../static/js/echarts.js"></script>
+    <!-- <script type="text/javascript" src="../static/js/jquery-3.3.1.js"></script> -->
+    <script type="text/javascript" src="../static/js/dataTool.js"></script>
+    <script type="text/javascript" src="../static/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/exaqt_v2.js"></script>
+    <script src="https://kit.fontawesome.com/72337a11f7.js" crossorigin="anonymous"></script>
+    <style>
+        .input-group-btn {
+            position: relative;
+        }
+
+        .input-group-btn:hover .tips {
+            display: flex;
+        }
+
+        .tips {
+            padding: 4px;
+            width: 80px;
+            text-align: center;
+            border-radius: 6px;
+            background: #333;
+            color: #fff;
+            position: absolute;
+            bottom: -56px;
+            left: -25px;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            display: none;
+        }
+
+        .tips:after {
+            content: '';
+            position: absolute;
+            border-width: 10px;
+            border-color: transparent;
+            border-style: solid;
+            border-bottom-color: #333;
+            top: -19px;
+        }
+
+        .answer_item {
+            text-align: left;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        @media (min-width: 992px) {
+            .navbar li {
+                margin-left: 1em;
+                margin-right: 1em;
+            }
+        }
+
+        /*.question_list, #form-select {*/
+        /*    display: none;*/
+        /*}*/
+
+        .form-select {
+            display: block;
+            width: 100%;
+            padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+            -moz-padding-start: calc(0.75rem - 3px);
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-position: right 0.75rem center;
+            background-size: 16px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+        }
+
+        .select {
+            height: 40px;
+            position: relative;
+        }
+
+        .select input {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .select_down {
+            width: 30px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 8;
+        }
+
+        .select_down:hover {
+            cursor: pointer;
+        }
+
+        .select_down svg :hover {
+            cursor: pointer;
+        }
+
+
+        .select_ops {
+            position: absolute;
+            width: 100%;
+            /*height: 200px;*/
+            height: 450px;
+            overflow-y: auto;
+            top: 40px;
+            left: 0;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            display: none;
+        }
+
+        .select_ops_active {
+            color: #3399ff;
+        }
+
+        .select_ops > div {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .select_ops > div:hover {
+            color: #fff;
+            background: #3399ff;
+        }
+
+        #input {
+            padding: 0 30px 0 10px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- GROUP PAGE -->
+    <a class="navbar-brand"
+       href="https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/question-answering/"
+       style="color: #fff;">QA@MPII-D5</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse-1"
+            aria-controls="bs-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="navbar-nav">
+            <!-- SIMPLE QUESTIONS -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-check"></span>
+                    Simple QA
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://quint.mpi-inf.mpg.de">QUINT (EMNLP 2017)</a>
+                </div>
+            </li>
+            <!-- COMPLEX QUESTIONS -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-check"></span>
+                    Complex QA
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://quest.mpi-inf.mpg.de">QUEST (SIGIR 2019)</a>
+                    <a class="dropdown-item" href="https://clocq.mpi-inf.mpg.de">CLOCQ (WSDM 2022)</a>
+                </div>
+            </li>
+            <!-- TEMPORAL QUESTIONS -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-time"></span>
+                    Temporal QA
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://tequila.mpi-inf.mpg.de">TEQUILA (CIKM 2018)</a>
+                    <a class="dropdown-item" href="https://exaqt.mpi-inf.mpg.de">EXAQT (CIKM 2021)</a>
+                </div>
+            </li>
+            <!-- HETEROGENEOUS QA -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-time"></span>
+                    Heterogeneous QA
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://uniqorn.mpi-inf.mpg.de">UNIQORN (arXiv 2021)</a>
+                </div>
+            </li>
+            <!-- CONVQA -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-time"></span>
+                    Conversational QA
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://convex.mpi-inf.mpg.de">CONVEX (CIKM 2019)</a>
+                    <a class="dropdown-item" href="https://crown.mpi-inf.mpg.de">CROWN (SIGIR 2020)</a>
+                    <a class="dropdown-item" href="https://conquer.mpi-inf.mpg.de">CONQUER (SIGIR 2021)</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row banner">
+        <div class="col-lg-12">
+            <h1 class="headline">EXAQT + TimeQuestions</h1>
+            <h2 class="headline-subtitle">Complex Temporal Question Answering on Knowledge Graphs</h2>
+        </div> <!-- col-lg-12 -->
+    </div> <!-- row -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 boxshadow">
+                <div class="border rounded" id="qCard" style="display:none">
+                    <div style="background: #f5f5f5" class="p-3">
+                        <h5 style="margin-bottom: 0">Results for <span></span></h5>
+                    </div>
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Temporal category and signal</h5>
+                        </div>
+                        <div class="col-12 py-2 " id="answerText">
+
+                        </div>
+                    </div>
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Named entity recognition and disambiguation</h5>
+                        </div>
+                        <div class="col-12 py-2 " id="seed">
+
+                        </div>
+                    </div>
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Answer graph: Question-relevant facts</h5>
+                        </div>
+                        <div class="col-12 py-2">
+
+                            <div id="qkgfact" style="width: 100%;height: 700px"></div>
+                        </div>
+                    </div>
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Answer graph: Union of GSTs</h5>
+                        </div>
+                        <div class="col-12 py-2">
+
+                            <div id="union" style="width: 100%;height: 500px"></div>
+                        </div>
+                    </div>
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Answer graph: Completed GSTs</h5>
+                        </div>
+                        <div class="col-12 py-2">
+
+                            <div id="completeGST" style="width: 100%;height: 500px"></div>
+                        </div>
+                    </div>
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Answer graph: Completed GSTs enhanced with temporal facts</h5>
+                        </div>
+                        <div class="col-12 py-2 ">
+                            <div id="temp" style="width: 100%;height: 700px"></div>
+                        </div>
+                    </div>
+
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Answer prediction</h5>
+                        </div>
+                        <div class="col-12 py-2 ">
+                            <div id="relg" style="width: 100%;height: 700px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="row border m-1 rounded ">
+                        <div class="col-12 py-2" style="background: #f5f5f5">
+                            <h5 style="margin-bottom: 0">Ranked answers</h5>
+                        </div>
+                        <div class="col-12 py-2 " id="top5">
+                            <div class="queansLine">
+                                <div class="queans">
+                                    <div class="queansTitle"></div>
+                                    <div class="queansCon"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <h3 class="headline-text">Description</h3>
+                <p>Question answering over knowledge graphs (KG-QA) is a vital topic
+                    in IR. Questions with temporal intent are a special class of practical
+                    importance, but have not received much attention in research. We
+                    present <b>EXAQT</b>, the first end-to-end system for answering
+                    complex temporal questions that have multiple entities and predicates, and associated temporal
+                    conditions.</p>
+                <h4 class="headline-bold">EXAQT: <b>EX</b>plainable <b>A</b>nswering of
+                    Complex <b>Q</b>uestions with <b>T</b>emporal Intent</h4>
+                <p>EXAQT answers natural
+                    language questions over KGs in two stages, one geared towards
+                    high recall, the other towards precision at top ranks. The first step
+                    computes question-relevant compact subgraphs within the KG, and
+                    judiciously enhances them with pertinent temporal facts, both using fine-tuned BERT models. The
+                    second step constructs relational
+                    graph convolutional networks (R-GCNs) from the first step’s output,
+                    and enhances the R-GCNs with time-aware entity embeddings and
+                    attention over temporal relations.</p>
+                A simplified excerpt of the relevant zone in
+                the Wikidata KG necessary for answering the question is shown in the figure.
+                <p>
+                <figure>
+                    <img src="../static/images/figure.png" alt="Running Example in EXAQT" style="width:65%">
+                    <figcaption>
+                        Wikidata KG excerpt for "where did obama's children study when he became president?"<br>
+                        with answer "Sidwell Friends School"
+                        <!--Running Example in EXAQT. -->
+                    </figcaption>
+                </figure>
+                </p>
+
+
+                Complex questions of this sort must consider multi-hop constraints (Barack Obama → Malia Obama, Sasha
+                Obama → Sidwell
+                Friends School, University of Chicago Laboratory School), and
+                reason on the overlap of the intersection of the start of the presidency (2009) with the study period at
+                the school (2009 – 2016).
+
+                <h4 class="headline-bold">TimeQuestions</h4>
+                <p>To evaluate EXAQT, we leverage recent
+                    community efforts in QA benchmark, and we search through eight
+                    KG-QA datasets for time-related questions. The result is a new compilation with about 16,181
+                    questions called <b>TimeQuestions</b>.
+                <p>We tag each question with its temporal category, link the answers to Wikidata and Wikipedia, and
+                    split the benchmark in a 60 : 20 : 20 ratio for creating the training (9708 questions),
+                    development (3236) and test (3237) sets.
+                <p><b>Sample questions from TimeQuestions:</b></p>
+                <div class="responsive-table">
+                    <table class="examples table">
+                        <thead>
+                        <tr>
+                            <th class="table-active" style="text-align: left">Category</th>
+                            <th class="table-active" style="text-align: left">Question</th>
+                        </tr>
+                        </thead>
+                        <tr class="example">
+                            <td rowspan="3">
+                                Explicit
+                            </td>
+                            <td>
+                                Who won Oscar for best actress <b>1986</b>?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td>
+                                Which movie did Jaco Van Dormael direct <b>in 2009</b>?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td>
+                                What currency is used in Germany <b>2012</b>?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td rowspan="3">
+                                Implicit
+                            </td>
+                            <td>
+                                Who was king of France <b>during the ninth crusade</b>?
+
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td>
+                                What did Thomas Jefferson do <b>before he was president</b>?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td>
+                                What club did Cristiano Ronaldo play for <b>after Manchester United</b>?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td rowspan="3">
+                                Ordinal
+                            </td>
+                            <td>
+                                What was the <b>first</b> film Julie Andrews starred in?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+
+                            <td>
+                                What was the <b>second</b> position held by Pierre De Coubertin?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+
+                            <td>
+                                Who is Elizabeth Taylor’s <b>last</b> husband?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+                            <td rowspan="3">
+                                Temporal answer
+                            </td>
+                            <td>
+                                What year did Lakers win their <b>first</b> championship?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+
+                            <td>
+                                When was James Cagney’s spouse born?
+                            </td>
+
+                        </tr>
+                        <tr class="example">
+
+                            <td>
+                                When was the <b>last</b> time the Orioles won the world series?
+                            </td>
+
+                        </tr>
+                    </table>
+                </div>
+
+                <p>Please refer to our <a href="https://arxiv.org/abs/2109.08935" target="_blank">paper</a> for further
+                    details.</p>
+                <h3 class="headline-text">Contact</h3>
+                <!--feedback and clarifications-->
+                <p> For more information, please contact: <a href="mailto:zjia@swjtu.edu.cn" target="_blank">Zhen
+                    Jia</a>, <a href="mailto: soumajit@iitbhilai.ac.in" target="_blank">Soumajit Pramanik</a>, <a
+                        href="http://people.mpi-inf.mpg.de/~rsaharo/" target="_blank">Rishiraj Saha Roy</a> or <a
+                        href="https://people.mpi-inf.mpg.de/~weikum/" target="_blank">Gerhard Weikum</a>.</p>
+                <br>
+                <p> To know more about our group, please visit <a
+                        href="https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/question-answering/"
+                        target="_blank">https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/question-answering/</a>.
+                </p>
+            </div>
+
+            <div class="col-lg-4 boxshadow width-col-lg-5">
+                <h3 class="headline-text">Demo</h3>
+                <!--                <p><b>Coming soon!</b></p>-->
+                <h5 class="mb-3">Please select a category or multiple categories of temporal questions, and then choose
+                    a question from the drop-down list. You can also click
+                    <i class="fa-solid fa-shuffle"></i> to randomly choose a question from the list.</h5>
+
+                <!-- <table id="categoryselect">
+                 <tr>
+                 <td rowspan="1"><input id="chkExplicit" type="checkbox"  onclick=explicitchange() value="0" style="zoom:150%"><label class="form-check-label" for="chkExplicit" style="font-size:18px"><h5> &nbsp Explicit </h5></label></td>
+                 </tr>
+                 <tr>
+                 <td rowspan="1"><input id="chkImplicit" type="checkbox"  onclick=implicitchange() value="1" style="zoom:150%"><label class="form-check-label" for="chkImplicit" style="font-size:18px"><h5> &nbsp Implicit</h5></label></td>
+                 </tr>
+                 <tr>
+                 <td rowspan="1"><input id="chkOrdinal" type="checkbox"  onclick=ordinalchange() value="2" style="zoom:150%"><label class="form-check-label" for="chkOrdinal" style="font-size:18px"><h5> &nbsp Ordinal</h5></label></td>
+                 </tr>
+                 <tr>
+                 <td rowspan="1"><input id="chkTmpans" type="checkbox" onclick=tempanschange()  value="3" style="zoom:150%"><label class="form-check-label" for="chkTmpans" style="font-size:18px"><h5> &nbsp Temporal answer</h5></label></td>
+             </tr>
+             </table>-->
+
+                <br>
+                <form name="search" class="navbar-form navbar-left" role="search" methods="post"
+                      action="{{url_for('index')}}">
+                    <div style="width: 100%">
+                        <input id="chkExplicit" type="checkbox" name="category" style="zoom:150%"><label
+                            class="form-check-label" for="chkExplicit" style="font-size:18px"><h5> &nbsp Explicit </h5>
+                    </label>
+                        <br>
+                        <input id="chkImplicit" type="checkbox" name="category" style="zoom:150%"><label
+                            class="form-check-label" for="chkImplicit" style="font-size:18px"><h5> &nbsp Implicit</h5>
+                    </label>
+                        <br>
+                        <input id="chkOrdinal" type="checkbox" name="category" style="zoom:150%"><label
+                            class="form-check-label" for="chkOrdinal" style="font-size:18px"><h5> &nbsp Ordinal</h5>
+                    </label>
+                        <br>
+                        <input id="chkTmpans" type="checkbox" name="category" style="zoom:150%"><label
+                            class="form-check-label" for="chkTmpans" style="font-size:18px"><h5> &nbsp Temporal
+                        answer</h5></label>
+                        <br>
+                        <span> <lable> <br> </lable></span>
+                    </div>
+                    <div id="select_item">
+
+                    </div>
+                </form>
+
+                <div id="form-select">
+                    <div class="select mb-3">
+                        <div class="input-group">
+                            <div class="input-group-btn">
+                                <!--<button type="button" class="btn btn-default btn-sm hidden-xs">-->
+                                <button id="randomButton" type="button"
+                                        class="btn btn-primary btn-sm  flex-fill hidden-xs" onclick="randomQuestion()"
+                                        title data-original-title="Random question">
+                                    <span class="fa fa-random"></span>
+                                </button>
+                                <div class="tips">
+                                    Random question
+                                </div>
+                            </div>
+
+                            <input type="text" readonly="true" class="form-control input-lg" id="input">
+                            <div class="select_ops">
+                            </div>
+
+                            <!--<div class="select_down" onclick="openSelect()">-->
+                            <div class="select_down" id="dropDown" onclick="openSelect()">
+                                <svg t="1637996917161" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg" p-id="2635" width="20" height="20">
+                                    <path d="M512 128c212 0 384 172 384 384s-172 384-384 384-384-172-384-384 172-384 384-384m0-64C264.8 64 64 264.8 64 512s200.8 448 448 448 448-200.8 448-448S759.2 64 512 64z m226.4 322.4L512 613.6 285.6 386.4 240 432l226.4 226.4L512 704l45.6-45.6L784 432l-45.6-45.6z"
+                                          p-id="2636" fill="#1296db"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--<div class="d-flex align-items-center justify-content-around mt-2">
+                    <button type="button" class="btn btn-primary mx-3 flex-fill" onclick="randomQuestion()">Random
+                    </button>
+                    <button type="button" class="btn btn-primary mx-3 flex-fill" onclick="answer()">Answer</button>>
+                </div>-->
+                <p><br>
+                    The demo shows <b>five important subgraphs</b> constructed by <b>EXAQT</b> and how the answers are
+                    generated step by step.
+                </p>
+                <p>The graphs are visualized with <a href="https://echarts.apache.org/en/index.html" target="_blank">Echarts</a>.
+                    You can <b>zoom in</b>, <b>zoom out</b> or <b>drag</b> them.
+                    When you hover over a node, the properties of the node appear.</p>
+                <p>In the graphs generated from question-relevant facts and the union of GSTs, the edge label is the
+                    rank of question relevance scores.
+                    Higher the score, lower the edge cost. The edge thickness is proportional to rank (thicker implies
+                    higher score but lower edge cost).
+                    <br>
+                </p>
+                <p>In the relational graph, the edge label is in the form of "predicate: rank". The rank is the
+                    attention weight rank that shows how much the predicate is important for predicting answers. Edge
+                    thickness is proportional to predicate rank (thicker is better/higher).<br>
+                </p>
+
+
+                <h3 class="headline-text">Download TimeQuestions</h3>
+                <a class="btn btn-outline-secondary btn-block"
+                   href="https://exaqt.mpi-inf.mpg.de/static/data/TimeQuestions/train.json" target="_blank"
+                   role="button"><span class="oi oi-data-transfer-download download-icon" title="data-transfer-download"
+                                       aria-hidden="true"></span> Training Set (9708 Questions)</a>
+                <a class="btn btn-outline-secondary btn-block"
+                   href="https://exaqt.mpi-inf.mpg.de/static/data/TimeQuestions/dev.json" target="_blank" role="button"><span
+                        class="oi oi-data-transfer-download download-icon" title="data-transfer-download"
+                        aria-hidden="true"></span> Dev Set (3236 Questions)</a>
+                <a class="btn btn-outline-secondary btn-block"
+                   href=" https://exaqt.mpi-inf.mpg.de/static/data/TimeQuestions/test.json" target="_blank"
+                   role="button"><span class="oi oi-data-transfer-download download-icon" title="data-transfer-download"
+                                       aria-hidden="true"></span> Test Set (3237 Questions)</a>
+
+                TimeQuestions is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+                                                     target="_blank">Creative Commons Attribution 4.0 International
+                License</a>.
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"></a>
+                <!--<images alt="Creative Commons License" style="border-width:0" width=15% src="https://i.creativecommons.org/l/by/4.0/88x31.png">-->
+                <h3 class="headline-text">TempQuestions</h3>
+                <p> The old <b>TempQuestions</b> benchmark with 1271 questions from our group is now superseded by the
+                    newer <b>TimeQuestions</b> benchmark with 16181 questions, that can downloaded from this page. If
+                    you still want the older dataset, you can get it from <a
+                            href="http://qa.mpi-inf.mpg.de/TempQuestions.zip" target="_blank">here</a>.</p>
+                <h3 class="headline-text">Paper and Code</h3>
+
+                <!--<a class="btn btn-outline-secondary btn-block" href="https://github.com/zhenjia2017/EXAQT" target="_blank" role="button"><span class="oi oi-data-transfer-download download-icon" title="data-transfer-download" aria-hidden="true"></span>Code on Github</a>-->
+
+                <!--<h3 class="headline-text">Paper</h3>-->
+                <b> <a href="https://dl.acm.org/doi/10.1145/3459637.3482416" target="_blank">"Complex Temporal Question
+                    Answering on Knowledge Graphs"</a></b>, Zhen Jia, Soumajit Pramanik, Rishiraj Saha Roy, and Gerhard
+                Weikum, in Proceedings of the 30th ACM International Conference on Information and Knowledge Management
+                2021 (<a href="https://www.cikm2021.org/" target="_blank">CIKM' 21</a>), Virtual Event, 1 - 5 November
+                2021.<br>
+                <p> [<a href="https://arxiv.org/abs/2109.08935" target="_blank" rel="noreferrer">Preprint</a>] [<a
+                        href="https://github.com/zhenjia2017/EXAQT" target="_blank" rel="noreferrer">Code</a>] [<a
+                        href="https://qa.mpi-inf.mpg.de/exaqt/cikm21-slides-zjsprsrgw.pdf" target="_blank"
+                        rel="noreferrer">Slides</a>] [<a
+                        href="https://qa.mpi-inf.mpg.de/exaqt/cikm21-poster-zjsprsrgw.pdf" target="_blank"
+                        rel="noreferrer">Poster</a>] [<a
+                        href="http://people.mpi-inf.mpg.de/~rsaharo/cikm21video_zjsprsrgw.mp4" target="_blank"
+                        rel="noreferrer">Video</a>]</p>
+                <div class="mb-3">
+                    <!--                    表单-->
+                    <h2><label for="exampleFormControlTextarea1" class="form-label">Feedback</label></h2>
+                    <!--                    maxlength 最大字数-->
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="200"
+                              placeholder="Leave a FeedBack here"></textarea>
+                    <!--                        提交-->
+                    <button type="button" class="btn btn-primary" style="margin-top: 10px;" onclick="subFeedBack()">
+                        submit
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function subFeedBack() {
+        let str = $('#exampleFormControlTextarea1').val()
+        //字数为空 提示
+        if (str.length <= 0) return alert('请说点什么')
+        // 提交fn
+        $.ajax({
+            url: '1111', //提交请求地址
+            type: 'post',
+            data: {
+                //提交的内容参数名为 textVal
+                textVal: str
+            },
+            success: function (res) {
+                // 只有请求成功执行这个函数
+                console.log(res)
+            },
+            error: function (xhr) {
+                // 只有请求不正常会执行
+                console.log('error', xhr)
+            },
+            complete: function (xhr) {
+                // 不管是成功还是失败都是完成，都会执行这个 complete 函数
+                //清空内容
+                $('#exampleFormControlTextarea1').val('')
+            }
+        })
+    }
+</script>
+</html>

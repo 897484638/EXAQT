@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Academy Award for Best Actor::Entity::Q103916" label="Academy Award for Best Actor">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Apollo 13::Entity::Q106428" label="Apollo 13">
+        <attvalues>
+          <attvalue for="label" value="Apollo 13" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture::Entity::Q518675" label="Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture">
+        <attvalues>
+          <attvalue for="label" value="Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tom Hanks::Entity::Q2263" label="Tom Hanks">
+        <attvalues>
+          <attvalue for="label" value="Tom Hanks" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::12" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2263-185dad814968dcb8e587839a59619994::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2263-8a99fac1d94c19949b7db470b9f99968::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::10" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Tom Hanks::Entity::Q2263" target="winner::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::10" weight="0.9997215867042542" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Tom Hanks::Entity::Q2263" target="award received::Predicate::q2263-8a99fac1d94c19949b7db470b9f99968::5" weight="0.9996665716171265" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="2" source="Tom Hanks::Entity::Q2263" target="award received::Predicate::q2263-185dad814968dcb8e587839a59619994::3" weight="0.9996089339256287" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="3" source="winner::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::10" target="award received::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::12" weight="0.9997215867042542" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="award received::Predicate::q2263-8a99fac1d94c19949b7db470b9f99968::5" target="Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture::Entity::Q518675" weight="0.9996665716171265" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="award received::Predicate::q2263-185dad814968dcb8e587839a59619994::3" target="Academy Award for Best Actor::Entity::Q103916" weight="0.9996089339256287" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="award received::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::12" target="Apollo 13::Entity::Q106428" weight="0.9997215867042542" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="award received::Predicate::q106428-b051c5456340d7d38be5dfb85226c923::12" target="Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture::Entity::Q518675" weight="0.9997215867042542" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

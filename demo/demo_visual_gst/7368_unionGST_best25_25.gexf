@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Academy Award for Best Actress::Entity::Q103618" label="Academy Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actress" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Supporting Actress::Entity::Q106301" label="Academy Award for Best Supporting Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Supporting Actress" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Cold Mountain::Entity::Q390097" label="Cold Mountain">
+        <attvalues>
+          <attvalue for="label" value="Cold Mountain" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Golden Globe Award for Best Actress – Motion Picture Drama::Entity::Q463085" label="Golden Globe Award for Best Actress – Motion Picture Drama">
+        <attvalues>
+          <attvalue for="label" value="Golden Globe Award for Best Actress – Motion Picture Drama" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Renée Zellweger::Entity::Q122614" label="Renée Zellweger">
+        <attvalues>
+          <attvalue for="label" value="Renée Zellweger" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q122614-21b0f1f4d7e31cc5e9282147b7e70759::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::6" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::4" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q390097-b94f2551d671fa6e3dfa982c374d9a4d::10" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q47664-7dfdc19754c09fde3470699fed81fed5::9" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::1" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::2" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::3" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q390097-1c320cc79907a4478bc6ce4bd363bc3d::4" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q390097-b94f2551d671fa6e3dfa982c374d9a4d::25" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q47664-7dfdc19754c09fde3470699fed81fed5::19" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q47664-ca277fcb9363897cf2799e8886a22c6f::7" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q55615419-603c58fddfc79e1b6db8684ae727ade7::26" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Renée Zellweger::Entity::Q122614" target="award received::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::4" weight="0.9996128678321838" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="1" source="Renée Zellweger::Entity::Q122614" target="winner::Predicate::q47664-7dfdc19754c09fde3470699fed81fed5::19" weight="0.9996765851974487" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="award received::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::4" target="point in time::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::2" weight="0.9996128678321838" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="11" source="award received::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::4" target="statement is subject of::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::1" weight="0.9996128678321838" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="12" source="Academy Award for Best Supporting Actress::Entity::Q106301" target="nominated for::Predicate::q390097-1c320cc79907a4478bc6ce4bd363bc3d::4" weight="0.9656287431716919" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Academy Award for Best Supporting Actress::Entity::Q106301" target="award received::Predicate::q390097-b94f2551d671fa6e3dfa982c374d9a4d::10" weight="0.9995684027671814" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="nominated for::Predicate::q390097-1c320cc79907a4478bc6ce4bd363bc3d::4" target="Cold Mountain::Entity::Q390097" weight="0.9656287431716919" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="winner::Predicate::q47664-7dfdc19754c09fde3470699fed81fed5::19" target="award received::Predicate::q47664-7dfdc19754c09fde3470699fed81fed5::9" weight="0.9996765851974487" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" target="Academy Award for Best Actress::Entity::Q103618" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="17" source="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" target="character role::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::1" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" target="follows::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::1" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" target="for work::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::3" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Renée Zellweger::Entity::Q122614" target="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="20" source="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" target="point in time::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::5" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="award received::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::7" target="statement is subject of::Predicate::q122614-fa5ed4add06dc2c8d512716cd91353f4::2" weight="0.9996626377105713" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="award received::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::6" target="Golden Globe Award for Best Actress – Motion Picture Drama::Entity::Q463085" weight="0.9996216297149658" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="23" source="award received::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::6" target="for work::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::2" weight="0.9996216297149658" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="award received::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::6" target="point in time::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::4" weight="0.9996216297149658" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="25" source="for work::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::1" target="Cold Mountain::Entity::Q390097" weight="0.9996128678321838" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="3" source="Renée Zellweger::Entity::Q122614" target="award received::Predicate::q122614-837592f0b7c5aa8d9ea450ca157506fd::6" weight="0.9996216297149658" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Renée Zellweger::Entity::Q122614" target="winner::Predicate::q47664-ca277fcb9363897cf2799e8886a22c6f::7" weight="0.999613344669342" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="Renée Zellweger::Entity::Q122614" target="award received::Predicate::q122614-21b0f1f4d7e31cc5e9282147b7e70759::5" weight="0.9995930790901184" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Renée Zellweger::Entity::Q122614" target="winner::Predicate::q390097-b94f2551d671fa6e3dfa982c374d9a4d::25" weight="0.9995684027671814" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Renée Zellweger::Entity::Q122614" target="winner::Predicate::q55615419-603c58fddfc79e1b6db8684ae727ade7::26" weight="0.9995644688606262" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="award received::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::4" target="Academy Award for Best Supporting Actress::Entity::Q106301" weight="0.9996128678321838" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="award received::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::4" target="for work::Predicate::q122614-dd29520f645812f5afc0fb17b85dbc5e::1" weight="0.9996128678321838" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+    </edges>
+  </graph>
+</gexf>

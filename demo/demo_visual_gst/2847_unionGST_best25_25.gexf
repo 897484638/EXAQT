@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Darth Vader::Entity::Q12206942" label="Darth Vader">
+        <attvalues>
+          <attvalue for="label" value="Darth Vader" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="James Earl Jones::Entity::Q203960" label="James Earl Jones">
+        <attvalues>
+          <attvalue for="label" value="James Earl Jones" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Star Wars Rebels::Entity::Q28787" label="Star Wars Rebels">
+        <attvalues>
+          <attvalue for="label" value="Star Wars Rebels" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="applies to part::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" label="applies to part">
+        <attvalues>
+          <attvalue for="label" value="applies to part" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q1538082-afff18c75c19dcbee4efce45e09a851c::2" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q309003-e99bf37f00b7511e1abdc4a407fc7f40::4" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q1538082-afff18c75c19dcbee4efce45e09a851c::4" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q17738-2415915a5ef65fea3e0bf909085f60b3::11" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q17738-d4ec4f41136320261840bfac8b74d5ae::22" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q181795-6a4c74692bfabfce73d5aec8396a371e::10" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q181803-9ec8bcd268a40f89bc7fd3fec4a62612::12" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q19590955-f4dfb8ba2bcf37edf8f84cc23928ae3c::5" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q25540924-0eb0cb6f3a846e9f37d1d53a4d92eb58::6" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="character role::Predicate::q42051-7c1086630158d0201c76805c9d94f44a::7" label="character role">
+        <attvalues>
+          <attvalue for="label" value="character role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::2" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::3" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::4" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::5" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::6" label="of">
+        <attvalues>
+          <attvalue for="label" value="of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="voice actor::Predicate::q17738-2415915a5ef65fea3e0bf909085f60b3::7" label="voice actor">
+        <attvalues>
+          <attvalue for="label" value="voice actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="voice actor::Predicate::q181795-6a4c74692bfabfce73d5aec8396a371e::6" label="voice actor">
+        <attvalues>
+          <attvalue for="label" value="voice actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="voice actor::Predicate::q181803-9ec8bcd268a40f89bc7fd3fec4a62612::8" label="voice actor">
+        <attvalues>
+          <attvalue for="label" value="voice actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="voice actor::Predicate::q19590955-f4dfb8ba2bcf37edf8f84cc23928ae3c::3" label="voice actor">
+        <attvalues>
+          <attvalue for="label" value="voice actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="voice actor::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" label="voice actor">
+        <attvalues>
+          <attvalue for="label" value="voice actor" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="character role::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" target="Darth Vader::Entity::Q12206942" weight="0.9991316199302673" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="character role::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" target="voice actor::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" weight="0.9991316199302673" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q17738-d4ec4f41136320261840bfac8b74d5ae::22" weight="0.9975019097328186" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="James Earl Jones::Entity::Q203960" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="12" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="applies to part::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="14" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::2" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="15" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::3" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="16" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::4" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="17" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::5" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" target="of::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::6" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="James Earl Jones::Entity::Q203960" target="voice actor::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" weight="0.9991316199302673" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Darth Vader::Entity::Q12206942" target="performer::Predicate::q12206942-b68290487c962b1daa0976b3c57e1fec::1" weight="0.9989721775054932" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="20" source="James Earl Jones::Entity::Q203960" target="voice actor::Predicate::q17738-2415915a5ef65fea3e0bf909085f60b3::7" weight="0.998956561088562" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="21" source="James Earl Jones::Entity::Q203960" target="voice actor::Predicate::q181795-6a4c74692bfabfce73d5aec8396a371e::6" weight="0.9988774657249451" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="22" source="James Earl Jones::Entity::Q203960" target="voice actor::Predicate::q181803-9ec8bcd268a40f89bc7fd3fec4a62612::8" weight="0.998799204826355" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="23" source="James Earl Jones::Entity::Q203960" target="cast member::Predicate::q1538082-afff18c75c19dcbee4efce45e09a851c::2" weight="0.9985916018486023" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="24" source="James Earl Jones::Entity::Q203960" target="voice actor::Predicate::q19590955-f4dfb8ba2bcf37edf8f84cc23928ae3c::3" weight="0.9984270334243774" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="25" source="James Earl Jones::Entity::Q203960" target="cast member::Predicate::q309003-e99bf37f00b7511e1abdc4a407fc7f40::4" weight="0.9983731508255005" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="voice actor::Predicate::q28787-3429d038c014649e02b254c5497d063d::1" target="Star Wars Rebels::Entity::Q28787" weight="0.9991316199302673" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q17738-2415915a5ef65fea3e0bf909085f60b3::11" weight="0.998956561088562" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q181795-6a4c74692bfabfce73d5aec8396a371e::10" weight="0.9988774657249451" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q181803-9ec8bcd268a40f89bc7fd3fec4a62612::12" weight="0.998799204826355" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q1538082-afff18c75c19dcbee4efce45e09a851c::4" weight="0.9985916018486023" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q19590955-f4dfb8ba2bcf37edf8f84cc23928ae3c::5" weight="0.9984270334243774" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q42051-7c1086630158d0201c76805c9d94f44a::7" weight="0.9983190894126892" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Darth Vader::Entity::Q12206942" target="character role::Predicate::q25540924-0eb0cb6f3a846e9f37d1d53a4d92eb58::6" weight="0.9982538819313049" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

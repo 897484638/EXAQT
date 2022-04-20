@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Joe Biden::Entity::Q6279" label="Joe Biden">
+        <attvalues>
+          <attvalue for="label" value="Joe Biden" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Lyndon B. Johnson::Entity::Q9640" label="Lyndon B. Johnson">
+        <attvalues>
+          <attvalue for="label" value="Lyndon B. Johnson" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Profiles in Courage::Entity::Q206795" label="Profiles in Courage">
+        <attvalues>
+          <attvalue for="label" value="Profiles in Courage" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Vice President of the United States::Entity::Q11699" label="Vice President of the United States">
+        <attvalues>
+          <attvalue for="label" value="Vice President of the United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q206795-fcd49dc439ecd13ef9950e69e112ecb7::1" label="author">
+        <attvalues>
+          <attvalue for="label" value="author" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q206795-05f3b71febd28fe3145310218f725f79::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q11699-c020dc86bfeaecef9b535c2621fc7413::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="elected in::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::1" label="elected in">
+        <attvalues>
+          <attvalue for="label" value="elected in" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="elected in::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::2" label="elected in">
+        <attvalues>
+          <attvalue for="label" value="elected in" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q11812-e12793d705919e6a4ff6c99737c6a994::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q179090-b17df9280b1e530f10ca878672a1d664::8" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q19673-591d589de2b3c1f9c0e7a40db9d6d7ac::11" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q201646-99ccaafa446b8bb53d2d28a8df21dc40::12" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q299001-eced231e6619720a8876f5848e5cd1ed::14" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q48259-fd79962d70519dce88a276cb97caadff::17" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9588-9ad0968df0fe0c1d5ca5f995b6e2e255::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::14" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::20" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::14" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::20" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Vice President of the United States::Entity::Q11699" target="country::Predicate::q11699-c020dc86bfeaecef9b535c2621fc7413::1" weight="0.003444018540903926" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="country::Predicate::q11699-c020dc86bfeaecef9b535c2621fc7413::1" target="United States::Entity::Q30" weight="0.003444018540903926" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="United States::Entity::Q30" target="country of origin::Predicate::q206795-05f3b71febd28fe3145310218f725f79::1" weight="0.0009342884295620024" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="country of origin::Predicate::q206795-05f3b71febd28fe3145310218f725f79::1" target="Profiles in Courage::Entity::Q206795" weight="0.0009342884295620024" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Profiles in Courage::Entity::Q206795" target="author::Predicate::q206795-fcd49dc439ecd13ef9950e69e112ecb7::1" weight="0.9978476762771606" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" target="Lyndon B. Johnson::Entity::Q9640" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" target="end time::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" target="replaced by::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::20" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" target="replaces::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::20" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" target="series ordinal::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="position held::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" target="start time::Predicate::q9640-ba36853b325c70acbdb9fc2e4fdbaf09::21" weight="0.9996669292449951" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="20" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="Joe Biden::Entity::Q6279" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="elected in::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::1" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="elected in::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::2" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="end time::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="replaced by::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::14" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="25" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="replaces::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::14" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="26" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="series ordinal::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="27" source="position held::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" target="start time::Predicate::q6279-e8c685c67c20353bc4506f89cd275253::15" weight="0.9995530247688293" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q48259-fd79962d70519dce88a276cb97caadff::17" weight="0.9994561076164246" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q179090-b17df9280b1e530f10ca878672a1d664::8" weight="0.9994375109672546" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q201646-99ccaafa446b8bb53d2d28a8df21dc40::12" weight="0.9993590712547302" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q19673-591d589de2b3c1f9c0e7a40db9d6d7ac::11" weight="0.9993385672569275" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q11812-e12793d705919e6a4ff6c99737c6a994::2" weight="0.9993288516998291" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q9588-9ad0968df0fe0c1d5ca5f995b6e2e255::1" weight="0.9992269277572632" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Vice President of the United States::Entity::Q11699" target="position held::Predicate::q299001-eced231e6619720a8876f5848e5cd1ed::14" weight="0.9991076588630676" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

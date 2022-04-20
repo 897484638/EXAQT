@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1719-01-01::Entity::1719-01-01T00:00:00Z" label="1719-01-01">
+        <attvalues>
+          <attvalue for="label" value="1719-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1787-12-18::Entity::1787-12-18T00:00:00Z" label="1787-12-18">
+        <attvalues>
+          <attvalue for="label" value="1787-12-18"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mercer County::Entity::Q496886" label="Mercer County">
+        <attvalues>
+          <attvalue for="label" value="Mercer County"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="New Jersey::Entity::Q1408" label="New Jersey">
+        <attvalues>
+          <attvalue for="label" value="New Jersey"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Trenton, New Jersey::Entity::Q25330" label="Trenton, New Jersey">
+        <attvalues>
+          <attvalue for="label" value="Trenton, New Jersey"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q1408-f25bde9303af517cfb1b1aabcab51b8c::2" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q496886-a8852be425b991854dc10d4c41ef9dbb::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q1408-181dea1047456f521268d2535a8925ef::2" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="inception::Predicate::q25330-03c19c5ed960398f1d4a0267d3495182::1" label="inception">
+        <attvalues>
+          <attvalue for="label" value="inception"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Trenton, New Jersey::Entity::Q25330" target="capital::Predicate::q1408-f25bde9303af517cfb1b1aabcab51b8c::2" weight="0.9431155323982239" label="4"/>
+      <edge id="1" source="Trenton, New Jersey::Entity::Q25330" target="inception::Predicate::q25330-03c19c5ed960398f1d4a0267d3495182::1" weight="0.9940317273139954" label="1"/>
+      <edge id="2" source="Trenton, New Jersey::Entity::Q25330" target="capital::Predicate::q496886-a8852be425b991854dc10d4c41ef9dbb::1" weight="0.9761186242103577" label="3"/>
+      <edge id="3" source="capital::Predicate::q1408-f25bde9303af517cfb1b1aabcab51b8c::2" target="New Jersey::Entity::Q1408" weight="0.9431155323982239" label="4"/>
+      <edge id="4" source="New Jersey::Entity::Q1408" target="inception::Predicate::q1408-181dea1047456f521268d2535a8925ef::2" weight="0.9841485619544983" label="2"/>
+      <edge id="5" source="inception::Predicate::q25330-03c19c5ed960398f1d4a0267d3495182::1" target="1719-01-01::Entity::1719-01-01T00:00:00Z" weight="0.9940317273139954" label="1"/>
+      <edge id="6" source="inception::Predicate::q1408-181dea1047456f521268d2535a8925ef::2" target="1787-12-18::Entity::1787-12-18T00:00:00Z" weight="0.9841485619544983" label="2"/>
+      <edge id="7" source="capital::Predicate::q496886-a8852be425b991854dc10d4c41ef9dbb::1" target="Mercer County::Entity::Q496886" weight="0.9761186242103577" label="3"/>
+    </edges>
+  </graph>
+</gexf>

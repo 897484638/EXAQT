@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Alexander the Great::Entity::Q8409" label="Alexander the Great">
+        <attvalues>
+          <attvalue for="label" value="Alexander the Great"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Amenemhat III::Entity::Q19244" label="Amenemhat III">
+        <attvalues>
+          <attvalue for="label" value="Amenemhat III"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Senusret III::Entity::Q19248" label="Senusret III">
+        <attvalues>
+          <attvalue for="label" value="Senusret III"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="pharaoh::Entity::Q37110" label="pharaoh">
+        <attvalues>
+          <attvalue for="label" value="pharaoh"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q19244-6dbe5d41099f956b77321fcac7ff8243::13" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q19248-d0de81ef80aae24db44b4531155d1c0e::17" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q8409-cf9342191b29a86b9ca8ce10f87d6d0b::7" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="pharaoh::Entity::Q37110" target="position held::Predicate::q8409-cf9342191b29a86b9ca8ce10f87d6d0b::7" weight="0.9989087581634521" label="1"/>
+      <edge id="1" source="pharaoh::Entity::Q37110" target="position held::Predicate::q19244-6dbe5d41099f956b77321fcac7ff8243::13" weight="0.9988828301429749" label="2"/>
+      <edge id="2" source="pharaoh::Entity::Q37110" target="position held::Predicate::q19248-d0de81ef80aae24db44b4531155d1c0e::17" weight="0.9988353848457336" label="3"/>
+      <edge id="3" source="position held::Predicate::q8409-cf9342191b29a86b9ca8ce10f87d6d0b::7" target="Alexander the Great::Entity::Q8409" weight="0.9989087581634521" label="1"/>
+      <edge id="4" source="position held::Predicate::q19244-6dbe5d41099f956b77321fcac7ff8243::13" target="Amenemhat III::Entity::Q19244" weight="0.9988828301429749" label="2"/>
+      <edge id="5" source="position held::Predicate::q19248-d0de81ef80aae24db44b4531155d1c0e::17" target="Senusret III::Entity::Q19248" weight="0.9988353848457336" label="3"/>
+    </edges>
+  </graph>
+</gexf>

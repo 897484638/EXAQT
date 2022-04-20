@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Adolphe Thiers::Entity::Q5738" label="Adolphe Thiers">
+        <attvalues>
+          <attvalue for="label" value="Adolphe Thiers" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Au revoir::Entity::Q2870489" label="Au revoir">
+        <attvalues>
+          <attvalue for="label" value="Au revoir" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="France::Entity::Q142" label="France">
+        <attvalues>
+          <attvalue for="label" value="France" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Napoleon III::Entity::Q7721" label="Napoleon III">
+        <attvalues>
+          <attvalue for="label" value="Napoleon III" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q2870489-6c45c518658ffec33591a6e89499ef1e::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::16" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="head of government of France::Entity::Q15135541" label="head of government of France">
+        <attvalues>
+          <attvalue for="label" value="head of government of France" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::2" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="main subject::Predicate::q2870489-5cbf58876921625f2d93b647e1d1998d::1" label="main subject">
+        <attvalues>
+          <attvalue for="label" value="main subject" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1371497-c8056c432d0ae99664acbd2ab021fcbf::13" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1371497-c9e852bcad87609b839d559a3d2e646d::14" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q296023-a5b68fd2a5b721408d4659d87d125015::10" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q5738-14f3ba5dd149d16184dd83a55b99276f::4" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="president of the French Republic::Entity::Q191954" label="president of the French Republic">
+        <attvalues>
+          <attvalue for="label" value="president of the French Republic" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q1371497-c8056c432d0ae99664acbd2ab021fcbf::10" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q338386-054a25ac2b58671aa398948d4d4c2ec7::8" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::3" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::12" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q1371497-c9e852bcad87609b839d559a3d2e646d::11" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q296023-a5b68fd2a5b721408d4659d87d125015::7" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::3" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::12" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="resignation::Entity::Q796919" label="resignation">
+        <attvalues>
+          <attvalue for="label" value="resignation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::16" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="resignation::Entity::Q796919" target="main subject::Predicate::q2870489-5cbf58876921625f2d93b647e1d1998d::1" weight="0.39022597670555115" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="main subject::Predicate::q2870489-5cbf58876921625f2d93b647e1d1998d::1" target="Au revoir::Entity::Q2870489" weight="0.39022597670555115" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" target="Napoleon III::Entity::Q7721" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" target="end time::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::16" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" target="replaces::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::12" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" target="start time::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::16" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="replaced by::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::12" target="Adolphe Thiers::Entity::Q5738" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="Adolphe Thiers::Entity::Q5738" target="position held::Predicate::q5738-14f3ba5dd149d16184dd83a55b99276f::4" weight="0.9994491934776306" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="Adolphe Thiers::Entity::Q5738" target="replaces::Predicate::q1371497-c9e852bcad87609b839d559a3d2e646d::11" weight="0.999767005443573" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="Adolphe Thiers::Entity::Q5738" target="replaces::Predicate::q296023-a5b68fd2a5b721408d4659d87d125015::7" weight="0.999729335308075" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="Adolphe Thiers::Entity::Q5738" target="replaced by::Predicate::q1371497-c8056c432d0ae99664acbd2ab021fcbf::10" weight="0.9997246861457825" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="19" source="Adolphe Thiers::Entity::Q5738" target="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" weight="0.9997051358222961" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="2" source="Au revoir::Entity::Q2870489" target="country of origin::Predicate::q2870489-6c45c518658ffec33591a6e89499ef1e::1" weight="0.9449337720870972" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="Adolphe Thiers::Entity::Q5738" target="replaced by::Predicate::q338386-054a25ac2b58671aa398948d4d4c2ec7::8" weight="0.9997032284736633" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="21" source="replaces::Predicate::q1371497-c9e852bcad87609b839d559a3d2e646d::11" target="position held::Predicate::q1371497-c9e852bcad87609b839d559a3d2e646d::14" weight="0.999767005443573" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="replaces::Predicate::q296023-a5b68fd2a5b721408d4659d87d125015::7" target="position held::Predicate::q296023-a5b68fd2a5b721408d4659d87d125015::10" weight="0.999729335308075" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="replaced by::Predicate::q1371497-c8056c432d0ae99664acbd2ab021fcbf::10" target="position held::Predicate::q1371497-c8056c432d0ae99664acbd2ab021fcbf::13" weight="0.9997246861457825" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" target="end time::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" weight="0.9997051358222961" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="25" source="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" target="head of government of France::Entity::Q15135541" weight="0.9997051358222961" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="26" source="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" target="replaced by::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::3" weight="0.9997051358222961" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="27" source="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" target="replaces::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::3" weight="0.9997051358222961" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="28" source="position held::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" target="start time::Predicate::q5738-1c0302a9de9d3438b547de3696203eac::6" weight="0.9997051358222961" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="country of origin::Predicate::q2870489-6c45c518658ffec33591a6e89499ef1e::1" target="France::Entity::Q142" weight="0.9449337720870972" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="France::Entity::Q142" target="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::2" weight="0.9973179697990417" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="head of state::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::2" target="position held::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::2" weight="0.9973179697990417" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="position held::Predicate::q142-044aa46402dc3c1f92e263d14b8a7535::2" target="president of the French Republic::Entity::Q191954" weight="0.9973179697990417" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="president of the French Republic::Entity::Q191954" target="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="president of the French Republic::Entity::Q191954" target="position held::Predicate::q5738-14f3ba5dd149d16184dd83a55b99276f::4" weight="0.9994491934776306" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="position held::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::15" target="replaced by::Predicate::q7721-73abbc409a9cb4946263782f131b2a39::12" weight="0.9996687173843384" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

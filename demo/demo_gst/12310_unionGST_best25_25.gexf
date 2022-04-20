@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010-01-01::Entity::2010-01-01T00:00:00Z" label="2010-01-01">
+        <attvalues>
+          <attvalue for="label" value="2010-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2010-10-26::Entity::2010-10-26T00:00:00Z" label="2010-10-26">
+        <attvalues>
+          <attvalue for="label" value="2010-10-26"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2012-01-01::Entity::2012-01-01T00:00:00Z" label="2012-01-01">
+        <attvalues>
+          <attvalue for="label" value="2012-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Firework::Entity::Q163412" label="Firework">
+        <attvalues>
+          <attvalue for="label" value="Firework"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Katy Perry::Entity::Q42493" label="Katy Perry">
+        <attvalues>
+          <attvalue for="label" value="Katy Perry"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="MTV Video Music Award for Video of the Year::Entity::Q1065651" label="MTV Video Music Award for Video of the Year">
+        <attvalues>
+          <attvalue for="label" value="MTV Video Music Award for Video of the Year"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Russell Brand::Entity::Q296609" label="Russell Brand">
+        <attvalues>
+          <attvalue for="label" value="Russell Brand"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q42493-1ba327cf7f2e09f1944440ce063546f8::3" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q42493-0be3791d927ec5a257bf7711d81fd041::4" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q42493-1ba327cf7f2e09f1944440ce063546f8::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q42493-4ffbd86dddb2bed65488a03d60f1e6a6::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q163412-f33ad843dbe165bcf311a7716e6d9d4d::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="together with::Predicate::q2313331-aae3a1532359c2c79d958adb4c0ad8d4::2" label="together with">
+        <attvalues>
+          <attvalue for="label" value="together with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q16985325-624857a4ed391fa67986d2977e731e76::6" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q186188-006a78f755636a1b06a283ae169fd3d7::4" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q372123-b036510b76ecb3311fa1f0ecf44c7727::7" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38430-ff95b3c6e1501f65c80a1b2794df817f::5" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38470-10eb7c9b5a49a8e7dcb10633131963f9::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q6314083-c5dcd7141a71b1e545c0f9196f45f9c0::9" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q42493-c75ee726dc608e2a78306ceee647fd0b::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" weight="0.830238938331604" label="4"/>
+      <edge id="1" source="Katy Perry::Entity::Q42493" target="spouse::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" weight="0.9445239305496216" label="2"/>
+      <edge id="10" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q38430-ff95b3c6e1501f65c80a1b2794df817f::5" weight="0.7666096687316895" label="11"/>
+      <edge id="11" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q38470-10eb7c9b5a49a8e7dcb10633131963f9::3" weight="0.7601101994514465" label="12"/>
+      <edge id="12" source="Katy Perry::Entity::Q42493" target="work period (start)::Predicate::q42493-c75ee726dc608e2a78306ceee647fd0b::1" weight="0.7594112157821655" label="13"/>
+      <edge id="13" source="winner::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" target="for work::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" weight="0.830238938331604" label="4"/>
+      <edge id="14" source="winner::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" target="MTV Video Music Award for Video of the Year::Entity::Q1065651" weight="0.830238938331604" label="4"/>
+      <edge id="15" source="winner::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" target="point in time::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::2" weight="0.830238938331604" label="4"/>
+      <edge id="16" source="for work::Predicate::q1065651-65b42f6f7bd56a2830828aebd7bfdd14::1" target="Firework::Entity::Q163412" weight="0.830238938331604" label="4"/>
+      <edge id="17" source="Firework::Entity::Q163412" target="publication date::Predicate::q163412-f33ad843dbe165bcf311a7716e6d9d4d::1" weight="0.9946303367614746" label="1"/>
+      <edge id="18" source="Firework::Entity::Q163412" target="for work::Predicate::q42493-1ba327cf7f2e09f1944440ce063546f8::3" weight="0.7577194571495056" label="14"/>
+      <edge id="19" source="publication date::Predicate::q163412-f33ad843dbe165bcf311a7716e6d9d4d::1" target="2010-10-26::Entity::2010-10-26T00:00:00Z" weight="0.9946303367614746" label="1"/>
+      <edge id="2" source="Katy Perry::Entity::Q42493" target="together with::Predicate::q2313331-aae3a1532359c2c79d958adb4c0ad8d4::2" weight="0.8509315848350525" label="3"/>
+      <edge id="20" source="spouse::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" target="Russell Brand::Entity::Q296609" weight="0.9445239305496216" label="2"/>
+      <edge id="21" source="spouse::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" target="end time::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" weight="0.9445239305496216" label="2"/>
+      <edge id="22" source="spouse::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" target="start time::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" weight="0.9445239305496216" label="2"/>
+      <edge id="23" source="end time::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" target="2012-01-01::Entity::2012-01-01T00:00:00Z" weight="0.9445239305496216" label="2"/>
+      <edge id="24" source="start time::Predicate::q296609-04760c36d9c9cd1bbb2ae805f16b453c::1" target="2010-01-01::Entity::2010-01-01T00:00:00Z" weight="0.9445239305496216" label="2"/>
+      <edge id="25" source="nominated for::Predicate::q42493-1ba327cf7f2e09f1944440ce063546f8::2" target="for work::Predicate::q42493-1ba327cf7f2e09f1944440ce063546f8::3" weight="0.7577194571495056" label="14"/>
+      <edge id="3" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q16985325-624857a4ed391fa67986d2977e731e76::6" weight="0.8171142339706421" label="5"/>
+      <edge id="4" source="Katy Perry::Entity::Q42493" target="nominated for::Predicate::q42493-0be3791d927ec5a257bf7711d81fd041::4" weight="0.7927625775337219" label="6"/>
+      <edge id="5" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q6314083-c5dcd7141a71b1e545c0f9196f45f9c0::9" weight="0.792718768119812" label="7"/>
+      <edge id="6" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q372123-b036510b76ecb3311fa1f0ecf44c7727::7" weight="0.7831860780715942" label="8"/>
+      <edge id="7" source="Katy Perry::Entity::Q42493" target="nominated for::Predicate::q42493-1ba327cf7f2e09f1944440ce063546f8::2" weight="0.7577194571495056" label="14"/>
+      <edge id="8" source="Katy Perry::Entity::Q42493" target="nominated for::Predicate::q42493-4ffbd86dddb2bed65488a03d60f1e6a6::3" weight="0.7817499041557312" label="9"/>
+      <edge id="9" source="Katy Perry::Entity::Q42493" target="winner::Predicate::q186188-006a78f755636a1b06a283ae169fd3d7::4" weight="0.7678822875022888" label="10"/>
+    </edges>
+  </graph>
+</gexf>

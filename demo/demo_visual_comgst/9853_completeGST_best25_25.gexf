@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1969 Libyan coup d'état::Entity::Q6107218" label="1969 Libyan coup d'état">
+        <attvalues>
+          <attvalue for="label" value="1969 Libyan coup d'état" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="2011 Libyan Civil War::Entity::Q81545" label="2011 Libyan Civil War">
+        <attvalues>
+          <attvalue for="label" value="2011 Libyan Civil War" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="2011-10-20::Entity::2011-10-20T00:00:00Z" label="2011-10-20">
+        <attvalues>
+          <attvalue for="label" value="2011-10-20" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Battle of Tripoli::Entity::Q609013" label="Battle of Tripoli">
+        <attvalues>
+          <attvalue for="label" value="Battle of Tripoli" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Muammar Gaddafi::Entity::Q19878" label="Muammar Gaddafi">
+        <attvalues>
+          <attvalue for="label" value="Muammar Gaddafi" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q19878-48577f75a87cdfe59cd174a0286c1901::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q19878-99e2b9fdfdf5eb2505921d28681078bf::2" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q19878-9e4e944c54b563a2f4793431844867a6::3" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q19878-ef8095d8755e8377f22e1f9bf765f058::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="conflict::Predicate::q19878-99e2b9fdfdf5eb2505921d28681078bf::2" target="Muammar Gaddafi::Entity::Q19878" weight="0.3289811313152313" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="conflict::Predicate::q19878-99e2b9fdfdf5eb2505921d28681078bf::2" target="Battle of Tripoli::Entity::Q609013" weight="0.3289811313152313" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Muammar Gaddafi::Entity::Q19878" target="conflict::Predicate::q19878-9e4e944c54b563a2f4793431844867a6::3" weight="0.3131629526615143" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="Muammar Gaddafi::Entity::Q19878" target="date of death::Predicate::q19878-ef8095d8755e8377f22e1f9bf765f058::1" weight="0.8582078218460083" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Muammar Gaddafi::Entity::Q19878" target="conflict::Predicate::q19878-48577f75a87cdfe59cd174a0286c1901::1" weight="0.09452039003372192" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="conflict::Predicate::q19878-9e4e944c54b563a2f4793431844867a6::3" target="1969 Libyan coup d'état::Entity::Q6107218" weight="0.3131629526615143" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="date of death::Predicate::q19878-ef8095d8755e8377f22e1f9bf765f058::1" target="2011-10-20::Entity::2011-10-20T00:00:00Z" weight="0.8582078218460083" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="conflict::Predicate::q19878-48577f75a87cdfe59cd174a0286c1901::1" target="2011 Libyan Civil War::Entity::Q81545" weight="0.09452039003372192" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

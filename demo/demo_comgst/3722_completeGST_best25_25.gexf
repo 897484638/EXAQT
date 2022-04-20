@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Joe Clark::Entity::Q128574" label="Joe Clark">
+        <attvalues>
+          <attvalue for="label" value="Joe Clark"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Lester B. Pearson::Entity::Q128604" label="Lester B. Pearson">
+        <attvalues>
+          <attvalue for="label" value="Lester B. Pearson"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Pierre Trudeau::Entity::Q8619" label="Pierre Trudeau">
+        <attvalues>
+          <attvalue for="label" value="Pierre Trudeau"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Prime Minister of Canada::Entity::Q839078" label="Prime Minister of Canada">
+        <attvalues>
+          <attvalue for="label" value="Prime Minister of Canada"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q8619-2902e78c70d323969653ad20a035d691::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::14" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::4" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Prime Minister of Canada::Entity::Q839078" target="position held::Predicate::q8619-2902e78c70d323969653ad20a035d691::2" weight="0.9997499585151672" label="3"/>
+      <edge id="1" source="Prime Minister of Canada::Entity::Q839078" target="position held::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::5" weight="0.9997791647911072" label="1"/>
+      <edge id="10" source="position held::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" target="replaces::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" weight="0.9997665286064148" label="2"/>
+      <edge id="11" source="position held::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" target="Joe Clark::Entity::Q128574" weight="0.9997665286064148" label="2"/>
+      <edge id="2" source="Prime Minister of Canada::Entity::Q839078" target="position held::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" weight="0.9997665286064148" label="2"/>
+      <edge id="3" source="position held::Predicate::q8619-2902e78c70d323969653ad20a035d691::2" target="Pierre Trudeau::Entity::Q8619" weight="0.9997499585151672" label="3"/>
+      <edge id="4" source="Pierre Trudeau::Entity::Q8619" target="replaced by::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::4" weight="0.9997791647911072" label="1"/>
+      <edge id="5" source="Pierre Trudeau::Entity::Q8619" target="replaced by::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::14" weight="0.9997665286064148" label="2"/>
+      <edge id="6" source="Pierre Trudeau::Entity::Q8619" target="replaces::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" weight="0.9997665286064148" label="2"/>
+      <edge id="7" source="replaced by::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::4" target="position held::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::5" weight="0.9997791647911072" label="1"/>
+      <edge id="8" source="position held::Predicate::q128604-dc5656a02a3edd1b75c23552b0d1ed11::5" target="Lester B. Pearson::Entity::Q128604" weight="0.9997791647911072" label="1"/>
+      <edge id="9" source="replaced by::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::14" target="position held::Predicate::q128574-4b4c72d6d883b996bfd7822e9e137d91::15" weight="0.9997665286064148" label="2"/>
+    </edges>
+  </graph>
+</gexf>

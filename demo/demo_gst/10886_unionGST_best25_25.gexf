@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1979-01-01::Entity::1979-01-01T00:00:00Z" label="1979-01-01">
+        <attvalues>
+          <attvalue for="label" value="1979-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="A Woman of the Future::Entity::Q4660765" label="A Woman of the Future">
+        <attvalues>
+          <attvalue for="label" value="A Woman of the Future"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="David Ireland::Entity::Q5235360" label="David Ireland">
+        <attvalues>
+          <attvalue for="label" value="David Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="David Ireland::Entity::Q978089" label="David Ireland">
+        <attvalues>
+          <attvalue for="label" value="David Ireland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="David::Entity::Q18057751" label="David">
+        <attvalues>
+          <attvalue for="label" value="David"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Give In to Me::Entity::Q171787" label="Give In to Me">
+        <attvalues>
+          <attvalue for="label" value="Give In to Me"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Miles Franklin Literary Award::Entity::Q996" label="Miles Franklin Literary Award">
+        <attvalues>
+          <attvalue for="label" value="Miles Franklin Literary Award"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Rome Prize::Entity::Q3405483" label="Rome Prize">
+        <attvalues>
+          <attvalue for="label" value="Rome Prize"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q5235360-672466e371618087e03411ac725ec6ea::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="composer::Predicate::q171787-8ab7b69f09fe8e994dd1f7b04c1d481a::1" label="composer">
+        <attvalues>
+          <attvalue for="label" value="composer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="copyright status as a creator::Predicate::q5235360-ced3880996d88e5eafb2e7af20210bde::1" label="copyright status as a creator">
+        <attvalues>
+          <attvalue for="label" value="copyright status as a creator"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q5235360-1655be572df4105426c17ad7eee56cef::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q171787-5009bac81a6b4f420e0e92f0a57e41e8::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="cover art by::Predicate::q7742599-0833b8d85a50bfee19e7d80665ff26cf::1" label="cover art by">
+        <attvalues>
+          <attvalue for="label" value="cover art by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q5235360-1ec3e84ad35f994ce0b353c0f8bea791::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q5235360-43903e638f75194a503963fe84b463d3::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q171787-fa2196dd0cc24e1921966c610a394e10::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="given name::Predicate::q5235360-8b13f4dec5ba911ed693531cc2b0d4f8::1" label="given name">
+        <attvalues>
+          <attvalue for="label" value="given name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="given name::Predicate::q978089-899e702a2a61a0eb06ed0d4d6fa0c4ef::2" label="given name">
+        <attvalues>
+          <attvalue for="label" value="given name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has works in the collection::Predicate::q5235360-1dcd01f9d6d8ff03b4ed3c8c466ca8db::2" label="has works in the collection">
+        <attvalues>
+          <attvalue for="label" value="has works in the collection"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has works in the collection::Predicate::q5235360-5958b63c95cd2f40685d1fc9bc575ba9::1" label="has works in the collection">
+        <attvalues>
+          <attvalue for="label" value="has works in the collection"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="lyrics by::Predicate::q171787-04ae9d33e53e0385a47a558279322068::1" label="lyrics by">
+        <attvalues>
+          <attvalue for="label" value="lyrics by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q171787-d4b33e8ad517410dfaecebcd0a067a16::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="record label::Predicate::q171787-24a65e5dc6d39ed7acb1643ed5b49f48::1" label="record label">
+        <attvalues>
+          <attvalue for="label" value="record label"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Give In to Me::Entity::Q171787" target="country of origin::Predicate::q171787-5009bac81a6b4f420e0e92f0a57e41e8::1" weight="0.0009858927223831415" label="19"/>
+      <edge id="1" source="Give In to Me::Entity::Q171787" target="publication date::Predicate::q171787-d4b33e8ad517410dfaecebcd0a067a16::1" weight="0.0013018975732848048" label="12"/>
+      <edge id="10" source="David Ireland::Entity::Q5235360" target="given name::Predicate::q5235360-8b13f4dec5ba911ed693531cc2b0d4f8::1" weight="0.7588800191879272" label="4"/>
+      <edge id="11" source="David Ireland::Entity::Q5235360" target="date of death::Predicate::q5235360-43903e638f75194a503963fe84b463d3::1" weight="0.002176728332415223" label="6"/>
+      <edge id="12" source="David Ireland::Entity::Q5235360" target="date of death::Predicate::q5235360-1ec3e84ad35f994ce0b353c0f8bea791::2" weight="0.002084616804495454" label="7"/>
+      <edge id="13" source="David Ireland::Entity::Q5235360" target="copyright status as a creator::Predicate::q5235360-ced3880996d88e5eafb2e7af20210bde::1" weight="0.0018033114029094577" label="8"/>
+      <edge id="14" source="David Ireland::Entity::Q5235360" target="has works in the collection::Predicate::q5235360-1dcd01f9d6d8ff03b4ed3c8c466ca8db::2" weight="0.0015956356655806303" label="9"/>
+      <edge id="15" source="David Ireland::Entity::Q5235360" target="has works in the collection::Predicate::q5235360-5958b63c95cd2f40685d1fc9bc575ba9::1" weight="0.0012471724767237902" label="14"/>
+      <edge id="16" source="David Ireland::Entity::Q5235360" target="cover art by::Predicate::q7742599-0833b8d85a50bfee19e7d80665ff26cf::1" weight="0.0010973241878673434" label="16"/>
+      <edge id="17" source="award received::Predicate::q5235360-672466e371618087e03411ac725ec6ea::2" target="Rome Prize::Entity::Q3405483" weight="0.9983890056610107" label="2"/>
+      <edge id="18" source="given name::Predicate::q5235360-8b13f4dec5ba911ed693531cc2b0d4f8::1" target="David::Entity::Q18057751" weight="0.7588800191879272" label="4"/>
+      <edge id="19" source="David::Entity::Q18057751" target="given name::Predicate::q978089-899e702a2a61a0eb06ed0d4d6fa0c4ef::2" weight="0.7588800191879272" label="4"/>
+      <edge id="2" source="Give In to Me::Entity::Q171787" target="follows::Predicate::q171787-fa2196dd0cc24e1921966c610a394e10::1" weight="0.0012777377851307392" label="13"/>
+      <edge id="20" source="given name::Predicate::q978089-899e702a2a61a0eb06ed0d4d6fa0c4ef::2" target="David Ireland::Entity::Q978089" weight="0.7588800191879272" label="4"/>
+      <edge id="21" source="David Ireland::Entity::Q978089" target="award received::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::3" weight="0.9994756579399109" label="1"/>
+      <edge id="22" source="award received::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::3" target="Miles Franklin Literary Award::Entity::Q996" weight="0.9994756579399109" label="1"/>
+      <edge id="23" source="award received::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::3" target="for work::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::1" weight="0.9994756579399109" label="1"/>
+      <edge id="24" source="award received::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::3" target="point in time::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::2" weight="0.9994756579399109" label="1"/>
+      <edge id="25" source="for work::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::1" target="A Woman of the Future::Entity::Q4660765" weight="0.9994756579399109" label="1"/>
+      <edge id="26" source="point in time::Predicate::q978089-eb5d3bc5d7854a85aaa9425a41f4fc73::2" target="1979-01-01::Entity::1979-01-01T00:00:00Z" weight="0.9994756579399109" label="1"/>
+      <edge id="3" source="Give In to Me::Entity::Q171787" target="composer::Predicate::q171787-8ab7b69f09fe8e994dd1f7b04c1d481a::1" weight="0.0012336422223597765" label="15"/>
+      <edge id="4" source="Give In to Me::Entity::Q171787" target="lyrics by::Predicate::q171787-04ae9d33e53e0385a47a558279322068::1" weight="0.001012973953038454" label="17"/>
+      <edge id="5" source="Give In to Me::Entity::Q171787" target="record label::Predicate::q171787-24a65e5dc6d39ed7acb1643ed5b49f48::1" weight="0.000897607475053519" label="20"/>
+      <edge id="6" source="country of origin::Predicate::q171787-5009bac81a6b4f420e0e92f0a57e41e8::1" target="United States::Entity::Q30" weight="0.0009858927223831415" label="19"/>
+      <edge id="7" source="United States::Entity::Q30" target="country of citizenship::Predicate::q5235360-1655be572df4105426c17ad7eee56cef::1" weight="0.0004930670838803053" label="26"/>
+      <edge id="8" source="country of citizenship::Predicate::q5235360-1655be572df4105426c17ad7eee56cef::1" target="David Ireland::Entity::Q5235360" weight="0.0004930670838803053" label="26"/>
+      <edge id="9" source="David Ireland::Entity::Q5235360" target="award received::Predicate::q5235360-672466e371618087e03411ac725ec6ea::2" weight="0.9983890056610107" label="2"/>
+    </edges>
+  </graph>
+</gexf>

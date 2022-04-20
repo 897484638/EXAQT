@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010 FIFA World Cup::Entity::Q176883" label="2010 FIFA World Cup">
+        <attvalues>
+          <attvalue for="label" value="2010 FIFA World Cup" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Australia national association football team::Entity::Q268208" label="Australia national association football team">
+        <attvalues>
+          <attvalue for="label" value="Australia national association football team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="England national football team::Entity::Q47762" label="England national football team">
+        <attvalues>
+          <attvalue for="label" value="England national football team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Glen Johnson::Entity::Q185208" label="Glen Johnson">
+        <attvalues>
+          <attvalue for="label" value="Glen Johnson" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="South Africa national football team::Entity::Q170327" label="South Africa national football team">
+        <attvalues>
+          <attvalue for="label" value="South Africa national football team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="South Africa::Entity::Q258" label="South Africa">
+        <attvalues>
+          <attvalue for="label" value="South Africa" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q176883-39aa7e4f28e81b1e0e47228c6c9e8411::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q191162-f92f02856f9e17764f1025c91e5e6eb6::1" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participant in::Predicate::q191162-f92f02856f9e17764f1025c91e5e6eb6::1" label="participant in">
+        <attvalues>
+          <attvalue for="label" value="participant in" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participant in::Predicate::q47762-6d506bfa59970ccedf4840c775e2ffe8::3" label="participant in">
+        <attvalues>
+          <attvalue for="label" value="participant in" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-1a41fd192151ed30328b16da13039616::15" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-2276cf550f58194e9456f55568108adc::12" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-2b16e968a1cf8899c1d3d115e01f700b::17" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-3605eaac950fbdb25b3434e1582a55fd::10" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-3fc0faf5c92dc04f45dae88b70742d33::8" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-506d9d4755ce5cafbc30ec3c714400e2::13" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-6acf59c66059b29a98654abd2b9913b8::3" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-76bf9d302ae976d7a1483292a4890276::14" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-97c5f7bd195b15ecfe76776b12ec1cbd::11" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-c3f4ec98535d6664af325097097b1f00::18" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-d1fda95080eb83fc387fb2f8c392b344::1" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-f769f02e3e033d4537606f50784a3ea8::4" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q176883-f9468043dfad793d0d18639fb6a51c15::16" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" target="England national football team::Entity::Q47762" weight="0.9841651916503906" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" target="Glen Johnson::Entity::Q185208" weight="0.9841651916503906" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-d1fda95080eb83fc387fb2f8c392b344::1" weight="0.9938976168632507" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="11" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-3fc0faf5c92dc04f45dae88b70742d33::8" weight="0.9937498569488525" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="12" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-c3f4ec98535d6664af325097097b1f00::18" weight="0.9912632703781128" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="13" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-76bf9d302ae976d7a1483292a4890276::14" weight="0.9902923703193665" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-6acf59c66059b29a98654abd2b9913b8::3" weight="0.9884647130966187" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-f9468043dfad793d0d18639fb6a51c15::16" weight="0.98785001039505" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-2276cf550f58194e9456f55568108adc::12" weight="0.9876762628555298" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="17" source="2010 FIFA World Cup::Entity::Q176883" target="participant in::Predicate::q47762-6d506bfa59970ccedf4840c775e2ffe8::3" weight="0.9867693185806274" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="18" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-2b16e968a1cf8899c1d3d115e01f700b::17" weight="0.9862783551216125" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-97c5f7bd195b15ecfe76776b12ec1cbd::11" weight="0.9861209988594055" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" target="end time::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" weight="0.9841651916503906" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-f769f02e3e033d4537606f50784a3ea8::4" weight="0.9843215942382812" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-3605eaac950fbdb25b3434e1582a55fd::10" weight="0.9841870665550232" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="2010 FIFA World Cup::Entity::Q176883" target="participating team::Predicate::q176883-506d9d4755ce5cafbc30ec3c714400e2::13" weight="0.983635663986206" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="23" source="2010 FIFA World Cup::Entity::Q176883" target="participant in::Predicate::q191162-f92f02856f9e17764f1025c91e5e6eb6::1" weight="0.9834985136985779" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="24" source="country::Predicate::q176883-39aa7e4f28e81b1e0e47228c6c9e8411::1" target="South Africa::Entity::Q258" weight="0.9977243542671204" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="participating team::Predicate::q176883-d1fda95080eb83fc387fb2f8c392b344::1" target="South Africa national football team::Entity::Q170327" weight="0.9938976168632507" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="26" source="participating team::Predicate::q176883-3fc0faf5c92dc04f45dae88b70742d33::8" target="Australia national association football team::Entity::Q268208" weight="0.9937498569488525" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" target="number of matches played/races/starts::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" weight="0.9841651916503906" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" target="number of points/goals/set scored::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" weight="0.9841651916503906" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="member of sports team::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" target="start time::Predicate::q185208-5e1f66ea89ea50d43f922b88ed99c908::1" weight="0.9841651916503906" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="England national football team::Entity::Q47762" target="participating team::Predicate::q176883-1a41fd192151ed30328b16da13039616::15" weight="0.9959445595741272" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="England national football team::Entity::Q47762" target="member of::Predicate::q191162-f92f02856f9e17764f1025c91e5e6eb6::1" weight="0.9834985136985779" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="participating team::Predicate::q176883-1a41fd192151ed30328b16da13039616::15" target="2010 FIFA World Cup::Entity::Q176883" weight="0.9959445595741272" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="2010 FIFA World Cup::Entity::Q176883" target="country::Predicate::q176883-39aa7e4f28e81b1e0e47228c6c9e8411::1" weight="0.9977243542671204" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

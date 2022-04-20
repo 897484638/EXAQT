@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="70th Academy Awards::Entity::Q536749" label="70th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="70th Academy Awards"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" label="Academy Award for Best Writing, Original Screenplay">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Writing, Original Screenplay"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Good Will Hunting::Entity::Q193835" label="Good Will Hunting">
+        <attvalues>
+          <attvalue for="label" value="Good Will Hunting"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Matt Damon::Entity::Q175535" label="Matt Damon">
+        <attvalues>
+          <attvalue for="label" value="Matt Damon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="for work::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" target="Good Will Hunting::Entity::Q193835" weight="0.9996159076690674" label="22"/>
+      <edge id="1" source="for work::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" target="nominated for::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" weight="0.9996159076690674" label="22"/>
+      <edge id="2" source="nominated for::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" target="statement is subject of::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" weight="0.9996159076690674" label="22"/>
+      <edge id="3" source="nominated for::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" target="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" weight="0.9996159076690674" label="22"/>
+      <edge id="4" source="nominated for::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" target="Matt Damon::Entity::Q175535" weight="0.9996159076690674" label="22"/>
+      <edge id="5" source="statement is subject of::Predicate::q175535-58c5a98aa74da7b8f789970b867d766f::1" target="70th Academy Awards::Entity::Q536749" weight="0.9996159076690674" label="22"/>
+    </edges>
+  </graph>
+</gexf>

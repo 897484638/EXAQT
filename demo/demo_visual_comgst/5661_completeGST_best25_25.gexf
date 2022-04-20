@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010 FIFA World Cup::Entity::Q176883" label="2010 FIFA World Cup">
+        <attvalues>
+          <attvalue for="label" value="2010 FIFA World Cup" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="FIFA::Entity::Q253414" label="FIFA">
+        <attvalues>
+          <attvalue for="label" value="FIFA" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hockey World Cup::Entity::Q1128219" label="Hockey World Cup">
+        <attvalues>
+          <attvalue for="label" value="Hockey World Cup" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="International Hockey Federation::Entity::Q870081" label="International Hockey Federation">
+        <attvalues>
+          <attvalue for="label" value="International Hockey Federation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="South Africa::Entity::Q258" label="South Africa">
+        <attvalues>
+          <attvalue for="label" value="South Africa" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="What a Country!::Entity::Q17036433" label="What a Country!">
+        <attvalues>
+          <attvalue for="label" value="What a Country!" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q17036433-1485b36d3b1e97f7084522045735a8ba::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q176883-39aa7e4f28e81b1e0e47228c6c9e8411::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="organizer::Predicate::q1128219-80ef102759105e0f5b4df75462e6623a::1" label="organizer">
+        <attvalues>
+          <attvalue for="label" value="organizer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="organizer::Predicate::q176883-d0dad8d01d25ebe58401b5b4a4a69a86::2" label="organizer">
+        <attvalues>
+          <attvalue for="label" value="organizer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Hockey World Cup::Entity::Q1128219" target="organizer::Predicate::q1128219-80ef102759105e0f5b4df75462e6623a::1" weight="0.071534164249897" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="organizer::Predicate::q1128219-80ef102759105e0f5b4df75462e6623a::1" target="International Hockey Federation::Entity::Q870081" weight="0.071534164249897" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="country of origin::Predicate::q17036433-1485b36d3b1e97f7084522045735a8ba::1" target="United States::Entity::Q30" weight="0.993584930896759" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="country of origin::Predicate::q17036433-1485b36d3b1e97f7084522045735a8ba::1" target="What a Country!::Entity::Q17036433" weight="0.993584930896759" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="country::Predicate::q176883-39aa7e4f28e81b1e0e47228c6c9e8411::1" target="2010 FIFA World Cup::Entity::Q176883" weight="0.9992926120758057" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="country::Predicate::q176883-39aa7e4f28e81b1e0e47228c6c9e8411::1" target="South Africa::Entity::Q258" weight="0.9992926120758057" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="2010 FIFA World Cup::Entity::Q176883" target="organizer::Predicate::q176883-d0dad8d01d25ebe58401b5b4a4a69a86::2" weight="0.4394146800041199" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="organizer::Predicate::q176883-d0dad8d01d25ebe58401b5b4a4a69a86::2" target="FIFA::Entity::Q253414" weight="0.4394146800041199" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1980-01-01::Entity::1980-01-01T00:00:00Z" label="1980-01-01">
+        <attvalues>
+          <attvalue for="label" value="1980-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2008-01-01::Entity::2008-01-01T00:00:00Z" label="2008-01-01">
+        <attvalues>
+          <attvalue for="label" value="2008-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Potjaman Na Pombejra::Entity::Q4925511" label="Potjaman Na Pombejra">
+        <attvalues>
+          <attvalue for="label" value="Potjaman Na Pombejra"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Prime Minister of Thailand::Entity::Q12376089" label="Prime Minister of Thailand">
+        <attvalues>
+          <attvalue for="label" value="Prime Minister of Thailand"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Thaksin Shinawatra::Entity::Q164373" label="Thaksin Shinawatra">
+        <attvalues>
+          <attvalue for="label" value="Thaksin Shinawatra"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q4925511-41353dde57cdfc4bc0ac667bd85dfa73::3" label="child">
+        <attvalues>
+          <attvalue for="label" value="child"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q4925511-4699f46e919e6d1e12fb1777942ee68f::2" label="child">
+        <attvalues>
+          <attvalue for="label" value="child"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q4925511-678cd395a21f67581d9b38414b45bb4b::1" label="child">
+        <attvalues>
+          <attvalue for="label" value="child"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q164373-08271f1627d6ba31fffaa5ef55049906::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q164373-2474051764661a352664358c4d8428bd::2" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q4925511-46fdd2afafa3d0b0a3fabb7a20b74847::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="mother::Predicate::q13018161-06a1fdc71f2ce55b08e8375c274931fa::1" label="mother">
+        <attvalues>
+          <attvalue for="label" value="mother"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q164373-f80136e01f27c1f8d977d0cc9d442acf::2" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q164373-2ae11dfc319e524fea8581f5ee7818d6::1" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Thaksin Shinawatra::Entity::Q164373" target="spouse::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" weight="0.9990139007568359" label="1"/>
+      <edge id="1" source="Thaksin Shinawatra::Entity::Q164373" target="spouse::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" weight="0.9987851977348328" label="2"/>
+      <edge id="10" source="Potjaman Na Pombejra::Entity::Q4925511" target="spouse::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" weight="0.9987851977348328" label="2"/>
+      <edge id="11" source="Potjaman Na Pombejra::Entity::Q4925511" target="child::Predicate::q4925511-4699f46e919e6d1e12fb1777942ee68f::2" weight="0.0010980148799717426" label="9"/>
+      <edge id="12" source="Potjaman Na Pombejra::Entity::Q4925511" target="child::Predicate::q4925511-678cd395a21f67581d9b38414b45bb4b::1" weight="0.0010348851792514324" label="11"/>
+      <edge id="13" source="Potjaman Na Pombejra::Entity::Q4925511" target="date of birth::Predicate::q4925511-46fdd2afafa3d0b0a3fabb7a20b74847::1" weight="0.0009610718698240817" label="12"/>
+      <edge id="14" source="Potjaman Na Pombejra::Entity::Q4925511" target="mother::Predicate::q13018161-06a1fdc71f2ce55b08e8375c274931fa::1" weight="0.0008799066999927163" label="14"/>
+      <edge id="15" source="Potjaman Na Pombejra::Entity::Q4925511" target="child::Predicate::q4925511-41353dde57cdfc4bc0ac667bd85dfa73::3" weight="0.0008660597959533334" label="16"/>
+      <edge id="16" source="end time::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" target="2008-01-01::Entity::2008-01-01T00:00:00Z" weight="0.9990139007568359" label="1"/>
+      <edge id="17" source="start time::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" target="1980-01-01::Entity::1980-01-01T00:00:00Z" weight="0.9990139007568359" label="1"/>
+      <edge id="18" source="spouse::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" target="end time::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" weight="0.9987851977348328" label="2"/>
+      <edge id="19" source="spouse::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" target="start time::Predicate::q4925511-0073261692583c059a87bf520b4cfd10::1" weight="0.9987851977348328" label="2"/>
+      <edge id="2" source="Thaksin Shinawatra::Entity::Q164373" target="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" weight="0.6442498564720154" label="3"/>
+      <edge id="20" source="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" target="end time::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::3" weight="0.6442498564720154" label="3"/>
+      <edge id="21" source="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" target="start time::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::4" weight="0.6442498564720154" label="3"/>
+      <edge id="22" source="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" target="Prime Minister of Thailand::Entity::Q12376089" weight="0.6442498564720154" label="3"/>
+      <edge id="23" source="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" target="replaced by::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" weight="0.6442498564720154" label="3"/>
+      <edge id="24" source="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" target="replaces::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" weight="0.6442498564720154" label="3"/>
+      <edge id="25" source="position held::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" target="series ordinal::Predicate::q164373-faa955ddfaeb76a99a52e90f94ecd470::1" weight="0.6442498564720154" label="3"/>
+      <edge id="3" source="Thaksin Shinawatra::Entity::Q164373" target="position held::Predicate::q164373-f80136e01f27c1f8d977d0cc9d442acf::2" weight="0.40461844205856323" label="4"/>
+      <edge id="4" source="Thaksin Shinawatra::Entity::Q164373" target="country of citizenship::Predicate::q164373-08271f1627d6ba31fffaa5ef55049906::2" weight="0.11259027570486069" label="6"/>
+      <edge id="5" source="Thaksin Shinawatra::Entity::Q164373" target="date of birth::Predicate::q164373-2474051764661a352664358c4d8428bd::2" weight="0.000883508357219398" label="13"/>
+      <edge id="6" source="Thaksin Shinawatra::Entity::Q164373" target="sibling::Predicate::q164373-2ae11dfc319e524fea8581f5ee7818d6::1" weight="0.0008668862865306437" label="15"/>
+      <edge id="7" source="spouse::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" target="Potjaman Na Pombejra::Entity::Q4925511" weight="0.9990139007568359" label="1"/>
+      <edge id="8" source="spouse::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" target="end time::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" weight="0.9990139007568359" label="1"/>
+      <edge id="9" source="spouse::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" target="start time::Predicate::q164373-477302822df091e3155289ec0c68fc91::2" weight="0.9990139007568359" label="1"/>
+    </edges>
+  </graph>
+</gexf>

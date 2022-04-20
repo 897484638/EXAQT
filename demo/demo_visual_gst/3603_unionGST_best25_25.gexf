@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1991-01-01::Entity::1991-01-01T00:00:00Z" label="1991-01-01">
+        <attvalues>
+          <attvalue for="label" value="1991-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Dennis Hopper::Entity::Q102711" label="Dennis Hopper">
+        <attvalues>
+          <attvalue for="label" value="Dennis Hopper" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Larry Hagman::Entity::Q100440" label="Larry Hagman">
+        <attvalues>
+          <attvalue for="label" value="Larry Hagman" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Louis Gossett::Entity::Q329719" label="Louis Gossett">
+        <attvalues>
+          <attvalue for="label" value="Louis Gossett" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Paris Trout::Entity::Q4385602" label="Paris Trout">
+        <attvalues>
+          <attvalue for="label" value="Paris Trout" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" label="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series">
+        <attvalues>
+          <attvalue for="label" value="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Primetime Emmy Award for Outstanding Lead Actor in a Limited Series or Movie::Entity::Q989453" label="Primetime Emmy Award for Outstanding Lead Actor in a Limited Series or Movie">
+        <attvalues>
+          <attvalue for="label" value="Primetime Emmy Award for Outstanding Lead Actor in a Limited Series or Movie" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::4" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q102711-33840d172521367b9512c60f784a9823::3" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::6" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q102711-2a16a1a7cf66ae944e34462636068d41::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q102711-33840d172521367b9512c60f784a9823::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q102711-e1ce0ca423ce2a4caf723e191086a8bb::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q103946-f4535737889e7f516987ee8c60e7cce8::25" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q104027-950be9219e6671131cc6b4a9ba03f1f3::15" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1068952-f5a2226945177e206d617034290aec6f::11" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1071675-f3e490ab6a986cdfd474f10a2601fd56::19" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q108510-e7acf17a5fad8cb9584a46d60816997b::7" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q109324-4d933d9794c38d60592ff274f59daed7::8" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q2085-ca14e527b1828bef0b55b8dbbfdb51a7::14" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q220698-5715af3bcd739327414feaccc66f0a02::10" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q329719-6f5ae30d28bbc33f10d6da8df4d0e314::17" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q361238-8abafdf61c6aa681ef3fd952031dda0f::9" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q784211-0699fd5b9a7cf3d3d09221454c9ae845::4" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q102711-33840d172521367b9512c60f784a9823::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2085-ca14e527b1828bef0b55b8dbbfdb51a7::12" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q329719-6f5ae30d28bbc33f10d6da8df4d0e314::15" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q2085-ca14e527b1828bef0b55b8dbbfdb51a7::14" weight="0.9992491602897644" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::6" weight="0.9996412992477417" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q103946-f4535737889e7f516987ee8c60e7cce8::25" weight="0.9992757439613342" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="nominated for::Predicate::q2085-ca14e527b1828bef0b55b8dbbfdb51a7::14" target="point in time::Predicate::q2085-ca14e527b1828bef0b55b8dbbfdb51a7::12" weight="0.9992491602897644" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="point in time::Predicate::q2085-ca14e527b1828bef0b55b8dbbfdb51a7::12" target="1991-01-01::Entity::1991-01-01T00:00:00Z" weight="0.9992491602897644" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="1991-01-01::Entity::1991-01-01T00:00:00Z" target="point in time::Predicate::q102711-33840d172521367b9512c60f784a9823::3" weight="0.999690055847168" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="14" source="point in time::Predicate::q102711-33840d172521367b9512c60f784a9823::3" target="nominated for::Predicate::q102711-33840d172521367b9512c60f784a9823::3" weight="0.999690055847168" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="nominated for::Predicate::q102711-33840d172521367b9512c60f784a9823::3" target="Dennis Hopper::Entity::Q102711" weight="0.999690055847168" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="nominated for::Predicate::q102711-33840d172521367b9512c60f784a9823::3" target="Primetime Emmy Award for Outstanding Lead Actor in a Limited Series or Movie::Entity::Q989453" weight="0.999690055847168" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="nominated for::Predicate::q102711-33840d172521367b9512c60f784a9823::3" target="for work::Predicate::q102711-33840d172521367b9512c60f784a9823::3" weight="0.999690055847168" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="Dennis Hopper::Entity::Q102711" target="nominated for::Predicate::q102711-e1ce0ca423ce2a4caf723e191086a8bb::1" weight="0.9995461106300354" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="19" source="Dennis Hopper::Entity::Q102711" target="nominated for::Predicate::q102711-2a16a1a7cf66ae944e34462636068d41::2" weight="0.9995433688163757" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="2" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q329719-6f5ae30d28bbc33f10d6da8df4d0e314::17" weight="0.9996261596679688" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="20" source="Dennis Hopper::Entity::Q102711" target="nominee::Predicate::q784211-0699fd5b9a7cf3d3d09221454c9ae845::4" weight="0.9994379878044128" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="21" source="for work::Predicate::q102711-33840d172521367b9512c60f784a9823::3" target="Paris Trout::Entity::Q4385602" weight="0.999690055847168" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="nominated for::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::6" target="Larry Hagman::Entity::Q100440" weight="0.9996412992477417" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="nominated for::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::6" target="for work::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::4" weight="0.9996412992477417" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="nominated for::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::6" target="point in time::Predicate::q100440-1251381bd92446c3d9355d4106d59a02::4" weight="0.9996412992477417" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="25" source="nominated for::Predicate::q329719-6f5ae30d28bbc33f10d6da8df4d0e314::17" target="Louis Gossett::Entity::Q329719" weight="0.9996261596679688" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="26" source="nominated for::Predicate::q329719-6f5ae30d28bbc33f10d6da8df4d0e314::17" target="point in time::Predicate::q329719-6f5ae30d28bbc33f10d6da8df4d0e314::15" weight="0.9996261596679688" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q109324-4d933d9794c38d60592ff274f59daed7::8" weight="0.999536395072937" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q108510-e7acf17a5fad8cb9584a46d60816997b::7" weight="0.9995111227035522" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q220698-5715af3bcd739327414feaccc66f0a02::10" weight="0.999496340751648" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q1071675-f3e490ab6a986cdfd474f10a2601fd56::19" weight="0.9994369149208069" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q361238-8abafdf61c6aa681ef3fd952031dda0f::9" weight="0.9993820190429688" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q1068952-f5a2226945177e206d617034290aec6f::11" weight="0.999306321144104" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="Primetime Emmy Award for Outstanding Lead Actor in a Drama Series::Entity::Q989439" target="nominated for::Predicate::q104027-950be9219e6671131cc6b4a9ba03f1f3::15" weight="0.9992951154708862" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Jane Austen::Entity::Q36322" label="Jane Austen">
+        <attvalues>
+          <attvalue for="label" value="Jane Austen"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Pride &amp; Prejudice::Entity::Q270385" label="Pride &amp; Prejudice">
+        <attvalues>
+          <attvalue for="label" value="Pride &amp; Prejudice"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Pride and Prejudice::Entity::Q170583" label="Pride and Prejudice">
+        <attvalues>
+          <attvalue for="label" value="Pride and Prejudice"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Pride not Prejudice::Entity::Q60645114" label="Pride not Prejudice">
+        <attvalues>
+          <attvalue for="label" value="Pride not Prejudice"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Sense and Sensibility::Entity::Q274744" label="Sense and Sensibility">
+        <attvalues>
+          <attvalue for="label" value="Sense and Sensibility"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="The History of Sir Charles Grandison::Entity::Q3521260" label="The History of Sir Charles Grandison">
+        <attvalues>
+          <attvalue for="label" value="The History of Sir Charles Grandison"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Thomas Egerton::Entity::Q16968755" label="Thomas Egerton">
+        <attvalues>
+          <attvalue for="label" value="Thomas Egerton"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q170583-5a395845d0c65ef2b15bad3c7f5df4a9::1" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q270385-95e1f8576e70451bd6bcad9cc5c400ad::2" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="based on::Predicate::q270385-95e1f8576e70451bd6bcad9cc5c400ad::1" label="based on">
+        <attvalues>
+          <attvalue for="label" value="based on"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-5618de259606b086a7cbd2fc13563ba3::3" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-65f27fe664757390baaf211dcee4d7e1::4" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-820609dbabdf39bd42ab99555e4ef98b::5" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-8f17e4ba13a6b5ec503d0c564a4b42a6::2" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-c0b0cdf5ee42c68ebdeb76f6f5cef07b::6" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-c2775f1b1208a4c606f42c7f89af3c90::1" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-cf0fd33beae4157f7ef387a8bb825803::8" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="derivative work::Predicate::q170583-f90e7e25b0168f3a295ed3ac48a81bd7::7" label="derivative work">
+        <attvalues>
+          <attvalue for="label" value="derivative work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q274744-79be5c2279da3a3f2b81dcad26a9fd4c::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q170583-7e9f5bba0eaceb123fd19f2eb01d1e3f::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="inspired by::Predicate::q170583-868d4f4005086433ccf45c31c3dc554c::3" label="inspired by">
+        <attvalues>
+          <attvalue for="label" value="inspired by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="inspired by::Predicate::q170583-9e18ea13976a447639ebc5b25c277029::1" label="inspired by">
+        <attvalues>
+          <attvalue for="label" value="inspired by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="language of work or name::Predicate::q170583-48c708d026ff348f89a3cef197d877c1::1" label="language of work or name">
+        <attvalues>
+          <attvalue for="label" value="language of work or name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q60645114-be7695e48ef59367aa85b9fb736bb1f4::1" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="notable work::Predicate::q36322-6d76f0fd66570e6845368c1c834e177f::1" label="notable work">
+        <attvalues>
+          <attvalue for="label" value="notable work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="publisher::Predicate::q170583-825f6eff872ed8024778b5b0bd046073::1" label="publisher">
+        <attvalues>
+          <attvalue for="label" value="publisher"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="notable work::Predicate::q36322-6d76f0fd66570e6845368c1c834e177f::1" target="Pride and Prejudice::Entity::Q170583" weight="0.7359602451324463" label="6"/>
+      <edge id="1" source="notable work::Predicate::q36322-6d76f0fd66570e6845368c1c834e177f::1" target="Jane Austen::Entity::Q36322" weight="0.7359602451324463" label="6"/>
+      <edge id="10" source="Pride and Prejudice::Entity::Q170583" target="language of work or name::Predicate::q170583-48c708d026ff348f89a3cef197d877c1::1" weight="0.010124756954610348" label="23"/>
+      <edge id="11" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-c2775f1b1208a4c606f42c7f89af3c90::1" weight="0.2932538390159607" label="12"/>
+      <edge id="12" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-65f27fe664757390baaf211dcee4d7e1::4" weight="0.28197479248046875" label="13"/>
+      <edge id="13" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-5618de259606b086a7cbd2fc13563ba3::3" weight="0.2565103769302368" label="14"/>
+      <edge id="14" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-820609dbabdf39bd42ab99555e4ef98b::5" weight="0.2565103769302368" label="14"/>
+      <edge id="15" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-8f17e4ba13a6b5ec503d0c564a4b42a6::2" weight="0.2565103769302368" label="14"/>
+      <edge id="16" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-c0b0cdf5ee42c68ebdeb76f6f5cef07b::6" weight="0.2565103769302368" label="14"/>
+      <edge id="17" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-f90e7e25b0168f3a295ed3ac48a81bd7::7" weight="0.2565103769302368" label="14"/>
+      <edge id="18" source="Pride and Prejudice::Entity::Q170583" target="derivative work::Predicate::q170583-cf0fd33beae4157f7ef387a8bb825803::8" weight="0.2546152174472809" label="15"/>
+      <edge id="19" source="named after::Predicate::q60645114-be7695e48ef59367aa85b9fb736bb1f4::1" target="Pride not Prejudice::Entity::Q60645114" weight="0.7069917321205139" label="7"/>
+      <edge id="2" source="Pride and Prejudice::Entity::Q170583" target="named after::Predicate::q60645114-be7695e48ef59367aa85b9fb736bb1f4::1" weight="0.7069917321205139" label="7"/>
+      <edge id="20" source="author::Predicate::q170583-5a395845d0c65ef2b15bad3c7f5df4a9::1" target="Jane Austen::Entity::Q36322" weight="0.9925978183746338" label="1"/>
+      <edge id="21" source="Jane Austen::Entity::Q36322" target="author::Predicate::q270385-95e1f8576e70451bd6bcad9cc5c400ad::2" weight="0.9639914035797119" label="2"/>
+      <edge id="22" source="based on::Predicate::q270385-95e1f8576e70451bd6bcad9cc5c400ad::1" target="Pride &amp; Prejudice::Entity::Q270385" weight="0.9639914035797119" label="2"/>
+      <edge id="23" source="follows::Predicate::q170583-7e9f5bba0eaceb123fd19f2eb01d1e3f::1" target="Sense and Sensibility::Entity::Q274744" weight="0.9373977780342102" label="3"/>
+      <edge id="24" source="publisher::Predicate::q170583-825f6eff872ed8024778b5b0bd046073::1" target="Thomas Egerton::Entity::Q16968755" weight="0.631070077419281" label="8"/>
+      <edge id="25" source="inspired by::Predicate::q170583-9e18ea13976a447639ebc5b25c277029::1" target="The History of Sir Charles Grandison::Entity::Q3521260" weight="0.7589203715324402" label="5"/>
+      <edge id="3" source="Pride and Prejudice::Entity::Q170583" target="author::Predicate::q170583-5a395845d0c65ef2b15bad3c7f5df4a9::1" weight="0.9925978183746338" label="1"/>
+      <edge id="4" source="Pride and Prejudice::Entity::Q170583" target="based on::Predicate::q270385-95e1f8576e70451bd6bcad9cc5c400ad::1" weight="0.9639914035797119" label="2"/>
+      <edge id="5" source="Pride and Prejudice::Entity::Q170583" target="follows::Predicate::q170583-7e9f5bba0eaceb123fd19f2eb01d1e3f::1" weight="0.9373977780342102" label="3"/>
+      <edge id="6" source="Pride and Prejudice::Entity::Q170583" target="publisher::Predicate::q170583-825f6eff872ed8024778b5b0bd046073::1" weight="0.631070077419281" label="8"/>
+      <edge id="7" source="Pride and Prejudice::Entity::Q170583" target="inspired by::Predicate::q170583-9e18ea13976a447639ebc5b25c277029::1" weight="0.7589203715324402" label="5"/>
+      <edge id="8" source="Pride and Prejudice::Entity::Q170583" target="inspired by::Predicate::q170583-868d4f4005086433ccf45c31c3dc554c::3" weight="0.48184117674827576" label="10"/>
+      <edge id="9" source="Pride and Prejudice::Entity::Q170583" target="followed by::Predicate::q274744-79be5c2279da3a3f2b81dcad26a9fd4c::1" weight="0.46898317337036133" label="11"/>
+    </edges>
+  </graph>
+</gexf>

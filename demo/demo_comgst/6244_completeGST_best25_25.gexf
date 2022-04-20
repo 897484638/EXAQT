@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010-05-28::Entity::2010-05-28T00:00:00Z" label="2010-05-28">
+        <attvalues>
+          <attvalue for="label" value="2010-05-28"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gary Coleman::Entity::Q313367" label="Gary Coleman">
+        <attvalues>
+          <attvalue for="label" value="Gary Coleman"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Germany in the Eurovision Song Contest 2011::Entity::Q835473" label="Germany in the Eurovision Song Contest 2011">
+        <attvalues>
+          <attvalue for="label" value="Germany in the Eurovision Song Contest 2011"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Provo, Utah::Entity::Q23443" label="Provo, Utah">
+        <attvalues>
+          <attvalue for="label" value="Provo, Utah"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Zion::Entity::Q205332" label="Zion">
+        <attvalues>
+          <attvalue for="label" value="Zion"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q313367-ac3ae1dd0537d059cf25887ee2670f02::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q835473-5df8fcbbc1cdfdc5901dccde2ebe9480::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="live television::Entity::Q431102" label="live television">
+        <attvalues>
+          <attvalue for="label" value="live television"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q313367-f1f4a1278de577d54e2f33029f753d4c::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q313367-82f47d58a54304928d83956ad1ebcfaf::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="place of death::Predicate::q313367-82f47d58a54304928d83956ad1ebcfaf::1" target="Gary Coleman::Entity::Q313367" weight="0.9939982891082764" label="1"/>
+      <edge id="1" source="place of death::Predicate::q313367-82f47d58a54304928d83956ad1ebcfaf::1" target="Provo, Utah::Entity::Q23443" weight="0.9939982891082764" label="1"/>
+      <edge id="2" source="Gary Coleman::Entity::Q313367" target="place of birth::Predicate::q313367-f1f4a1278de577d54e2f33029f753d4c::1" weight="0.9524284601211548" label="2"/>
+      <edge id="3" source="Gary Coleman::Entity::Q313367" target="date of death::Predicate::q313367-ac3ae1dd0537d059cf25887ee2670f02::1" weight="0.5058478713035583" label="3"/>
+      <edge id="4" source="place of birth::Predicate::q313367-f1f4a1278de577d54e2f33029f753d4c::1" target="Zion::Entity::Q205332" weight="0.9524284601211548" label="2"/>
+      <edge id="5" source="date of death::Predicate::q313367-ac3ae1dd0537d059cf25887ee2670f02::1" target="2010-05-28::Entity::2010-05-28T00:00:00Z" weight="0.5058478713035583" label="3"/>
+      <edge id="6" source="live television::Entity::Q431102" target="instance of::Predicate::q835473-5df8fcbbc1cdfdc5901dccde2ebe9480::1" weight="0.00213638786226511" label="18"/>
+      <edge id="7" source="instance of::Predicate::q835473-5df8fcbbc1cdfdc5901dccde2ebe9480::1" target="Germany in the Eurovision Song Contest 2011::Entity::Q835473" weight="0.00213638786226511" label="18"/>
+    </edges>
+  </graph>
+</gexf>

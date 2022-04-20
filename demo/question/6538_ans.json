@@ -1,0 +1,101 @@
+{
+    "Id": 6538,
+    "Question": "of the movies  that taylor lautner acted in 2011, and the netflix_id is less than 70202142",
+    "Temporal signal": [
+        "OVERLAP"
+    ],
+    "Temporal question type": [
+        "Explicit"
+    ],
+    "Answer": [
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q143716",
+            "WikidataLabel": "Abduction",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Abduction_(2011_film)"
+        },
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q517958",
+            "WikidataLabel": "Field of Dreams",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Field_of_Dreams"
+        },
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q60506",
+            "WikidataLabel": "The Twilight Saga: Breaking Dawn – Part 1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_1"
+        }
+    ],
+    "Data set": "train",
+    "Question truecase": "Of the movies that Taylor Lautner acted in 2011, and the Netflix_Id is less than 7020214 2?",
+    "Seed entity": [
+        {
+            "label": "2011 in film",
+            "url": "http://www.wikidata.org/entity/Q250415",
+            "qid": "Q250415",
+            "text": "2011",
+            "method": "ELQ"
+        },
+        {
+            "label": "Taylor Lautner",
+            "url": "http://www.wikidata.org/entity/Q23359",
+            "qid": "Q23359",
+            "text": "taylor lautner",
+            "method": "ELQ and TAGME"
+        },
+        {
+            "label": "Netflix",
+            "url": "http://www.wikidata.org/entity/Q907311",
+            "qid": "Q907311",
+            "text": "netflix",
+            "method": "ELQ and TAGME"
+        },
+        {
+            "label": "feature film",
+            "url": "http://www.wikidata.org/entity/Q24869",
+            "qid": "Q24869",
+            "text": "movies",
+            "method": "TAGME"
+        },
+        {
+            "label": "Id Software",
+            "url": "http://www.wikidata.org/entity/Q204474",
+            "qid": "Q204474",
+            "text": "id",
+            "method": "TAGME"
+        }
+    ],
+    "Top5 answer": [
+        {
+            "rank": 1,
+            "label": "Abduction",
+            "url": "http://www.wikidata.org/entity/Q143716",
+            "qid": "Q143716"
+        },
+        {
+            "rank": 2,
+            "label": "The Twilight Saga: Breaking Dawn – Part 1",
+            "url": "http://www.wikidata.org/entity/Q60506",
+            "qid": "Q60506"
+        },
+        {
+            "rank": 3,
+            "label": "Satellite Award for Best Television Series – Musical or Comedy",
+            "url": "http://www.wikidata.org/entity/Q3473891",
+            "qid": "Q3473891"
+        },
+        {
+            "rank": 4,
+            "label": "Golden Raspberry Award for Worst Actor",
+            "url": "http://www.wikidata.org/entity/Q602299",
+            "qid": "Q602299"
+        },
+        {
+            "rank": 5,
+            "label": "House of Cards",
+            "url": "http://www.wikidata.org/entity/Q3330940",
+            "qid": "Q3330940"
+        }
+    ]
+}

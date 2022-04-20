@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Prime Minister of Japan::Entity::Q274948" label="Prime Minister of Japan">
+        <attvalues>
+          <attvalue for="label" value="Prime Minister of Japan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Shinzō Abe::Entity::Q132345" label="Shinzō Abe">
+        <attvalues>
+          <attvalue for="label" value="Shinzō Abe"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Yoshihiko Noda::Entity::Q57647" label="Yoshihiko Noda">
+        <attvalues>
+          <attvalue for="label" value="Yoshihiko Noda"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Yukio Hatoyama::Entity::Q131077" label="Yukio Hatoyama">
+        <attvalues>
+          <attvalue for="label" value="Yukio Hatoyama"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q131077-90447a8bb4de15634543c243696406cb::20" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q132345-d49ebcd53fdd70bdb94f73c90250bcc2::18" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q57647-401d9b484f4134a0f089c1945d83cb17::7" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Prime Minister of Japan::Entity::Q274948" target="position held::Predicate::q57647-401d9b484f4134a0f089c1945d83cb17::7" weight="0.9997206330299377" label="1"/>
+      <edge id="1" source="Prime Minister of Japan::Entity::Q274948" target="position held::Predicate::q132345-d49ebcd53fdd70bdb94f73c90250bcc2::18" weight="0.9997170567512512" label="2"/>
+      <edge id="2" source="Prime Minister of Japan::Entity::Q274948" target="position held::Predicate::q131077-90447a8bb4de15634543c243696406cb::20" weight="0.9997115731239319" label="3"/>
+      <edge id="3" source="position held::Predicate::q57647-401d9b484f4134a0f089c1945d83cb17::7" target="Yoshihiko Noda::Entity::Q57647" weight="0.9997206330299377" label="1"/>
+      <edge id="4" source="position held::Predicate::q132345-d49ebcd53fdd70bdb94f73c90250bcc2::18" target="Shinzō Abe::Entity::Q132345" weight="0.9997170567512512" label="2"/>
+      <edge id="5" source="position held::Predicate::q131077-90447a8bb4de15634543c243696406cb::20" target="Yukio Hatoyama::Entity::Q131077" weight="0.9997115731239319" label="3"/>
+    </edges>
+  </graph>
+</gexf>

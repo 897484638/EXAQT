@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2003-01-01::Entity::2003-01-01T00:00:00Z" label="2003-01-01">
+        <attvalues>
+          <attvalue for="label" value="2003-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="NCIS, season 11::Entity::Q14628416" label="NCIS, season 11">
+        <attvalues>
+          <attvalue for="label" value="NCIS, season 11"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="NCIS, season 7::Entity::Q1213606" label="NCIS, season 7">
+        <attvalues>
+          <attvalue for="label" value="NCIS, season 7"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="NCIS::Entity::Q4525" label="NCIS">
+        <attvalues>
+          <attvalue for="label" value="NCIS"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Sean Murray::Entity::Q366939" label="Sean Murray">
+        <attvalues>
+          <attvalue for="label" value="Sean Murray"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="cast member::Predicate::q4525-c12982d99e891a0f6bbdbfe8ae2341c5::1" label="cast member">
+        <attvalues>
+          <attvalue for="label" value="cast member"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::9" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213604-22a063eb1dab051bd3ad5e93f371cb08::15" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213608-7f5ded950da56d4285bd717960788f80::4" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213609-bc90276155e65e0c89e7df98377c04ab::11" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213611-35771106dea21250110f631e9410aa2a::17" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q1213614-42696515a76e01b539cad3ee6e040aa9::12" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q18121371-686108e7b035500031c32930ff4ccf6b::6" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q20991898-a6f3a832b298fceca60a90f17cb71675::5" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q26419056-6a384b97a9f95077e2c563c2af363819::16" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q56242075-93b8b5096943aced35a66a3f0a54c28e::14" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q650628-22760e3e068c4275bad770099ea70cb5::8" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q966984-2300017e9d4db78c68d017fcab2ed82a::1" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q4525-5600cfff0552812850b84b6997fcf450::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Sean Murray::Entity::Q366939" target="cast member::Predicate::q4525-c12982d99e891a0f6bbdbfe8ae2341c5::1" weight="0.0017598624108359218" label="26"/>
+      <edge id="1" source="cast member::Predicate::q4525-c12982d99e891a0f6bbdbfe8ae2341c5::1" target="NCIS::Entity::Q4525" weight="0.0017598624108359218" label="26"/>
+      <edge id="10" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q650628-22760e3e068c4275bad770099ea70cb5::8" weight="0.8465946912765503" label="9"/>
+      <edge id="11" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q26419056-6a384b97a9f95077e2c563c2af363819::16" weight="0.8348627090454102" label="10"/>
+      <edge id="12" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213604-22a063eb1dab051bd3ad5e93f371cb08::15" weight="0.8285558223724365" label="11"/>
+      <edge id="13" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213614-42696515a76e01b539cad3ee6e040aa9::12" weight="0.8227718472480774" label="12"/>
+      <edge id="14" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213611-35771106dea21250110f631e9410aa2a::17" weight="0.8186563849449158" label="13"/>
+      <edge id="15" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213608-7f5ded950da56d4285bd717960788f80::4" weight="0.7951576709747314" label="14"/>
+      <edge id="16" source="publication date::Predicate::q4525-5600cfff0552812850b84b6997fcf450::1" target="2003-01-01::Entity::2003-01-01T00:00:00Z" weight="0.8779679536819458" label="4"/>
+      <edge id="17" source="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" target="NCIS, season 11::Entity::Q14628416" weight="0.9080631136894226" label="1"/>
+      <edge id="18" source="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" target="followed by::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" weight="0.9080631136894226" label="1"/>
+      <edge id="19" source="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" target="follows::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" weight="0.9080631136894226" label="1"/>
+      <edge id="2" source="NCIS::Entity::Q4525" target="publication date::Predicate::q4525-5600cfff0552812850b84b6997fcf450::1" weight="0.8779679536819458" label="4"/>
+      <edge id="20" source="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" target="series ordinal::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" weight="0.9080631136894226" label="1"/>
+      <edge id="21" source="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" target="NCIS, season 7::Entity::Q1213606" weight="0.9017308354377747" label="2"/>
+      <edge id="22" source="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" target="followed by::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" weight="0.9017308354377747" label="2"/>
+      <edge id="23" source="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" target="follows::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::9" weight="0.9017308354377747" label="2"/>
+      <edge id="24" source="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" target="series ordinal::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" weight="0.9017308354377747" label="2"/>
+      <edge id="3" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q14628416-a691710e9d6cf8819bcd8c74d7bbb8c6::2" weight="0.9080631136894226" label="1"/>
+      <edge id="4" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213606-c9bcd873d760411c4c0d978c86dc4da0::10" weight="0.9017308354377747" label="2"/>
+      <edge id="5" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q56242075-93b8b5096943aced35a66a3f0a54c28e::14" weight="0.8855359554290771" label="3"/>
+      <edge id="6" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q966984-2300017e9d4db78c68d017fcab2ed82a::1" weight="0.8742825984954834" label="5"/>
+      <edge id="7" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q1213609-bc90276155e65e0c89e7df98377c04ab::11" weight="0.8586289882659912" label="6"/>
+      <edge id="8" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q20991898-a6f3a832b298fceca60a90f17cb71675::5" weight="0.8540320992469788" label="7"/>
+      <edge id="9" source="NCIS::Entity::Q4525" target="part of the series::Predicate::q18121371-686108e7b035500031c32930ff4ccf6b::6" weight="0.8468058705329895" label="8"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1789-03-04::Entity::1789-03-04T00:00:00Z" label="1789-03-04">
+        <attvalues>
+          <attvalue for="label" value="1789-03-04"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Federal Government of the United States of America::Entity::Q48525" label="Federal Government of the United States of America">
+        <attvalues>
+          <attvalue for="label" value="Federal Government of the United States of America"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States Congress::Entity::Q11268" label="United States Congress">
+        <attvalues>
+          <attvalue for="label" value="United States Congress"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States federal executive department::Entity::Q910252" label="United States federal executive department">
+        <attvalues>
+          <attvalue for="label" value="United States federal executive department"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="applies to jurisdiction::Predicate::q48525-801fa2a52828544305886b1f6837b7a5::1" label="applies to jurisdiction">
+        <attvalues>
+          <attvalue for="label" value="applies to jurisdiction"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="authority::Predicate::q7603694-3293896b277997d03f81fbff4d0e3fe8::1" label="authority">
+        <attvalues>
+          <attvalue for="label" value="authority"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="basic form of government::Predicate::q30-1e12f1d14bb26753fbb96a518aa1e4ac::1" label="basic form of government">
+        <attvalues>
+          <attvalue for="label" value="basic form of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="basic form of government::Predicate::q30-a73cd1fbe95af168a6e15b8dae6b6238::2" label="basic form of government">
+        <attvalues>
+          <attvalue for="label" value="basic form of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="constitutional republic::Entity::Q1520223" label="constitutional republic">
+        <attvalues>
+          <attvalue for="label" value="constitutional republic"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q48525-3395761c53a580f7fefd8f043b9494f6::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="democratic republic::Entity::Q5255892" label="democratic republic">
+        <attvalues>
+          <attvalue for="label" value="democratic republic"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="executive body::Predicate::q30-f49343da3bbfa31567d5b0c06109df4f::1" label="executive body">
+        <attvalues>
+          <attvalue for="label" value="executive body"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="federal government::Entity::Q1006644" label="federal government">
+        <attvalues>
+          <attvalue for="label" value="federal government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="federal republic::Entity::Q512187" label="federal republic">
+        <attvalues>
+          <attvalue for="label" value="federal republic"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="federal state::Entity::Q43702" label="federal state">
+        <attvalues>
+          <attvalue for="label" value="federal state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q48525-503d36fe39dcd0aee1cfa3f5fb1a8ec5::2" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q30-701eeb6a6c518dcf3e94336bf2311fbb::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q30-8c407e5093c69adf6d0f83219cf4b15f::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q30-a52bb7fa620621c3a2288ac4571409be::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q30-abd24d9d0ce442a51079f08062fe1bff::4" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q48525-fd328a0c3b2fbf835f372d0b294676e5::6" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="legislative body::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" label="legislative body">
+        <attvalues>
+          <attvalue for="label" value="legislative body"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="presidential system::Entity::Q49892" label="presidential system">
+        <attvalues>
+          <attvalue for="label" value="presidential system"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="sovereign state::Entity::Q3624078" label="sovereign state">
+        <attvalues>
+          <attvalue for="label" value="sovereign state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="basic form of government::Predicate::q30-a73cd1fbe95af168a6e15b8dae6b6238::2" target="United States::Entity::Q30" weight="0.9970341920852661" label="1"/>
+      <edge id="1" source="basic form of government::Predicate::q30-a73cd1fbe95af168a6e15b8dae6b6238::2" target="federal republic::Entity::Q512187" weight="0.9970341920852661" label="1"/>
+      <edge id="10" source="United States::Entity::Q30" target="applies to jurisdiction::Predicate::q48525-801fa2a52828544305886b1f6837b7a5::1" weight="0.7139554619789124" label="14"/>
+      <edge id="11" source="instance of::Predicate::q30-701eeb6a6c518dcf3e94336bf2311fbb::2" target="constitutional republic::Entity::Q1520223" weight="0.990053653717041" label="3"/>
+      <edge id="12" source="basic form of government::Predicate::q30-1e12f1d14bb26753fbb96a518aa1e4ac::1" target="presidential system::Entity::Q49892" weight="0.9964781403541565" label="2"/>
+      <edge id="13" source="instance of::Predicate::q30-a52bb7fa620621c3a2288ac4571409be::3" target="democratic republic::Entity::Q5255892" weight="0.9873421788215637" label="4"/>
+      <edge id="14" source="instance of::Predicate::q30-abd24d9d0ce442a51079f08062fe1bff::4" target="federal state::Entity::Q43702" weight="0.9820771217346191" label="5"/>
+      <edge id="15" source="instance of::Predicate::q30-8c407e5093c69adf6d0f83219cf4b15f::1" target="sovereign state::Entity::Q3624078" weight="0.9647414088249207" label="6"/>
+      <edge id="16" source="executive body::Predicate::q30-f49343da3bbfa31567d5b0c06109df4f::1" target="Federal Government of the United States of America::Entity::Q48525" weight="0.9108678102493286" label="8"/>
+      <edge id="17" source="legislative body::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" target="United States Congress::Entity::Q11268" weight="0.8964155912399292" label="9"/>
+      <edge id="18" source="legislative body::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" target="start time::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" weight="0.8964155912399292" label="9"/>
+      <edge id="19" source="Federal Government of the United States of America::Entity::Q48525" target="instance of::Predicate::q48525-fd328a0c3b2fbf835f372d0b294676e5::6" weight="0.9437212347984314" label="7"/>
+      <edge id="2" source="United States::Entity::Q30" target="instance of::Predicate::q30-701eeb6a6c518dcf3e94336bf2311fbb::2" weight="0.990053653717041" label="3"/>
+      <edge id="20" source="Federal Government of the United States of America::Entity::Q48525" target="has part::Predicate::q48525-503d36fe39dcd0aee1cfa3f5fb1a8ec5::2" weight="0.8772408962249756" label="10"/>
+      <edge id="21" source="Federal Government of the United States of America::Entity::Q48525" target="authority::Predicate::q7603694-3293896b277997d03f81fbff4d0e3fe8::1" weight="0.8452564477920532" label="11"/>
+      <edge id="22" source="start time::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" target="1789-03-04::Entity::1789-03-04T00:00:00Z" weight="0.8964155912399292" label="9"/>
+      <edge id="23" source="instance of::Predicate::q48525-fd328a0c3b2fbf835f372d0b294676e5::6" target="federal government::Entity::Q1006644" weight="0.9437212347984314" label="7"/>
+      <edge id="24" source="has part::Predicate::q48525-503d36fe39dcd0aee1cfa3f5fb1a8ec5::2" target="United States federal executive department::Entity::Q910252" weight="0.8772408962249756" label="10"/>
+      <edge id="3" source="United States::Entity::Q30" target="basic form of government::Predicate::q30-1e12f1d14bb26753fbb96a518aa1e4ac::1" weight="0.9964781403541565" label="2"/>
+      <edge id="4" source="United States::Entity::Q30" target="instance of::Predicate::q30-a52bb7fa620621c3a2288ac4571409be::3" weight="0.9873421788215637" label="4"/>
+      <edge id="5" source="United States::Entity::Q30" target="instance of::Predicate::q30-abd24d9d0ce442a51079f08062fe1bff::4" weight="0.9820771217346191" label="5"/>
+      <edge id="6" source="United States::Entity::Q30" target="instance of::Predicate::q30-8c407e5093c69adf6d0f83219cf4b15f::1" weight="0.9647414088249207" label="6"/>
+      <edge id="7" source="United States::Entity::Q30" target="executive body::Predicate::q30-f49343da3bbfa31567d5b0c06109df4f::1" weight="0.9108678102493286" label="8"/>
+      <edge id="8" source="United States::Entity::Q30" target="legislative body::Predicate::q30-06e58db6bad49d2e4aa72df86cd5c16c::1" weight="0.8964155912399292" label="9"/>
+      <edge id="9" source="United States::Entity::Q30" target="country::Predicate::q48525-3395761c53a580f7fefd8f043b9494f6::1" weight="0.7785126566886902" label="12"/>
+    </edges>
+  </graph>
+</gexf>

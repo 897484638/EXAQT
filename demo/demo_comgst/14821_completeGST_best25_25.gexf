@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="21st Academy Awards::Entity::Q917170" label="21st Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="21st Academy Awards"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actress::Entity::Q103618" label="Academy Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actress"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Jane Wyman::Entity::Q95055" label="Jane Wyman">
+        <attvalues>
+          <attvalue for="label" value="Jane Wyman"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Johnny Belinda::Entity::Q1439574" label="Johnny Belinda">
+        <attvalues>
+          <attvalue for="label" value="Johnny Belinda"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" target="Jane Wyman::Entity::Q95055" weight="0.9995830655097961" label="20"/>
+      <edge id="1" source="award received::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" target="statement is subject of::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" weight="0.9995830655097961" label="20"/>
+      <edge id="10" source="award received::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" target="Academy Award for Best Actress::Entity::Q103618" weight="0.9996287822723389" label="11"/>
+      <edge id="11" source="for work::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" target="Johnny Belinda::Entity::Q1439574" weight="0.9995830655097961" label="20"/>
+      <edge id="2" source="award received::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" target="Academy Award for Best Actress::Entity::Q103618" weight="0.9995830655097961" label="20"/>
+      <edge id="3" source="award received::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" target="for work::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" weight="0.9995830655097961" label="20"/>
+      <edge id="4" source="Jane Wyman::Entity::Q95055" target="winner::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::1" weight="0.9996287822723389" label="11"/>
+      <edge id="5" source="statement is subject of::Predicate::q95055-25870077cb9710ee4a9e30325233a9d7::1" target="21st Academy Awards::Entity::Q917170" weight="0.9995830655097961" label="20"/>
+      <edge id="6" source="21st Academy Awards::Entity::Q917170" target="statement is subject of::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" weight="0.9996287822723389" label="11"/>
+      <edge id="7" source="statement is subject of::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" target="award received::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" weight="0.9996287822723389" label="11"/>
+      <edge id="8" source="award received::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" target="winner::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::1" weight="0.9996287822723389" label="11"/>
+      <edge id="9" source="award received::Predicate::q1439574-0c0cf46ad1757c3461b7987f54bd8920::2" target="Johnny Belinda::Entity::Q1439574" weight="0.9996287822723389" label="11"/>
+    </edges>
+  </graph>
+</gexf>

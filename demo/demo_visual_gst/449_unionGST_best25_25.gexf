@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2015-01-01::Entity::2015-01-01T00:00:00Z" label="2015-01-01">
+        <attvalues>
+          <attvalue for="label" value="2015-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2015-04-06::Entity::2015-04-06T00:00:00Z" label="2015-04-06">
+        <attvalues>
+          <attvalue for="label" value="2015-04-06" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Campo Lugar::Entity::Q1632675" label="Campo Lugar">
+        <attvalues>
+          <attvalue for="label" value="Campo Lugar" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Fernando Medina::Entity::Q20017756" label="Fernando Medina">
+        <attvalues>
+          <attvalue for="label" value="Fernando Medina" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Francisco Maria da Cunha::Entity::Q10284985" label="Francisco Maria da Cunha">
+        <attvalues>
+          <attvalue for="label" value="Francisco Maria da Cunha" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Head of government::Entity::Q2285706" label="Head of government">
+        <attvalues>
+          <attvalue for="label" value="Head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Lisbon::Entity::Q597" label="Lisbon">
+        <attvalues>
+          <attvalue for="label" value="Lisbon" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Luís Filipe, Prince Royal of Portugal::Entity::Q372740" label="Luís Filipe, Prince Royal of Portugal">
+        <attvalues>
+          <attvalue for="label" value="Luís Filipe, Prince Royal of Portugal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q10284985-ea33f43d8029ad55165f7110e9850a13::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="office held by head of government::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::1" label="office held by head of government">
+        <attvalues>
+          <attvalue for="label" value="office held by head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q16930363-009e6a0d1c1a6a7b265b98c1b056f953::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q10264461-69550d417c2dc8ece6306b94b1693362::15" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q10284985-190eac39376d598a922fbc541531a623::16" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q116972-c6dbfe937d2bb0824013cf55e6ce2bc8::8" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q1283833-f133ce35ccf62ef91cad2dde050a6235::22" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q2511027-4fe59620539cd4cbc1405f44342f894d::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q270805-1755cd9dfb6c6936530c139c18d1f952::2" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q3028496-ec3c4ac2fb3755e80d75820ba1d5841c::19" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q3093831-71e99f002d0e25565f03bda810eed68d::14" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q316806-3deb263f2bfa8499f220b0a9aaae547c::5" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q372740-d6dbf3b9dc4cfab7160d1144d9f2bcc9::9" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q448851-e03597555b583249249650ea41e29687::10" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q707614-1acef9559d95c283bc671ce9a326b283::18" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q75062-020451a993b6d8885016391e0d574326::4" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Head of government::Entity::Q2285706" target="occupation::Predicate::q10284985-ea33f43d8029ad55165f7110e9850a13::1" weight="0.5878214240074158" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Head of government::Entity::Q2285706" target="office held by head of government::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::1" weight="0.9753440022468567" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="Lisbon::Entity::Q597" target="place of birth::Predicate::q16930363-009e6a0d1c1a6a7b265b98c1b056f953::1" weight="0.9115288853645325" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="11" source="Lisbon::Entity::Q597" target="place of death::Predicate::q448851-e03597555b583249249650ea41e29687::10" weight="0.9071001410484314" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Lisbon::Entity::Q597" target="place of death::Predicate::q75062-020451a993b6d8885016391e0d574326::4" weight="0.8945969343185425" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Lisbon::Entity::Q597" target="place of death::Predicate::q707614-1acef9559d95c283bc671ce9a326b283::18" weight="0.8857946395874023" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Lisbon::Entity::Q597" target="place of death::Predicate::q10264461-69550d417c2dc8ece6306b94b1693362::15" weight="0.8857165575027466" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="Lisbon::Entity::Q597" target="place of death::Predicate::q316806-3deb263f2bfa8499f220b0a9aaae547c::5" weight="0.8853313326835632" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Lisbon::Entity::Q597" target="place of death::Predicate::q116972-c6dbfe937d2bb0824013cf55e6ce2bc8::8" weight="0.8750445246696472" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Lisbon::Entity::Q597" target="place of death::Predicate::q3093831-71e99f002d0e25565f03bda810eed68d::14" weight="0.8700937032699585" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Lisbon::Entity::Q597" target="place of death::Predicate::q2511027-4fe59620539cd4cbc1405f44342f894d::1" weight="0.8603775501251221" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="Lisbon::Entity::Q597" target="place of death::Predicate::q1283833-f133ce35ccf62ef91cad2dde050a6235::22" weight="0.858762800693512" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="occupation::Predicate::q10284985-ea33f43d8029ad55165f7110e9850a13::1" target="Francisco Maria da Cunha::Entity::Q10284985" weight="0.5878214240074158" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="Lisbon::Entity::Q597" target="place of death::Predicate::q270805-1755cd9dfb6c6936530c139c18d1f952::2" weight="0.8521214127540588" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="start time::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" target="2015-04-06::Entity::2015-04-06T00:00:00Z" weight="0.9995142221450806" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="office held by head of government::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::1" target="Campo Lugar::Entity::Q1632675" weight="0.9753440022468567" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="office held by head of government::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::1" target="start time::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::2" weight="0.9753440022468567" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="start time::Predicate::q1632675-2b6a27eb608725e7f78e900b64050c57::2" target="2015-01-01::Entity::2015-01-01T00:00:00Z" weight="0.9753440022468567" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="25" source="place of death::Predicate::q372740-d6dbf3b9dc4cfab7160d1144d9f2bcc9::9" target="Luís Filipe, Prince Royal of Portugal::Entity::Q372740" weight="0.9260161519050598" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Francisco Maria da Cunha::Entity::Q10284985" target="place of death::Predicate::q10284985-190eac39376d598a922fbc541531a623::16" weight="0.3433803617954254" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="head of government::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" target="Lisbon::Entity::Q597" weight="0.9995142221450806" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="head of government::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" target="Fernando Medina::Entity::Q20017756" weight="0.9995142221450806" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="head of government::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" target="start time::Predicate::q597-95a393f48486279412bbf654f5f391f4::1" weight="0.9995142221450806" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="Lisbon::Entity::Q597" target="place of death::Predicate::q10284985-190eac39376d598a922fbc541531a623::16" weight="0.3433803617954254" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="Lisbon::Entity::Q597" target="place of death::Predicate::q372740-d6dbf3b9dc4cfab7160d1144d9f2bcc9::9" weight="0.9260161519050598" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="Lisbon::Entity::Q597" target="place of death::Predicate::q3028496-ec3c4ac2fb3755e80d75820ba1d5841c::19" weight="0.9219524264335632" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

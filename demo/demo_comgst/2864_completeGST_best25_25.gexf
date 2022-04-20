@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1853-03-30::Entity::1853-03-30T00:00:00Z" label="1853-03-30">
+        <attvalues>
+          <attvalue for="label" value="1853-03-30"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1890-07-29::Entity::1890-07-29T00:00:00Z" label="1890-07-29">
+        <attvalues>
+          <attvalue for="label" value="1890-07-29"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Dordrecht::Entity::Q26421" label="Dordrecht">
+        <attvalues>
+          <attvalue for="label" value="Dordrecht"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Sien Hoornik::Entity::Q4499795" label="Sien Hoornik">
+        <attvalues>
+          <attvalue for="label" value="Sien Hoornik"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Vincent van Gogh::Entity::Q5582" label="Vincent van Gogh">
+        <attvalues>
+          <attvalue for="label" value="Vincent van Gogh"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q5582-9938713298bc7700f17777f67bebd76e::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q5582-991d1c679b5c555096271367bf679fe4::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="unmarried partner::Predicate::q4499795-4920eb85252dbe881506aebbf32af3a4::1" label="unmarried partner">
+        <attvalues>
+          <attvalue for="label" value="unmarried partner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="work location::Predicate::q5582-9fafa6d38332e1f58793c473d2caafff::4" label="work location">
+        <attvalues>
+          <attvalue for="label" value="work location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of birth::Predicate::q5582-9938713298bc7700f17777f67bebd76e::1" target="Vincent van Gogh::Entity::Q5582" weight="0.995800793170929" label="1"/>
+      <edge id="1" source="date of birth::Predicate::q5582-9938713298bc7700f17777f67bebd76e::1" target="1853-03-30::Entity::1853-03-30T00:00:00Z" weight="0.995800793170929" label="1"/>
+      <edge id="2" source="Vincent van Gogh::Entity::Q5582" target="date of death::Predicate::q5582-991d1c679b5c555096271367bf679fe4::1" weight="0.9943727254867554" label="2"/>
+      <edge id="3" source="Vincent van Gogh::Entity::Q5582" target="unmarried partner::Predicate::q4499795-4920eb85252dbe881506aebbf32af3a4::1" weight="0.8665680885314941" label="3"/>
+      <edge id="4" source="Vincent van Gogh::Entity::Q5582" target="work location::Predicate::q5582-9fafa6d38332e1f58793c473d2caafff::4" weight="0.8254520893096924" label="4"/>
+      <edge id="5" source="date of death::Predicate::q5582-991d1c679b5c555096271367bf679fe4::1" target="1890-07-29::Entity::1890-07-29T00:00:00Z" weight="0.9943727254867554" label="2"/>
+      <edge id="6" source="unmarried partner::Predicate::q4499795-4920eb85252dbe881506aebbf32af3a4::1" target="Sien Hoornik::Entity::Q4499795" weight="0.8665680885314941" label="3"/>
+      <edge id="7" source="work location::Predicate::q5582-9fafa6d38332e1f58793c473d2caafff::4" target="Dordrecht::Entity::Q26421" weight="0.8254520893096924" label="4"/>
+    </edges>
+  </graph>
+</gexf>

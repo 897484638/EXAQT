@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Al Quie::Entity::Q888927" label="Al Quie">
+        <attvalues>
+          <attvalue for="label" value="Al Quie"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Arne Carlson::Entity::Q692191" label="Arne Carlson">
+        <attvalues>
+          <attvalue for="label" value="Arne Carlson"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Governor of Minnesota::Entity::Q5589682" label="Governor of Minnesota">
+        <attvalues>
+          <attvalue for="label" value="Governor of Minnesota"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Tim Pawlenty::Entity::Q160181" label="Tim Pawlenty">
+        <attvalues>
+          <attvalue for="label" value="Tim Pawlenty"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q160181-b9bea50adcb57d6056e3eca94fc35dce::8" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q692191-bda12f6819fe2b7dfd53f38ea392ad9f::14" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q888927-0388912f43b44278a6a5cbcd5248eb64::16" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Governor of Minnesota::Entity::Q5589682" target="position held::Predicate::q888927-0388912f43b44278a6a5cbcd5248eb64::16" weight="0.9989709854125977" label="1"/>
+      <edge id="1" source="Governor of Minnesota::Entity::Q5589682" target="position held::Predicate::q692191-bda12f6819fe2b7dfd53f38ea392ad9f::14" weight="0.9989622831344604" label="2"/>
+      <edge id="2" source="Governor of Minnesota::Entity::Q5589682" target="position held::Predicate::q160181-b9bea50adcb57d6056e3eca94fc35dce::8" weight="0.9988211989402771" label="3"/>
+      <edge id="3" source="position held::Predicate::q888927-0388912f43b44278a6a5cbcd5248eb64::16" target="Al Quie::Entity::Q888927" weight="0.9989709854125977" label="1"/>
+      <edge id="4" source="position held::Predicate::q692191-bda12f6819fe2b7dfd53f38ea392ad9f::14" target="Arne Carlson::Entity::Q692191" weight="0.9989622831344604" label="2"/>
+      <edge id="5" source="position held::Predicate::q160181-b9bea50adcb57d6056e3eca94fc35dce::8" target="Tim Pawlenty::Entity::Q160181" weight="0.9988211989402771" label="3"/>
+    </edges>
+  </graph>
+</gexf>

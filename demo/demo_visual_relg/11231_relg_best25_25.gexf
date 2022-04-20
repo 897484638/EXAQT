@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1974-01-01" label="1974-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="2016-01-01" label="2016-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1478089" label="Tony Award for Best Original Score">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="1" />
+        </attvalues>
+      </node>
+      <node id="Q1537996" label="Tony Award for Best Actress in a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q155712" label="AndrÃ© Previn">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q16473" label="Steve Martin">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q1780176" label="Tony Award for Best Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="2" />
+        </attvalues>
+      </node>
+      <node id="Q1784838" label="Tony Award for Best Book of a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="3" />
+        </attvalues>
+      </node>
+      <node id="Q180975" label="Andrew Lloyd Webber">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q185299" label="Tony Award for Best Actress in a Play">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q18624110" label="Finn Ross">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q18758174" label="School of Rock">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q2005201" label="Tony Award for Best Featured Actress in a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="5" />
+        </attvalues>
+      </node>
+      <node id="Q2018307" label="Tony Award for Best Revival of a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q20974033" label="Phillipa Soo">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q21998379" label="Bright Star">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q22075256" label="Waitress">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q22344608" label="Academy Award for Best Original Song Score">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q23008768" label="The Crucible">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q230268" label="Jane Krakowski">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q230445" label="Sara Bareilles">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q23091371" label="70th Tony Awards">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q238864" label="Sophie Okonedo">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q24204611" label="Tony Award for Best Scenic Design in a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="4" />
+        </attvalues>
+      </node>
+      <node id="Q24204631" label="Tony Award for Best Costume Design in a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q24570636" label="David Korins">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q24570645" label="Jeff Mahshie">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q260649" label="Edie Brickell">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q27132539" label="2016 Nobel Peace Prize">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q336018" label="Julian Fellowes">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3427403" label="Glenn Slater">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q35637" label="Nobel Peace Prize">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q36834" label="composer">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q377293" label="Tony Award for Best Direction of a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q37767" label="T. S. Eliot">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3840847" label="Lupita Nyong'o">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q487330" label="Fiddler on the Roof">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q5043453" label="Carmen Cusack">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q5396618" label="Es Devlin">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q5537604" label="George C. Wolfe">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q556644" label="Jonathan Groff">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q570921" label="46th Academy Awards">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q57311" label="Juan Manuel Santos">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q5735828" label="Herbert W. Spencer">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q579927" label="Spring Awakening">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q6230052" label="John Doyle">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q6490509" label="Larry Hochman">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q6500795" label="Laurence Olivier Award for Best New Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q674165" label="Tony Award for Best Featured Actor in a Musical">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q7821797" label="Tony Award for Best Orchestrations">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q7821798" label="Tony Award for Best Revival of a Play">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q822146" label="Lyricist">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q898465" label="Jesus Christ Superstar">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q16473-1c0d527f3062be79d1c7ef787f58ced4" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q16473-47d68a1d8b34119608b6100610ae32d4" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q180975-87f7c01688b99594afc458d460d86cea" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q180975-bfd4712239af14c2b717b72acd66f9de" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q18758174-16ba7e0ff3f55529369fb973a8c859ac" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q20974033-cc56eb0427e7890d2aeccfdb024fa8b5" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q21998379-38c982259243b373483c666f377ae411" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q22075256-74ea2eb9b4d9db7b20cb45d63c6cd6f9" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q23008768-02d75c1def1db610133fb1062f6b3fde" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q230268-cd4aff54ffd15702bdabda2d88d95aae" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q230445-f123955756bf5b3899890ebd84a02d7b" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q238864-3b59aaed3742fda7e862048fd6b61440" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q24570636-588230b716702474881977e69c992bb6" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q24570645-ae3875d39bdb949defd0b01bc0eeb8cc" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q260649-3e7803cc96dd296d58ef1e913289e5bd" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q336018-2c0b9df06694b7284b2792627ed4074d" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q37767-2e6adf99fa315040716370757539a0f8" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q3840847-a24650a5410270325bb5a38f5c2f9d5e" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q487330-cb5b7229bf3a27c294a217534c089dc5" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q5043453-2d9e8ab4790925c4d90ea3e16b6d2bc5" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q5396618-c514fc655e3cece7726186f3c9bf4345" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q5537604-44a4f19545f232da5eba791f9264cc58" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q556644-3c3c09ab538db156272f2587ef2a5341" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q57311-ca8840dea3c234858e1cdae81bf79229" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q579927-04ffa17cb511ed0f260cd16151b0cc47" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q6230052-a89af43c7f03ea8ef071d294dfb447c3" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q6490509-8be7338aaf868508daf31263f33be33b" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="q898465-af6b8e8f889b9ead89d63840a5f13c57" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q180975" target="q180975-87f7c01688b99594afc458d460d86cea" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="1" source="Q180975" target="q180975-bfd4712239af14c2b717b72acd66f9de" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="10" source="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" target="Q180975" weight="0.003668704070150852: non-temporal predicate" label="together with: 10"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="100" source="q6230052-a89af43c7f03ea8ef071d294dfb447c3" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="101" source="q16473-1c0d527f3062be79d1c7ef787f58ced4" target="Q1784838" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="102" source="q16473-1c0d527f3062be79d1c7ef787f58ced4" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="103" source="q16473-1c0d527f3062be79d1c7ef787f58ced4" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="104" source="Q336018" target="q336018-2c0b9df06694b7284b2792627ed4074d" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="105" source="q336018-2c0b9df06694b7284b2792627ed4074d" target="Q1784838" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="106" source="q336018-2c0b9df06694b7284b2792627ed4074d" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="107" source="q336018-2c0b9df06694b7284b2792627ed4074d" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="108" source="Q579927" target="q579927-04ffa17cb511ed0f260cd16151b0cc47" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="109" source="q579927-04ffa17cb511ed0f260cd16151b0cc47" target="Q2018307" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="11" source="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="110" source="q579927-04ffa17cb511ed0f260cd16151b0cc47" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="111" source="q579927-04ffa17cb511ed0f260cd16151b0cc47" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="112" source="Q57311" target="q57311-ca8840dea3c234858e1cdae81bf79229" weight="0.4036698341369629: non-temporal predicate" label="award received: 3"><viz:shape value="solid" /><viz:thickness value="4.61327" /></edge>
+      <edge id="113" source="q57311-ca8840dea3c234858e1cdae81bf79229" target="Q35637" weight="0.4036698341369629: non-temporal predicate" label="award received: 3"><viz:shape value="solid" /><viz:thickness value="4.61327" /></edge>
+      <edge id="114" source="q57311-ca8840dea3c234858e1cdae81bf79229" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="115" source="q57311-ca8840dea3c234858e1cdae81bf79229" target="Q27132539" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="116" source="Q898465" target="q898465-af6b8e8f889b9ead89d63840a5f13c57" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="117" source="q898465-af6b8e8f889b9ead89d63840a5f13c57" target="Q22344608" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="118" source="q898465-af6b8e8f889b9ead89d63840a5f13c57" target="Q180975" weight="0.0061365035362541676: non-temporal predicate" label="nominee: 9"><viz:shape value="solid" /><viz:thickness value="1.02229" /></edge>
+      <edge id="119" source="q898465-af6b8e8f889b9ead89d63840a5f13c57" target="Q155712" weight="0.0061365035362541676: non-temporal predicate" label="nominee: 9"><viz:shape value="solid" /><viz:thickness value="1.02229" /></edge>
+      <edge id="12" source="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="120" source="q898465-af6b8e8f889b9ead89d63840a5f13c57" target="Q5735828" weight="0.0061365035362541676: non-temporal predicate" label="nominee: 9"><viz:shape value="solid" /><viz:thickness value="1.02229" /></edge>
+      <edge id="121" source="q898465-af6b8e8f889b9ead89d63840a5f13c57" target="1974-01-01" weight="0.13188260793685913: temporal predicate" label="point in time: 4"><viz:shape value="solid" /><viz:thickness value="2.15817" /></edge>
+      <edge id="122" source="q898465-af6b8e8f889b9ead89d63840a5f13c57" target="Q570921" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="123" source="q180975-bfd4712239af14c2b717b72acd66f9de" target="Q22344608" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="124" source="q180975-bfd4712239af14c2b717b72acd66f9de" target="Q898465" weight="0.024403715506196022: non-temporal predicate" label="for work: 7"><viz:shape value="solid" /><viz:thickness value="1.1873" /></edge>
+      <edge id="125" source="q180975-bfd4712239af14c2b717b72acd66f9de" target="Q570921" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="126" source="Q37767" target="q37767-2e6adf99fa315040716370757539a0f8" weight="0.4036698341369629: non-temporal predicate" label="award received: 3"><viz:shape value="solid" /><viz:thickness value="4.61327" /></edge>
+      <edge id="127" source="q37767-2e6adf99fa315040716370757539a0f8" target="Q6500795" weight="0.4036698341369629: non-temporal predicate" label="award received: 3"><viz:shape value="solid" /><viz:thickness value="4.61327" /></edge>
+      <edge id="128" source="q37767-2e6adf99fa315040716370757539a0f8" target="Q180975" weight="0.009915878064930439: non-temporal predicate" label="winner: 8"><viz:shape value="solid" /><viz:thickness value="1.05643" /></edge>
+      <edge id="13" source="Q230445" target="q230445-f123955756bf5b3899890ebd84a02d7b" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="14" source="q230445-f123955756bf5b3899890ebd84a02d7b" target="Q1478089" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="15" source="q230445-f123955756bf5b3899890ebd84a02d7b" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="16" source="q230445-f123955756bf5b3899890ebd84a02d7b" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="Q260649" target="q260649-3e7803cc96dd296d58ef1e913289e5bd" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="18" source="q260649-3e7803cc96dd296d58ef1e913289e5bd" target="Q1478089" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="19" source="q260649-3e7803cc96dd296d58ef1e913289e5bd" target="Q822146" weight="0.09166590869426727: non-temporal predicate" label="subject has role: 5"><viz:shape value="solid" /><viz:thickness value="1.79489" /></edge>
+      <edge id="2" source="q180975-87f7c01688b99594afc458d460d86cea" target="Q1478089" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="20" source="q260649-3e7803cc96dd296d58ef1e913289e5bd" target="Q16473" weight="0.003668704070150852: non-temporal predicate" label="together with: 10"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="21" source="q260649-3e7803cc96dd296d58ef1e913289e5bd" target="Q36834" weight="0.09166590869426727: non-temporal predicate" label="subject has role: 5"><viz:shape value="solid" /><viz:thickness value="1.79489" /></edge>
+      <edge id="22" source="q260649-3e7803cc96dd296d58ef1e913289e5bd" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="23" source="q260649-3e7803cc96dd296d58ef1e913289e5bd" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="Q16473" target="q16473-47d68a1d8b34119608b6100610ae32d4" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="25" source="Q16473" target="q16473-1c0d527f3062be79d1c7ef787f58ced4" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="26" source="q16473-47d68a1d8b34119608b6100610ae32d4" target="Q1478089" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="27" source="q16473-47d68a1d8b34119608b6100610ae32d4" target="Q260649" weight="0.003668704070150852: non-temporal predicate" label="together with: 10"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="28" source="q16473-47d68a1d8b34119608b6100610ae32d4" target="Q822146" weight="0.09166590869426727: non-temporal predicate" label="subject has role: 5"><viz:shape value="solid" /><viz:thickness value="1.79489" /></edge>
+      <edge id="29" source="q16473-47d68a1d8b34119608b6100610ae32d4" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="3" source="q180975-87f7c01688b99594afc458d460d86cea" target="Q36834" weight="0.09166590869426727: non-temporal predicate" label="subject has role: 5"><viz:shape value="solid" /><viz:thickness value="1.79489" /></edge>
+      <edge id="30" source="q16473-47d68a1d8b34119608b6100610ae32d4" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="31" source="Q24570636" target="q24570636-588230b716702474881977e69c992bb6" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="32" source="q24570636-588230b716702474881977e69c992bb6" target="Q24204611" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="33" source="q24570636-588230b716702474881977e69c992bb6" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="34" source="q24570636-588230b716702474881977e69c992bb6" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="35" source="Q18758174" target="q18758174-16ba7e0ff3f55529369fb973a8c859ac" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="36" source="q18758174-16ba7e0ff3f55529369fb973a8c859ac" target="Q1780176" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="37" source="q18758174-16ba7e0ff3f55529369fb973a8c859ac" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="38" source="q18758174-16ba7e0ff3f55529369fb973a8c859ac" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="39" source="Q22075256" target="q22075256-74ea2eb9b4d9db7b20cb45d63c6cd6f9" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="4" source="q180975-87f7c01688b99594afc458d460d86cea" target="Q3427403" weight="0.003668704070150852: non-temporal predicate" label="together with: 10"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="40" source="q22075256-74ea2eb9b4d9db7b20cb45d63c6cd6f9" target="Q1780176" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="41" source="q22075256-74ea2eb9b4d9db7b20cb45d63c6cd6f9" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="42" source="q22075256-74ea2eb9b4d9db7b20cb45d63c6cd6f9" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="43" source="Q23008768" target="q23008768-02d75c1def1db610133fb1062f6b3fde" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="44" source="q23008768-02d75c1def1db610133fb1062f6b3fde" target="Q7821798" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="45" source="q23008768-02d75c1def1db610133fb1062f6b3fde" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="46" source="q23008768-02d75c1def1db610133fb1062f6b3fde" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="47" source="Q3840847" target="q3840847-a24650a5410270325bb5a38f5c2f9d5e" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="48" source="q3840847-a24650a5410270325bb5a38f5c2f9d5e" target="Q185299" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="49" source="q3840847-a24650a5410270325bb5a38f5c2f9d5e" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="5" source="q180975-87f7c01688b99594afc458d460d86cea" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="50" source="q3840847-a24650a5410270325bb5a38f5c2f9d5e" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="51" source="Q5043453" target="q5043453-2d9e8ab4790925c4d90ea3e16b6d2bc5" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="52" source="q5043453-2d9e8ab4790925c4d90ea3e16b6d2bc5" target="Q1537996" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="53" source="q5043453-2d9e8ab4790925c4d90ea3e16b6d2bc5" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="54" source="q5043453-2d9e8ab4790925c4d90ea3e16b6d2bc5" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="55" source="Q21998379" target="q21998379-38c982259243b373483c666f377ae411" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="56" source="q21998379-38c982259243b373483c666f377ae411" target="Q1780176" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="57" source="q21998379-38c982259243b373483c666f377ae411" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="58" source="q21998379-38c982259243b373483c666f377ae411" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="59" source="Q24570645" target="q24570645-ae3875d39bdb949defd0b01bc0eeb8cc" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="6" source="q180975-87f7c01688b99594afc458d460d86cea" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="60" source="q24570645-ae3875d39bdb949defd0b01bc0eeb8cc" target="Q24204631" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="61" source="q24570645-ae3875d39bdb949defd0b01bc0eeb8cc" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="62" source="q24570645-ae3875d39bdb949defd0b01bc0eeb8cc" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="63" source="Q238864" target="q238864-3b59aaed3742fda7e862048fd6b61440" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="64" source="q238864-3b59aaed3742fda7e862048fd6b61440" target="Q185299" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="65" source="q238864-3b59aaed3742fda7e862048fd6b61440" target="Q23008768" weight="0.024403715506196022: non-temporal predicate" label="for work: 7"><viz:shape value="solid" /><viz:thickness value="1.1873" /></edge>
+      <edge id="66" source="q238864-3b59aaed3742fda7e862048fd6b61440" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="67" source="q238864-3b59aaed3742fda7e862048fd6b61440" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="68" source="Q20974033" target="q20974033-cc56eb0427e7890d2aeccfdb024fa8b5" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="69" source="q20974033-cc56eb0427e7890d2aeccfdb024fa8b5" target="Q1537996" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="7" source="Q3427403" target="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="70" source="q20974033-cc56eb0427e7890d2aeccfdb024fa8b5" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="71" source="q20974033-cc56eb0427e7890d2aeccfdb024fa8b5" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="72" source="Q487330" target="q487330-cb5b7229bf3a27c294a217534c089dc5" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="73" source="q487330-cb5b7229bf3a27c294a217534c089dc5" target="Q2018307" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="74" source="q487330-cb5b7229bf3a27c294a217534c089dc5" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="75" source="q487330-cb5b7229bf3a27c294a217534c089dc5" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="76" source="Q5537604" target="q5537604-44a4f19545f232da5eba791f9264cc58" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="77" source="q5537604-44a4f19545f232da5eba791f9264cc58" target="Q1784838" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="78" source="q5537604-44a4f19545f232da5eba791f9264cc58" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="79" source="q5537604-44a4f19545f232da5eba791f9264cc58" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" target="Q1478089" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="80" source="Q6490509" target="q6490509-8be7338aaf868508daf31263f33be33b" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="81" source="q6490509-8be7338aaf868508daf31263f33be33b" target="Q7821797" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="82" source="q6490509-8be7338aaf868508daf31263f33be33b" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="83" source="q6490509-8be7338aaf868508daf31263f33be33b" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="84" source="Q556644" target="q556644-3c3c09ab538db156272f2587ef2a5341" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="85" source="q556644-3c3c09ab538db156272f2587ef2a5341" target="Q674165" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="86" source="q556644-3c3c09ab538db156272f2587ef2a5341" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="87" source="q556644-3c3c09ab538db156272f2587ef2a5341" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="88" source="Q230268" target="q230268-cd4aff54ffd15702bdabda2d88d95aae" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="89" source="q230268-cd4aff54ffd15702bdabda2d88d95aae" target="Q2005201" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="9" source="q3427403-af1ceb9b86812c76a25b2acdc7d32ee5" target="Q822146" weight="0.09166590869426727: non-temporal predicate" label="subject has role: 5"><viz:shape value="solid" /><viz:thickness value="1.79489" /></edge>
+      <edge id="90" source="q230268-cd4aff54ffd15702bdabda2d88d95aae" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="91" source="q230268-cd4aff54ffd15702bdabda2d88d95aae" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="92" source="Q5396618" target="q5396618-c514fc655e3cece7726186f3c9bf4345" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="93" source="q5396618-c514fc655e3cece7726186f3c9bf4345" target="Q24204611" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="94" source="q5396618-c514fc655e3cece7726186f3c9bf4345" target="Q18624110" weight="0.003668704070150852: non-temporal predicate" label="together with: 10"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="95" source="q5396618-c514fc655e3cece7726186f3c9bf4345" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+      <edge id="96" source="q5396618-c514fc655e3cece7726186f3c9bf4345" target="2016-01-01" weight="1.0: temporal predicate" label="point in time: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="97" source="Q6230052" target="q6230052-a89af43c7f03ea8ef071d294dfb447c3" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="98" source="q6230052-a89af43c7f03ea8ef071d294dfb447c3" target="Q377293" weight="0.9454523324966431: non-temporal predicate" label="nominated for: 2"><viz:shape value="solid" /><viz:thickness value="9.50726" /></edge>
+      <edge id="99" source="q6230052-a89af43c7f03ea8ef071d294dfb447c3" target="Q23091371" weight="0.02930409088730812: non-temporal predicate" label="statement is subject of: 6"><viz:shape value="solid" /><viz:thickness value="1.23157" /></edge>
+    </edges>
+  </graph>
+</gexf>

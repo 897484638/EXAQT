@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1975-01-01::Entity::1975-01-01T00:00:00Z" label="1975-01-01">
+        <attvalues>
+          <attvalue for="label" value="1975-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Académie de l'air et de l'espace::Entity::Q2822342" label="Académie de l'air et de l'espace">
+        <attvalues>
+          <attvalue for="label" value="Académie de l'air et de l'espace" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Communist Party of the Russian Federation::Entity::Q192187" label="Communist Party of the Russian Federation">
+        <attvalues>
+          <attvalue for="label" value="Communist Party of the Russian Federation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Communist Party of the Soviet Union::Entity::Q79854" label="Communist Party of the Soviet Union">
+        <attvalues>
+          <attvalue for="label" value="Communist Party of the Soviet Union" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Supreme Soviet of the Soviet Union::Entity::Q326465" label="Supreme Soviet of the Soviet Union">
+        <attvalues>
+          <attvalue for="label" value="Supreme Soviet of the Soviet Union" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Svetlana Savitskaya::Entity::Q152318" label="Svetlana Savitskaya">
+        <attvalues>
+          <attvalue for="label" value="Svetlana Savitskaya" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="allegiance::Predicate::q152318-0d26a286c9fbd3fd243d263cae9a9cc2::1" label="allegiance">
+        <attvalues>
+          <attvalue for="label" value="allegiance" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q152318-d3fe8503b63e0ef5d3f7c24ee4ab1105::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q152318-1879cca13ea1489954b1bf980a751507::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="is a list of::Predicate::q17121085-585e38640cde6e5ceeb5ea97665eae63::1" label="is a list of">
+        <attvalues>
+          <attvalue for="label" value="is a list of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of political party::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::2" label="member of political party">
+        <attvalues>
+          <attvalue for="label" value="member of political party" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of political party::Predicate::q152318-a9dcd867738cb56363b55936803bd056::1" label="member of political party">
+        <attvalues>
+          <attvalue for="label" value="member of political party" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of the European Parliament::Entity::Q27169" label="member of the European Parliament">
+        <attvalues>
+          <attvalue for="label" value="member of the European Parliament" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q152318-9435e43014d5ec7ef836720715b549b8::1" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q11038636-61bbf589df5d22a483a2a80ef458ba42::11" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q11077937-418bb036d5690d3efb8349b4f94d375e::6" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q11686160-3da710cd5cc9a53192986ee9cac3208f::9" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q14831159-9caa055b83bc1f9db27a0b8eae8ec148::1" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q17420728-1a17eb051cf0cc5b0c7e659e59cf7966::8" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q2841087-ba810e58b7b778f5186c553972714ad3::10" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q3498704-16e9638f6c071a7dde4f290169b650de::2" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q3823881-e4c28b0d70d60540075e904501070fd4::7" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q9011586-4637a4e1fd427dc55b2fe32ab52c3840::5" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q9013386-5122e2adfbef5f6ee47d0c9c27ba3b0f::3" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q9055263-442892c3510639c8d1e45af88b427489::4" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q11038636-61bbf589df5d22a483a2a80ef458ba42::13" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q11077937-418bb036d5690d3efb8349b4f94d375e::7" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q11686160-3da710cd5cc9a53192986ee9cac3208f::11" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q14831159-9caa055b83bc1f9db27a0b8eae8ec148::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q17121085-585e38640cde6e5ceeb5ea97665eae63::10" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q17420728-1a17eb051cf0cc5b0c7e659e59cf7966::9" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q2841087-ba810e58b7b778f5186c553972714ad3::12" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q3498704-16e9638f6c071a7dde4f290169b650de::3" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q3823881-e4c28b0d70d60540075e904501070fd4::8" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9011586-4637a4e1fd427dc55b2fe32ab52c3840::6" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9013386-5122e2adfbef5f6ee47d0c9c27ba3b0f::4" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q9055263-442892c3510639c8d1e45af88b427489::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="position held::Predicate::q3823881-e4c28b0d70d60540075e904501070fd4::8" target="parliamentary group::Predicate::q3823881-e4c28b0d70d60540075e904501070fd4::7" weight="0.03910771384835243" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="position held::Predicate::q3823881-e4c28b0d70d60540075e904501070fd4::8" target="member of the European Parliament::Entity::Q27169" weight="0.03910771384835243" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q3498704-16e9638f6c071a7dde4f290169b650de::3" weight="0.030864814296364784" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q2841087-ba810e58b7b778f5186c553972714ad3::12" weight="0.030728330835700035" label="24"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q14831159-9caa055b83bc1f9db27a0b8eae8ec148::1" weight="0.030670903623104095" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="position held::Predicate::q17121085-585e38640cde6e5ceeb5ea97665eae63::10" target="is a list of::Predicate::q17121085-585e38640cde6e5ceeb5ea97665eae63::1" weight="0.0011021732352674007" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="is a list of::Predicate::q17121085-585e38640cde6e5ceeb5ea97665eae63::1" target="human::Entity::Q5" weight="0.0011021732352674007" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="human::Entity::Q5" target="instance of::Predicate::q152318-1879cca13ea1489954b1bf980a751507::1" weight="0.0006871559889987111" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="instance of::Predicate::q152318-1879cca13ea1489954b1bf980a751507::1" target="Svetlana Savitskaya::Entity::Q152318" weight="0.0006871559889987111" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Svetlana Savitskaya::Entity::Q152318" target="member of political party::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::2" weight="0.9997484087944031" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="Svetlana Savitskaya::Entity::Q152318" target="member of political party::Predicate::q152318-a9dcd867738cb56363b55936803bd056::1" weight="0.9988227486610413" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="Svetlana Savitskaya::Entity::Q152318" target="member of::Predicate::q152318-9435e43014d5ec7ef836720715b549b8::1" weight="0.9839203953742981" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="2" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q17121085-585e38640cde6e5ceeb5ea97665eae63::10" weight="0.0011021732352674007" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="Svetlana Savitskaya::Entity::Q152318" target="employer::Predicate::q152318-d3fe8503b63e0ef5d3f7c24ee4ab1105::1" weight="0.9713374376296997" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="Svetlana Savitskaya::Entity::Q152318" target="allegiance::Predicate::q152318-0d26a286c9fbd3fd243d263cae9a9cc2::1" weight="0.7170328497886658" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="22" source="member of political party::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::2" target="Communist Party of the Soviet Union::Entity::Q79854" weight="0.9997484087944031" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="member of political party::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::2" target="start time::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::1" weight="0.9997484087944031" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="start time::Predicate::q152318-6bea074f7cf5227d0d72ad148dfdd121::1" target="1975-01-01::Entity::1975-01-01T00:00:00Z" weight="0.9997484087944031" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="member of political party::Predicate::q152318-a9dcd867738cb56363b55936803bd056::1" target="Communist Party of the Russian Federation::Entity::Q192187" weight="0.9988227486610413" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="26" source="position held::Predicate::q9055263-442892c3510639c8d1e45af88b427489::5" target="parliamentary group::Predicate::q9055263-442892c3510639c8d1e45af88b427489::4" weight="0.03454471752047539" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="27" source="position held::Predicate::q17420728-1a17eb051cf0cc5b0c7e659e59cf7966::9" target="parliamentary group::Predicate::q17420728-1a17eb051cf0cc5b0c7e659e59cf7966::8" weight="0.03426378220319748" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="28" source="position held::Predicate::q11077937-418bb036d5690d3efb8349b4f94d375e::7" target="parliamentary group::Predicate::q11077937-418bb036d5690d3efb8349b4f94d375e::6" weight="0.033704973757267" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="29" source="position held::Predicate::q9011586-4637a4e1fd427dc55b2fe32ab52c3840::6" target="parliamentary group::Predicate::q9011586-4637a4e1fd427dc55b2fe32ab52c3840::5" weight="0.033254675567150116" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q9055263-442892c3510639c8d1e45af88b427489::5" weight="0.03454471752047539" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="30" source="position held::Predicate::q9013386-5122e2adfbef5f6ee47d0c9c27ba3b0f::4" target="parliamentary group::Predicate::q9013386-5122e2adfbef5f6ee47d0c9c27ba3b0f::3" weight="0.033125877380371094" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="31" source="position held::Predicate::q11686160-3da710cd5cc9a53192986ee9cac3208f::11" target="parliamentary group::Predicate::q11686160-3da710cd5cc9a53192986ee9cac3208f::9" weight="0.03218204900622368" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="32" source="position held::Predicate::q11038636-61bbf589df5d22a483a2a80ef458ba42::13" target="parliamentary group::Predicate::q11038636-61bbf589df5d22a483a2a80ef458ba42::11" weight="0.031982891261577606" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="33" source="member of::Predicate::q152318-9435e43014d5ec7ef836720715b549b8::1" target="Académie de l'air et de l'espace::Entity::Q2822342" weight="0.9839203953742981" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="34" source="position held::Predicate::q3498704-16e9638f6c071a7dde4f290169b650de::3" target="parliamentary group::Predicate::q3498704-16e9638f6c071a7dde4f290169b650de::2" weight="0.030864814296364784" label="23"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="35" source="position held::Predicate::q2841087-ba810e58b7b778f5186c553972714ad3::12" target="parliamentary group::Predicate::q2841087-ba810e58b7b778f5186c553972714ad3::10" weight="0.030728330835700035" label="24"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="36" source="position held::Predicate::q14831159-9caa055b83bc1f9db27a0b8eae8ec148::1" target="parliamentary group::Predicate::q14831159-9caa055b83bc1f9db27a0b8eae8ec148::1" weight="0.030670903623104095" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="37" source="employer::Predicate::q152318-d3fe8503b63e0ef5d3f7c24ee4ab1105::1" target="Supreme Soviet of the Soviet Union::Entity::Q326465" weight="0.9713374376296997" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q17420728-1a17eb051cf0cc5b0c7e659e59cf7966::9" weight="0.03426378220319748" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q11077937-418bb036d5690d3efb8349b4f94d375e::7" weight="0.033704973757267" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q9011586-4637a4e1fd427dc55b2fe32ab52c3840::6" weight="0.033254675567150116" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q9013386-5122e2adfbef5f6ee47d0c9c27ba3b0f::4" weight="0.033125877380371094" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q11686160-3da710cd5cc9a53192986ee9cac3208f::11" weight="0.03218204900622368" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="member of the European Parliament::Entity::Q27169" target="position held::Predicate::q11038636-61bbf589df5d22a483a2a80ef458ba42::13" weight="0.031982891261577606" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

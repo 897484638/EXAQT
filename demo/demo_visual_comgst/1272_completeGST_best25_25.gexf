@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Isabel Allende::Entity::Q83566" label="Isabel Allende">
+        <attvalues>
+          <attvalue for="label" value="Isabel Allende" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Salvador Allende::Entity::Q440" label="Salvador Allende">
+        <attvalues>
+          <attvalue for="label" value="Salvador Allende" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="first cousin once removed descending::Entity::Q19901611" label="first cousin once removed descending">
+        <attvalues>
+          <attvalue for="label" value="first cousin once removed descending" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q19901611-1ee9638d0962530103b060867dfabb9b::15" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="kinship to subject::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" label="kinship to subject">
+        <attvalues>
+          <attvalue for="label" value="kinship to subject" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="kinship to subject::Predicate::q83566-02535511b98503e791683988dc220ec2::2" label="kinship to subject">
+        <attvalues>
+          <attvalue for="label" value="kinship to subject" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="kinship::Entity::Q171318" label="kinship">
+        <attvalues>
+          <attvalue for="label" value="kinship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="relative::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" label="relative">
+        <attvalues>
+          <attvalue for="label" value="relative" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="relative::Predicate::q83566-02535511b98503e791683988dc220ec2::2" label="relative">
+        <attvalues>
+          <attvalue for="label" value="relative" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="second uncle::Entity::Q12315099" label="second uncle">
+        <attvalues>
+          <attvalue for="label" value="second uncle" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="kinship to subject::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" target="relative::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" weight="0.9997751116752625" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="kinship to subject::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" target="first cousin once removed descending::Entity::Q19901611" weight="0.9997751116752625" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="relative::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" target="Salvador Allende::Entity::Q440" weight="0.9997751116752625" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="relative::Predicate::q440-f3ddbdbf4d2fe4ab195485531e83aa59::1" target="Isabel Allende::Entity::Q83566" weight="0.9997751116752625" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Salvador Allende::Entity::Q440" target="relative::Predicate::q83566-02535511b98503e791683988dc220ec2::2" weight="0.9992544054985046" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="Isabel Allende::Entity::Q83566" target="relative::Predicate::q83566-02535511b98503e791683988dc220ec2::2" weight="0.9992544054985046" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="first cousin once removed descending::Entity::Q19901611" target="instance of::Predicate::q19901611-1ee9638d0962530103b060867dfabb9b::15" weight="0.9950783252716064" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="7" source="relative::Predicate::q83566-02535511b98503e791683988dc220ec2::2" target="kinship to subject::Predicate::q83566-02535511b98503e791683988dc220ec2::2" weight="0.9992544054985046" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="kinship to subject::Predicate::q83566-02535511b98503e791683988dc220ec2::2" target="second uncle::Entity::Q12315099" weight="0.9992544054985046" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="instance of::Predicate::q19901611-1ee9638d0962530103b060867dfabb9b::15" target="kinship::Entity::Q171318" weight="0.9950783252716064" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+    </edges>
+  </graph>
+</gexf>

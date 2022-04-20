@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1961-01-20::Entity::1961-01-20T00:00:00Z" label="1961-01-20">
+        <attvalues>
+          <attvalue for="label" value="1961-01-20"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1963-11-22::Entity::1963-11-22T00:00:00Z" label="1963-11-22">
+        <attvalues>
+          <attvalue for="label" value="1963-11-22"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="John F. Kennedy::Entity::Q9696" label="John F. Kennedy">
+        <attvalues>
+          <attvalue for="label" value="John F. Kennedy"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Lee Harvey Oswald::Entity::Q48745" label="Lee Harvey Oswald">
+        <attvalues>
+          <attvalue for="label" value="Lee Harvey Oswald"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="assassination of John F. Kennedy::Entity::Q193484" label="assassination of John F. Kennedy">
+        <attvalues>
+          <attvalue for="label" value="assassination of John F. Kennedy"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="assassination::Entity::Q3882219" label="assassination">
+        <attvalues>
+          <attvalue for="label" value="assassination"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="cause of death::Predicate::q9696-7e6a2fd10bc736ffec2aa8d43a677d39::1" label="cause of death">
+        <attvalues>
+          <attvalue for="label" value="cause of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q30-e741ca9c9930a50d60334452b329581b::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q30-e741ca9c9930a50d60334452b329581b::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q193484-009236498dfd3cad98f341d3510dca52::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q193484-159c5d54e60023b3b70a133df547b3dc::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q193484-a28c8ad584b7b9dabf9d442e03bb79f3::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="killed by::Predicate::q9696-7e6a2fd10bc736ffec2aa8d43a677d39::1" label="killed by">
+        <attvalues>
+          <attvalue for="label" value="killed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="killed by::Predicate::q9696-8c110608b7f6d25c824d1b78a4acdd7c::2" label="killed by">
+        <attvalues>
+          <attvalue for="label" value="killed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="manner of death::Predicate::q9696-9d12992f613a534f70c06b01312a57f9::1" label="manner of death">
+        <attvalues>
+          <attvalue for="label" value="manner of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant in::Predicate::q48745-b0badf3c7b9592c599041d8de27065bb::1" label="participant in">
+        <attvalues>
+          <attvalue for="label" value="participant in"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant in::Predicate::q6552071-29b333820dfcfae42f0d7f8c181c6a4a::2" label="participant in">
+        <attvalues>
+          <attvalue for="label" value="participant in"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="perpetrator::Predicate::q193484-cc48378a6393ed9c10baa9cd2816eb5a::1" label="perpetrator">
+        <attvalues>
+          <attvalue for="label" value="perpetrator"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q9640-5309fa298ae34c2b6a5c025af709f135::3" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q5901180-5972fe4a47ed7a71afa7eeb83901a71e::1" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q30-e741ca9c9930a50d60334452b329581b::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q9696-7e6a2fd10bc736ffec2aa8d43a677d39::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q9696-9d12992f613a534f70c06b01312a57f9::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="target::Predicate::q193484-d4e814cd623cbd616218aa4e6c60f31e::1" label="target">
+        <attvalues>
+          <attvalue for="label" value="target"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="victim::Predicate::q193484-15444a7e15488891ae2747003cc132a2::1" label="victim">
+        <attvalues>
+          <attvalue for="label" value="victim"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="victim::Predicate::q193484-15444a7e15488891ae2747003cc132a2::1" target="John F. Kennedy::Entity::Q9696" weight="0.9966720342636108" label="3"/>
+      <edge id="1" source="victim::Predicate::q193484-15444a7e15488891ae2747003cc132a2::1" target="assassination of John F. Kennedy::Entity::Q193484" weight="0.9966720342636108" label="3"/>
+      <edge id="10" source="head of government::Predicate::q30-e741ca9c9930a50d60334452b329581b::1" target="start time::Predicate::q30-e741ca9c9930a50d60334452b329581b::3" weight="0.9936568140983582" label="6"/>
+      <edge id="11" source="assassination of John F. Kennedy::Entity::Q193484" target="perpetrator::Predicate::q193484-cc48378a6393ed9c10baa9cd2816eb5a::1" weight="0.9986364245414734" label="1"/>
+      <edge id="12" source="assassination of John F. Kennedy::Entity::Q193484" target="participant in::Predicate::q48745-b0badf3c7b9592c599041d8de27065bb::1" weight="0.9971279501914978" label="2"/>
+      <edge id="13" source="assassination of John F. Kennedy::Entity::Q193484" target="instance of::Predicate::q193484-a28c8ad584b7b9dabf9d442e03bb79f3::2" weight="0.9923577904701233" label="7"/>
+      <edge id="14" source="assassination of John F. Kennedy::Entity::Q193484" target="instance of::Predicate::q193484-009236498dfd3cad98f341d3510dca52::3" weight="0.9890182018280029" label="8"/>
+      <edge id="15" source="assassination of John F. Kennedy::Entity::Q193484" target="significant event::Predicate::q5901180-5972fe4a47ed7a71afa7eeb83901a71e::1" weight="0.988513171672821" label="9"/>
+      <edge id="16" source="assassination of John F. Kennedy::Entity::Q193484" target="instance of::Predicate::q193484-159c5d54e60023b3b70a133df547b3dc::1" weight="0.9882591962814331" label="10"/>
+      <edge id="17" source="assassination of John F. Kennedy::Entity::Q193484" target="statement is subject of::Predicate::q9696-9d12992f613a534f70c06b01312a57f9::2" weight="0.9880350232124329" label="11"/>
+      <edge id="18" source="assassination of John F. Kennedy::Entity::Q193484" target="statement is subject of::Predicate::q9696-7e6a2fd10bc736ffec2aa8d43a677d39::1" weight="0.9832595586776733" label="13"/>
+      <edge id="19" source="assassination of John F. Kennedy::Entity::Q193484" target="participant in::Predicate::q6552071-29b333820dfcfae42f0d7f8c181c6a4a::2" weight="0.9821785092353821" label="14"/>
+      <edge id="2" source="John F. Kennedy::Entity::Q9696" target="head of government::Predicate::q30-e741ca9c9930a50d60334452b329581b::1" weight="0.9936568140983582" label="6"/>
+      <edge id="20" source="perpetrator::Predicate::q193484-cc48378a6393ed9c10baa9cd2816eb5a::1" target="Lee Harvey Oswald::Entity::Q48745" weight="0.9986364245414734" label="1"/>
+      <edge id="21" source="Lee Harvey Oswald::Entity::Q48745" target="killed by::Predicate::q9696-7e6a2fd10bc736ffec2aa8d43a677d39::1" weight="0.9832595586776733" label="13"/>
+      <edge id="22" source="end time::Predicate::q30-e741ca9c9930a50d60334452b329581b::3" target="1963-11-22::Entity::1963-11-22T00:00:00Z" weight="0.9936568140983582" label="6"/>
+      <edge id="23" source="start time::Predicate::q30-e741ca9c9930a50d60334452b329581b::3" target="1961-01-20::Entity::1961-01-20T00:00:00Z" weight="0.9936568140983582" label="6"/>
+      <edge id="24" source="instance of::Predicate::q193484-a28c8ad584b7b9dabf9d442e03bb79f3::2" target="assassination::Entity::Q3882219" weight="0.9923577904701233" label="7"/>
+      <edge id="3" source="John F. Kennedy::Entity::Q9696" target="killed by::Predicate::q9696-8c110608b7f6d25c824d1b78a4acdd7c::2" weight="0.9939789772033691" label="5"/>
+      <edge id="4" source="John F. Kennedy::Entity::Q9696" target="target::Predicate::q193484-d4e814cd623cbd616218aa4e6c60f31e::1" weight="0.9956444501876831" label="4"/>
+      <edge id="5" source="John F. Kennedy::Entity::Q9696" target="manner of death::Predicate::q9696-9d12992f613a534f70c06b01312a57f9::1" weight="0.9880350232124329" label="11"/>
+      <edge id="6" source="John F. Kennedy::Entity::Q9696" target="replaces::Predicate::q9640-5309fa298ae34c2b6a5c025af709f135::3" weight="0.9869879484176636" label="12"/>
+      <edge id="7" source="John F. Kennedy::Entity::Q9696" target="cause of death::Predicate::q9696-7e6a2fd10bc736ffec2aa8d43a677d39::1" weight="0.9832595586776733" label="13"/>
+      <edge id="8" source="head of government::Predicate::q30-e741ca9c9930a50d60334452b329581b::1" target="United States::Entity::Q30" weight="0.9936568140983582" label="6"/>
+      <edge id="9" source="head of government::Predicate::q30-e741ca9c9930a50d60334452b329581b::1" target="end time::Predicate::q30-e741ca9c9930a50d60334452b329581b::3" weight="0.9936568140983582" label="6"/>
+    </edges>
+  </graph>
+</gexf>

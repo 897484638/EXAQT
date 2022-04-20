@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+1214441::Entity::+1214441" label="+1214441">
+        <attvalues>
+          <attvalue for="label" value="+1214441" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="+1333365::Entity::+1333365" label="+1333365">
+        <attvalues>
+          <attvalue for="label" value="+1333365" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="2010-01-01::Entity::2010-01-01T00:00:00Z" label="2010-01-01">
+        <attvalues>
+          <attvalue for="label" value="2010-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="2015-01-01::Entity::2015-01-01T00:00:00Z" label="2015-01-01">
+        <attvalues>
+          <attvalue for="label" value="2015-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Salta Province::Entity::Q44803" label="Salta Province">
+        <attvalues>
+          <attvalue for="label" value="Salta Province" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" label="population">
+        <attvalues>
+          <attvalue for="label" value="population" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" label="population">
+        <attvalues>
+          <attvalue for="label" value="population" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="point in time::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" target="population::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" weight="0.9997678399085999" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="point in time::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" target="2015-01-01::Entity::2015-01-01T00:00:00Z" weight="0.9997678399085999" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="population::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" target="Salta Province::Entity::Q44803" weight="0.9997678399085999" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="population::Predicate::q44803-cc66f687671718797ec6e2fd6e8f1af2::1" target="+1333365::Entity::+1333365" weight="0.9997678399085999" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Salta Province::Entity::Q44803" target="population::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" weight="0.9997017979621887" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="population::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" target="point in time::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" weight="0.9997017979621887" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="population::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" target="+1214441::Entity::+1214441" weight="0.9997017979621887" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="point in time::Predicate::q44803-b215c67a1a02b9e485c1802f7de4bf90::2" target="2010-01-01::Entity::2010-01-01T00:00:00Z" weight="0.9997017979621887" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

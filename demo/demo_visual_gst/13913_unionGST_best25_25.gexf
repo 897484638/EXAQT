@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Australia::Entity::Q408" label="Australia">
+        <attvalues>
+          <attvalue for="label" value="Australia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Franklin D. Roosevelt::Entity::Q8007" label="Franklin D. Roosevelt">
+        <attvalues>
+          <attvalue for="label" value="Franklin D. Roosevelt" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Narrative::Entity::Q1318295" label="Narrative">
+        <attvalues>
+          <attvalue for="label" value="Narrative" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Q21997013::Entity::Q21997013" label="Q21997013">
+        <attvalues>
+          <attvalue for="label" value="Q21997013" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Q63610141::Entity::Q63610141" label="Q63610141">
+        <attvalues>
+          <attvalue for="label" value="Q63610141" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="The President's Mystery::Entity::Q7758076" label="The President's Mystery">
+        <attvalues>
+          <attvalue for="label" value="The President's Mystery" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="The Who::Entity::Q93346" label="The Who">
+        <attvalues>
+          <attvalue for="label" value="The Who" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="World War II::Entity::Q362" label="World War II">
+        <attvalues>
+          <attvalue for="label" value="World War II" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q7758076-f914c011f7fda326f50918f9681602f9::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q362-64915796e525a10e2f131deeb8964dee::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="film::Entity::Q11424" label="film">
+        <attvalues>
+          <attvalue for="label" value="film" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="genre::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::2" label="genre">
+        <attvalues>
+          <attvalue for="label" value="genre" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="genre::Predicate::q63610141-0784fc2b7ccaded36ceab1af8e357d65::1" label="genre">
+        <attvalues>
+          <attvalue for="label" value="genre" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::2" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1815802-7568989d90995f16f525514f1acc853a::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q3221745-db0cfc8618ce08730504021a42b12c67::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q7758076-7631c17326e1db56724e7d2866397805::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="main subject::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" label="main subject">
+        <attvalues>
+          <attvalue for="label" value="main subject" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="main subject::Predicate::q63610141-37f3bc2a5be856d0f07929a29ddb4e7e::2" label="main subject">
+        <attvalues>
+          <attvalue for="label" value="main subject" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="participant in::Predicate::q408-701000058a2726c2298e2ea8614b52e4::1" label="participant in">
+        <attvalues>
+          <attvalue for="label" value="participant in" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::14" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of publication::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::2" label="place of publication">
+        <attvalues>
+          <attvalue for="label" value="place of publication" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="science fiction film::Entity::Q471839" label="science fiction film">
+        <attvalues>
+          <attvalue for="label" value="science fiction film" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="screenwriter::Predicate::q7758076-64c883bb3fe4dedba7d6546fca7400f3::1" label="screenwriter">
+        <attvalues>
+          <attvalue for="label" value="screenwriter" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="The Who::Entity::Q93346" target="performer::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::14" weight="0.003154205856844783" label="29"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="performer::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::14" target="has part::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::2" weight="0.003154205856844783" label="29"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="main subject::Predicate::q63610141-37f3bc2a5be856d0f07929a29ddb4e7e::2" target="World War II::Entity::Q362" weight="0.9361625909805298" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="11" source="World War II::Entity::Q362" target="participant in::Predicate::q408-701000058a2726c2298e2ea8614b52e4::1" weight="0.9429824948310852" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="12" source="World War II::Entity::Q362" target="main subject::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" weight="0.9452442526817322" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="World War II::Entity::Q362" target="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" weight="0.4589076042175293" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="14" source="World War II::Entity::Q362" target="end time::Predicate::q362-64915796e525a10e2f131deeb8964dee::1" weight="0.17382414638996124" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="The President's Mystery::Entity::Q7758076" target="instance of::Predicate::q7758076-7631c17326e1db56724e7d2866397805::3" weight="0.0011450371239334345" label="30"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="The President's Mystery::Entity::Q7758076" target="screenwriter::Predicate::q7758076-64c883bb3fe4dedba7d6546fca7400f3::1" weight="0.9923517107963562" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="The President's Mystery::Entity::Q7758076" target="country of origin::Predicate::q7758076-f914c011f7fda326f50918f9681602f9::1" weight="0.3639484941959381" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="18" source="instance of::Predicate::q7758076-7631c17326e1db56724e7d2866397805::3" target="film::Entity::Q11424" weight="0.0011450371239334345" label="30"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="film::Entity::Q11424" target="category contains::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" weight="0.9452442526817322" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="has part::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::2" target="place of publication::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::2" weight="0.003154205856844783" label="29"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="category contains::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" target="main subject::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" weight="0.9452442526817322" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="category contains::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" target="Q21997013::Entity::Q21997013" weight="0.9452442526817322" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="category contains::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::1" target="genre::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::2" weight="0.9452442526817322" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="screenwriter::Predicate::q7758076-64c883bb3fe4dedba7d6546fca7400f3::1" target="Franklin D. Roosevelt::Entity::Q8007" weight="0.9923517107963562" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="genre::Predicate::q21997013-469ccb99ad1a959199966d73df0d1b4a::2" target="science fiction film::Entity::Q471839" weight="0.9452442526817322" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="place of publication::Predicate::q72033545-a411806cfe441e68fdc5c7e5fa82e683::2" target="Australia::Entity::Q408" weight="0.003154205856844783" label="29"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="Australia::Entity::Q408" target="participant in::Predicate::q408-701000058a2726c2298e2ea8614b52e4::1" weight="0.9429824948310852" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Narrative::Entity::Q1318295" target="genre::Predicate::q63610141-0784fc2b7ccaded36ceab1af8e357d65::1" weight="0.0002193175896536559" label="31"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="Narrative::Entity::Q1318295" target="instance of::Predicate::q1815802-7568989d90995f16f525514f1acc853a::2" weight="0.11501564085483551" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Narrative::Entity::Q1318295" target="instance of::Predicate::q3221745-db0cfc8618ce08730504021a42b12c67::1" weight="0.06327346712350845" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="genre::Predicate::q63610141-0784fc2b7ccaded36ceab1af8e357d65::1" target="Q63610141::Entity::Q63610141" weight="0.0002193175896536559" label="31"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="Q63610141::Entity::Q63610141" target="main subject::Predicate::q63610141-37f3bc2a5be856d0f07929a29ddb4e7e::2" weight="0.9361625909805298" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

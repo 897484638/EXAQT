@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1958-12-12::Entity::1958-12-12T00:00:00Z" label="1958-12-12">
+        <attvalues>
+          <attvalue for="label" value="1958-12-12"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Julian Opie::Entity::Q451564" label="Julian Opie">
+        <attvalues>
+          <attvalue for="label" value="Julian Opie"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="London::Entity::Q84" label="London">
+        <attvalues>
+          <attvalue for="label" value="London"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q451564-6c3567f10e20b166e458e8b2f6227877::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q451564-82424848e9391a4bc4c5226af27879dd::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of birth::Predicate::q451564-6c3567f10e20b166e458e8b2f6227877::1" target="Julian Opie::Entity::Q451564" weight="0.9989653825759888" label="1"/>
+      <edge id="1" source="date of birth::Predicate::q451564-6c3567f10e20b166e458e8b2f6227877::1" target="1958-12-12::Entity::1958-12-12T00:00:00Z" weight="0.9989653825759888" label="1"/>
+      <edge id="2" source="Julian Opie::Entity::Q451564" target="place of birth::Predicate::q451564-82424848e9391a4bc4c5226af27879dd::1" weight="0.009941471740603447" label="4"/>
+      <edge id="3" source="place of birth::Predicate::q451564-82424848e9391a4bc4c5226af27879dd::1" target="London::Entity::Q84" weight="0.009941471740603447" label="4"/>
+    </edges>
+  </graph>
+</gexf>

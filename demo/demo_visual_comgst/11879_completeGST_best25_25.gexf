@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Chinese dynasty::Entity::Q12857432" label="Chinese dynasty">
+        <attvalues>
+          <attvalue for="label" value="Chinese dynasty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Liang dynasty::Entity::Q1069868" label="Liang dynasty">
+        <attvalues>
+          <attvalue for="label" value="Liang dynasty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ming dynasty::Entity::Q9903" label="Ming dynasty">
+        <attvalues>
+          <attvalue for="label" value="Ming dynasty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Song Dynasty::Entity::Q7462" label="Song Dynasty">
+        <attvalues>
+          <attvalue for="label" value="Song Dynasty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Yuan Empire::Entity::Q7313" label="Yuan Empire">
+        <attvalues>
+          <attvalue for="label" value="Yuan Empire" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q7313-deb6233a50c59b9597ed68bfe2a19ab3::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1069868-ff00210f8f2af038c9d1c83135c0cd45::10" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q7462-49aa725af9bf7c7a310ec412e8028ed3::7" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q7313-637bd066ea3885f4715c6a6c1e5f2457::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Yuan Empire::Entity::Q7313" target="replaces::Predicate::q7313-637bd066ea3885f4715c6a6c1e5f2457::1" weight="0.9928100109100342" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="Yuan Empire::Entity::Q7313" target="followed by::Predicate::q7313-deb6233a50c59b9597ed68bfe2a19ab3::1" weight="0.9953352808952332" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="replaces::Predicate::q7313-637bd066ea3885f4715c6a6c1e5f2457::1" target="Song Dynasty::Entity::Q7462" weight="0.9928100109100342" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="Song Dynasty::Entity::Q7462" target="instance of::Predicate::q7462-49aa725af9bf7c7a310ec412e8028ed3::7" weight="0.9906817674636841" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="instance of::Predicate::q7462-49aa725af9bf7c7a310ec412e8028ed3::7" target="Chinese dynasty::Entity::Q12857432" weight="0.9906817674636841" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="Chinese dynasty::Entity::Q12857432" target="instance of::Predicate::q1069868-ff00210f8f2af038c9d1c83135c0cd45::10" weight="0.9953327775001526" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="followed by::Predicate::q7313-deb6233a50c59b9597ed68bfe2a19ab3::1" target="Ming dynasty::Entity::Q9903" weight="0.9953352808952332" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="instance of::Predicate::q1069868-ff00210f8f2af038c9d1c83135c0cd45::10" target="Liang dynasty::Entity::Q1069868" weight="0.9953327775001526" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

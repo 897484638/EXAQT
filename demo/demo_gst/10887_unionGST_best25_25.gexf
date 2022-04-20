@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1999-01-01::Entity::1999-01-01T00:00:00Z" label="1999-01-01">
+        <attvalues>
+          <attvalue for="label" value="1999-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2000-01-01::Entity::2000-01-01T00:00:00Z" label="2000-01-01">
+        <attvalues>
+          <attvalue for="label" value="2000-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="James Gandolfini::Entity::Q308722" label="James Gandolfini">
+        <attvalues>
+          <attvalue for="label" value="James Gandolfini"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="James Garner::Entity::Q108510" label="James Garner">
+        <attvalues>
+          <attvalue for="label" value="James Garner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Kiefer Sutherland::Entity::Q103946" label="Kiefer Sutherland">
+        <attvalues>
+          <attvalue for="label" value="Kiefer Sutherland"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series::Entity::Q2414252" label="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series">
+        <attvalues>
+          <attvalue for="label" value="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Screen Actors Guild Award::Entity::Q268200" label="Screen Actors Guild Award">
+        <attvalues>
+          <attvalue for="label" value="Screen Actors Guild Award"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="The Sopranos::Entity::Q23628" label="The Sopranos">
+        <attvalues>
+          <attvalue for="label" value="The Sopranos"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::23" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q104027-d969d0cb219894ed5d60e51f15b532f0::7" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q104061-21bd949d1c1026e47fd7bad8eb91ed31::21" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1079-da1bde333246d304c9b1fb032b48a511::22" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q108510-8c985a3437d7078979415157e41e1d54::16" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::19" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q284636-7c3a1644bad45c9ce210ef4f32831cf8::20" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q395274-419222eea2edf773f719641bc7d5ab56::12" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::9" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q108510-51946921aa2b638bfb093486a75ed7be::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::27" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q104027-d969d0cb219894ed5d60e51f15b532f0::8" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q108510-51946921aa2b638bfb093486a75ed7be::19" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::23" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q308722-465db88528fa5052af4a24a6945180b5::7" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q395274-419222eea2edf773f719641bc7d5ab56::13" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series::Entity::Q2414252" target="award received::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::19" weight="0.9977701902389526" label="6"/>
+      <edge id="1" source="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series::Entity::Q2414252" target="award received::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::23" weight="0.9987873435020447" label="1"/>
+      <edge id="10" source="award received::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" target="Screen Actors Guild Award::Entity::Q268200" weight="0.99866783618927" label="2"/>
+      <edge id="11" source="award received::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" target="point in time::Predicate::q308722-465db88528fa5052af4a24a6945180b5::7" weight="0.99866783618927" label="2"/>
+      <edge id="12" source="award received::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" target="point in time::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" weight="0.99866783618927" label="2"/>
+      <edge id="13" source="Screen Actors Guild Award::Entity::Q268200" target="award received::Predicate::q395274-419222eea2edf773f719641bc7d5ab56::12" weight="0.9939456582069397" label="14"/>
+      <edge id="14" source="Screen Actors Guild Award::Entity::Q268200" target="award received::Predicate::q104027-d969d0cb219894ed5d60e51f15b532f0::7" weight="0.9935833811759949" label="16"/>
+      <edge id="15" source="award received::Predicate::q395274-419222eea2edf773f719641bc7d5ab56::12" target="point in time::Predicate::q395274-419222eea2edf773f719641bc7d5ab56::13" weight="0.9939456582069397" label="14"/>
+      <edge id="16" source="point in time::Predicate::q395274-419222eea2edf773f719641bc7d5ab56::13" target="1999-01-01::Entity::1999-01-01T00:00:00Z" weight="0.9939456582069397" label="14"/>
+      <edge id="17" source="1999-01-01::Entity::1999-01-01T00:00:00Z" target="point in time::Predicate::q108510-51946921aa2b638bfb093486a75ed7be::19" weight="0.9955066442489624" label="12"/>
+      <edge id="18" source="1999-01-01::Entity::1999-01-01T00:00:00Z" target="point in time::Predicate::q104027-d969d0cb219894ed5d60e51f15b532f0::8" weight="0.9935833811759949" label="16"/>
+      <edge id="19" source="James Garner::Entity::Q108510" target="nominated for::Predicate::q108510-51946921aa2b638bfb093486a75ed7be::1" weight="0.9955066442489624" label="12"/>
+      <edge id="2" source="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series::Entity::Q2414252" target="award received::Predicate::q284636-7c3a1644bad45c9ce210ef4f32831cf8::20" weight="0.9984487295150757" label="3"/>
+      <edge id="20" source="James Garner::Entity::Q108510" target="award received::Predicate::q108510-8c985a3437d7078979415157e41e1d54::16" weight="0.9976534247398376" label="7"/>
+      <edge id="21" source="nominated for::Predicate::q108510-51946921aa2b638bfb093486a75ed7be::1" target="point in time::Predicate::q108510-51946921aa2b638bfb093486a75ed7be::19" weight="0.9955066442489624" label="12"/>
+      <edge id="22" source="point in time::Predicate::q104027-d969d0cb219894ed5d60e51f15b532f0::8" target="award received::Predicate::q104027-d969d0cb219894ed5d60e51f15b532f0::7" weight="0.9935833811759949" label="16"/>
+      <edge id="23" source="award received::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::23" target="Kiefer Sutherland::Entity::Q103946" weight="0.9987873435020447" label="1"/>
+      <edge id="24" source="award received::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::23" target="for work::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::9" weight="0.9987873435020447" label="1"/>
+      <edge id="25" source="award received::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::23" target="point in time::Predicate::q103946-fc315ed2c20bc24020d6accfd614a070::27" weight="0.9987873435020447" label="1"/>
+      <edge id="26" source="point in time::Predicate::q308722-465db88528fa5052af4a24a6945180b5::7" target="2000-01-01::Entity::2000-01-01T00:00:00Z" weight="0.99866783618927" label="2"/>
+      <edge id="27" source="2000-01-01::Entity::2000-01-01T00:00:00Z" target="point in time::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::23" weight="0.9977701902389526" label="6"/>
+      <edge id="3" source="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series::Entity::Q2414252" target="award received::Predicate::q1079-da1bde333246d304c9b1fb032b48a511::22" weight="0.9980596899986267" label="4"/>
+      <edge id="4" source="Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series::Entity::Q2414252" target="award received::Predicate::q104061-21bd949d1c1026e47fd7bad8eb91ed31::21" weight="0.9980224370956421" label="5"/>
+      <edge id="5" source="award received::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::19" target="winner::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::3" weight="0.9977701902389526" label="6"/>
+      <edge id="6" source="award received::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::19" target="point in time::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::23" weight="0.9977701902389526" label="6"/>
+      <edge id="7" source="award received::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::19" target="The Sopranos::Entity::Q23628" weight="0.9977701902389526" label="6"/>
+      <edge id="8" source="winner::Predicate::q23628-0b0d20df4e87ee5426b1149829daf3d9::3" target="James Gandolfini::Entity::Q308722" weight="0.9977701902389526" label="6"/>
+      <edge id="9" source="James Gandolfini::Entity::Q308722" target="award received::Predicate::q308722-465db88528fa5052af4a24a6945180b5::6" weight="0.99866783618927" label="2"/>
+    </edges>
+  </graph>
+</gexf>

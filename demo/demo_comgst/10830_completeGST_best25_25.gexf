@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1990–91 Football League First Division::Entity::Q2039308" label="1990–91 Football League First Division">
+        <attvalues>
+          <attvalue for="label" value="1990–91 Football League First Division"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="2001–02 FA Premier League::Entity::Q338385" label="2001–02 FA Premier League">
+        <attvalues>
+          <attvalue for="label" value="2001–02 FA Premier League"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Arsenal F.C.::Entity::Q9617" label="Arsenal F.C.">
+        <attvalues>
+          <attvalue for="label" value="Arsenal F.C."/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="FA Cup::Entity::Q11151" label="FA Cup">
+        <attvalues>
+          <attvalue for="label" value="FA Cup"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q11151-90c06934544dc9ac018865f9ec9f5370::20" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q2039308-c0a4ba5d08e4fc37c6192a13323c1276::9" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q338385-067555b7788d6d6679272a1567ef1c2c::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Arsenal F.C.::Entity::Q9617" target="winner::Predicate::q2039308-c0a4ba5d08e4fc37c6192a13323c1276::9" weight="0.950016438961029" label="1"/>
+      <edge id="1" source="Arsenal F.C.::Entity::Q9617" target="winner::Predicate::q338385-067555b7788d6d6679272a1567ef1c2c::1" weight="0.9353824257850647" label="2"/>
+      <edge id="2" source="Arsenal F.C.::Entity::Q9617" target="winner::Predicate::q11151-90c06934544dc9ac018865f9ec9f5370::20" weight="0.9235323667526245" label="3"/>
+      <edge id="3" source="winner::Predicate::q2039308-c0a4ba5d08e4fc37c6192a13323c1276::9" target="1990–91 Football League First Division::Entity::Q2039308" weight="0.950016438961029" label="1"/>
+      <edge id="4" source="winner::Predicate::q338385-067555b7788d6d6679272a1567ef1c2c::1" target="2001–02 FA Premier League::Entity::Q338385" weight="0.9353824257850647" label="2"/>
+      <edge id="5" source="winner::Predicate::q11151-90c06934544dc9ac018865f9ec9f5370::20" target="FA Cup::Entity::Q11151" weight="0.9235323667526245" label="3"/>
+    </edges>
+  </graph>
+</gexf>

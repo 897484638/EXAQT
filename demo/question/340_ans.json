@@ -1,0 +1,93 @@
+{
+    "Id": 340,
+    "Question": "name a building located on 34th street that contains the word building in its name",
+    "Temporal signal": [
+        "ORDINAL"
+    ],
+    "Temporal question type": [
+        "Ordinal"
+    ],
+    "Answer": [
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q9188",
+            "WikidataLabel": "Empire State Building",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Empire_State_Building"
+        },
+        {
+            "AnswerType": "Value",
+            "AnswerArgument": "Empire State Building"
+        }
+    ],
+    "Data set": "train",
+    "Question truecase": "Name a building located on 34Th street that contains the word building in its name?",
+    "Seed entity": [
+        {
+            "label": "34th Street",
+            "url": "http://www.wikidata.org/entity/Q110049",
+            "qid": "Q110049",
+            "text": "34th street",
+            "method": "ELQ"
+        },
+        {
+            "label": "Building",
+            "url": "http://www.wikidata.org/entity/Q41176",
+            "qid": "Q41176",
+            "text": "building",
+            "method": "ELQ and TAGME"
+        },
+        {
+            "label": "Second Avenue Subway",
+            "url": "http://www.wikidata.org/entity/Q2104718",
+            "qid": "Q2104718",
+            "text": "34th street",
+            "method": "TAGME"
+        },
+        {
+            "label": "word",
+            "url": "http://www.wikidata.org/entity/Q8171",
+            "qid": "Q8171",
+            "text": "word",
+            "method": "TAGME"
+        },
+        {
+            "label": "Name",
+            "url": "http://www.wikidata.org/entity/Q82799",
+            "qid": "Q82799",
+            "text": "name",
+            "method": "TAGME"
+        }
+    ],
+    "Top5 answer": [
+        {
+            "rank": 1,
+            "label": "Empire State Building",
+            "url": "http://www.wikidata.org/entity/Q9188",
+            "qid": "Q9188"
+        },
+        {
+            "rank": 2,
+            "label": "Manhattan",
+            "url": "http://www.wikidata.org/entity/Q11299",
+            "qid": "Q11299"
+        },
+        {
+            "rank": 3,
+            "label": "Lucy Barnes Brown",
+            "url": "http://www.wikidata.org/entity/Q6698193",
+            "qid": "Q6698193"
+        },
+        {
+            "rank": 4,
+            "label": "SAE International",
+            "url": "http://www.wikidata.org/entity/Q1427072",
+            "qid": "Q1427072"
+        },
+        {
+            "rank": 5,
+            "label": "New York City Department of Transportation",
+            "url": "http://www.wikidata.org/entity/Q1058767",
+            "qid": "Q1058767"
+        }
+    ]
+}

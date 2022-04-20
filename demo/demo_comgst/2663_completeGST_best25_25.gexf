@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1981-01-01::Entity::1981-01-01T00:00:00Z" label="1981-01-01">
+        <attvalues>
+          <attvalue for="label" value="1981-01-01"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="54th Academy Awards::Entity::Q28969" label="54th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="54th Academy Awards"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actress::Entity::Q103618" label="Academy Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actress"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Joanne Woodward::Entity::Q1111542" label="Joanne Woodward">
+        <attvalues>
+          <attvalue for="label" value="Joanne Woodward"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Katharine Hepburn::Entity::Q56016" label="Katharine Hepburn">
+        <attvalues>
+          <attvalue for="label" value="Katharine Hepburn"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Mr. and Mrs. Bridge::Entity::Q1951409" label="Mr. and Mrs. Bridge">
+        <attvalues>
+          <attvalue for="label" value="Mr. and Mrs. Bridge"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="On Golden Pond::Entity::Q451603" label="On Golden Pond">
+        <attvalues>
+          <attvalue for="label" value="On Golden Pond"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q56016-36d1289a7e42dee34a58037622299d47::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q56016-36d1289a7e42dee34a58037622299d47::3" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::4" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q56016-36d1289a7e42dee34a58037622299d47::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q56016-36d1289a7e42dee34a58037622299d47::17" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q56016-36d1289a7e42dee34a58037622299d47::1" target="Katharine Hepburn::Entity::Q56016" weight="0.99954754114151" label="5"/>
+      <edge id="1" source="award received::Predicate::q56016-36d1289a7e42dee34a58037622299d47::1" target="Academy Award for Best Actress::Entity::Q103618" weight="0.99954754114151" label="5"/>
+      <edge id="10" source="point in time::Predicate::q56016-36d1289a7e42dee34a58037622299d47::2" target="1981-01-01::Entity::1981-01-01T00:00:00Z" weight="0.99954754114151" label="5"/>
+      <edge id="11" source="nominated for::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::4" target="Joanne Woodward::Entity::Q1111542" weight="0.9995120763778687" label="11"/>
+      <edge id="2" source="award received::Predicate::q56016-36d1289a7e42dee34a58037622299d47::1" target="for work::Predicate::q56016-36d1289a7e42dee34a58037622299d47::3" weight="0.99954754114151" label="5"/>
+      <edge id="3" source="award received::Predicate::q56016-36d1289a7e42dee34a58037622299d47::1" target="statement is subject of::Predicate::q56016-36d1289a7e42dee34a58037622299d47::17" weight="0.99954754114151" label="5"/>
+      <edge id="4" source="award received::Predicate::q56016-36d1289a7e42dee34a58037622299d47::1" target="point in time::Predicate::q56016-36d1289a7e42dee34a58037622299d47::2" weight="0.99954754114151" label="5"/>
+      <edge id="5" source="for work::Predicate::q56016-36d1289a7e42dee34a58037622299d47::3" target="On Golden Pond::Entity::Q451603" weight="0.99954754114151" label="5"/>
+      <edge id="6" source="for work::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::1" target="Mr. and Mrs. Bridge::Entity::Q1951409" weight="0.9995120763778687" label="11"/>
+      <edge id="7" source="for work::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::1" target="nominated for::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::4" weight="0.9995120763778687" label="11"/>
+      <edge id="8" source="Academy Award for Best Actress::Entity::Q103618" target="nominated for::Predicate::q1111542-59b8843198771ac91f57c131d140f0dd::4" weight="0.9995120763778687" label="11"/>
+      <edge id="9" source="statement is subject of::Predicate::q56016-36d1289a7e42dee34a58037622299d47::17" target="54th Academy Awards::Entity::Q28969" weight="0.99954754114151" label="5"/>
+    </edges>
+  </graph>
+</gexf>

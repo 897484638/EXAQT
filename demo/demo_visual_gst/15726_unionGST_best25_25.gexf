@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1996-01-01::Entity::1996-01-01T00:00:00Z" label="1996-01-01">
+        <attvalues>
+          <attvalue for="label" value="1996-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Bali United F.C.::Entity::Q4430615" label="Bali United F.C.">
+        <attvalues>
+          <attvalue for="label" value="Bali United F.C." />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Cameroon national football team::Entity::Q175309" label="Cameroon national football team">
+        <attvalues>
+          <attvalue for="label" value="Cameroon national football team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Pelita Bandung Raya::Entity::Q1630850" label="Pelita Bandung Raya">
+        <attvalues>
+          <attvalue for="label" value="Pelita Bandung Raya" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Roger Milla::Entity::Q168540" label="Roger Milla">
+        <attvalues>
+          <attvalue for="label" value="Roger Milla" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::3" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q168540-6df2430f0fd96c465208eba6f7d6921f::11" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q168540-bdda6e2007d7d4479d29bf713d3aca67::10" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q168540-dfce94595cf35d6fa5bc1d2f0aec94e0::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::6" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::17" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="instance of::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::3" target="position held::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::6" weight="0.0710076168179512" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="position held::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::6" target="start time::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::17" weight="0.0710076168179512" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" target="end time::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="11" source="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" target="Bali United F.C.::Entity::Q4430615" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="12" source="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" target="number of matches played/races/starts::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="13" source="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" target="number of points/goals/set scored::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="14" source="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" target="start time::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="15" source="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" target="Pelita Bandung Raya::Entity::Q1630850" weight="0.999630331993103" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" target="end time::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" weight="0.999630331993103" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" target="number of matches played/races/starts::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" weight="0.999630331993103" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" target="number of points/goals/set scored::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" weight="0.999630331993103" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" target="start time::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::6" weight="0.999630331993103" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="start time::Predicate::q1365787-0b9f9ac38120617894fbc0ab38994d3d::17" target="1996-01-01::Entity::1996-01-01T00:00:00Z" weight="0.0710076168179512" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" target="Cameroon national football team::Entity::Q175309" weight="0.9994803071022034" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" target="end time::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" weight="0.9994803071022034" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" target="number of matches played/races/starts::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" weight="0.9994803071022034" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" target="number of points/goals/set scored::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" weight="0.9994803071022034" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" target="start time::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::11" weight="0.9994803071022034" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="1996-01-01::Entity::1996-01-01T00:00:00Z" target="end time::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="Roger Milla::Entity::Q168540" target="member of sports team::Predicate::q168540-b44598353a8a8d61e3a9d28eb62da05f::3" weight="0.9994106292724609" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="Roger Milla::Entity::Q168540" target="member of sports team::Predicate::q168540-a5c533883d1b56a7db3428d78960cb9c::7" weight="0.999630331993103" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Roger Milla::Entity::Q168540" target="member of sports team::Predicate::q168540-ad7721bec60e5cbdbe87d663482000c2::12" weight="0.9994803071022034" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="Roger Milla::Entity::Q168540" target="member of sports team::Predicate::q168540-6df2430f0fd96c465208eba6f7d6921f::11" weight="0.999416708946228" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="Roger Milla::Entity::Q168540" target="member of sports team::Predicate::q168540-dfce94595cf35d6fa5bc1d2f0aec94e0::1" weight="0.9992009997367859" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Roger Milla::Entity::Q168540" target="member of sports team::Predicate::q168540-bdda6e2007d7d4479d29bf713d3aca67::10" weight="0.9989978671073914" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

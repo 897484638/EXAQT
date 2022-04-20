@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1970 VFL Grand Final::Entity::Q4574202" label="1970 VFL Grand Final">
+        <attvalues>
+          <attvalue for="label" value="1970 VFL Grand Final"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Australian Football League::Entity::Q50783" label="Australian Football League">
+        <attvalues>
+          <attvalue for="label" value="Australian Football League"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Carlton Football Club::Entity::Q858633" label="Carlton Football Club">
+        <attvalues>
+          <attvalue for="label" value="Carlton Football Club"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Collingwood Football Club::Entity::Q249679" label="Collingwood Football Club">
+        <attvalues>
+          <attvalue for="label" value="Collingwood Football Club"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Hawthorn Football Club::Entity::Q1034556" label="Hawthorn Football Club">
+        <attvalues>
+          <attvalue for="label" value="Hawthorn Football Club"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q1034556-a26cc8cb2706a61da864d58a40a23f64::6" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q4574202-361fe90dd1f47333d9dc849705f7ec51::2" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="participating team::Predicate::q4574202-b514e83f52bcc1cb4f71052ac47cedd6::3" label="participating team">
+        <attvalues>
+          <attvalue for="label" value="participating team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1970 VFL Grand Final::Entity::Q4574202" target="participating team::Predicate::q4574202-b514e83f52bcc1cb4f71052ac47cedd6::3" weight="0.991051435470581" label="1"/>
+      <edge id="1" source="1970 VFL Grand Final::Entity::Q4574202" target="participating team::Predicate::q4574202-361fe90dd1f47333d9dc849705f7ec51::2" weight="0.9906091690063477" label="2"/>
+      <edge id="2" source="participating team::Predicate::q4574202-b514e83f52bcc1cb4f71052ac47cedd6::3" target="Collingwood Football Club::Entity::Q249679" weight="0.991051435470581" label="1"/>
+      <edge id="3" source="participating team::Predicate::q4574202-361fe90dd1f47333d9dc849705f7ec51::2" target="Carlton Football Club::Entity::Q858633" weight="0.9906091690063477" label="2"/>
+      <edge id="4" source="Australian Football League::Entity::Q50783" target="league::Predicate::q1034556-a26cc8cb2706a61da864d58a40a23f64::6" weight="0.9885777235031128" label="4"/>
+      <edge id="5" source="league::Predicate::q1034556-a26cc8cb2706a61da864d58a40a23f64::6" target="Hawthorn Football Club::Entity::Q1034556" weight="0.9885777235031128" label="4"/>
+    </edges>
+  </graph>
+</gexf>

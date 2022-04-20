@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2009 Wimbledon Championships::Entity::Q244370" label="2009 Wimbledon Championships">
+        <attvalues>
+          <attvalue for="label" value="2009 Wimbledon Championships"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="2011-01-01::Entity::2011-01-01T00:00:00Z" label="2011-01-01">
+        <attvalues>
+          <attvalue for="label" value="2011-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Indiana University East::Entity::Q6023582" label="Indiana University East">
+        <attvalues>
+          <attvalue for="label" value="Indiana University East"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Championships, Wimbledon::Entity::Q41520" label="The Championships, Wimbledon">
+        <attvalues>
+          <attvalue for="label" value="The Championships, Wimbledon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Venus Williams::Entity::Q11578" label="Venus Williams">
+        <attvalues>
+          <attvalue for="label" value="Venus Williams"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q244370-4050771d1fc806cd2c3bb30d6cc0bc75::22" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="The Championships, Wimbledon::Entity::Q41520" target="instance of::Predicate::q244370-4050771d1fc806cd2c3bb30d6cc0bc75::22" weight="0.9828285574913025" label="1"/>
+      <edge id="1" source="instance of::Predicate::q244370-4050771d1fc806cd2c3bb30d6cc0bc75::22" target="2009 Wimbledon Championships::Entity::Q244370" weight="0.9828285574913025" label="1"/>
+      <edge id="2" source="educated at::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" target="Indiana University East::Entity::Q6023582" weight="0.9595107436180115" label="24"/>
+      <edge id="3" source="educated at::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" target="Venus Williams::Entity::Q11578" weight="0.9595107436180115" label="24"/>
+      <edge id="4" source="educated at::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" target="start time::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" weight="0.9595107436180115" label="24"/>
+      <edge id="5" source="start time::Predicate::q11578-174b44b70c6ab5331b11645747bff981::1" target="2011-01-01::Entity::2011-01-01T00:00:00Z" weight="0.9595107436180115" label="24"/>
+    </edges>
+  </graph>
+</gexf>

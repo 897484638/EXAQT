@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2002-01-01::Entity::2002-01-01T00:00:00Z" label="2002-01-01">
+        <attvalues>
+          <attvalue for="label" value="2002-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Billboard Latin Music Awards::Entity::Q3087600" label="Billboard Latin Music Awards">
+        <attvalues>
+          <attvalue for="label" value="Billboard Latin Music Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Grammy Award for Best Latin Rock, Urban or Alternative Album::Entity::Q4542508" label="Grammy Award for Best Latin Rock, Urban or Alternative Album">
+        <attvalues>
+          <attvalue for="label" value="Grammy Award for Best Latin Rock, Urban or Alternative Album" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Grammy Award for Best Music Video::Entity::Q2976730" label="Grammy Award for Best Music Video">
+        <attvalues>
+          <attvalue for="label" value="Grammy Award for Best Music Video" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Latin Grammy Award for Album of the Year::Entity::Q6496321" label="Latin Grammy Award for Album of the Year">
+        <attvalues>
+          <attvalue for="label" value="Latin Grammy Award for Album of the Year" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Los Premios MTV Latinoamérica::Entity::Q1082986" label="Los Premios MTV Latinoamérica">
+        <attvalues>
+          <attvalue for="label" value="Los Premios MTV Latinoamérica" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Shakira::Entity::Q34424" label="Shakira">
+        <attvalues>
+          <attvalue for="label" value="Shakira" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-3435684089f382588f4e144d0ab63e87::11" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-442f23df31fdcf6b4e5fb7d95efb66fc::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-57d57c053810e13c9c000970542b347a::12" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-7a4a72a8763fe09814879f9edfca8fdb::4" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-8dd2e63ebc4ced64dbb14428030b65b5::14" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-90700d7c12cf49ceb67fdd91ae5ea2b9::13" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::6" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-adbd4cff3a20db8bb104ab383507bce5::10" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-b104994777bd8c12ef04e903011298a1::15" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-b61b2fdb4889836e841ae7429f603ccd::8" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-c046aa03ba4653d640ea17a828074bd5::7" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::3" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::2" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::8" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::7" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::3" target="Shakira::Entity::Q34424" weight="0.9993478655815125" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="award received::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::3" target="Los Premios MTV Latinoamérica::Entity::Q1082986" weight="0.9993478655815125" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-c046aa03ba4653d640ea17a828074bd5::7" weight="0.9960034489631653" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-442f23df31fdcf6b4e5fb7d95efb66fc::2" weight="0.9957091808319092" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-8dd2e63ebc4ced64dbb14428030b65b5::14" weight="0.9955358505249023" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-b104994777bd8c12ef04e903011298a1::15" weight="0.9948861002922058" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-57d57c053810e13c9c000970542b347a::12" weight="0.9948567152023315" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-3435684089f382588f4e144d0ab63e87::11" weight="0.9944791793823242" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="point in time::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::6" target="2002-01-01::Entity::2002-01-01T00:00:00Z" weight="0.9993478655815125" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="award received::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::5" target="Grammy Award for Best Latin Rock, Urban or Alternative Album::Entity::Q4542508" weight="0.9976627826690674" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="award received::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::5" target="for work::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::2" weight="0.9976627826690674" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="award received::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::5" target="point in time::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::7" weight="0.9976627826690674" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="award received::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::3" target="point in time::Predicate::q34424-fd3b64776a6d0946be5a726da19d0749::6" weight="0.9993478655815125" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="award received::Predicate::q34424-7a4a72a8763fe09814879f9edfca8fdb::4" target="Grammy Award for Best Music Video::Entity::Q2976730" weight="0.9972100853919983" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="21" source="award received::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::6" target="Latin Grammy Award for Album of the Year::Entity::Q6496321" weight="0.9971892237663269" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="22" source="award received::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::6" target="for work::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::3" weight="0.9971892237663269" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="23" source="award received::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::6" target="point in time::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::8" weight="0.9971892237663269" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="24" source="award received::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" target="Billboard Latin Music Awards::Entity::Q3087600" weight="0.997036337852478" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="25" source="award received::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" target="for work::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" weight="0.997036337852478" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="26" source="award received::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" target="point in time::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::4" weight="0.997036337852478" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="3" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-b670c3f5fc618e3b9afc1a438632b032::5" weight="0.9976627826690674" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-7a4a72a8763fe09814879f9edfca8fdb::4" weight="0.9972100853919983" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-ab2b679e2f291cda167d2876023f508a::6" weight="0.9971892237663269" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-f8a6b4309a98968f19d590d088b2e9d0::1" weight="0.997036337852478" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="7" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-b61b2fdb4889836e841ae7429f603ccd::8" weight="0.9968589544296265" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-90700d7c12cf49ceb67fdd91ae5ea2b9::13" weight="0.9960428476333618" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Shakira::Entity::Q34424" target="award received::Predicate::q34424-adbd4cff3a20db8bb104ab383507bce5::10" weight="0.9960098266601562" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

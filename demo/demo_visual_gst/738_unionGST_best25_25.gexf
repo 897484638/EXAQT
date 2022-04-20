@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Billie Holiday::Entity::Q104358" label="Billie Holiday">
+        <attvalues>
+          <attvalue for="label" value="Billie Holiday" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="High-functioning alcoholic::Entity::Q5754528" label="High-functioning alcoholic">
+        <attvalues>
+          <attvalue for="label" value="High-functioning alcoholic" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Psychology::Entity::Q9418" label="Psychology">
+        <attvalues>
+          <attvalue for="label" value="Psychology" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Rehabilitation::Entity::Q26842021" label="Rehabilitation">
+        <attvalues>
+          <attvalue for="label" value="Rehabilitation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Robin Williams::Entity::Q83338" label="Robin Williams">
+        <attvalues>
+          <attvalue for="label" value="Robin Williams" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="alcohol consumption::Entity::Q2647488" label="alcohol consumption">
+        <attvalues>
+          <attvalue for="label" value="alcohol consumption" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="alcoholism::Entity::Q15326" label="alcoholism">
+        <attvalues>
+          <attvalue for="label" value="alcoholism" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q15326-c601a8654dcbb59896c335cdbcee49fa::1" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="has effect::Predicate::q15326-1e4e20b7fe43048018fdb7c5d8989fdb::2" label="has effect">
+        <attvalues>
+          <attvalue for="label" value="has effect" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="has effect::Predicate::q15326-89e8252ae0ff75992ebd1e31628d4862::1" label="has effect">
+        <attvalues>
+          <attvalue for="label" value="has effect" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="has effect::Predicate::q2647488-49d8b31759bcd5712c9372595dc40a6e::5" label="has effect">
+        <attvalues>
+          <attvalue for="label" value="has effect" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="health specialty::Predicate::q15326-01b87cd8eef9bbdafda3551850201848::2" label="health specialty">
+        <attvalues>
+          <attvalue for="label" value="health specialty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="health specialty::Predicate::q15326-26180922540feb81bef254edea76c2b6::3" label="health specialty">
+        <attvalues>
+          <attvalue for="label" value="health specialty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="health specialty::Predicate::q15326-4f1f25d224be30343eac629f3a70720b::1" label="health specialty">
+        <attvalues>
+          <attvalue for="label" value="health specialty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="health specialty::Predicate::q15326-85fda902d6e4f00cc2b7a5bc605139c0::4" label="health specialty">
+        <attvalues>
+          <attvalue for="label" value="health specialty" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q5754528-2695b11c6aa28678c355c9ac118735d5::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q104358-b61f2eeb15fd54cab01d8a4a0c723b7a::5" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q2153541-4c69c53881fa0278277124aa8d121cbf::1" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q27430141-5a3e0487aab90f615dd2e748baf43604::3" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q47488906-b6500b5e087ace9e53b24f6d542e5523::4" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q67104904-0efdd1c42d86347a467c5dd044be9391::6" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q83338-16a3127abde9c0855cc9f7c0898d0987::2" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="medical toxicology::Entity::Q6806614" label="medical toxicology">
+        <attvalues>
+          <attvalue for="label" value="medical toxicology" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="possible treatment::Predicate::q15326-51edf209e896abac0780fec5f1c84a7a::1" label="possible treatment">
+        <attvalues>
+          <attvalue for="label" value="possible treatment" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="psychiatry::Entity::Q7867" label="psychiatry">
+        <attvalues>
+          <attvalue for="label" value="psychiatry" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q15326-0136e5c257234ec795a47fbdbd1f9a2b::2" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="health specialty::Predicate::q15326-4f1f25d224be30343eac629f3a70720b::1" target="alcoholism::Entity::Q15326" weight="0.9956081509590149" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="health specialty::Predicate::q15326-4f1f25d224be30343eac629f3a70720b::1" target="psychiatry::Entity::Q7867" weight="0.9956081509590149" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="alcoholism::Entity::Q15326" target="has effect::Predicate::q15326-1e4e20b7fe43048018fdb7c5d8989fdb::2" weight="0.9921296238899231" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="alcoholism::Entity::Q15326" target="has effect::Predicate::q15326-89e8252ae0ff75992ebd1e31628d4862::1" weight="0.9907000660896301" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="alcoholism::Entity::Q15326" target="has effect::Predicate::q2647488-49d8b31759bcd5712c9372595dc40a6e::5" weight="0.9904084205627441" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="alcoholism::Entity::Q15326" target="medical condition::Predicate::q27430141-5a3e0487aab90f615dd2e748baf43604::3" weight="0.9792143106460571" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="alcoholism::Entity::Q15326" target="possible treatment::Predicate::q15326-51edf209e896abac0780fec5f1c84a7a::1" weight="0.9827897548675537" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="alcoholism::Entity::Q15326" target="medical condition::Predicate::q2153541-4c69c53881fa0278277124aa8d121cbf::1" weight="0.9770102500915527" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="alcoholism::Entity::Q15326" target="subclass of::Predicate::q15326-0136e5c257234ec795a47fbdbd1f9a2b::2" weight="0.9861189126968384" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="alcoholism::Entity::Q15326" target="medical condition::Predicate::q47488906-b6500b5e087ace9e53b24f6d542e5523::4" weight="0.9745240807533264" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="medical condition::Predicate::q83338-16a3127abde9c0855cc9f7c0898d0987::2" target="Robin Williams::Entity::Q83338" weight="0.9899014234542847" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="19" source="health specialty::Predicate::q15326-01b87cd8eef9bbdafda3551850201848::2" target="medical toxicology::Entity::Q6806614" weight="0.9956034421920776" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="alcoholism::Entity::Q15326" target="medical condition::Predicate::q83338-16a3127abde9c0855cc9f7c0898d0987::2" weight="0.9899014234542847" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="20" source="health specialty::Predicate::q15326-26180922540feb81bef254edea76c2b6::3" target="Psychology::Entity::Q9418" weight="0.9951620697975159" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="21" source="medical condition::Predicate::q104358-b61f2eeb15fd54cab01d8a4a0c723b7a::5" target="Billie Holiday::Entity::Q104358" weight="0.9893295168876648" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="health specialty::Predicate::q15326-85fda902d6e4f00cc2b7a5bc605139c0::4" target="Rehabilitation::Entity::Q26842021" weight="0.9949299693107605" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="23" source="has cause::Predicate::q15326-c601a8654dcbb59896c335cdbcee49fa::1" target="alcohol consumption::Entity::Q2647488" weight="0.9930192828178406" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="24" source="instance of::Predicate::q5754528-2695b11c6aa28678c355c9ac118735d5::1" target="High-functioning alcoholic::Entity::Q5754528" weight="0.992468535900116" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="alcoholism::Entity::Q15326" target="health specialty::Predicate::q15326-01b87cd8eef9bbdafda3551850201848::2" weight="0.9956034421920776" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="alcoholism::Entity::Q15326" target="health specialty::Predicate::q15326-26180922540feb81bef254edea76c2b6::3" weight="0.9951620697975159" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="alcoholism::Entity::Q15326" target="medical condition::Predicate::q104358-b61f2eeb15fd54cab01d8a4a0c723b7a::5" weight="0.9893295168876648" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="alcoholism::Entity::Q15326" target="health specialty::Predicate::q15326-85fda902d6e4f00cc2b7a5bc605139c0::4" weight="0.9949299693107605" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="7" source="alcoholism::Entity::Q15326" target="medical condition::Predicate::q67104904-0efdd1c42d86347a467c5dd044be9391::6" weight="0.9869964122772217" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="alcoholism::Entity::Q15326" target="has cause::Predicate::q15326-c601a8654dcbb59896c335cdbcee49fa::1" weight="0.9930192828178406" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="alcoholism::Entity::Q15326" target="instance of::Predicate::q5754528-2695b11c6aa28678c355c9ac118735d5::1" weight="0.992468535900116" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

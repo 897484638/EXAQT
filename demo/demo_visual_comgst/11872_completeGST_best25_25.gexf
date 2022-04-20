@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="38th Academy Awards::Entity::Q917067" label="38th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="38th Academy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" label="Academy Award for Best Writing, Original Screenplay">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Writing, Original Screenplay" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Casanova 70::Entity::Q1046790" label="Casanova 70">
+        <attvalues>
+          <attvalue for="label" value="Casanova 70" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mario Monicelli::Entity::Q53026" label="Mario Monicelli">
+        <attvalues>
+          <attvalue for="label" value="Mario Monicelli" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::21" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::22" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="for work::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::1" target="nominated for::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::21" weight="0.9997403025627136" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="1" source="for work::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::1" target="Casanova 70::Entity::Q1046790" weight="0.9997403025627136" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="nominated for::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::21" target="statement is subject of::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::22" weight="0.9997403025627136" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="nominated for::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::21" target="Mario Monicelli::Entity::Q53026" weight="0.9997403025627136" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="nominated for::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::21" target="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" weight="0.9997403025627136" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="statement is subject of::Predicate::q53026-d12091d1afe33ad80cbd5ffae661279c::22" target="38th Academy Awards::Entity::Q917067" weight="0.9997403025627136" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="First Amendment to the United States Constitution::Entity::Q12616" label="First Amendment to the United States Constitution">
+        <attvalues>
+          <attvalue for="label" value="First Amendment to the United States Constitution" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="United States Constitution::Entity::Q11698" label="United States Constitution">
+        <attvalues>
+          <attvalue for="label" value="United States Constitution" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="World Health Organization::Entity::Q7817" label="World Health Organization">
+        <attvalues>
+          <attvalue for="label" value="World Health Organization" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="amended by::Predicate::q11698-75c865c4447473e11630bed0fc49cde2::1" label="amended by">
+        <attvalues>
+          <attvalue for="label" value="amended by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="applies to jurisdiction::Predicate::q12616-937046fed7f7edf1cb867221f17c3c5e::1" label="applies to jurisdiction">
+        <attvalues>
+          <attvalue for="label" value="applies to jurisdiction" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q12616-9f1cf0dc59b989b51492e66b9689f98e::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="World Health Organization::Entity::Q7817" target="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" weight="0.0013076562900096178" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" target="United States::Entity::Q30" weight="0.0013076562900096178" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="United States::Entity::Q30" target="country::Predicate::q12616-9f1cf0dc59b989b51492e66b9689f98e::1" weight="0.275126576423645" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="United States::Entity::Q30" target="applies to jurisdiction::Predicate::q12616-937046fed7f7edf1cb867221f17c3c5e::1" weight="0.04016992822289467" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="country::Predicate::q12616-9f1cf0dc59b989b51492e66b9689f98e::1" target="First Amendment to the United States Constitution::Entity::Q12616" weight="0.275126576423645" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="First Amendment to the United States Constitution::Entity::Q12616" target="amended by::Predicate::q11698-75c865c4447473e11630bed0fc49cde2::1" weight="0.12380460649728775" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="6" source="First Amendment to the United States Constitution::Entity::Q12616" target="applies to jurisdiction::Predicate::q12616-937046fed7f7edf1cb867221f17c3c5e::1" weight="0.04016992822289467" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="amended by::Predicate::q11698-75c865c4447473e11630bed0fc49cde2::1" target="United States Constitution::Entity::Q11698" weight="0.12380460649728775" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

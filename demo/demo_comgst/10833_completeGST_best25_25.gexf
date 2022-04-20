@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2007-01-01::Entity::2007-01-01T00:00:00Z" label="2007-01-01">
+        <attvalues>
+          <attvalue for="label" value="2007-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Andrei Khripach::Entity::Q4755824" label="Andrei Khripach">
+        <attvalues>
+          <attvalue for="label" value="Andrei Khripach"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Baranavichy::Entity::Q237655" label="Baranavichy">
+        <attvalues>
+          <attvalue for="label" value="Baranavichy"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Dzmitry Balashow::Entity::Q5319989" label="Dzmitry Balashow">
+        <attvalues>
+          <attvalue for="label" value="Dzmitry Balashow"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="FC Baranovichi::Entity::Q2496995" label="FC Baranovichi">
+        <attvalues>
+          <attvalue for="label" value="FC Baranovichi"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Kaliningrad::Entity::Q1829" label="Kaliningrad">
+        <attvalues>
+          <attvalue for="label" value="Kaliningrad"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q4755824-eb41eaaf23db37ca2cd606fb4d1f82ff::4" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5319989-b0151316cd008d147cc1ac71fe054164::13" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::22" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="twinned administrative body::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::1" label="twinned administrative body">
+        <attvalues>
+          <attvalue for="label" value="twinned administrative body"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Baranavichy::Entity::Q237655" target="twinned administrative body::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::1" weight="0.9940167665481567" label="1"/>
+      <edge id="1" source="twinned administrative body::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::1" target="Kaliningrad::Entity::Q1829" weight="0.9940167665481567" label="1"/>
+      <edge id="2" source="twinned administrative body::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::1" target="start time::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::22" weight="0.9940167665481567" label="1"/>
+      <edge id="3" source="FC Baranovichi::Entity::Q2496995" target="member of sports team::Predicate::q4755824-eb41eaaf23db37ca2cd606fb4d1f82ff::4" weight="0.9904906749725342" label="3"/>
+      <edge id="4" source="FC Baranovichi::Entity::Q2496995" target="member of sports team::Predicate::q5319989-b0151316cd008d147cc1ac71fe054164::13" weight="0.9897717833518982" label="4"/>
+      <edge id="5" source="member of sports team::Predicate::q4755824-eb41eaaf23db37ca2cd606fb4d1f82ff::4" target="Andrei Khripach::Entity::Q4755824" weight="0.9904906749725342" label="3"/>
+      <edge id="6" source="member of sports team::Predicate::q5319989-b0151316cd008d147cc1ac71fe054164::13" target="Dzmitry Balashow::Entity::Q5319989" weight="0.9897717833518982" label="4"/>
+      <edge id="7" source="start time::Predicate::q237655-a445b894bb65e0d9c0b7292ff0c941a3::22" target="2007-01-01::Entity::2007-01-01T00:00:00Z" weight="0.9940167665481567" label="1"/>
+    </edges>
+  </graph>
+</gexf>

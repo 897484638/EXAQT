@@ -1,0 +1,82 @@
+{
+    "Id": 8081,
+    "Question": "what northerner was elected us president in 1860",
+    "Temporal signal": [
+        "OVERLAP"
+    ],
+    "Temporal question type": [
+        "Explicit"
+    ],
+    "Answer": [
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q91",
+            "WikidataLabel": "Abraham Lincoln",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/abraham_lincoln"
+        }
+    ],
+    "Data set": "train",
+    "Question truecase": "What Northerner was elected us president in 1860?",
+    "Seed entity": [
+        {
+            "label": "Northern United States",
+            "url": "http://www.wikidata.org/entity/Q1357541",
+            "qid": "Q1357541",
+            "text": "northern",
+            "method": "ELQ"
+        },
+        {
+            "label": "President of the United States",
+            "url": "http://www.wikidata.org/entity/Q11696",
+            "qid": "Q11696",
+            "text": "us president",
+            "method": "ELQ and TAGME"
+        },
+        {
+            "label": "Northern United States",
+            "url": "http://www.wikidata.org/entity/Q1357541",
+            "qid": "Q1357541",
+            "text": "northerner",
+            "method": "TAGME"
+        },
+        {
+            "label": "1858 and 1859 United States Senate elections",
+            "url": "http://www.wikidata.org/entity/Q5510833",
+            "qid": "Q5510833",
+            "text": "elected",
+            "method": "TAGME"
+        }
+    ],
+    "Top5 answer": [
+        {
+            "rank": 1,
+            "label": "Abraham Lincoln",
+            "url": "http://www.wikidata.org/entity/Q91",
+            "qid": "Q91"
+        },
+        {
+            "rank": 2,
+            "label": "George Washington",
+            "url": "http://www.wikidata.org/entity/Q23",
+            "qid": "Q23"
+        },
+        {
+            "rank": 3,
+            "label": "Martin Van Buren",
+            "url": "http://www.wikidata.org/entity/Q11820",
+            "qid": "Q11820"
+        },
+        {
+            "rank": 4,
+            "label": "Franklin D. Roosevelt",
+            "url": "http://www.wikidata.org/entity/Q8007",
+            "qid": "Q8007"
+        },
+        {
+            "rank": 5,
+            "label": "William McKinley",
+            "url": "http://www.wikidata.org/entity/Q35041",
+            "qid": "Q35041"
+        }
+    ]
+}

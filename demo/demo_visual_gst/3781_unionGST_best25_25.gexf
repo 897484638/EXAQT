@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1980-01-01::Entity::1980-01-01T00:00:00Z" label="1980-01-01">
+        <attvalues>
+          <attvalue for="label" value="1980-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1984-01-01::Entity::1984-01-01T00:00:00Z" label="1984-01-01">
+        <attvalues>
+          <attvalue for="label" value="1984-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1990-01-01::Entity::1990-01-01T00:00:00Z" label="1990-01-01">
+        <attvalues>
+          <attvalue for="label" value="1990-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Laurence Olivier Award for Best Actress in a Musical::Entity::Q6500775" label="Laurence Olivier Award for Best Actress in a Musical">
+        <attvalues>
+          <attvalue for="label" value="Laurence Olivier Award for Best Actress in a Musical" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Laurence Olivier Award for Best Actress::Entity::Q6500774" label="Laurence Olivier Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Laurence Olivier Award for Best Actress" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Laurence Olivier::Entity::Q55245" label="Laurence Olivier">
+        <attvalues>
+          <attvalue for="label" value="Laurence Olivier" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Natalia Makarova::Entity::Q267796" label="Natalia Makarova">
+        <attvalues>
+          <attvalue for="label" value="Natalia Makarova" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Sheila Hancock::Entity::Q645873" label="Sheila Hancock">
+        <attvalues>
+          <attvalue for="label" value="Sheila Hancock" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q267796-bf4b265039aa83ba2299b5c2868cd533::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q6500774-1e76d5ec4b01e5e35b4b3e418255cfeb::1" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q134077-619448592e6526c950337605d682e887::12" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q208590-73afe0410fa92bdc0c32a2919b0552c1::11" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q233457-d6c9b5a820317e19680bf6e904648f48::6" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q234798-4b02992f2e37e94c6e9a4a2858d18a17::7" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q237287-dc935a2bedebb71bfcfe4d25a976499c::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q259688-aad84124dfcbe9098dd8a536112cd03d::13" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q3997138-acb6689b859f4c0d4466f36aada9ae08::17" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q485298-3739f97b90a3f7a279fb16d8d751df18::16" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q4943576-6754e3c4b350ae5d02a3aa64e77faacc::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::18" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q645873-c61aac822895fcd03e114a87874f235a::5" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q134077-619448592e6526c950337605d682e887::16" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q233457-d6c9b5a820317e19680bf6e904648f48::10" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q237287-dc935a2bedebb71bfcfe4d25a976499c::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q259688-aad84124dfcbe9098dd8a536112cd03d::17" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q267796-bf4b265039aa83ba2299b5c2868cd533::9" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::22" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q645873-c61aac822895fcd03e114a87874f235a::7" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q6500775-fcbc86220a7b95ac6632ed790e301c23::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q6500775-fcbc86220a7b95ac6632ed790e301c23::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Laurence Olivier::Entity::Q55245" target="named after::Predicate::q6500774-1e76d5ec4b01e5e35b4b3e418255cfeb::1" weight="0.020616505295038223" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="named after::Predicate::q6500774-1e76d5ec4b01e5e35b4b3e418255cfeb::1" target="Laurence Olivier Award for Best Actress::Entity::Q6500774" weight="0.020616505295038223" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="nominated for::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::18" target="Sheila Hancock::Entity::Q645873" weight="0.9996446371078491" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="nominated for::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::18" target="point in time::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::22" weight="0.9996446371078491" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Sheila Hancock::Entity::Q645873" target="nominated for::Predicate::q645873-c61aac822895fcd03e114a87874f235a::5" weight="0.9996398687362671" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="nominated for::Predicate::q645873-c61aac822895fcd03e114a87874f235a::5" target="Laurence Olivier Award for Best Actress in a Musical::Entity::Q6500775" weight="0.9996398687362671" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="nominated for::Predicate::q645873-c61aac822895fcd03e114a87874f235a::5" target="point in time::Predicate::q645873-c61aac822895fcd03e114a87874f235a::7" weight="0.9996398687362671" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="Laurence Olivier Award for Best Actress in a Musical::Entity::Q6500775" target="award received::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::1" weight="0.9996455907821655" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="Laurence Olivier Award for Best Actress in a Musical::Entity::Q6500775" target="winner::Predicate::q6500775-fcbc86220a7b95ac6632ed790e301c23::1" weight="0.9996322393417358" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="17" source="Laurence Olivier Award for Best Actress in a Musical::Entity::Q6500775" target="nominated for::Predicate::q237287-dc935a2bedebb71bfcfe4d25a976499c::1" weight="0.99965500831604" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="18" source="Laurence Olivier Award for Best Actress in a Musical::Entity::Q6500775" target="nominated for::Predicate::q4943576-6754e3c4b350ae5d02a3aa64e77faacc::3" weight="0.999624490737915" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="point in time::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::5" target="award received::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::1" weight="0.9996455907821655" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::18" weight="0.9996446371078491" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="20" source="point in time::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::5" target="1984-01-01::Entity::1984-01-01T00:00:00Z" weight="0.9996455907821655" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="21" source="award received::Predicate::q267796-33f4a98672275065498c45e98c7bd07b::1" target="Natalia Makarova::Entity::Q267796" weight="0.9996455907821655" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="22" source="Natalia Makarova::Entity::Q267796" target="winner::Predicate::q6500775-fcbc86220a7b95ac6632ed790e301c23::1" weight="0.9996322393417358" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="23" source="Natalia Makarova::Entity::Q267796" target="award received::Predicate::q267796-bf4b265039aa83ba2299b5c2868cd533::3" weight="0.999713122844696" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="point in time::Predicate::q645873-21e7f97d6de6a78f3b769b7b5f1d31ed::22" target="1990-01-01::Entity::1990-01-01T00:00:00Z" weight="0.9996446371078491" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="25" source="point in time::Predicate::q645873-c61aac822895fcd03e114a87874f235a::7" target="1980-01-01::Entity::1980-01-01T00:00:00Z" weight="0.9996398687362671" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="winner::Predicate::q6500775-fcbc86220a7b95ac6632ed790e301c23::1" target="point in time::Predicate::q6500775-fcbc86220a7b95ac6632ed790e301c23::1" weight="0.9996322393417358" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="27" source="award received::Predicate::q267796-bf4b265039aa83ba2299b5c2868cd533::3" target="point in time::Predicate::q267796-bf4b265039aa83ba2299b5c2868cd533::9" weight="0.999713122844696" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="28" source="nominated for::Predicate::q134077-619448592e6526c950337605d682e887::12" target="point in time::Predicate::q134077-619448592e6526c950337605d682e887::16" weight="0.9996877908706665" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="29" source="nominated for::Predicate::q259688-aad84124dfcbe9098dd8a536112cd03d::13" target="point in time::Predicate::q259688-aad84124dfcbe9098dd8a536112cd03d::17" weight="0.999672532081604" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q134077-619448592e6526c950337605d682e887::12" weight="0.9996877908706665" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="30" source="nominated for::Predicate::q233457-d6c9b5a820317e19680bf6e904648f48::6" target="point in time::Predicate::q233457-d6c9b5a820317e19680bf6e904648f48::10" weight="0.9996675252914429" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="31" source="nominated for::Predicate::q237287-dc935a2bedebb71bfcfe4d25a976499c::1" target="point in time::Predicate::q237287-dc935a2bedebb71bfcfe4d25a976499c::2" weight="0.99965500831604" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="4" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q259688-aad84124dfcbe9098dd8a536112cd03d::13" weight="0.999672532081604" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q233457-d6c9b5a820317e19680bf6e904648f48::6" weight="0.9996675252914429" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q234798-4b02992f2e37e94c6e9a4a2858d18a17::7" weight="0.9996289014816284" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q3997138-acb6689b859f4c0d4466f36aada9ae08::17" weight="0.9996240139007568" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q208590-73afe0410fa92bdc0c32a2919b0552c1::11" weight="0.9996192455291748" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="Laurence Olivier Award for Best Actress::Entity::Q6500774" target="nominated for::Predicate::q485298-3739f97b90a3f7a279fb16d8d751df18::16" weight="0.9996151924133301" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

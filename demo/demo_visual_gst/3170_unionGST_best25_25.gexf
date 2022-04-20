@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2005-01-01::Entity::2005-01-01T00:00:00Z" label="2005-01-01">
+        <attvalues>
+          <attvalue for="label" value="2005-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2007-01-01::Entity::2007-01-01T00:00:00Z" label="2007-01-01">
+        <attvalues>
+          <attvalue for="label" value="2007-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Lancashire County Cricket Club::Entity::Q2725657" label="Lancashire County Cricket Club">
+        <attvalues>
+          <attvalue for="label" value="Lancashire County Cricket Club" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Leicestershire County Cricket Club::Entity::Q3229147" label="Leicestershire County Cricket Club">
+        <attvalues>
+          <attvalue for="label" value="Leicestershire County Cricket Club" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Steven Crook::Entity::Q7614595" label="Steven Crook">
+        <attvalues>
+          <attvalue for="label" value="Steven Crook" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Stuart Broad::Entity::Q3140358" label="Stuart Broad">
+        <attvalues>
+          <attvalue for="label" value="Stuart Broad" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Stuart Law::Entity::Q26992" label="Stuart Law">
+        <attvalues>
+          <attvalue for="label" value="Stuart Law" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q3140358-0796b75eac0d5b1ef6acc4ae7a0a8398::2" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q3526744-aedbc33a41775690e067ccd0a33ea55f::20" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q4757599-4ef516f6c7b450e5a7eb5a730e219e68::10" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5145022-09759fd9d20766a122216e535e818dde::17" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5235227-f9c3100aa3378045c16a558b630097fb::3" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5592266-2ded75f5ba7ee15e16df784419d740fd::19" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5980629-cd8964358fa9afb51d05faadcd02cb4e::8" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q6969432-cbbc1eb07250ddffcde802bcf952b64c::13" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7175687-c9296881c8040be91f6b5fadd0d0ad05::11" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7610023-30786f314ed5354b4afd011c70c2dcc3::9" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7627207-6755ab1152efe00687d2529cf675dad7::7" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" weight="0.9947852492332458" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" weight="0.9977161884307861" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q6969432-cbbc1eb07250ddffcde802bcf952b64c::13" weight="0.994142472743988" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q7175687-c9296881c8040be91f6b5fadd0d0ad05::11" weight="0.9940209984779358" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="member of sports team::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" target="end time::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" weight="0.9947852492332458" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="member of sports team::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" target="Steven Crook::Entity::Q7614595" weight="0.9947852492332458" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="member of sports team::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" target="start time::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" weight="0.9947852492332458" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="end time::Predicate::q7614595-d729e68e36b941168bac8bb8f05c3a86::6" target="2005-01-01::Entity::2005-01-01T00:00:00Z" weight="0.9947852492332458" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="2005-01-01::Entity::2005-01-01T00:00:00Z" target="start time::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" weight="0.9968309998512268" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="17" source="member of sports team::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" target="Stuart Broad::Entity::Q3140358" weight="0.9968309998512268" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="member of sports team::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" target="start time::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" weight="0.9968309998512268" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="member of sports team::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" target="Leicestershire County Cricket Club::Entity::Q3229147" weight="0.9968309998512268" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q5980629-cd8964358fa9afb51d05faadcd02cb4e::8" weight="0.9951901435852051" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="20" source="member of sports team::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" target="end time::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" weight="0.9968309998512268" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="Stuart Broad::Entity::Q3140358" target="member of sports team::Predicate::q3140358-0796b75eac0d5b1ef6acc4ae7a0a8398::2" weight="0.9958749413490295" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="22" source="member of sports team::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" target="Stuart Law::Entity::Q26992" weight="0.9977161884307861" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="member of sports team::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" target="end time::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" weight="0.9977161884307861" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="member of sports team::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" target="start time::Predicate::q26992-77fe618f71fc626da8220fd81c008548::24" weight="0.9977161884307861" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="end time::Predicate::q3140358-57c9ad37a5cd47d614866329d01d5915::1" target="2007-01-01::Entity::2007-01-01T00:00:00Z" weight="0.9968309998512268" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q3526744-aedbc33a41775690e067ccd0a33ea55f::20" weight="0.9949860572814941" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="4" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q7610023-30786f314ed5354b4afd011c70c2dcc3::9" weight="0.9949061870574951" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q5145022-09759fd9d20766a122216e535e818dde::17" weight="0.9947066903114319" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q4757599-4ef516f6c7b450e5a7eb5a730e219e68::10" weight="0.9945024251937866" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q5235227-f9c3100aa3378045c16a558b630097fb::3" weight="0.9944816827774048" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q7627207-6755ab1152efe00687d2529cf675dad7::7" weight="0.9942337870597839" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="9" source="Lancashire County Cricket Club::Entity::Q2725657" target="member of sports team::Predicate::q5592266-2ded75f5ba7ee15e16df784419d740fd::19" weight="0.994215190410614" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

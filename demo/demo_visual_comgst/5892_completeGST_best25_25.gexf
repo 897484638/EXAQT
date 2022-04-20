@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1525-01-01::Entity::1525-01-01T00:00:00Z" label="1525-01-01">
+        <attvalues>
+          <attvalue for="label" value="1525-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1546-01-01::Entity::1546-01-01T00:00:00Z" label="1546-01-01">
+        <attvalues>
+          <attvalue for="label" value="1546-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Katharina von Bora::Entity::Q77239" label="Katharina von Bora">
+        <attvalues>
+          <attvalue for="label" value="Katharina von Bora" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Margarethe Luther::Entity::Q28657970" label="Margarethe Luther">
+        <attvalues>
+          <attvalue for="label" value="Margarethe Luther" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Martin Luther::Entity::Q9554" label="Martin Luther">
+        <attvalues>
+          <attvalue for="label" value="Martin Luther" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::7" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="mother::Predicate::q9554-9e16f4b31368f2332d9463413bd388dd::1" label="mother">
+        <attvalues>
+          <attvalue for="label" value="mother" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::3" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="spouse::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" target="Martin Luther::Entity::Q9554" weight="0.9993681311607361" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="spouse::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" target="Katharina von Bora::Entity::Q77239" weight="0.9993681311607361" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="start time::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" target="1525-01-01::Entity::1525-01-01T00:00:00Z" weight="0.9993681311607361" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="11" source="1525-01-01::Entity::1525-01-01T00:00:00Z" target="start time::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::6" weight="0.9992647767066956" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="12" source="1546-01-01::Entity::1546-01-01T00:00:00Z" target="end time::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::7" weight="0.9992647767066956" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="mother::Predicate::q9554-9e16f4b31368f2332d9463413bd388dd::1" target="Margarethe Luther::Entity::Q28657970" weight="0.7942531704902649" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="2" source="spouse::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" target="end time::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" weight="0.9993681311607361" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="spouse::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" target="start time::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" weight="0.9993681311607361" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Martin Luther::Entity::Q9554" target="spouse::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::3" weight="0.9992647767066956" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="Martin Luther::Entity::Q9554" target="mother::Predicate::q9554-9e16f4b31368f2332d9463413bd388dd::1" weight="0.7942531704902649" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="6" source="spouse::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::3" target="Katharina von Bora::Entity::Q77239" weight="0.9992647767066956" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="spouse::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::3" target="end time::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::7" weight="0.9992647767066956" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="spouse::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::3" target="start time::Predicate::q77239-3bcddd84180451a2a2041b2eb266694b::6" weight="0.9992647767066956" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="end time::Predicate::q9554-8cd992f3fa6ae08ecbd39c506e78b910::2" target="1546-01-01::Entity::1546-01-01T00:00:00Z" weight="0.9993681311607361" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

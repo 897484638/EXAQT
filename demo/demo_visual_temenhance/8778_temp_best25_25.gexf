@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1912-02-04::Entity::1912-02-04T00:00:00Z" label="1912-02-04">
+        <attvalues>
+          <attvalue for="label" value="1912-02-04"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2006-09-26::Entity::2006-09-26T00:00:00Z" label="2006-09-26">
+        <attvalues>
+          <attvalue for="label" value="2006-09-26"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Byron Nelson::Entity::Q725776" label="Byron Nelson">
+        <attvalues>
+          <attvalue for="label" value="Byron Nelson"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Roanoke::Entity::Q969223" label="Roanoke">
+        <attvalues>
+          <attvalue for="label" value="Roanoke"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q725776-c877baeb8cbd9ab241e33657d6278082::T-0" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q725776-c55651ee0aca18b65bc4b312d9e17132::T-0" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q725776-bbbe70178c9916afd661890781d82281::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Byron Nelson::Entity::Q725776" target="place of death::Predicate::q725776-bbbe70178c9916afd661890781d82281::1"/>
+      <edge id="1" source="Byron Nelson::Entity::Q725776" target="date of birth::Predicate::q725776-c877baeb8cbd9ab241e33657d6278082::T-0"/>
+      <edge id="2" source="Byron Nelson::Entity::Q725776" target="date of death::Predicate::q725776-c55651ee0aca18b65bc4b312d9e17132::T-0"/>
+      <edge id="3" source="place of death::Predicate::q725776-bbbe70178c9916afd661890781d82281::1" target="Roanoke::Entity::Q969223"/>
+      <edge id="4" source="date of birth::Predicate::q725776-c877baeb8cbd9ab241e33657d6278082::T-0" target="1912-02-04::Entity::1912-02-04T00:00:00Z"/>
+      <edge id="5" source="date of death::Predicate::q725776-c55651ee0aca18b65bc4b312d9e17132::T-0" target="2006-09-26::Entity::2006-09-26T00:00:00Z"/>
+    </edges>
+  </graph>
+</gexf>

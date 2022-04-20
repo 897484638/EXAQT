@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1946-01-19::Entity::1946-01-19T00:00:00Z" label="1946-01-19">
+        <attvalues>
+          <attvalue for="label" value="1946-01-19" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dolly Parton::Entity::Q180453" label="Dolly Parton">
+        <attvalues>
+          <attvalue for="label" value="Dolly Parton" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Nashville, Tennessee::Entity::Q23197" label="Nashville, Tennessee">
+        <attvalues>
+          <attvalue for="label" value="Nashville, Tennessee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sevier County::Entity::Q501914" label="Sevier County">
+        <attvalues>
+          <attvalue for="label" value="Sevier County" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Tennessee::Entity::Q1509" label="Tennessee">
+        <attvalues>
+          <attvalue for="label" value="Tennessee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q180453-07f58ef3bd2487ec488a09de62a07959::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q180453-02698585f5dc35ca14253fa555668cbf::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q180453-1407029160f350a74b0fcb7c1eb5c33e::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="work location::Predicate::q180453-4a5cc4bbe6b954340b91e3acee11ce07::1" label="work location">
+        <attvalues>
+          <attvalue for="label" value="work location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="residence::Predicate::q180453-1407029160f350a74b0fcb7c1eb5c33e::1" target="Dolly Parton::Entity::Q180453" weight="0.9993665814399719" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="residence::Predicate::q180453-1407029160f350a74b0fcb7c1eb5c33e::1" target="Tennessee::Entity::Q1509" weight="0.9993665814399719" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Dolly Parton::Entity::Q180453" target="work location::Predicate::q180453-4a5cc4bbe6b954340b91e3acee11ce07::1" weight="0.9963394403457642" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Dolly Parton::Entity::Q180453" target="place of birth::Predicate::q180453-02698585f5dc35ca14253fa555668cbf::1" weight="0.9905900955200195" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Dolly Parton::Entity::Q180453" target="date of birth::Predicate::q180453-07f58ef3bd2487ec488a09de62a07959::1" weight="0.8246990442276001" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="work location::Predicate::q180453-4a5cc4bbe6b954340b91e3acee11ce07::1" target="Nashville, Tennessee::Entity::Q23197" weight="0.9963394403457642" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="place of birth::Predicate::q180453-02698585f5dc35ca14253fa555668cbf::1" target="Sevier County::Entity::Q501914" weight="0.9905900955200195" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="date of birth::Predicate::q180453-07f58ef3bd2487ec488a09de62a07959::1" target="1946-01-19::Entity::1946-01-19T00:00:00Z" weight="0.8246990442276001" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

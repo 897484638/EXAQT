@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Got to Be There::Entity::Q19060" label="Got to Be There">
+        <attvalues>
+          <attvalue for="label" value="Got to Be There" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Michael Jackson::Entity::Q2831" label="Michael Jackson">
+        <attvalues>
+          <attvalue for="label" value="Michael Jackson" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="The Girl Is Mine 2008::Entity::Q3987244" label="The Girl Is Mine 2008">
+        <attvalues>
+          <attvalue for="label" value="The Girl Is Mine 2008" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="debut solo album::Entity::Q57976524" label="debut solo album">
+        <attvalues>
+          <attvalue for="label" value="debut solo album" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::9" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="performer::Predicate::q3987244-3d5f472a48fe51664f84de3d551e706d::20" label="performer">
+        <attvalues>
+          <attvalue for="label" value="performer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="subject has role::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::1" label="subject has role">
+        <attvalues>
+          <attvalue for="label" value="subject has role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Michael Jackson::Entity::Q2831" target="performer::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::9" weight="0.9943423271179199" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Michael Jackson::Entity::Q2831" target="performer::Predicate::q3987244-3d5f472a48fe51664f84de3d551e706d::20" weight="0.9920891523361206" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="performer::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::9" target="Got to Be There::Entity::Q19060" weight="0.9943423271179199" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="performer::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::9" target="subject has role::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::1" weight="0.9943423271179199" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="performer::Predicate::q3987244-3d5f472a48fe51664f84de3d551e706d::20" target="The Girl Is Mine 2008::Entity::Q3987244" weight="0.9920891523361206" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="subject has role::Predicate::q19060-b53ddbefb2033d2fda64df74c9dfc5dc::1" target="debut solo album::Entity::Q57976524" weight="0.9943423271179199" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

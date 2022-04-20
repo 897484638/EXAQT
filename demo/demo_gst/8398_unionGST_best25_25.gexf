@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1919-01-01::Entity::1919-01-01T00:00:00Z" label="1919-01-01">
+        <attvalues>
+          <attvalue for="label" value="1919-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1932-01-01::Entity::1932-01-01T00:00:00Z" label="1932-01-01">
+        <attvalues>
+          <attvalue for="label" value="1932-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Collège Stanislas de Paris::Entity::Q2983698" label="Collège Stanislas de Paris">
+        <attvalues>
+          <attvalue for="label" value="Collège Stanislas de Paris"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Doctorate in France::Entity::Q3033550" label="Doctorate in France">
+        <attvalues>
+          <attvalue for="label" value="Doctorate in France"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Jacques Lacan::Entity::Q169906" label="Jacques Lacan">
+        <attvalues>
+          <attvalue for="label" value="Jacques Lacan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" label="academic degree">
+        <attvalues>
+          <attvalue for="label" value="academic degree"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="academic major::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" label="academic major">
+        <attvalues>
+          <attvalue for="label" value="academic major"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="discoverer or inventor::Predicate::q2656500-c5dc59bc3531c63a39baef092b9dee41::1" label="discoverer or inventor">
+        <attvalues>
+          <attvalue for="label" value="discoverer or inventor"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="discoverer or inventor::Predicate::q3503353-c163c4c6fb0522f9614285fb7905dbdf::6" label="discoverer or inventor">
+        <attvalues>
+          <attvalue for="label" value="discoverer or inventor"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="doctoral advisor::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" label="doctoral advisor">
+        <attvalues>
+          <attvalue for="label" value="doctoral advisor"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::3" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q169906-f5fdd34f40c2000c51c273ac8c43d97d::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="influenced by::Predicate::q10392247-f0d00ccdd79f6f072763807190e45648::2" label="influenced by">
+        <attvalues>
+          <attvalue for="label" value="influenced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="influenced by::Predicate::q347362-f8107fa09f70c0cd53d15f80c053ffd1::3" label="influenced by">
+        <attvalues>
+          <attvalue for="label" value="influenced by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="movement::Predicate::q169906-404032477c1a57f016c3233e92b7b9af::1" label="movement">
+        <attvalues>
+          <attvalue for="label" value="movement"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q169906-111b08eee77973367c7e17f68516ca79::1" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="of::Predicate::q6468673-658027110a554148ae958e5cb9c6c1c7::3" label="of">
+        <attvalues>
+          <attvalue for="label" value="of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q334138-43596b7b4efb38f8d9255ef70989e185::1" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q169906-cc685dafe43ac656ab99570c30f4b918::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q169906-111b08eee77973367c7e17f68516ca79::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q3103297-fffa2a001fbe2d03256caadb58136ed0::1" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q169906-0e21f736703cab3cbbdcbb9110f33833::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q169906-a25596241ab83f673b210bc40741e1ad::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q2636468-5f2471271005e85757ab950bba925da7::3" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="of::Predicate::q6468673-658027110a554148ae958e5cb9c6c1c7::3" target="Jacques Lacan::Entity::Q169906" weight="0.000947811349760741" label="18"/>
+      <edge id="1" source="Jacques Lacan::Entity::Q169906" target="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" weight="0.014291873201727867" label="3"/>
+      <edge id="10" source="Jacques Lacan::Entity::Q169906" target="owned by::Predicate::q334138-43596b7b4efb38f8d9255ef70989e185::1" weight="0.001232001231983304" label="10"/>
+      <edge id="11" source="Jacques Lacan::Entity::Q169906" target="spouse::Predicate::q2636468-5f2471271005e85757ab950bba925da7::3" weight="0.0012014952953904867" label="11"/>
+      <edge id="12" source="Jacques Lacan::Entity::Q169906" target="discoverer or inventor::Predicate::q2656500-c5dc59bc3531c63a39baef092b9dee41::1" weight="0.001092578168027103" label="12"/>
+      <edge id="13" source="Jacques Lacan::Entity::Q169906" target="influenced by::Predicate::q347362-f8107fa09f70c0cd53d15f80c053ffd1::3" weight="0.001090880250558257" label="13"/>
+      <edge id="14" source="Jacques Lacan::Entity::Q169906" target="spouse::Predicate::q169906-a25596241ab83f673b210bc40741e1ad::1" weight="0.0010783867910504341" label="14"/>
+      <edge id="15" source="Jacques Lacan::Entity::Q169906" target="influenced by::Predicate::q10392247-f0d00ccdd79f6f072763807190e45648::2" weight="0.001020036288537085" label="15"/>
+      <edge id="16" source="point in time::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" target="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" weight="0.014291873201727867" label="3"/>
+      <edge id="17" source="point in time::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" target="1932-01-01::Entity::1932-01-01T00:00:00Z" weight="0.014291873201727867" label="3"/>
+      <edge id="18" source="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" target="Doctorate in France::Entity::Q3033550" weight="0.014291873201727867" label="3"/>
+      <edge id="19" source="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" target="academic major::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" weight="0.014291873201727867" label="3"/>
+      <edge id="2" source="Jacques Lacan::Entity::Q169906" target="educated at::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" weight="0.9894446730613708" label="1"/>
+      <edge id="20" source="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" target="doctoral advisor::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::1" weight="0.014291873201727867" label="3"/>
+      <edge id="21" source="academic degree::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::2" target="educated at::Predicate::q169906-1db5172eba62d525a51eb251d5228be9::3" weight="0.014291873201727867" label="3"/>
+      <edge id="22" source="educated at::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" target="Collège Stanislas de Paris::Entity::Q2983698" weight="0.9894446730613708" label="1"/>
+      <edge id="23" source="educated at::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" target="end time::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" weight="0.9894446730613708" label="1"/>
+      <edge id="24" source="end time::Predicate::q169906-445a953a44f77fb57425d3c4e385b8b1::1" target="1919-01-01::Entity::1919-01-01T00:00:00Z" weight="0.9894446730613708" label="1"/>
+      <edge id="25" source="position held::Predicate::q169906-111b08eee77973367c7e17f68516ca79::1" target="of::Predicate::q169906-111b08eee77973367c7e17f68516ca79::1" weight="0.0023467557039111853" label="7"/>
+      <edge id="3" source="Jacques Lacan::Entity::Q169906" target="educated at::Predicate::q169906-f5fdd34f40c2000c51c273ac8c43d97d::2" weight="0.033527862280607224" label="2"/>
+      <edge id="4" source="Jacques Lacan::Entity::Q169906" target="position held::Predicate::q169906-111b08eee77973367c7e17f68516ca79::1" weight="0.0023467557039111853" label="7"/>
+      <edge id="5" source="Jacques Lacan::Entity::Q169906" target="spouse::Predicate::q169906-0e21f736703cab3cbbdcbb9110f33833::2" weight="0.002847276395186782" label="4"/>
+      <edge id="6" source="Jacques Lacan::Entity::Q169906" target="replaces::Predicate::q3103297-fffa2a001fbe2d03256caadb58136ed0::1" weight="0.002718913136050105" label="5"/>
+      <edge id="7" source="Jacques Lacan::Entity::Q169906" target="movement::Predicate::q169906-404032477c1a57f016c3233e92b7b9af::1" weight="0.0023773114662617445" label="6"/>
+      <edge id="8" source="Jacques Lacan::Entity::Q169906" target="place of death::Predicate::q169906-cc685dafe43ac656ab99570c30f4b918::1" weight="0.001586486236192286" label="8"/>
+      <edge id="9" source="Jacques Lacan::Entity::Q169906" target="discoverer or inventor::Predicate::q3503353-c163c4c6fb0522f9614285fb7905dbdf::6" weight="0.0015222540823742747" label="9"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1::Entity::1" label="1">
+        <attvalues>
+          <attvalue for="label" value="1"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="2::Entity::2" label="2">
+        <attvalues>
+          <attvalue for="label" value="2"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Gebhard Himmler::Entity::Q42575776" label="Gebhard Himmler">
+        <attvalues>
+          <attvalue for="label" value="Gebhard Himmler"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Heinrich Himmler::Entity::Q43067" label="Heinrich Himmler">
+        <attvalues>
+          <attvalue for="label" value="Heinrich Himmler"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Heinrich::Entity::Q2018484" label="Heinrich">
+        <attvalues>
+          <attvalue for="label" value="Heinrich"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Himmler::Entity::Q22686493" label="Himmler">
+        <attvalues>
+          <attvalue for="label" value="Himmler"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Luitpold::Entity::Q21400619" label="Luitpold">
+        <attvalues>
+          <attvalue for="label" value="Luitpold"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q42575776-92fbefea32bebcaca3ef0863098e1baf::2" label="child">
+        <attvalues>
+          <attvalue for="label" value="child"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="conferred by::Predicate::q699538-6a6967a10dec153e0f40571d9b24ea40::1" label="conferred by">
+        <attvalues>
+          <attvalue for="label" value="conferred by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q43067-1197cff5ca9d57a3239a533720a6ea95::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="family name::Predicate::q43067-ec25b1ec6e0dfaa16070c561031e61ab::1" label="family name">
+        <attvalues>
+          <attvalue for="label" value="family name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="father::Predicate::q43067-336a68d7984fd25e3c0a79cc41a8a298::1" label="father">
+        <attvalues>
+          <attvalue for="label" value="father"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="father::Predicate::q62539-380059dd6023c602516d323cd39134f6::2" label="father">
+        <attvalues>
+          <attvalue for="label" value="father"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q152698-a46bb4cb3eb46f43bac25d239725ce2c::4" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q160394-0c87378071fbb6eb645e69d4af6c64ef::1" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="given name::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" label="given name">
+        <attvalues>
+          <attvalue for="label" value="given name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="given name::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" label="given name">
+        <attvalues>
+          <attvalue for="label" value="given name"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="godparent::Predicate::q43067-9dd92872aa88d173943d215922fdff96::1" label="godparent">
+        <attvalues>
+          <attvalue for="label" value="godparent"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="mother::Predicate::q43067-0d32140353e1f927f0fd19ca46e3c00b::1" label="mother">
+        <attvalues>
+          <attvalue for="label" value="mother"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="pseudonym::Predicate::q43067-52dd15ffcd84509b5cb9cb1d6dcf21ec::1" label="pseudonym">
+        <attvalues>
+          <attvalue for="label" value="pseudonym"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="pseudonym::Predicate::q43067-7ce0f3253e12e320d26c5a7ab42a37eb::2" label="pseudonym">
+        <attvalues>
+          <attvalue for="label" value="pseudonym"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="relative::Predicate::q43067-dce9d6531496faee2fb8258fc83ced8d::1" label="relative">
+        <attvalues>
+          <attvalue for="label" value="relative"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q13882197-3931c10671f06828419a767b1f94cb85::3" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q43067-09435a40c107b012975c86382032a822::1" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q43067-5a841609e9f6ff2297c3bb49b4caebf6::2" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="series ordinal::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" target="given name::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" weight="0.9996545314788818" label="1"/>
+      <edge id="1" source="series ordinal::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" target="2::Entity::2" weight="0.9996545314788818" label="1"/>
+      <edge id="10" source="Heinrich Himmler::Entity::Q43067" target="date of birth::Predicate::q43067-1197cff5ca9d57a3239a533720a6ea95::1" weight="0.27941107749938965" label="7"/>
+      <edge id="11" source="Heinrich Himmler::Entity::Q43067" target="pseudonym::Predicate::q43067-52dd15ffcd84509b5cb9cb1d6dcf21ec::1" weight="0.25864389538764954" label="8"/>
+      <edge id="12" source="Heinrich Himmler::Entity::Q43067" target="mother::Predicate::q43067-0d32140353e1f927f0fd19ca46e3c00b::1" weight="0.15534573793411255" label="9"/>
+      <edge id="13" source="Heinrich Himmler::Entity::Q43067" target="pseudonym::Predicate::q43067-7ce0f3253e12e320d26c5a7ab42a37eb::2" weight="0.10906540602445602" label="10"/>
+      <edge id="14" source="Heinrich Himmler::Entity::Q43067" target="father::Predicate::q62539-380059dd6023c602516d323cd39134f6::2" weight="0.07041829079389572" label="11"/>
+      <edge id="15" source="Heinrich Himmler::Entity::Q43067" target="sibling::Predicate::q43067-5a841609e9f6ff2297c3bb49b4caebf6::2" weight="0.05888724699616432" label="12"/>
+      <edge id="16" source="Heinrich Himmler::Entity::Q43067" target="child::Predicate::q42575776-92fbefea32bebcaca3ef0863098e1baf::2" weight="0.05829937011003494" label="13"/>
+      <edge id="17" source="Heinrich Himmler::Entity::Q43067" target="founded by::Predicate::q160394-0c87378071fbb6eb645e69d4af6c64ef::1" weight="0.058063019067049026" label="14"/>
+      <edge id="18" source="Heinrich Himmler::Entity::Q43067" target="relative::Predicate::q43067-dce9d6531496faee2fb8258fc83ced8d::1" weight="0.050103578716516495" label="15"/>
+      <edge id="19" source="Heinrich Himmler::Entity::Q43067" target="sibling::Predicate::q13882197-3931c10671f06828419a767b1f94cb85::3" weight="0.04830751568078995" label="16"/>
+      <edge id="2" source="given name::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" target="Heinrich Himmler::Entity::Q43067" weight="0.9996545314788818" label="1"/>
+      <edge id="20" source="Heinrich Himmler::Entity::Q43067" target="founded by::Predicate::q152698-a46bb4cb3eb46f43bac25d239725ce2c::4" weight="0.04657354578375816" label="17"/>
+      <edge id="21" source="given name::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" target="series ordinal::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" weight="0.9995835423469543" label="2"/>
+      <edge id="22" source="given name::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" target="Heinrich::Entity::Q2018484" weight="0.9995835423469543" label="2"/>
+      <edge id="23" source="series ordinal::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" target="1::Entity::1" weight="0.9995835423469543" label="2"/>
+      <edge id="24" source="family name::Predicate::q43067-ec25b1ec6e0dfaa16070c561031e61ab::1" target="Himmler::Entity::Q22686493" weight="0.9502838850021362" label="3"/>
+      <edge id="25" source="father::Predicate::q43067-336a68d7984fd25e3c0a79cc41a8a298::1" target="Gebhard Himmler::Entity::Q42575776" weight="0.5965506434440613" label="4"/>
+      <edge id="3" source="given name::Predicate::q43067-195dd05150b34721f9c3357df4684a9e::2" target="Luitpold::Entity::Q21400619" weight="0.9996545314788818" label="1"/>
+      <edge id="4" source="Heinrich Himmler::Entity::Q43067" target="conferred by::Predicate::q699538-6a6967a10dec153e0f40571d9b24ea40::1" weight="0.02947590872645378" label="22"/>
+      <edge id="5" source="Heinrich Himmler::Entity::Q43067" target="given name::Predicate::q43067-b836ea3f114a42924d9d08dd139126b8::1" weight="0.9995835423469543" label="2"/>
+      <edge id="6" source="Heinrich Himmler::Entity::Q43067" target="family name::Predicate::q43067-ec25b1ec6e0dfaa16070c561031e61ab::1" weight="0.9502838850021362" label="3"/>
+      <edge id="7" source="Heinrich Himmler::Entity::Q43067" target="father::Predicate::q43067-336a68d7984fd25e3c0a79cc41a8a298::1" weight="0.5965506434440613" label="4"/>
+      <edge id="8" source="Heinrich Himmler::Entity::Q43067" target="godparent::Predicate::q43067-9dd92872aa88d173943d215922fdff96::1" weight="0.3517880439758301" label="5"/>
+      <edge id="9" source="Heinrich Himmler::Entity::Q43067" target="sibling::Predicate::q43067-09435a40c107b012975c86382032a822::1" weight="0.28920426964759827" label="6"/>
+    </edges>
+  </graph>
+</gexf>

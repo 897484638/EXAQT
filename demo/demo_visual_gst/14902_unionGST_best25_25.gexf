@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1979-01-01::Entity::1979-01-01T00:00:00Z" label="1979-01-01">
+        <attvalues>
+          <attvalue for="label" value="1979-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1980-01-01::Entity::1980-01-01T00:00:00Z" label="1980-01-01">
+        <attvalues>
+          <attvalue for="label" value="1980-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Richard Hadlee::Entity::Q1854659" label="Richard Hadlee">
+        <attvalues>
+          <attvalue for="label" value="Richard Hadlee" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Richard Wallace::Entity::Q23682827" label="Richard Wallace">
+        <attvalues>
+          <attvalue for="label" value="Richard Wallace" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Tasmania cricket team::Entity::Q1133545" label="Tasmania cricket team">
+        <attvalues>
+          <attvalue for="label" value="Tasmania cricket team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1854659-1727a80a55188740376d7e175ba4ee56::25" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q22017270-d4c1ea9daf47a4a978bfc5c71a937d9a::13" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q23035682-9420e54c55f4be7fc91653f131d30ef3::15" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q23304631-81519661ade938b381194ed3a004c225::22" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q23409613-6281bafa4bede55a956c1cd82842bc60::11" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q3522047-b70585e02ca5c4310afec7848a704c01::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q3527380-9ae2a3ee324c9343b89bc6e37708ba28::12" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q4886248-d40f65adbb2af58359e511be6fec7246::3" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5112478-fae8e67de915225fdbaffe2f3b582a39::17" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q5524112-328cab9ae5937eeff9a36609f0a007f9::18" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q6345326-5048eaead3bf4af6e7cd7db38068a82d::19" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7320467-68fb53beaeee17a3bb7f5c08f646ea74::10" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q7356294-3a4d74c3c92bf5dcff94d74ba2185765::21" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1854659-1727a80a55188740376d7e175ba4ee56::25" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q23409613-6281bafa4bede55a956c1cd82842bc60::11" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" weight="0.9995521903038025" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" weight="0.9994074106216431" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q7356294-3a4d74c3c92bf5dcff94d74ba2185765::21" weight="0.99880051612854" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q5524112-328cab9ae5937eeff9a36609f0a007f9::18" weight="0.9987894892692566" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q4886248-d40f65adbb2af58359e511be6fec7246::3" weight="0.9987394213676453" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q7320467-68fb53beaeee17a3bb7f5c08f646ea74::10" weight="0.9987035989761353" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="member of sports team::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" target="Richard Hadlee::Entity::Q1854659" weight="0.9995521903038025" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="member of sports team::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" target="start time::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" weight="0.9995521903038025" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="member of sports team::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" target="end time::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" weight="0.9995521903038025" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="Richard Hadlee::Entity::Q1854659" target="member of sports team::Predicate::q1854659-1727a80a55188740376d7e175ba4ee56::25" weight="0.9992902278900146" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="18" source="start time::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" target="1979-01-01::Entity::1979-01-01T00:00:00Z" weight="0.9995521903038025" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="end time::Predicate::q1854659-1a863a4d67414d48ee0015558f862139::24" target="1980-01-01::Entity::1980-01-01T00:00:00Z" weight="0.9995521903038025" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q23409613-6281bafa4bede55a956c1cd82842bc60::11" weight="0.9991652965545654" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="20" source="member of sports team::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" target="start time::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" weight="0.9994074106216431" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="member of sports team::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" target="Richard Wallace::Entity::Q23682827" weight="0.9994074106216431" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="member of sports team::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" target="end time::Predicate::q23682827-b68e1ca810ca224afb5393358775c33e::6" weight="0.9994074106216431" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="member of sports team::Predicate::q1854659-1727a80a55188740376d7e175ba4ee56::25" target="start time::Predicate::q1854659-1727a80a55188740376d7e175ba4ee56::25" weight="0.9992902278900146" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="member of sports team::Predicate::q23409613-6281bafa4bede55a956c1cd82842bc60::11" target="start time::Predicate::q23409613-6281bafa4bede55a956c1cd82842bc60::11" weight="0.9991652965545654" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q5112478-fae8e67de915225fdbaffe2f3b582a39::17" weight="0.9990642666816711" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="4" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q6345326-5048eaead3bf4af6e7cd7db38068a82d::19" weight="0.9989895224571228" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q22017270-d4c1ea9daf47a4a978bfc5c71a937d9a::13" weight="0.9989385008811951" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q3522047-b70585e02ca5c4310afec7848a704c01::1" weight="0.9989166259765625" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q23304631-81519661ade938b381194ed3a004c225::22" weight="0.998895525932312" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q23035682-9420e54c55f4be7fc91653f131d30ef3::15" weight="0.9988812804222107" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Tasmania cricket team::Entity::Q1133545" target="member of sports team::Predicate::q3527380-9ae2a3ee324c9343b89bc6e37708ba28::12" weight="0.9988191723823547" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

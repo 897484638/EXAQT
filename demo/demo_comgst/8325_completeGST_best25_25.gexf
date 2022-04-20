@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Philip Pullman::Entity::Q190220" label="Philip Pullman">
+        <attvalues>
+          <attvalue for="label" value="Philip Pullman"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Book of Dust::Entity::Q18578" label="The Book of Dust">
+        <attvalues>
+          <attvalue for="label" value="The Book of Dust"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Broken Bridge::Entity::Q7720242" label="The Broken Bridge">
+        <attvalues>
+          <attvalue for="label" value="The Broken Bridge"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Secret Commonwealth::Entity::Q42306032" label="The Secret Commonwealth">
+        <attvalues>
+          <attvalue for="label" value="The Secret Commonwealth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q18578-795362b79c789ac23883cdfccc729b84::21" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q42306032-399fcab21c86597287c74768c6ddd58a::12" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q7720242-7c83b91250a9b42fbe81417ed92c7d9b::19" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Philip Pullman::Entity::Q190220" target="author::Predicate::q18578-795362b79c789ac23883cdfccc729b84::21" weight="0.9996125102043152" label="1"/>
+      <edge id="1" source="Philip Pullman::Entity::Q190220" target="author::Predicate::q7720242-7c83b91250a9b42fbe81417ed92c7d9b::19" weight="0.9994267225265503" label="2"/>
+      <edge id="2" source="Philip Pullman::Entity::Q190220" target="author::Predicate::q42306032-399fcab21c86597287c74768c6ddd58a::12" weight="0.9994125366210938" label="3"/>
+      <edge id="3" source="author::Predicate::q18578-795362b79c789ac23883cdfccc729b84::21" target="The Book of Dust::Entity::Q18578" weight="0.9996125102043152" label="1"/>
+      <edge id="4" source="author::Predicate::q7720242-7c83b91250a9b42fbe81417ed92c7d9b::19" target="The Broken Bridge::Entity::Q7720242" weight="0.9994267225265503" label="2"/>
+      <edge id="5" source="author::Predicate::q42306032-399fcab21c86597287c74768c6ddd58a::12" target="The Secret Commonwealth::Entity::Q42306032" weight="0.9994125366210938" label="3"/>
+    </edges>
+  </graph>
+</gexf>

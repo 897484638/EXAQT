@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Head of State of Vichy France::Entity::Q19018293" label="Head of State of Vichy France">
+        <attvalues>
+          <attvalue for="label" value="Head of State of Vichy France"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="World War II::Entity::Q362" label="World War II">
+        <attvalues>
+          <attvalue for="label" value="World War II"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" label="has cause">
+        <attvalues>
+          <attvalue for="label" value="has cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of state::Entity::Q48352" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="heads of state of Yugoslavia::Entity::Q256036" label="heads of state of Yugoslavia">
+        <attvalues>
+          <attvalue for="label" value="heads of state of Yugoslavia"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" label="is a list of">
+        <attvalues>
+          <attvalue for="label" value="is a list of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="monarch of the United Kingdom::Entity::Q9134365" label="monarch of the United Kingdom">
+        <attvalues>
+          <attvalue for="label" value="monarch of the United Kingdom"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q48352-776f0a38c96a387af86fc8b9b1c9329e::1" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q11696-f1af5036ad2d3868e03eeb784c09cfec::20" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q1294765-eee03d83ae05f9b9efad1132b916fa07::17" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q14931511-27bcb3c78497e9e79e484956ba212b70::14" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q18341329-cc59642fec94aa3b7d9a4853b7fba8d7::6" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q19018293-3b87940ad364f88bd855a691462a5582::15" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q1999471-fb89f86f102e4c9e81e2160c9f231701::3" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q2045066-a66d5608adb665c1501c28c54076e441::22" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q208233-5c41928151f26d800f4de38310d5d1a6::13" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q218295-cacdccd13a4c8ef155595b2714bb10d3::4" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q24349189-9bd7375934bacb894bab4aeb231e4a10::9" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q25223-4ae5aa734b41daee8326131c13c760a1::12" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q256036-89c6f30f4ecc5efe5f80148b4f2923fd::5" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q58631963-e8e4fa69d71a5abc63a42cbb927a604c::19" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q65934921-7c49f7d8cdc4bbcc8ca31db8d07f0161::7" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q837221-0e91a74049cf5f4d23257d88c2e086e0::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q9134365-66a24491fbfbd137b2c7d1a166cce9b2::8" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="head of state::Entity::Q48352" target="position held::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" weight="0.00525608379393816" label="27"/>
+      <edge id="1" source="head of state::Entity::Q48352" target="subclass of::Predicate::q9134365-66a24491fbfbd137b2c7d1a166cce9b2::8" weight="0.9892605543136597" label="1"/>
+      <edge id="10" source="head of state::Entity::Q48352" target="subclass of::Predicate::q208233-5c41928151f26d800f4de38310d5d1a6::13" weight="0.9782212376594543" label="10"/>
+      <edge id="11" source="head of state::Entity::Q48352" target="subclass of::Predicate::q218295-cacdccd13a4c8ef155595b2714bb10d3::4" weight="0.9761680960655212" label="11"/>
+      <edge id="12" source="head of state::Entity::Q48352" target="subclass of::Predicate::q837221-0e91a74049cf5f4d23257d88c2e086e0::1" weight="0.9759663939476013" label="12"/>
+      <edge id="13" source="head of state::Entity::Q48352" target="subclass of::Predicate::q24349189-9bd7375934bacb894bab4aeb231e4a10::9" weight="0.9755708575248718" label="13"/>
+      <edge id="14" source="head of state::Entity::Q48352" target="subclass of::Predicate::q58631963-e8e4fa69d71a5abc63a42cbb927a604c::19" weight="0.9754102230072021" label="14"/>
+      <edge id="15" source="head of state::Entity::Q48352" target="subclass of::Predicate::q1999471-fb89f86f102e4c9e81e2160c9f231701::3" weight="0.9744738340377808" label="15"/>
+      <edge id="16" source="head of state::Entity::Q48352" target="subclass of::Predicate::q11696-f1af5036ad2d3868e03eeb784c09cfec::20" weight="0.9744126200675964" label="16"/>
+      <edge id="17" source="head of state::Entity::Q48352" target="subclass of::Predicate::q2045066-a66d5608adb665c1501c28c54076e441::22" weight="0.9734159111976624" label="17"/>
+      <edge id="18" source="position held::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" target="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" weight="0.00525608379393816" label="27"/>
+      <edge id="19" source="is a list of::Predicate::q1852061-305852a4dd2bdf67377e5059bae4c5c7::1" target="human::Entity::Q5" weight="0.00525608379393816" label="27"/>
+      <edge id="2" source="head of state::Entity::Q48352" target="subclass of::Predicate::q19018293-3b87940ad364f88bd855a691462a5582::15" weight="0.9887039065361023" label="2"/>
+      <edge id="20" source="human::Entity::Q5" target="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" weight="0.9585933089256287" label="26"/>
+      <edge id="21" source="category contains::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" target="conflict::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" weight="0.9585933089256287" label="26"/>
+      <edge id="22" source="conflict::Predicate::q6620691-b61965ebf4cf851abd82580f7a2bee41::1" target="World War II::Entity::Q362" weight="0.9585933089256287" label="26"/>
+      <edge id="23" source="World War II::Entity::Q362" target="has cause::Predicate::q362-de464fcf71f8b4951a6059c4f771378e::1" weight="0.9703561067581177" label="21"/>
+      <edge id="24" source="subclass of::Predicate::q9134365-66a24491fbfbd137b2c7d1a166cce9b2::8" target="monarch of the United Kingdom::Entity::Q9134365" weight="0.9892605543136597" label="1"/>
+      <edge id="25" source="subclass of::Predicate::q19018293-3b87940ad364f88bd855a691462a5582::15" target="Head of State of Vichy France::Entity::Q19018293" weight="0.9887039065361023" label="2"/>
+      <edge id="26" source="subclass of::Predicate::q256036-89c6f30f4ecc5efe5f80148b4f2923fd::5" target="heads of state of Yugoslavia::Entity::Q256036" weight="0.9875139594078064" label="3"/>
+      <edge id="3" source="head of state::Entity::Q48352" target="subclass of::Predicate::q256036-89c6f30f4ecc5efe5f80148b4f2923fd::5" weight="0.9875139594078064" label="3"/>
+      <edge id="4" source="head of state::Entity::Q48352" target="subclass of::Predicate::q18341329-cc59642fec94aa3b7d9a4853b7fba8d7::6" weight="0.9845764636993408" label="4"/>
+      <edge id="5" source="head of state::Entity::Q48352" target="subclass of::Predicate::q1294765-eee03d83ae05f9b9efad1132b916fa07::17" weight="0.9842431545257568" label="5"/>
+      <edge id="6" source="head of state::Entity::Q48352" target="subclass of::Predicate::q14931511-27bcb3c78497e9e79e484956ba212b70::14" weight="0.9836560487747192" label="6"/>
+      <edge id="7" source="head of state::Entity::Q48352" target="part of::Predicate::q48352-776f0a38c96a387af86fc8b9b1c9329e::1" weight="0.9829618334770203" label="7"/>
+      <edge id="8" source="head of state::Entity::Q48352" target="subclass of::Predicate::q65934921-7c49f7d8cdc4bbcc8ca31db8d07f0161::7" weight="0.982896625995636" label="8"/>
+      <edge id="9" source="head of state::Entity::Q48352" target="subclass of::Predicate::q25223-4ae5aa734b41daee8326131c13c760a1::12" weight="0.9823195338249207" label="9"/>
+    </edges>
+  </graph>
+</gexf>

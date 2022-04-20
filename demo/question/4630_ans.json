@@ -1,0 +1,100 @@
+{
+    "Id": 4630,
+    "Question": "give me office building that located on street 34th street and which contains the word building in their name",
+    "Temporal signal": [
+        "ORDINAL"
+    ],
+    "Temporal question type": [
+        "Ordinal"
+    ],
+    "Answer": [
+        {
+            "AnswerType": "Entity",
+            "WikidataQid": "Q9188",
+            "WikidataLabel": "Empire State Building",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Empire_State_Building"
+        },
+        {
+            "AnswerType": "Value",
+            "AnswerArgument": "Empire State Building"
+        }
+    ],
+    "Data set": "train",
+    "Question truecase": "Give me office building that located on Street 34Th Street and which contains the word building in their name?",
+    "Seed entity": [
+        {
+            "label": "34th Street",
+            "url": "http://www.wikidata.org/entity/Q110049",
+            "qid": "Q110049",
+            "text": "street 34th street",
+            "method": "ELQ"
+        },
+        {
+            "label": "Give In to Me",
+            "url": "http://www.wikidata.org/entity/Q171787",
+            "qid": "Q171787",
+            "text": "give me",
+            "method": "TAGME"
+        },
+        {
+            "label": "34th Street",
+            "url": "http://www.wikidata.org/entity/Q110049",
+            "qid": "Q110049",
+            "text": "34th street",
+            "method": "TAGME"
+        },
+        {
+            "label": "Name",
+            "url": "http://www.wikidata.org/entity/Q82799",
+            "qid": "Q82799",
+            "text": "name",
+            "method": "TAGME"
+        },
+        {
+            "label": "word",
+            "url": "http://www.wikidata.org/entity/Q8171",
+            "qid": "Q8171",
+            "text": "word",
+            "method": "TAGME"
+        },
+        {
+            "label": "Q182060",
+            "url": "http://www.wikidata.org/entity/Q182060",
+            "qid": "Q182060",
+            "text": "office building",
+            "method": "TAGME"
+        }
+    ],
+    "Top5 answer": [
+        {
+            "rank": 1,
+            "label": "Empire State Building",
+            "url": "http://www.wikidata.org/entity/Q9188",
+            "qid": "Q9188"
+        },
+        {
+            "rank": 2,
+            "label": "New York City Department of Transportation",
+            "url": "http://www.wikidata.org/entity/Q1058767",
+            "qid": "Q1058767"
+        },
+        {
+            "rank": 3,
+            "label": "Manhattan",
+            "url": "http://www.wikidata.org/entity/Q11299",
+            "qid": "Q11299"
+        },
+        {
+            "rank": 4,
+            "label": "Lucy Barnes Brown",
+            "url": "http://www.wikidata.org/entity/Q6698193",
+            "qid": "Q6698193"
+        },
+        {
+            "rank": 5,
+            "label": "SAE International",
+            "url": "http://www.wikidata.org/entity/Q1427072",
+            "qid": "Q1427072"
+        }
+    ]
+}

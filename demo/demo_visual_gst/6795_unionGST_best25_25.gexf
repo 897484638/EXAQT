@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2000-01-01::Entity::2000-01-01T00:00:00Z" label="2000-01-01">
+        <attvalues>
+          <attvalue for="label" value="2000-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2001-01-01::Entity::2001-01-01T00:00:00Z" label="2001-01-01">
+        <attvalues>
+          <attvalue for="label" value="2001-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="73rd Academy Awards::Entity::Q751924" label="73rd Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="73rd Academy Awards" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actress::Entity::Q103618" label="Academy Award for Best Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actress" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="BAFTA Award for Best Actress in a Leading Role::Entity::Q687123" label="BAFTA Award for Best Actress in a Leading Role">
+        <attvalues>
+          <attvalue for="label" value="BAFTA Award for Best Actress in a Leading Role" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Erin Brockovich::Entity::Q220955" label="Erin Brockovich">
+        <attvalues>
+          <attvalue for="label" value="Erin Brockovich" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Golden Globe Award for Best Actress – Motion Picture Drama::Entity::Q463085" label="Golden Globe Award for Best Actress – Motion Picture Drama">
+        <attvalues>
+          <attvalue for="label" value="Golden Globe Award for Best Actress – Motion Picture Drama" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Julia Roberts::Entity::Q40523" label="Julia Roberts">
+        <attvalues>
+          <attvalue for="label" value="Julia Roberts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1160813-f8524088e2b3bc3732025e3cda2deeae::9" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::8" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q40523-1c87d47200bf2771c0c2d156207fdc63::5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q40523-7eaae30f9fd445b6953bc0927253e3e2::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::6" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::7" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::4" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::5" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::14" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::8" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1160813-f8524088e2b3bc3732025e3cda2deeae::7" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::5" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::2" target="Julia Roberts::Entity::Q40523" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="award received::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::2" target="Academy Award for Best Actress::Entity::Q103618" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Julia Roberts::Entity::Q40523" target="award received::Predicate::q40523-7eaae30f9fd445b6953bc0927253e3e2::1" weight="0.9975619316101074" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="winner::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::5" target="award received::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::8" weight="0.999476969242096" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="12" source="for work::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" target="Erin Brockovich::Entity::Q220955" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="13" source="point in time::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" target="2001-01-01::Entity::2001-01-01T00:00:00Z" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="14" source="statement is subject of::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" target="73rd Academy Awards::Entity::Q751924" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="15" source="award received::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::7" target="Golden Globe Award for Best Actress – Motion Picture Drama::Entity::Q463085" weight="0.9990260601043701" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="16" source="award received::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::7" target="for work::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::5" weight="0.9990260601043701" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="17" source="award received::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::7" target="point in time::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::6" weight="0.9990260601043701" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="18" source="award received::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::8" target="point in time::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::14" weight="0.999476969242096" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="19" source="award received::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::8" target="statement is subject of::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::8" weight="0.999476969242096" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="award received::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::2" target="for work::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="2001-01-01::Entity::2001-01-01T00:00:00Z" target="point in time::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::5" weight="0.9983413219451904" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="21" source="Erin Brockovich::Entity::Q220955" target="for work::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::4" weight="0.9983413219451904" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="22" source="winner::Predicate::q1160813-f8524088e2b3bc3732025e3cda2deeae::7" target="award received::Predicate::q1160813-f8524088e2b3bc3732025e3cda2deeae::9" weight="0.9983875751495361" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="23" source="award received::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::6" target="BAFTA Award for Best Actress in a Leading Role::Entity::Q687123" weight="0.9983413219451904" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="24" source="point in time::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::6" target="2000-01-01::Entity::2000-01-01T00:00:00Z" weight="0.9990260601043701" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="award received::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::2" target="point in time::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="award received::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::2" target="statement is subject of::Predicate::q40523-0625257e9e62e441f617e3daacc4e04a::1" weight="0.9996052384376526" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="Julia Roberts::Entity::Q40523" target="winner::Predicate::q220955-7f018e7159e42397805b3fffef3a2c59::5" weight="0.999476969242096" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="6" source="Julia Roberts::Entity::Q40523" target="award received::Predicate::q40523-f6ac2f74269db0b02113eadd6ee90332::7" weight="0.9990260601043701" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="Julia Roberts::Entity::Q40523" target="winner::Predicate::q1160813-f8524088e2b3bc3732025e3cda2deeae::7" weight="0.9983875751495361" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="Julia Roberts::Entity::Q40523" target="award received::Predicate::q40523-a756a16d01e8f271d6c459dee89af57e::6" weight="0.9983413219451904" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Julia Roberts::Entity::Q40523" target="award received::Predicate::q40523-1c87d47200bf2771c0c2d156207fdc63::5" weight="0.9983068704605103" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

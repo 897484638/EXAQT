@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1941-05-03::Entity::1941-05-03T00:00:00Z" label="1941-05-03">
+        <attvalues>
+          <attvalue for="label" value="1941-05-03" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Dave Robinson::Entity::Q1173329" label="Dave Robinson">
+        <attvalues>
+          <attvalue for="label" value="Dave Robinson" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mount Holly Township::Entity::Q936639" label="Mount Holly Township">
+        <attvalues>
+          <attvalue for="label" value="Mount Holly Township" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="When Were You Born::Entity::Q7992807" label="When Were You Born">
+        <attvalues>
+          <attvalue for="label" value="When Were You Born" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country for sport::Predicate::q1173329-49cf77fd513b27022a324821c74782ea::1" label="country for sport">
+        <attvalues>
+          <attvalue for="label" value="country for sport" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q1173329-32aae4f19ff1ad513b0baca14b1b4c74::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q7992807-4ee84947896ce9618fdae53f6f0cc766::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q1173329-696cd32c894364950f34961a770a4fd0::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q1173329-0c2192557a8ac31a967579c06f7b6096::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="When Were You Born::Entity::Q7992807" target="country of origin::Predicate::q7992807-4ee84947896ce9618fdae53f6f0cc766::1" weight="0.0008088571485131979" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="country of origin::Predicate::q7992807-4ee84947896ce9618fdae53f6f0cc766::1" target="United States::Entity::Q30" weight="0.0008088571485131979" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="United States::Entity::Q30" target="country of citizenship::Predicate::q1173329-32aae4f19ff1ad513b0baca14b1b4c74::1" weight="0.0006445213803090155" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="United States::Entity::Q30" target="country for sport::Predicate::q1173329-49cf77fd513b27022a324821c74782ea::1" weight="0.0006047309725545347" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="country of citizenship::Predicate::q1173329-32aae4f19ff1ad513b0baca14b1b4c74::1" target="Dave Robinson::Entity::Q1173329" weight="0.0006445213803090155" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="Dave Robinson::Entity::Q1173329" target="date of birth::Predicate::q1173329-696cd32c894364950f34961a770a4fd0::1" weight="0.9991810917854309" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Dave Robinson::Entity::Q1173329" target="country for sport::Predicate::q1173329-49cf77fd513b27022a324821c74782ea::1" weight="0.0006047309725545347" label="21"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="Dave Robinson::Entity::Q1173329" target="place of birth::Predicate::q1173329-0c2192557a8ac31a967579c06f7b6096::1" weight="0.0013104277895763516" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="date of birth::Predicate::q1173329-696cd32c894364950f34961a770a4fd0::1" target="1941-05-03::Entity::1941-05-03T00:00:00Z" weight="0.9991810917854309" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="place of birth::Predicate::q1173329-0c2192557a8ac31a967579c06f7b6096::1" target="Mount Holly Township::Entity::Q936639" weight="0.0013104277895763516" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

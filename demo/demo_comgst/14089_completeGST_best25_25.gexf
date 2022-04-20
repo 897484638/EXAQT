@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010 NBA Finals::Entity::Q644353" label="2010 NBA Finals">
+        <attvalues>
+          <attvalue for="label" value="2010 NBA Finals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Los Angeles Lakers::Entity::Q121783" label="Los Angeles Lakers">
+        <attvalues>
+          <attvalue for="label" value="Los Angeles Lakers"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Miami Heat::Entity::Q169138" label="Miami Heat">
+        <attvalues>
+          <attvalue for="label" value="Miami Heat"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="National Basketball Association::Entity::Q155223" label="National Basketball Association">
+        <attvalues>
+          <attvalue for="label" value="National Basketball Association"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Toronto Raptors::Entity::Q132880" label="Toronto Raptors">
+        <attvalues>
+          <attvalue for="label" value="Toronto Raptors"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q121783-d31951a7f3984b1b57d1639ad1a4d6b6::15" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="league::Predicate::q169138-17359f04d3b5348e53c217a90174ed77::17" label="league">
+        <attvalues>
+          <attvalue for="label" value="league"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q155223-6574412c1962ba8b080c85f844e07922::2" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q644353-4e391656888e71fe20c2f9d72715ff73::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="National Basketball Association::Entity::Q155223" target="league::Predicate::q121783-d31951a7f3984b1b57d1639ad1a4d6b6::15" weight="0.9925852417945862" label="10"/>
+      <edge id="1" source="National Basketball Association::Entity::Q155223" target="winner::Predicate::q155223-6574412c1962ba8b080c85f844e07922::2" weight="0.9947629570960999" label="2"/>
+      <edge id="2" source="National Basketball Association::Entity::Q155223" target="league::Predicate::q169138-17359f04d3b5348e53c217a90174ed77::17" weight="0.9945834279060364" label="3"/>
+      <edge id="3" source="league::Predicate::q121783-d31951a7f3984b1b57d1639ad1a4d6b6::15" target="Los Angeles Lakers::Entity::Q121783" weight="0.9925852417945862" label="10"/>
+      <edge id="4" source="Los Angeles Lakers::Entity::Q121783" target="winner::Predicate::q644353-4e391656888e71fe20c2f9d72715ff73::1" weight="0.9975922107696533" label="1"/>
+      <edge id="5" source="winner::Predicate::q644353-4e391656888e71fe20c2f9d72715ff73::1" target="2010 NBA Finals::Entity::Q644353" weight="0.9975922107696533" label="1"/>
+      <edge id="6" source="winner::Predicate::q155223-6574412c1962ba8b080c85f844e07922::2" target="Toronto Raptors::Entity::Q132880" weight="0.9947629570960999" label="2"/>
+      <edge id="7" source="league::Predicate::q169138-17359f04d3b5348e53c217a90174ed77::17" target="Miami Heat::Entity::Q169138" weight="0.9945834279060364" label="3"/>
+    </edges>
+  </graph>
+</gexf>

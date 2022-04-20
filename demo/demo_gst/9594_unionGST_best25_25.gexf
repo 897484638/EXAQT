@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Bible::Entity::Q1845" label="Bible">
+        <attvalues>
+          <attvalue for="label" value="Bible"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Book of Exodus::Entity::Q9190" label="Book of Exodus">
+        <attvalues>
+          <attvalue for="label" value="Book of Exodus"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Book of Genesis::Entity::Q9184" label="Book of Genesis">
+        <attvalues>
+          <attvalue for="label" value="Book of Genesis"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Edar::Entity::Q5335706" label="Edar">
+        <attvalues>
+          <attvalue for="label" value="Edar"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Leviticus::Entity::Q41490" label="Leviticus">
+        <attvalues>
+          <attvalue for="label" value="Leviticus"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Old Testament::Entity::Q19786" label="Old Testament">
+        <attvalues>
+          <attvalue for="label" value="Old Testament"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Pentateuch::Entity::Q162062" label="Pentateuch">
+        <attvalues>
+          <attvalue for="label" value="Pentateuch"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Torah::Entity::Q34990" label="Torah">
+        <attvalues>
+          <attvalue for="label" value="Torah"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="applies to part::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" label="applies to part">
+        <attvalues>
+          <attvalue for="label" value="applies to part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="book of the Bible::Entity::Q29154430" label="book of the Bible">
+        <attvalues>
+          <attvalue for="label" value="book of the Bible"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q9184-ed284deed5ec1b18a7346749c06b7d92::2" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q9190-3971149dc89f5a63f35b6fe2882d160e::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q41490-394d7309f3e6c31afb0280c9d9e94396::2" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q9190-a892a89f6d26673ea8f50cb13edd0ebf::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-19d66d8e25148a08d5b03ee405e0a820::12" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-2cda400e7054716a8f12a42e14dd55f8::1" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-30e7f41286b4b8223c0e5292f2e15096::14" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-5bf4cd3efa1c4862edd638c4ce2c541c::7" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-956b072ef1e4f3a05da84bbd6f3edda5::4" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-d1890d126e2468a58da390cffadd6e14::13" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-d92b9433aad1f6aaf9e5f912860038c7::2" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q9190-f8004c8ab453fe66ce8a7d23e030c92d::11" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q9190-739b9138fb5670609c2da5a902be128b::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q9190-2d5eaef98e15ab56050d3d71c9269a42::3" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q9190-8e7a767a01fbde7e6291382bedc2c9a1::1" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q9190-a75b7bbfcb115bc3e9d8ba05d9ed889b::2" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="present in work::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" label="present in work">
+        <attvalues>
+          <attvalue for="label" value="present in work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="follows::Predicate::q9190-a892a89f6d26673ea8f50cb13edd0ebf::1" target="Book of Genesis::Entity::Q9184" weight="0.9995802044868469" label="1"/>
+      <edge id="1" source="follows::Predicate::q9190-a892a89f6d26673ea8f50cb13edd0ebf::1" target="Book of Exodus::Entity::Q9190" weight="0.9995802044868469" label="1"/>
+      <edge id="10" source="Book of Exodus::Entity::Q9190" target="part of::Predicate::q9190-a75b7bbfcb115bc3e9d8ba05d9ed889b::2" weight="0.9880949258804321" label="6"/>
+      <edge id="11" source="Book of Exodus::Entity::Q9190" target="part of::Predicate::q9190-8e7a767a01fbde7e6291382bedc2c9a1::1" weight="0.9823001027107239" label="7"/>
+      <edge id="12" source="Book of Exodus::Entity::Q9190" target="part of::Predicate::q9190-2d5eaef98e15ab56050d3d71c9269a42::3" weight="0.9811041355133057" label="8"/>
+      <edge id="13" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-956b072ef1e4f3a05da84bbd6f3edda5::4" weight="0.954211413860321" label="10"/>
+      <edge id="14" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-d1890d126e2468a58da390cffadd6e14::13" weight="0.9539188742637634" label="11"/>
+      <edge id="15" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-19d66d8e25148a08d5b03ee405e0a820::12" weight="0.9469540119171143" label="12"/>
+      <edge id="16" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-f8004c8ab453fe66ce8a7d23e030c92d::11" weight="0.9458813071250916" label="13"/>
+      <edge id="17" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-5bf4cd3efa1c4862edd638c4ce2c541c::7" weight="0.9456900954246521" label="14"/>
+      <edge id="18" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-2cda400e7054716a8f12a42e14dd55f8::1" weight="0.9454199075698853" label="15"/>
+      <edge id="19" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-d92b9433aad1f6aaf9e5f912860038c7::2" weight="0.9447957277297974" label="16"/>
+      <edge id="2" source="Book of Genesis::Entity::Q9184" target="applies to part::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" weight="0.978620171546936" label="9"/>
+      <edge id="20" source="Book of Exodus::Entity::Q9190" target="has part::Predicate::q9190-30e7f41286b4b8223c0e5292f2e15096::14" weight="0.9430882930755615" label="17"/>
+      <edge id="21" source="followed by::Predicate::q9190-3971149dc89f5a63f35b6fe2882d160e::1" target="Leviticus::Entity::Q41490" weight="0.9994598031044006" label="2"/>
+      <edge id="22" source="instance of::Predicate::q9190-739b9138fb5670609c2da5a902be128b::1" target="book of the Bible::Entity::Q29154430" weight="0.9894531965255737" label="5"/>
+      <edge id="23" source="part of::Predicate::q9190-a75b7bbfcb115bc3e9d8ba05d9ed889b::2" target="Torah::Entity::Q34990" weight="0.9880949258804321" label="6"/>
+      <edge id="24" source="part of::Predicate::q9190-8e7a767a01fbde7e6291382bedc2c9a1::1" target="Old Testament::Entity::Q19786" weight="0.9823001027107239" label="7"/>
+      <edge id="25" source="part of::Predicate::q9190-2d5eaef98e15ab56050d3d71c9269a42::3" target="Pentateuch::Entity::Q162062" weight="0.9811041355133057" label="8"/>
+      <edge id="3" source="applies to part::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" target="present in work::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" weight="0.978620171546936" label="9"/>
+      <edge id="4" source="present in work::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" target="Bible::Entity::Q1845" weight="0.978620171546936" label="9"/>
+      <edge id="5" source="present in work::Predicate::q5335706-5518d6043647537f4856e379a977f6f1::1" target="Edar::Entity::Q5335706" weight="0.978620171546936" label="9"/>
+      <edge id="6" source="Book of Exodus::Entity::Q9190" target="followed by::Predicate::q9190-3971149dc89f5a63f35b6fe2882d160e::1" weight="0.9994598031044006" label="2"/>
+      <edge id="7" source="Book of Exodus::Entity::Q9190" target="follows::Predicate::q41490-394d7309f3e6c31afb0280c9d9e94396::2" weight="0.999396800994873" label="3"/>
+      <edge id="8" source="Book of Exodus::Entity::Q9190" target="followed by::Predicate::q9184-ed284deed5ec1b18a7346749c06b7d92::2" weight="0.9991474151611328" label="4"/>
+      <edge id="9" source="Book of Exodus::Entity::Q9190" target="instance of::Predicate::q9190-739b9138fb5670609c2da5a902be128b::1" weight="0.9894531965255737" label="5"/>
+    </edges>
+  </graph>
+</gexf>

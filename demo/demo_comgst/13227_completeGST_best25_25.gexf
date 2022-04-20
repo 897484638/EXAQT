@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1978-01-01::Entity::1978-01-01T00:00:00Z" label="1978-01-01">
+        <attvalues>
+          <attvalue for="label" value="1978-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1988-01-01::Entity::1988-01-01T00:00:00Z" label="1988-01-01">
+        <attvalues>
+          <attvalue for="label" value="1988-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Daniel Benjamin::Entity::Q5216534" label="Daniel Benjamin">
+        <attvalues>
+          <attvalue for="label" value="Daniel Benjamin"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Ian McKellen::Entity::Q170510" label="Ian McKellen">
+        <attvalues>
+          <attvalue for="label" value="Ian McKellen"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Sean Mathias::Entity::Q2262221" label="Sean Mathias">
+        <attvalues>
+          <attvalue for="label" value="Sean Mathias"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Time::Entity::Q43297" label="Time">
+        <attvalues>
+          <attvalue for="label" value="Time"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::2" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="unmarried partner::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" label="unmarried partner">
+        <attvalues>
+          <attvalue for="label" value="unmarried partner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="unmarried partner::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" label="unmarried partner">
+        <attvalues>
+          <attvalue for="label" value="unmarried partner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="start time::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" target="unmarried partner::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" weight="0.9996374845504761" label="1"/>
+      <edge id="1" source="start time::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" target="1978-01-01::Entity::1978-01-01T00:00:00Z" weight="0.9996374845504761" label="1"/>
+      <edge id="10" source="end time::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" target="1988-01-01::Entity::1988-01-01T00:00:00Z" weight="0.9996121525764465" label="2"/>
+      <edge id="11" source="start time::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" target="1978-01-01::Entity::1978-01-01T00:00:00Z" weight="0.9996121525764465" label="2"/>
+      <edge id="12" source="1988-01-01::Entity::1988-01-01T00:00:00Z" target="start time::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::4" weight="0.3597000539302826" label="4"/>
+      <edge id="13" source="start time::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::4" target="employer::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::2" weight="0.3597000539302826" label="4"/>
+      <edge id="14" source="employer::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::2" target="Daniel Benjamin::Entity::Q5216534" weight="0.3597000539302826" label="4"/>
+      <edge id="15" source="employer::Predicate::q5216534-6a1bc541f05cc0b131bb9f2b587ad9aa::2" target="Time::Entity::Q43297" weight="0.3597000539302826" label="4"/>
+      <edge id="2" source="unmarried partner::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" target="Ian McKellen::Entity::Q170510" weight="0.9996374845504761" label="1"/>
+      <edge id="3" source="unmarried partner::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" target="end time::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" weight="0.9996374845504761" label="1"/>
+      <edge id="4" source="unmarried partner::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" target="Sean Mathias::Entity::Q2262221" weight="0.9996374845504761" label="1"/>
+      <edge id="5" source="Ian McKellen::Entity::Q170510" target="unmarried partner::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" weight="0.9996121525764465" label="2"/>
+      <edge id="6" source="end time::Predicate::q2262221-9df6e57f6a9691dab17ee006f38d6906::2" target="1988-01-01::Entity::1988-01-01T00:00:00Z" weight="0.9996374845504761" label="1"/>
+      <edge id="7" source="unmarried partner::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" target="end time::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" weight="0.9996121525764465" label="2"/>
+      <edge id="8" source="unmarried partner::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" target="start time::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" weight="0.9996121525764465" label="2"/>
+      <edge id="9" source="unmarried partner::Predicate::q170510-3dfbb82bc0e05841e4a07b331b5bb2dc::1" target="Sean Mathias::Entity::Q2262221" weight="0.9996121525764465" label="2"/>
+    </edges>
+  </graph>
+</gexf>

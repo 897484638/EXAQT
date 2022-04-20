@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Harry Potter and the Chamber of Secrets::Entity::Q47209" label="Harry Potter and the Chamber of Secrets">
+        <attvalues>
+          <attvalue for="label" value="Harry Potter and the Chamber of Secrets"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Harry Potter and the Goblet of Fire::Entity::Q46751" label="Harry Potter and the Goblet of Fire">
+        <attvalues>
+          <attvalue for="label" value="Harry Potter and the Goblet of Fire"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Harry Potter and the Half-Blood Prince::Entity::Q46887" label="Harry Potter and the Half-Blood Prince">
+        <attvalues>
+          <attvalue for="label" value="Harry Potter and the Half-Blood Prince"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Harry Potter and the Philosopher's Stone::Entity::Q43361" label="Harry Potter and the Philosopher's Stone">
+        <attvalues>
+          <attvalue for="label" value="Harry Potter and the Philosopher's Stone"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Harry Potter::Entity::Q8337" label="Harry Potter">
+        <attvalues>
+          <attvalue for="label" value="Harry Potter"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="J. K. Rowling::Entity::Q34660" label="J. K. Rowling">
+        <attvalues>
+          <attvalue for="label" value="J. K. Rowling"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="author::Predicate::q8337-ed192e27a63217cd9c8c1fee753b7ec8::1" label="author">
+        <attvalues>
+          <attvalue for="label" value="author"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::4" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q46887-acc181372e1657684c696f42f308297b::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::6" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::4" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q46887-acc181372e1657684c696f42f308297b::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::7" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q20711488-3b1960130b065030a0203b69cc8f3258::6" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::8" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q46758-3cc945542b58f34c47c54db530fb18f4::10" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q46887-acc181372e1657684c696f42f308297b::1" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::11" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q47598-b24dd5a32e81d46177f3aa81cebf9f96::9" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q77808986-9a90f8c513e6b26417f9b25e71ded0a2::7" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q80817-29476f2d64e13a860b140e7afaf5bc07::3" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="publication date::Predicate::q8337-00aec0f146ef05ece45a7bdc87abc1ef::1" label="publication date">
+        <attvalues>
+          <attvalue for="label" value="publication date"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::4" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q46887-acc181372e1657684c696f42f308297b::1" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::7" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="publication date::Predicate::q8337-00aec0f146ef05ece45a7bdc87abc1ef::1" target="Harry Potter::Entity::Q8337" weight="0.8290725350379944" label="23"/>
+      <edge id="1" source="Harry Potter::Entity::Q8337" target="author::Predicate::q8337-ed192e27a63217cd9c8c1fee753b7ec8::1" weight="0.9990643858909607" label="1"/>
+      <edge id="10" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q77808986-9a90f8c513e6b26417f9b25e71ded0a2::7" weight="0.9892500638961792" label="10"/>
+      <edge id="11" source="author::Predicate::q8337-ed192e27a63217cd9c8c1fee753b7ec8::1" target="J. K. Rowling::Entity::Q34660" weight="0.9990643858909607" label="1"/>
+      <edge id="12" source="part of the series::Predicate::q46887-acc181372e1657684c696f42f308297b::1" target="Harry Potter and the Half-Blood Prince::Entity::Q46887" weight="0.9943888783454895" label="2"/>
+      <edge id="13" source="part of the series::Predicate::q46887-acc181372e1657684c696f42f308297b::1" target="followed by::Predicate::q46887-acc181372e1657684c696f42f308297b::1" weight="0.9943888783454895" label="2"/>
+      <edge id="14" source="part of the series::Predicate::q46887-acc181372e1657684c696f42f308297b::1" target="follows::Predicate::q46887-acc181372e1657684c696f42f308297b::1" weight="0.9943888783454895" label="2"/>
+      <edge id="15" source="part of the series::Predicate::q46887-acc181372e1657684c696f42f308297b::1" target="series ordinal::Predicate::q46887-acc181372e1657684c696f42f308297b::1" weight="0.9943888783454895" label="2"/>
+      <edge id="16" source="part of the series::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" target="Harry Potter and the Philosopher's Stone::Entity::Q43361" weight="0.9941555261611938" label="3"/>
+      <edge id="17" source="part of the series::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" target="followed by::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" weight="0.9941555261611938" label="3"/>
+      <edge id="18" source="part of the series::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" target="series ordinal::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" weight="0.9941555261611938" label="3"/>
+      <edge id="19" source="part of the series::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::8" target="Harry Potter and the Goblet of Fire::Entity::Q46751" weight="0.9941399097442627" label="4"/>
+      <edge id="2" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q46887-acc181372e1657684c696f42f308297b::1" weight="0.9943888783454895" label="2"/>
+      <edge id="20" source="part of the series::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::8" target="followed by::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::4" weight="0.9941399097442627" label="4"/>
+      <edge id="21" source="part of the series::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::8" target="follows::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::4" weight="0.9941399097442627" label="4"/>
+      <edge id="22" source="part of the series::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::8" target="series ordinal::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::4" weight="0.9941399097442627" label="4"/>
+      <edge id="23" source="part of the series::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::11" target="Harry Potter and the Chamber of Secrets::Entity::Q47209" weight="0.9939801692962646" label="5"/>
+      <edge id="24" source="part of the series::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::11" target="followed by::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::6" weight="0.9939801692962646" label="5"/>
+      <edge id="25" source="part of the series::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::11" target="follows::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::7" weight="0.9939801692962646" label="5"/>
+      <edge id="26" source="part of the series::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::11" target="series ordinal::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::7" weight="0.9939801692962646" label="5"/>
+      <edge id="3" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q43361-7f21e18ee0a94a578c25d896abe65f74::2" weight="0.9941555261611938" label="3"/>
+      <edge id="4" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q46751-3d43f3b158fbf780b6f3fd3dc83eea62::8" weight="0.9941399097442627" label="4"/>
+      <edge id="5" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q47209-010b181ab8eb6547fbf1a85c33bfc07f::11" weight="0.9939801692962646" label="5"/>
+      <edge id="6" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q20711488-3b1960130b065030a0203b69cc8f3258::6" weight="0.9937840700149536" label="6"/>
+      <edge id="7" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q47598-b24dd5a32e81d46177f3aa81cebf9f96::9" weight="0.9929307699203491" label="7"/>
+      <edge id="8" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q80817-29476f2d64e13a860b140e7afaf5bc07::3" weight="0.992006242275238" label="8"/>
+      <edge id="9" source="Harry Potter::Entity::Q8337" target="part of the series::Predicate::q46758-3cc945542b58f34c47c54db530fb18f4::10" weight="0.9908599853515625" label="9"/>
+    </edges>
+  </graph>
+</gexf>

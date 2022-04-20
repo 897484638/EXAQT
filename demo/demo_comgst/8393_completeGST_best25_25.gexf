@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1999-05-01::Entity::1999-05-01T00:00:00Z" label="1999-05-01">
+        <attvalues>
+          <attvalue for="label" value="1999-05-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Category:First-person shooters::Entity::Q8460086" label="Category:First-person shooters">
+        <attvalues>
+          <attvalue for="label" value="Category:First-person shooters"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Nickelodeon::Entity::Q154958" label="Nickelodeon">
+        <attvalues>
+          <attvalue for="label" value="Nickelodeon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="SpongeBob SquarePants::Entity::Q83279" label="SpongeBob SquarePants">
+        <attvalues>
+          <attvalue for="label" value="SpongeBob SquarePants"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Video game::Entity::Q7889" label="Video game">
+        <attvalues>
+          <attvalue for="label" value="Video game"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="first-person shooter::Entity::Q185029" label="first-person shooter">
+        <attvalues>
+          <attvalue for="label" value="first-person shooter"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="genre::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::2" label="genre">
+        <attvalues>
+          <attvalue for="label" value="genre"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="is a list of::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::1" label="is a list of">
+        <attvalues>
+          <attvalue for="label" value="is a list of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="list of SpongeBob SquarePants video games::Entity::Q65170990" label="list of SpongeBob SquarePants video games">
+        <attvalues>
+          <attvalue for="label" value="list of SpongeBob SquarePants video games"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="original broadcaster::Predicate::q83279-6b4bdf4818176633be47274bf551441f::1" label="original broadcaster">
+        <attvalues>
+          <attvalue for="label" value="original broadcaster"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="part of the series::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::4" label="part of the series">
+        <attvalues>
+          <attvalue for="label" value="part of the series"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q83279-7e0cce56660e77ba4436202729dbd3b3::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="first-person shooter::Entity::Q185029" target="genre::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::2" weight="0.00028405123157426715" label="29"/>
+      <edge id="1" source="genre::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::2" target="category contains::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::1" weight="0.00028405123157426715" label="29"/>
+      <edge id="10" source="original broadcaster::Predicate::q83279-6b4bdf4818176633be47274bf551441f::1" target="Nickelodeon::Entity::Q154958" weight="0.35729679465293884" label="14"/>
+      <edge id="11" source="start time::Predicate::q83279-7e0cce56660e77ba4436202729dbd3b3::1" target="1999-05-01::Entity::1999-05-01T00:00:00Z" weight="0.9539893865585327" label="1"/>
+      <edge id="2" source="category contains::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::1" target="Video game::Entity::Q7889" weight="0.00028405123157426715" label="29"/>
+      <edge id="3" source="category contains::Predicate::q8460086-fb2998fe43406f912acaebbeed1a433b::1" target="Category:First-person shooters::Entity::Q8460086" weight="0.00028405123157426715" label="29"/>
+      <edge id="4" source="Video game::Entity::Q7889" target="is a list of::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::1" weight="0.0006795966764912009" label="28"/>
+      <edge id="5" source="is a list of::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::1" target="part of the series::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::4" weight="0.0006795966764912009" label="28"/>
+      <edge id="6" source="is a list of::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::1" target="list of SpongeBob SquarePants video games::Entity::Q65170990" weight="0.0006795966764912009" label="28"/>
+      <edge id="7" source="part of the series::Predicate::q65170990-d16ca6ea8cede30ba26aeb8d349b920f::4" target="SpongeBob SquarePants::Entity::Q83279" weight="0.0006795966764912009" label="28"/>
+      <edge id="8" source="SpongeBob SquarePants::Entity::Q83279" target="original broadcaster::Predicate::q83279-6b4bdf4818176633be47274bf551441f::1" weight="0.35729679465293884" label="14"/>
+      <edge id="9" source="SpongeBob SquarePants::Entity::Q83279" target="start time::Predicate::q83279-7e0cce56660e77ba4436202729dbd3b3::1" weight="0.9539893865585327" label="1"/>
+    </edges>
+  </graph>
+</gexf>

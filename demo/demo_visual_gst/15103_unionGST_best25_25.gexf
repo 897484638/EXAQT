@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2003 World Series::Entity::Q1187392" label="2003 World Series">
+        <attvalues>
+          <attvalue for="label" value="2003 World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2004 World Series::Entity::Q1341797" label="2004 World Series">
+        <attvalues>
+          <attvalue for="label" value="2004 World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2005 World Series::Entity::Q1316792" label="2005 World Series">
+        <attvalues>
+          <attvalue for="label" value="2005 World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Boston Red Sox::Entity::Q213959" label="Boston Red Sox">
+        <attvalues>
+          <attvalue for="label" value="Boston Red Sox" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="World Series::Entity::Q265538" label="World Series">
+        <attvalues>
+          <attvalue for="label" value="World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q1187392-c8bd704ed652c82dacfc11d598d5fc44::2" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="followed by::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" label="followed by">
+        <attvalues>
+          <attvalue for="label" value="followed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1071224-571941817777c1cd9c26c768d057058e::4" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1149730-e4b7dec9ec30ba0f6c31b05da6ef54ea::9" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1187392-c8bd704ed652c82dacfc11d598d5fc44::2" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1187726-d0f9584952243efaea6342254f0fde45::20" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1188429-acd89594be1ab24b8024afe3fd9e74cc::13" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1190373-23c45d7419cdff48a77f46ebba9b613b::14" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1207242-b547c0f32b512a4eeeb37273092bf1c3::15" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q155391-762a18987aadac876ccd2ffb53590bc3::12" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q17514457-080052461d5f71d65619b98c0313b15e::6" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q4630084-089686c1c5acfccdbe3f4010b9894fbf::17" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q590944-49d52c966772d5f05b45985a3b20480d::11" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q928040-276283dca590525a37d57967ed48d66f::7" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q929976-68e53eb3f39e5f30d6944d81b709a078::19" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1341797-3cce5f1a8ad465e67caf4698671991c0::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="winner::Predicate::q1341797-3cce5f1a8ad465e67caf4698671991c0::1" target="2004 World Series::Entity::Q1341797" weight="0.9958838820457458" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="winner::Predicate::q1341797-3cce5f1a8ad465e67caf4698671991c0::1" target="Boston Red Sox::Entity::Q213959" weight="0.9958838820457458" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q4630084-089686c1c5acfccdbe3f4010b9894fbf::17" weight="0.9973415732383728" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="11" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1187392-c8bd704ed652c82dacfc11d598d5fc44::2" weight="0.9971129894256592" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="12" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q17514457-080052461d5f71d65619b98c0313b15e::6" weight="0.9969995021820068" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q929976-68e53eb3f39e5f30d6944d81b709a078::19" weight="0.9969534873962402" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1071224-571941817777c1cd9c26c768d057058e::4" weight="0.9967840909957886" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1190373-23c45d7419cdff48a77f46ebba9b613b::14" weight="0.9967774748802185" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="16" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q155391-762a18987aadac876ccd2ffb53590bc3::12" weight="0.9965421557426453" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="17" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1187726-d0f9584952243efaea6342254f0fde45::20" weight="0.9965195655822754" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1188429-acd89594be1ab24b8024afe3fd9e74cc::13" weight="0.9964336156845093" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1149730-e4b7dec9ec30ba0f6c31b05da6ef54ea::9" weight="0.9964250922203064" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="2004 World Series::Entity::Q1341797" target="sports season of league or competition::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" weight="0.997787594795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1207242-b547c0f32b512a4eeeb37273092bf1c3::15" weight="0.9962538480758667" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="21" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q590944-49d52c966772d5f05b45985a3b20480d::11" weight="0.9953475594520569" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="followed by::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" target="2005 World Series::Entity::Q1316792" weight="0.997787594795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="follows::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" target="2003 World Series::Entity::Q1187392" weight="0.997787594795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="sports season of league or competition::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" target="followed by::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" weight="0.9976486563682556" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="2004 World Series::Entity::Q1341797" target="follows::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" weight="0.9976486563682556" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="2004 World Series::Entity::Q1341797" target="followed by::Predicate::q1187392-c8bd704ed652c82dacfc11d598d5fc44::2" weight="0.9971129894256592" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="5" source="sports season of league or competition::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" target="World Series::Entity::Q265538" weight="0.997787594795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="sports season of league or competition::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" target="followed by::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" weight="0.997787594795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="sports season of league or competition::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" target="follows::Predicate::q1341797-9afcbc293814580f460112fc4aeb2fa7::1" weight="0.997787594795227" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q1316792-c23fc5883a71ec63b423e8cc2671c245::3" weight="0.9976486563682556" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="World Series::Entity::Q265538" target="sports season of league or competition::Predicate::q928040-276283dca590525a37d57967ed48d66f::7" weight="0.9975280165672302" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1984-01-01::Entity::1984-01-01T00:00:00Z" label="1984-01-01">
+        <attvalues>
+          <attvalue for="label" value="1984-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Category:Disease-related deaths in French Polynesia::Entity::Q8380403" label="Category:Disease-related deaths in French Polynesia">
+        <attvalues>
+          <attvalue for="label" value="Category:Disease-related deaths in French Polynesia"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="ICD-9-CM::Predicate::q12136-a30ba9aa9e5fb7640ddb4860cbab8fa3::1" label="ICD-9-CM">
+        <attvalues>
+          <attvalue for="label" value="ICD-9-CM"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="Väinö Linna::Entity::Q311037" label="Väinö Linna">
+        <attvalues>
+          <attvalue for="label" value="Väinö Linna"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q311037-225b4e73a51a6b9bd9cfca237059068b::4" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q311037-4212c16c06cbc1671b5910461917ce67::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q311037-8f25170d7f4c8a951d2701af0e569140::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q311037-c02e025500ad2e662eb7c9a1bbd21594::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="cause of death::Predicate::q311037-21584c1365cbbc74de4bcf99511c2afe::1" label="cause of death">
+        <attvalues>
+          <attvalue for="label" value="cause of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="cause of death::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::2" label="cause of death">
+        <attvalues>
+          <attvalue for="label" value="cause of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="cerebral infarction::Entity::Q1209150" label="cerebral infarction">
+        <attvalues>
+          <attvalue for="label" value="cerebral infarction"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q311037-f818964a13dff078db8ebc51a7d0069e::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="disease::Entity::Q12136" label="disease">
+        <attvalues>
+          <attvalue for="label" value="disease"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="dying::Entity::Q267505" label="dying">
+        <attvalues>
+          <attvalue for="label" value="dying"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="has effect::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" label="has effect">
+        <attvalues>
+          <attvalue for="label" value="has effect"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q311037-fde6a3f57f7ecfd732178d9db664b3e9::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="lung cancer::Entity::Q47912" label="lung cancer">
+        <attvalues>
+          <attvalue for="label" value="lung cancer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="manner of death::Predicate::q311037-4d50a483a25204c854ece1b7631053ed::1" label="manner of death">
+        <attvalues>
+          <attvalue for="label" value="manner of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="medical condition::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::1" label="medical condition">
+        <attvalues>
+          <attvalue for="label" value="medical condition"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nature of statement::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" label="nature of statement">
+        <attvalues>
+          <attvalue for="label" value="nature of statement"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="opposite of::Predicate::q12136-910f2bdb250809ef0bdeeffeaa2b5781::1" label="opposite of">
+        <attvalues>
+          <attvalue for="label" value="opposite of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="rarely::Entity::Q28962310" label="rarely">
+        <attvalues>
+          <attvalue for="label" value="rarely"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="studied by::Predicate::q12136-18d8f71cfd046d65a2471c1417462340::1" label="studied by">
+        <attvalues>
+          <attvalue for="label" value="studied by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q12136-d4bd74390f42f88a5123b98a17493e5c::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="nature of statement::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" target="has effect::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" weight="0.08774135261774063" label="7"/>
+      <edge id="1" source="nature of statement::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" target="rarely::Entity::Q28962310" weight="0.08774135261774063" label="7"/>
+      <edge id="10" source="category contains::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::1" target="human::Entity::Q5" weight="0.9499557018280029" label="2"/>
+      <edge id="11" source="category contains::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::1" target="Category:Disease-related deaths in French Polynesia::Entity::Q8380403" weight="0.9499557018280029" label="2"/>
+      <edge id="12" source="human::Entity::Q5" target="instance of::Predicate::q311037-fde6a3f57f7ecfd732178d9db664b3e9::1" weight="0.005652843974530697" label="18"/>
+      <edge id="13" source="instance of::Predicate::q311037-fde6a3f57f7ecfd732178d9db664b3e9::1" target="Väinö Linna::Entity::Q311037" weight="0.005652843974530697" label="18"/>
+      <edge id="14" source="Väinö Linna::Entity::Q311037" target="medical condition::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::1" weight="0.9997803568840027" label="1"/>
+      <edge id="15" source="Väinö Linna::Entity::Q311037" target="cause of death::Predicate::q311037-21584c1365cbbc74de4bcf99511c2afe::1" weight="0.7151523232460022" label="3"/>
+      <edge id="16" source="Väinö Linna::Entity::Q311037" target="manner of death::Predicate::q311037-4d50a483a25204c854ece1b7631053ed::1" weight="0.40978991985321045" label="5"/>
+      <edge id="17" source="Väinö Linna::Entity::Q311037" target="award received::Predicate::q311037-8f25170d7f4c8a951d2701af0e569140::3" weight="0.0637848824262619" label="8"/>
+      <edge id="18" source="Väinö Linna::Entity::Q311037" target="date of death::Predicate::q311037-f818964a13dff078db8ebc51a7d0069e::1" weight="0.06109537556767464" label="9"/>
+      <edge id="19" source="Väinö Linna::Entity::Q311037" target="award received::Predicate::q311037-c02e025500ad2e662eb7c9a1bbd21594::1" weight="0.05515846610069275" label="10"/>
+      <edge id="2" source="has effect::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" target="disease::Entity::Q12136" weight="0.08774135261774063" label="7"/>
+      <edge id="20" source="Väinö Linna::Entity::Q311037" target="award received::Predicate::q311037-225b4e73a51a6b9bd9cfca237059068b::4" weight="0.03203019127249718" label="12"/>
+      <edge id="21" source="Väinö Linna::Entity::Q311037" target="award received::Predicate::q311037-4212c16c06cbc1671b5910461917ce67::2" weight="0.01764877885580063" label="14"/>
+      <edge id="22" source="medical condition::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::1" target="cerebral infarction::Entity::Q1209150" weight="0.9997803568840027" label="1"/>
+      <edge id="23" source="medical condition::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::1" target="point in time::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::5" weight="0.9997803568840027" label="1"/>
+      <edge id="24" source="point in time::Predicate::q311037-069ca3cb92bc7b23eea5d76cb32196d8::5" target="1984-01-01::Entity::1984-01-01T00:00:00Z" weight="0.9997803568840027" label="1"/>
+      <edge id="25" source="cause of death::Predicate::q311037-21584c1365cbbc74de4bcf99511c2afe::1" target="lung cancer::Entity::Q47912" weight="0.7151523232460022" label="3"/>
+      <edge id="3" source="has effect::Predicate::q12136-791105dc47d559f5a3b60ab3d60a2f56::1" target="dying::Entity::Q267505" weight="0.08774135261774063" label="7"/>
+      <edge id="4" source="disease::Entity::Q12136" target="cause of death::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::2" weight="0.9499557018280029" label="2"/>
+      <edge id="5" source="disease::Entity::Q12136" target="ICD-9-CM::Predicate::q12136-a30ba9aa9e5fb7640ddb4860cbab8fa3::1" weight="0.416462779045105" label="4"/>
+      <edge id="6" source="disease::Entity::Q12136" target="opposite of::Predicate::q12136-910f2bdb250809ef0bdeeffeaa2b5781::1" weight="0.1551119089126587" label="6"/>
+      <edge id="7" source="disease::Entity::Q12136" target="studied by::Predicate::q12136-18d8f71cfd046d65a2471c1417462340::1" weight="0.038710158318281174" label="11"/>
+      <edge id="8" source="disease::Entity::Q12136" target="subclass of::Predicate::q12136-d4bd74390f42f88a5123b98a17493e5c::1" weight="0.03032592125236988" label="13"/>
+      <edge id="9" source="cause of death::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::2" target="category contains::Predicate::q8380403-4f48582fdecf5795a8dee02779f788ca::1" weight="0.9499557018280029" label="2"/>
+    </edges>
+  </graph>
+</gexf>

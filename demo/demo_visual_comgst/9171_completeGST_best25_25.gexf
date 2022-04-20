@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Botswana::Entity::Q963" label="Botswana">
+        <attvalues>
+          <attvalue for="label" value="Botswana" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mokgweetsi Masisi::Entity::Q18618891" label="Mokgweetsi Masisi">
+        <attvalues>
+          <attvalue for="label" value="Mokgweetsi Masisi" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Sechele I::Entity::Q14475748" label="Sechele I">
+        <attvalues>
+          <attvalue for="label" value="Sechele I" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q963-f58aa90de38dddd2aad73f450663c532::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q963-372ed1ee1d9a69bf2097be0c9ba350aa::1" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q14475748-373f6034d90563d8137996dff4accec1::2" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="head of state::Predicate::q963-372ed1ee1d9a69bf2097be0c9ba350aa::1" target="Botswana::Entity::Q963" weight="0.9991509914398193" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="head of state::Predicate::q963-372ed1ee1d9a69bf2097be0c9ba350aa::1" target="Mokgweetsi Masisi::Entity::Q18618891" weight="0.9991509914398193" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Botswana::Entity::Q963" target="head of government::Predicate::q963-f58aa90de38dddd2aad73f450663c532::1" weight="0.998607337474823" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Botswana::Entity::Q963" target="place of birth::Predicate::q14475748-373f6034d90563d8137996dff4accec1::2" weight="0.9818665385246277" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="head of government::Predicate::q963-f58aa90de38dddd2aad73f450663c532::1" target="Mokgweetsi Masisi::Entity::Q18618891" weight="0.998607337474823" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="place of birth::Predicate::q14475748-373f6034d90563d8137996dff4accec1::2" target="Sechele I::Entity::Q14475748" weight="0.9818665385246277" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1960-06-14" label="1960-06-14">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="5"/>
+        </attvalues>
+      </node>
+      <node id="2001-01-01" label="2001-01-01">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="2010-01-01" label="2010-01-01">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q1178176" label="Menoeceus">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="2"/>
+        </attvalues>
+      </node>
+      <node id="Q123025" label="Level 42">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q130890" label="Oedipus">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q131445" label="Jocasta">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="4"/>
+        </attvalues>
+      </node>
+      <node id="Q1494885" label="Gary Husband">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q1820274" label="Gary">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="3"/>
+        </attvalues>
+      </node>
+      <node id="Q463898" label="Laius">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="1"/>
+        </attvalues>
+      </node>
+      <node id="q123025-52c3223ca2e8961a03b05b2f9e2bc500" label="St-ID">
+        <attvalues>
+          <attvalue for="type" value="St-ID"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q1494885" target="1960-06-14" weight="0.013915874995291233: temporal predicate" label="date of birth: 6"/>
+      <edge id="1" source="Q1494885" target="Q1820274" weight="0.021220583468675613: non-temporal predicate" label="given name: 5"/>
+      <edge id="10" source="Q130890" target="Q131445" weight="1.0: non-temporal predicate" label="spouse: 1"/>
+      <edge id="2" source="Q123025" target="q123025-52c3223ca2e8961a03b05b2f9e2bc500" weight="0.013049581088125706: non-temporal predicate" label="has part: 7"/>
+      <edge id="3" source="q123025-52c3223ca2e8961a03b05b2f9e2bc500" target="Q1494885" weight="0.013049581088125706: non-temporal predicate" label="has part: 7"/>
+      <edge id="4" source="q123025-52c3223ca2e8961a03b05b2f9e2bc500" target="2010-01-01" weight="0.048889048397541046: temporal predicate" label="end time: 4"/>
+      <edge id="5" source="q123025-52c3223ca2e8961a03b05b2f9e2bc500" target="2001-01-01" weight="0.3979218900203705: temporal predicate" label="start time: 3"/>
+      <edge id="6" source="Q463898" target="Q131445" weight="1.0: non-temporal predicate" label="spouse: 1"/>
+      <edge id="7" source="Q131445" target="Q463898" weight="1.0: non-temporal predicate" label="spouse: 1"/>
+      <edge id="8" source="Q131445" target="Q130890" weight="1.0: non-temporal predicate" label="spouse: 1"/>
+      <edge id="9" source="Q131445" target="Q1178176" weight="0.4630722403526306: non-temporal predicate" label="father: 2"/>
+    </edges>
+  </graph>
+</gexf>

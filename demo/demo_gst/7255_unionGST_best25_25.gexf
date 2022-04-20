@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1990-01-01::Entity::1990-01-01T00:00:00Z" label="1990-01-01">
+        <attvalues>
+          <attvalue for="label" value="1990-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="1996-01-01::Entity::1996-01-01T00:00:00Z" label="1996-01-01">
+        <attvalues>
+          <attvalue for="label" value="1996-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="French National Assembly::Entity::Q193582" label="French National Assembly">
+        <attvalues>
+          <attvalue for="label" value="French National Assembly"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Michel Houellebecq::Entity::Q103114" label="Michel Houellebecq">
+        <attvalues>
+          <attvalue for="label" value="Michel Houellebecq"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Ministry of Agriculture of France::Entity::Q3315187" label="Ministry of Agriculture of France">
+        <attvalues>
+          <attvalue for="label" value="Ministry of Agriculture of France"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Paris::Entity::Q90" label="Paris">
+        <attvalues>
+          <attvalue for="label" value="Paris"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q103114-057d757a59a8f24918330a2ab35edc4b::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q103114-c4a8264e2d4bd58ae8bcd89716b9a21b::3" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q103114-e723ced2e9182294d6d708aa76811a47::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q103114-05b7c8d6384d5b0bbdb061cc3a2468d2::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::20" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-1264cc306a74365244530b8d5d7743b2::5" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-51c15160371bc378ddb7787ca53c17bf::8" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-6ef61f2c449e4d6327844a8c49d745c8::6" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-6f4dd84697f0f4ad81f00df8023bdfa8::4" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-7c200b1e863aa500f4b792780408a715::11" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-863c5bbc75fa6138a31d4951110b2b50::3" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-925be4bfa8cc8cb758804aceb83c3865::14" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-cc3136a169ddb2a3eaef0f6610368465::1" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-d4f80e9b0890b45cc1867faa23d9c4d5::7" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-f03140e6b4257ccc92042d0746d3875a::16" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of government::Predicate::q90-fe94f1644ad1aa4f4b28dbcf6a5bdb98::9" label="head of government">
+        <attvalues>
+          <attvalue for="label" value="head of government"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q103114-e723ced2e9182294d6d708aa76811a47::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::19" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work location::Predicate::q103114-05b7c8d6384d5b0bbdb061cc3a2468d2::1" label="work location">
+        <attvalues>
+          <attvalue for="label" value="work location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="work location::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" label="work location">
+        <attvalues>
+          <attvalue for="label" value="work location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Paris::Entity::Q90" target="work location::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" weight="0.9994068145751953" label="1"/>
+      <edge id="1" source="Paris::Entity::Q90" target="work location::Predicate::q103114-05b7c8d6384d5b0bbdb061cc3a2468d2::1" weight="0.9981727600097656" label="2"/>
+      <edge id="10" source="Paris::Entity::Q90" target="head of government::Predicate::q90-925be4bfa8cc8cb758804aceb83c3865::14" weight="0.988470196723938" label="12"/>
+      <edge id="11" source="Paris::Entity::Q90" target="head of government::Predicate::q90-51c15160371bc378ddb7787ca53c17bf::8" weight="0.9875085949897766" label="13"/>
+      <edge id="12" source="Paris::Entity::Q90" target="head of government::Predicate::q90-6f4dd84697f0f4ad81f00df8023bdfa8::4" weight="0.9863916635513306" label="15"/>
+      <edge id="13" source="Paris::Entity::Q90" target="head of government::Predicate::q90-fe94f1644ad1aa4f4b28dbcf6a5bdb98::9" weight="0.9844122529029846" label="16"/>
+      <edge id="14" source="work location::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" target="employer::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" weight="0.9994068145751953" label="1"/>
+      <edge id="15" source="employer::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" target="Michel Houellebecq::Entity::Q103114" weight="0.9994068145751953" label="1"/>
+      <edge id="16" source="employer::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" target="French National Assembly::Entity::Q193582" weight="0.9994068145751953" label="1"/>
+      <edge id="17" source="employer::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" target="end time::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::20" weight="0.9994068145751953" label="1"/>
+      <edge id="18" source="employer::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::2" target="start time::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::19" weight="0.9994068145751953" label="1"/>
+      <edge id="19" source="Michel Houellebecq::Entity::Q103114" target="employer::Predicate::q103114-05b7c8d6384d5b0bbdb061cc3a2468d2::1" weight="0.9981727600097656" label="2"/>
+      <edge id="2" source="Paris::Entity::Q90" target="head of government::Predicate::q90-863c5bbc75fa6138a31d4951110b2b50::3" weight="0.991952121257782" label="3"/>
+      <edge id="20" source="Michel Houellebecq::Entity::Q103114" target="educated at::Predicate::q103114-c4a8264e2d4bd58ae8bcd89716b9a21b::3" weight="0.9901622533798218" label="4"/>
+      <edge id="21" source="Michel Houellebecq::Entity::Q103114" target="educated at::Predicate::q103114-e723ced2e9182294d6d708aa76811a47::1" weight="0.9888784289360046" label="11"/>
+      <edge id="22" source="Michel Houellebecq::Entity::Q103114" target="educated at::Predicate::q103114-057d757a59a8f24918330a2ab35edc4b::2" weight="0.9865474700927734" label="14"/>
+      <edge id="23" source="end time::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::20" target="1996-01-01::Entity::1996-01-01T00:00:00Z" weight="0.9994068145751953" label="1"/>
+      <edge id="24" source="start time::Predicate::q103114-e693091b67952ec912b4cf75ad17c2d6::19" target="1990-01-01::Entity::1990-01-01T00:00:00Z" weight="0.9994068145751953" label="1"/>
+      <edge id="25" source="employer::Predicate::q103114-05b7c8d6384d5b0bbdb061cc3a2468d2::1" target="Ministry of Agriculture of France::Entity::Q3315187" weight="0.9981727600097656" label="2"/>
+      <edge id="3" source="Paris::Entity::Q90" target="head of government::Predicate::q90-6ef61f2c449e4d6327844a8c49d745c8::6" weight="0.9899118542671204" label="5"/>
+      <edge id="4" source="Paris::Entity::Q90" target="head of government::Predicate::q90-d4f80e9b0890b45cc1867faa23d9c4d5::7" weight="0.9896849393844604" label="6"/>
+      <edge id="5" source="Paris::Entity::Q90" target="head of government::Predicate::q90-f03140e6b4257ccc92042d0746d3875a::16" weight="0.9894730448722839" label="7"/>
+      <edge id="6" source="Paris::Entity::Q90" target="head of government::Predicate::q90-1264cc306a74365244530b8d5d7743b2::5" weight="0.9893519282341003" label="8"/>
+      <edge id="7" source="Paris::Entity::Q90" target="head of government::Predicate::q90-cc3136a169ddb2a3eaef0f6610368465::1" weight="0.989153265953064" label="9"/>
+      <edge id="8" source="Paris::Entity::Q90" target="head of government::Predicate::q90-7c200b1e863aa500f4b792780408a715::11" weight="0.9891093969345093" label="10"/>
+      <edge id="9" source="Paris::Entity::Q90" target="location::Predicate::q103114-e723ced2e9182294d6d708aa76811a47::1" weight="0.9888784289360046" label="11"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="First Amendment to the United States Constitution::Entity::Q12616" label="First Amendment to the United States Constitution">
+        <attvalues>
+          <attvalue for="label" value="First Amendment to the United States Constitution"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States Constitution::Entity::Q11698" label="United States Constitution">
+        <attvalues>
+          <attvalue for="label" value="United States Constitution"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="World Health Organization::Entity::Q7817" label="World Health Organization">
+        <attvalues>
+          <attvalue for="label" value="World Health Organization"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="amended by::Predicate::q11698-75c865c4447473e11630bed0fc49cde2::1" label="amended by">
+        <attvalues>
+          <attvalue for="label" value="amended by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="applies to jurisdiction::Predicate::q12616-937046fed7f7edf1cb867221f17c3c5e::1" label="applies to jurisdiction">
+        <attvalues>
+          <attvalue for="label" value="applies to jurisdiction"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q12616-9f1cf0dc59b989b51492e66b9689f98e::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q1334252-03fecaf9603abc55c53fa410c178f20d::3" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q28359787-8b9168b6498496ba007d19ac3d38042d::2" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q42117864-021b47107ee9001cb2801bb0b04b1093::13" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q45736681-426d21f03ac74a60d9b4b959ea6eeee2::12" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q48814345-7442d876e5217e08fee7a67f498d70be::7" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q5397741-68f6c28937a50ab3b03f63ace23b4f9d::9" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q55215129-8fec49ee42d5adccfd06812cf7f7f265::5" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q56441380-6ea0fb97fe1c6fbeccdf0f38ba866462::14" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q56857893-c200abd02580a25c1aace03495cfcc81::1" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q57011963-cc5de7fefa2ae1540cf6c83ff5a32793::11" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q57419149-8a8d12e485149ad8f7c77303a832fbe0::8" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q78641470-9a3f8d2a434b9d0e2c2985b04662f899::10" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="has part::Predicate::q12616-8d8bd080c0d6a11deb4f17216dc9f0b5::1" label="has part">
+        <attvalues>
+          <attvalue for="label" value="has part"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q12616-12f2be70038e77fcdc9cbc2fc78ac2f7::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="laws applied::Predicate::q6124208-8ca0530147c2cd2d080c07cd6779b84a::1" label="laws applied">
+        <attvalues>
+          <attvalue for="label" value="laws applied"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="laws applied::Predicate::q713593-b80ca36961488d09c33e527bd1021791::2" label="laws applied">
+        <attvalues>
+          <attvalue for="label" value="laws applied"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q12616-be760fb6df28b2dfeae238f372e698db::1" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="part of::Predicate::q3308297-1c49239c2b6f56f3df091de493b9c1d2::2" label="part of">
+        <attvalues>
+          <attvalue for="label" value="part of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="World Health Organization::Entity::Q7817" target="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" weight="0.0013076562900096178" label="26"/>
+      <edge id="1" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q45736681-426d21f03ac74a60d9b4b959ea6eeee2::12" weight="0.30970683693885803" label="1"/>
+      <edge id="10" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q1334252-03fecaf9603abc55c53fa410c178f20d::3" weight="0.03429816663265228" label="17"/>
+      <edge id="11" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q55215129-8fec49ee42d5adccfd06812cf7f7f265::5" weight="0.02105064131319523" label="19"/>
+      <edge id="12" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q56857893-c200abd02580a25c1aace03495cfcc81::1" weight="0.019199611619114876" label="21"/>
+      <edge id="13" source="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" target="United States::Entity::Q30" weight="0.0013076562900096178" label="26"/>
+      <edge id="14" source="United States::Entity::Q30" target="country::Predicate::q12616-9f1cf0dc59b989b51492e66b9689f98e::1" weight="0.275126576423645" label="2"/>
+      <edge id="15" source="United States::Entity::Q30" target="applies to jurisdiction::Predicate::q12616-937046fed7f7edf1cb867221f17c3c5e::1" weight="0.04016992822289467" label="12"/>
+      <edge id="16" source="country::Predicate::q12616-9f1cf0dc59b989b51492e66b9689f98e::1" target="First Amendment to the United States Constitution::Entity::Q12616" weight="0.275126576423645" label="2"/>
+      <edge id="17" source="First Amendment to the United States Constitution::Entity::Q12616" target="amended by::Predicate::q11698-75c865c4447473e11630bed0fc49cde2::1" weight="0.12380460649728775" label="3"/>
+      <edge id="18" source="First Amendment to the United States Constitution::Entity::Q12616" target="applies to jurisdiction::Predicate::q12616-937046fed7f7edf1cb867221f17c3c5e::1" weight="0.04016992822289467" label="12"/>
+      <edge id="19" source="First Amendment to the United States Constitution::Entity::Q12616" target="laws applied::Predicate::q713593-b80ca36961488d09c33e527bd1021791::2" weight="0.08488355576992035" label="4"/>
+      <edge id="2" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q57419149-8a8d12e485149ad8f7c77303a832fbe0::8" weight="0.05912436172366142" label="8"/>
+      <edge id="20" source="First Amendment to the United States Constitution::Entity::Q12616" target="instance of::Predicate::q12616-12f2be70038e77fcdc9cbc2fc78ac2f7::1" weight="0.08171840757131577" label="5"/>
+      <edge id="21" source="First Amendment to the United States Constitution::Entity::Q12616" target="part of::Predicate::q3308297-1c49239c2b6f56f3df091de493b9c1d2::2" weight="0.07340095937252045" label="6"/>
+      <edge id="22" source="First Amendment to the United States Constitution::Entity::Q12616" target="part of::Predicate::q12616-be760fb6df28b2dfeae238f372e698db::1" weight="0.0716562271118164" label="7"/>
+      <edge id="23" source="First Amendment to the United States Constitution::Entity::Q12616" target="has part::Predicate::q12616-8d8bd080c0d6a11deb4f17216dc9f0b5::1" weight="0.03253145143389702" label="18"/>
+      <edge id="24" source="First Amendment to the United States Constitution::Entity::Q12616" target="laws applied::Predicate::q6124208-8ca0530147c2cd2d080c07cd6779b84a::1" weight="0.019306162372231483" label="20"/>
+      <edge id="25" source="amended by::Predicate::q11698-75c865c4447473e11630bed0fc49cde2::1" target="United States Constitution::Entity::Q11698" weight="0.12380460649728775" label="3"/>
+      <edge id="3" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q57011963-cc5de7fefa2ae1540cf6c83ff5a32793::11" weight="0.05433998629450798" label="9"/>
+      <edge id="4" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q5397741-68f6c28937a50ab3b03f63ace23b4f9d::9" weight="0.05143861100077629" label="10"/>
+      <edge id="5" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q78641470-9a3f8d2a434b9d0e2c2985b04662f899::10" weight="0.04256821051239967" label="11"/>
+      <edge id="6" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q48814345-7442d876e5217e08fee7a67f498d70be::7" weight="0.03957870975136757" label="13"/>
+      <edge id="7" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q42117864-021b47107ee9001cb2801bb0b04b1093::13" weight="0.03821443021297455" label="14"/>
+      <edge id="8" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q28359787-8b9168b6498496ba007d19ac3d38042d::2" weight="0.03803470730781555" label="15"/>
+      <edge id="9" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q56441380-6ea0fb97fe1c6fbeccdf0f38ba866462::14" weight="0.036010295152664185" label="16"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010 United States Census::Entity::Q523716" label="2010 United States Census">
+        <attvalues>
+          <attvalue for="label" value="2010 United States Census"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Alaska::Entity::Q797" label="Alaska">
+        <attvalues>
+          <attvalue for="label" value="Alaska"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Anchorage::Entity::Q39450" label="Anchorage">
+        <attvalues>
+          <attvalue for="label" value="Anchorage"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Fairbanks North Star Borough::Entity::Q512901" label="Fairbanks North Star Borough">
+        <attvalues>
+          <attvalue for="label" value="Fairbanks North Star Borough"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Juneau::Entity::Q29445" label="Juneau">
+        <attvalues>
+          <attvalue for="label" value="Juneau"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Sitka::Entity::Q79804" label="Sitka">
+        <attvalues>
+          <attvalue for="label" value="Sitka"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Wrangell::Entity::Q43983" label="Wrangell">
+        <attvalues>
+          <attvalue for="label" value="Wrangell"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q797-ba7033021199efe2611f7573d2eee764::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="census::Entity::Q39825" label="census">
+        <attvalues>
+          <attvalue for="label" value="census"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-42a4fc1645e0f55cb4f2aaeda86572d6::1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-45670b1d7ec82ba85450b679e6f90f14::17" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-4a8bbb3482f19f0066aca384a88f4404::3" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-6b89b06723116d2f8462b5c4358a76d2::15" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-6c11ad7c6c0a560b64421c6f5df92c04::5" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-7fec62ef24d9954b9e61404e7e89a42d::16" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-a1918f4c31e9338be037a7f5c1b9a123::7" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-c5ee286636a2beb3d1f8e88cf1631f2a::12" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-c9f84a0aa380d202c8007e74d0d82b60::6" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q797-ea5edeb9d5983b4c66a4d91801db4243::18" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="determination method::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::3" label="determination method">
+        <attvalues>
+          <attvalue for="label" value="determination method"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="determination method::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" label="determination method">
+        <attvalues>
+          <attvalue for="label" value="determination method"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q797-7e86811030ee9c11c3251450741ecd00::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q797-8d91d08420b1a7c693eb4fc77fc5213a::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::4" label="population">
+        <attvalues>
+          <attvalue for="label" value="population"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="population::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" label="population">
+        <attvalues>
+          <attvalue for="label" value="population"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Alaska::Entity::Q797" target="population::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" weight="0.946819007396698" label="14"/>
+      <edge id="1" source="Alaska::Entity::Q797" target="capital::Predicate::q797-ba7033021199efe2611f7573d2eee764::1" weight="0.9917030930519104" label="1"/>
+      <edge id="10" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-7fec62ef24d9954b9e61404e7e89a42d::16" weight="0.9591488242149353" label="11"/>
+      <edge id="11" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-c5ee286636a2beb3d1f8e88cf1631f2a::12" weight="0.95531165599823" label="12"/>
+      <edge id="12" source="Alaska::Entity::Q797" target="instance of::Predicate::q797-7e86811030ee9c11c3251450741ecd00::1" weight="0.9631770849227905" label="8"/>
+      <edge id="13" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-a1918f4c31e9338be037a7f5c1b9a123::7" weight="0.9476329684257507" label="13"/>
+      <edge id="14" source="population::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" target="determination method::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" weight="0.946819007396698" label="14"/>
+      <edge id="15" source="population::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" target="point in time::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" weight="0.946819007396698" label="14"/>
+      <edge id="16" source="determination method::Predicate::q797-e741633e0ba6296a95b306e23df5e505::1" target="census::Entity::Q39825" weight="0.946819007396698" label="14"/>
+      <edge id="17" source="census::Entity::Q39825" target="determination method::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::3" weight="0.0032536680810153484" label="27"/>
+      <edge id="18" source="determination method::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::3" target="population::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::4" weight="0.0032536680810153484" label="27"/>
+      <edge id="19" source="population::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::4" target="statement is subject of::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::1" weight="0.0032536680810153484" label="27"/>
+      <edge id="2" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-45670b1d7ec82ba85450b679e6f90f14::17" weight="0.9810658097267151" label="2"/>
+      <edge id="20" source="statement is subject of::Predicate::q7567636-3535e94c42699adf5b2b2d3a0fb8c46b::1" target="2010 United States Census::Entity::Q523716" weight="0.0032536680810153484" label="27"/>
+      <edge id="21" source="capital::Predicate::q797-ba7033021199efe2611f7573d2eee764::1" target="Juneau::Entity::Q29445" weight="0.9917030930519104" label="1"/>
+      <edge id="22" source="contains administrative territorial entity::Predicate::q797-45670b1d7ec82ba85450b679e6f90f14::17" target="Wrangell::Entity::Q43983" weight="0.9810658097267151" label="2"/>
+      <edge id="23" source="contains administrative territorial entity::Predicate::q797-c9f84a0aa380d202c8007e74d0d82b60::6" target="Fairbanks North Star Borough::Entity::Q512901" weight="0.976391613483429" label="3"/>
+      <edge id="24" source="contains administrative territorial entity::Predicate::q797-4a8bbb3482f19f0066aca384a88f4404::3" target="Anchorage::Entity::Q39450" weight="0.973717212677002" label="5"/>
+      <edge id="25" source="contains administrative territorial entity::Predicate::q797-6b89b06723116d2f8462b5c4358a76d2::15" target="Sitka::Entity::Q79804" weight="0.9734011888504028" label="6"/>
+      <edge id="3" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-c9f84a0aa380d202c8007e74d0d82b60::6" weight="0.976391613483429" label="3"/>
+      <edge id="4" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-42a4fc1645e0f55cb4f2aaeda86572d6::1" weight="0.9745299816131592" label="4"/>
+      <edge id="5" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-4a8bbb3482f19f0066aca384a88f4404::3" weight="0.973717212677002" label="5"/>
+      <edge id="6" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-6b89b06723116d2f8462b5c4358a76d2::15" weight="0.9734011888504028" label="6"/>
+      <edge id="7" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-ea5edeb9d5983b4c66a4d91801db4243::18" weight="0.9678817391395569" label="7"/>
+      <edge id="8" source="Alaska::Entity::Q797" target="located in the administrative territorial entity::Predicate::q797-8d91d08420b1a7c693eb4fc77fc5213a::1" weight="0.9606494307518005" label="9"/>
+      <edge id="9" source="Alaska::Entity::Q797" target="contains administrative territorial entity::Predicate::q797-6c11ad7c6c0a560b64421c6f5df92c04::5" weight="0.9595220685005188" label="10"/>
+    </edges>
+  </graph>
+</gexf>

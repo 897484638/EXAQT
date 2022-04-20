@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1772-01-01::Entity::1772-01-01T00:00:00Z" label="1772-01-01">
+        <attvalues>
+          <attvalue for="label" value="1772-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="1918-01-01::Entity::1918-01-01T00:00:00Z" label="1918-01-01">
+        <attvalues>
+          <attvalue for="label" value="1918-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Kingdom of Galicia and Lodomeria::Entity::Q2396442" label="Kingdom of Galicia and Lodomeria">
+        <attvalues>
+          <attvalue for="label" value="Kingdom of Galicia and Lodomeria"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Zakopane::Entity::Q144786" label="Zakopane">
+        <attvalues>
+          <attvalue for="label" value="Zakopane"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::16" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::14" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::15" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Zakopane::Entity::Q144786" target="located in the administrative territorial entity::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::14" weight="0.9978023171424866" label="1"/>
+      <edge id="1" source="located in the administrative territorial entity::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::14" target="Kingdom of Galicia and Lodomeria::Entity::Q2396442" weight="0.9978023171424866" label="1"/>
+      <edge id="2" source="located in the administrative territorial entity::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::14" target="end time::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::16" weight="0.9978023171424866" label="1"/>
+      <edge id="3" source="located in the administrative territorial entity::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::14" target="start time::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::15" weight="0.9978023171424866" label="1"/>
+      <edge id="4" source="end time::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::16" target="1918-01-01::Entity::1918-01-01T00:00:00Z" weight="0.9978023171424866" label="1"/>
+      <edge id="5" source="start time::Predicate::q144786-fdd32769fa77d1559e333db9b8b04095::15" target="1772-01-01::Entity::1772-01-01T00:00:00Z" weight="0.9978023171424866" label="1"/>
+    </edges>
+  </graph>
+</gexf>

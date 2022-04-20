@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Alachua County Sheriff's Office::Entity::Q4705450" label="Alachua County Sheriff's Office">
+        <attvalues>
+          <attvalue for="label" value="Alachua County Sheriff's Office"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Alachua County::Entity::Q488826" label="Alachua County">
+        <attvalues>
+          <attvalue for="label" value="Alachua County"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Alachua::Entity::Q985175" label="Alachua">
+        <attvalues>
+          <attvalue for="label" value="Alachua"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Bradford County::Entity::Q156577" label="Bradford County">
+        <attvalues>
+          <attvalue for="label" value="Bradford County"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Columbia County::Entity::Q173867" label="Columbia County">
+        <attvalues>
+          <attvalue for="label" value="Columbia County"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Florida::Entity::Q812" label="Florida">
+        <attvalues>
+          <attvalue for="label" value="Florida"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gainesville::Entity::Q487999" label="Gainesville">
+        <attvalues>
+          <attvalue for="label" value="Gainesville"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Gilchrist County::Entity::Q111720" label="Gilchrist County">
+        <attvalues>
+          <attvalue for="label" value="Gilchrist County"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="applies to jurisdiction::Predicate::q4705450-4fb90ef6666121142d5fa2c226807f30::1" label="applies to jurisdiction">
+        <attvalues>
+          <attvalue for="label" value="applies to jurisdiction"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="capital of::Predicate::q487999-39284361a04c01f972b457eaa73fcf2e::1" label="capital of">
+        <attvalues>
+          <attvalue for="label" value="capital of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q488826-502050166e0610f418aef9e2995c56c6::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="contains administrative territorial entity::Predicate::q488826-6446bdc611c029914bbace8cd8029fcb::1" label="contains administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="contains administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q487999-1f10c4825da870691d8562843c284ead::2" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q488826-434ce898b918eb79a1163f0f64f8fd80::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q985175-c85842cea34e293943b0399c7439710e::3" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q488826-4588059e366a3f4a5c0fa52e0b350d06::7" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q488826-5bd4e1966cc6427d1cdfea39f6802769::1" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="shares border with::Predicate::q488826-766aad40c77a7f1d612099c4cc3aec1d::6" label="shares border with">
+        <attvalues>
+          <attvalue for="label" value="shares border with"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="applies to jurisdiction::Predicate::q4705450-4fb90ef6666121142d5fa2c226807f30::1" target="Alachua County::Entity::Q488826" weight="0.8836718797683716" label="19"/>
+      <edge id="1" source="applies to jurisdiction::Predicate::q4705450-4fb90ef6666121142d5fa2c226807f30::1" target="Alachua County Sheriff's Office::Entity::Q4705450" weight="0.8836718797683716" label="19"/>
+      <edge id="10" source="Alachua County::Entity::Q488826" target="located in the administrative territorial entity::Predicate::q487999-1f10c4825da870691d8562843c284ead::2" weight="0.9517990946769714" label="9"/>
+      <edge id="11" source="capital::Predicate::q488826-502050166e0610f418aef9e2995c56c6::1" target="Gainesville::Entity::Q487999" weight="0.9970176219940186" label="1"/>
+      <edge id="12" source="Gainesville::Entity::Q487999" target="capital of::Predicate::q487999-39284361a04c01f972b457eaa73fcf2e::1" weight="0.9877339601516724" label="2"/>
+      <edge id="13" source="Gainesville::Entity::Q487999" target="contains administrative territorial entity::Predicate::q488826-6446bdc611c029914bbace8cd8029fcb::1" weight="0.9837251305580139" label="3"/>
+      <edge id="14" source="Gainesville::Entity::Q487999" target="located in the administrative territorial entity::Predicate::q487999-1f10c4825da870691d8562843c284ead::2" weight="0.9517990946769714" label="9"/>
+      <edge id="15" source="shares border with::Predicate::q488826-766aad40c77a7f1d612099c4cc3aec1d::6" target="Gilchrist County::Entity::Q111720" weight="0.973992645740509" label="4"/>
+      <edge id="16" source="located in the administrative territorial entity::Predicate::q488826-434ce898b918eb79a1163f0f64f8fd80::1" target="Florida::Entity::Q812" weight="0.9681839346885681" label="5"/>
+      <edge id="17" source="shares border with::Predicate::q488826-4588059e366a3f4a5c0fa52e0b350d06::7" target="Columbia County::Entity::Q173867" weight="0.966655433177948" label="6"/>
+      <edge id="18" source="located in the administrative territorial entity::Predicate::q985175-c85842cea34e293943b0399c7439710e::3" target="Alachua::Entity::Q985175" weight="0.960211992263794" label="7"/>
+      <edge id="19" source="shares border with::Predicate::q488826-5bd4e1966cc6427d1cdfea39f6802769::1" target="Bradford County::Entity::Q156577" weight="0.9548073410987854" label="8"/>
+      <edge id="2" source="Alachua County::Entity::Q488826" target="capital::Predicate::q488826-502050166e0610f418aef9e2995c56c6::1" weight="0.9970176219940186" label="1"/>
+      <edge id="3" source="Alachua County::Entity::Q488826" target="capital of::Predicate::q487999-39284361a04c01f972b457eaa73fcf2e::1" weight="0.9877339601516724" label="2"/>
+      <edge id="4" source="Alachua County::Entity::Q488826" target="contains administrative territorial entity::Predicate::q488826-6446bdc611c029914bbace8cd8029fcb::1" weight="0.9837251305580139" label="3"/>
+      <edge id="5" source="Alachua County::Entity::Q488826" target="shares border with::Predicate::q488826-766aad40c77a7f1d612099c4cc3aec1d::6" weight="0.973992645740509" label="4"/>
+      <edge id="6" source="Alachua County::Entity::Q488826" target="located in the administrative territorial entity::Predicate::q488826-434ce898b918eb79a1163f0f64f8fd80::1" weight="0.9681839346885681" label="5"/>
+      <edge id="7" source="Alachua County::Entity::Q488826" target="shares border with::Predicate::q488826-4588059e366a3f4a5c0fa52e0b350d06::7" weight="0.966655433177948" label="6"/>
+      <edge id="8" source="Alachua County::Entity::Q488826" target="located in the administrative territorial entity::Predicate::q985175-c85842cea34e293943b0399c7439710e::3" weight="0.960211992263794" label="7"/>
+      <edge id="9" source="Alachua County::Entity::Q488826" target="shares border with::Predicate::q488826-5bd4e1966cc6427d1cdfea39f6802769::1" weight="0.9548073410987854" label="8"/>
+    </edges>
+  </graph>
+</gexf>

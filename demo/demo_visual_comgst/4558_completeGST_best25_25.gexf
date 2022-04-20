@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Chief Justice of India::Entity::Q3243690" label="Chief Justice of India">
+        <attvalues>
+          <attvalue for="label" value="Chief Justice of India" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sarv Mittra Sikri::Entity::Q2724699" label="Sarv Mittra Sikri">
+        <attvalues>
+          <attvalue for="label" value="Sarv Mittra Sikri" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sharad Arvind Bobde::Entity::Q16186986" label="Sharad Arvind Bobde">
+        <attvalues>
+          <attvalue for="label" value="Sharad Arvind Bobde" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Supreme Court of India::Entity::Q213380" label="Supreme Court of India">
+        <attvalues>
+          <attvalue for="label" value="Supreme Court of India" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="office held by head of the organization::Predicate::q213380-c1040a8236918802c7ef417993d8ca3b::1" label="office held by head of the organization">
+        <attvalues>
+          <attvalue for="label" value="office held by head of the organization" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q16186986-9f645773395345b12570f9229eb6a7e5::9" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q2724699-c3b7513ef8fcf910dd34593c293d49c0::8" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="office held by head of the organization::Predicate::q213380-c1040a8236918802c7ef417993d8ca3b::1" target="Supreme Court of India::Entity::Q213380" weight="0.006187372375279665" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="office held by head of the organization::Predicate::q213380-c1040a8236918802c7ef417993d8ca3b::1" target="Chief Justice of India::Entity::Q3243690" weight="0.006187372375279665" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Chief Justice of India::Entity::Q3243690" target="position held::Predicate::q16186986-9f645773395345b12570f9229eb6a7e5::9" weight="0.9965751767158508" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="Chief Justice of India::Entity::Q3243690" target="position held::Predicate::q2724699-c3b7513ef8fcf910dd34593c293d49c0::8" weight="0.9964225888252258" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="position held::Predicate::q16186986-9f645773395345b12570f9229eb6a7e5::9" target="Sharad Arvind Bobde::Entity::Q16186986" weight="0.9965751767158508" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="position held::Predicate::q2724699-c3b7513ef8fcf910dd34593c293d49c0::8" target="Sarv Mittra Sikri::Entity::Q2724699" weight="0.9964225888252258" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

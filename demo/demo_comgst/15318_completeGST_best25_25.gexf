@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1903-02-13::Entity::1903-02-13T00:00:00Z" label="1903-02-13">
+        <attvalues>
+          <attvalue for="label" value="1903-02-13"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1965-01-01::Entity::1965-01-01T00:00:00Z" label="1965-01-01">
+        <attvalues>
+          <attvalue for="label" value="1965-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1989-09-04::Entity::1989-09-04T00:00:00Z" label="1989-09-04">
+        <attvalues>
+          <attvalue for="label" value="1989-09-04"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Georges Simenon::Entity::Q128790" label="Georges Simenon">
+        <attvalues>
+          <attvalue for="label" value="Georges Simenon"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Nobel Prize in Literature::Entity::Q37922" label="Nobel Prize in Literature">
+        <attvalues>
+          <attvalue for="label" value="Nobel Prize in Literature"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q128790-728208f015dc887560cd34a230aa6fe8::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q128790-19eaac4d9be2a226ca9cce26536d8cd2::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q128790-66278b79060570c9944a90d47db337b7::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q128790-66278b79060570c9944a90d47db337b7::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="point in time::Predicate::q128790-66278b79060570c9944a90d47db337b7::2" target="nominated for::Predicate::q128790-66278b79060570c9944a90d47db337b7::1" weight="0.9994943141937256" label="1"/>
+      <edge id="1" source="point in time::Predicate::q128790-66278b79060570c9944a90d47db337b7::2" target="1965-01-01::Entity::1965-01-01T00:00:00Z" weight="0.9994943141937256" label="1"/>
+      <edge id="2" source="nominated for::Predicate::q128790-66278b79060570c9944a90d47db337b7::1" target="Georges Simenon::Entity::Q128790" weight="0.9994943141937256" label="1"/>
+      <edge id="3" source="nominated for::Predicate::q128790-66278b79060570c9944a90d47db337b7::1" target="Nobel Prize in Literature::Entity::Q37922" weight="0.9994943141937256" label="1"/>
+      <edge id="4" source="Georges Simenon::Entity::Q128790" target="date of death::Predicate::q128790-19eaac4d9be2a226ca9cce26536d8cd2::1" weight="0.0010772255482152104" label="5"/>
+      <edge id="5" source="Georges Simenon::Entity::Q128790" target="date of birth::Predicate::q128790-728208f015dc887560cd34a230aa6fe8::1" weight="0.0006301590474322438" label="22"/>
+      <edge id="6" source="date of death::Predicate::q128790-19eaac4d9be2a226ca9cce26536d8cd2::1" target="1989-09-04::Entity::1989-09-04T00:00:00Z" weight="0.0010772255482152104" label="5"/>
+      <edge id="7" source="date of birth::Predicate::q128790-728208f015dc887560cd34a230aa6fe8::1" target="1903-02-13::Entity::1903-02-13T00:00:00Z" weight="0.0006301590474322438" label="22"/>
+    </edges>
+  </graph>
+</gexf>

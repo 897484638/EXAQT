@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Bengal Presidency::Entity::Q817165" label="Bengal Presidency">
+        <attvalues>
+          <attvalue for="label" value="Bengal Presidency"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Birbhum district::Entity::Q2088440" label="Birbhum district">
+        <attvalues>
+          <attvalue for="label" value="Birbhum district"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Kolkata::Entity::Q1348" label="Kolkata">
+        <attvalues>
+          <attvalue for="label" value="Kolkata"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q1348-a2df6cf3279899ea11ef14fb9eb70bba::2" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q2088440-c9f18db7b5826b9fef7025836a781f9d::23" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Kolkata::Entity::Q1348" target="located in the administrative territorial entity::Predicate::q1348-a2df6cf3279899ea11ef14fb9eb70bba::2" weight="0.9490264654159546" label="5"/>
+      <edge id="1" source="located in the administrative territorial entity::Predicate::q1348-a2df6cf3279899ea11ef14fb9eb70bba::2" target="Bengal Presidency::Entity::Q817165" weight="0.9490264654159546" label="5"/>
+      <edge id="2" source="Bengal Presidency::Entity::Q817165" target="located in the administrative territorial entity::Predicate::q2088440-c9f18db7b5826b9fef7025836a781f9d::23" weight="0.9589439630508423" label="1"/>
+      <edge id="3" source="located in the administrative territorial entity::Predicate::q2088440-c9f18db7b5826b9fef7025836a781f9d::23" target="Birbhum district::Entity::Q2088440" weight="0.9589439630508423" label="1"/>
+    </edges>
+  </graph>
+</gexf>

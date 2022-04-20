@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Hanif::Entity::Q425381" label="Hanif">
+        <attvalues>
+          <attvalue for="label" value="Hanif" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Muhammad::Entity::Q9458" label="Muhammad">
+        <attvalues>
+          <attvalue for="label" value="Muhammad" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Umm Kulthum bint Muhammad::Entity::Q2426845" label="Umm Kulthum bint Muhammad">
+        <attvalues>
+          <attvalue for="label" value="Umm Kulthum bint Muhammad" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Zaynab bint Muhammad::Entity::Q1164707" label="Zaynab bint Muhammad">
+        <attvalues>
+          <attvalue for="label" value="Zaynab bint Muhammad" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q9458-adb0fc349a413146fbdfd834cc9f6ffd::3" label="child">
+        <attvalues>
+          <attvalue for="label" value="child" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q9458-b630397cdb08492e685b8bc29463df26::5" label="child">
+        <attvalues>
+          <attvalue for="label" value="child" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="religion::Predicate::q9458-f7b5efebec6440630724556932dba84d::1" label="religion">
+        <attvalues>
+          <attvalue for="label" value="religion" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Muhammad::Entity::Q9458" target="religion::Predicate::q9458-f7b5efebec6440630724556932dba84d::1" weight="0.9959636926651001" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="Muhammad::Entity::Q9458" target="child::Predicate::q9458-b630397cdb08492e685b8bc29463df26::5" weight="0.9953421354293823" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="Muhammad::Entity::Q9458" target="child::Predicate::q9458-adb0fc349a413146fbdfd834cc9f6ffd::3" weight="0.9947078227996826" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="3" source="religion::Predicate::q9458-f7b5efebec6440630724556932dba84d::1" target="Hanif::Entity::Q425381" weight="0.9959636926651001" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="child::Predicate::q9458-b630397cdb08492e685b8bc29463df26::5" target="Umm Kulthum bint Muhammad::Entity::Q2426845" weight="0.9953421354293823" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="child::Predicate::q9458-adb0fc349a413146fbdfd834cc9f6ffd::3" target="Zaynab bint Muhammad::Entity::Q1164707" weight="0.9947078227996826" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

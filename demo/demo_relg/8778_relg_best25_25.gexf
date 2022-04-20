@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1912-02-04" label="1912-02-04">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="3"/>
+        </attvalues>
+      </node>
+      <node id="2006-09-26" label="2006-09-26">
+        <attvalues>
+          <attvalue for="type" value="date"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="4"/>
+        </attvalues>
+      </node>
+      <node id="Q725776" label="Byron Nelson">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="2"/>
+        </attvalues>
+      </node>
+      <node id="Q969223" label="Roanoke">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="1"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q725776" target="1912-02-04" weight="1.0: temporal predicate" label="date of birth: 1"/>
+      <edge id="1" source="Q725776" target="2006-09-26" weight="0.24687421321868896: temporal predicate" label="date of death: 3"/>
+      <edge id="2" source="Q725776" target="Q969223" weight="0.29296398162841797: non-temporal predicate" label="place of death: 2"/>
+    </edges>
+  </graph>
+</gexf>

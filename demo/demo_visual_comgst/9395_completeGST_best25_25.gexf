@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="5::Entity::5" label="5">
+        <attvalues>
+          <attvalue for="label" value="5" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="George Bowen::Entity::Q1392013" label="George Bowen">
+        <attvalues>
+          <attvalue for="label" value="George Bowen" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Governor of New South Wales::Entity::Q1528895" label="Governor of New South Wales">
+        <attvalues>
+          <attvalue for="label" value="Governor of New South Wales" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Governor-General of New Zealand::Entity::Q455690" label="Governor-General of New Zealand">
+        <attvalues>
+          <attvalue for="label" value="Governor-General of New Zealand" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lachlan Macquarie::Entity::Q467694" label="Lachlan Macquarie">
+        <attvalues>
+          <attvalue for="label" value="Lachlan Macquarie" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::17" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="series ordinal::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::15" label="series ordinal">
+        <attvalues>
+          <attvalue for="label" value="series ordinal" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Governor of New South Wales::Entity::Q1528895" target="position held::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::17" weight="0.9996097683906555" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="1" source="position held::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::17" target="series ordinal::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::15" weight="0.9996097683906555" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="2" source="position held::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::17" target="Lachlan Macquarie::Entity::Q467694" weight="0.9996097683906555" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="3" source="series ordinal::Predicate::q467694-e0ec5dd44ea7aeaf027bfb432182197d::15" target="5::Entity::5" weight="0.9996097683906555" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="4" source="5::Entity::5" target="series ordinal::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" weight="0.9994856119155884" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="Governor-General of New Zealand::Entity::Q455690" target="position held::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" weight="0.9994856119155884" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="position held::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" target="series ordinal::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" weight="0.9994856119155884" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="position held::Predicate::q1392013-80200abf29a3944abe14588749cbde13::5" target="George Bowen::Entity::Q1392013" weight="0.9994856119155884" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

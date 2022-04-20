@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1930-07-07::Entity::1930-07-07T00:00:00Z" label="1930-07-07">
+        <attvalues>
+          <attvalue for="label" value="1930-07-07"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Arthur Conan Doyle::Entity::Q35610" label="Arthur Conan Doyle">
+        <attvalues>
+          <attvalue for="label" value="Arthur Conan Doyle"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Cardiac arrest::Entity::Q202837" label="Cardiac arrest">
+        <attvalues>
+          <attvalue for="label" value="Cardiac arrest"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Crowborough::Entity::Q179259" label="Crowborough">
+        <attvalues>
+          <attvalue for="label" value="Crowborough"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="cause of death::Predicate::q35610-6380970b72f7cde17156baf05505cd62::1" label="cause of death">
+        <attvalues>
+          <attvalue for="label" value="cause of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q35610-e71be6c2c099cf2894440d3498aef708::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q35610-f62f223085adf86f94f721054badb919::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of death::Predicate::q35610-e71be6c2c099cf2894440d3498aef708::1" target="Arthur Conan Doyle::Entity::Q35610" weight="0.9966678023338318" label="1"/>
+      <edge id="1" source="date of death::Predicate::q35610-e71be6c2c099cf2894440d3498aef708::1" target="1930-07-07::Entity::1930-07-07T00:00:00Z" weight="0.9966678023338318" label="1"/>
+      <edge id="2" source="Arthur Conan Doyle::Entity::Q35610" target="place of death::Predicate::q35610-f62f223085adf86f94f721054badb919::1" weight="0.99512779712677" label="2"/>
+      <edge id="3" source="Arthur Conan Doyle::Entity::Q35610" target="cause of death::Predicate::q35610-6380970b72f7cde17156baf05505cd62::1" weight="0.05790792778134346" label="13"/>
+      <edge id="4" source="place of death::Predicate::q35610-f62f223085adf86f94f721054badb919::1" target="Crowborough::Entity::Q179259" weight="0.99512779712677" label="2"/>
+      <edge id="5" source="cause of death::Predicate::q35610-6380970b72f7cde17156baf05505cd62::1" target="Cardiac arrest::Entity::Q202837" weight="0.05790792778134346" label="13"/>
+    </edges>
+  </graph>
+</gexf>

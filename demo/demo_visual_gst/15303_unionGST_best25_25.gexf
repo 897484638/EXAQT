@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010-01-01::Entity::2010-01-01T00:00:00Z" label="2010-01-01">
+        <attvalues>
+          <attvalue for="label" value="2010-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2012-01-01::Entity::2012-01-01T00:00:00Z" label="2012-01-01">
+        <attvalues>
+          <attvalue for="label" value="2012-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Justin Bieber::Entity::Q34086" label="Justin Bieber">
+        <attvalues>
+          <attvalue for="label" value="Justin Bieber" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Justin::Entity::Q210853" label="Justin">
+        <attvalues>
+          <attvalue for="label" value="Justin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Selena Gomez::Entity::Q83287" label="Selena Gomez">
+        <attvalues>
+          <attvalue for="label" value="Selena Gomez" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q34086-3248649ee9ad029fa708e174e2996c24::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q210853-8e0e7557b51dcc636e8485fd0262a232::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q210853-801444969c8f27fb1b266685b8517375::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q34086-1c424e556286bea37ed8bfaf638bdda8::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="unmarried partner::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" label="unmarried partner">
+        <attvalues>
+          <attvalue for="label" value="unmarried partner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="unmarried partner::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" label="unmarried partner">
+        <attvalues>
+          <attvalue for="label" value="unmarried partner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1064978-0dcbf80bb7b32fb5a17ce96c1e644423::7" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1441669-bdb4a142e2d54f33ec760d5276eb71b8::8" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q1527196-93d2b017f23c6b4a6cca5c5b0311bb8b::11" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q16985322-8605cd28d329945a07bac519d0656157::5" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q372123-680d277db79d3bee3b14f85625b2343f::6" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38135-f799624b07c58347ef3f0f110a2a5154::12" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38451-c7e5d137a7462f02cd1b72f4ffc83e56::9" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38457-2b05cf487e0cc00dffd4d5d996c4b699::10" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q38473-007eb2887bf05e1955888ec1aad1e3f0::3" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q595693-f3ecb726be1b098ef396d77f22dd7289::4" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q34086-c5328d4d6b7716941bbb68e1a84fccf9::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Justin::Entity::Q210853" target="instance of::Predicate::q210853-801444969c8f27fb1b266685b8517375::2" weight="0.0005386208067648113" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Justin::Entity::Q210853" target="date of death::Predicate::q210853-8e0e7557b51dcc636e8485fd0262a232::1" weight="0.7130132913589478" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="10" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q1064978-0dcbf80bb7b32fb5a17ce96c1e644423::7" weight="0.6588170528411865" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q38457-2b05cf487e0cc00dffd4d5d996c4b699::10" weight="0.657265841960907" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="12" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q595693-f3ecb726be1b098ef396d77f22dd7289::4" weight="0.6272784471511841" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="13" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q38451-c7e5d137a7462f02cd1b72f4ffc83e56::9" weight="0.6213414669036865" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="14" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q1441669-bdb4a142e2d54f33ec760d5276eb71b8::8" weight="0.5729066729545593" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Justin Bieber::Entity::Q34086" target="work period (start)::Predicate::q34086-c5328d4d6b7716941bbb68e1a84fccf9::1" weight="0.5650281310081482" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q372123-680d277db79d3bee3b14f85625b2343f::6" weight="0.5468920469284058" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q1527196-93d2b017f23c6b4a6cca5c5b0311bb8b::11" weight="0.5232036709785461" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q16985322-8605cd28d329945a07bac519d0656157::5" weight="0.5141903758049011" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="unmarried partner::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" target="Selena Gomez::Entity::Q83287" weight="0.8669615387916565" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="instance of::Predicate::q210853-801444969c8f27fb1b266685b8517375::2" target="human::Entity::Q5" weight="0.0005386208067648113" label="28"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="unmarried partner::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" target="end time::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" weight="0.8669615387916565" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="unmarried partner::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" target="start time::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::4" weight="0.8669615387916565" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="unmarried partner::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" target="end time::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" weight="0.8666421175003052" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="23" source="unmarried partner::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" target="start time::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" weight="0.8666421175003052" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="end time::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" target="2012-01-01::Entity::2012-01-01T00:00:00Z" weight="0.8669615387916565" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="start time::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::4" target="2010-01-01::Entity::2010-01-01T00:00:00Z" weight="0.8669615387916565" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="human::Entity::Q5" target="instance of::Predicate::q34086-1c424e556286bea37ed8bfaf638bdda8::1" weight="0.0005460822721943259" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="instance of::Predicate::q34086-1c424e556286bea37ed8bfaf638bdda8::1" target="Justin Bieber::Entity::Q34086" weight="0.0005460822721943259" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="Justin Bieber::Entity::Q34086" target="unmarried partner::Predicate::q83287-b1e449ab8d35eeb84b5a9ab2e04a7934::3" weight="0.8669615387916565" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Justin Bieber::Entity::Q34086" target="unmarried partner::Predicate::q34086-45468ad46a5075d32448956689fe2419::1" weight="0.8666421175003052" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="Justin Bieber::Entity::Q34086" target="date of birth::Predicate::q34086-3248649ee9ad029fa708e174e2996c24::1" weight="0.7155959606170654" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q38473-007eb2887bf05e1955888ec1aad1e3f0::3" weight="0.6944390535354614" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="9" source="Justin Bieber::Entity::Q34086" target="winner::Predicate::q38135-f799624b07c58347ef3f0f110a2a5154::12" weight="0.659715473651886" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

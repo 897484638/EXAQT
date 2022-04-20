@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="China::Entity::Q148" label="China">
+        <attvalues>
+          <attvalue for="label" value="China"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="North Vietnam::Entity::Q172640" label="North Vietnam">
+        <attvalues>
+          <attvalue for="label" value="North Vietnam"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="South Vietnam::Entity::Q180573" label="South Vietnam">
+        <attvalues>
+          <attvalue for="label" value="South Vietnam"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Vietnam War::Entity::Q8740" label="Vietnam War">
+        <attvalues>
+          <attvalue for="label" value="Vietnam War"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Vietnam::Entity::Q881" label="Vietnam">
+        <attvalues>
+          <attvalue for="label" value="Vietnam"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q881-dbe4d5caa10167f37532ac95fe6cbdbe::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="head of state::Predicate::q881-8d71e3fdfb83f15eff89d6a9d2521fba::1" label="head of state">
+        <attvalues>
+          <attvalue for="label" value="head of state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q8740-b9f75d248415ba96edc1fb8cd9b58dd6::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-03d2d7dceb987d9294c012c654749175::17" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-0b2ee316159a99bf17cde5963c4d1f65::15" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-15842ea882f2aa5809e305380f0eb7c8::12" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-1f7cc29511a09a818a5a29e632a38e55::3" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-29140ce82b352e26ccc1a5ac757093d8::7" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-2b1179193f10f3122aec25dae4e2c99a::5" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-2fec3f67a7d5b330c84cb5eac23e081b::2" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-35de7d0d2ef9b614b6ee8c88f320b305::13" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-3c043ab1bfa77bebe25cb86b4a207077::4" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-40aec4a1f1056efccd0281f1db87c8d0::10" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-42dbbf5b641f87cf4d6735da141f1ffe::6" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-5e2eca5fcf612daa9863b7aa0ec9a0b5::18" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-960bce7863acd2121fd1a8908e73224a::11" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-bc01adfeee1d8ccabaeb3fcdd13095e2::1" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-ca1326a8700e04da151dca2468c1ef85::14" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-ce20f8c218d7bc8fd26456bb4462ac93::9" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="participant::Predicate::q8740-d5a3d5649fc523c0948c16704f5d50a1::8" label="participant">
+        <attvalues>
+          <attvalue for="label" value="participant"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-35de7d0d2ef9b614b6ee8c88f320b305::13" weight="0.9989744424819946" label="1"/>
+      <edge id="1" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-2fec3f67a7d5b330c84cb5eac23e081b::2" weight="0.9989597797393799" label="2"/>
+      <edge id="10" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-5e2eca5fcf612daa9863b7aa0ec9a0b5::18" weight="0.9984556436538696" label="11"/>
+      <edge id="11" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-40aec4a1f1056efccd0281f1db87c8d0::10" weight="0.9984531402587891" label="12"/>
+      <edge id="12" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-29140ce82b352e26ccc1a5ac757093d8::7" weight="0.9982450008392334" label="14"/>
+      <edge id="13" source="Vietnam War::Entity::Q8740" target="location::Predicate::q8740-b9f75d248415ba96edc1fb8cd9b58dd6::1" weight="0.9981532692909241" label="16"/>
+      <edge id="14" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-15842ea882f2aa5809e305380f0eb7c8::12" weight="0.998083233833313" label="17"/>
+      <edge id="15" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-0b2ee316159a99bf17cde5963c4d1f65::15" weight="0.9980400204658508" label="18"/>
+      <edge id="16" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-960bce7863acd2121fd1a8908e73224a::11" weight="0.9978698492050171" label="19"/>
+      <edge id="17" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-42dbbf5b641f87cf4d6735da141f1ffe::6" weight="0.9975932240486145" label="20"/>
+      <edge id="18" source="participant::Predicate::q8740-35de7d0d2ef9b614b6ee8c88f320b305::13" target="China::Entity::Q148" weight="0.9989744424819946" label="1"/>
+      <edge id="19" source="participant::Predicate::q8740-2fec3f67a7d5b330c84cb5eac23e081b::2" target="United States::Entity::Q30" weight="0.9989597797393799" label="2"/>
+      <edge id="2" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-ce20f8c218d7bc8fd26456bb4462ac93::9" weight="0.9988106489181519" label="3"/>
+      <edge id="20" source="participant::Predicate::q8740-ce20f8c218d7bc8fd26456bb4462ac93::9" target="North Vietnam::Entity::Q172640" weight="0.9988106489181519" label="3"/>
+      <edge id="21" source="participant::Predicate::q8740-bc01adfeee1d8ccabaeb3fcdd13095e2::1" target="South Vietnam::Entity::Q180573" weight="0.9986816048622131" label="4"/>
+      <edge id="22" source="Vietnam::Entity::Q881" target="follows::Predicate::q881-dbe4d5caa10167f37532ac95fe6cbdbe::1" weight="0.9982762336730957" label="13"/>
+      <edge id="23" source="Vietnam::Entity::Q881" target="head of state::Predicate::q881-8d71e3fdfb83f15eff89d6a9d2521fba::1" weight="0.9981631636619568" label="15"/>
+      <edge id="3" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-bc01adfeee1d8ccabaeb3fcdd13095e2::1" weight="0.9986816048622131" label="4"/>
+      <edge id="4" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-ca1326a8700e04da151dca2468c1ef85::14" weight="0.9986698627471924" label="5"/>
+      <edge id="5" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-3c043ab1bfa77bebe25cb86b4a207077::4" weight="0.9986679553985596" label="6"/>
+      <edge id="6" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-1f7cc29511a09a818a5a29e632a38e55::3" weight="0.9985969662666321" label="7"/>
+      <edge id="7" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-03d2d7dceb987d9294c012c654749175::17" weight="0.9985342025756836" label="8"/>
+      <edge id="8" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-2b1179193f10f3122aec25dae4e2c99a::5" weight="0.9985311031341553" label="9"/>
+      <edge id="9" source="Vietnam War::Entity::Q8740" target="participant::Predicate::q8740-d5a3d5649fc523c0948c16704f5d50a1::8" weight="0.9984638690948486" label="10"/>
+    </edges>
+  </graph>
+</gexf>

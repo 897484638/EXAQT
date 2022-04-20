@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1804-03-07" label="1804-03-07">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1813-02-04" label="1813-02-04">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1819-07-01" label="1819-07-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="1850-01-01" label="1850-01-01">
+        <attvalues>
+          <attvalue for="type" value="date" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="5" />
+        </attvalues>
+      </node>
+      <node id="Q1022618" label="C/390 Q1">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="3" />
+        </attvalues>
+      </node>
+      <node id="Q1548773" label="Great Comet of 1843">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q19933021" label="C/1804 E1">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="4" />
+        </attvalues>
+      </node>
+      <node id="Q19933025" label="C/1813 C1">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q3559" label="comet">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="false" />
+          <attvalue for="rank" value="none" />
+        </attvalues>
+      </node>
+      <node id="Q386772" label="Kreutz Sungrazers">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="1" />
+        </attvalues>
+      </node>
+      <node id="Q4181082" label="C/1819 N1">
+        <attvalues>
+          <attvalue for="type" value="nondate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="top" value="true" />
+          <attvalue for="rank" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q4181082" target="1819-07-01" weight="0.17084355652332306: temporal predicate" label="time of discovery or invention: 4"><viz:shape value="solid" /><viz:thickness value="2.11262" /></edge>
+      <edge id="1" source="Q4181082" target="1850-01-01" weight="0.6466711759567261: temporal predicate" label="inception: 2"><viz:shape value="solid" /><viz:thickness value="6.63895" /></edge>
+      <edge id="2" source="Q4181082" target="Q3559" weight="0.2657305598258972: non-temporal predicate" label="instance of: 3"><viz:shape value="solid" /><viz:thickness value="3.01523" /></edge>
+      <edge id="3" source="Q19933025" target="1813-02-04" weight="0.05388049781322479: temporal predicate" label="time of discovery or invention: 6"><viz:shape value="solid" /><viz:thickness value="1.0" /></edge>
+      <edge id="4" source="Q19933025" target="Q3559" weight="0.2657305598258972: non-temporal predicate" label="instance of: 3"><viz:shape value="solid" /><viz:thickness value="3.01523" /></edge>
+      <edge id="5" source="Q19933021" target="1804-03-07" weight="1.0: temporal predicate" label="time of discovery or invention: 1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="Q19933021" target="Q3559" weight="0.2657305598258972: non-temporal predicate" label="instance of: 3"><viz:shape value="solid" /><viz:thickness value="3.01523" /></edge>
+      <edge id="7" source="Q386772" target="Q3559" weight="0.10638679563999176: non-temporal predicate" label="subclass of: 5"><viz:shape value="solid" /><viz:thickness value="1.49947" /></edge>
+      <edge id="8" source="Q1548773" target="Q386772" weight="0.2657305598258972: non-temporal predicate" label="instance of: 3"><viz:shape value="solid" /><viz:thickness value="3.01523" /></edge>
+      <edge id="9" source="Q1022618" target="Q3559" weight="0.2657305598258972: non-temporal predicate" label="instance of: 3"><viz:shape value="solid" /><viz:thickness value="3.01523" /></edge>
+    </edges>
+  </graph>
+</gexf>

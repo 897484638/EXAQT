@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Alcide De Gasperi::Entity::Q153832" label="Alcide De Gasperi">
+        <attvalues>
+          <attvalue for="label" value="Alcide De Gasperi" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Benito Mussolini::Entity::Q23559" label="Benito Mussolini">
+        <attvalues>
+          <attvalue for="label" value="Benito Mussolini" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Category:World War II political leaders::Entity::Q6455673" label="Category:World War II political leaders">
+        <attvalues>
+          <attvalue for="label" value="Category:World War II political leaders" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Fernando Tambroni::Entity::Q314004" label="Fernando Tambroni">
+        <attvalues>
+          <attvalue for="label" value="Fernando Tambroni" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Prime Minister of Italy::Entity::Q796897" label="Prime Minister of Italy">
+        <attvalues>
+          <attvalue for="label" value="Prime Minister of Italy" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="World War II::Entity::Q362" label="World War II">
+        <attvalues>
+          <attvalue for="label" value="World War II" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="category contains::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" label="category contains">
+        <attvalues>
+          <attvalue for="label" value="category contains" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="human::Entity::Q5" label="human">
+        <attvalues>
+          <attvalue for="label" value="human" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="is a list of::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::1" label="is a list of">
+        <attvalues>
+          <attvalue for="label" value="is a list of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="list of Prime Ministers of Italy::Entity::Q213928" label="list of Prime Ministers of Italy">
+        <attvalues>
+          <attvalue for="label" value="list of Prime Ministers of Italy" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q153832-21baddbee6ef0a885246b8d1988fd1de::18" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::19" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q23559-ffb76fad977103436d47b5b910f07c4c::11" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q314004-8d274b8baee2a93c9bacc04a025652a9::14" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="conflict::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" target="category contains::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" weight="0.9538524746894836" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="conflict::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" target="World War II::Entity::Q362" weight="0.9538524746894836" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="Prime Minister of Italy::Entity::Q796897" target="position held::Predicate::q23559-ffb76fad977103436d47b5b910f07c4c::11" weight="0.9978814721107483" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="11" source="position held::Predicate::q314004-8d274b8baee2a93c9bacc04a025652a9::14" target="Fernando Tambroni::Entity::Q314004" weight="0.9984958171844482" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="12" source="position held::Predicate::q153832-21baddbee6ef0a885246b8d1988fd1de::18" target="Alcide De Gasperi::Entity::Q153832" weight="0.998166561126709" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="13" source="position held::Predicate::q23559-ffb76fad977103436d47b5b910f07c4c::11" target="Benito Mussolini::Entity::Q23559" weight="0.9978814721107483" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="2" source="category contains::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" target="human::Entity::Q5" weight="0.9538524746894836" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="3" source="category contains::Predicate::q6455673-810a976d522e7427a4680da21fe910e8::1" target="Category:World War II political leaders::Entity::Q6455673" weight="0.9538524746894836" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="human::Entity::Q5" target="is a list of::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::1" weight="0.0016105965478345752" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="5" source="is a list of::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::1" target="position held::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::19" weight="0.0016105965478345752" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="6" source="is a list of::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::1" target="list of Prime Ministers of Italy::Entity::Q213928" weight="0.0016105965478345752" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="7" source="position held::Predicate::q213928-3559ff282efa856fcc92eaf13f36b00a::19" target="Prime Minister of Italy::Entity::Q796897" weight="0.0016105965478345752" label="27"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="8" source="Prime Minister of Italy::Entity::Q796897" target="position held::Predicate::q314004-8d274b8baee2a93c9bacc04a025652a9::14" weight="0.9984958171844482" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="Prime Minister of Italy::Entity::Q796897" target="position held::Predicate::q153832-21baddbee6ef0a885246b8d1988fd1de::18" weight="0.998166561126709" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+    </edges>
+  </graph>
+</gexf>

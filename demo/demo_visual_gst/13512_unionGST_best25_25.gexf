@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2016-09-12::Entity::2016-09-12T00:00:00Z" label="2016-09-12">
+        <attvalues>
+          <attvalue for="label" value="2016-09-12" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="56th United Kingdom Parliament::Entity::Q21084473" label="56th United Kingdom Parliament">
+        <attvalues>
+          <attvalue for="label" value="56th United Kingdom Parliament" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Conservative Party::Entity::Q9626" label="Conservative Party">
+        <attvalues>
+          <attvalue for="label" value="Conservative Party" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="David Cameron::Entity::Q192" label="David Cameron">
+        <attvalues>
+          <attvalue for="label" value="David Cameron" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Member of the 56th Parliament of the United Kingdom::Entity::Q30524718" label="Member of the 56th Parliament of the United Kingdom">
+        <attvalues>
+          <attvalue for="label" value="Member of the 56th Parliament of the United Kingdom" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="elected in::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" label="elected in">
+        <attvalues>
+          <attvalue for="label" value="elected in" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="electoral district::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::3" label="electoral district">
+        <attvalues>
+          <attvalue for="label" value="electoral district" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-11de22dcb6279273a68b709838457af3::7" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::13" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-3506bd71cd8391fd087181a100e55f69::9" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::16" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-c34cec5d808f3f9d13813b8f1bb73cd7::12" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-c366ea6538572f7c9ca8f706a6c0d6ef::11" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::14" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q192-f29ca80e693deb767cf68c8e9252e993::8" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q192-d9cdd84d166e3ee0baa31952f90a9bb9::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::4" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary group::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::2" label="parliamentary group">
+        <attvalues>
+          <attvalue for="label" value="parliamentary group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary term::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" label="parliamentary term">
+        <attvalues>
+          <attvalue for="label" value="parliamentary term" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary term::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::4" label="parliamentary term">
+        <attvalues>
+          <attvalue for="label" value="parliamentary term" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="parliamentary term::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::2" label="parliamentary term">
+        <attvalues>
+          <attvalue for="label" value="parliamentary term" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-11de22dcb6279273a68b709838457af3::8" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-3506bd71cd8391fd087181a100e55f69::10" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::18" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-c34cec5d808f3f9d13813b8f1bb73cd7::13" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-c366ea6538572f7c9ca8f706a6c0d6ef::12" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::16" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q192-f29ca80e693deb767cf68c8e9252e993::9" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaced by::Predicate::q10648-320aa728e01a7443227670fd94a9eb3f::13" label="replaced by">
+        <attvalues>
+          <attvalue for="label" value="replaced by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q264766-55acabfadc533a8ac073600d5cac497b::11" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="replaces::Predicate::q264766-c4a7f8463d9c59351112d48438533436::12" label="replaces">
+        <attvalues>
+          <attvalue for="label" value="replaces" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::13" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="parliamentary group::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" target="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="1" source="parliamentary group::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" target="Conservative Party::Entity::Q9626" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="10" source="end time::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::13" target="2016-09-12::Entity::2016-09-12T00:00:00Z" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="David Cameron::Entity::Q192" target="instance of::Predicate::q192-d9cdd84d166e3ee0baa31952f90a9bb9::1" weight="0.0005693261628039181" label="26"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::18" weight="0.9996552467346191" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-c366ea6538572f7c9ca8f706a6c0d6ef::12" weight="0.9997708201408386" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="14" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-3506bd71cd8391fd087181a100e55f69::10" weight="0.9997469782829285" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="15" source="David Cameron::Entity::Q192" target="replaced by::Predicate::q10648-320aa728e01a7443227670fd94a9eb3f::13" weight="0.9997772574424744" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="David Cameron::Entity::Q192" target="replaces::Predicate::q264766-55acabfadc533a8ac073600d5cac497b::11" weight="0.999767005443573" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="17" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-f29ca80e693deb767cf68c8e9252e993::9" weight="0.9997197985649109" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="18" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-11de22dcb6279273a68b709838457af3::8" weight="0.999716579914093" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="19" source="David Cameron::Entity::Q192" target="replaces::Predicate::q264766-c4a7f8463d9c59351112d48438533436::12" weight="0.999718964099884" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="2" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="end time::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::13" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="20" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-c34cec5d808f3f9d13813b8f1bb73cd7::13" weight="0.9996830224990845" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="21" source="David Cameron::Entity::Q192" target="position held::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::16" weight="0.9995953440666199" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="22" source="parliamentary term::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" target="56th United Kingdom Parliament::Entity::Q21084473" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="23" source="position held::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::18" target="end time::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::16" weight="0.9996552467346191" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="24" source="position held::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::18" target="parliamentary group::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::4" weight="0.9996552467346191" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="25" source="position held::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::18" target="parliamentary term::Predicate::q192-45d5be9e7d3ff73db1d689d3871607f2::4" weight="0.9996552467346191" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="26" source="position held::Predicate::q192-c366ea6538572f7c9ca8f706a6c0d6ef::12" target="end time::Predicate::q192-c366ea6538572f7c9ca8f706a6c0d6ef::11" weight="0.9997708201408386" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="27" source="position held::Predicate::q192-3506bd71cd8391fd087181a100e55f69::10" target="end time::Predicate::q192-3506bd71cd8391fd087181a100e55f69::9" weight="0.9997469782829285" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="28" source="position held::Predicate::q192-f29ca80e693deb767cf68c8e9252e993::9" target="end time::Predicate::q192-f29ca80e693deb767cf68c8e9252e993::8" weight="0.9997197985649109" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="29" source="position held::Predicate::q192-11de22dcb6279273a68b709838457af3::8" target="end time::Predicate::q192-11de22dcb6279273a68b709838457af3::7" weight="0.999716579914093" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="David Cameron::Entity::Q192" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="30" source="position held::Predicate::q192-c34cec5d808f3f9d13813b8f1bb73cd7::13" target="end time::Predicate::q192-c34cec5d808f3f9d13813b8f1bb73cd7::12" weight="0.9996830224990845" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="31" source="position held::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::16" target="end time::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::14" weight="0.9995953440666199" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="32" source="position held::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::16" target="parliamentary group::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::2" weight="0.9995953440666199" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="33" source="position held::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::16" target="parliamentary term::Predicate::q192-f148bddfba0244d9846d2a6b9b0597a3::2" weight="0.9995953440666199" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="4" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="parliamentary term::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="5" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="Member of the 56th Parliament of the United Kingdom::Entity::Q30524718" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="elected in::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="electoral district::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::3" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="end cause::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::1" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="position held::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::15" target="start time::Predicate::q192-1d7f5b0a2b27b0de5c9d101584f3a1ec::13" weight="0.999702513217926" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

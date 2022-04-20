@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Little White House::Entity::Q2714456" label="Little White House">
+        <attvalues>
+          <attvalue for="label" value="Little White House"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Oscar Arthur Moritz Lindauer::Entity::Q20656299" label="Oscar Arthur Moritz Lindauer">
+        <attvalues>
+          <attvalue for="label" value="Oscar Arthur Moritz Lindauer"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Who Said::Entity::Q6320999" label="Who Said">
+        <attvalues>
+          <attvalue for="label" value="Who Said"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::4" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q6320999-682ea38e627ccd2fb7b49af0f561f59d::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="death::Entity::Q4" label="death">
+        <attvalues>
+          <attvalue for="label" value="death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::8" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="significant event::Predicate::q2714456-27d2df5e7e958ca9df0ab5e668bbf7b8::3" label="significant event">
+        <attvalues>
+          <attvalue for="label" value="significant event"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="death::Entity::Q4" target="end cause::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::8" weight="0.5970102548599243" label="26"/>
+      <edge id="1" source="death::Entity::Q4" target="significant event::Predicate::q2714456-27d2df5e7e958ca9df0ab5e668bbf7b8::3" weight="0.9136167764663696" label="1"/>
+      <edge id="2" source="end cause::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::8" target="country of citizenship::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::4" weight="0.5970102548599243" label="26"/>
+      <edge id="3" source="country of citizenship::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::4" target="United States::Entity::Q30" weight="0.5970102548599243" label="26"/>
+      <edge id="4" source="country of citizenship::Predicate::q20656299-885c6e3cf259d011d945068ece9dc734::4" target="Oscar Arthur Moritz Lindauer::Entity::Q20656299" weight="0.5970102548599243" label="26"/>
+      <edge id="5" source="United States::Entity::Q30" target="country of origin::Predicate::q6320999-682ea38e627ccd2fb7b49af0f561f59d::1" weight="0.0008464189013466239" label="27"/>
+      <edge id="6" source="Who Said::Entity::Q6320999" target="country of origin::Predicate::q6320999-682ea38e627ccd2fb7b49af0f561f59d::1" weight="0.0008464189013466239" label="27"/>
+      <edge id="7" source="significant event::Predicate::q2714456-27d2df5e7e958ca9df0ab5e668bbf7b8::3" target="Little White House::Entity::Q2714456" weight="0.9136167764663696" label="1"/>
+    </edges>
+  </graph>
+</gexf>

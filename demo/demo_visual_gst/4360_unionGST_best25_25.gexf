@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="George Washington::Entity::Q23" label="George Washington">
+        <attvalues>
+          <attvalue for="label" value="George Washington" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Mount Vernon::Entity::Q731635" label="Mount Vernon">
+        <attvalues>
+          <attvalue for="label" value="Mount Vernon" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="New York City::Entity::Q60" label="New York City">
+        <attvalues>
+          <attvalue for="label" value="New York City" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Philadelphia::Entity::Q1345" label="Philadelphia">
+        <attvalues>
+          <attvalue for="label" value="Philadelphia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Presidency of George Washington::Entity::Q2824580" label="Presidency of George Washington">
+        <attvalues>
+          <attvalue for="label" value="Presidency of George Washington" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Virginia::Entity::Q1370" label="Virginia">
+        <attvalues>
+          <attvalue for="label" value="Virginia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Washington, D.C.::Entity::Q61" label="Washington, D.C.">
+        <attvalues>
+          <attvalue for="label" value="Washington, D.C." />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Washington, Virginia::Entity::Q1373453" label="Washington, Virginia">
+        <attvalues>
+          <attvalue for="label" value="Washington, Virginia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Westmoreland County, Virginia::Entity::Q494413" label="Westmoreland County, Virginia">
+        <attvalues>
+          <attvalue for="label" value="Westmoreland County, Virginia" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::3" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q2824580-2755aa0d0be66f055039ad2eb287d99f::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q2824580-8d60829893339ac8493c0a3f9d3641fe::2" label="location">
+        <attvalues>
+          <attvalue for="label" value="location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q1373453-44aec106c9ec9e45b9c9c091385f45c8::6" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q18217658-55f32fa560ebf27494113dfd681d5f1e::4" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="named after::Predicate::q2446223-8f74eecea77134465467579027c89fc4::2" label="named after">
+        <attvalues>
+          <attvalue for="label" value="named after" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="occupant::Predicate::q731635-981b2a59823e2f1c3d68ce5c52861c43::1" label="occupant">
+        <attvalues>
+          <attvalue for="label" value="occupant" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q23-9150a7693b26d4dceb3c841db679006a::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of burial::Predicate::q23-02c2567d862023950ce669125326726f::2" label="place of burial">
+        <attvalues>
+          <attvalue for="label" value="place of burial" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of burial::Predicate::q23-d26d8b839e905fde268fdba7b61d4e6f::1" label="place of burial">
+        <attvalues>
+          <attvalue for="label" value="place of burial" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q23-259c42a25b2d8c63fdd36809a0abac41::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::2" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q23-02c2567d862023950ce669125326726f::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q23-30a19a7849ede97e4a384ff40ea787c4::4" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q23-6d2a4716b400d08d84529ae03f8cec28::2" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q23-7153432ead5d7319ae66a0d7f8882d88::3" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q23-ff7cbf89f0075bc85d5c5ddd903b1079::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Presidency of George Washington::Entity::Q2824580" target="location::Predicate::q2824580-8d60829893339ac8493c0a3f9d3641fe::2" weight="0.9927117824554443" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="Presidency of George Washington::Entity::Q2824580" target="location::Predicate::q2824580-2755aa0d0be66f055039ad2eb287d99f::1" weight="0.9952781200408936" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="10" source="George Washington::Entity::Q23" target="place of burial::Predicate::q23-d26d8b839e905fde268fdba7b61d4e6f::1" weight="0.9942072629928589" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="George Washington::Entity::Q23" target="place of burial::Predicate::q23-02c2567d862023950ce669125326726f::2" weight="0.9941820502281189" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="George Washington::Entity::Q23" target="place of death::Predicate::q23-259c42a25b2d8c63fdd36809a0abac41::1" weight="0.9933598637580872" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="George Washington::Entity::Q23" target="named after::Predicate::q1373453-44aec106c9ec9e45b9c9c091385f45c8::6" weight="0.9927791953086853" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="George Washington::Entity::Q23" target="occupant::Predicate::q731635-981b2a59823e2f1c3d68ce5c52861c43::1" weight="0.991791844367981" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="George Washington::Entity::Q23" target="named after::Predicate::q2446223-8f74eecea77134465467579027c89fc4::2" weight="0.9892095923423767" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="George Washington::Entity::Q23" target="named after::Predicate::q18217658-55f32fa560ebf27494113dfd681d5f1e::4" weight="0.985509991645813" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="residence::Predicate::q23-ff7cbf89f0075bc85d5c5ddd903b1079::1" target="Westmoreland County, Virginia::Entity::Q494413" weight="0.9996364116668701" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="residence::Predicate::q23-30a19a7849ede97e4a384ff40ea787c4::4" target="Mount Vernon::Entity::Q731635" weight="0.9993240833282471" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="19" source="residence::Predicate::q23-7153432ead5d7319ae66a0d7f8882d88::3" target="New York City::Entity::Q60" weight="0.9991866946220398" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="2" source="location::Predicate::q2824580-8d60829893339ac8493c0a3f9d3641fe::2" target="Philadelphia::Entity::Q1345" weight="0.9927117824554443" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="location::Predicate::q2824580-2755aa0d0be66f055039ad2eb287d99f::1" target="Washington, D.C.::Entity::Q61" weight="0.9952781200408936" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="21" source="place of death::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::2" target="country::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::3" weight="0.9949414134025574" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="22" source="place of death::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::2" target="located in the administrative territorial entity::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::1" weight="0.9949414134025574" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="23" source="place of burial::Predicate::q23-02c2567d862023950ce669125326726f::2" target="point in time::Predicate::q23-02c2567d862023950ce669125326726f::1" weight="0.9941820502281189" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="24" source="named after::Predicate::q1373453-44aec106c9ec9e45b9c9c091385f45c8::6" target="Washington, Virginia::Entity::Q1373453" weight="0.9927791953086853" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="25" source="country::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::3" target="United States::Entity::Q30" weight="0.9949414134025574" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="located in the administrative territorial entity::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::1" target="Virginia::Entity::Q1370" weight="0.9949414134025574" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="Philadelphia::Entity::Q1345" target="residence::Predicate::q23-6d2a4716b400d08d84529ae03f8cec28::2" weight="0.9993519186973572" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="residence::Predicate::q23-6d2a4716b400d08d84529ae03f8cec28::2" target="George Washington::Entity::Q23" weight="0.9993519186973572" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="George Washington::Entity::Q23" target="residence::Predicate::q23-ff7cbf89f0075bc85d5c5ddd903b1079::1" weight="0.9996364116668701" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="George Washington::Entity::Q23" target="residence::Predicate::q23-30a19a7849ede97e4a384ff40ea787c4::4" weight="0.9993240833282471" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="George Washington::Entity::Q23" target="residence::Predicate::q23-7153432ead5d7319ae66a0d7f8882d88::3" weight="0.9991866946220398" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="8" source="George Washington::Entity::Q23" target="place of death::Predicate::q23-ecb5ea85e86cd6a97731525d7ae50256::2" weight="0.9949414134025574" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="George Washington::Entity::Q23" target="place of birth::Predicate::q23-9150a7693b26d4dceb3c841db679006a::1" weight="0.9946112632751465" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

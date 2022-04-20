@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1991-06-01::Entity::1991-06-01T00:00:00Z" label="1991-06-01">
+        <attvalues>
+          <attvalue for="label" value="1991-06-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2003-01-24::Entity::2003-01-24T00:00:00Z" label="2003-01-24">
+        <attvalues>
+          <attvalue for="label" value="2003-01-24" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Francesco Cossiga::Entity::Q1230" label="Francesco Cossiga">
+        <attvalues>
+          <attvalue for="label" value="Francesco Cossiga" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Gianni Agnelli::Entity::Q356351" label="Gianni Agnelli">
+        <attvalues>
+          <attvalue for="label" value="Gianni Agnelli" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Marella Agnelli::Entity::Q3290404" label="Marella Agnelli">
+        <attvalues>
+          <attvalue for="label" value="Marella Agnelli" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="appointed by::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" label="appointed by">
+        <attvalues>
+          <attvalue for="label" value="appointed by" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="calendar date::Entity::Q205892" label="calendar date">
+        <attvalues>
+          <attvalue for="label" value="calendar date" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q356351-239ea355e8ed92334641e4a9cbe63958::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q356351-81c115cc0172c421b67801e9735ac940::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q356351-96a1dd20cb26234c988e9e96532dca65::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q356351-53997393b38396f6bd7f681163636fa1::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="death::Entity::Q4" label="death">
+        <attvalues>
+          <attvalue for="label" value="death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end cause::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" label="end cause">
+        <attvalues>
+          <attvalue for="label" value="end cause" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Entity::Q24575125" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::10" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q356351-239ea355e8ed92334641e4a9cbe63958::7" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::6" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::9" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="expiration date::Entity::Q898931" label="expiration date">
+        <attvalues>
+          <attvalue for="label" value="expiration date" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="father::Predicate::q356351-4ad6762a327e3f5392a9b504d0b92a4a::1" label="father">
+        <attvalues>
+          <attvalue for="label" value="father" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="mother::Predicate::q356351-0c2ca265e6897c97ab7f6548cfd8967a::1" label="mother">
+        <attvalues>
+          <attvalue for="label" value="mother" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="senatore a vita::Entity::Q826589" label="senatore a vita">
+        <attvalues>
+          <attvalue for="label" value="senatore a vita" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q356351-55897da1b01a5ec6ce12454b27433586::2" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q356351-70d7e519abbc522291f0444630bb36c8::1" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sibling::Predicate::q356351-8c1b445c40350617a881b0b242077fcb::3" label="sibling">
+        <attvalues>
+          <attvalue for="label" value="sibling" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::10" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::6" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::9" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q24575125-a019acbf0e69204a33334d1a009510f1::2" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q898931-f935d3d7b4c6c291ec82103bb361758a::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="end time::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::6" target="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="end time::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::6" target="2003-01-24::Entity::2003-01-24T00:00:00Z" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="Gianni Agnelli::Entity::Q356351" target="country of citizenship::Predicate::q356351-239ea355e8ed92334641e4a9cbe63958::1" weight="0.007713827770203352" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="Gianni Agnelli::Entity::Q356351" target="date of birth::Predicate::q356351-96a1dd20cb26234c988e9e96532dca65::1" weight="0.0015168273821473122" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="Gianni Agnelli::Entity::Q356351" target="country of citizenship::Predicate::q356351-81c115cc0172c421b67801e9735ac940::2" weight="0.0019355640979483724" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Gianni Agnelli::Entity::Q356351" target="father::Predicate::q356351-4ad6762a327e3f5392a9b504d0b92a4a::1" weight="0.0017448430880904198" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Gianni Agnelli::Entity::Q356351" target="sibling::Predicate::q356351-70d7e519abbc522291f0444630bb36c8::1" weight="0.001517173950560391" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Gianni Agnelli::Entity::Q356351" target="mother::Predicate::q356351-0c2ca265e6897c97ab7f6548cfd8967a::1" weight="0.0014535298105329275" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Gianni Agnelli::Entity::Q356351" target="sibling::Predicate::q356351-55897da1b01a5ec6ce12454b27433586::2" weight="0.0013871671399101615" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Gianni Agnelli::Entity::Q356351" target="sibling::Predicate::q356351-8c1b445c40350617a881b0b242077fcb::3" weight="0.0012970446841791272" label="25"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="end cause::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="death::Entity::Q4" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="start time::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::6" target="1991-06-01::Entity::1991-06-01T00:00:00Z" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="Gianni Agnelli::Entity::Q356351" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="2003-01-24::Entity::2003-01-24T00:00:00Z" target="end time::Predicate::q356351-239ea355e8ed92334641e4a9cbe63958::7" weight="0.007713827770203352" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="21" source="appointed by::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="Francesco Cossiga::Entity::Q1230" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="22" source="spouse::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::1" target="end time::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::9" weight="0.020281178876757622" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="23" source="spouse::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::1" target="start time::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::9" weight="0.020281178876757622" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="24" source="spouse::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::1" target="Marella Agnelli::Entity::Q3290404" weight="0.020281178876757622" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="25" source="spouse::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::2" target="end time::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::10" weight="0.011176270432770252" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="26" source="spouse::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::2" target="start time::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::10" weight="0.011176270432770252" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="27" source="calendar date::Entity::Q205892" target="subclass of::Predicate::q898931-f935d3d7b4c6c291ec82103bb361758a::1" weight="0.003251607296988368" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="28" source="calendar date::Entity::Q205892" target="subclass of::Predicate::q24575125-a019acbf0e69204a33334d1a009510f1::2" weight="0.0021004085429012775" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="29" source="subclass of::Predicate::q898931-f935d3d7b4c6c291ec82103bb361758a::1" target="expiration date::Entity::Q898931" weight="0.003251607296988368" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="end cause::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="30" source="subclass of::Predicate::q24575125-a019acbf0e69204a33334d1a009510f1::2" target="end time::Entity::Q24575125" weight="0.0021004085429012775" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="4" source="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="start time::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::6" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="appointed by::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="position held::Predicate::q356351-54f7df7143d91c21e329bc64aac0d536::1" target="senatore a vita::Entity::Q826589" weight="0.9994799494743347" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="Gianni Agnelli::Entity::Q356351" target="date of death::Predicate::q356351-53997393b38396f6bd7f681163636fa1::1" weight="0.765302300453186" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="Gianni Agnelli::Entity::Q356351" target="spouse::Predicate::q356351-b17d5ae5a54793f91b20c14759c0ceff::1" weight="0.020281178876757622" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="9" source="Gianni Agnelli::Entity::Q356351" target="spouse::Predicate::q3290404-dcbd4eb99f9a6ca2d6d6298cf9890bdf::2" weight="0.011176270432770252" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+    </edges>
+  </graph>
+</gexf>

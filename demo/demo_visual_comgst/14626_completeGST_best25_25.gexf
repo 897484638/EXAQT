@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1969 World Series::Entity::Q1144500" label="1969 World Series">
+        <attvalues>
+          <attvalue for="label" value="1969 World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1970 World Series::Entity::Q4295895" label="1970 World Series">
+        <attvalues>
+          <attvalue for="label" value="1970 World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="1971 World Series::Entity::Q4295896" label="1971 World Series">
+        <attvalues>
+          <attvalue for="label" value="1971 World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Baltimore Orioles::Entity::Q650816" label="Baltimore Orioles">
+        <attvalues>
+          <attvalue for="label" value="Baltimore Orioles" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="World Series::Entity::Q265538" label="World Series">
+        <attvalues>
+          <attvalue for="label" value="World Series" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="follows::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" label="follows">
+        <attvalues>
+          <attvalue for="label" value="follows" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="sports season of league or competition::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" label="sports season of league or competition">
+        <attvalues>
+          <attvalue for="label" value="sports season of league or competition" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="victory::Predicate::q650816-7686a8366979d243b759ff8353e81c5f::1" label="victory">
+        <attvalues>
+          <attvalue for="label" value="victory" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q4295895-03a9572e20776eabd965c3909d4e7278::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="winner::Predicate::q4295895-03a9572e20776eabd965c3909d4e7278::1" target="1970 World Series::Entity::Q4295895" weight="0.9984439015388489" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="1" source="winner::Predicate::q4295895-03a9572e20776eabd965c3909d4e7278::1" target="Baltimore Orioles::Entity::Q650816" weight="0.9984439015388489" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="10" source="sports season of league or competition::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" target="World Series::Entity::Q265538" weight="0.9985525012016296" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="11" source="follows::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" target="1969 World Series::Entity::Q1144500" weight="0.9985017776489258" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="2" source="1970 World Series::Entity::Q4295895" target="victory::Predicate::q650816-7686a8366979d243b759ff8353e81c5f::1" weight="0.9978038668632507" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="1970 World Series::Entity::Q4295895" target="follows::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" weight="0.9985525012016296" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="1970 World Series::Entity::Q4295895" target="sports season of league or competition::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" weight="0.9985017776489258" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="victory::Predicate::q650816-7686a8366979d243b759ff8353e81c5f::1" target="Baltimore Orioles::Entity::Q650816" weight="0.9978038668632507" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="follows::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" target="sports season of league or competition::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" weight="0.9985525012016296" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="sports season of league or competition::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" target="World Series::Entity::Q265538" weight="0.9985017776489258" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="sports season of league or competition::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" target="follows::Predicate::q4295895-50e9817dcb80e84cda8ff730c128f6c0::1" weight="0.9985017776489258" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="sports season of league or competition::Predicate::q4295896-eaf25fefc8eb3cc27feb8c318cf82c77::2" target="1971 World Series::Entity::Q4295896" weight="0.9985525012016296" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

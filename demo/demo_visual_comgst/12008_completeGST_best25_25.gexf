@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Avril Lavigne::Entity::Q30449" label="Avril Lavigne">
+        <attvalues>
+          <attvalue for="label" value="Avril Lavigne" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Belleville::Entity::Q34227" label="Belleville">
+        <attvalues>
+          <attvalue for="label" value="Belleville" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Canada::Entity::Q16" label="Canada">
+        <attvalues>
+          <attvalue for="label" value="Canada" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="France::Entity::Q142" label="France">
+        <attvalues>
+          <attvalue for="label" value="France" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Los Angeles::Entity::Q65" label="Los Angeles">
+        <attvalues>
+          <attvalue for="label" value="Los Angeles" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q30449-0caaae8e384f1bbbf64df75aa9c2cb42::2" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q30449-143ef2896b5551363f9ba11de8c5476e::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="place of birth::Predicate::q30449-48b9e969c21f50d06679f1b7b207e149::1" label="place of birth">
+        <attvalues>
+          <attvalue for="label" value="place of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q30449-0a5e6b08bcd8194e760d48bc308ee007::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="work location::Predicate::q30449-526fe43589b706c9af82ac004874e5e6::1" label="work location">
+        <attvalues>
+          <attvalue for="label" value="work location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="residence::Predicate::q30449-0a5e6b08bcd8194e760d48bc308ee007::1" target="Avril Lavigne::Entity::Q30449" weight="0.9996567964553833" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="residence::Predicate::q30449-0a5e6b08bcd8194e760d48bc308ee007::1" target="Los Angeles::Entity::Q65" weight="0.9996567964553833" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Avril Lavigne::Entity::Q30449" target="work location::Predicate::q30449-526fe43589b706c9af82ac004874e5e6::1" weight="0.9959141612052917" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Avril Lavigne::Entity::Q30449" target="place of birth::Predicate::q30449-48b9e969c21f50d06679f1b7b207e149::1" weight="0.9912089109420776" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="4" source="Avril Lavigne::Entity::Q30449" target="country of citizenship::Predicate::q30449-0caaae8e384f1bbbf64df75aa9c2cb42::2" weight="0.7997588515281677" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="Avril Lavigne::Entity::Q30449" target="country of citizenship::Predicate::q30449-143ef2896b5551363f9ba11de8c5476e::1" weight="0.7978122234344482" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="Los Angeles::Entity::Q65" target="work location::Predicate::q30449-526fe43589b706c9af82ac004874e5e6::1" weight="0.9959141612052917" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="7" source="place of birth::Predicate::q30449-48b9e969c21f50d06679f1b7b207e149::1" target="Belleville::Entity::Q34227" weight="0.9912089109420776" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="8" source="country of citizenship::Predicate::q30449-0caaae8e384f1bbbf64df75aa9c2cb42::2" target="France::Entity::Q142" weight="0.7997588515281677" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="9" source="country of citizenship::Predicate::q30449-143ef2896b5551363f9ba11de8c5476e::1" target="Canada::Entity::Q16" weight="0.7978122234344482" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+    </edges>
+  </graph>
+</gexf>

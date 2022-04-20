@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2004-01-01::Entity::2004-01-01T00:00:00Z" label="2004-01-01">
+        <attvalues>
+          <attvalue for="label" value="2004-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2019-01-01::Entity::2019-01-01T00:00:00Z" label="2019-01-01">
+        <attvalues>
+          <attvalue for="label" value="2019-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Billie Eilish::Entity::Q29564107" label="Billie Eilish">
+        <attvalues>
+          <attvalue for="label" value="Billie Eilish" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="MTV Europe Music Award for Best New Act::Entity::Q38430" label="MTV Europe Music Award for Best New Act">
+        <attvalues>
+          <attvalue for="label" value="MTV Europe Music Award for Best New Act" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Maroon 5::Entity::Q182223" label="Maroon 5">
+        <attvalues>
+          <attvalue for="label" value="Maroon 5" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Weezer::Entity::Q209956" label="Weezer">
+        <attvalues>
+          <attvalue for="label" value="Weezer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q531771-43d3fbba9ed9e853a70c058fa24654e5::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q16853301-1c93eaf5747b37c9a98c19369fce21b9::14" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-223a1798137853661e50eccf2f579899::7" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-31611e6443751a8e360a9c63be434355::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-41eafdb51b7c2cd6a5e899885ce259c7::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-4a670a32f87902b05caa9eb9b11c70a2::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-4f249e3c671d5f0ffa5c3accb2bba19e::10" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-99394c6143dd88c9c481a38bbcd0482d::8" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-c8eb86eb0f066f46f7e360f9a04938b4::9" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-f6f75e530abade6b52f8d37f3a24b617::5" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q209956-ff8461ff669ac20fd51bd01058d27d13::4" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q16853301-1c93eaf5747b37c9a98c19369fce21b9::17" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::23" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q209956-223a1798137853661e50eccf2f579899::7" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q209956-41eafdb51b7c2cd6a5e899885ce259c7::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q209956-4a670a32f87902b05caa9eb9b11c70a2::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q209956-99394c6143dd88c9c481a38bbcd0482d::8" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q209956-ff8461ff669ac20fd51bd01058d27d13::4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::19" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q531771-43d3fbba9ed9e853a70c058fa24654e5::20" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="nominated for::Predicate::q209956-41eafdb51b7c2cd6a5e899885ce259c7::3" target="Weezer::Entity::Q209956" weight="0.9994271993637085" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="nominated for::Predicate::q209956-41eafdb51b7c2cd6a5e899885ce259c7::3" target="MTV Europe Music Award for Best New Act::Entity::Q38430" weight="0.9994271993637085" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="10" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-4f249e3c671d5f0ffa5c3accb2bba19e::10" weight="0.9995638728141785" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="MTV Europe Music Award for Best New Act::Entity::Q38430" target="award received::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::3" weight="0.9997149109840393" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="12" source="MTV Europe Music Award for Best New Act::Entity::Q38430" target="award received::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" weight="0.9996825456619263" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="13" source="MTV Europe Music Award for Best New Act::Entity::Q38430" target="award received::Predicate::q531771-43d3fbba9ed9e853a70c058fa24654e5::2" weight="0.9996455907821655" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="14" source="MTV Europe Music Award for Best New Act::Entity::Q38430" target="nominated for::Predicate::q16853301-1c93eaf5747b37c9a98c19369fce21b9::14" weight="0.999626874923706" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="15" source="point in time::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::23" target="award received::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::3" weight="0.9997149109840393" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="16" source="point in time::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::23" target="2004-01-01::Entity::2004-01-01T00:00:00Z" weight="0.9997149109840393" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="17" source="award received::Predicate::q182223-3d70eb54ee7d2077876d49959341f897::3" target="Maroon 5::Entity::Q182223" weight="0.9997149109840393" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="18" source="award received::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" target="point in time::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::19" weight="0.9996825456619263" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="19" source="award received::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" target="Billie Eilish::Entity::Q29564107" weight="0.9996825456619263" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="2" source="nominated for::Predicate::q209956-41eafdb51b7c2cd6a5e899885ce259c7::3" target="point in time::Predicate::q209956-41eafdb51b7c2cd6a5e899885ce259c7::3" weight="0.9994271993637085" label="22"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="20" source="award received::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" target="statement is subject of::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::1" weight="0.9996825456619263" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="21" source="point in time::Predicate::q29564107-0bf02d313e9de99e0d48b0766a5959f6::19" target="2019-01-01::Entity::2019-01-01T00:00:00Z" weight="0.9996825456619263" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="22" source="award received::Predicate::q531771-43d3fbba9ed9e853a70c058fa24654e5::2" target="point in time::Predicate::q531771-43d3fbba9ed9e853a70c058fa24654e5::20" weight="0.9996455907821655" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="23" source="nominated for::Predicate::q209956-99394c6143dd88c9c481a38bbcd0482d::8" target="point in time::Predicate::q209956-99394c6143dd88c9c481a38bbcd0482d::8" weight="0.9997170567512512" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="nominated for::Predicate::q209956-ff8461ff669ac20fd51bd01058d27d13::4" target="point in time::Predicate::q209956-ff8461ff669ac20fd51bd01058d27d13::4" weight="0.999687671661377" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="25" source="nominated for::Predicate::q209956-4a670a32f87902b05caa9eb9b11c70a2::1" target="point in time::Predicate::q209956-4a670a32f87902b05caa9eb9b11c70a2::1" weight="0.9996366500854492" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="26" source="nominated for::Predicate::q209956-223a1798137853661e50eccf2f579899::7" target="point in time::Predicate::q209956-223a1798137853661e50eccf2f579899::7" weight="0.9996337890625" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="27" source="nominated for::Predicate::q16853301-1c93eaf5747b37c9a98c19369fce21b9::14" target="point in time::Predicate::q16853301-1c93eaf5747b37c9a98c19369fce21b9::17" weight="0.999626874923706" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="3" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-99394c6143dd88c9c481a38bbcd0482d::8" weight="0.9997170567512512" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-ff8461ff669ac20fd51bd01058d27d13::4" weight="0.999687671661377" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-4a670a32f87902b05caa9eb9b11c70a2::1" weight="0.9996366500854492" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-223a1798137853661e50eccf2f579899::7" weight="0.9996337890625" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-c8eb86eb0f066f46f7e360f9a04938b4::9" weight="0.9996121525764465" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-31611e6443751a8e360a9c63be434355::2" weight="0.9996073842048645" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Weezer::Entity::Q209956" target="nominated for::Predicate::q209956-f6f75e530abade6b52f8d37f3a24b617::5" weight="0.9995924830436707" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+    </edges>
+  </graph>
+</gexf>

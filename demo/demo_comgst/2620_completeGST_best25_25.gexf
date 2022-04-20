@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1977-12-09::Entity::1977-12-09T00:00:00Z" label="1977-12-09">
+        <attvalues>
+          <attvalue for="label" value="1977-12-09"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="Comoros::Entity::Q970" label="Comoros">
+        <attvalues>
+          <attvalue for="label" value="Comoros"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="France::Entity::Q142" label="France">
+        <attvalues>
+          <attvalue for="label" value="France"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="International Development Association::Entity::Q827525" label="International Development Association">
+        <attvalues>
+          <attvalue for="label" value="International Development Association"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q142-8d62b7a83aec69ffef3c13242d40256d::8" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="International Development Association::Entity::Q827525" target="member of::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" weight="0.9976832866668701" label="1"/>
+      <edge id="1" source="International Development Association::Entity::Q827525" target="member of::Predicate::q142-8d62b7a83aec69ffef3c13242d40256d::8" weight="0.9947315454483032" label="2"/>
+      <edge id="2" source="member of::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" target="Comoros::Entity::Q970" weight="0.9976832866668701" label="1"/>
+      <edge id="3" source="member of::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" target="start time::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" weight="0.9976832866668701" label="1"/>
+      <edge id="4" source="start time::Predicate::q970-f803fd890fdfb4b511c634deac3988a6::18" target="1977-12-09::Entity::1977-12-09T00:00:00Z" weight="0.9976832866668701" label="1"/>
+      <edge id="5" source="member of::Predicate::q142-8d62b7a83aec69ffef3c13242d40256d::8" target="France::Entity::Q142" weight="0.9947315454483032" label="2"/>
+    </edges>
+  </graph>
+</gexf>

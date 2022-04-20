@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>Relational Graph</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="Relational Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="rank" title="Rank" type="string">
+        <default>none</default>
+      </attribute>
+      <attribute id="seed" title="Seed" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="top" title="Top5" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>nondate</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Q213417" label="New York Yankees">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="1"/>
+        </attvalues>
+      </node>
+      <node id="Q335169" label="Chicago White Sox">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="3"/>
+        </attvalues>
+      </node>
+      <node id="Q461595" label="Atlanta Braves">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="4"/>
+        </attvalues>
+      </node>
+      <node id="Q466586" label="Seattle Mariners">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="5"/>
+        </attvalues>
+      </node>
+      <node id="Q5365718" label="Ken Griffey, Sr.">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q5369" label="baseball">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q536900" label="Ken Griffey Jr.">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="false"/>
+          <attvalue for="rank" value="none"/>
+        </attvalues>
+      </node>
+      <node id="Q826751" label="Cincinnati Reds">
+        <attvalues>
+          <attvalue for="type" value="nondate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="top" value="true"/>
+          <attvalue for="rank" value="2"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Q5365718" target="Q5369" weight="0.0655679777264595: non-temporal predicate" label="sport: 2"/>
+      <edge id="1" source="Q5365718" target="Q826751" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="2" source="Q5365718" target="Q213417" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="3" source="Q5365718" target="Q461595" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="4" source="Q5365718" target="Q466586" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="5" source="Q536900" target="Q5369" weight="0.0655679777264595: non-temporal predicate" label="sport: 2"/>
+      <edge id="6" source="Q536900" target="Q826751" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="7" source="Q536900" target="Q213417" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="8" source="Q536900" target="Q466586" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+      <edge id="9" source="Q536900" target="Q335169" weight="1.0: non-temporal predicate" label="member of sports team: 1"/>
+    </edges>
+  </graph>
+</gexf>

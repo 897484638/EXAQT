@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Berlin::Entity::Q64" label="Berlin">
+        <attvalues>
+          <attvalue for="label" value="Berlin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Bonn::Entity::Q586" label="Bonn">
+        <attvalues>
+          <attvalue for="label" value="Bonn"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Capital of Germany::Entity::Q5035711" label="Capital of Germany">
+        <attvalues>
+          <attvalue for="label" value="Capital of Germany"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="German Empire::Entity::Q43287" label="German Empire">
+        <attvalues>
+          <attvalue for="label" value="German Empire"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="German Papiermark::Entity::Q705983" label="German Papiermark">
+        <attvalues>
+          <attvalue for="label" value="German Papiermark"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Germany::Entity::Q183" label="Germany">
+        <attvalues>
+          <attvalue for="label" value="Germany"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="capital of::Predicate::q64-00fe9cf1cc7add30eab7970d799427f7::1" label="capital of">
+        <attvalues>
+          <attvalue for="label" value="capital of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q183-08b3a77040b81073c3c57c0cf607296f::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::2" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q43287-db0645982a6b566c3360410a58f540ff::3" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="city-state::Entity::Q133442" label="city-state">
+        <attvalues>
+          <attvalue for="label" value="city-state"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q1726-dfbe5c32306f53a9904aeb583276d0bf::14" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q1733-d7aa84c4a39b5b3b49197e1589e59973::15" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q1794-8a0d1d42c7a564ee17ec0ce20bf16e10::6" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q2492-138e9f965ce06447c3ed0c44af8d2cee::13" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q2973-0b40564a0fac47c65c8986560d3ab7d8::7" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q3104-f5877e8fbef827258408f543a54ef6d5::17" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q4024-0a7771a200a6047eaafb500ee75ba5d1::9" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q64-e8270d62a791528bc5b167302f287843::3" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q695052-3b64956d86ce40dade9513ddceb8a823::11" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q64-e8270d62a791528bc5b167302f287843::4" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::13" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q5035711-11456c90021ce3a17b78472d24e75778::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q64-bef84898b4987d3cd6664d95905ad401::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q64-e8270d62a791528bc5b167302f287843::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="capital::Predicate::q183-08b3a77040b81073c3c57c0cf607296f::1" target="Germany::Entity::Q183" weight="0.978413462638855" label="1"/>
+      <edge id="1" source="capital::Predicate::q183-08b3a77040b81073c3c57c0cf607296f::1" target="Berlin::Entity::Q64" weight="0.978413462638855" label="1"/>
+      <edge id="10" source="German Empire::Entity::Q43287" target="country::Predicate::q3104-f5877e8fbef827258408f543a54ef6d5::17" weight="0.9022003412246704" label="12"/>
+      <edge id="11" source="German Empire::Entity::Q43287" target="country::Predicate::q1794-8a0d1d42c7a564ee17ec0ce20bf16e10::6" weight="0.8909487128257751" label="13"/>
+      <edge id="12" source="German Empire::Entity::Q43287" target="country::Predicate::q1733-d7aa84c4a39b5b3b49197e1589e59973::15" weight="0.8908258080482483" label="14"/>
+      <edge id="13" source="German Empire::Entity::Q43287" target="country::Predicate::q4024-0a7771a200a6047eaafb500ee75ba5d1::9" weight="0.8906610012054443" label="15"/>
+      <edge id="14" source="German Empire::Entity::Q43287" target="country::Predicate::q695052-3b64956d86ce40dade9513ddceb8a823::11" weight="0.8901327252388" label="16"/>
+      <edge id="15" source="Berlin::Entity::Q64" target="instance of::Predicate::q64-bef84898b4987d3cd6664d95905ad401::1" weight="0.9376546144485474" label="7"/>
+      <edge id="16" source="capital::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::2" target="Bonn::Entity::Q586" weight="0.9409551620483398" label="6"/>
+      <edge id="17" source="capital::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::2" target="end time::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::1" weight="0.9409551620483398" label="6"/>
+      <edge id="18" source="capital::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::2" target="start time::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::1" weight="0.9409551620483398" label="6"/>
+      <edge id="19" source="capital::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::2" target="statement is subject of::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::1" weight="0.9409551620483398" label="6"/>
+      <edge id="2" source="Germany::Entity::Q183" target="capital::Predicate::q183-aef81e1fd16579504821390c1bbbaefc::2" weight="0.9409551620483398" label="6"/>
+      <edge id="20" source="country::Predicate::q64-e8270d62a791528bc5b167302f287843::3" target="end time::Predicate::q64-e8270d62a791528bc5b167302f287843::4" weight="0.9510631561279297" label="4"/>
+      <edge id="21" source="country::Predicate::q64-e8270d62a791528bc5b167302f287843::3" target="start time::Predicate::q64-e8270d62a791528bc5b167302f287843::4" weight="0.9510631561279297" label="4"/>
+      <edge id="22" source="country::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" target="German Papiermark::Entity::Q705983" weight="0.9468591809272766" label="5"/>
+      <edge id="23" source="country::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" target="end time::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::13" weight="0.9468591809272766" label="5"/>
+      <edge id="24" source="country::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" target="start time::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" weight="0.9468591809272766" label="5"/>
+      <edge id="25" source="Capital of Germany::Entity::Q5035711" target="instance of::Predicate::q5035711-11456c90021ce3a17b78472d24e75778::2" weight="0.90674889087677" label="10"/>
+      <edge id="26" source="instance of::Predicate::q5035711-11456c90021ce3a17b78472d24e75778::2" target="city-state::Entity::Q133442" weight="0.90674889087677" label="10"/>
+      <edge id="3" source="capital::Predicate::q43287-db0645982a6b566c3360410a58f540ff::3" target="German Empire::Entity::Q43287" weight="0.9761618971824646" label="2"/>
+      <edge id="4" source="German Empire::Entity::Q43287" target="capital of::Predicate::q64-00fe9cf1cc7add30eab7970d799427f7::1" weight="0.9701154828071594" label="3"/>
+      <edge id="5" source="German Empire::Entity::Q43287" target="country::Predicate::q64-e8270d62a791528bc5b167302f287843::3" weight="0.9510631561279297" label="4"/>
+      <edge id="6" source="German Empire::Entity::Q43287" target="country::Predicate::q705983-b5800adb4a4de1613809a4d2143137eb::12" weight="0.9468591809272766" label="5"/>
+      <edge id="7" source="German Empire::Entity::Q43287" target="country::Predicate::q2973-0b40564a0fac47c65c8986560d3ab7d8::7" weight="0.9358100891113281" label="8"/>
+      <edge id="8" source="German Empire::Entity::Q43287" target="country::Predicate::q1726-dfbe5c32306f53a9904aeb583276d0bf::14" weight="0.9227186441421509" label="9"/>
+      <edge id="9" source="German Empire::Entity::Q43287" target="country::Predicate::q2492-138e9f965ce06447c3ed0c44af8d2cee::13" weight="0.9037666320800781" label="11"/>
+    </edges>
+  </graph>
+</gexf>

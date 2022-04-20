@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2010 NBA Finals::Entity::Q644353" label="2010 NBA Finals">
+        <attvalues>
+          <attvalue for="label" value="2010 NBA Finals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Basketball::Entity::Q5372" label="Basketball">
+        <attvalues>
+          <attvalue for="label" value="Basketball"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Los Angeles Lakers::Entity::Q121783" label="Los Angeles Lakers">
+        <attvalues>
+          <attvalue for="label" value="Los Angeles Lakers"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="MedNet::Entity::Q21149834" label="MedNet">
+        <attvalues>
+          <attvalue for="label" value="MedNet"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="NBA Finals::Entity::Q842375" label="NBA Finals">
+        <attvalues>
+          <attvalue for="label" value="NBA Finals"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="World Health Organization::Entity::Q7817" label="World Health Organization">
+        <attvalues>
+          <attvalue for="label" value="World Health Organization"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q644353-3d59ae076f61395dc5f3c540917c84ae::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q40057199-96e79cf63138a345963e1bc9c6dc68ba::4" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="employer::Predicate::q42758485-8847877b9e871f8a1249f2d19e96adc0::5" label="employer">
+        <attvalues>
+          <attvalue for="label" value="employer"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q192373-97efbe72416efaebce0992619f1decf7::1" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="founded by::Predicate::q233249-af9eb939783c3d0856071afe6f3d4f73::2" label="founded by">
+        <attvalues>
+          <attvalue for="label" value="founded by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q20850509-d673412cb7b729b579acaa32e2ace13d::4" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q644353-694a2a8c5e156fb81cc76c58152d977d::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q15751858-90d7495e1247aae4cffe8bd7809007e4::1" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q21149834-dddf4b1a41464bb255b7974da1aa6df4::3" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="owned by::Predicate::q5937394-d40edb17592386998bb3ae66cd48b727::2" label="owned by">
+        <attvalues>
+          <attvalue for="label" value="owned by"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="owner of::Predicate::q7817-fff6d638af169a6b77e08c82a1a566de::1" label="owner of">
+        <attvalues>
+          <attvalue for="label" value="owner of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="ownership::Entity::Q6498684" label="ownership">
+        <attvalues>
+          <attvalue for="label" value="ownership"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q644353-001a4d8dd1b49630d25fddb43bbffed9::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="privately owned::Entity::Q20850509" label="privately owned">
+        <attvalues>
+          <attvalue for="label" value="privately owned"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="sport::Predicate::q644353-2620df5c5bc65f2a0042796e6665eb6f::1" label="sport">
+        <attvalues>
+          <attvalue for="label" value="sport"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subclass of::Predicate::q5372-a79a890504aac846a0008cdfd6868d5f::1" label="subclass of">
+        <attvalues>
+          <attvalue for="label" value="subclass of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q7817-041915da193b37af11edbf6d34f78f27::1" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q7817-4c6ec3ec57b51d99a3f81182fbdb9161::3" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="subsidiary::Predicate::q7817-bd198a6012d86ca776e639820152f26a::2" label="subsidiary">
+        <attvalues>
+          <attvalue for="label" value="subsidiary"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="team sport::Entity::Q216048" label="team sport">
+        <attvalues>
+          <attvalue for="label" value="team sport"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q644353-4e391656888e71fe20c2f9d72715ff73::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="owner of::Predicate::q7817-fff6d638af169a6b77e08c82a1a566de::1" target="World Health Organization::Entity::Q7817" weight="0.011975285597145557" label="6"/>
+      <edge id="1" source="owner of::Predicate::q7817-fff6d638af169a6b77e08c82a1a566de::1" target="MedNet::Entity::Q21149834" weight="0.011975285597145557" label="6"/>
+      <edge id="10" source="World Health Organization::Entity::Q7817" target="founded by::Predicate::q192373-97efbe72416efaebce0992619f1decf7::1" weight="0.003844793187454343" label="11"/>
+      <edge id="11" source="World Health Organization::Entity::Q7817" target="founded by::Predicate::q233249-af9eb939783c3d0856071afe6f3d4f73::2" weight="0.0035386676900088787" label="13"/>
+      <edge id="12" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q40057199-96e79cf63138a345963e1bc9c6dc68ba::4" weight="0.0033301468938589096" label="15"/>
+      <edge id="13" source="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" target="United States::Entity::Q30" weight="0.0017568891635164618" label="26"/>
+      <edge id="14" source="United States::Entity::Q30" target="country::Predicate::q644353-3d59ae076f61395dc5f3c540917c84ae::1" weight="0.7375707030296326" label="3"/>
+      <edge id="15" source="country::Predicate::q644353-3d59ae076f61395dc5f3c540917c84ae::1" target="2010 NBA Finals::Entity::Q644353" weight="0.7375707030296326" label="3"/>
+      <edge id="16" source="2010 NBA Finals::Entity::Q644353" target="sport::Predicate::q644353-2620df5c5bc65f2a0042796e6665eb6f::1" weight="0.044310539960861206" label="5"/>
+      <edge id="17" source="2010 NBA Finals::Entity::Q644353" target="winner::Predicate::q644353-4e391656888e71fe20c2f9d72715ff73::1" weight="0.9965003728866577" label="1"/>
+      <edge id="18" source="2010 NBA Finals::Entity::Q644353" target="instance of::Predicate::q644353-694a2a8c5e156fb81cc76c58152d977d::1" weight="0.9087678790092468" label="2"/>
+      <edge id="19" source="2010 NBA Finals::Entity::Q644353" target="point in time::Predicate::q644353-001a4d8dd1b49630d25fddb43bbffed9::1" weight="0.30633190274238586" label="4"/>
+      <edge id="2" source="World Health Organization::Entity::Q7817" target="country::Predicate::q7817-a08b01ed4697723cce2779e7c29e7dd4::2" weight="0.0017568891635164618" label="26"/>
+      <edge id="20" source="team sport::Entity::Q216048" target="subclass of::Predicate::q5372-a79a890504aac846a0008cdfd6868d5f::1" weight="0.0010157745564356446" label="27"/>
+      <edge id="21" source="subclass of::Predicate::q5372-a79a890504aac846a0008cdfd6868d5f::1" target="Basketball::Entity::Q5372" weight="0.0010157745564356446" label="27"/>
+      <edge id="22" source="Basketball::Entity::Q5372" target="sport::Predicate::q644353-2620df5c5bc65f2a0042796e6665eb6f::1" weight="0.044310539960861206" label="5"/>
+      <edge id="23" source="winner::Predicate::q644353-4e391656888e71fe20c2f9d72715ff73::1" target="Los Angeles Lakers::Entity::Q121783" weight="0.9965003728866577" label="1"/>
+      <edge id="24" source="instance of::Predicate::q644353-694a2a8c5e156fb81cc76c58152d977d::1" target="NBA Finals::Entity::Q842375" weight="0.9087678790092468" label="2"/>
+      <edge id="25" source="ownership::Entity::Q6498684" target="instance of::Predicate::q20850509-d673412cb7b729b579acaa32e2ace13d::4" weight="0.0037269333843141794" label="12"/>
+      <edge id="26" source="instance of::Predicate::q20850509-d673412cb7b729b579acaa32e2ace13d::4" target="privately owned::Entity::Q20850509" weight="0.0037269333843141794" label="12"/>
+      <edge id="3" source="World Health Organization::Entity::Q7817" target="owned by::Predicate::q21149834-dddf4b1a41464bb255b7974da1aa6df4::3" weight="0.007891309447586536" label="7"/>
+      <edge id="4" source="World Health Organization::Entity::Q7817" target="owned by::Predicate::q15751858-90d7495e1247aae4cffe8bd7809007e4::1" weight="0.004515297710895538" label="8"/>
+      <edge id="5" source="World Health Organization::Entity::Q7817" target="owned by::Predicate::q5937394-d40edb17592386998bb3ae66cd48b727::2" weight="0.004425963386893272" label="9"/>
+      <edge id="6" source="World Health Organization::Entity::Q7817" target="subsidiary::Predicate::q7817-4c6ec3ec57b51d99a3f81182fbdb9161::3" weight="0.0034257599618285894" label="14"/>
+      <edge id="7" source="World Health Organization::Entity::Q7817" target="subsidiary::Predicate::q7817-041915da193b37af11edbf6d34f78f27::1" weight="0.003220731159672141" label="16"/>
+      <edge id="8" source="World Health Organization::Entity::Q7817" target="subsidiary::Predicate::q7817-bd198a6012d86ca776e639820152f26a::2" weight="0.002969331108033657" label="17"/>
+      <edge id="9" source="World Health Organization::Entity::Q7817" target="employer::Predicate::q42758485-8847877b9e871f8a1249f2d19e96adc0::5" weight="0.004176185466349125" label="10"/>
+    </edges>
+  </graph>
+</gexf>

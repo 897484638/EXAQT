@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="44th Academy Awards::Entity::Q289412" label="44th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="44th Academy Awards"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Actor::Entity::Q103916" label="Academy Award for Best Actor">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Actor"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Peter Finch::Entity::Q294454" label="Peter Finch">
+        <attvalues>
+          <attvalue for="label" value="Peter Finch"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::11" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q294454-9c5e6353c23f4ac21810cc68f2ddc3b0::25" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::6" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1199612-6fd7f73a99e0b6d0919c1f5df19193d3::22" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1218959-d12f87d21c767da4a86ea797f055db6a::16" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1299410-3509045108f05791299640bd7e1c3e82::23" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1360124-c96b786e0ddc4d86480085de7f3ae8d8::11" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q1378700-172cd4bc397ffcac8dc6fa9e6b52db11::24" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q179496-a43b9200dcc654c1dc0ee18a5e4477be::19" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q220735-13e97ca89f55a95d9156612bfe952380::8" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q22322032-f3dd05c9093a4ea593f7447a5d0fb3e4::13" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q2299276-8cd360bd6482281ff57bae62876ce45f::12" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::25" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q31292-9722cceb13cdc7bca803fbb1b9a3aa08::15" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q313281-7c76ab514338a425445fbed66d6bac1f::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q41142-19f57a92a2e824a84559e99958e24206::7" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q512475-7782f83776b34cf013ffaf7ffc49c54a::9" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q53044-425f13421d1e5cafcf9fd7c34285b4fb::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q936327-dfa1490a6e5d685a33dd0608d1482bc6::14" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q945138-98922d2f0d66b55d32f5be6d215e54eb::21" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q945138-bb67f7daaf2524b5c27401c71c2b3e42::20" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q965659-29bb729dcabf196913f9edfb17ae459a::4" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::1" target="Peter Finch::Entity::Q294454" weight="0.9995991587638855" label="5"/>
+      <edge id="1" source="award received::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::1" target="Academy Award for Best Actor::Entity::Q103916" weight="0.9995991587638855" label="5"/>
+      <edge id="10" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q945138-98922d2f0d66b55d32f5be6d215e54eb::21" weight="0.9996557235717773" label="1"/>
+      <edge id="11" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q945138-bb67f7daaf2524b5c27401c71c2b3e42::20" weight="0.9996360540390015" label="2"/>
+      <edge id="12" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q313281-7c76ab514338a425445fbed66d6bac1f::2" weight="0.9996160268783569" label="3"/>
+      <edge id="13" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q2299276-8cd360bd6482281ff57bae62876ce45f::12" weight="0.9996101260185242" label="4"/>
+      <edge id="14" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q53044-425f13421d1e5cafcf9fd7c34285b4fb::1" weight="0.9995978474617004" label="6"/>
+      <edge id="15" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q936327-dfa1490a6e5d685a33dd0608d1482bc6::14" weight="0.9995937943458557" label="7"/>
+      <edge id="16" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q31292-9722cceb13cdc7bca803fbb1b9a3aa08::15" weight="0.9995810389518738" label="8"/>
+      <edge id="17" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q1199612-6fd7f73a99e0b6d0919c1f5df19193d3::22" weight="0.9995799660682678" label="9"/>
+      <edge id="18" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q220735-13e97ca89f55a95d9156612bfe952380::8" weight="0.9995798468589783" label="10"/>
+      <edge id="19" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q965659-29bb729dcabf196913f9edfb17ae459a::4" weight="0.9995682835578918" label="11"/>
+      <edge id="2" source="award received::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::1" target="for work::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::11" weight="0.9995991587638855" label="5"/>
+      <edge id="20" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q22322032-f3dd05c9093a4ea593f7447a5d0fb3e4::13" weight="0.9995680451393127" label="12"/>
+      <edge id="21" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q1378700-172cd4bc397ffcac8dc6fa9e6b52db11::24" weight="0.9995673298835754" label="13"/>
+      <edge id="22" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q1218959-d12f87d21c767da4a86ea797f055db6a::16" weight="0.9995642304420471" label="14"/>
+      <edge id="23" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q41142-19f57a92a2e824a84559e99958e24206::7" weight="0.9995604157447815" label="15"/>
+      <edge id="24" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q1360124-c96b786e0ddc4d86480085de7f3ae8d8::11" weight="0.9995595812797546" label="16"/>
+      <edge id="25" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q512475-7782f83776b34cf013ffaf7ffc49c54a::9" weight="0.9995548129081726" label="17"/>
+      <edge id="26" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q179496-a43b9200dcc654c1dc0ee18a5e4477be::19" weight="0.9995537400245667" label="18"/>
+      <edge id="27" source="44th Academy Awards::Entity::Q289412" target="statement is subject of::Predicate::q1299410-3509045108f05791299640bd7e1c3e82::23" weight="0.9995515942573547" label="19"/>
+      <edge id="3" source="award received::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::1" target="statement is subject of::Predicate::q294454-70ed3471f1f8975f0ac59fdf51181a6f::25" weight="0.9995991587638855" label="5"/>
+      <edge id="4" source="Peter Finch::Entity::Q294454" target="nominee::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::6" weight="0.9993008375167847" label="26"/>
+      <edge id="5" source="Academy Award for Best Actor::Entity::Q103916" target="nominated for::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" weight="0.9993008375167847" label="26"/>
+      <edge id="6" source="Academy Award for Best Actor::Entity::Q103916" target="nominated for::Predicate::q294454-9c5e6353c23f4ac21810cc68f2ddc3b0::25" weight="0.9995484948158264" label="20"/>
+      <edge id="7" source="nominated for::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" target="statement is subject of::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" weight="0.9993008375167847" label="26"/>
+      <edge id="8" source="nominated for::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" target="nominee::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::6" weight="0.9993008375167847" label="26"/>
+      <edge id="9" source="statement is subject of::Predicate::q1360124-b3bca54b68e39a55a3a350c2b435393e::10" target="44th Academy Awards::Entity::Q289412" weight="0.9993008375167847" label="26"/>
+    </edges>
+  </graph>
+</gexf>

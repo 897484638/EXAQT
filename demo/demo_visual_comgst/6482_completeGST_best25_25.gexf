@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2003-01-01::Entity::2003-01-01T00:00:00Z" label="2003-01-01">
+        <attvalues>
+          <attvalue for="label" value="2003-01-01" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="2006-01-01::Entity::2006-01-01T00:00:00Z" label="2006-01-01">
+        <attvalues>
+          <attvalue for="label" value="2006-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Disney Legends::Entity::Q1150306" label="Disney Legends">
+        <attvalues>
+          <attvalue for="label" value="Disney Legends" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Elton John::Entity::Q2808" label="Elton John">
+        <attvalues>
+          <attvalue for="label" value="Elton John" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lillian Disney::Entity::Q434814" label="Lillian Disney">
+        <attvalues>
+          <attvalue for="label" value="Lillian Disney" />
+          <attvalue for="method" value="CompletedGSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Peter Jennings::Entity::Q354540" label="Peter Jennings">
+        <attvalues>
+          <attvalue for="label" value="Peter Jennings" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="point in time::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" target="award received::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" weight="0.9980814456939697" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="point in time::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" target="2006-01-01::Entity::2006-01-01T00:00:00Z" weight="0.9980814456939697" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="point in time::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" target="2003-01-01::Entity::2003-01-01T00:00:00Z" weight="0.9950510859489441" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="11" source="award received::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" target="Elton John::Entity::Q2808" weight="0.9947947859764099" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="2" source="award received::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" target="Disney Legends::Entity::Q1150306" weight="0.9980814456939697" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="award received::Predicate::q354540-0a4ba299789b7946a9255ded545bddee::1" target="Peter Jennings::Entity::Q354540" weight="0.9980814456939697" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Disney Legends::Entity::Q1150306" target="award received::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" weight="0.9950510859489441" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="Disney Legends::Entity::Q1150306" target="award received::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" weight="0.9947947859764099" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="6" source="2006-01-01::Entity::2006-01-01T00:00:00Z" target="point in time::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" weight="0.9947947859764099" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="7" source="award received::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" target="point in time::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" weight="0.9950510859489441" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="8" source="award received::Predicate::q434814-a4d610e5178f1882193ec18b4c82545c::14" target="Lillian Disney::Entity::Q434814" weight="0.9950510859489441" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="point in time::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" target="award received::Predicate::q2808-5e12edfd675e562e7f833ce4e9f34853::18" weight="0.9947947859764099" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+    </edges>
+  </graph>
+</gexf>

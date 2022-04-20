@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="+12::Entity::+12" label="+12">
+        <attvalues>
+          <attvalue for="label" value="+12" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="+62::Entity::+62" label="+62">
+        <attvalues>
+          <attvalue for="label" value="+62" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="1994-01-01::Entity::1994-01-01T00:00:00Z" label="1994-01-01">
+        <attvalues>
+          <attvalue for="label" value="1994-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="1996-01-01::Entity::1996-01-01T00:00:00Z" label="1996-01-01">
+        <attvalues>
+          <attvalue for="label" value="1996-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Michael Laudrup::Entity::Q188720" label="Michael Laudrup">
+        <attvalues>
+          <attvalue for="label" value="Michael Laudrup" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Real Madrid CF::Entity::Q8682" label="Real Madrid CF">
+        <attvalues>
+          <attvalue for="label" value="Real Madrid CF" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::13" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="number of matches played/races/starts::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" label="number of matches played/races/starts">
+        <attvalues>
+          <attvalue for="label" value="number of matches played/races/starts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="number of points/goals/set scored::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" label="number of points/goals/set scored">
+        <attvalues>
+          <attvalue for="label" value="number of points/goals/set scored" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Real Madrid CF::Entity::Q8682" target="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="Michael Laudrup::Entity::Q188720" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="number of matches played/races/starts::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="start time::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="end time::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::13" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="5" source="member of sports team::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="number of points/goals/set scored::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="6" source="number of matches played/races/starts::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="+62::Entity::+62" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="7" source="start time::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="1994-01-01::Entity::1994-01-01T00:00:00Z" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="end time::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::13" target="1996-01-01::Entity::1996-01-01T00:00:00Z" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="9" source="number of points/goals/set scored::Predicate::q188720-8e9f6fca2e0985530acf4081d871f0a4::14" target="+12::Entity::+12" weight="0.9978440999984741" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+    </edges>
+  </graph>
+</gexf>

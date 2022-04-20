@@ -1,0 +1,1551 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1994-01-01::Entity::1994-01-01T00:00:00Z" label="1994-01-01">
+        <attvalues>
+          <attvalue for="label" value="1994-01-01"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1995-01-01::Entity::1995-01-01T00:00:00Z" label="1995-01-01">
+        <attvalues>
+          <attvalue for="label" value="1995-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1995::Entity::Q2068" label="1995">
+        <attvalues>
+          <attvalue for="label" value="1995"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="1996-01-01::Entity::1996-01-01T00:00:00Z" label="1996-01-01">
+        <attvalues>
+          <attvalue for="label" value="1996-01-01"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="46th Academy Awards::Entity::Q570921" label="46th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="46th Academy Awards"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="67th Academy Awards::Entity::Q857001" label="67th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="67th Academy Awards"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="68th Academy Awards::Entity::Q903494" label="68th Academy Awards">
+        <attvalues>
+          <attvalue for="label" value="68th Academy Awards"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Director::Entity::Q103360" label="Academy Award for Best Director">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Director"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Film Editing::Entity::Q281939" label="Academy Award for Best Film Editing">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Film Editing"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Picture::Entity::Q102427" label="Academy Award for Best Picture">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Picture"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Supporting Actress::Entity::Q106301" label="Academy Award for Best Supporting Actress">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Supporting Actress"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" label="Academy Award for Best Writing, Original Screenplay">
+        <attvalues>
+          <attvalue for="label" value="Academy Award for Best Writing, Original Screenplay"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="All That Heaven Allows::Entity::Q1633549" label="All That Heaven Allows">
+        <attvalues>
+          <attvalue for="label" value="All That Heaven Allows"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="American Graffiti::Entity::Q375855" label="American Graffiti">
+        <attvalues>
+          <attvalue for="label" value="American Graffiti"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Apollo 13::Entity::Q106428" label="Apollo 13">
+        <attvalues>
+          <attvalue for="label" value="Apollo 13"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Blacksmith Scene::Entity::Q470705" label="Blacksmith Scene">
+        <attvalues>
+          <attvalue for="label" value="Blacksmith Scene"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Cabaret::Entity::Q918363" label="Cabaret">
+        <attvalues>
+          <attvalue for="label" value="Cabaret"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Candy Clark::Entity::Q40067" label="Candy Clark">
+        <attvalues>
+          <attvalue for="label" value="Candy Clark"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Chan Is Missing::Entity::Q3240551" label="Chan Is Missing">
+        <attvalues>
+          <attvalue for="label" value="Chan Is Missing"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Daniel P. Hanley::Entity::Q487090" label="Daniel P. Hanley">
+        <attvalues>
+          <attvalue for="label" value="Daniel P. Hanley"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="El Norte::Entity::Q1446886" label="El Norte">
+        <attvalues>
+          <attvalue for="label" value="El Norte"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Fatty's Tintype Tangle::Entity::Q2749832" label="Fatty's Tintype Tangle">
+        <attvalues>
+          <attvalue for="label" value="Fatty's Tintype Tangle"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Flash Gordon::Entity::Q2667789" label="Flash Gordon">
+        <attvalues>
+          <attvalue for="label" value="Flash Gordon"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Forrest Gump::Entity::Q134773" label="Forrest Gump">
+        <attvalues>
+          <attvalue for="label" value="Forrest Gump"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Francis Ford Coppola::Entity::Q56094" label="Francis Ford Coppola">
+        <attvalues>
+          <attvalue for="label" value="Francis Ford Coppola"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gary Kurtz::Entity::Q1494912" label="Gary Kurtz">
+        <attvalues>
+          <attvalue for="label" value="Gary Kurtz"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="George Lucas::Entity::Q38222" label="George Lucas">
+        <attvalues>
+          <attvalue for="label" value="George Lucas"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gerald McBoing-Boing::Entity::Q1509967" label="Gerald McBoing-Boing">
+        <attvalues>
+          <attvalue for="label" value="Gerald McBoing-Boing"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Gloria Katz::Entity::Q133631" label="Gloria Katz">
+        <attvalues>
+          <attvalue for="label" value="Gloria Katz"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Jammin' the Blues::Entity::Q1335608" label="Jammin' the Blues">
+        <attvalues>
+          <attvalue for="label" value="Jammin' the Blues"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Manhatta::Entity::Q2098642" label="Manhatta">
+        <attvalues>
+          <attvalue for="label" value="Manhatta"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Marcia Lucas::Entity::Q463119" label="Marcia Lucas">
+        <attvalues>
+          <attvalue for="label" value="Marcia Lucas"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Mike Hill::Entity::Q484948" label="Mike Hill">
+        <attvalues>
+          <attvalue for="label" value="Mike Hill"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="National Film Registry::Entity::Q823422" label="National Film Registry">
+        <attvalues>
+          <attvalue for="label" value="National Film Registry"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="North by Northwest::Entity::Q223139" label="North by Northwest">
+        <attvalues>
+          <attvalue for="label" value="North by Northwest"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Pulp Fiction::Entity::Q104123" label="Pulp Fiction">
+        <attvalues>
+          <attvalue for="label" value="Pulp Fiction"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Q162729::Entity::Q162729" label="Q162729">
+        <attvalues>
+          <attvalue for="label" value="Q162729"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Quentin Tarantino::Entity::Q3772" label="Quentin Tarantino">
+        <attvalues>
+          <attvalue for="label" value="Quentin Tarantino"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Rip Van Winkle::Entity::Q2071362" label="Rip Van Winkle">
+        <attvalues>
+          <attvalue for="label" value="Rip Van Winkle"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Roger Avary::Entity::Q450720" label="Roger Avary">
+        <attvalues>
+          <attvalue for="label" value="Roger Avary"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Stagecoach::Entity::Q50714" label="Stagecoach">
+        <attvalues>
+          <attvalue for="label" value="Stagecoach"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Steve Starkey::Entity::Q2347318" label="Steve Starkey">
+        <attvalues>
+          <attvalue for="label" value="Steve Starkey"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Steve Tisch::Entity::Q7482626" label="Steve Tisch">
+        <attvalues>
+          <attvalue for="label" value="Steve Tisch"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Adventures of Robin Hood::Entity::Q201234" label="The Adventures of Robin Hood">
+        <attvalues>
+          <attvalue for="label" value="The Adventures of Robin Hood"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Band Wagon::Entity::Q1508130" label="The Band Wagon">
+        <attvalues>
+          <attvalue for="label" value="The Band Wagon"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Day the Earth Stood Still::Entity::Q425992" label="The Day the Earth Stood Still">
+        <attvalues>
+          <attvalue for="label" value="The Day the Earth Stood Still"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="The Philadelphia Story::Entity::Q498822" label="The Philadelphia Story">
+        <attvalues>
+          <attvalue for="label" value="The Philadelphia Story"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="To Kill a Mockingbird::Entity::Q177922" label="To Kill a Mockingbird">
+        <attvalues>
+          <attvalue for="label" value="To Kill a Mockingbird"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Verna Fields::Entity::Q2517245" label="Verna Fields">
+        <attvalues>
+          <attvalue for="label" value="Verna Fields"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Wendy Finerman::Entity::Q459177" label="Wendy Finerman">
+        <attvalues>
+          <attvalue for="label" value="Wendy Finerman"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Willard Huyck::Entity::Q1383657" label="Willard Huyck">
+        <attvalues>
+          <attvalue for="label" value="Willard Huyck"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="for work::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" label="for work">
+        <attvalues>
+          <attvalue for="label" value="for work"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="mel Gibson::Entity::Q42229" label="mel Gibson">
+        <attvalues>
+          <attvalue for="label" value="mel Gibson"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominated for::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" label="nominated for">
+        <attvalues>
+          <attvalue for="label" value="nominated for"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::8" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::9" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::5" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::6" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::7" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::4" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="nominee::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" label="nominee">
+        <attvalues>
+          <attvalue for="label" value="nominee"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2068-3d8af4bcd3fa929adfda42e8399a90e2::6" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::T-0" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="CompletedGSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner"/>
+          <attvalue for="method" value="TemporalEnhanced"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1995::Entity::Q2068" target="point in time::Predicate::q2068-3d8af4bcd3fa929adfda42e8399a90e2::6"/>
+      <edge id="1" source="point in time::Predicate::q2068-3d8af4bcd3fa929adfda42e8399a90e2::6" target="1995-01-01::Entity::1995-01-01T00:00:00Z"/>
+      <edge id="10" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6"/>
+      <edge id="100" source="award received::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4" target="Blacksmith Scene::Entity::Q470705"/>
+      <edge id="101" source="award received::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4" target="point in time::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4"/>
+      <edge id="102" source="award received::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5" target="To Kill a Mockingbird::Entity::Q177922"/>
+      <edge id="103" source="award received::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5" target="point in time::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5"/>
+      <edge id="104" source="award received::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6" target="The Adventures of Robin Hood::Entity::Q201234"/>
+      <edge id="105" source="award received::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6" target="point in time::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6"/>
+      <edge id="106" source="award received::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7" target="Flash Gordon::Entity::Q2667789"/>
+      <edge id="107" source="award received::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7" target="point in time::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7"/>
+      <edge id="108" source="point in time::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7" target="1996-01-01::Entity::1996-01-01T00:00:00Z"/>
+      <edge id="109" source="award received::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8" target="Jammin' the Blues::Entity::Q1335608"/>
+      <edge id="11" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8"/>
+      <edge id="110" source="award received::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8" target="point in time::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8"/>
+      <edge id="111" source="award received::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9" target="The Philadelphia Story::Entity::Q498822"/>
+      <edge id="112" source="award received::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9" target="point in time::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9"/>
+      <edge id="113" source="award received::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10" target="The Band Wagon::Entity::Q1508130"/>
+      <edge id="114" source="award received::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10" target="point in time::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10"/>
+      <edge id="115" source="award received::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11" target="Gerald McBoing-Boing::Entity::Q1509967"/>
+      <edge id="116" source="award received::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11" target="point in time::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11"/>
+      <edge id="117" source="award received::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12" target="Rip Van Winkle::Entity::Q2071362"/>
+      <edge id="118" source="award received::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12" target="point in time::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12"/>
+      <edge id="119" source="award received::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13" target="El Norte::Entity::Q1446886"/>
+      <edge id="12" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9"/>
+      <edge id="120" source="award received::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13" target="point in time::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13"/>
+      <edge id="121" source="award received::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14" target="Manhatta::Entity::Q2098642"/>
+      <edge id="122" source="award received::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14" target="point in time::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14"/>
+      <edge id="123" source="award received::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15" target="The Day the Earth Stood Still::Entity::Q425992"/>
+      <edge id="124" source="award received::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15" target="point in time::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15"/>
+      <edge id="125" source="award received::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16" target="All That Heaven Allows::Entity::Q1633549"/>
+      <edge id="126" source="award received::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16" target="point in time::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16"/>
+      <edge id="127" source="award received::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17" target="Fatty's Tintype Tangle::Entity::Q2749832"/>
+      <edge id="128" source="award received::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17" target="point in time::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17"/>
+      <edge id="129" source="award received::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="Quentin Tarantino::Entity::Q3772"/>
+      <edge id="13" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10"/>
+      <edge id="130" source="award received::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="point in time::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18"/>
+      <edge id="131" source="award received::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="statement is subject of::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18"/>
+      <edge id="132" source="award received::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="for work::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18"/>
+      <edge id="133" source="Quentin Tarantino::Entity::Q3772" target="winner::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="134" source="point in time::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="1994-01-01::Entity::1994-01-01T00:00:00Z"/>
+      <edge id="135" source="statement is subject of::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="67th Academy Awards::Entity::Q857001"/>
+      <edge id="136" source="67th Academy Awards::Entity::Q857001" target="statement is subject of::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="137" source="67th Academy Awards::Entity::Q857001" target="statement is subject of::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22"/>
+      <edge id="138" source="for work::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18" target="Pulp Fiction::Entity::Q104123"/>
+      <edge id="139" source="Pulp Fiction::Entity::Q104123" target="award received::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="14" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11"/>
+      <edge id="140" source="award received::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" target="winner::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="141" source="award received::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" target="statement is subject of::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="142" source="award received::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" target="point in time::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="143" source="winner::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19" target="Roger Avary::Entity::Q450720"/>
+      <edge id="144" source="award received::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" target="mel Gibson::Entity::Q42229"/>
+      <edge id="145" source="award received::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" target="point in time::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20"/>
+      <edge id="146" source="award received::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" target="for work::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20"/>
+      <edge id="147" source="award received::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" target="statement is subject of::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20"/>
+      <edge id="148" source="mel Gibson::Entity::Q42229" target="award received::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="149" source="for work::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" target="Q162729::Entity::Q162729"/>
+      <edge id="15" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12"/>
+      <edge id="150" source="Q162729::Entity::Q162729" target="for work::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="151" source="statement is subject of::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20" target="68th Academy Awards::Entity::Q903494"/>
+      <edge id="152" source="68th Academy Awards::Entity::Q903494" target="statement is subject of::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21"/>
+      <edge id="153" source="68th Academy Awards::Entity::Q903494" target="statement is subject of::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="154" source="award received::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" target="Apollo 13::Entity::Q106428"/>
+      <edge id="155" source="award received::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" target="winner::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21"/>
+      <edge id="156" source="award received::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" target="statement is subject of::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21"/>
+      <edge id="157" source="award received::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" target="point in time::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21"/>
+      <edge id="158" source="winner::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" target="Daniel P. Hanley::Entity::Q487090"/>
+      <edge id="159" source="winner::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21" target="Mike Hill::Entity::Q484948"/>
+      <edge id="16" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13"/>
+      <edge id="160" source="award received::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="Forrest Gump::Entity::Q134773"/>
+      <edge id="161" source="award received::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="winner::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22"/>
+      <edge id="162" source="award received::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="statement is subject of::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22"/>
+      <edge id="163" source="award received::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="point in time::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22"/>
+      <edge id="164" source="winner::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="Steve Tisch::Entity::Q7482626"/>
+      <edge id="165" source="winner::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="Steve Starkey::Entity::Q2347318"/>
+      <edge id="166" source="winner::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22" target="Wendy Finerman::Entity::Q459177"/>
+      <edge id="167" source="award received::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" target="point in time::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="168" source="award received::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" target="for work::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="169" source="award received::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23" target="statement is subject of::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="17" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14"/>
+      <edge id="18" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15"/>
+      <edge id="19" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16"/>
+      <edge id="2" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1"/>
+      <edge id="20" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17"/>
+      <edge id="21" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="22" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20"/>
+      <edge id="23" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21"/>
+      <edge id="24" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22"/>
+      <edge id="25" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="26" source="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="American Graffiti::Entity::Q375855"/>
+      <edge id="27" source="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="Academy Award for Best Writing, Original Screenplay::Entity::Q41417"/>
+      <edge id="28" source="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::5"/>
+      <edge id="29" source="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::6"/>
+      <edge id="3" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::T-0"/>
+      <edge id="30" source="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::7"/>
+      <edge id="31" source="nominated for::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="statement is subject of::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4"/>
+      <edge id="32" source="American Graffiti::Entity::Q375855" target="award received::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1"/>
+      <edge id="33" source="American Graffiti::Entity::Q375855" target="nominated for::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2"/>
+      <edge id="34" source="American Graffiti::Entity::Q375855" target="nominated for::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3"/>
+      <edge id="35" source="American Graffiti::Entity::Q375855" target="nominated for::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1"/>
+      <edge id="36" source="American Graffiti::Entity::Q375855" target="nominated for::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5"/>
+      <edge id="37" source="award received::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1" target="point in time::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1"/>
+      <edge id="38" source="award received::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1" target="National Film Registry::Entity::Q823422"/>
+      <edge id="39" source="award received::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::1" target="point in time::Predicate::q375855-6bd393238b7a7221f467ba636b9be8b1::T-0"/>
+      <edge id="4" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0"/>
+      <edge id="40" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0"/>
+      <edge id="41" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1"/>
+      <edge id="42" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2"/>
+      <edge id="43" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3"/>
+      <edge id="44" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4"/>
+      <edge id="45" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5"/>
+      <edge id="46" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q201234-aec77946b83c0efb405a78b9f7ffa220::T-6"/>
+      <edge id="47" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q2667789-a814d040e76929ea0510ee7a4388156b::T-7"/>
+      <edge id="48" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q1335608-3ef8af37055876cef753cadfb3c94254::T-8"/>
+      <edge id="49" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q498822-a32de497b6c5f792f5174d166a26eaca::T-9"/>
+      <edge id="5" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1"/>
+      <edge id="50" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q1508130-19ceb04b8db25392ff62cf44daf357e7::T-10"/>
+      <edge id="51" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q1509967-c71b47597910899dc0e32e526da81926::T-11"/>
+      <edge id="52" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q2071362-8f3c0204cd9631549113ea4d44420cc6::T-12"/>
+      <edge id="53" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q1446886-031a695db38e7846ff519f67f9456f55::T-13"/>
+      <edge id="54" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q2098642-b45ee982e7c0923ad71005f84b5b9a98::T-14"/>
+      <edge id="55" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q425992-69baed5fbdf5a236fa8449870fcb9959::T-15"/>
+      <edge id="56" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q1633549-8667aebb088cb9c4c6e7c686b616c940::T-16"/>
+      <edge id="57" source="National Film Registry::Entity::Q823422" target="award received::Predicate::q2749832-9b40dec4b5b5f2bd5c203d5b2926e7ef::T-17"/>
+      <edge id="58" source="nominated for::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2" target="Academy Award for Best Director::Entity::Q103360"/>
+      <edge id="59" source="nominated for::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2" target="nominee::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2"/>
+      <edge id="6" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2"/>
+      <edge id="60" source="nominated for::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2" target="statement is subject of::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2"/>
+      <edge id="61" source="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" target="award received::Predicate::q3772-95d306035f62806b4ab77b3a0f25b8d6::T-18"/>
+      <edge id="62" source="Academy Award for Best Writing, Original Screenplay::Entity::Q41417" target="award received::Predicate::q104123-5d5e594728d9bfa58ba6d02ad83f85a1::T-19"/>
+      <edge id="63" source="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::5" target="George Lucas::Entity::Q38222"/>
+      <edge id="64" source="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::6" target="Willard Huyck::Entity::Q1383657"/>
+      <edge id="65" source="nominee::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::7" target="Gloria Katz::Entity::Q133631"/>
+      <edge id="66" source="statement is subject of::Predicate::q375855-319ee01c3ed8d61de6d45438a5c8269f::4" target="46th Academy Awards::Entity::Q570921"/>
+      <edge id="67" source="nominated for::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" target="Academy Award for Best Film Editing::Entity::Q281939"/>
+      <edge id="68" source="nominated for::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" target="nominee::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3"/>
+      <edge id="69" source="nominated for::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" target="nominee::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::4"/>
+      <edge id="7" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3"/>
+      <edge id="70" source="nominated for::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" target="statement is subject of::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3"/>
+      <edge id="71" source="46th Academy Awards::Entity::Q570921" target="statement is subject of::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2"/>
+      <edge id="72" source="46th Academy Awards::Entity::Q570921" target="statement is subject of::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3"/>
+      <edge id="73" source="46th Academy Awards::Entity::Q570921" target="statement is subject of::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1"/>
+      <edge id="74" source="46th Academy Awards::Entity::Q570921" target="statement is subject of::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5"/>
+      <edge id="75" source="George Lucas::Entity::Q38222" target="nominee::Predicate::q375855-a13dccfdf3d1ee30589ae5ae32a52c57::2"/>
+      <edge id="76" source="nominated for::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" target="Academy Award for Best Supporting Actress::Entity::Q106301"/>
+      <edge id="77" source="nominated for::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" target="nominee::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1"/>
+      <edge id="78" source="nominated for::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" target="statement is subject of::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1"/>
+      <edge id="79" source="Academy Award for Best Director::Entity::Q103360" target="award received::Predicate::q42229-9bae7f082b7dd0d1d527fecfae1895a6::T-20"/>
+      <edge id="8" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q470705-2c0fd155a221a4738e39108a00fb5978::T-4"/>
+      <edge id="80" source="nominated for::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5" target="Academy Award for Best Picture::Entity::Q102427"/>
+      <edge id="81" source="nominated for::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5" target="nominee::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::8"/>
+      <edge id="82" source="nominated for::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5" target="statement is subject of::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5"/>
+      <edge id="83" source="nominated for::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::5" target="nominee::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::9"/>
+      <edge id="84" source="Academy Award for Best Film Editing::Entity::Q281939" target="award received::Predicate::q106428-62ac867d242adaf97fd708505df725da::T-21"/>
+      <edge id="85" source="nominee::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::3" target="Verna Fields::Entity::Q2517245"/>
+      <edge id="86" source="nominee::Predicate::q375855-a258b4c6037ade2bcbd992910ffcaf72::4" target="Marcia Lucas::Entity::Q463119"/>
+      <edge id="87" source="nominee::Predicate::q375855-d2639a785c48a0fcc26ea3308194f4b0::1" target="Candy Clark::Entity::Q40067"/>
+      <edge id="88" source="Academy Award for Best Picture::Entity::Q102427" target="award received::Predicate::q134773-e7d854ef81734aa4c44bb66a1b0f3be4::T-22"/>
+      <edge id="89" source="Academy Award for Best Picture::Entity::Q102427" target="award received::Predicate::q42229-50211c4b4422857c24f64c86b40722f2::T-23"/>
+      <edge id="9" source="1995-01-01::Entity::1995-01-01T00:00:00Z" target="point in time::Predicate::q177922-48bbf72d6af6db5abadff5ea848b667f::T-5"/>
+      <edge id="90" source="nominee::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::8" target="Francis Ford Coppola::Entity::Q56094"/>
+      <edge id="91" source="nominee::Predicate::q375855-1df3bd15dfca62374a3c62e02a472bb4::9" target="Gary Kurtz::Entity::Q1494912"/>
+      <edge id="92" source="award received::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0" target="Stagecoach::Entity::Q50714"/>
+      <edge id="93" source="award received::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0" target="point in time::Predicate::q50714-156f00c702da585973faa0a3a5b78a69::T-0"/>
+      <edge id="94" source="award received::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1" target="North by Northwest::Entity::Q223139"/>
+      <edge id="95" source="award received::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1" target="point in time::Predicate::q223139-8ecd4c1fbaa3555cbd7b54191b94f320::T-1"/>
+      <edge id="96" source="award received::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2" target="Chan Is Missing::Entity::Q3240551"/>
+      <edge id="97" source="award received::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2" target="point in time::Predicate::q3240551-1c7b628941f8385b39d579f39cba833d::T-2"/>
+      <edge id="98" source="award received::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3" target="Cabaret::Entity::Q918363"/>
+      <edge id="99" source="award received::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3" target="point in time::Predicate::q918363-1d7c177d8949623bed59ff7c02a2ddbb::T-3"/>
+    </edges>
+  </graph>
+</gexf>

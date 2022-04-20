@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1975-11-05::Entity::1975-11-05T00:00:00Z" label="1975-11-05">
+        <attvalues>
+          <attvalue for="label" value="1975-11-05"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Lionel Trilling::Entity::Q1827287" label="Lionel Trilling">
+        <attvalues>
+          <attvalue for="label" value="Lionel Trilling"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Manhattan::Entity::Q11299" label="Manhattan">
+        <attvalues>
+          <attvalue for="label" value="Manhattan"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="New York City::Entity::Q60" label="New York City">
+        <attvalues>
+          <attvalue for="label" value="New York City"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="place of death::Predicate::q1827287-955cd74e67a9b3496b83c4b34eddbd5b::1" label="place of death">
+        <attvalues>
+          <attvalue for="label" value="place of death"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="residence::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::1" label="residence">
+        <attvalues>
+          <attvalue for="label" value="residence"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="residence::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::1" target="Lionel Trilling::Entity::Q1827287" weight="0.9997343420982361" label="1"/>
+      <edge id="1" source="residence::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::1" target="Manhattan::Entity::Q11299" weight="0.9997343420982361" label="1"/>
+      <edge id="2" source="residence::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::1" target="end time::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::3" weight="0.9997343420982361" label="1"/>
+      <edge id="3" source="Lionel Trilling::Entity::Q1827287" target="place of death::Predicate::q1827287-955cd74e67a9b3496b83c4b34eddbd5b::1" weight="0.8292489647865295" label="2"/>
+      <edge id="4" source="end time::Predicate::q1827287-1da01489f02e674826ed647e5fd379b2::3" target="1975-11-05::Entity::1975-11-05T00:00:00Z" weight="0.9997343420982361" label="1"/>
+      <edge id="5" source="place of death::Predicate::q1827287-955cd74e67a9b3496b83c4b34eddbd5b::1" target="New York City::Entity::Q60" weight="0.8292489647865295" label="2"/>
+    </edges>
+  </graph>
+</gexf>

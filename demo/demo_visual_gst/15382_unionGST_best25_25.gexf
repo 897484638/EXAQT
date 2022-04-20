@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2011-01-01::Entity::2011-01-01T00:00:00Z" label="2011-01-01">
+        <attvalues>
+          <attvalue for="label" value="2011-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="2012-01-01::Entity::2012-01-01T00:00:00Z" label="2012-01-01">
+        <attvalues>
+          <attvalue for="label" value="2012-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="3::Entity::3" label="3">
+        <attvalues>
+          <attvalue for="label" value="3" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Carson Palmer::Entity::Q1045461" label="Carson Palmer">
+        <attvalues>
+          <attvalue for="label" value="Carson Palmer" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Las Vegas Raiders::Entity::Q324523" label="Las Vegas Raiders">
+        <attvalues>
+          <attvalue for="label" value="Las Vegas Raiders" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::3" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q18325112-01f1f9085b189a16448b1957f7779955::2" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q1045461-5c113c817010db949a87a62ed365c395::15" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::16" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q1045461-70e0083c5f7302f4a0939f2cc647c266::17" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q1373024-d779da00182f388ab862613e8befe8dc::22" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q18325112-01f1f9085b189a16448b1957f7779955::10" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q24809702-f5b948fcce17618922183398a53908ed::20" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q2591444-8a578b6e4e260c2fef65a4da604b80ec::6" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q302581-c336a2dbdf340d2a4a17dcb2d4b8ebaa::5" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q38952-1e911328b1d84c5cbf3fffe83de2ec43::23" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q506098-73e118dd424872851b0baedf5a882ea3::25" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q6276955-6ebf64f0bc8848df00a2f679dd4c5c2c::9" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q6788735-c1b1442720486ceaf453ab13673e71f1::11" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q7539-9b11dae8b11b23029097eaf14969d6f8::8" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q7614020-0b642d23a85acac0b375a2693ccc91bc::12" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position played on team / speciality::Predicate::q984327-dc1877d91b8b45b136e0ef3b60417566::21" label="position played on team / speciality">
+        <attvalues>
+          <attvalue for="label" value="position played on team / speciality" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="quarterback::Entity::Q622747" label="quarterback">
+        <attvalues>
+          <attvalue for="label" value="quarterback" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="sport number::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::3" label="sport number">
+        <attvalues>
+          <attvalue for="label" value="sport number" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::16" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q18325112-01f1f9085b189a16448b1957f7779955::10" weight="0.9989239573478699" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="10" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q6276955-6ebf64f0bc8848df00a2f679dd4c5c2c::9" weight="0.9976518750190735" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q7539-9b11dae8b11b23029097eaf14969d6f8::8" weight="0.9976344108581543" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q38952-1e911328b1d84c5cbf3fffe83de2ec43::23" weight="0.9976160526275635" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q1373024-d779da00182f388ab862613e8befe8dc::22" weight="0.9974756836891174" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q24809702-f5b948fcce17618922183398a53908ed::20" weight="0.9974296689033508" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="position played on team / speciality::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::16" target="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="16" source="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" target="Carson Palmer::Entity::Q1045461" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="17" source="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" target="Las Vegas Raiders::Entity::Q324523" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="18" source="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" target="end time::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::3" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" target="sport number::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::3" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q1045461-5c113c817010db949a87a62ed365c395::15" weight="0.9985073208808899" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="20" source="member of sports team::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::6" target="start time::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::4" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="position played on team / speciality::Predicate::q18325112-01f1f9085b189a16448b1957f7779955::10" target="member of sports team::Predicate::q18325112-01f1f9085b189a16448b1957f7779955::2" weight="0.9989239573478699" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="end time::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::3" target="2012-01-01::Entity::2012-01-01T00:00:00Z" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="sport number::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::3" target="3::Entity::3" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="24" source="start time::Predicate::q1045461-6b54c0d9edf9792e018d641864d0bd1b::4" target="2011-01-01::Entity::2011-01-01T00:00:00Z" weight="0.9995998740196228" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="3" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q1045461-70e0083c5f7302f4a0939f2cc647c266::17" weight="0.998363196849823" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="4" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q7614020-0b642d23a85acac0b375a2693ccc91bc::12" weight="0.9980654120445251" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="5" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q6788735-c1b1442720486ceaf453ab13673e71f1::11" weight="0.9979210495948792" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="6" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q302581-c336a2dbdf340d2a4a17dcb2d4b8ebaa::5" weight="0.9978258013725281" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q984327-dc1877d91b8b45b136e0ef3b60417566::21" weight="0.9977935552597046" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q2591444-8a578b6e4e260c2fef65a4da604b80ec::6" weight="0.9976909160614014" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="quarterback::Entity::Q622747" target="position played on team / speciality::Predicate::q506098-73e118dd424872851b0baedf5a882ea3::25" weight="0.9976651668548584" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

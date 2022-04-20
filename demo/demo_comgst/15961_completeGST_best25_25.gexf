@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2011 Libyan Civil War::Entity::Q81545" label="2011 Libyan Civil War">
+        <attvalues>
+          <attvalue for="label" value="2011 Libyan Civil War"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2011-02-15::Entity::2011-02-15T00:00:00Z" label="2011-02-15">
+        <attvalues>
+          <attvalue for="label" value="2011-02-15"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="2011-10-23::Entity::2011-10-23T00:00:00Z" label="2011-10-23">
+        <attvalues>
+          <attvalue for="label" value="2011-10-23"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Libya::Entity::Q1016" label="Libya">
+        <attvalues>
+          <attvalue for="label" value="Libya"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q81545-c098bb0a2287ff92da80db01371e2257::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q81545-3e3fe90c56229f650e493faae61b4876::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q81545-c33c89a2ff6fce17422a62127c676872::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Libya::Entity::Q1016" target="location::Predicate::q81545-3e3fe90c56229f650e493faae61b4876::1" weight="0.9714947938919067" label="3"/>
+      <edge id="1" source="location::Predicate::q81545-3e3fe90c56229f650e493faae61b4876::1" target="2011 Libyan Civil War::Entity::Q81545" weight="0.9714947938919067" label="3"/>
+      <edge id="2" source="2011 Libyan Civil War::Entity::Q81545" target="end time::Predicate::q81545-c098bb0a2287ff92da80db01371e2257::1" weight="0.9872965812683105" label="1"/>
+      <edge id="3" source="2011 Libyan Civil War::Entity::Q81545" target="start time::Predicate::q81545-c33c89a2ff6fce17422a62127c676872::2" weight="0.9819704294204712" label="2"/>
+      <edge id="4" source="end time::Predicate::q81545-c098bb0a2287ff92da80db01371e2257::1" target="2011-10-23::Entity::2011-10-23T00:00:00Z" weight="0.9872965812683105" label="1"/>
+      <edge id="5" source="start time::Predicate::q81545-c33c89a2ff6fce17422a62127c676872::2" target="2011-02-15::Entity::2011-02-15T00:00:00Z" weight="0.9819704294204712" label="2"/>
+    </edges>
+  </graph>
+</gexf>

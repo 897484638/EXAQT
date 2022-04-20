@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>CompletedGSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="CompletedGSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>CompletedGSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2012 Masters Tournament::Entity::Q2204136" label="2012 Masters Tournament">
+        <attvalues>
+          <attvalue for="label" value="2012 Masters Tournament" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Augusta National Golf Club::Entity::Q765780" label="Augusta National Golf Club">
+        <attvalues>
+          <attvalue for="label" value="Augusta National Golf Club" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="Augusta::Entity::Q181962" label="Augusta">
+        <attvalues>
+          <attvalue for="label" value="Augusta" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+        </attvalues>
+      </node>
+      <node id="Masters Tournament::Entity::Q280275" label="Masters Tournament">
+        <attvalues>
+          <attvalue for="label" value="Masters Tournament" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="United States::Entity::Q30" label="United States">
+        <attvalues>
+          <attvalue for="label" value="United States" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="subject/object" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q2204136-55cff2ba3f0d90bcde5c079880d38b30::1" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="country::Predicate::q765780-f305566c64a2ea1267cebbd8c16c6765::2" label="country">
+        <attvalues>
+          <attvalue for="label" value="country" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="located in the administrative territorial entity::Predicate::q765780-003dec9e995701f53e57d55e101d9e4c::1" label="located in the administrative territorial entity">
+        <attvalues>
+          <attvalue for="label" value="located in the administrative territorial entity" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q2204136-359c44fc9151e0763b78730b6b3e738d::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q280275-bb620c6114b09eafab74e804d6b9657b::4" label="location">
+        <attvalues>
+          <attvalue for="label" value="location" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="type" value="predicate" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Masters Tournament::Entity::Q280275" target="location::Predicate::q280275-bb620c6114b09eafab74e804d6b9657b::4" weight="0.031691405922174454" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="1" source="location::Predicate::q280275-bb620c6114b09eafab74e804d6b9657b::4" target="Augusta National Golf Club::Entity::Q765780" weight="0.031691405922174454" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="Augusta National Golf Club::Entity::Q765780" target="location::Predicate::q2204136-359c44fc9151e0763b78730b6b3e738d::1" weight="0.36332187056541443" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="Augusta National Golf Club::Entity::Q765780" target="located in the administrative territorial entity::Predicate::q765780-003dec9e995701f53e57d55e101d9e4c::1" weight="0.9760574698448181" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="4" source="Augusta National Golf Club::Entity::Q765780" target="country::Predicate::q765780-f305566c64a2ea1267cebbd8c16c6765::2" weight="0.8436813354492188" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="5" source="location::Predicate::q2204136-359c44fc9151e0763b78730b6b3e738d::1" target="2012 Masters Tournament::Entity::Q2204136" weight="0.36332187056541443" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="6" source="2012 Masters Tournament::Entity::Q2204136" target="country::Predicate::q2204136-55cff2ba3f0d90bcde5c079880d38b30::1" weight="0.3062473237514496" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="7" source="located in the administrative territorial entity::Predicate::q765780-003dec9e995701f53e57d55e101d9e4c::1" target="Augusta::Entity::Q181962" weight="0.9760574698448181" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="8" source="country::Predicate::q765780-f305566c64a2ea1267cebbd8c16c6765::2" target="United States::Entity::Q30" weight="0.8436813354492188" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="9" source="United States::Entity::Q30" target="country::Predicate::q2204136-55cff2ba3f0d90bcde5c079880d38b30::1" weight="0.3062473237514496" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+    </edges>
+  </graph>
+</gexf>

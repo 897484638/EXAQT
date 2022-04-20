@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Bucharest::Entity::Q19660" label="Bucharest">
+        <attvalues>
+          <attvalue for="label" value="Bucharest"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="First World War::Entity::Q361" label="First World War">
+        <attvalues>
+          <attvalue for="label" value="First World War"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Ioan \Provincialul\ Popovici::Entity::Q19927874" label="Ioan \Provincialul\ Popovici">
+        <attvalues>
+          <attvalue for="label" value="Ioan \Provincialul\ Popovici"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Israel::Entity::Q801" label="Israel">
+        <attvalues>
+          <attvalue for="label" value="Israel"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Israel–Romania relations::Entity::Q6087784" label="Israel–Romania relations">
+        <attvalues>
+          <attvalue for="label" value="Israel–Romania relations"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Romania::Entity::Q218" label="Romania">
+        <attvalues>
+          <attvalue for="label" value="Romania"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="capital::Predicate::q218-43d8083832def70f44fb60a4f57b5dd3::1" label="capital">
+        <attvalues>
+          <attvalue for="label" value="capital"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="conflict::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" label="conflict">
+        <attvalues>
+          <attvalue for="label" value="conflict"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of citizenship::Predicate::q19927874-a135c67427a3c0246692fec483a8ac9e::1" label="country of citizenship">
+        <attvalues>
+          <attvalue for="label" value="country of citizenship"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="country of origin::Predicate::q8215569-b5db3a9ee4968020937fef30da65a9d1::1" label="country of origin">
+        <attvalues>
+          <attvalue for="label" value="country of origin"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q218-04fd1fcc39195fd58dda7f8b8969bb94::6" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q218-4a8f450a62b0d3ac45593e3f53644bd7::10" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q218-4e86a243b6107e8aeceaaa6cbcdcc26a::8" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q218-7c371a7a17a1432daa759d9dd8bf05cc::9" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q218-b4b3ba412d5e4a17ebc63e2b30b86932::12" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q801-4c78fa7d4014ae5e0ac344fe24cb873a::3" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q801-8c9c39bbb5bd3e06a4e8ae0d9e55f9f0::1" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="diplomatic relation::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" label="diplomatic relation">
+        <attvalues>
+          <attvalue for="label" value="diplomatic relation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q218-04db13621d031b929f6482470bff59c3::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q218-5e6b0cd91b4df12ebc9dbd050d32af18::2" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="location::Predicate::q361-d27fdebe6411c46a33d73c777bf148f0::1" label="location">
+        <attvalues>
+          <attvalue for="label" value="location"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="set in period::Predicate::q6604418-3cca8ab1b992d52c1e23e8fb4391be9f::1" label="set in period">
+        <attvalues>
+          <attvalue for="label" value="set in period"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::4" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q218-4e86a243b6107e8aeceaaa6cbcdcc26a::8" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="statement is subject of::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" label="statement is subject of">
+        <attvalues>
+          <attvalue for="label" value="statement is subject of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Romania::Entity::Q218" target="country of citizenship::Predicate::q19927874-a135c67427a3c0246692fec483a8ac9e::1" weight="0.9332507252693176" label="9"/>
+      <edge id="1" source="Romania::Entity::Q218" target="diplomatic relation::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" weight="0.9755181074142456" label="1"/>
+      <edge id="10" source="country of citizenship::Predicate::q19927874-a135c67427a3c0246692fec483a8ac9e::1" target="Ioan \Provincialul\ Popovici::Entity::Q19927874" weight="0.9332507252693176" label="9"/>
+      <edge id="11" source="Ioan \Provincialul\ Popovici::Entity::Q19927874" target="conflict::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" weight="0.9332507252693176" label="9"/>
+      <edge id="12" source="conflict::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" target="First World War::Entity::Q361" weight="0.9332507252693176" label="9"/>
+      <edge id="13" source="conflict::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" target="end time::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" weight="0.9332507252693176" label="9"/>
+      <edge id="14" source="conflict::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::1" target="start time::Predicate::q19927874-ec2e1e534e255073bd141539308b983d::4" weight="0.9332507252693176" label="9"/>
+      <edge id="15" source="First World War::Entity::Q361" target="set in period::Predicate::q6604418-3cca8ab1b992d52c1e23e8fb4391be9f::1" weight="0.9455942511558533" label="6"/>
+      <edge id="16" source="First World War::Entity::Q361" target="location::Predicate::q361-d27fdebe6411c46a33d73c777bf148f0::1" weight="0.9229625463485718" label="12"/>
+      <edge id="17" source="diplomatic relation::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" target="Israel::Entity::Q801" weight="0.9755181074142456" label="1"/>
+      <edge id="18" source="diplomatic relation::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" target="statement is subject of::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" weight="0.9755181074142456" label="1"/>
+      <edge id="19" source="Israel::Entity::Q801" target="diplomatic relation::Predicate::q218-4e86a243b6107e8aeceaaa6cbcdcc26a::8" weight="0.9672067165374756" label="2"/>
+      <edge id="2" source="Romania::Entity::Q218" target="diplomatic relation::Predicate::q218-4e86a243b6107e8aeceaaa6cbcdcc26a::8" weight="0.9672067165374756" label="2"/>
+      <edge id="20" source="Israel::Entity::Q801" target="diplomatic relation::Predicate::q801-4c78fa7d4014ae5e0ac344fe24cb873a::3" weight="0.9459360241889954" label="5"/>
+      <edge id="21" source="Israel::Entity::Q801" target="country of origin::Predicate::q8215569-b5db3a9ee4968020937fef30da65a9d1::1" weight="0.9455942511558533" label="6"/>
+      <edge id="22" source="Israel::Entity::Q801" target="diplomatic relation::Predicate::q801-8c9c39bbb5bd3e06a4e8ae0d9e55f9f0::1" weight="0.9231711626052856" label="11"/>
+      <edge id="23" source="diplomatic relation::Predicate::q218-4e86a243b6107e8aeceaaa6cbcdcc26a::8" target="statement is subject of::Predicate::q218-4e86a243b6107e8aeceaaa6cbcdcc26a::8" weight="0.9672067165374756" label="2"/>
+      <edge id="24" source="statement is subject of::Predicate::q801-997c9caf1ab00833a170bcccb78cf7d6::2" target="Israel–Romania relations::Entity::Q6087784" weight="0.9755181074142456" label="1"/>
+      <edge id="25" source="capital::Predicate::q218-43d8083832def70f44fb60a4f57b5dd3::1" target="Bucharest::Entity::Q19660" weight="0.9612477421760559" label="3"/>
+      <edge id="3" source="Romania::Entity::Q218" target="capital::Predicate::q218-43d8083832def70f44fb60a4f57b5dd3::1" weight="0.9612477421760559" label="3"/>
+      <edge id="4" source="Romania::Entity::Q218" target="instance of::Predicate::q218-5e6b0cd91b4df12ebc9dbd050d32af18::2" weight="0.9484778046607971" label="4"/>
+      <edge id="5" source="Romania::Entity::Q218" target="diplomatic relation::Predicate::q218-7c371a7a17a1432daa759d9dd8bf05cc::9" weight="0.9445319175720215" label="7"/>
+      <edge id="6" source="Romania::Entity::Q218" target="diplomatic relation::Predicate::q218-04fd1fcc39195fd58dda7f8b8969bb94::6" weight="0.9373756051063538" label="8"/>
+      <edge id="7" source="Romania::Entity::Q218" target="instance of::Predicate::q218-04db13621d031b929f6482470bff59c3::1" weight="0.927933394908905" label="10"/>
+      <edge id="8" source="Romania::Entity::Q218" target="diplomatic relation::Predicate::q218-b4b3ba412d5e4a17ebc63e2b30b86932::12" weight="0.9219143986701965" label="13"/>
+      <edge id="9" source="Romania::Entity::Q218" target="diplomatic relation::Predicate::q218-4a8f450a62b0d3ac45593e3f53644bd7::10" weight="0.91866534948349" label="14"/>
+    </edges>
+  </graph>
+</gexf>

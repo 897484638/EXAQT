@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1980-01-01::Entity::1980-01-01T00:00:00Z" label="1980-01-01">
+        <attvalues>
+          <attvalue for="label" value="1980-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1982-01-01::Entity::1982-01-01T00:00:00Z" label="1982-01-01">
+        <attvalues>
+          <attvalue for="label" value="1982-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="All-NBA Team::Entity::Q674359" label="All-NBA Team">
+        <attvalues>
+          <attvalue for="label" value="All-NBA Team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="George Gervin::Entity::Q352110" label="George Gervin">
+        <attvalues>
+          <attvalue for="label" value="George Gervin" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="NBA All-Star Game Kobe Bryant Most Valuable Player Award::Entity::Q31391" label="NBA All-Star Game Kobe Bryant Most Valuable Player Award">
+        <attvalues>
+          <attvalue for="label" value="NBA All-Star Game Kobe Bryant Most Valuable Player Award" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="country for sport::Predicate::q352110-1abb030fdc0830741b9ade086868aa91::1" label="country for sport">
+        <attvalues>
+          <attvalue for="label" value="country for sport" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q352110-35bc4f52d5bffd1d91ac1c3f32cbd03a::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q352110-2840bf03bb311fc4f79f6278e04f0a09::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="member of sports team::Predicate::q352110-9018e8bd4ae40397758e708d2dbf4234::1" label="member of sports team">
+        <attvalues>
+          <attvalue for="label" value="member of sports team" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nickname::Predicate::q352110-1f0d373a98c7e3b94a9dec727635088a::3" label="nickname">
+        <attvalues>
+          <attvalue for="label" value="nickname" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nickname::Predicate::q352110-549601ed0926b17645122be5d6485adc::2" label="nickname">
+        <attvalues>
+          <attvalue for="label" value="nickname" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nickname::Predicate::q352110-59017703158c4f78c314aeb4d484c885::4" label="nickname">
+        <attvalues>
+          <attvalue for="label" value="nickname" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="nickname::Predicate::q352110-c38d517dd14dac2125e2f75ccfc55ac3::1" label="nickname">
+        <attvalues>
+          <attvalue for="label" value="nickname" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="occupation::Predicate::q352110-841491474fa0db85c67d95b7d494348b::1" label="occupation">
+        <attvalues>
+          <attvalue for="label" value="occupation" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q31391-54c246be3470ef3529f58c44f1f1df39::3" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="point in time::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" label="point in time">
+        <attvalues>
+          <attvalue for="label" value="point in time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="sport::Predicate::q352110-d8475474578fef23b748842bee477d13::1" label="sport">
+        <attvalues>
+          <attvalue for="label" value="sport" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statistical leader::Predicate::q2067270-ba49c006631b9de39daee2e1f9573f9f::3" label="statistical leader">
+        <attvalues>
+          <attvalue for="label" value="statistical leader" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statistical leader::Predicate::q2069861-957bf76956355b204e605e5472ccbad9::4" label="statistical leader">
+        <attvalues>
+          <attvalue for="label" value="statistical leader" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statistical leader::Predicate::q548783-48eeaea5a0899e8abf63db15b9d5dea9::2" label="statistical leader">
+        <attvalues>
+          <attvalue for="label" value="statistical leader" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="statistical leader::Predicate::q631240-ed0f6e4e73ec17aa56e494867c5b033d::1" label="statistical leader">
+        <attvalues>
+          <attvalue for="label" value="statistical leader" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="winner::Predicate::q31391-54c246be3470ef3529f58c44f1f1df39::1" label="winner">
+        <attvalues>
+          <attvalue for="label" value="winner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="work period (end)::Predicate::q352110-e9c587293a38d83f6dd5a6effdfd64a9::1" label="work period (end)">
+        <attvalues>
+          <attvalue for="label" value="work period (end)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="award received::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" target="George Gervin::Entity::Q352110" weight="0.9996517896652222" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="1" source="award received::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" target="All-NBA Team::Entity::Q674359" weight="0.9996517896652222" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="10" source="George Gervin::Entity::Q352110" target="country for sport::Predicate::q352110-1abb030fdc0830741b9ade086868aa91::1" weight="0.0015215802704915404" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="11" source="George Gervin::Entity::Q352110" target="statistical leader::Predicate::q548783-48eeaea5a0899e8abf63db15b9d5dea9::2" weight="0.0012463981984183192" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="George Gervin::Entity::Q352110" target="statistical leader::Predicate::q2067270-ba49c006631b9de39daee2e1f9573f9f::3" weight="0.0012209359556436539" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="George Gervin::Entity::Q352110" target="statistical leader::Predicate::q631240-ed0f6e4e73ec17aa56e494867c5b033d::1" weight="0.0009983810596168041" label="14"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="George Gervin::Entity::Q352110" target="occupation::Predicate::q352110-841491474fa0db85c67d95b7d494348b::1" weight="0.0008970517083071172" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="George Gervin::Entity::Q352110" target="member of sports team::Predicate::q352110-9018e8bd4ae40397758e708d2dbf4234::1" weight="0.0008724586223252118" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="George Gervin::Entity::Q352110" target="instance of::Predicate::q352110-2840bf03bb311fc4f79f6278e04f0a09::1" weight="0.0008433419279754162" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="George Gervin::Entity::Q352110" target="sport::Predicate::q352110-d8475474578fef23b748842bee477d13::1" weight="0.0008409722940996289" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="George Gervin::Entity::Q352110" target="work period (end)::Predicate::q352110-e9c587293a38d83f6dd5a6effdfd64a9::1" weight="0.0007876092568039894" label="19"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="19" source="George Gervin::Entity::Q352110" target="educated at::Predicate::q352110-35bc4f52d5bffd1d91ac1c3f32cbd03a::2" weight="0.0007235638331621885" label="20"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="2" source="award received::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" target="point in time::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" weight="0.9996517896652222" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="award received::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" target="NBA All-Star Game Kobe Bryant Most Valuable Player Award::Entity::Q31391" weight="0.9994744658470154" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="21" source="award received::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" target="point in time::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" weight="0.9994744658470154" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="point in time::Predicate::q352110-0e07cb2436a80461565d41ff048f6ac1::2" target="1982-01-01::Entity::1982-01-01T00:00:00Z" weight="0.9996517896652222" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="23" source="point in time::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" target="1980-01-01::Entity::1980-01-01T00:00:00Z" weight="0.9994744658470154" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="24" source="1980-01-01::Entity::1980-01-01T00:00:00Z" target="point in time::Predicate::q31391-54c246be3470ef3529f58c44f1f1df39::3" weight="0.11402624845504761" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="3" source="George Gervin::Entity::Q352110" target="award received::Predicate::q352110-2bd56322a3c37efb5a4eb9333c03c084::1" weight="0.9994744658470154" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="George Gervin::Entity::Q352110" target="winner::Predicate::q31391-54c246be3470ef3529f58c44f1f1df39::1" weight="0.11402624845504761" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="5" source="George Gervin::Entity::Q352110" target="statistical leader::Predicate::q2069861-957bf76956355b204e605e5472ccbad9::4" weight="0.0023883837275207043" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="George Gervin::Entity::Q352110" target="nickname::Predicate::q352110-59017703158c4f78c314aeb4d484c885::4" weight="0.0019214173080399632" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="George Gervin::Entity::Q352110" target="nickname::Predicate::q352110-1f0d373a98c7e3b94a9dec727635088a::3" weight="0.0018150432733818889" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="George Gervin::Entity::Q352110" target="nickname::Predicate::q352110-c38d517dd14dac2125e2f75ccfc55ac3::1" weight="0.0017458450747653842" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="George Gervin::Entity::Q352110" target="nickname::Predicate::q352110-549601ed0926b17645122be5d6485adc::2" weight="0.0016294080996885896" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>

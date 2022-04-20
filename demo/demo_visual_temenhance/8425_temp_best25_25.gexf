@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>TemporalEnhanced Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="TemporalEnhanced Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>TemporalEnhanced</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Europs::Entity::Q1377131" label="Europs">
+        <attvalues>
+          <attvalue for="label" value="Europs"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Inachus::Entity::Q735623" label="Inachus">
+        <attvalues>
+          <attvalue for="label" value="Inachus"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="Phoroneus::Entity::Q649624" label="Phoroneus">
+        <attvalues>
+          <attvalue for="label" value="Phoroneus"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="true"/>
+        </attvalues>
+      </node>
+      <node id="child::Predicate::q649624-02f1b44912b89353e1688ff9988410c4::3" label="child">
+        <attvalues>
+          <attvalue for="label" value="child"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="father::Predicate::q649624-82e261a4d0f75d6af2512bfaee7854f4::1" label="father">
+        <attvalues>
+          <attvalue for="label" value="father"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="first human::Entity::Q4349921" label="first human">
+        <attvalues>
+          <attvalue for="label" value="first human"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="subject/object"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+      <node id="instance of::Predicate::q649624-4f633530b72f77786219eaec5e61b959::1" label="instance of">
+        <attvalues>
+          <attvalue for="label" value="instance of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="type" value="predicate"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Phoroneus::Entity::Q649624" target="father::Predicate::q649624-82e261a4d0f75d6af2512bfaee7854f4::1"/>
+      <edge id="1" source="Phoroneus::Entity::Q649624" target="child::Predicate::q649624-02f1b44912b89353e1688ff9988410c4::3"/>
+      <edge id="2" source="Phoroneus::Entity::Q649624" target="instance of::Predicate::q649624-4f633530b72f77786219eaec5e61b959::1"/>
+      <edge id="3" source="father::Predicate::q649624-82e261a4d0f75d6af2512bfaee7854f4::1" target="Inachus::Entity::Q735623"/>
+      <edge id="4" source="child::Predicate::q649624-02f1b44912b89353e1688ff9988410c4::3" target="Europs::Entity::Q1377131"/>
+      <edge id="5" source="instance of::Predicate::q649624-4f633530b72f77786219eaec5e61b959::1" target="first human::Entity::Q4349921"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string"/>
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2006-01-01::Entity::2006-01-01T00:00:00Z" label="2006-01-01">
+        <attvalues>
+          <attvalue for="label" value="2006-01-01"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="true"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Daniel Christian Ellwanger::Entity::Q57019122" label="Daniel Christian Ellwanger">
+        <attvalues>
+          <attvalue for="label" value="Daniel Christian Ellwanger"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="German Universities Excellence Initiative::Entity::Q705657" label="German Universities Excellence Initiative">
+        <attvalues>
+          <attvalue for="label" value="German Universities Excellence Initiative"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Ludwig Maximilian University of Munich::Entity::Q55044" label="Ludwig Maximilian University of Munich">
+        <attvalues>
+          <attvalue for="label" value="Ludwig Maximilian University of Munich"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="Technical University Munich::Entity::Q157808" label="Technical University Munich">
+        <attvalues>
+          <attvalue for="label" value="Technical University Munich"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="true"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="subject/object"/>
+        </attvalues>
+      </node>
+      <node id="academic degree::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::9" label="academic degree">
+        <attvalues>
+          <attvalue for="label" value="academic degree"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="affiliation::Predicate::q55044-4a4b073dcf6d637a968bf4e0911c9c14::1" label="affiliation">
+        <attvalues>
+          <attvalue for="label" value="affiliation"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q118228-01d29bafcdff20122ccc1bdc4880e98e::16" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q40980201-b154e1aaac9e9887c255e2578f74a452::8" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q46256073-3f59a51b342cb062f0c7598187742e3d::5" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q51642338-16ec62a1c6ccb651c666811804b2ace4::2" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q52646138-3f878e9ce8e45861fa4f2b4be388d11c::15" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q53378778-cbc9f630a63c94a74de79f1ed7cbaf68::11" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57013531-6c84007867373d2beee36fc896ca615b::19" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57247063-958efcde884eb2986731d670e18f311d::20" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57389136-f2fbf18e52150d88e7d128bae6baa4ac::3" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q57543055-930a504992d255368a7af3d2e92c3fc8::22" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q58210496-ae8f6e61d0d95ac9f3b947191fd4aff6::17" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q59824531-40d80d25b7006ed77793d0145c46e636::1" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q59833447-e5b01e23142038400716b13a8e6d6d9d::18" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="educated at::Predicate::q60607404-4fed9440ee9bc1355b63856a35522df7::7" label="educated at">
+        <attvalues>
+          <attvalue for="label" value="educated at"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="member of::Predicate::q55044-194e0dea93adb3a71db52b29bd3add5e::2" label="member of">
+        <attvalues>
+          <attvalue for="label" value="member of"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="true"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q55044-194e0dea93adb3a71db52b29bd3add5e::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q55044-4a4b073dcf6d637a968bf4e0911c9c14::3" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::15" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time"/>
+          <attvalue for="method" value="GSTs"/>
+          <attvalue for="seed" value="false"/>
+          <attvalue for="cornerstone" value="false"/>
+          <attvalue for="ground" value="false"/>
+          <attvalue for="type" value="predicate"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="educated at::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" target="Technical University Munich::Entity::Q157808" weight="0.9927507638931274" label="4"/>
+      <edge id="1" source="educated at::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" target="Daniel Christian Ellwanger::Entity::Q57019122" weight="0.9927507638931274" label="4"/>
+      <edge id="10" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q58210496-ae8f6e61d0d95ac9f3b947191fd4aff6::17" weight="0.9889060258865356" label="9"/>
+      <edge id="11" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q46256073-3f59a51b342cb062f0c7598187742e3d::5" weight="0.9885459542274475" label="10"/>
+      <edge id="12" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q57013531-6c84007867373d2beee36fc896ca615b::19" weight="0.9885044693946838" label="11"/>
+      <edge id="13" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q59824531-40d80d25b7006ed77793d0145c46e636::1" weight="0.9883636236190796" label="12"/>
+      <edge id="14" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q57543055-930a504992d255368a7af3d2e92c3fc8::22" weight="0.9878277778625488" label="13"/>
+      <edge id="15" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q51642338-16ec62a1c6ccb651c666811804b2ace4::2" weight="0.986687183380127" label="14"/>
+      <edge id="16" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q53378778-cbc9f630a63c94a74de79f1ed7cbaf68::11" weight="0.9864180684089661" label="15"/>
+      <edge id="17" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q59833447-e5b01e23142038400716b13a8e6d6d9d::18" weight="0.9863536953926086" label="16"/>
+      <edge id="18" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q57389136-f2fbf18e52150d88e7d128bae6baa4ac::3" weight="0.9860470294952393" label="17"/>
+      <edge id="19" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q60607404-4fed9440ee9bc1355b63856a35522df7::7" weight="0.9858387112617493" label="18"/>
+      <edge id="2" source="educated at::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" target="academic degree::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::9" weight="0.9927507638931274" label="4"/>
+      <edge id="20" source="member of::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" target="German Universities Excellence Initiative::Entity::Q705657" weight="0.9996101260185242" label="1"/>
+      <edge id="21" source="member of::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" target="start time::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" weight="0.9996101260185242" label="1"/>
+      <edge id="22" source="German Universities Excellence Initiative::Entity::Q705657" target="member of::Predicate::q55044-194e0dea93adb3a71db52b29bd3add5e::2" weight="0.9992759823799133" label="2"/>
+      <edge id="23" source="German Universities Excellence Initiative::Entity::Q705657" target="affiliation::Predicate::q55044-4a4b073dcf6d637a968bf4e0911c9c14::1" weight="0.9967377781867981" label="3"/>
+      <edge id="24" source="start time::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" target="2006-01-01::Entity::2006-01-01T00:00:00Z" weight="0.9996101260185242" label="1"/>
+      <edge id="25" source="member of::Predicate::q55044-194e0dea93adb3a71db52b29bd3add5e::2" target="Ludwig Maximilian University of Munich::Entity::Q55044" weight="0.9992759823799133" label="2"/>
+      <edge id="26" source="member of::Predicate::q55044-194e0dea93adb3a71db52b29bd3add5e::2" target="start time::Predicate::q55044-194e0dea93adb3a71db52b29bd3add5e::2" weight="0.9992759823799133" label="2"/>
+      <edge id="27" source="2006-01-01::Entity::2006-01-01T00:00:00Z" target="start time::Predicate::q55044-4a4b073dcf6d637a968bf4e0911c9c14::3" weight="0.9967377781867981" label="3"/>
+      <edge id="3" source="educated at::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" target="end time::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" weight="0.9927507638931274" label="4"/>
+      <edge id="4" source="educated at::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::12" target="start time::Predicate::q57019122-e0885fae05071de53e6f07c4c8f47227::15" weight="0.9927507638931274" label="4"/>
+      <edge id="5" source="Technical University Munich::Entity::Q157808" target="member of::Predicate::q157808-c107cf29cb639d0b13c63682c34603eb::1" weight="0.9996101260185242" label="1"/>
+      <edge id="6" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q40980201-b154e1aaac9e9887c255e2578f74a452::8" weight="0.9926388263702393" label="5"/>
+      <edge id="7" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q52646138-3f878e9ce8e45861fa4f2b4be388d11c::15" weight="0.9910366535186768" label="6"/>
+      <edge id="8" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q57247063-958efcde884eb2986731d670e18f311d::20" weight="0.9902583360671997" label="7"/>
+      <edge id="9" source="Technical University Munich::Entity::Q157808" target="educated at::Predicate::q118228-01d29bafcdff20122ccc1bdc4880e98e::16" weight="0.9893364906311035" label="8"/>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns1="xsi" version="1.2" ns1:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd" xmlns:viz="http://www.gexf.net/1.2draft/viz">
+  <meta lastmodified="2022-03-15">
+    <creator>Zhen Jia</creator>
+    <description>GSTs Graph</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="GSTs Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="cornerstone" title="Cornerstone" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="ground" title="GroundTruth" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="label" title="Label" type="string" />
+      <attribute id="method" title="Method" type="string">
+        <default>GSTs</default>
+      </attribute>
+      <attribute id="seed" title="NERD" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="type" title="Type" type="string">
+        <default>subject/object</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1882-01-01::Entity::1882-01-01T00:00:00Z" label="1882-01-01">
+        <attvalues>
+          <attvalue for="label" value="1882-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1889-01-01::Entity::1889-01-01T00:00:00Z" label="1889-01-01">
+        <attvalues>
+          <attvalue for="label" value="1889-01-01" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="true" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="1923-03-26::Entity::1923-03-26T00:00:00Z" label="1923-03-26">
+        <attvalues>
+          <attvalue for="label" value="1923-03-26" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Jacques Damala::Entity::Q6120528" label="Jacques Damala">
+        <attvalues>
+          <attvalue for="label" value="Jacques Damala" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="Sarah Bernhardt::Entity::Q4605" label="Sarah Bernhardt">
+        <attvalues>
+          <attvalue for="label" value="Sarah Bernhardt" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="true" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="subject/object" />
+        </attvalues>
+      </node>
+      <node id="award received::Predicate::q4605-0be4ec56317bcb95ac483d5ece975d58::1" label="award received">
+        <attvalues>
+          <attvalue for="label" value="award received" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q4605-00b73062c288f82d87e39c88b36b6c4f::3" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q4605-5fec7981dfdbe5c2283cf56c15617e2b::2" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of birth::Predicate::q4605-f72998177c255b40d4a0e1d13df9f2c1::1" label="date of birth">
+        <attvalues>
+          <attvalue for="label" value="date of birth" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q4605-1512dfc3b4788e79beab1ee22969aac5::2" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="date of death::Predicate::q6120528-5ab1cd1607822337deaa193406d834db::1" label="date of death">
+        <attvalues>
+          <attvalue for="label" value="date of death" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q15836205-ab1da6e879260d428589284da1b68d3a::3" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q17495322-2c765743d4b1c198197a5f6ec5ee9908::2" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q17495323-0bf59b8853560c2bb47edbef6b4fdea2::1" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q18599968-a804e34ea07d42082a50ef5392d262ab::6" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q23608302-2cf88d51b0953dc203ae7abb9833068b::4" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="depicts::Predicate::q73140241-191c59c48433ede9bad43bf850d1db80::7" label="depicts">
+        <attvalues>
+          <attvalue for="label" value="depicts" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="end time::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" label="end time">
+        <attvalues>
+          <attvalue for="label" value="end time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="ethnic group::Predicate::q6120528-ee31d7202dc630e84387fc07608bfb56::1" label="ethnic group">
+        <attvalues>
+          <attvalue for="label" value="ethnic group" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="position held::Predicate::q4605-76c69438b01b989edc873a10db2f5ccd::1" label="position held">
+        <attvalues>
+          <attvalue for="label" value="position held" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="significant person::Predicate::q3333891-c472ab5acf46d2f63e8f714175c9fb6b::1" label="significant person">
+        <attvalues>
+          <attvalue for="label" value="significant person" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="spouse::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" label="spouse">
+        <attvalues>
+          <attvalue for="label" value="spouse" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="start time::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" label="start time">
+        <attvalues>
+          <attvalue for="label" value="start time" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="unmarried partner::Predicate::q4605-4a96ec54475a069b61c23c0554b1507d::1" label="unmarried partner">
+        <attvalues>
+          <attvalue for="label" value="unmarried partner" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="false" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+      <node id="work period (start)::Predicate::q4605-5869322eb8a7af59906894f01f8cf934::1" label="work period (start)">
+        <attvalues>
+          <attvalue for="label" value="work period (start)" />
+          <attvalue for="method" value="GSTs" />
+          <attvalue for="seed" value="false" />
+          <attvalue for="cornerstone" value="true" />
+          <attvalue for="ground" value="false" />
+          <attvalue for="type" value="predicate" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="date of death::Predicate::q4605-1512dfc3b4788e79beab1ee22969aac5::2" target="Sarah Bernhardt::Entity::Q4605" weight="0.022649377584457397" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="1" source="date of death::Predicate::q4605-1512dfc3b4788e79beab1ee22969aac5::2" target="1923-03-26::Entity::1923-03-26T00:00:00Z" weight="0.022649377584457397" label="4"><viz:shape value="solid" /><viz:thickness value="4" /></edge>
+      <edge id="10" source="Sarah Bernhardt::Entity::Q4605" target="depicts::Predicate::q17495322-2c765743d4b1c198197a5f6ec5ee9908::2" weight="0.0010442526545375586" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="11" source="Sarah Bernhardt::Entity::Q4605" target="depicts::Predicate::q17495323-0bf59b8853560c2bb47edbef6b4fdea2::1" weight="0.0010442526545375586" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="12" source="Sarah Bernhardt::Entity::Q4605" target="depicts::Predicate::q18599968-a804e34ea07d42082a50ef5392d262ab::6" weight="0.0010442526545375586" label="11"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="13" source="Sarah Bernhardt::Entity::Q4605" target="depicts::Predicate::q15836205-ab1da6e879260d428589284da1b68d3a::3" weight="0.0009943253826349974" label="13"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="14" source="Sarah Bernhardt::Entity::Q4605" target="significant person::Predicate::q3333891-c472ab5acf46d2f63e8f714175c9fb6b::1" weight="0.0007703586015850306" label="15"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="15" source="Sarah Bernhardt::Entity::Q4605" target="date of birth::Predicate::q4605-f72998177c255b40d4a0e1d13df9f2c1::1" weight="0.0007527514826506376" label="16"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="16" source="Sarah Bernhardt::Entity::Q4605" target="date of birth::Predicate::q4605-5fec7981dfdbe5c2283cf56c15617e2b::2" weight="0.0007321317680180073" label="17"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="17" source="Sarah Bernhardt::Entity::Q4605" target="date of birth::Predicate::q4605-00b73062c288f82d87e39c88b36b6c4f::3" weight="0.0007198693929240108" label="18"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="18" source="spouse::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" target="Jacques Damala::Entity::Q6120528" weight="0.9992283582687378" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="19" source="spouse::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" target="end time::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" weight="0.9992283582687378" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="2" source="Sarah Bernhardt::Entity::Q4605" target="spouse::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" weight="0.9992283582687378" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="20" source="spouse::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" target="start time::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" weight="0.9992283582687378" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="21" source="Jacques Damala::Entity::Q6120528" target="spouse::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" weight="0.9990035891532898" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="22" source="Jacques Damala::Entity::Q6120528" target="date of death::Predicate::q6120528-5ab1cd1607822337deaa193406d834db::1" weight="0.006167413666844368" label="6"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="23" source="Jacques Damala::Entity::Q6120528" target="ethnic group::Predicate::q6120528-ee31d7202dc630e84387fc07608bfb56::1" weight="0.0010424952488392591" label="12"><viz:shape value="solid" /><viz:thickness value="1" /></edge>
+      <edge id="24" source="end time::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" target="1889-01-01::Entity::1889-01-01T00:00:00Z" weight="0.9992283582687378" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="25" source="start time::Predicate::q4605-12332d442b827df829e2bd86d90dae6a::2" target="1882-01-01::Entity::1882-01-01T00:00:00Z" weight="0.9992283582687378" label="1"><viz:shape value="solid" /><viz:thickness value="10" /></edge>
+      <edge id="26" source="spouse::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" target="end time::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" weight="0.9990035891532898" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="27" source="spouse::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" target="start time::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" weight="0.9990035891532898" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="3" source="Sarah Bernhardt::Entity::Q4605" target="spouse::Predicate::q6120528-22c60dce29e420281948839dddbde7c2::1" weight="0.9990035891532898" label="2"><viz:shape value="solid" /><viz:thickness value="8" /></edge>
+      <edge id="4" source="Sarah Bernhardt::Entity::Q4605" target="position held::Predicate::q4605-76c69438b01b989edc873a10db2f5ccd::1" weight="0.2074088156223297" label="3"><viz:shape value="solid" /><viz:thickness value="6" /></edge>
+      <edge id="5" source="Sarah Bernhardt::Entity::Q4605" target="award received::Predicate::q4605-0be4ec56317bcb95ac483d5ece975d58::1" weight="0.011510117910802364" label="5"><viz:shape value="solid" /><viz:thickness value="3" /></edge>
+      <edge id="6" source="Sarah Bernhardt::Entity::Q4605" target="work period (start)::Predicate::q4605-5869322eb8a7af59906894f01f8cf934::1" weight="0.0019404202466830611" label="7"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="7" source="Sarah Bernhardt::Entity::Q4605" target="depicts::Predicate::q23608302-2cf88d51b0953dc203ae7abb9833068b::4" weight="0.0012790673645213246" label="8"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="8" source="Sarah Bernhardt::Entity::Q4605" target="unmarried partner::Predicate::q4605-4a96ec54475a069b61c23c0554b1507d::1" weight="0.0012400663690641522" label="9"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+      <edge id="9" source="Sarah Bernhardt::Entity::Q4605" target="depicts::Predicate::q73140241-191c59c48433ede9bad43bf850d1db80::7" weight="0.001056905253790319" label="10"><viz:shape value="solid" /><viz:thickness value="2" /></edge>
+    </edges>
+  </graph>
+</gexf>
